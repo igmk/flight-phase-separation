@@ -1,0 +1,25 @@
+name: RF09
+mission: ACLOUD
+platform: P6
+flight_id: ACLOUD_P6_RF09
+contacts:
+- name: null
+  email: null
+date: 2017-05-30
+flight_report: null
+takeoff: 2017-05-30 09:18:00
+landing: 2017-05-30 13:29:35
+events: []
+remarks:
+- PS Meeting no1; Aerosol column and mapping
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

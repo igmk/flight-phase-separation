@@ -1,0 +1,26 @@
+name: RF10
+mission: ACLOUD
+platform: P5
+flight_id: ACLOUD_P5_RF10
+contacts:
+- name: null
+  email: null
+date: 2017-05-31
+flight_report: null
+takeoff: 2017-05-31 15:05:50
+landing: 2017-05-31 18:56:50
+events:
+- joint flight with P6
+remarks:
+- PS Meeting no2; Thin low clouds over sea ice
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

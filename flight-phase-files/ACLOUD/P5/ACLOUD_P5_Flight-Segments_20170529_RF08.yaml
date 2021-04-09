@@ -1,0 +1,26 @@
+name: RF08
+mission: ACLOUD
+platform: P5
+flight_id: ACLOUD_P5_RF08
+contacts:
+- name: null
+  email: null
+date: 2017-05-29
+flight_report: null
+takeoff: 2017-05-29 04:54:15
+landing: 2017-05-29 07:51:00
+events:
+- joint flight with P6
+remarks:
+- Thin low level clouds over sea ice
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

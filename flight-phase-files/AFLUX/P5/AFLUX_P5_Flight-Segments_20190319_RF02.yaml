@@ -1,0 +1,25 @@
+name: RF02
+mission: AFLUX
+platform: P5
+flight_id: AFLUX_P5_RF02
+contacts:
+- name: null
+  email: null
+date: 2019-03-19
+flight_report: null
+takeoff: 2019-03-19 16:35:45
+landing: 2019-03-19 17:55:05
+events: []
+remarks:
+- Test of instrumentation
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

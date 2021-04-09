@@ -1,0 +1,26 @@
+name: RF15
+mission: ACLOUD
+platform: P5
+flight_id: ACLOUD_P5_RF15
+contacts:
+- name: null
+  email: null
+date: 2017-06-09
+flight_report: null
+takeoff: 2017-06-09 08:00:35
+landing: 2017-06-09 09:21:25
+events:
+- joint flight with P6
+remarks:
+- P5 / P6 Instrument intercomparison
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

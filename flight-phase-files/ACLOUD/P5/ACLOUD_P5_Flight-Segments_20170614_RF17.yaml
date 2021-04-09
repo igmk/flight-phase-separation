@@ -1,0 +1,26 @@
+name: RF17
+mission: ACLOUD
+platform: P5
+flight_id: ACLOUD_P5_RF17
+contacts:
+- name: null
+  email: null
+date: 2017-06-14
+flight_report: null
+takeoff: 2017-06-14 12:48:55
+landing: 2017-06-14 18:44:40
+events:
+- joint flight with P6
+remarks:
+- PS Meeting no7; Boundary layer profiling
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

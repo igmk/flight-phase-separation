@@ -1,0 +1,26 @@
+name: RF16
+mission: ACLOUD
+platform: P6
+flight_id: ACLOUD_P6_RF16
+contacts:
+- name: null
+  email: null
+date: 2017-06-13
+flight_report: null
+takeoff: 2017-06-13 14:55:20
+landing: 2017-06-13 17:14:50
+events:
+- joint flight with P5
+remarks:
+- Joint P5 / P6 calibration flight in multi layer clouds
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

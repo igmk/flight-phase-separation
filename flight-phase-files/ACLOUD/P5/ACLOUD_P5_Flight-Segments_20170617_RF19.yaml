@@ -1,0 +1,26 @@
+name: RF19
+mission: ACLOUD
+platform: P5
+flight_id: ACLOUD_P5_RF19
+contacts:
+- name: null
+  email: null
+date: 2017-06-17
+flight_report: null
+takeoff: 2017-06-17 09:54:15
+landing: 2017-06-17 15:24:25
+events:
+- joint flight with P6
+remarks:
+- Clouds above sea ice and open water
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

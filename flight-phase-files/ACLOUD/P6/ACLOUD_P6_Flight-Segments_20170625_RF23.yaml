@@ -1,0 +1,26 @@
+name: RF23
+mission: ACLOUD
+platform: P6
+flight_id: ACLOUD_P6_RF23
+contacts:
+- name: null
+  email: null
+date: 2017-06-25
+flight_report: null
+takeoff: 2017-06-25 11:03:15
+landing: 2017-06-25 16:56:00
+events:
+- joint flight with P5
+remarks:
+- Boundary layer profiling in clear sky conditions
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

@@ -1,0 +1,26 @@
+name: RF14
+mission: AFLUX
+platform: P5
+flight_id: AFLUX_P5_RF14
+contacts:
+- name: null
+  email: null
+date: 2019-04-08
+flight_report: null
+takeoff: 2019-04-08 09:05:30
+landing: 2019-04-08 13:53:30
+events: []
+remarks:
+- Cloud field spreading into the MIZ and migrating into surface based fog over closed
+  sea ice
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

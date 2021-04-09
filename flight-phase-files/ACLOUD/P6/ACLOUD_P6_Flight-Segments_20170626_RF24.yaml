@@ -1,0 +1,25 @@
+name: RF24
+mission: ACLOUD
+platform: P6
+flight_id: ACLOUD_P6_RF24
+contacts:
+- name: null
+  email: null
+date: 2017-06-26
+flight_report: null
+takeoff: 2017-06-26 08:33:20
+landing: 2017-06-26 10:39:50
+events: []
+remarks:
+- Calibration pattern for AIMMS-20
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

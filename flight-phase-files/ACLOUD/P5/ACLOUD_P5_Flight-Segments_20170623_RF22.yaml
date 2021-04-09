@@ -1,0 +1,26 @@
+name: RF22
+mission: ACLOUD
+platform: P5
+flight_id: ACLOUD_P5_RF22
+contacts:
+- name: null
+  email: null
+date: 2017-06-23
+flight_report: null
+takeoff: 2017-06-23 10:57:00
+landing: 2017-06-23 14:38:35
+events:
+- joint flight with P6
+remarks:
+- Column over Ny-Alesund
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

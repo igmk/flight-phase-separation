@@ -1,0 +1,25 @@
+name: RF06
+mission: AFLUX
+platform: P5
+flight_id: AFLUX_P5_RF06
+contacts:
+- name: null
+  email: null
+date: 2019-03-25
+flight_report: null
+takeoff: 2019-03-25 10:37:45
+landing: 2019-03-25 15:50:50
+events: []
+remarks:
+- Flight at 10.000 ft above clouds, staircase over MIZ and saw teeth
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

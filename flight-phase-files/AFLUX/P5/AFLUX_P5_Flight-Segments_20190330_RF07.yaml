@@ -1,0 +1,25 @@
+name: RF07
+mission: AFLUX
+platform: P5
+flight_id: AFLUX_P5_RF07
+contacts:
+- name: null
+  email: null
+date: 2019-03-30
+flight_report: null
+takeoff: 2019-03-30 10:13:30
+landing: 2019-03-30 15:27:40
+events: []
+remarks:
+- Cold air outbreak with thin clouds over sea ice
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

@@ -1,0 +1,25 @@
+name: RF03
+mission: MOSAiC-ACA
+platform: P5
+flight_id: MOSAiC-ACA_P5_RF03
+contacts:
+- name: null
+  email: null
+date: 2020-08-31
+flight_report: null
+takeoff: 2020-08-31 10:20:35
+landing: 2020-08-31 10:58:55
+events: []
+remarks:
+- Certification flight PMS instruments
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

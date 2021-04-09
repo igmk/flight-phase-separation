@@ -1,0 +1,25 @@
+name: RF06
+mission: ACLOUD
+platform: P5
+flight_id: ACLOUD_P5_RF06
+contacts:
+- name: null
+  email: null
+date: 2017-05-27
+flight_report: null
+takeoff: 2017-05-27 07:58:20
+landing: 2017-05-27 11:25:45
+events: []
+remarks:
+- A-Train Overpass
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

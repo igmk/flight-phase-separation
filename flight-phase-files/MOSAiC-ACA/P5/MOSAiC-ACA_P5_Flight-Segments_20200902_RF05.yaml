@@ -1,0 +1,25 @@
+name: RF05
+mission: MOSAiC-ACA
+platform: P5
+flight_id: MOSAiC-ACA_P5_RF05
+contacts:
+- name: null
+  email: null
+date: 2020-09-02
+flight_report: null
+takeoff: 2020-09-02 06:55:45
+landing: 2020-09-02 12:23:30
+events: []
+remarks:
+- Calipso Satellite underpath
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

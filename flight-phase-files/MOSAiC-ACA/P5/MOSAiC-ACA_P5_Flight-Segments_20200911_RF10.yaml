@@ -1,0 +1,26 @@
+name: RF10
+mission: MOSAiC-ACA
+platform: P5
+flight_id: MOSAiC-ACA_P5_RF10
+contacts:
+- name: null
+  email: null
+date: 2020-09-11
+flight_report: null
+takeoff: 2020-09-11 08:19:40
+landing: 2020-09-11 13:59:30
+events: []
+remarks:
+- Profiles over the marginal sea ice zone and sonding the cloud-free lee area north
+  of Svalbard
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

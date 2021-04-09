@@ -1,0 +1,25 @@
+name: RF10
+mission: AFLUX
+platform: P5
+flight_id: AFLUX_P5_RF10
+contacts:
+- name: null
+  email: null
+date: 2019-04-03
+flight_report: null
+takeoff: 2019-04-03 10:21:00
+landing: 2019-04-03 14:58:25
+events: []
+remarks:
+- Mid-Level stratocumulus over sea ice
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

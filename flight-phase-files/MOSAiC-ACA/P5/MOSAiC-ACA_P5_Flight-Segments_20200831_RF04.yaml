@@ -1,0 +1,25 @@
+name: RF04
+mission: MOSAiC-ACA
+platform: P5
+flight_id: MOSAiC-ACA_P5_RF04
+contacts:
+- name: null
+  email: null
+date: 2020-08-31
+flight_report: null
+takeoff: 2020-08-31 12:40:15
+landing: 2020-08-31 14:55:00
+events: []
+remarks:
+- Joint test flight with Polar 6
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

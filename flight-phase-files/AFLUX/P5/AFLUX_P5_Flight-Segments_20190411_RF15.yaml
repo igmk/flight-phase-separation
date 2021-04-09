@@ -1,0 +1,25 @@
+name: RF15
+mission: AFLUX
+platform: P5
+flight_id: AFLUX_P5_RF15
+contacts:
+- name: null
+  email: null
+date: 2019-04-11
+flight_report: null
+takeoff: 2019-04-11 09:37:45
+landing: 2019-04-11 15:14:45
+events: []
+remarks:
+- Characterizing a sharp cloud edge over homogeneous sea ice
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

@@ -1,0 +1,26 @@
+name: RF07
+mission: ACLOUD
+platform: P6
+flight_id: ACLOUD_P6_RF07
+contacts:
+- name: null
+  email: null
+date: 2017-05-27
+flight_report: null
+takeoff: 2017-05-27 13:02:00
+landing: 2017-05-27 16:26:50
+events:
+- joint flight with P5
+remarks:
+- Clouds co-located
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

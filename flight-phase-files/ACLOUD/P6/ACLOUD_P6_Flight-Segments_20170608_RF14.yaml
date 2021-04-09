@@ -1,0 +1,26 @@
+name: RF14
+mission: ACLOUD
+platform: P6
+flight_id: ACLOUD_P6_RF14
+contacts:
+- name: null
+  email: null
+date: 2017-06-08
+flight_report: null
+takeoff: 2017-06-08 07:31:20
+landing: 2017-06-08 13:11:20
+events:
+- joint flight with P5
+remarks:
+- PS Meeting no6; Thin broken clouds over sea ice
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

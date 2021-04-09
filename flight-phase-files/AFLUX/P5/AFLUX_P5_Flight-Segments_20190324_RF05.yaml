@@ -1,0 +1,25 @@
+name: RF05
+mission: AFLUX
+platform: P5
+flight_id: AFLUX_P5_RF05
+contacts:
+- name: null
+  email: null
+date: 2019-03-24
+flight_report: null
+takeoff: 2019-03-24 10:01:50
+landing: 2019-03-24 14:51:30
+events: []
+remarks:
+- Flying at 10.000 ft above clouds, turn back and fly below clouds and saw teeth
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

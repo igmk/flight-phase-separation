@@ -1,0 +1,25 @@
+name: RF09
+mission: AFLUX
+platform: P5
+flight_id: AFLUX_P5_RF09
+contacts:
+- name: null
+  email: null
+date: 2019-04-01
+flight_report: null
+takeoff: 2019-04-01 07:35:45
+landing: 2019-04-01 12:37:50
+events: []
+remarks:
+- CloudSat/Calipso underflight over low and midlevel clouds of a cold air outbreak
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

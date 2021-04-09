@@ -1,0 +1,25 @@
+name: RF06
+mission: MOSAiC-ACA
+platform: P5
+flight_id: MOSAiC-ACA_P5_RF06
+contacts:
+- name: null
+  email: null
+date: 2020-09-04
+flight_report: null
+takeoff: 2020-09-04 12:11:50
+landing: 2020-09-04 17:41:30
+events: []
+remarks:
+- Profiles SW of Svalbard
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

@@ -1,0 +1,25 @@
+name: RF08
+mission: MOSAiC-ACA
+platform: P5
+flight_id: MOSAiC-ACA_P5_RF08
+contacts:
+- name: null
+  email: null
+date: 2020-09-08
+flight_report: null
+takeoff: 2020-09-08 08:00:55
+landing: 2020-09-08 14:05:05
+events: []
+remarks:
+- Profiles over the marginal sea ice zone
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

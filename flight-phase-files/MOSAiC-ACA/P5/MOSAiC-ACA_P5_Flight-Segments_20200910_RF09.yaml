@@ -1,0 +1,25 @@
+name: RF09
+mission: MOSAiC-ACA
+platform: P5
+flight_id: MOSAiC-ACA_P5_RF09
+contacts:
+- name: null
+  email: null
+date: 2020-09-10
+flight_report: null
+takeoff: 2020-09-10 08:30:15
+landing: 2020-09-10 14:45:05
+events: []
+remarks:
+- Clouds along wind over ice and over sea
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

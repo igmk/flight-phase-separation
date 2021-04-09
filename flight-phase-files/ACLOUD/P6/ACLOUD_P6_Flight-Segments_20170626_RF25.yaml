@@ -1,0 +1,26 @@
+name: RF25
+mission: ACLOUD
+platform: P6
+flight_id: ACLOUD_P6_RF25
+contacts:
+- name: null
+  email: null
+date: 2017-06-26
+flight_report: null
+takeoff: 2017-06-26 12:33:05
+landing: 2017-06-26 14:48:20
+events:
+- joint flight with P5
+remarks:
+- Boundary layer profiling
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

@@ -1,0 +1,25 @@
+name: RF08
+mission: AFLUX
+platform: P5
+flight_id: AFLUX_P5_RF08
+contacts:
+- name: null
+  email: null
+date: 2019-03-31
+flight_report: null
+takeoff: 2019-03-31 08:58:45
+landing: 2019-03-31 14:28:20
+events: []
+remarks:
+- Cold air outbreak over sea ice and at the MIZ
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

@@ -1,0 +1,25 @@
+name: RF04
+mission: AFLUX
+platform: P5
+flight_id: AFLUX_P5_RF04
+contacts:
+- name: null
+  email: null
+date: 2019-03-23
+flight_report: null
+takeoff: 2019-03-23 11:27:50
+landing: 2019-03-23 16:55:50
+events: []
+remarks:
+- Calibration of 5-hole probe, horizontal flight legs below and within cloud
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

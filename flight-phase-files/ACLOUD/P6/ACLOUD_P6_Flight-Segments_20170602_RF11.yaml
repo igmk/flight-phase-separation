@@ -1,0 +1,26 @@
+name: RF11
+mission: ACLOUD
+platform: P6
+flight_id: ACLOUD_P6_RF11
+contacts:
+- name: null
+  email: null
+date: 2017-06-02
+flight_report: null
+takeoff: 2017-06-02 08:27:35
+landing: 2017-06-02 14:04:50
+events:
+- joint flight with P5
+remarks:
+- PS Meeting no3; Low clouds in warm air over sea ice
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

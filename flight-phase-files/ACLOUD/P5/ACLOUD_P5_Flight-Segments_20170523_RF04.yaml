@@ -1,0 +1,25 @@
+name: RF04
+mission: ACLOUD
+platform: P5
+flight_id: ACLOUD_P5_RF04
+contacts:
+- name: null
+  email: null
+date: 2017-05-23
+flight_report: null
+takeoff: 2017-05-23 09:11:47
+landing: 2017-05-23 14:23:40
+events: []
+remarks:
+- Clouds above open water and sea ice
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

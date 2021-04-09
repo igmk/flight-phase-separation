@@ -1,0 +1,26 @@
+name: RF21
+mission: ACLOUD
+platform: P5
+flight_id: ACLOUD_P5_RF21
+contacts:
+- name: null
+  email: null
+date: 2017-06-20
+flight_report: null
+takeoff: 2017-06-20 07:32:00
+landing: 2017-06-20 13:51:30
+events:
+- joint flight with P6
+remarks:
+- Clouds above sea ice and open water II
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

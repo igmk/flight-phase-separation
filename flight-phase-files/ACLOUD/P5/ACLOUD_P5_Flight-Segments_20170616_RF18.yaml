@@ -1,0 +1,26 @@
+name: RF18
+mission: ACLOUD
+platform: P5
+flight_id: ACLOUD_P5_RF18
+contacts:
+- name: null
+  email: null
+date: 2017-06-16
+flight_report: null
+takeoff: 2017-06-16 04:46:10
+landing: 2017-06-16 10:00:30
+events:
+- joint flight with P6
+remarks:
+- PS Meeting no8; Satellite overpass
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

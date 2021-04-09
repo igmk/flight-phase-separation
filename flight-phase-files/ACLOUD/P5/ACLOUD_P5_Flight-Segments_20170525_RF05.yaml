@@ -1,0 +1,25 @@
+name: RF05
+mission: ACLOUD
+platform: P5
+flight_id: ACLOUD_P5_RF05
+contacts:
+- name: null
+  email: null
+date: 2017-05-25
+flight_report: null
+takeoff: 2017-05-25 08:17:45
+landing: 2017-05-25 12:46:00
+events: []
+remarks:
+- Remote Sensing of different cloud regimes
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

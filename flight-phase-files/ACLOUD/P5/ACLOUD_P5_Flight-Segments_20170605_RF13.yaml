@@ -1,0 +1,26 @@
+name: RF13
+mission: ACLOUD
+platform: P5
+flight_id: ACLOUD_P5_RF13
+contacts:
+- name: null
+  email: null
+date: 2017-06-05
+flight_report: null
+takeoff: 2017-06-05 10:48:00
+landing: 2017-06-05 14:47:50
+events:
+- joint flight with P6
+remarks:
+- PS Meeting no5; Low clouds in warm air over sea ice
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

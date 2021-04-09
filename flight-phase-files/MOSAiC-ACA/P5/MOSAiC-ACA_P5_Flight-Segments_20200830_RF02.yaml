@@ -1,0 +1,25 @@
+name: RF02
+mission: MOSAiC-ACA
+platform: P5
+flight_id: MOSAiC-ACA_P5_RF02
+contacts:
+- name: null
+  email: null
+date: 2020-08-30
+flight_report: null
+takeoff: 2020-08-30 08:14:30
+landing: 2020-08-30 09:07:30
+events: []
+remarks:
+- Test Flight LYR
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

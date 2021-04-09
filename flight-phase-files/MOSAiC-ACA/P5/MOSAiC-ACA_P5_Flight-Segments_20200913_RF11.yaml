@@ -1,0 +1,25 @@
+name: RF11
+mission: MOSAiC-ACA
+platform: P5
+flight_id: MOSAiC-ACA_P5_RF11
+contacts:
+- name: null
+  email: null
+date: 2020-09-13
+flight_report: null
+takeoff: 2020-09-13 09:20:00
+landing: 2020-09-13 15:06:55
+events: []
+remarks:
+- Profiles over the marginal sea ice zone
+segments:
+- kinds: []
+  name: null
+  irregularities: []
+  segment_id: null
+  start: null
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
