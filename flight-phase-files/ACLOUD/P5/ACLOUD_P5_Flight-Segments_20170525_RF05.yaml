@@ -7,18 +7,41 @@ contacts:
   email: null
 date: 2017-05-25
 flight_report: null
-takeoff: 2017-05-25 08:17:45
-landing: 2017-05-25 12:46:00
+takeoff: &id001 2017-05-25 08:17:45
+landing: &id002 2017-05-25 12:46:00
 events: []
 remarks:
 - Remote Sensing of different cloud regimes
 segments:
-- kinds: []
+- kinds:
+  - major_ascend
+  name: major ascend 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF05_ma1
+  start: *id001
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - add_new_segments_here
   name: null
   irregularities: []
   segment_id: null
   start: null
   end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - major_descend
+  name: major descend 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF05_md1
+  start: null
+  end: *id002
   dropsondes:
     GOOD: []
     BAD: []

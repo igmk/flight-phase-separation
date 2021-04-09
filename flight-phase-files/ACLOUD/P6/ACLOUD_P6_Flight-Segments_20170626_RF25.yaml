@@ -7,19 +7,42 @@ contacts:
   email: null
 date: 2017-06-26
 flight_report: null
-takeoff: 2017-06-26 12:33:05
-landing: 2017-06-26 14:48:20
+takeoff: &id001 2017-06-26 12:33:05
+landing: &id002 2017-06-26 14:48:20
 events:
 - joint flight with P5
 remarks:
 - Boundary layer profiling
 segments:
-- kinds: []
+- kinds:
+  - major_ascend
+  name: major ascend 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF25_ma1
+  start: *id001
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - add_new_segments_here
   name: null
   irregularities: []
   segment_id: null
   start: null
   end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - major_descend
+  name: major descend 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF25_md1
+  start: null
+  end: *id002
   dropsondes:
     GOOD: []
     BAD: []

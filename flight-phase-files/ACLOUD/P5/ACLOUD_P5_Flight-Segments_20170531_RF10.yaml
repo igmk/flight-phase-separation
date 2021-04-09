@@ -7,19 +7,42 @@ contacts:
   email: null
 date: 2017-05-31
 flight_report: null
-takeoff: 2017-05-31 15:05:50
-landing: 2017-05-31 18:56:50
+takeoff: &id001 2017-05-31 15:05:50
+landing: &id002 2017-05-31 18:56:50
 events:
 - joint flight with P6
 remarks:
 - PS Meeting no2; Thin low clouds over sea ice
 segments:
-- kinds: []
+- kinds:
+  - major_ascend
+  name: major ascend 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF10_ma1
+  start: *id001
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - add_new_segments_here
   name: null
   irregularities: []
   segment_id: null
   start: null
   end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - major_descend
+  name: major descend 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF10_md1
+  start: null
+  end: *id002
   dropsondes:
     GOOD: []
     BAD: []

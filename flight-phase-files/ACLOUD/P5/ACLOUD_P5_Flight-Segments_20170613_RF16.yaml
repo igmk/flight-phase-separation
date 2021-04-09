@@ -7,19 +7,42 @@ contacts:
   email: null
 date: 2017-06-13
 flight_report: null
-takeoff: 2017-06-13 14:56:10
-landing: 2017-06-13 17:00:05
+takeoff: &id001 2017-06-13 14:56:10
+landing: &id002 2017-06-13 17:00:05
 events:
 - joint flight with P6
 remarks:
 - Joint P5 / P6 calibration flight in multi layer clouds
 segments:
-- kinds: []
+- kinds:
+  - major_ascend
+  name: major ascend 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF16_ma1
+  start: *id001
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - add_new_segments_here
   name: null
   irregularities: []
   segment_id: null
   start: null
   end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - major_descend
+  name: major descend 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF16_md1
+  start: null
+  end: *id002
   dropsondes:
     GOOD: []
     BAD: []

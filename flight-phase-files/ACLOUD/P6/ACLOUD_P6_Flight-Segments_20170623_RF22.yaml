@@ -7,19 +7,42 @@ contacts:
   email: null
 date: 2017-06-23
 flight_report: null
-takeoff: 2017-06-23 10:37:00
-landing: 2017-06-23 14:52:25
+takeoff: &id001 2017-06-23 10:37:00
+landing: &id002 2017-06-23 14:52:25
 events:
 - joint flight with P5
 remarks:
 - Column over Ny-Alesund
 segments:
-- kinds: []
+- kinds:
+  - major_ascend
+  name: major ascend 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF22_ma1
+  start: *id001
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - add_new_segments_here
   name: null
   irregularities: []
   segment_id: null
   start: null
   end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - major_descend
+  name: major descend 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF22_md1
+  start: null
+  end: *id002
   dropsondes:
     GOOD: []
     BAD: []

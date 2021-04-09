@@ -7,18 +7,41 @@ contacts:
   email: null
 date: 2019-04-03
 flight_report: null
-takeoff: 2019-04-03 10:21:00
-landing: 2019-04-03 14:58:25
+takeoff: &id001 2019-04-03 10:21:00
+landing: &id002 2019-04-03 14:58:25
 events: []
 remarks:
 - Mid-Level stratocumulus over sea ice
 segments:
-- kinds: []
+- kinds:
+  - major_ascend
+  name: major ascend 1
+  irregularities: []
+  segment_id: AFLUX_P5_RF10_ma1
+  start: *id001
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - add_new_segments_here
   name: null
   irregularities: []
   segment_id: null
   start: null
   end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - major_descend
+  name: major descend 1
+  irregularities: []
+  segment_id: AFLUX_P5_RF10_md1
+  start: null
+  end: *id002
   dropsondes:
     GOOD: []
     BAD: []

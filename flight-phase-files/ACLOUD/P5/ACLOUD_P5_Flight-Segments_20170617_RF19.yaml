@@ -7,19 +7,42 @@ contacts:
   email: null
 date: 2017-06-17
 flight_report: null
-takeoff: 2017-06-17 09:54:15
-landing: 2017-06-17 15:24:25
+takeoff: &id001 2017-06-17 09:54:15
+landing: &id002 2017-06-17 15:24:25
 events:
 - joint flight with P6
 remarks:
 - Clouds above sea ice and open water
 segments:
-- kinds: []
+- kinds:
+  - major_ascend
+  name: major ascend 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF19_ma1
+  start: *id001
+  end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - add_new_segments_here
   name: null
   irregularities: []
   segment_id: null
   start: null
   end: null
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - major_descend
+  name: major descend 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF19_md1
+  start: null
+  end: *id002
   dropsondes:
     GOOD: []
     BAD: []
