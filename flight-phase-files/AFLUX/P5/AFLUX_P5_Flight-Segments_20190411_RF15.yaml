@@ -3,34 +3,369 @@ mission: AFLUX
 platform: P5
 flight_id: AFLUX_P5_RF15
 contacts:
-- name: null
-  email: null
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
 date: 2019-04-11
-flight_report: null
-takeoff: &id001 2019-04-11 09:37:45
-landing: &id002 2019-04-11 15:14:45
-events: []
+flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetch.php?media=flight_report_20190411_15_aflux.pdf
+takeoff: 2019-04-11 09:37:45
+landing: 2019-04-11 15:14:45
+events:
+  - Staircase pattern over sea ice
 remarks:
-- Characterizing a sharp cloud edge over homogeneous sea ice
+  - Sharp cloud edge over homogeneous sea ice
 segments:
 - kinds:
   - major_ascend
   name: major ascend 1
-  irregularities: []
+  irregularities:
+    - curve at about 800 m altitude
   segment_id: AFLUX_P5_RF15_ma1
-  start: *id001
-  end: null
+  start: 2019-04-11 09:37:45
+  end: 2019-04-11 09:51:47
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
-  - add_new_segments_here
-  name: null
+  - high_level
+  name: high level 1
   irregularities: []
   segment_id: null
-  start: null
-  end: null
+  start: 2019-04-11 09:51:47
+  end: 2019-04-11 10:30:00
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - large_descend
+  name: large descend 1
+  irregularities: []
+  segment_id: null
+  start: 2019-04-11 10:30:00
+  end: 2019-04-11 10:41:50
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 1
+  irregularities: []
+  segment_id: null
+  start: 2019-04-11 10:41:50
+  end: 2019-04-11 10:42:55
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 2
+  irregularities: []
+  segment_id: null
+  start: 2019-04-11 10:43:20
+  end: 2019-04-11 10:47:45
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 3
+  irregularities: []
+  segment_id: null
+  start: 2019-04-11 10:50:00
+  end: 2019-04-11 11:00:00
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 4
+  irregularities: []
+  segment_id: null
+  start: 2019-04-11 11:03:45
+  end: 2019-04-11 11:11:20
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 5
+  irregularities: []
+  segment_id: null
+  start: 2019-04-11 11:13:35
+  end: 2019-04-11 11:23:35
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 6
+  irregularities:
+    - small descend in altitude at end of leg
+  segment_id: null
+  start: 2019-04-11 11:27:15
+  end: 2019-04-11 11:39:25
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - small_ascend
+  name: small ascend 1
+  irregularities: []
+  segment_id: null
+  start: 2019-04-11 11:39:25
+  end: 2019-04-11 11:45:10
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - small_descend
+  name: small descend 1
+  irregularities: []
+  segment_id: null
+  start: 2019-04-11 11:45:10
+  end: 2019-04-11 11:52:00
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 7
+  irregularities: []
+  segment_id: null
+  start: 2019-04-11 11:52:00
+  end: 2019-04-11 11:55:50
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - small_ascend
+  name: small ascend 2
+  irregularities: []
+  segment_id: null
+  start: 2019-04-11 11:55:50
+  end: 2019-04-11 11:57:48
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - small_descend
+  name: small descend 2
+  irregularities: []
+  segment_id: null
+  start: 2019-04-11 11:57:48
+  end: 2019-04-11 12:00:25
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 8
+  irregularities: []
+  segment_id: null
+  start: 2019-04-11 12:00:25
+  end: 2019-04-11 12:08:00
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 9
+  irregularities: []
+  segment_id: null
+  start: 2019-04-11 12:10:08
+  end: 2019-04-11 12:19:15
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 10
+  irregularities: []
+  segment_id: null
+  start: 2019-04-11 12:21:15
+  end: 2019-04-11 12:29:00
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 11
+  irregularities: []
+  segment_id: null
+  start: 2019-04-11 12:31:05
+  end: 2019-04-11 12:40:00
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 12
+  irregularities: []
+  segment_id: null
+  start: 2019-04-11 12:42:15
+  end: 2019-04-11 12:50:30
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 13
+  irregularities: []
+  segment_id: null
+  start: 2019-04-11 12:53:22
+  end: 2019-04-11 13:02:30
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 14
+  irregularities: []
+  segment_id: null
+  start: 2019-04-11 13:04:30
+  end: 2019-04-11 13:11:30
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - small_descend
+  name: small descend 3
+  irregularities: []
+  segment_id: null
+  start: 2019-04-11 13:13:10
+  end: 2019-04-11 13:15:30
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 15
+  irregularities: []
+  segment_id: null
+  start: 2019-04-11 13:15:30
+  end: 2019-04-11 13:20:45
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - large_ascend
+  name: large ascend 1
+  irregularities: []
+  segment_id: 15
+  start: 2019-04-11 13:20:45
+  end: 2019-04-11 13:31:15
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: 15
+  start: 2019-04-11 13:31:15
+  end: 2019-04-11 14:09:22
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - large_descend
+  name: large descend 2
+  irregularities: []
+  segment_id: 15
+  start: 2019-04-11 14:09:22
+  end: 2019-04-11 14:14:00
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - mid_level
+  name: mid level 1
+  irregularities: []
+  segment_id: 15
+  start: 2019-04-11 14:14:00
+  end: 2019-04-11 14:19:30
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - small_descend
+  name: small descend 4
+  irregularities: []
+  segment_id: 15
+  start: 2019-04-11 14:19:30
+  end: 2019-04-11 14:21:50
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 16
+  irregularities:
+    - 90 deg curve in leg
+  segment_id: 15
+  start: 2019-04-11 14:21:50
+  end: 2019-04-11 14:25:10
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 17
+  irregularities:
+    - 90 deg curve in leg
+  segment_id: 15
+  start: 2019-04-11 14:26:15
+  end: 2019-04-11 14:38:15
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - large_ascend
+  name: large ascend 2
+  irregularities: []
+  segment_id: 15
+  start: 2019-04-11 14:38:15
+  end: 2019-04-11 14:46:35
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: 15
+  start: 2019-04-11 14:46:35
+  end: 2019-04-11 15:00:30
   dropsondes:
     GOOD: []
     BAD: []
@@ -38,10 +373,11 @@ segments:
 - kinds:
   - major_descend
   name: major descend 1
-  irregularities: []
+  irregularities:
+    - curve at about 1 km altitude
   segment_id: AFLUX_P5_RF15_md1
-  start: null
-  end: *id002
+  start: 2019-04-11 15:00:30
+  end: 2019-04-11 15:14:45
   dropsondes:
     GOOD: []
     BAD: []
