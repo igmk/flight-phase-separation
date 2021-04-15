@@ -9,6 +9,7 @@ from matplotlib import cm
 import xarray as xr
 import yaml
 import sys
+import yaml
 
 
 if __name__ == '__main__':
@@ -19,17 +20,21 @@ if __name__ == '__main__':
     aircraft = 'P5'
     date = '20190411'
     
+    # read file with paths (set wdir to the current script location)
+    with open('paths.yaml') as f:
+        paths = yaml.safe_load(f)
+    
     # read gps data
-    file = '/home/nrisse/uniData/obs/campaigns/ac3airborne/'+campaign.lower()+'/'+aircraft.lower()+'/gps_ins/'+campaign+'_polar'+aircraft[1]+'_'+date+'_'+flight_number+'.nc'
+    file = paths['path_base']+'ac3airborne/'+campaign.lower()+'/'+aircraft.lower()+'/gps_ins/'+campaign+'_polar'+aircraft[1]+'_'+date+'_'+flight_number+'.nc'
     ds_gps = xr.open_dataset(file)
     
     # read flight segments of flight
-    file = '/home/nrisse/uniHome/WHK/ac3airborne/flight-phase-separation/flight_phase_files/'+campaign+'/'+aircraft+'/'+campaign+'_'+aircraft+'_Flight-Segments_'+date+'_'+flight_number+'.yaml'
+    file = '../../flight_phase_files/'+campaign+'/'+aircraft+'/'+campaign+'_'+aircraft+'_Flight-Segments_'+date+'_'+flight_number+'.yaml'
     with open(file, 'r') as f:
         flight_segments = yaml.safe_load(f)
     
     # read dropsondes of flight
-    files = glob('/home/nrisse/uniData/obs/campaigns/'+campaign.lower()+'/dropsondes/'+date[:4]+'/'+date[4:6]+'/'+date[6:8]+'/*PQC.nc')
+    files = glob(paths['path_base']+campaign.lower()+'/dropsondes/'+date[:4]+'/'+date[4:6]+'/'+date[6:8]+'/*PQC.nc')
     dict_ds_dsd = {}  # dictionary of dropsondes
     for file in files:
         filename = file.split('/')[-1].split('_PQC')[0]
