@@ -19,9 +19,9 @@ if __name__ == '__main__':
     
     # choose a flight
     campaign = 'ACLOUD'
-    flight_number = 'RF04'
+    flight_number = 'RF14'
     aircraft = 'P5'
-    date = '20170523'
+    date = '20170608'
     
     # read file with paths (set wdir to the current script location)
     with open('paths.yaml') as f:
@@ -79,8 +79,6 @@ if __name__ == '__main__':
             ax.annotate(flight_segment['name'], xy=ax.projection.transform_point(ds_gps.lon.sel(time=start), ds_gps.lat.sel(time=start), data_crs), va='top', ha='left')
             ax.annotate(flight_segment['name'], xy=ax.projection.transform_point(ds_gps.lon.sel(time=end), ds_gps.lat.sel(time=end), data_crs), va='bottom', ha='left', color='gray')
     
-    plt.show()
-
     #%% plot time series
     fig, axes = plt.subplots(7, 1, figsize=(9, 9), sharex=True, constrained_layout=True)
     
