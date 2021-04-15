@@ -18,10 +18,10 @@ import yaml
 if __name__ == '__main__':
     
     # choose a flight
-    campaign = 'AFLUX'
-    flight_number = 'RF04'
+    campaign = 'ACLOUD'
+    flight_number = 'RF14'
     aircraft = 'P5'
-    date = '20190323'
+    date = '20170608'
     
     # read file with paths (set wdir to the current script location)
     with open('paths.yaml') as f:
@@ -120,9 +120,10 @@ if __name__ == '__main__':
     
     # add heading
     axes[6].scatter(ds_gps.time, ds_gps.heading, **kwargs)
-    axes[6].set_ylabel('head [°]')
+    axes[6].set_ylabel('head [dir]')
     axes[6].set_ylim([-180, 180])
-    axes[6].set_yticks([-180, -90, 0, 90, 180])
+    axes[6].set_yticks(np.arange(-180, 180+45, 45))
+    axes[6].set_yticklabels(['S', 'SW', 'W', 'NW', 'N', 'NE', 'E', 'SE', 'S'], fontsize=7)
     
     # add sea ice along track
     axes[7].scatter(ds_sic.time, ds_sic.sic, zorder=1, **kwargs)
@@ -135,15 +136,15 @@ if __name__ == '__main__':
         
         # latitude plot
         axes[0].scatter(ds_dsd.time, ds_dsd.lat, **ds_kwargs)
-        axes[0].annotate(ds_name, xy=(ds_dsd.time[0], 0), xycoords=('data', 'axes fraction'), color='green', fontsize=7)
+        axes[0].annotate(ds_name, xy=(ds_dsd.base_time, 0), xycoords=('data', 'axes fraction'), color='green', fontsize=7)
         
         # longitude plot
         axes[1].scatter(ds_dsd.time, ds_dsd.lon, **ds_kwargs)
-        axes[1].annotate(ds_name, xy=(ds_dsd.time[0], 0), xycoords=('data', 'axes fraction'), color='green', fontsize=7)
+        axes[1].annotate(ds_name, xy=(ds_dsd.base_time, 0), xycoords=('data', 'axes fraction'), color='green', fontsize=7)
 
         # altitude plot
         axes[2].scatter(ds_dsd.time, ds_dsd.alt, **ds_kwargs)
-        axes[2].annotate(ds_name, xy=(ds_dsd.time[0], 0), xycoords=('data', 'axes fraction'), color='green', fontsize=7)
+        axes[2].annotate(ds_name, xy=(ds_dsd.base_time, 0), xycoords=('data', 'axes fraction'), color='green', fontsize=7)
 
     # date axis settings
     axes[-1].xaxis.set_major_formatter(mdates.DateFormatter('%H:%M:%S'))
@@ -167,4 +168,50 @@ if __name__ == '__main__':
                     ax.annotate('start: '+name, xy=(start, 1), va='bottom', ha='left', xycoords=('data', 'axes fraction'), fontsize=8, rotation=90, color='blue')
                     ax.annotate('end: '+name, xy=(end, 1), va='bottom', ha='right', xycoords=('data', 'axes fraction'), fontsize=8, rotation=90, color='green')
     
+    #%% plot dropsonde profiles
+    fig, ax = plt.subplots(1, 3, figsize=(4, 4), constrained_layout=True, sharey=True)
+    
+    for ds_name, ds_dsd in dict_ds_dsd.items():
+        
+        # prepare for plot
+        ds_dsd_p = xr.Dataset()
+        ds_dsd_p.coords['pres'] = ds_dsd.pres.values
+        ds_dsd_p['tdry'] = (('pres'), ds_dsd.tdry.values)
+        ds_dsd_p['rh'] = (('pres'), ds_dsd.rh.values)
+        ds_dsd_p['u_wind'] = (('pres'), ds_dsd.u_wind.values)
+        ds_dsd_p['v_wind'] = (('pres'), ds_dsd.v_wind.values)
+        
+        ds_dsd_p = ds_dsd_p.isel(pres=~np.isnan(ds_dsd_p.pres))
+        
+        if len(ds_dsd_p.pres) > 0:  # plot only if pressure available
+            
+            kwargs = dict(s=3, linewidths=0, label=ds_name)
+            ax[0].scatter(ds_dsd_p.tdry, ds_dsd_p.pres, **kwargs)
+            ax[1].scatter(ds_dsd_p.rh, ds_dsd_p.pres, **kwargs)
+            
+            # plot line for windspeed
+            U = np.sqrt(ds_dsd_p.u_wind.values**2 + ds_dsd_p.v_wind**2)
+            ax[2].scatter(U, ds_dsd_p.pres, **kwargs)
+            
+            # plot arrow for wind
+            bins = np.arange(750, 1000, 10)
+            u = ds_dsd_p.u_wind.sel(pres=bins, method='nearest').values
+            v = ds_dsd_p.v_wind.sel(pres=bins, method='nearest').values
+            x = np.sqrt(u**2 + v**2)  #np.ones(len(u))
+            y = ds_dsd_p.pres.sel(pres=bins, method='nearest').values
+            ax[2].quiver(x, y, u, v, units='width', scale=100, width=0.005, alpha=0.25) 
+    
+    ax[0].set_ylabel('$p$ [hPa]')
+    ax[0].set_ylim([1013.15, 650])
+    ax[0].set_xlabel('$T_{dry}$ [K]')
+    ax[1].set_xlabel('$RH$ [%]')
+    ax[1].set_xlim([0, 100])
+    ax[2].set_xlabel('$U$ [m s$^{-1}$]')
+    ax[2].set_xlim([0, 25])
+    
+    lgnd = ax[-1].legend(frameon=False, ncol=1, bbox_to_anchor=(1.1, 0.5), loc='center left')
+    for path in lgnd.legendHandles:
+        path._sizes = [50]
+        
+    #%%
     plt.show()
