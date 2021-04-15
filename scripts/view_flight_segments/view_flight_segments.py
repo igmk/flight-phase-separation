@@ -18,10 +18,10 @@ import yaml
 if __name__ == '__main__':
     
     # choose a flight
-    campaign = 'ACLOUD'
+    campaign = 'AFLUX'
     flight_number = 'RF04'
     aircraft = 'P5'
-    date = '20170523'
+    date = '20190323'
     
     # read file with paths (set wdir to the current script location)
     with open('paths.yaml') as f:
@@ -30,6 +30,10 @@ if __name__ == '__main__':
     # read gps data
     file = paths['path_gps']+campaign.lower()+'/'+aircraft.lower()+'/gps_ins/'+campaign+'_polar'+aircraft[1]+'_'+date+'_'+flight_number+'.nc'
     ds_gps = xr.open_dataset(file)
+    
+    # read sea ice along path
+    file = paths['path_sea_ice']+campaign+'_polar'+aircraft[-1]+'_'+date+'_'+flight_number+'.nc'
+    ds_sic = xr.open_dataset(file)
     
     # read flight segments of flight
     file = '../../flight_phase_files/'+campaign+'/'+aircraft+'/'+campaign+'_'+aircraft+'_Flight-Segments_'+date+'_'+flight_number+'.yaml'
@@ -79,10 +83,8 @@ if __name__ == '__main__':
             ax.annotate(flight_segment['name'], xy=ax.projection.transform_point(ds_gps.lon.sel(time=start), ds_gps.lat.sel(time=start), data_crs), va='top', ha='left')
             ax.annotate(flight_segment['name'], xy=ax.projection.transform_point(ds_gps.lon.sel(time=end), ds_gps.lat.sel(time=end), data_crs), va='bottom', ha='left', color='gray')
     
-    plt.show()
-
     #%% plot time series
-    fig, axes = plt.subplots(7, 1, figsize=(9, 9), sharex=True, constrained_layout=True)
+    fig, axes = plt.subplots(8, 1, figsize=(9, 9), sharex=True, constrained_layout=True)
     
     fig.suptitle(campaign+', '+flight_number+', '+aircraft+', '+date)
     
@@ -122,6 +124,12 @@ if __name__ == '__main__':
     axes[6].set_ylim([-180, 180])
     axes[6].set_yticks([-180, -90, 0, 90, 180])
     
+    # add sea ice along track
+    axes[7].scatter(ds_sic.time, ds_sic.sic, zorder=1, **kwargs)
+    axes[7].axhline(y=90, color='gray', zorder=0)
+    axes[7].set_ylabel('sea ice [%]')
+    axes[7].set_ylim([0, 100])
+    
     # add dropsondes
     for ds_name, ds_dsd in dict_ds_dsd.items():
         
@@ -138,9 +146,9 @@ if __name__ == '__main__':
         axes[2].annotate(ds_name, xy=(ds_dsd.time[0], 0), xycoords=('data', 'axes fraction'), color='green', fontsize=7)
 
     # date axis settings
-    axes[5].xaxis.set_major_formatter(mdates.DateFormatter('%H:%M:%S'))
-    plt.setp(axes[5].xaxis.get_majorticklabels(), rotation=30)
-    axes[5].set_xlabel('Time (hh:mm:ss) [UTC]')
+    axes[-1].xaxis.set_major_formatter(mdates.DateFormatter('%H:%M:%S'))
+    plt.setp(axes[-1].xaxis.get_majorticklabels(), rotation=30)
+    axes[-1].set_xlabel('Time (hh:mm:ss) [UTC]')
     
     # add flight segments as vertical line
     for i_ax, ax in enumerate(axes):
@@ -158,4 +166,5 @@ if __name__ == '__main__':
                 if i_ax == 0:
                     ax.annotate('start: '+name, xy=(start, 1), va='bottom', ha='left', xycoords=('data', 'axes fraction'), fontsize=8, rotation=90, color='blue')
                     ax.annotate('end: '+name, xy=(end, 1), va='bottom', ha='right', xycoords=('data', 'axes fraction'), fontsize=8, rotation=90, color='green')
+    
     plt.show()
