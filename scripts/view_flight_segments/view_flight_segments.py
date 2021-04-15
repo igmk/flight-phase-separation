@@ -1,4 +1,7 @@
-
+# matplotlib==3.3.4
+# xarray==0.17.0
+# pandas==1.2.3
+# numpy==1.20.1
 
 import numpy as np
 import cartopy.crs as ccrs
@@ -75,7 +78,8 @@ if __name__ == '__main__':
             
             ax.annotate(flight_segment['name'], xy=ax.projection.transform_point(ds_gps.lon.sel(time=start), ds_gps.lat.sel(time=start), data_crs), va='top', ha='left')
             ax.annotate(flight_segment['name'], xy=ax.projection.transform_point(ds_gps.lon.sel(time=end), ds_gps.lat.sel(time=end), data_crs), va='bottom', ha='left', color='gray')
-        
+    
+    plt.show()    
     #%% plot time series
     fig, axes = plt.subplots(7, 1, figsize=(9, 9), sharex=True, constrained_layout=True)
     
