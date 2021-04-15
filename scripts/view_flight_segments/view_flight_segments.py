@@ -79,7 +79,8 @@ if __name__ == '__main__':
             ax.annotate(flight_segment['name'], xy=ax.projection.transform_point(ds_gps.lon.sel(time=start), ds_gps.lat.sel(time=start), data_crs), va='top', ha='left')
             ax.annotate(flight_segment['name'], xy=ax.projection.transform_point(ds_gps.lon.sel(time=end), ds_gps.lat.sel(time=end), data_crs), va='bottom', ha='left', color='gray')
     
-    plt.show()    
+    plt.show()
+
     #%% plot time series
     fig, axes = plt.subplots(7, 1, figsize=(9, 9), sharex=True, constrained_layout=True)
     
@@ -157,3 +158,4 @@ if __name__ == '__main__':
                 if i_ax == 0:
                     ax.annotate('start: '+name, xy=(start, 1), va='bottom', ha='left', xycoords=('data', 'axes fraction'), fontsize=8, rotation=90, color='blue')
                     ax.annotate('end: '+name, xy=(end, 1), va='bottom', ha='right', xycoords=('data', 'axes fraction'), fontsize=8, rotation=90, color='green')
+    plt.show()
