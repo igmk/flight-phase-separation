@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 
 scripts/view_flight_segments/paths.yaml
+flight_phase_files/ACLOUD/P5/ACLOUD_P5_Flight-Segments_20170608_RF14.yaml
