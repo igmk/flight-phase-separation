@@ -71,8 +71,8 @@ if __name__ == '__main__':
         kwargs = dict(s=10, color=colors[i], linewidths=0, transform=data_crs)
         ax.scatter(ds_gps.lon.sel(time=slice(start, end)), ds_gps.lat.sel(time=slice(start, end)), **kwargs)
         
-        ax.annotate(text=flight_segment['name'], xy=ax.projection.transform_point(ds_gps.lon.sel(time=start), ds_gps.lat.sel(time=start), data_crs), va='top', ha='left')
-        ax.annotate(text=flight_segment['name'], xy=ax.projection.transform_point(ds_gps.lon.sel(time=end), ds_gps.lat.sel(time=end), data_crs), va='bottom', ha='left', color='gray')
+        # ax.annotate(text=flight_segment['name'], xy=ax.projection.transform_point(ds_gps.lon.sel(time=start), ds_gps.lat.sel(time=start), data_crs), va='top', ha='left')
+        # ax.annotate(text=flight_segment['name'], xy=ax.projection.transform_point(ds_gps.lon.sel(time=end), ds_gps.lat.sel(time=end), data_crs), va='bottom', ha='left', color='gray')
 
     #%% plot time series
     fig, axes = plt.subplots(7, 1, figsize=(9, 9), sharex=True, constrained_layout=True)
