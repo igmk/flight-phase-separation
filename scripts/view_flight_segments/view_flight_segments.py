@@ -25,7 +25,7 @@ if __name__ == '__main__':
         paths = yaml.safe_load(f)
     
     # read gps data
-    file = paths['path_base']+'ac3airborne/'+campaign.lower()+'/'+aircraft.lower()+'/gps_ins/'+campaign+'_polar'+aircraft[1]+'_'+date+'_'+flight_number+'.nc'
+    file = paths['path_gps']+campaign.lower()+'/'+aircraft.lower()+'/gps_ins/'+campaign+'_polar'+aircraft[1]+'_'+date+'_'+flight_number+'.nc'
     ds_gps = xr.open_dataset(file)
     
     # read flight segments of flight
@@ -34,7 +34,7 @@ if __name__ == '__main__':
         flight_segments = yaml.safe_load(f)
     
     # read dropsondes of flight
-    files = glob(paths['path_base']+campaign.lower()+'/dropsondes/'+date[:4]+'/'+date[4:6]+'/'+date[6:8]+'/*PQC.nc')
+    files = glob(paths['path_dropsonde']+campaign.lower()+'/dropsondes/'+date[:4]+'/'+date[4:6]+'/'+date[6:8]+'/*PQC.nc')
     dict_ds_dsd = {}  # dictionary of dropsondes
     for file in files:
         filename = file.split('/')[-1].split('_PQC')[0]
