@@ -15,10 +15,10 @@ import yaml
 if __name__ == '__main__':
     
     # choose a flight
-    campaign = 'AFLUX'
-    flight_number = 'RF15'
+    campaign = 'ACLOUD'
+    flight_number = 'RF04'
     aircraft = 'P5'
-    date = '20190411'
+    date = '20170523'
     
     # read file with paths (set wdir to the current script location)
     with open('paths.yaml') as f:
@@ -68,12 +68,14 @@ if __name__ == '__main__':
         end = flight_segment['end']
         name = flight_segment['name']
         
-        kwargs = dict(s=10, color=colors[i], linewidths=0, transform=data_crs)
-        ax.scatter(ds_gps.lon.sel(time=slice(start, end)), ds_gps.lat.sel(time=slice(start, end)), **kwargs)
+        if start and end:
         
-        ax.annotate(text=flight_segment['name'], xy=ax.projection.transform_point(ds_gps.lon.sel(time=start), ds_gps.lat.sel(time=start), data_crs), va='top', ha='left')
-        ax.annotate(text=flight_segment['name'], xy=ax.projection.transform_point(ds_gps.lon.sel(time=end), ds_gps.lat.sel(time=end), data_crs), va='bottom', ha='left', color='gray')
-
+            kwargs = dict(s=10, color=colors[i], linewidths=0, transform=data_crs)
+            ax.scatter(ds_gps.lon.sel(time=slice(start, end)), ds_gps.lat.sel(time=slice(start, end)), **kwargs)
+            
+            ax.annotate(flight_segment['name'], xy=ax.projection.transform_point(ds_gps.lon.sel(time=start), ds_gps.lat.sel(time=start), data_crs), va='top', ha='left')
+            ax.annotate(flight_segment['name'], xy=ax.projection.transform_point(ds_gps.lon.sel(time=end), ds_gps.lat.sel(time=end), data_crs), va='bottom', ha='left', color='gray')
+        
     #%% plot time series
     fig, axes = plt.subplots(7, 1, figsize=(9, 9), sharex=True, constrained_layout=True)
     
@@ -143,9 +145,11 @@ if __name__ == '__main__':
             end = flight_segment['end']
             name = flight_segment['name']
             
-            ax.axvline(start, color='blue', alpha=0.5)
-            ax.axvline(end, color='green', alpha=0.5, linestyle='--')
+            if start and end:
             
-            if i_ax == 0:
-                ax.annotate('start: '+name, xy=(start, 1), va='bottom', ha='left', xycoords=('data', 'axes fraction'), fontsize=8, rotation=90, color='blue')
-                ax.annotate('end: '+name, xy=(end, 1), va='bottom', ha='right', xycoords=('data', 'axes fraction'), fontsize=8, rotation=90, color='green')
+                ax.axvline(start, color='blue', alpha=0.5)
+                ax.axvline(end, color='green', alpha=0.5, linestyle='--')
+                
+                if i_ax == 0:
+                    ax.annotate('start: '+name, xy=(start, 1), va='bottom', ha='left', xycoords=('data', 'axes fraction'), fontsize=8, rotation=90, color='blue')
+                    ax.annotate('end: '+name, xy=(end, 1), va='bottom', ha='right', xycoords=('data', 'axes fraction'), fontsize=8, rotation=90, color='green')
