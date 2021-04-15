@@ -3,8 +3,8 @@ mission: AFLUX
 platform: P5
 flight_id: AFLUX_P5_RF15
 contacts:
-- name: Nils Risse
-  email: n.risse@uni-koeln.de
+  - name: Nils Risse
+    email: n.risse@uni-koeln.de
 date: 2019-04-11
 flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetch.php?media=flight_report_20190411_15_aflux.pdf
 takeoff: 2019-04-11 09:37:45
@@ -34,7 +34,7 @@ segments:
   start: 2019-04-11 09:51:47
   end: 2019-04-11 10:30:00
   dropsondes:
-    GOOD: []
+    GOOD: [P5_RF15_sonde01]
     BAD: []
     UGLY: []
 - kinds:
@@ -288,9 +288,13 @@ segments:
   start: 2019-04-11 13:31:15
   end: 2019-04-11 14:09:22
   dropsondes:
-    GOOD: []
+    GOOD:
+      - P5_RF15_sonde02
+      - P5_RF15_sonde03
+      - P5_RF15_sonde04
     BAD: []
-    UGLY: []
+    UGLY:
+      - P5_RF15_sonde05
 - kinds:
   - large_descend
   name: large descend 2
