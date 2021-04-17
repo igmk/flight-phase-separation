@@ -1,37 +1,402 @@
 name: RF23
 mission: ACLOUD
-platform: P5
+platform: Polar5
 flight_id: ACLOUD_P5_RF23
 contacts:
-- name: null
-  email: null
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
 date: 2017-06-25
-flight_report: null
-takeoff: &id001 2017-06-25 11:08:55
-landing: &id002 2017-06-25 17:11:50
-events:
-- joint flight with P6
+flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=23_20170625_p5_acloud_flight_report_2.pdf
+takeoff: 2017-06-25 11:08:55
+landing: 2017-06-25 17:11:50
+events: []
 remarks:
-- Boundary layer profiling in clear sky conditions
+- profiles over sea ice
+- mostly clear-sky with some thin cirrus clouds
 segments:
 - kinds:
   - major_ascend
   name: major ascend 1
   irregularities: []
-  segment_id: ACLOUD_P5_RF23_ma1
-  start: *id001
-  end: null
+  segment_id: P5-id_number-ma1
+  start: 2017-06-25 11:08:55
+  end: 2017-06-25 11:20:35
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
-  - add_new_segments_here
-  name: null
+  - high_level
+  name: high level 1
   irregularities: []
-  segment_id: null
-  start: null
-  end: null
+  segment_id: P5-id_number-hl1
+  start: 2017-06-25 11:20:35
+  end: 2017-06-25 11:50:45
+  dropsondes:
+    GOOD: 
+      - P5_RF23_sonde1
+    BAD: []
+    UGLY: []
+- kinds:
+  - large_descend
+  name: large descend 1
+  irregularities: []
+  segment_id: P5-id_number-ld1
+  start: 2017-06-25 11:50:45
+  end: 2017-06-25 12:01:20
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - small_ascend
+  name: small ascend 1
+  irregularities: []
+  segment_id: P5-id_number-sa1
+  start: 2017-06-25 12:01:20
+  end: 2017-06-25 12:04:05
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - small_descend
+  name: small descend 1
+  irregularities: []
+  segment_id: P5-id_number-sd1
+  start: 2017-06-25 12:04:05
+  end: 2017-06-25 12:06:10
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 1
+  irregularities: []
+  segment_id: P5-id_number-ll1
+  start: 2017-06-25 12:07:05
+  end: 2017-06-25 12:17:35
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 2
+  irregularities: []
+  segment_id: P5-id_number-ll2
+  start: 2017-06-25 12:19:05
+  end: 2017-06-25 12:27:50
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 3
+  irregularities: []
+  segment_id: P5-id_number-ll3
+  start: 2017-06-25 12:31:50
+  end: 2017-06-25 12:40:20
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 4
+  irregularities: []
+  segment_id: P5-id_number-ll4
+  start: 2017-06-25 12:42:00
+  end: 2017-06-25 12:43:45
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 5
+  irregularities: []
+  segment_id: P5-id_number-ll5
+  start: 2017-06-25 12:44:15
+  end: 2017-06-25 12:58:30
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - small_ascend
+  name: small ascend 2
+  irregularities: []
+  segment_id: P5-id_number-sa2
+  start: 2017-06-25 12:58:50
+  end: 2017-06-25 13:01:25
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - small_descend
+  name: small descend 2
+  irregularities: []
+  segment_id: P5-id_number-sd2
+  start: 2017-06-25 13:01:25
+  end: 2017-06-25 13:03:30
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 6
+  irregularities:
+  segment_id: P5-id_number-ll6
+  start: 2017-06-25 13:04:35
+  end: 2017-06-25 13:14:20
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 7
+  irregularities:
+  segment_id: P5-id_number-ll7
+  start: 2017-06-25 13:16:25
+  end: 2017-06-25 13:24:10
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 8
+  irregularities:
+  segment_id: P5-id_number-ll8
+  start: 2017-06-25 13:26:10
+  end: 2017-06-25 13:35:00
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 9
+  irregularities:
+  segment_id: P5-id_number-ll9
+  start: 2017-06-25 13:40:50
+  end: 2017-06-25 14:02:15
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - small_ascend
+  name: small ascend 3
+  irregularities: []
+  segment_id: P5-id_number-sa3
+  start: 2017-06-25 14:02:20
+  end: 2017-06-25 14:04:50
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - small_descend
+  name: small descend 3
+  irregularities: []
+  segment_id: P5-id_number-sd3
+  start: 2017-06-25 14:04:50
+  end: 2017-06-25 14:07:05
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 10
+  irregularities:
+  segment_id: P5-id_number-ll10
+  start: 2017-06-25 14:08:30
+  end: 2017-06-25 14:17:10
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 11
+  irregularities:
+  segment_id: P5-id_number-ll11
+  start: 2017-06-25 14:09:00
+  end: 2017-06-25 14:17:10
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 12
+  irregularities:
+  segment_id: P5-id_number-ll12
+  start: 2017-06-25 14:20:20
+  end: 2017-06-25 14:28:25
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 13
+  irregularities:
+  segment_id: P5-id_number-ll13
+  start: 2017-06-25 14:30:00
+  end: 2017-06-25 14:38:10
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 14
+  irregularities:
+  segment_id: P5-id_number-ll14
+  start: 2017-06-25 14:39:40
+  end: 2017-06-25 14:48:05
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 15
+  irregularities:
+  segment_id: P5-id_number-ll15
+  start: 2017-06-25 14:51:00
+  end: 2017-06-25 14:57:15
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 16
+  irregularities:
+  segment_id: P5-id_number-ll16
+  start: 2017-06-25 14:58:30
+  end: 2017-06-25 15:01:20
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 17
+  irregularities:
+  segment_id: P5-id_number-ll17
+  start: 2017-06-25 15:01:55
+  end: 2017-06-25 15:07:40
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - small_ascend
+  name: small ascend 4
+  irregularities: []
+  segment_id: P5-id_number-sa4
+  start: 2017-06-25 15:07:40
+  end: 2017-06-25 15:10:05
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - small_descend
+  name: small descend 4
+  irregularities: []
+  segment_id: P5-id_number-sd4
+  start: 2017-06-25 15:10:05
+  end: 2017-06-25 15:12:20
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 18
+  irregularities: []
+  segment_id: P5-id_number-ll18
+  start: 2017-06-25 15:15:00
+  end: 2017-06-25 15:23:10
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 19
+  irregularities: []
+  segment_id: P5-id_number-ll19
+  start: 2017-06-25 15:24:45
+  end: 2017-06-25 15:33:20
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 20
+  irregularities: []
+  segment_id: P5-id_number-ll20
+  start: 2017-06-25 15:35:40
+  end: 2017-06-25 15:43:30
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 21
+  irregularities: []
+  segment_id: P5-id_number-ll21
+  start: 2017-06-25 15:45:45
+  end: 2017-06-25 15:53:40
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 22
+  irregularities: []
+  segment_id: P5-id_number-ll22
+  start: 2017-06-25 15:55:30
+  end: 2017-06-25 16:03:15
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - large_ascend
+  name: large ascend 1
+  irregularities: []
+  segment_id: P5-id_number-la1
+  start: 2017-06-25 16:05:10
+  end: 2017-06-25 16:15:55
+  dropsondes:
+    GOOD: 
+      - P5_RF23_sonde2
+    BAD: []
+    UGLY: []
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: P5-id_number-hl2
+  start: 2017-06-25 16:15:55
+  end: 2017-06-25 16:59:20
   dropsondes:
     GOOD: []
     BAD: []
@@ -40,9 +405,9 @@ segments:
   - major_descend
   name: major descend 1
   irregularities: []
-  segment_id: ACLOUD_P5_RF23_md1
-  start: null
-  end: *id002
+  segment_id: P5-id_number-md1
+  start: 2017-06-25 16:59:20
+  end: 2017-06-25 17:11:50
   dropsondes:
     GOOD: []
     BAD: []

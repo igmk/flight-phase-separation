@@ -19,9 +19,9 @@ if __name__ == '__main__':
     
     # choose a flight
     campaign = 'ACLOUD'
-    flight_number = 'RF14'
+    flight_number = 'RF23'
     aircraft = 'P5'
-    date = '20170608'
+    date = '20170625'
     
     # read file with paths (set wdir to the current script location)
     with open('paths.yaml') as f:
@@ -50,12 +50,12 @@ if __name__ == '__main__':
     #%% plot track on map to get an overview
     data_crs = ccrs.PlateCarree()
     map_crs = ccrs.NorthPolarStereo()
-    
+        
     fig, ax = plt.subplots(1, 1, figsize=(5, 5), subplot_kw=dict(projection=map_crs))
-    
+        
     # add coastlines
     ax.coastlines()
-    
+        
     # plot flight: color is altitude
     #kwargs = dict(s=4, c=ds_gps.alt, linewidths=0, cmap='jet', vmin=0, vmax=3000, transform=data_crs)
     #ax.scatter(ds_gps.lon, ds_gps.lat, **kwargs)
