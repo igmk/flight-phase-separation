@@ -1,319 +1,36 @@
-# comments: dropsonde in der Kurve
-# wie kleinteilig die overflights?
-# horizontal aber nicht genau ny alesund während der kurven... 
-# wie mit den ungleichmäßigen starts umgehen
-# wie mit der ersten dropsonde, die nicht gemessen hat - auch nicht in daten
-# gletscherüberflüge ignorieren?
-
-# todo: kind add sea ice, kind add profile flight for the large descend in the middle?
-
 name: RF14
 mission: ACLOUD
 platform: P5
 flight_id: ACLOUD_P5_RF14
 contacts:
-- name: Nils Risse
-  email: n.risse@uni-koeln.de
+- name: null
+  email: null
 date: 2017-06-08
-flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=14_20170608_p5_acloud_flight_report.pdf
+flight_report: null
 takeoff: 2017-06-08 07:36:50
 landing: 2017-06-08 12:51:25
-events:
- - A-Train underflight
- - Ny-Alesund overflight
- - joint flight with P6
- - Polarstern overflight
+events: []
 remarks:
 - thin broken clouds over sea ice
 segments:
 - kinds:
   - major_ascend
-  - low_level_Sveabreen_glacier
   name: major ascend 1
-  irregularities:
-    - whale-watching loop
+  irregularities: []
   segment_id: ACLOUD_P5_RF14_ma1
   start: 2017-06-08 07:36:50
-  end: 2017-06-08 07:56:00
+  end: null
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
-  - mid_level
-  name: mid level 1
+  - add_new_segments_here
+  name: null
   irregularities: []
-  segment_id: ACLOUD_P5_RF14_ml1
-  start: 2017-06-08 07:56:00
-  end: 2017-06-08 08:01:55
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
-- kinds:
-  - small_ascend
-  - nya_overflight
-  name: small ascend 1
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_sa1
-  start: 2017-06-08 08:01:55
-  end: 2017-06-08 08:09:00
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
-- kinds:
-  - high_level
-  name: high level 1
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_hl1
-  start: 2017-06-08 08:09:00
-  end: 2017-06-08 08:25:40
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
-- kinds:
-  - high_level
-  - race_pattern
-  name: high level 2
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_hl2
-  start: 2017-06-08 08:27:20
-  end: 2017-06-08 08:29:25
-  dropsondes:
-    GOOD:
-      - P5_RF14_sonde01
-    BAD: []
-    UGLY: []
-- kinds:
-  - high_level
-  - race_pattern
-  name: high level 3
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_hl3
-  start: 2017-06-08 08:31:05
-  end: 2017-06-08 08:33:20
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
-- kinds:
-  - high_level
-  name: high level 4
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_hl4
-  start: 2017-06-08 08:36:20
-  end: 2017-06-08 08:58:25
-  dropsondes:
-    GOOD:
-      - P5_RF14_sonde02
-    BAD: []
-    UGLY: []
-- kinds:
-  - high_level
-  - a_train_underflight
-  name: high level 5
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_hl5
-  start: 2017-06-08 08:59:20
-  end: 2017-06-08 09:30:30
-  dropsondes:
-    GOOD:
-      - P5_RF14_sonde03
-    BAD: []
-    UGLY: []
-- kinds:
-  - high_level
-  name: high level 6
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_hl6
-  start: 2017-06-08 09:31:40
-  end: 2017-06-08 09:51:05
-  dropsondes:
-    GOOD:
-      - P5_RF14_sonde04
-    BAD: []
-    UGLY: []
-- kinds:
-  - high_level
-  name: high level 7
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_hl7
-  start: 2017-06-08 09:51:25
-  end: 2017-06-08 10:03:10
-  dropsondes:
-    GOOD:
-      - P5_RF14_sonde05
-    BAD: []
-    UGLY: []
-- kinds:
-  - high_level
-  name: high level 8
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_hl8
-  start: 2017-06-08 10:04:35
-  end: 2017-06-08 10:07:12
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
-- kinds:
-  - high_level
-  name: high level 9
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_hl9
-  start: 2017-06-08 10:04:35
-  end: 2017-06-08 10:07:12
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
-- kinds:
-  - high_level
-  name: high level 10
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_hl10
-  start: 2017-06-08 10:08:15
-  end: 2017-06-08 10:11:20
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
-- kinds:
-  - large_descend
-  name: large descend 1
-  irregularities:
-    - slight curve during descend
-  segment_id: ACLOUD_P5_RF14_la1
-  start: 2017-06-08 10:15:16
-  end: 2017-06-08 10:22:45
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
-- kinds:
-  - low_level
-  name: low level 1
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_ll1
-  start: 2017-06-08 10:22:45
-  end: 2017-06-08 10:29:25
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
-- kinds:
-  - low_level
-  name: low level 2
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_ll2
-  start: 2017-06-08 10:31:45
-  end: 2017-06-08 10:40:40
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
-- kinds:
-  - low_level
-  name: low level 3
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_ll3
-  start: 2017-06-08 10:42:10
-  end: 2017-06-08 10:50:00
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
-- kinds:
-  - low_level
-  name: low level 4
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_ll4
-  start: 2017-06-08 10:53:10
-  end: 2017-06-08 11:02:00
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
-- kinds:
-  - large_ascend
-  name: large ascend 1
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_la1
-  start: 2017-06-08 11:02:25
-  end: 2017-06-08 11:11:25
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
-- kinds:
-  - high_level
-  name: high level 11
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_hl11
-  start: 2017-06-08 11:02:25
-  end: 2017-06-08 11:53:00
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY:
-      - P5_RF14_sonde06
-- kinds:
-  - high_level
-  - nya_overflight
-  name: high level 12
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_hl12
-  start: 2017-06-08 11:53:40
-  end: 2017-06-08 12:10:15
-  dropsondes:
-    GOOD:
-      - P5_RF14_sonde07
-    BAD: []
-    UGLY: []
-- kinds:
-  - high_level
-  name: high level 13
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_hl13
-  start: 2017-06-08 12:11:35
-  end: 2017-06-08 12:13:30
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
-- kinds:
-  - high_level
-  - nya_overflight
-  name: high level 14
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_hl14
-  start: 2017-06-08 12:14:45
-  end: 2017-06-08 12:18:50
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
-- kinds:
-  - high_level
-  name: high level 15
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_hl15
-  start: 2017-06-08 12:20:10
-  end: 2017-06-08 12:22:10
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
-- kinds:
-  - high_level
-  - nya_overflight
-  name: high level 16
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_hl16
-  start: 2017-06-08 12:24:10
-  end: 2017-06-08 12:25:45
+  segment_id: null
+  start: null
+  end: null
   dropsondes:
     GOOD: []
     BAD: []
@@ -323,7 +40,7 @@ segments:
   name: major descend 1
   irregularities: []
   segment_id: ACLOUD_P5_RF14_md1
-  start: 2017-06-08 12:25:45
+  start: null
   end: 2017-06-08 12:51:25
   dropsondes:
     GOOD: []
