@@ -24,5 +24,11 @@ This table provides an overview of the keywords used to describe the flight segm
 | mid_level     | constant flight level at 1-2 km altitude        |
 | high_level    | constant flight level at > 2 km altitude        |
 
-#### overflights
+#### overflights and underflights
+| kinds               | description                                     |
+| ------------------- | ----------------------------------------------- |
+| nya_overflight      | test        |
+| ps_overflight       | test        |
+| a-train_underflight | test        |
 
+This table is just a template!
