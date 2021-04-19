@@ -17,31 +17,35 @@ import yaml
 
 if __name__ == '__main__':
     
-    # choose a flight
-    campaign = 'ACLOUD'
-    flight_number = 'RF23'
-    aircraft = 'P5'
-    date = '20170625'
+    # # choose a flight
+    # campaign = 'ACLOUD'
+    # flight['number'] = 'RF14'
+    # flight['aircraft'] = 'P5'
+    # flight['date'] = '20170608'
+
+    # read file with flight settings
+    with open('flight_settings.yaml') as f:
+        flight = yaml.safe_load(f)
     
     # read file with paths (set wdir to the current script location)
     with open('paths.yaml') as f:
         paths = yaml.safe_load(f)
     
     # read gps data
-    file = paths['path_gps']+campaign.lower()+'/'+aircraft.lower()+'/gps_ins/'+campaign+'_polar'+aircraft[1]+'_'+date+'_'+flight_number+'.nc'
+    file = paths['path_gps']+flight['campaign'].lower()+'/'+flight['aircraft'].lower()+'/gps_ins/'+flight['campaign']+'_polar'+flight['aircraft'][1]+'_'+flight['date']+'_'+flight['number']+'.nc'
     ds_gps = xr.open_dataset(file)
     
     # read sea ice along path
-    file = paths['path_sea_ice']+campaign+'_polar'+aircraft[-1]+'_'+date+'_'+flight_number+'.nc'
+    file = paths['path_sea_ice']+flight['campaign']+'_polar'+flight['aircraft'][-1]+'_'+flight['date']+'_'+flight['number']+'.nc'
     ds_sic = xr.open_dataset(file)
     
     # read flight segments of flight
-    file = '../../flight_phase_files/'+campaign+'/'+aircraft+'/'+campaign+'_'+aircraft+'_Flight-Segments_'+date+'_'+flight_number+'.yaml'
+    file = '../../flight_phase_files/'+flight['campaign']+'/'+flight['aircraft']+'/'+flight['campaign']+'_'+flight['aircraft']+'_Flight-Segments_'+flight['date']+'_'+flight['number']+'.yaml'
     with open(file, 'r') as f:
         flight_segments = yaml.safe_load(f)
     
     # read dropsondes of flight
-    files = glob(paths['path_dropsonde']+campaign.lower()+'/dropsondes/'+date[:4]+'/'+date[4:6]+'/'+date[6:8]+'/*PQC.nc')
+    files = glob(paths['path_dropsonde']+flight['campaign'].lower()+'/dropsondes/'+flight['date'][:4]+'/'+flight['date'][4:6]+'/'+flight['date'][6:8]+'/*PQC.nc')
     dict_ds_dsd = {}  # dictionary of dropsondes
     for file in files:
         filename = file.split('/')[-1].split('_PQC')[0]
@@ -86,7 +90,7 @@ if __name__ == '__main__':
     #%% plot time series
     fig, axes = plt.subplots(8, 1, figsize=(9, 9), sharex=True, constrained_layout=True)
     
-    fig.suptitle(campaign+', '+flight_number+', '+aircraft+', '+date)
+    fig.suptitle(flight['campaign']+', '+flight['number']+', '+flight['aircraft']+', '+flight['date'])
     
     kwargs = dict(linewidths=0, c='k', s=1)
     ds_kwargs = dict(linewidths=0, c='r', s=1)
