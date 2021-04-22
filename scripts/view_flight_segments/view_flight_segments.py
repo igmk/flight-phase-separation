@@ -103,8 +103,8 @@ if __name__ == '__main__':
     axes[1].set_ylabel('lon [°E]')
     
     # flight altitude
-    axes[2].scatter(ds_gps.time, ds_gps.alt, **kwargs)
-    axes[2].set_ylabel('alt [m]')
+    axes[2].scatter(ds_gps.time, ds_gps.alt*3.28, **kwargs)
+    axes[2].set_ylabel('alt [ft]')
     
     # vertical speed
     axes[3].scatter(ds_gps.time, ds_gps.vs, **kwargs)
@@ -173,49 +173,49 @@ if __name__ == '__main__':
                     ax.annotate('end: '+name, xy=(end, 1), va='bottom', ha='right', xycoords=('data', 'axes fraction'), fontsize=8, rotation=90, color='green')
     
     #%% plot dropsonde profiles
-    fig, ax = plt.subplots(1, 3, figsize=(4, 4), constrained_layout=True, sharey=True)
+    # fig, ax = plt.subplots(1, 3, figsize=(4, 4), constrained_layout=True, sharey=True)
     
-    for ds_name, ds_dsd in dict_ds_dsd.items():
+    # for ds_name, ds_dsd in dict_ds_dsd.items():
         
-        # prepare for plot
-        ds_dsd_p = xr.Dataset()
-        ds_dsd_p.coords['pres'] = ds_dsd.pres.values
-        ds_dsd_p['tdry'] = (('pres'), ds_dsd.tdry.values)
-        ds_dsd_p['rh'] = (('pres'), ds_dsd.rh.values)
-        ds_dsd_p['u_wind'] = (('pres'), ds_dsd.u_wind.values)
-        ds_dsd_p['v_wind'] = (('pres'), ds_dsd.v_wind.values)
+    #     # prepare for plot
+    #     ds_dsd_p = xr.Dataset()
+    #     ds_dsd_p.coords['pres'] = ds_dsd.pres.values
+    #     ds_dsd_p['tdry'] = (('pres'), ds_dsd.tdry.values)
+    #     ds_dsd_p['rh'] = (('pres'), ds_dsd.rh.values)
+    #     ds_dsd_p['u_wind'] = (('pres'), ds_dsd.u_wind.values)
+    #     ds_dsd_p['v_wind'] = (('pres'), ds_dsd.v_wind.values)
         
-        ds_dsd_p = ds_dsd_p.isel(pres=~np.isnan(ds_dsd_p.pres))
+    #     ds_dsd_p = ds_dsd_p.isel(pres=~np.isnan(ds_dsd_p.pres))
         
-        if len(ds_dsd_p.pres) > 0:  # plot only if pressure available
+    #     if len(ds_dsd_p.pres) > 0:  # plot only if pressure available
             
-            kwargs = dict(s=3, linewidths=0, label=ds_name)
-            ax[0].scatter(ds_dsd_p.tdry, ds_dsd_p.pres, **kwargs)
-            ax[1].scatter(ds_dsd_p.rh, ds_dsd_p.pres, **kwargs)
+    #         kwargs = dict(s=3, linewidths=0, label=ds_name)
+    #         ax[0].scatter(ds_dsd_p.tdry, ds_dsd_p.pres, **kwargs)
+    #         ax[1].scatter(ds_dsd_p.rh, ds_dsd_p.pres, **kwargs)
             
-            # plot line for windspeed
-            U = np.sqrt(ds_dsd_p.u_wind.values**2 + ds_dsd_p.v_wind**2)
-            ax[2].scatter(U, ds_dsd_p.pres, **kwargs)
+    #         # plot line for windspeed
+    #         U = np.sqrt(ds_dsd_p.u_wind.values**2 + ds_dsd_p.v_wind**2)
+    #         ax[2].scatter(U, ds_dsd_p.pres, **kwargs)
             
-            # plot arrow for wind
-            bins = np.arange(750, 1000, 10)
-            u = ds_dsd_p.u_wind.sel(pres=bins, method='nearest').values
-            v = ds_dsd_p.v_wind.sel(pres=bins, method='nearest').values
-            x = np.sqrt(u**2 + v**2)  #np.ones(len(u))
-            y = ds_dsd_p.pres.sel(pres=bins, method='nearest').values
-            ax[2].quiver(x, y, u, v, units='width', scale=100, width=0.005, alpha=0.25) 
+    #         # plot arrow for wind
+    #         bins = np.arange(750, 1000, 10)
+    #         u = ds_dsd_p.u_wind.sel(pres=bins, method='nearest').values
+    #         v = ds_dsd_p.v_wind.sel(pres=bins, method='nearest').values
+    #         x = np.sqrt(u**2 + v**2)  #np.ones(len(u))
+    #         y = ds_dsd_p.pres.sel(pres=bins, method='nearest').values
+    #         ax[2].quiver(x, y, u, v, units='width', scale=100, width=0.005, alpha=0.25) 
     
-    ax[0].set_ylabel('$p$ [hPa]')
-    ax[0].set_ylim([1013.15, 650])
-    ax[0].set_xlabel('$T_{dry}$ [K]')
-    ax[1].set_xlabel('$RH$ [%]')
-    ax[1].set_xlim([0, 100])
-    ax[2].set_xlabel('$U$ [m s$^{-1}$]')
-    ax[2].set_xlim([0, 25])
+    # ax[0].set_ylabel('$p$ [hPa]')
+    # ax[0].set_ylim([1013.15, 650])
+    # ax[0].set_xlabel('$T_{dry}$ [K]')
+    # ax[1].set_xlabel('$RH$ [%]')
+    # ax[1].set_xlim([0, 100])
+    # ax[2].set_xlabel('$U$ [m s$^{-1}$]')
+    # ax[2].set_xlim([0, 25])
     
-    lgnd = ax[-1].legend(frameon=False, ncol=1, bbox_to_anchor=(1.1, 0.5), loc='center left')
-    for path in lgnd.legendHandles:
-        path._sizes = [50]
+    # lgnd = ax[-1].legend(frameon=False, ncol=1, bbox_to_anchor=(1.1, 0.5), loc='center left')
+    # for path in lgnd.legendHandles:
+    #     path._sizes = [50]
         
     #%%
     plt.show()
