@@ -12,8 +12,6 @@ from matplotlib import cm
 import xarray as xr
 import yaml
 import sys
-import yaml
-
 
 if __name__ == '__main__':
     
@@ -137,7 +135,8 @@ if __name__ == '__main__':
     
     # add dropsondes
     for ds_name, ds_dsd in dict_ds_dsd.items():
-        
+        if flight['campaign'] == 'MOSAiC-ACA':
+            ds_dsd = ds_dsd.rename({'launch_time':'base_time'})
         # latitude plot
         axes[0].scatter(ds_dsd.time, ds_dsd.lat, **ds_kwargs)
         axes[0].annotate(ds_name, xy=(ds_dsd.base_time, 0), xycoords=('data', 'axes fraction'), color='green', fontsize=7)
@@ -172,7 +171,7 @@ if __name__ == '__main__':
                     ax.annotate('start: '+name, xy=(start, 1), va='bottom', ha='left', xycoords=('data', 'axes fraction'), fontsize=8, rotation=90, color='blue')
                     ax.annotate('end: '+name, xy=(end, 1), va='bottom', ha='right', xycoords=('data', 'axes fraction'), fontsize=8, rotation=90, color='green')
     
-    #%% plot dropsonde profiles
+    # %% plot dropsonde profiles
     # fig, ax = plt.subplots(1, 3, figsize=(4, 4), constrained_layout=True, sharey=True)
     
     # for ds_name, ds_dsd in dict_ds_dsd.items():
@@ -217,5 +216,5 @@ if __name__ == '__main__':
     # for path in lgnd.legendHandles:
     #     path._sizes = [50]
         
-    #%%
+    # %%
     plt.show()
