@@ -50,42 +50,81 @@ if __name__ == '__main__':
         dict_ds_dsd[filename] = xr.open_dataset(file)
     
     #%% plot track on map to get an overview
+    print('plot track on map')
+    
     data_crs = ccrs.PlateCarree()
     map_crs = ccrs.NorthPolarStereo()
         
     fig, ax = plt.subplots(1, 1, figsize=(5, 5), subplot_kw=dict(projection=map_crs))
-        
-    # add coastlines
     ax.coastlines()
-        
-    # plot flight: color is altitude
-    #kwargs = dict(s=4, c=ds_gps.alt, linewidths=0, cmap='jet', vmin=0, vmax=3000, transform=data_crs)
-    #ax.scatter(ds_gps.lon, ds_gps.lat, **kwargs)
     
     # plot flight in black
-    kwargs = dict(s=4, color='k', linewidths=0, transform=data_crs)
+    kwargs = dict(s=4, color='k', linewidths=0, transform=data_crs, zorder=0)
     ax.scatter(ds_gps.lon, ds_gps.lat, **kwargs)
     
     # plot flight segments as colored points
     n = len(flight_segments['segments'])
     cmap = cm.get_cmap('prism')
     colors = [cmap(i/n) for i in range(n)]
-    
+                
     for i, flight_segment in enumerate(flight_segments['segments']):
+        
+        if 'segment_id' in flight_segment.keys():
+            print('plot segment id %s'%flight_segment['segment_id'])
+        else:
+            print('plot segment id ???')
         
         start = flight_segment['start']
         end = flight_segment['end']
-        name = flight_segment['name']
+        
+        # workaround for flight segments without a name
+        try:
+            name = flight_segment['name']
+        
+        except KeyError:
+            name = ', '.join(flight_segment['kinds'])
         
         if start and end:
         
-            kwargs = dict(s=10, color=colors[i], linewidths=0, transform=data_crs)
+            kwargs = dict(s=10, color=colors[i], linewidths=0, transform=data_crs, zorder=1)
             ax.scatter(ds_gps.lon.sel(time=slice(start, end)), ds_gps.lat.sel(time=slice(start, end)), **kwargs)
             
-            ax.annotate(flight_segment['name'], xy=ax.projection.transform_point(ds_gps.lon.sel(time=start), ds_gps.lat.sel(time=start), data_crs), va='top', ha='left')
-            ax.annotate(flight_segment['name'], xy=ax.projection.transform_point(ds_gps.lon.sel(time=end), ds_gps.lat.sel(time=end), data_crs), va='bottom', ha='left', color='gray')
+            kwargs = dict(fontsize=8, ha='left')
+            ax.annotate(name, xy=ax.projection.transform_point(ds_gps.lon.sel(time=start), ds_gps.lat.sel(time=start), data_crs), va='top', color='k', **kwargs)
+            ax.annotate(name, xy=ax.projection.transform_point(ds_gps.lon.sel(time=end), ds_gps.lat.sel(time=end), data_crs), va='bottom', color='gray', **kwargs)
     
+        # add parts, if they exist for this flight segment
+        if 'parts' in list(flight_segment.keys()):
+                        
+            for j, part in enumerate(flight_segment['parts']):
+                
+                if 'segment_id' in part.keys():
+                    print('plot segment id %s'%part['segment_id'])
+                else:
+                    print('plot segment id ???')
+                
+                start = part['start']
+                end = part['end']
+                
+                # workaround for flight segments without a name
+                try:
+                    name = part['name']
+                
+                except KeyError:
+                    name = ', '.join(part['kinds'])
+                
+                if start and end:
+                
+                    kwargs = dict(s=2, color=colors[j], linewidths=0.25, transform=data_crs, marker='+', zorder=2)
+                    ax.scatter(ds_gps.lon.sel(time=slice(start, end)), ds_gps.lat.sel(time=slice(start, end)), **kwargs)
+                    
+                    kwargs = dict(fontsize=6, ha='right')
+                    ax.annotate(name, xy=ax.projection.transform_point(ds_gps.lon.sel(time=start), ds_gps.lat.sel(time=start), data_crs), va='top', color='k', **kwargs)
+                    ax.annotate(name, xy=ax.projection.transform_point(ds_gps.lon.sel(time=end), ds_gps.lat.sel(time=end), data_crs), va='bottom', color='gray', **kwargs)
+            
     #%% plot time series
+    print('plot time series')
+    
     fig, axes = plt.subplots(8, 1, figsize=(9, 9), sharex=True, constrained_layout=True)
     
     fig.suptitle(flight['campaign']+', '+flight['number']+', '+flight['aircraft']+', '+flight['date'])
@@ -139,15 +178,15 @@ if __name__ == '__main__':
             ds_dsd = ds_dsd.rename({'launch_time':'base_time'})
         # latitude plot
         axes[0].scatter(ds_dsd.time, ds_dsd.lat, **ds_kwargs)
-        axes[0].annotate(ds_name, xy=(ds_dsd.base_time, 0), xycoords=('data', 'axes fraction'), color='green', fontsize=7)
+        axes[0].annotate(ds_name, xy=(ds_dsd.base_time, 0), xycoords=('data', 'axes fraction'), color='k', fontsize=7)
         
         # longitude plot
         axes[1].scatter(ds_dsd.time, ds_dsd.lon, **ds_kwargs)
-        axes[1].annotate(ds_name, xy=(ds_dsd.base_time, 0), xycoords=('data', 'axes fraction'), color='green', fontsize=7)
+        axes[1].annotate(ds_name, xy=(ds_dsd.base_time, 0), xycoords=('data', 'axes fraction'), color='k', fontsize=7)
 
         # altitude plot
-        axes[2].scatter(ds_dsd.time, ds_dsd.alt, **ds_kwargs)
-        axes[2].annotate(ds_name, xy=(ds_dsd.base_time, 0), xycoords=('data', 'axes fraction'), color='green', fontsize=7)
+        axes[2].scatter(ds_dsd.time, ds_dsd.alt*3.28, **ds_kwargs)
+        axes[2].annotate(ds_name, xy=(ds_dsd.base_time, 0), xycoords=('data', 'axes fraction'), color='k', fontsize=7)
 
     # date axis settings
     axes[-1].xaxis.set_major_formatter(mdates.DateFormatter('%H:%M:%S'))
@@ -160,7 +199,13 @@ if __name__ == '__main__':
             
             start = flight_segment['start']
             end = flight_segment['end']
-            name = flight_segment['name']
+
+            # workaround for flight segments without a name
+            try:
+                name = flight_segment['name']
+            
+            except KeyError:
+                name = ', '.join(flight_segment['kinds'])
             
             if start and end:
             
@@ -168,8 +213,44 @@ if __name__ == '__main__':
                 ax.axvline(end, color='green', alpha=0.5, linestyle='--')
                 
                 if i_ax == 0:
+                    
+                    if 'segment_id' in flight_segment.keys():
+                        print('plot segment id %s'%flight_segment['segment_id'])
+                    else:
+                        print('plot segment id ???')
+                    
                     ax.annotate('start: '+name, xy=(start, 1), va='bottom', ha='left', xycoords=('data', 'axes fraction'), fontsize=8, rotation=90, color='blue')
                     ax.annotate('end: '+name, xy=(end, 1), va='bottom', ha='right', xycoords=('data', 'axes fraction'), fontsize=8, rotation=90, color='green')
+    
+            # add parts, if they exist for this flight segment
+            if 'parts' in list(flight_segment.keys()):
+                            
+                for j, part in enumerate(flight_segment['parts']):
+                    
+                    start = part['start']
+                    end = part['end']
+                    
+                    # workaround for flight segments without a name
+                    try:
+                        name = part['name']
+                    
+                    except KeyError:
+                        name = ', '.join(part['kinds'])
+                    
+                    if start and end:
+                    
+                        ax.axvline(start, color='blue', alpha=0.5)
+                        ax.axvline(end, color='green', alpha=0.5, linestyle='--')
+                        
+                        if i_ax == 0:
+                            
+                            if 'segment_id' in part.keys():
+                                print('plot segment id %s'%part['segment_id'])
+                            else:
+                                print('plot segment id ???')    
+                        
+                            ax.annotate('start: '+name, xy=(start, 1), va='bottom', ha='left', xycoords=('data', 'axes fraction'), fontsize=6, rotation=90, color='blue')
+                            ax.annotate('end: '+name, xy=(end, 1), va='bottom', ha='right', xycoords=('data', 'axes fraction'), fontsize=6, rotation=90, color='green')
     
     # %% plot dropsonde profiles
     # fig, ax = plt.subplots(1, 3, figsize=(4, 4), constrained_layout=True, sharey=True)
