@@ -1,6 +1,6 @@
 # flight-phase-separation
 
-We still try to include a github action to compile all yamls into one single file.
+The idea behind floght phase separation is to be able to select segments of flights according to their properties. The selection can be done by attributes like names and further on levels and is applied to the platform and instrument data by using start and end datetime objects belonging to the segment.
 
 ## Flight segments
 ### Keyword: kinds
@@ -25,10 +25,38 @@ This table provides an overview of the keywords used to describe the flight segm
 | high_level    | constant flight level at > 2 km altitude        |
 
 #### overflights and underflights
-| kinds               | description                                     |
-| ------------------- | ----------------------------------------------- |
-| nya_overflight      | test        |
-| ps_overflight       | test        |
+| kinds               | description                                                                                         |
+| ------------------- | --------------------------------------------------------------------------------------------------- |
+| nya_overflight      | Overflight over the Ny-Alesund research station. Might be combined or together with *cross_pattern* |
+| ps_overflight       | Overflight over the Ny-Alesund research station. Might be combined or together with *cross_pattern* |
 | a-train_underflight | test        |
 
+#### pattern
+
+Pattern usually consist of parts like legs and turns named accordingly. 
+| kinds                 |                                                                                                                                  |
+| ----------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| cross_pattern         | rectangular crosses with transfer legs in between. Usually flown over Ny-Alesund, Polarstern, or once over Longyearbyen airport. | 
+| racetrack_pattern     | |
+| holding_pattern       | |
+| staircase_pattern     | |
+| sawtooth_pattern      | |
+
+#### turn
+| kinds          |             |
+|----------------|-------------|
+| short_turn     |             |
+| long_turn      |             |
+| procedure_turn |             |
+
 This table is just a template!
+
+## Updating *all_flights.yaml*
+When creating new or updated flight segment files, a new tag with a new veriosn number needs to be created and pushed to kick of the generation of the *all_flights.yaml*.
+
+```
+git add .
+git commmit
+git tag v0.1.2
+git push --tags
+```

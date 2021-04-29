@@ -28,10 +28,10 @@ segments:
     - major_ascend
     - nya_overflight
     - low_level_Sveabreen_glacier
-    name: major ascend 1
+    name: major ascend
     irregularities:
       - whale-watching loop
-    segment_id: ACLOUD_P5_RF14_ma1
+    segment_id: ACLOUD_P5_RF14_ma
     start: 2017-06-08 07:36:50
     end: 2017-06-08 08:08:54
     levels:
@@ -42,8 +42,8 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - high_level_leg
-    name: high level leg 1
+    - high_level
+    name: high level 1
     irregularities: []
     segment_id: ACLOUD_P5_RF14_hl01
     start: 2017-06-08 08:08:54
@@ -394,9 +394,9 @@ segments:
         UGLY: []
   - kinds:
     - major_descend
-    name: major descend 1
+    name: major descend
     irregularities: []
-    segment_id: ACLOUD_P5_RF14_md1
+    segment_id: ACLOUD_P5_RF14_md
     start: 2017-06-08 12:25:40
     end: 2017-06-08 12:51:25
     levels:
