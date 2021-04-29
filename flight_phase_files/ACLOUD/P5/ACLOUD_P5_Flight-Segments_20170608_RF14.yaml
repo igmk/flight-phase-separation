@@ -71,6 +71,7 @@ segments:
     parts:
     - kinds:
       - short_turn
+      name: short turn
       start: 2017-06-08 08:25:57
       end: 2017-06-08 08:27:33
     - kinds:
@@ -84,6 +85,7 @@ segments:
         - 9800
     - kinds:
       - short_turn
+      name: short turn
       start: 2017-06-08 08:29:28
       end: 2017-06-08 08:31:10
     - kinds:
@@ -97,11 +99,12 @@ segments:
         - 9800
     - kinds:
       - circle
+      name: circle
       start: 2017-06-08 08:33:21
       end: 2017-06-08 08:36:30      
   - kinds:
     - high_level
-    name: high level2
+    name: high level 2
     irregularities: []
     segment_id: ACLOUD_P5_RF14_hl02
     start: 2017-06-08 08:36:30
@@ -116,6 +119,7 @@ segments:
     parts: []
   - kinds:
     - short_turn
+    name: short turn
     start: 2017-06-08 08:58:26
     end: 2017-06-08 08:59:08
   - kinds:
@@ -136,6 +140,7 @@ segments:
     parts: []
   - kinds:
     - short_turn
+    name: short turn
     start: 2017-06-08 09:30:30
     end: 2017-06-08 09:31:41 
   - kinds:
@@ -155,6 +160,7 @@ segments:
     parts: []
   - kinds:
     - short_turn
+    name: short turn
     start: 2017-06-08 09:51:04
     end: 2017-06-08 09:51:33
   - kinds:
@@ -194,6 +200,7 @@ segments:
         - 9800
     - kinds:
       - cross_pattern_turn
+      name: cross pattern turn
       start: 2017-06-08 10:03:14
       end: 2017-06-08 10:08:13
     - kinds:
@@ -249,6 +256,7 @@ segments:
     - kinds:
       - procedure_turn
       - small_ascend
+      name: procedure turn
       start: 2017-06-08 10:29:21
       end: 2017-06-08 10:31:41
     - kinds:
@@ -263,6 +271,7 @@ segments:
     - kinds:
       - procedure_turn
       - small_ascend
+      name: procedure turn
       start: 2017-06-08 10:40:27
       end: 2017-06-08 10:42:41
     - kinds:
@@ -277,6 +286,7 @@ segments:
     - kinds:
       - procedure_turn
       - small_ascend
+      name: procedure turn
       start: 2017-06-08 10:50:04
       end: 2017-06-08 10:52:54
     - kinds:
@@ -290,6 +300,7 @@ segments:
         - 2400
   - kinds:
     - short_turn
+    name: short turn
     start: 2017-06-08 11:02:02
     end: 2017-06-08 11:02:25
   - kinds:
@@ -322,6 +333,7 @@ segments:
       UGLY: []
   - kinds:
     - short_turn
+    name: short turn
     start: 2017-06-08 11:52:57
     end: 2017-06-08 11:53:38
   - kinds:
@@ -364,6 +376,7 @@ segments:
         - 9700
     - kinds:
       - cross_pattern_turn
+      name: cross pattern turn
       start: 2017-06-08 12:10:14
       end: 2017-06-08 12:14:42
     - kinds:
@@ -377,6 +390,7 @@ segments:
         - 9700
     - kinds:
       - cross_pattern_turn
+      name: cross pattern turn
       start: 2017-06-08 12:18:51
       end: 2017-06-08 12:24:15
     - kinds:
