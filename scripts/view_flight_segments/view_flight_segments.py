@@ -95,6 +95,9 @@ if __name__ == '__main__':
     
         # add parts, if they exist for this flight segment
         if 'parts' in list(flight_segment.keys()):
+            pn = len(flight_segment['parts'])
+            cmap = cm.get_cmap('prism')
+            pcolors = [cmap(i/pn) for i in range(pn)]
                         
             for j, part in enumerate(flight_segment['parts']):
                 
@@ -115,7 +118,7 @@ if __name__ == '__main__':
                 
                 if start and end:
                 
-                    kwargs = dict(s=2, color=colors[j], linewidths=0.25, transform=data_crs, marker='+', zorder=2)
+                    kwargs = dict(s=2, color=pcolors[j], linewidths=0.25, transform=data_crs, marker='+', zorder=2)
                     ax.scatter(ds_gps.lon.sel(time=slice(start, end)), ds_gps.lat.sel(time=slice(start, end)), **kwargs)
                     
                     kwargs = dict(fontsize=6, ha='right')
