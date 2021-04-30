@@ -131,6 +131,7 @@ if __name__ == '__main__':
                 if start and end:
                 
                     kwargs = dict(s=2, color=colors2[j], linewidths=0.25, transform=data_crs, marker='+', zorder=2)
+
                     ax.scatter(ds_gps.lon.sel(time=slice(start, end)), ds_gps.lat.sel(time=slice(start, end)), **kwargs)
                     
                     kwargs = dict(fontsize=6, ha='right')
