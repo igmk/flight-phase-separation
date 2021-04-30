@@ -3,46 +3,249 @@ mission: ACLOUD
 platform: P5
 flight_id: ACLOUD_P5_RF22
 contacts:
-- name: null
+- name: Manfred Wendisch
   email: null
+  tags:
+    - pi
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
+  tags:
+    - lc
 date: 2017-06-23
-flight_report: null
-takeoff: &id001 2017-06-23 10:57:00
-landing: &id002 2017-06-23 14:38:35
+flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=22_20170623_p5_acloud_flight_report.pdf
+takeoff: 2017-06-23 10:57:00
+landing: 2017-06-23 14:38:35
 events:
 - joint flight with P6
+- Ny Alesund overflight for columnar comparison
 remarks:
 - Column over Ny-Alesund
 segments:
 - kinds:
   - major_ascend
-  name: major ascend 1
+  name: major ascend
   irregularities: []
-  segment_id: ACLOUD_P5_RF22_ma1
-  start: *id001
-  end: null
+  segment_id: ACLOUD_P5_RF22_ma
+  start: 2017-06-23 10:57:00
+  end: 2017-06-23 11:09:00
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
-  - add_new_segments_here
-  name: null
+  - high_level
+  name: high level 1
   irregularities: []
   segment_id: null
-  start: null
-  end: null
+  start: 2017-06-23 11:09:00
+  end: 2017-06-23 11:18:20
+  levels:
+    - 1160
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
-  - major_descend
-  name: major descend 1
+  - short_turn
+  name: short turn 1
+  start: 2017-06-23 11:18:20
+  end: 2017-06-23 11:18:50
+- kinds:
+  - cross_pattern
+  - nya_overflight
+  name: cross pattern 1
   irregularities: []
-  segment_id: ACLOUD_P5_RF22_md1
-  start: null
-  end: *id002
+  segment_id: ACLOUD_P5_RF22_cp01
+  start: 2017-06-23 11:18:50
+  end: 2017-06-23 11:47:40
+  levels:
+    - 9700
+  dropsondes:
+    GOOD:
+      - P5_RF14_sonde01
+    BAD: []
+    UGLY: []
+  parts:
+  - kinds:
+    - cross_pattern_leg
+    name: cross pattern 1 leg 1 
+    irregularities: []
+    segment_id: ACLOUD_P5_RF14_cp01_l01
+    start: 2017-06-23 11:18:50
+    end: 2017-06-23 11:24:30
+    levels:
+      - 9700
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-23 11:24:30
+    end: 2017-06-23 11:31:10
+  - kinds:
+    - cross_pattern_leg
+    name: cross pattern 1 leg 2
+    irregularities: []
+    segment_id: ACLOUD_P5_RF14_cp01_l02
+    start: 2017-06-23 11:31:10
+    end: 2017-06-23 11:35:50
+    levels:
+      - 9700
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-23 11:35:50
+    end: 2017-06-23 11:47:40
+- kinds:
+  - long_legs_pattern
+  - nya_overflight
+  name: long legs pattern 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF22_lp01
+  start: 2017-06-23 11:47:40
+  end: 2017-06-23 13:43:15
+  levels:
+    - 9700
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+  parts:
+  - kinds:
+    - long_legs_pattern_leg
+    name: long legs pattern 1 leg 1 
+    irregularities: []
+    segment_id: ACLOUD_P5_RF14_lp01_l01
+    start: 2017-06-23 11:47:40
+    end: 2017-06-23 12:06:40
+    levels:
+      - 9700
+  - kinds:
+    - long_legs_pattern_turn
+    name: long legs pattern turn 1
+    start: 2017-06-23 12:06:40
+    end: 2017-06-23 12:08:45
+  - kinds:
+    - long_legs_pattern_leg
+    name: long legs pattern 1 leg 2
+    irregularities: []
+    segment_id: ACLOUD_P5_RF14_lp01_l02
+    start: 2017-06-23 12:08:45
+    end: 2017-06-23 12:25:10
+    levels:
+      - 9700
+  - kinds:
+    - long_legs_pattern_turn
+    name: long legs pattern turn 2
+    start: 2017-06-23 12:25:10
+    end: 2017-06-23 12:26:45
+  - kinds:
+    - long_legs_pattern_leg
+    name: long legs pattern 1 leg 3
+    irregularities: []
+    segment_id: ACLOUD_P5_RF14_lp01_l03
+    start: 2017-06-23 12:26:45
+    end: 2017-06-23 12:48:05
+    levels:
+      - 9700
+  - kinds:
+    - long_legs_pattern_turn
+    name: long legs pattern turn 3
+    start: 2017-06-23 12:48:05
+    end: 2017-06-23 12:50:15
+  - kinds:
+    - long_legs_pattern_leg
+    name: long legs pattern 1 leg 4
+    irregularities: []
+    segment_id: ACLOUD_P5_RF14_lp01_l04
+    start: 2017-06-23 12:50:15
+    end: 2017-06-23 13:05:30
+    levels:
+      - 9700
+  - kinds:
+    - long_legs_pattern_turn
+    name: long legs pattern turn 4
+    start: 2017-06-23 13:05:30
+    end: 2017-06-23 13:06:45
+  - kinds:
+    - long_legs_pattern_leg
+    name: long legs pattern 1 leg 5
+    irregularities: []
+    segment_id: ACLOUD_P5_RF14_lp01_l05
+    start: 2017-06-23 13:06:45
+    end: 2017-06-23 13:26:40
+    levels:
+      - 9700
+  - kinds:
+    - long_legs_pattern_turn
+    name: long legs pattern turn 5
+    start: 2017-06-23 13:26:40
+    end: 2017-06-23 13:28:00
+  - kinds:
+    - long_legs_pattern_leg
+    name: long legs pattern 1 leg 6
+    irregularities: []
+    segment_id: ACLOUD_P5_RF14_lp01_l06
+    start: 2017-06-23 13:06:45
+    end: 2017-06-23 13:43:15
+    levels:
+      - 9700
+- kinds:
+  - procedure_turn
+  name: procedure turn 1
+  start: 2017-06-23 13:43:15
+  end: 2017-06-23 13:45:21
+- kinds:
+  - nya_overflight
+  - large_descend
+  name: large descend 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF14_ld01
+  start: 2017-06-23 13:45:21
+  end: 2017-06-23 14:01:50
+  levels:
+    - 14000
+    - 300
+- kinds:
+  - short_turn
+  name: short turn 2
+  start: 2017-06-23 14:01:50
+  end: 2017-06-23 14:03:00
+- kinds:
+  - low_level
+  - nya_overflight
+  name: low level 1
+  irregularities:
+    - leg with large irregularities in the roll angle
+  segment_id: ACLOUD_P5_RF14_ld01
+  start: 2017-06-23 14:03:00
+  end: 2017-06-23 14:13:00
+  levels:
+    - 9700
+- kinds:
+  - small_ascend
+  name: small ascend 1
+  irregularities:
+    - two curves during ascend
+  segment_id: ACLOUD_P5_RF14_sa01
+  start: 2017-06-23 14:13:00
+  end: 2017-06-23 14:17:45
+  levels:
+    - 9700
+- kinds:
+  - mid_level
+  name: mid level 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF14_ml01
+  start: 2017-06-23 14:17:45
+  end: 2017-06-23 14:22:30
+  levels:
+    - 9700
+- kinds:
+  - major_descend
+  name: major descend
+  irregularities: []
+  segment_id: ACLOUD_P5_RF22_md
+  start: 2017-06-23 14:22:30
+  end: 2017-06-23 14:38:35
   dropsondes:
     GOOD: []
     BAD: []

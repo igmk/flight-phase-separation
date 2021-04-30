@@ -79,7 +79,7 @@ if __name__ == '__main__':
             ax.annotate('mean:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).mean('time').values.item()*3.28)), 0),
                         xy=(1.05, 0.8), **kwargs)
             
-            ax.set_xlabel('Altitude, {} steps [ft]'.format(steps))
+            ax.set_xlabel('Altitude [ft]\nstep width: {} ft'.format(steps))
             ax.set_ylabel('Count')
             
             tellme('Segment: '+name+'\nNext: right mouse')
@@ -125,7 +125,7 @@ if __name__ == '__main__':
                     ax.annotate('mean:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).mean('time').values.item()*3.28)), 0),
                                 xy=(1.05, 0.8), **kwargs)
                     
-                    ax.set_xlabel('Altitude, {} steps [ft]'.format(steps))
+                    ax.set_xlabel('Altitude [ft]\nstep width: {} ft'.format(steps))
                     ax.set_ylabel('Count')
             
                     tellme('Segment: '+name+'\nNext: right mouse')

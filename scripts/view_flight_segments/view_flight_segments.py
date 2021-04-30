@@ -58,15 +58,25 @@ if __name__ == '__main__':
     fig, ax = plt.subplots(1, 1, figsize=(5, 5), subplot_kw=dict(projection=map_crs))
     ax.coastlines()
     
+    # add places
+    lon_n, lat_n = (11.922222, 78.925)     # coordinates Ny Alesund
+    lon_l, lat_l = (15.633333, 78.216667)  # coordinates Longyearbyen
+
+    ax.scatter(lon_n, lat_n, marker='o', c='r', s=10, zorder=3, transform=data_crs, edgecolors='none')
+    ax.annotate(text='NYA', xy=ax.projection.transform_point(lon_n, lat_n, data_crs))
+    ax.scatter(lon_l, lat_l, marker='o', c='r', s=10, zorder=3, transform=data_crs, edgecolors='none')
+    ax.annotate(text='LYR', xy=ax.projection.transform_point(lon_l, lat_l, data_crs), va='top', ha='center')
+    
     # plot flight in black
     kwargs = dict(s=4, color='k', linewidths=0, transform=data_crs, zorder=0)
     ax.scatter(ds_gps.lon, ds_gps.lat, **kwargs)
     
     # plot flight segments as colored points
+    cmap = cm.get_cmap('gist_rainbow')
     n = len(flight_segments['segments'])
-    cmap = cm.get_cmap('prism')
-    colors = [cmap(i/n) for i in range(n)]
-                
+    rnd = np.random.uniform(low=0, high=1, size=n)
+    colors1 = cmap(rnd)
+    
     for i, flight_segment in enumerate(flight_segments['segments']):
         
         if 'segment_id' in flight_segment.keys():
@@ -86,7 +96,7 @@ if __name__ == '__main__':
         
         if start and end:
         
-            kwargs = dict(s=10, color=colors[i], linewidths=0, transform=data_crs, zorder=1)
+            kwargs = dict(s=10, color=colors1[i], linewidths=0, transform=data_crs, zorder=1)
             ax.scatter(ds_gps.lon.sel(time=slice(start, end)), ds_gps.lat.sel(time=slice(start, end)), **kwargs)
             
             kwargs = dict(fontsize=8, ha='left')
@@ -95,7 +105,12 @@ if __name__ == '__main__':
     
         # add parts, if they exist for this flight segment
         if 'parts' in list(flight_segment.keys()):
-                        
+            
+            # make cmap for parts
+            n = len(flight_segment['parts'])
+            rnd = np.random.uniform(low=0, high=1, size=n)
+            colors2 = cmap(rnd)
+
             for j, part in enumerate(flight_segment['parts']):
                 
                 if 'segment_id' in part.keys():
@@ -115,7 +130,7 @@ if __name__ == '__main__':
                 
                 if start and end:
                 
-                    kwargs = dict(s=2, color=colors[j], linewidths=0.25, transform=data_crs, marker='+', zorder=2)
+                    kwargs = dict(s=2, color=colors2[j], linewidths=0.25, transform=data_crs, marker='+', zorder=2)
                     ax.scatter(ds_gps.lon.sel(time=slice(start, end)), ds_gps.lat.sel(time=slice(start, end)), **kwargs)
                     
                     kwargs = dict(fontsize=6, ha='right')

@@ -71,9 +71,10 @@ if __name__ == '__main__':
     ax.scatter(ds_gps.lon, ds_gps.lat, **kwargs)
     
     # plot flight segments as colored points
+    cmap = cm.get_cmap('gist_rainbow')
     n = len(flight_segments['segments'])
-    cmap = cm.get_cmap('prism')
-    colors = [cmap(i/n) for i in range(n)]
+    rnd = np.random.uniform(low=0, high=1, size=n)
+    colors1 = cmap(rnd)
     
     for i, flight_segment in enumerate(flight_segments['segments']):
         
@@ -97,7 +98,7 @@ if __name__ == '__main__':
         
         if start and end:
         
-            kwargs = dict(s=10, color=colors[i], linewidths=0, transform=data_crs, zorder=1)
+            kwargs = dict(s=10, color=colors1[i], linewidths=0, transform=data_crs, zorder=1)
             ax.scatter(ds_gps.lon.sel(time=slice(start, end)), ds_gps.lat.sel(time=slice(start, end)), **kwargs)
             
             kwargs = dict(fontsize=8, ha='left')
@@ -106,9 +107,17 @@ if __name__ == '__main__':
     
         # add parts, if they exist for this flight segment
         if 'parts' in list(flight_segment.keys()):
+            
+            # make cmap for parts
+            n = len(flight_segment['parts'])
+            rnd = np.random.uniform(low=0, high=1, size=n)
+            colors2 = cmap(rnd)
                         
             for j, part in enumerate(flight_segment['parts']):
                 
+                tellme('Draw next part: right mouse button\nStop drawing: middle mouse button')
+                pts = plt.ginput(n=1, timeout=-1, show_clicks=False, mouse_add=MouseButton.RIGHT, mouse_stop=MouseButton.MIDDLE, mouse_pop=MouseButton.LEFT)
+        
                 if 'segment_id' in part.keys():
                     print('plot segment id %s'%part['segment_id'])
                 else:
@@ -126,7 +135,7 @@ if __name__ == '__main__':
                 
                 if start and end:
                 
-                    kwargs = dict(s=2, color=colors[j], linewidths=0.25, transform=data_crs, marker='+', zorder=2)
+                    kwargs = dict(s=2, color=colors2[j], linewidths=0.25, transform=data_crs, marker='+', zorder=2)
                     ax.scatter(ds_gps.lon.sel(time=slice(start, end)), ds_gps.lat.sel(time=slice(start, end)), **kwargs)
                     
                     kwargs = dict(fontsize=6, ha='right')
