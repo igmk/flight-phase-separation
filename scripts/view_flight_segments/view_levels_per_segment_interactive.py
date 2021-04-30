@@ -12,8 +12,8 @@ import yaml
 import sys
 
 
-def tellme(s):
-    plt.title(s, fontsize=16)
+def tellme(s, ax):
+    ax.set_title(s)
     plt.draw()
 
 
@@ -62,27 +62,32 @@ if __name__ == '__main__':
         
         if start and end:
             
-            fig, ax = plt.subplots(1, 1, figsize=(10, 4), constrained_layout=True)
+            fig, [ax1, ax2] = plt.subplots(2, 1, figsize=(10, 9), constrained_layout=True)
             
             steps = 100
             bins = np.arange(0, 20000+steps, steps)
-            ax.hist(ds_gps.alt.sel(time=slice(start, end))*3.28, color='k', bins=bins)
-            
+            ax1.hist(ds_gps.alt.sel(time=slice(start, end))*3.28, color='k', bins=bins)
+            nbins = 100
+            ax2.hist(ds_gps.alt.sel(time=slice(start, end))*3.28, color='k', bins=nbins)
+
             # annotate min max median
             kwargs = dict(ha='left', va='top', xycoords='axes fraction')
-            ax.annotate('min:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).min('time').values.item()*3.28)), 0),
+            ax1.annotate('min:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).min('time').values.item()*3.28)), 0),
                         xy=(1.05, 0.3), **kwargs)
-            ax.annotate('max:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).max('time').values.item()*3.28)), 0),
+            ax1.annotate('max:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).max('time').values.item()*3.28)), 0),
                         xy=(1.05, 0.1), **kwargs)
-            ax.annotate('median:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).median('time').values.item()*3.28)), 0),
+            ax1.annotate('median:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).median('time').values.item()*3.28)), 0),
                         xy=(1.05, 1), **kwargs)
-            ax.annotate('mean:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).mean('time').values.item()*3.28)), 0),
+            ax1.annotate('mean:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).mean('time').values.item()*3.28)), 0),
                         xy=(1.05, 0.8), **kwargs)
             
-            ax.set_xlabel('Altitude [ft]\nstep width: {} ft'.format(steps))
-            ax.set_ylabel('Count')
+            ax1.set_xlabel('Altitude [ft]\nstep width: {} ft'.format(steps))
+            ax1.set_ylabel('Count')
             
-            tellme('Segment: '+name+'\nNext: right mouse')
+            ax2.set_xlabel('Altitude [ft]\nnumber of bins: {}'.format(nbins))
+            ax2.set_ylabel('Count')
+            
+            tellme('Segment: '+name+'\nNext: right mouse', ax1)
             pts = plt.ginput(n=1, timeout=-1, show_clicks=False, mouse_add=MouseButton.RIGHT, mouse_stop=MouseButton.MIDDLE, mouse_pop=MouseButton.LEFT)
             
             plt.close()
@@ -109,26 +114,32 @@ if __name__ == '__main__':
                 
                 if start and end:
                     
-                    fig, ax = plt.subplots(1, 1, figsize=(7, 4), constrained_layout=True)
+                    fig, [ax1, ax2] = plt.subplots(2, 1, figsize=(10, 9), constrained_layout=True)
                     
-                    bins = np.arange(0, 20000, 100)
-                    ax.hist(ds_gps.alt.sel(time=slice(start, end))*3.28, color='k', bins=bins)
-                    
+                    steps = 100
+                    bins = np.arange(0, 20000+steps, steps)
+                    ax1.hist(ds_gps.alt.sel(time=slice(start, end))*3.28, color='k', bins=bins)
+                    nbins = 100
+                    ax2.hist(ds_gps.alt.sel(time=slice(start, end))*3.28, color='k', bins=nbins)
+        
                     # annotate min max median
                     kwargs = dict(ha='left', va='top', xycoords='axes fraction')
-                    ax.annotate('min:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).min('time').values.item()*3.28)), 0),
+                    ax1.annotate('min:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).min('time').values.item()*3.28)), 0),
                                 xy=(1.05, 0.3), **kwargs)
-                    ax.annotate('max:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).max('time').values.item()*3.28)), 0),
+                    ax1.annotate('max:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).max('time').values.item()*3.28)), 0),
                                 xy=(1.05, 0.1), **kwargs)
-                    ax.annotate('median:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).median('time').values.item()*3.28)), 0),
+                    ax1.annotate('median:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).median('time').values.item()*3.28)), 0),
                                 xy=(1.05, 1), **kwargs)
-                    ax.annotate('mean:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).mean('time').values.item()*3.28)), 0),
+                    ax1.annotate('mean:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).mean('time').values.item()*3.28)), 0),
                                 xy=(1.05, 0.8), **kwargs)
                     
-                    ax.set_xlabel('Altitude [ft]\nstep width: {} ft'.format(steps))
-                    ax.set_ylabel('Count')
+                    ax1.set_xlabel('Altitude [ft]\nstep width: {} ft'.format(steps))
+                    ax1.set_ylabel('Count')
+                    
+                    ax2.set_xlabel('Altitude [ft]\nnumber of bins: {}'.format(nbins))
+                    ax2.set_ylabel('Count')
             
-                    tellme('Segment: '+name+'\nNext: right mouse')
+                    tellme('Segment: '+name+'\nNext: right mouse', ax1)
                     pts = plt.ginput(n=1, timeout=-1, show_clicks=False, mouse_add=MouseButton.RIGHT, mouse_stop=MouseButton.MIDDLE, mouse_pop=MouseButton.LEFT)
-            
+                    
                     plt.close()
