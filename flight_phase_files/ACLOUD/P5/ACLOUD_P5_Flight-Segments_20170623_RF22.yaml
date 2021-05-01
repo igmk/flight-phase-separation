@@ -4,7 +4,7 @@ platform: P5
 flight_id: ACLOUD_P5_RF22
 contacts:
 - name: Manfred Wendisch
-  email: null
+  email: m.wendisch@uni-leipzig.de
   tags:
     - pi
 - name: Nils Risse
@@ -28,6 +28,7 @@ segments:
   segment_id: ACLOUD_P5_RF22_ma
   start: 2017-06-23 10:57:00
   end: 2017-06-23 11:09:00
+  levels: [100, 11700]
   dropsondes:
     GOOD: []
     BAD: []
@@ -39,8 +40,7 @@ segments:
   segment_id: null
   start: 2017-06-23 11:09:00
   end: 2017-06-23 11:18:20
-  levels:
-    - 1160
+  levels: [11700]
   dropsondes:
     GOOD: []
     BAD: []
@@ -58,11 +58,10 @@ segments:
   segment_id: ACLOUD_P5_RF22_cp01
   start: 2017-06-23 11:18:50
   end: 2017-06-23 11:47:40
-  levels:
-    - 9700
+  levels: [12000, 12100]
   dropsondes:
     GOOD:
-      - P5_RF14_sonde01
+      - P5_RF22_sonde01
     BAD: []
     UGLY: []
   parts:
@@ -70,11 +69,10 @@ segments:
     - cross_pattern_leg
     name: cross pattern 1 leg 1 
     irregularities: []
-    segment_id: ACLOUD_P5_RF14_cp01_l01
+    segment_id: ACLOUD_P5_RF22_cp01_l01
     start: 2017-06-23 11:18:50
     end: 2017-06-23 11:24:30
-    levels:
-      - 9700
+    levels: [12000]
   - kinds:
     - cross_pattern_turn
     name: cross pattern turn
@@ -84,11 +82,10 @@ segments:
     - cross_pattern_leg
     name: cross pattern 1 leg 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF14_cp01_l02
+    segment_id: ACLOUD_P5_RF22_cp01_l02
     start: 2017-06-23 11:31:10
     end: 2017-06-23 11:35:50
-    levels:
-      - 9700
+    levels: [12100]
   - kinds:
     - cross_pattern_turn
     name: cross pattern turn
@@ -102,10 +99,12 @@ segments:
   segment_id: ACLOUD_P5_RF22_lp01
   start: 2017-06-23 11:47:40
   end: 2017-06-23 13:43:15
-  levels:
-    - 9700
+  levels: [12100, 13900, 14000]
   dropsondes:
-    GOOD: []
+    GOOD:
+      - P5_RF22_sonde02
+      - P5_RF22_sonde03
+      - P5_RF22_sonde04
     BAD: []
     UGLY: []
   parts:
@@ -113,84 +112,78 @@ segments:
     - long_legs_pattern_leg
     name: long legs pattern 1 leg 1 
     irregularities: []
-    segment_id: ACLOUD_P5_RF14_lp01_l01
+    segment_id: ACLOUD_P5_RF22_lp01_l01
     start: 2017-06-23 11:47:40
     end: 2017-06-23 12:06:40
-    levels:
-      - 9700
+    levels: [12100]
   - kinds:
     - long_legs_pattern_turn
-    name: long legs pattern turn 1
+    name: long legs pattern turn
     start: 2017-06-23 12:06:40
     end: 2017-06-23 12:08:45
   - kinds:
     - long_legs_pattern_leg
     name: long legs pattern 1 leg 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF14_lp01_l02
+    segment_id: ACLOUD_P5_RF22_lp01_l02
     start: 2017-06-23 12:08:45
     end: 2017-06-23 12:25:10
-    levels:
-      - 9700
+    levels: [12100]
   - kinds:
     - long_legs_pattern_turn
-    name: long legs pattern turn 2
+    name: long legs pattern turn
     start: 2017-06-23 12:25:10
     end: 2017-06-23 12:26:45
   - kinds:
     - long_legs_pattern_leg
     name: long legs pattern 1 leg 3
     irregularities: []
-    segment_id: ACLOUD_P5_RF14_lp01_l03
+    segment_id: ACLOUD_P5_RF22_lp01_l03
     start: 2017-06-23 12:26:45
     end: 2017-06-23 12:48:05
-    levels:
-      - 9700
+    levels: [12100]
   - kinds:
     - long_legs_pattern_turn
-    name: long legs pattern turn 3
+    name: long legs pattern turn
     start: 2017-06-23 12:48:05
     end: 2017-06-23 12:50:15
   - kinds:
     - long_legs_pattern_leg
     name: long legs pattern 1 leg 4
     irregularities: []
-    segment_id: ACLOUD_P5_RF14_lp01_l04
+    segment_id: ACLOUD_P5_RF22_lp01_l04
     start: 2017-06-23 12:50:15
     end: 2017-06-23 13:05:30
-    levels:
-      - 9700
+    levels: [13900]
   - kinds:
     - long_legs_pattern_turn
-    name: long legs pattern turn 4
+    name: long legs pattern turn
     start: 2017-06-23 13:05:30
     end: 2017-06-23 13:06:45
   - kinds:
     - long_legs_pattern_leg
     name: long legs pattern 1 leg 5
     irregularities: []
-    segment_id: ACLOUD_P5_RF14_lp01_l05
+    segment_id: ACLOUD_P5_RF22_lp01_l05
     start: 2017-06-23 13:06:45
     end: 2017-06-23 13:26:40
-    levels:
-      - 9700
+    levels: [14000]
   - kinds:
     - long_legs_pattern_turn
-    name: long legs pattern turn 5
+    name: long legs pattern turn
     start: 2017-06-23 13:26:40
     end: 2017-06-23 13:28:00
   - kinds:
     - long_legs_pattern_leg
     name: long legs pattern 1 leg 6
     irregularities: []
-    segment_id: ACLOUD_P5_RF14_lp01_l06
+    segment_id: ACLOUD_P5_RF22_lp01_l06
     start: 2017-06-23 13:06:45
     end: 2017-06-23 13:43:15
-    levels:
-      - 9700
+    levels: [14000]
 - kinds:
   - procedure_turn
-  name: procedure turn 1
+  name: procedure turn
   start: 2017-06-23 13:43:15
   end: 2017-06-23 13:45:21
 - kinds:
@@ -198,15 +191,13 @@ segments:
   - large_descend
   name: large descend 1
   irregularities: []
-  segment_id: ACLOUD_P5_RF14_ld01
+  segment_id: ACLOUD_P5_RF22_ld01
   start: 2017-06-23 13:45:21
   end: 2017-06-23 14:01:50
-  levels:
-    - 14000
-    - 300
+  levels: [14000, 200]
 - kinds:
   - short_turn
-  name: short turn 2
+  name: short turn
   start: 2017-06-23 14:01:50
   end: 2017-06-23 14:03:00
 - kinds:
@@ -215,30 +206,28 @@ segments:
   name: low level 1
   irregularities:
     - leg with large irregularities in the roll angle
-  segment_id: ACLOUD_P5_RF14_ld01
+  segment_id: ACLOUD_P5_RF22_ll01
   start: 2017-06-23 14:03:00
   end: 2017-06-23 14:13:00
-  levels:
-    - 9700
+  levels: [200, 500]
 - kinds:
   - small_ascend
   name: small ascend 1
   irregularities:
     - two curves during ascend
-  segment_id: ACLOUD_P5_RF14_sa01
+  segment_id: ACLOUD_P5_RF22_sa01
   start: 2017-06-23 14:13:00
   end: 2017-06-23 14:17:45
-  levels:
-    - 9700
+  levels: [500, 4900]
 - kinds:
   - mid_level
   name: mid level 1
-  irregularities: []
-  segment_id: ACLOUD_P5_RF14_ml01
+  irregularities:
+    - slight curve at the end of pattern
+  segment_id: ACLOUD_P5_RF22_ml01
   start: 2017-06-23 14:17:45
   end: 2017-06-23 14:22:30
-  levels:
-    - 9700
+  levels: [4900]
 - kinds:
   - major_descend
   name: major descend
@@ -246,6 +235,7 @@ segments:
   segment_id: ACLOUD_P5_RF22_md
   start: 2017-06-23 14:22:30
   end: 2017-06-23 14:38:35
+  levels: [100, 4700]
   dropsondes:
     GOOD: []
     BAD: []
