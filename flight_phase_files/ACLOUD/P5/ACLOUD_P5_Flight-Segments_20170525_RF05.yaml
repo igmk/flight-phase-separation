@@ -4,7 +4,7 @@ platform: P5
 flight_id: ACLOUD_P5_RF05
 contacts:
 - name: Andre Ehrlich
-  email: null
+  email: a.ehrlich@uni-leipzig.de
   tags:
     - pi
 - name: Nils Risse
