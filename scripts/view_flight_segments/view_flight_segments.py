@@ -190,8 +190,9 @@ if __name__ == '__main__':
     
     # add dropsondes
     for ds_name, ds_dsd in dict_ds_dsd.items():
-        if flight['campaign'] == 'MOSAiC-ACA':
-            ds_dsd = ds_dsd.rename({'launch_time':'base_time'})
+        if 'launch_time' in list(ds_dsd.keys()) and not 'base_time' in list(ds_dsd.keys()):
+            ds_dsd = ds_dsd.rename({'launch_time': 'base_time'})
+            
         # latitude plot
         axes[0].scatter(ds_dsd.time, ds_dsd.lat, **ds_kwargs)
         axes[0].annotate(ds_name, xy=(ds_dsd.base_time, 0), xycoords=('data', 'axes fraction'), color='k', fontsize=7)
