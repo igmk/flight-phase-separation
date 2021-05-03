@@ -122,7 +122,7 @@ segments:
   segment_id: ACLOUD_P5_RF10_st01
   start: 2019-04-08 11:33:40
   end: 2019-04-08 12:07:00
-  levels: [200, ]
+  levels: [200, 1300, 1700, 2000, 2300, 2800]
   dropsondes:
     GOOD: []
     BAD: []
