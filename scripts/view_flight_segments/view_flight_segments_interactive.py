@@ -78,7 +78,7 @@ if __name__ == '__main__':
     
     for i, flight_segment in enumerate(flight_segments['segments']):
         
-        tellme('Draw next segment: right mouse button\nStop drawing: middle mouse button')
+        tellme('Segment: '+flight_segment['name']+'\nnext segment: right click')
         pts = plt.ginput(n=1, timeout=-1, show_clicks=False, mouse_add=MouseButton.RIGHT, mouse_stop=MouseButton.MIDDLE, mouse_pop=MouseButton.LEFT)
         
         if 'segment_id' in flight_segment.keys():
@@ -102,8 +102,8 @@ if __name__ == '__main__':
             ax.scatter(ds_gps.lon.sel(time=slice(start, end)), ds_gps.lat.sel(time=slice(start, end)), **kwargs)
             
             kwargs = dict(fontsize=8, ha='left')
-            ax.annotate(name, xy=ax.projection.transform_point(ds_gps.lon.sel(time=start), ds_gps.lat.sel(time=start), data_crs), va='top', color='k', **kwargs)
-            ax.annotate(name, xy=ax.projection.transform_point(ds_gps.lon.sel(time=end), ds_gps.lat.sel(time=end), data_crs), va='bottom', color='gray', **kwargs)
+            ax.annotate(name, xy=ax.projection.transform_point(ds_gps.lon.sel(time=start, method='nearest'), ds_gps.lat.sel(time=start, method='nearest'), data_crs), va='top', color='k', **kwargs)
+            ax.annotate(name, xy=ax.projection.transform_point(ds_gps.lon.sel(time=end, method='nearest'), ds_gps.lat.sel(time=end, method='nearest'), data_crs), va='bottom', color='gray', **kwargs)
     
         # add parts, if they exist for this flight segment
         if 'parts' in list(flight_segment.keys()):
@@ -115,7 +115,7 @@ if __name__ == '__main__':
                         
             for j, part in enumerate(flight_segment['parts']):
                 
-                tellme('Draw next part: right mouse button\nStop drawing: middle mouse button')
+                tellme('Segment: '+part['name']+'\nnext segment: right click')
                 pts = plt.ginput(n=1, timeout=-1, show_clicks=False, mouse_add=MouseButton.RIGHT, mouse_stop=MouseButton.MIDDLE, mouse_pop=MouseButton.LEFT)
         
                 if 'segment_id' in part.keys():
