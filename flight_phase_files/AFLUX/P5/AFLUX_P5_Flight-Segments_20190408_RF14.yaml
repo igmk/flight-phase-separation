@@ -24,8 +24,8 @@ segments:
 - kinds:
   - major_ascend
   name: major ascend
-  irregularities: [
-]  segment_id: AFLUX_P5_RF14_ma
+  irregularities: []  
+  segment_id: AFLUX_P5_RF14_ma
   start: 2019-04-08 09:05:30
   end: 2019-04-08 09:16:25
   levels: [100, 9300]
@@ -359,6 +359,7 @@ segments:
   end: 2019-04-08 13:17:10
 - kinds:
   - high_level
+  - nya_overflight
   name: high level 5
   irregularities: []
   segment_id: AFLUX_P5_RF14_hl05
