@@ -1,6 +1,6 @@
 name: RF23
 mission: ACLOUD
-platform: Polar5
+platform: P5
 flight_id: ACLOUD_P5_RF23
 contacts:
 - name: Christof Lüpkes
