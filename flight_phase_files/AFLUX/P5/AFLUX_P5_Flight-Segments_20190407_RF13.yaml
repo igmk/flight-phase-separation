@@ -3,45 +3,496 @@ mission: AFLUX
 platform: P5
 flight_id: AFLUX_P5_RF13
 contacts:
-- name: null
+- name: Yvonne Boose
   email: null
+  tags:
+    - pi
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
+  tags:
+    - lc
 date: 2019-04-07
-flight_report: null
-takeoff: &id001 2019-04-07 07:21:35
-landing: &id002 2019-04-07 12:16:40
-events: []
+flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetch.php?media=13_20190407_aflux_flight_report.pdf
+takeoff: 2019-04-07 07:21:35
+landing: 2019-04-07 12:16:40
+events:
+  - CloudSat/Calipso underflight
+  - Ny Alesund overflight
 remarks:
-- CloudSat/Calipso underflight with thin low and midlevel clouds
+  - thin low and midlevel clouds
 segments:
 - kinds:
   - major_ascend
-  name: major ascend 1
+  name: major ascend
   irregularities: []
-  segment_id: AFLUX_P5_RF13_ma1
-  start: *id001
-  end: null
+  segment_id: AFLUX_P5_RF13_ma
+  start: 2019-04-07 07:21:35
+  end: 2019-04-07 07:32:50
+  levels: []
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
-  - add_new_segments_here
-  name: null
+  - high_level
+  name: high level 1
   irregularities: []
-  segment_id: null
-  start: null
-  end: null
+  segment_id: AFLUX_P5_RF13_hl01
+  start: 2019-04-07 07:32:50
+  end: 2019-04-07 08:15:20
+  levels: []
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2019-04-07 08:15:20
+  end: 2019-04-07 08:16:15
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: AFLUX_P5_RF13_hl01
+  start: 2019-04-07 08:16:15
+  end: 2019-04-07 08:19:30
+  levels: []
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2019-04-07 08:19:30
+  end: 2019-04-07 08:23:35
+- kinds:
+  - high_level
+  - cloudsat_calipso_underflight
+  name: high level 2
+  irregularities: []
+  segment_id: AFLUX_P5_RF13_hl02
+  start: 2019-04-07 08:23:35
+  end: 2019-04-07 08:50:00
+  levels: []
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2019-04-07 08:50:00
+  end: 2019-04-07 08:53:05
+- kinds:
+  - sawtooth_pattern
+  name: sawtooth pattern 1
+  irregularities: []
+  segment_id: AFLUX_P5_RF13_st01
+  start: 2019-04-07 08:53:05
+  end: 2019-04-07 09:19:00
+  levels: []
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+  parts:
+  - kinds:
+    - descend
+    name: sawtooth pattern 1 descend 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF13_st01_d01
+    start: 2019-04-07 08:53:05
+    end: 2019-04-07 08:57:20
+    levels: []
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+  - kinds:
+    - mid_level
+    name: sawtooth pattern 1 mid level 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF13_st01_m01
+    start: 2019-04-07 08:57:20
+    end: 2019-04-07 08:58:30
+    levels: []
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+  - kinds:
+    - descend
+    name: sawtooth pattern 1 descend 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF13_st01_d01
+    start: 2019-04-07 08:58:30
+    end: 2019-04-07 09:00:05
+    levels: []
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+  - kinds:
+    - ascend
+    name: sawtooth pattern 1 ascend 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF13_st01_a01
+    start: 2019-04-07 09:00:05
+    end: 2019-04-07 09:02:40
+    levels: []
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+  - kinds:
+    - descend
+    name: sawtooth pattern 1 descend 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF13_st01_d01
+    start: 2019-04-07 09:02:40
+    end: 2019-04-07 09:08:55
+    levels: []
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+  - kinds:
+    - ascend
+    name: sawtooth pattern 1 ascend 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF13_st01_a01
+    start: 2019-04-07 09:08:55
+    end: 2019-04-07 09:11:50
+    levels: []
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+  - kinds:
+    - descend
+    name: sawtooth pattern 1 descend 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF13_st01_d01
+    start: 2019-04-07 09:11:50
+    end: 2019-04-07 09:14:15
+    levels: []
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+  - kinds:
+    - ascend
+    name: sawtooth pattern 1 ascend 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF13_st01_a01
+    start: 2019-04-07 09:14:15
+    end: 2019-04-07 09:16:40
+    levels: []
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+  - kinds:
+    - descend
+    name: sawtooth pattern 1 descend 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF13_st01_d01
+    start: 2019-04-07 09:16:40
+    end: 2019-04-07 09:19:00
+    levels: []
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+- kinds:
+  - low_level
+  name: low level 1
+  irregularities: []
+  segment_id: AFLUX_P5_RF13_ll01
+  start: 2019-04-07 09:19:00
+  end: 2019-04-07 09:21:00
+  levels: []
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2019-04-07 09:21:00
+  end: 2019-04-07 09:22:45
+- kinds:
+  - large_ascend
+  name: large ascend 1
+  irregularities:
+    - end of procedure turn and two short turns during ascend
+  segment_id: AFLUX_P5_RF13_la01
+  start: 2019-04-07 09:22:45
+  end: 2019-04-07 09:30:45
+  levels: []
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - large_descend
+  name: large descend 2
+  irregularities: []
+  segment_id: AFLUX_P5_RF13_ld01
+  start: 2019-04-07 09:30:45
+  end: 2019-04-07 09:38:00
+  levels: []
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2019-04-07 09:38:00
+  end: 2019-04-07 09:40:20
+- kinds:
+  - racetrack pattern
+  name: racetrack pattern 1
+  irregularities: []
+  segment_id: AFLUX_P5_RF13_rt01
+  start: 2019-04-07 09:40:20
+  end: 2019-04-07 11:14:05
+  levels: []
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+  parts:
+  - kinds:
+    - racetrack_leg
+    name: racetrack 1 leg 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF13_rt01_l01
+    start: 2019-04-07 09:40:20
+    end: 2019-04-07 09:49:10
+    levels: []
+  - kinds:
+    - procedure_turn
+    name: procedure turn
+    start: 2019-04-07 09:49:10
+    end: 2019-04-07 09:51:10
+  - kinds:
+    - racetrack_leg
+    name: racetrack 1 leg 2
+    irregularities: []
+    segment_id: AFLUX_P5_RF13_rt01_l02
+    start: 2019-04-07 09:51:10
+    end: 2019-04-07 10:00:40
+    levels: []
+  - kinds:
+    - procedure_turn
+    name: procedure turn
+    start: 2019-04-07 10:00:40
+    end: 2019-04-07 10:03:30
+  - kinds:
+    - racetrack_leg
+    name: racetrack 1 leg 3
+    irregularities:
+      - slight curve during leg
+    segment_id: AFLUX_P5_RF13_rt01_l03
+    start: 2019-04-07 10:03:30
+    end: 2019-04-07 10:12:50
+    levels: []
+  - kinds:
+    - procedure_turn
+    name: procedure turn
+    start: 2019-04-07 10:12:50
+    end: 2019-04-07 10:15:00
+  - kinds:
+    - racetrack_leg
+    name: racetrack 1 leg 4
+    irregularities:
+      - slight curve during leg
+    segment_id: AFLUX_P5_RF13_rt01_l04
+    start: 2019-04-07 10:15:00
+    end: 2019-04-07 10:25:00
+    levels: []
+  - kinds:
+    - deicing_leg
+    name: deicing leg
+    start: 2019-04-07 10:25:00
+    end: 2019-04-07 10:41:20
+  - kinds:
+    - racetrack_leg
+    name: racetrack 1 leg 5
+    irregularities:
+      - slight curve during leg
+    segment_id: AFLUX_P5_RF13_rt01_l05
+    start: 2019-04-07 10:41:20
+    end: 2019-04-07 10:50:50
+    levels: []
+  - kinds:
+    - procedure_turn
+    name: procedure turn
+    start: 2019-04-07 10:50:50
+    end: 2019-04-07 10:53:30
+  - kinds:
+    - racetrack_leg
+    name: racetrack 1 leg 5
+    irregularities:
+      - slight curve during leg
+    segment_id: AFLUX_P5_RF13_rt01_l05
+    start: 2019-04-07 10:53:30
+    end: 2019-04-07 11:02:15
+    levels: []
+  - kinds:
+    - procedure_turn
+    name: procedure turn
+    start: 2019-04-07 11:02:15
+    end: 2019-04-07 11:05:50
+  - kinds:
+    - racetrack_leg
+    name: racetrack 1 leg 5
+    irregularities:
+      - slight curve during leg
+    segment_id: AFLUX_P5_RF13_rt01_l05
+    start: 2019-04-07 11:05:50
+    end: 2019-04-07 11:14:05
+    levels: []
+- kinds:
+  - large_ascend
+  name: large_ascend
+  irregularities:
+    - two curves during ascend
+  segment_id: AFLUX_P5_RF13_la02
+  start: 2019-04-07 11:14:05
+  end: 2019-04-07 11:20:45
+  levels: []
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: AFLUX_P5_RF13_hl03
+  start: 2019-04-07 11:20:45
+  end: 2019-04-07 11:25:45
+  levels: []
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2019-04-07 11:25:45
+  end: 2019-04-07 11:26:15
+- kinds:
+  - high_level
+  name: high level 4
+  irregularities: []
+  segment_id: AFLUX_P5_RF13_hl04
+  start: 2019-04-07 11:26:15
+  end: 2019-04-07 11:47:40
+  levels: []
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2019-04-07 11:47:40
+  end: 2019-04-07 11:48:40
+- kinds:
+  - high_level
+  name: high level 5
+  irregularities: []
+  segment_id: AFLUX_P5_RF13_hl05
+  start: 2019-04-07 11:48:40
+  end: 2019-04-07 11:50:10
+  levels: []
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2019-04-07 11:50:10
+  end: 2019-04-07 11:51:00
+- kinds:
+  - high_level
+  name: high level 6
+  irregularities: []
+  segment_id: AFLUX_P5_RF13_hl06
+  start: 2019-04-07 11:51:00
+  end: 2019-04-07 11:53:20
+  levels: []
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2019-04-07 11:53:20
+  end: 2019-04-07 11:54:35
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 7
+  irregularities: []
+  segment_id: AFLUX_P5_RF13_hl07
+  start: 2019-04-07 11:54:35
+  end: 2019-04-07 11:57:10
+  levels: []
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2019-04-07 11:57:10
+  end: 2019-04-07 11:57:45
+- kinds:
+  - high_level
+  name: high level 8
+  irregularities: []
+  segment_id: AFLUX_P5_RF13_hl08
+  start: 2019-04-07 11:57:45
+  end: 2019-04-07 11:59:20
+  levels: []
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2019-04-07 11:59:20
+  end: 2019-04-07 12:00:20
+- kinds:
+  - high_level
+  name: high level 9
+  irregularities: []
+  segment_id: AFLUX_P5_RF13_hl09
+  start: 2019-04-07 12:00:20
+  end: 2019-04-07 12:03:50
+  levels: []
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
   - major_descend
-  name: major descend 1
+  name: major descend
   irregularities: []
-  segment_id: AFLUX_P5_RF13_md1
-  start: null
-  end: *id002
+  segment_id: AFLUX_P5_RF13_md
+  start: 2019-04-07 12:03:50
+  end: 2019-04-07 12:16:40
+  levels: []
   dropsondes:
     GOOD: []
     BAD: []
