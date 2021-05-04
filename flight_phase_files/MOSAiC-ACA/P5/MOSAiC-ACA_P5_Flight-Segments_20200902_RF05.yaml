@@ -4,14 +4,14 @@ mission: MOSAiC-ACA
 platform: P5
 flight_id: MOSAiC-ACA_P5_RF05
 contacts:
-  - name: Mario Mech
-    email: mario.mech@uni-koeln.de
-    tags:
-      - lc
-  - name: Mario Mech
-    email: mario.mech@uni-koeln.de
-    tags:
-      - pi
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+    - lc
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+    - pi
 date: 2020-09-02
 flight_report: https://home.uni-leipzig.de/~ehrlich/MOSAiC_ACA_wiki_doku/lib/exe/fetch.php?media=fr20200902.pdf
 takeoff: 2020-09-02 06:55:45
@@ -30,9 +30,7 @@ segments:
   segment_id: MOSAiC-ACA_P5_RF05_ma1
   start: 2020-09-02 06:55:45
   end: 2020-09-02 07:07:39
-  levels:
-    - 100
-    - 9600
+  levels: [100, 9600]
   dropsondes:
     GOOD: []
     BAD: []
@@ -45,8 +43,7 @@ segments:
   segment_id: MOSAiC-ACA_P5_RF05_hl01
   start: 2020-09-02 07:07:39
   end: 2020-09-02 07:57:08
-  levels:
-    - 9500
+  levels: [9500]
   dropsondes:
     GOOD:
       - P5_RF05_sonde01
@@ -54,13 +51,12 @@ segments:
     UGLY: []
 - kinds:
   - radiation_square
-  name: radion square 1
+  name: radiation square 1
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF05_rs01
   start: 2020-09-02 07:57:08
-  end: 2020-09-02 08:11:14
-  levels:
-    - 9300
+  end: 2020-09  -02 08:11:14
+  levels: [9500,9500,9500,9500]
   dropsondes:
     GOOD: []
     BAD: []
@@ -78,8 +74,7 @@ segments:
     segment_id: MOSAiC-ACA_P5_RF05_rs01_l01
     start: 2020-09-02 07:58:05
     end: 2020-09-02 08:00:19
-    levels:
-      - 9300
+    levels: [9500]
   - kinds:
     - short_turn
     name: short turn
@@ -92,8 +87,7 @@ segments:
     segment_id: MOSAiC-ACA_P5_RF05_rs01_l02
     start: 2020-09-02 08:01:05
     end: 2020-09-02 08:03:20
-    levels:
-      - 9300
+    levels: [9500]
   - kinds:
     - short_turn
     name: short turn
@@ -106,8 +100,7 @@ segments:
     segment_id: MOSAiC-ACA_P5_RF05_rs01_l03
     start: 2020-09-02 08:04:01
     end: 2020-09-02 08:06:21
-    levels:
-      - 9300
+    levels: [9500]
   - kinds:
     - short_turn
     name: short turn
@@ -121,8 +114,7 @@ segments:
     segment_id: MOSAiC-ACA_P5_RF05_rs01_l04
     start: 2020-09-02 08:07:30
     end: 2020-09-02 08:11:14
-    levels:
-      - 9300
+    levels: [9500]
 - kinds:
   - waiting_pattern
   name: waiting for satellite pattern
@@ -136,8 +128,7 @@ segments:
   segment_id: MOSAiC-ACA_P5_RF05_hl02
   start: 2020-09-02 08:22:34
   end: 2020-09-02 08:54:50
-  levels:
-    -  9500
+  levels: [9500]
   dropsondes:
     GOOD:
       - P5_RF05_sonde02
@@ -153,8 +144,7 @@ segments:
   segment_id: MOSAiC-ACA_P5_RF05_ld01
   start: 2020-09-02 08:54:50
   end: 2020-09-02 09:05:02
-  levels:
-    - 9500
+  levels: [9500,200]
     - 200
   dropsondes:
     GOOD: []
@@ -167,12 +157,7 @@ segments:
   segment_id: MOSAiC-ACA_P5_RF05_rt01
   start: 2020-09-02 09:05:02
   end: 2020-09-02 09:44:50
-  levels:
-    - 200
-    - 800
-    - 1800
-    - 3900
-    - 5000
+  levels: [200,900,1800,4000,4900]
   dropsondes:
     GOOD: []
     BAD: []
@@ -185,8 +170,7 @@ segments:
     segment_id: MOSAiC-ACA_P5_RF05_rt01_l01
     start: 2020-09-02 09:05:02
     end: 2020-09-02 09:09:50
-    levels:
-      - 200
+    levels: [200]
   - kinds:
     - procedure_turn
     - small_ascend
@@ -200,8 +184,7 @@ segments:
     segment_id: MOSAiC-ACA_P5_RF05_rt01_l02
     start: 2020-09-02 09:12:30
     end: 2020-09-02 09:17:59
-    levels:
-      - 800
+    levels: [900]
   - kinds:
     - procedure_turn
     - small_ascend
@@ -215,8 +198,7 @@ segments:
     segment_id: MOSAiC-ACA_P5_RF05_rt01_l03
     start: 2020-09-02 09:21:38
     end: 2020-09-02 09:26:52
-    levels:
-      - 1800
+    levels: [1800]
   - kinds:
     - procedure_turn
     - small_ascend
@@ -230,8 +212,7 @@ segments:
     segment_id: MOSAiC-ACA_P5_RF05_rt01_l04
     start: 2020-09-02 09:30:41
     end: 2020-09-02 09:35:19
-    levels:
-      - 3900
+    levels: [4000]
   - kinds:
     - procedure_turn
     - small_ascend
@@ -245,8 +226,7 @@ segments:
     segment_id: MOSAiC-ACA_P5_RF05_rt01_l05
     start: 2020-09-02 09:38:25
     end: 2020-09-02 09:44:50
-    levels:
-      - 5000
+    levels: [4900]
 - kinds:
   - large_ascend
   name: large ascend
@@ -255,9 +235,7 @@ segments:
   segment_id: MOSAiC-ACA_P5_RF05_ld01
   start: 2020-09-02 09:44:50
   end: 2020-09-02 09:53:28
-  levels:
-    - 4200
-    - 9600
+  levels: [4200,9600]
   dropsondes:
     GOOD: []
     BAD: []
@@ -274,8 +252,7 @@ segments:
   segment_id: MOSAiC-ACA_P5_RF05_hl03
   start: 2020-09-02 09:54:22
   end: 2020-09-02 09:57:13
-  levels:
-    -  9600
+  levels: [9700]
   dropsondes:
     GOOD: []
     BAD: []
@@ -293,8 +270,7 @@ segments:
   segment_id: MOSAiC-ACA_P5_RF05_cp01
   start: 2020-09-02 09:59:07
   end: 2020-09-02 10:48:12
-  levels:
-    - 9600
+  levels: [9600]
   dropsondes:
     GOOD: []
     BAD: []
@@ -307,8 +283,7 @@ segments:
     segment_id: MOSAiC-ACA_P5_RF05_cp01_l01
     start: 2020-09-02 09:59:07
     end: 2020-09-02 10:07:47
-    levels:
-      - 9600
+    levels: [9600]
   - kinds:
     - procedure_turn
     name: procedure turn
@@ -321,8 +296,7 @@ segments:
     segment_id: MOSAiC-ACA_P5_RF05_cp01_l02
     start: 2020-09-02 10:10:34
     end: 2020-09-02 10:19:46
-    levels:
-      - 9500
+    levels: [9600]
   - kinds:
     - cross_pattern_turn
     name: cross pattern turn
@@ -335,8 +309,7 @@ segments:
     segment_id: MOSAiC-ACA_P5_RF05_cp01_l03
     start: 2020-09-02 10:26:32
     end: 2020-09-02 10:35:58
-    levels:
-      - 9600
+    levels: [9600]
   - kinds:
     - procedure_turn
     name: procedure turn
@@ -349,8 +322,7 @@ segments:
     segment_id: MOSAiC-ACA_P5_RF05_cp01_l04
     start: 2020-09-02 10:39:19
     end: 2020-09-02 10:48:12
-    levels:
-      - 9600
+    levels: [9600]
 - kinds:
   - short_turn
   name: short turn
@@ -363,8 +335,7 @@ segments:
   segment_id: MOSAiC-ACA_P5_RF05_hl04
   start: 2020-09-02 10:49:13
   end: 2020-09-02 11:18:49
-  levels:
-    - 9600
+  levels: [9600]
   dropsondes:
     GOOD:
       - P5_RF05_sonde05
@@ -383,8 +354,7 @@ segments:
   segment_id: MOSAiC-ACA_P5_RF05_hl05
   start: 2020-09-02 11:20:38
   end: 2020-09-02 11:25:13
-  levels:
-    - 9500
+  levels: [9600]
   dropsondes:
     GOOD: []
     BAD: []
@@ -402,8 +372,7 @@ segments:
   segment_id: MOSAiC-ACA_P5_RF05_hl06
   start: 2020-09-02 11:29:19
   end: 2020-09-02 11:32:34
-  levels:
-    - 9600
+  levels: [9600]
   dropsondes:
     GOOD:
       - P5_RF05_sonde06
@@ -421,8 +390,7 @@ segments:
   segment_id: MOSAiC-ACA_P5_RF05_hl07
   start: 2020-09-02 11:34:02
   end: 2020-09-02 11:52:24
-  levels:
-    - 9600
+  levels: [9600]
   dropsondes:
     GOOD: []
     BAD: []
@@ -441,8 +409,7 @@ segments:
   segment_id: MOSAiC-ACA_P5_RF05_hl07
   start: 2020-09-02 11:53:26
   end: 2020-09-02 12:04:37
-  levels:
-    - 9600
+  levels: [9600]
   dropsondes:
     GOOD: []
     BAD: []
@@ -454,9 +421,7 @@ segments:
   segment_id: MOSAiC-ACA_P5_RF05_md1
   start: 2020-09-02 12:04:37
   end: 2020-09-02 12:23:30
-  levels:
-    - 9600
-    - 100
+  levels: [9600,100]
   dropsondes:
     GOOD: []
     BAD: []
