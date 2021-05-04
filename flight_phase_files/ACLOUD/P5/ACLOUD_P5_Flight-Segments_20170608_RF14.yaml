@@ -17,13 +17,13 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fet
 takeoff: 2017-06-08 07:36:50
 landing: 2017-06-08 12:51:25
 events:
-  - cross pattern over Ny-Aalesund
-  - cross pattern of Polarstern
-  - colocation with P6 at Polarstern
-  - A-Train underflight
-  - radiometer calibration
+- cross pattern over Ny-Aalesund
+- cross pattern of Polarstern
+- colocation with P6 at Polarstern
+- A-Train underflight
+- radiometer calibration
 remarks:
-  - thin broken clouds over sea ice
+- thin broken clouds over sea ice
 segments:
 - kinds:
   - major_ascend

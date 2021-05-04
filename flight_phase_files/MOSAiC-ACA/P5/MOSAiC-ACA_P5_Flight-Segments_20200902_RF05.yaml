@@ -17,10 +17,10 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/MOSAiC_ACA_wiki_doku/lib/exe
 takeoff: 2020-09-02 06:55:45
 landing: 2020-09-02 12:23:30
 events:
-  - A-Train underflight
-  - calibration of noseboom
-  - radiotion pattern
-  - radiometer calibration
+- A-Train underflight
+- calibration of noseboom
+- radiotion pattern
+- radiometer calibration
 remarks: []
 segments:
 - kinds:
