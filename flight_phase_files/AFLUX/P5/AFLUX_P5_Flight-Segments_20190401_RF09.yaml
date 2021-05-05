@@ -157,7 +157,11 @@ segments:
     UGLY: []
   parts:
   - kinds:
+<<<<<<< HEAD
     - stairstep_leg
+=======
+    - staicase_leg
+>>>>>>> d7171e138234a2cc1c855c3c4d77ec64cfb31c6c
     name: stair step 1 leg 1
     irregularities: []
     segment_id: AFLUX_P5_RF09_st01_l01
