@@ -62,13 +62,15 @@ if __name__ == '__main__':
         
         if start and end:
             
-            fig, [ax1, ax2] = plt.subplots(2, 1, figsize=(10, 9), constrained_layout=True)
+            fig, [ax1, ax2, ax3] = plt.subplots(3, 1, figsize=(12, 9), constrained_layout=True)
             
             steps = 100
             bins = np.arange(0, 20000+steps, steps)
             ax1.hist(ds_gps.alt.sel(time=slice(start, end))*3.28, color='k', bins=bins)
             nbins = 100
             ax2.hist(ds_gps.alt.sel(time=slice(start, end))*3.28, color='k', bins=nbins)
+            nbins = 100
+            ax3.hist(ds_gps.heading.sel(time=slice(start, end)), color='k', bins=nbins)
 
             # annotate min max median
             kwargs = dict(ha='left', va='top', xycoords='axes fraction')
@@ -86,6 +88,9 @@ if __name__ == '__main__':
             
             ax2.set_xlabel('Altitude [ft]\nnumber of bins: {}'.format(nbins))
             ax2.set_ylabel('Count')
+
+            ax3.set_xlabel('Heading [°]\nnumber of bins: {}'.format(nbins))
+            ax3.set_ylabel('Count')
             
             tellme('Segment: '+name+'\nNext: right mouse', ax1)
             pts = plt.ginput(n=1, timeout=-1, show_clicks=False, mouse_add=MouseButton.RIGHT, mouse_stop=MouseButton.MIDDLE, mouse_pop=MouseButton.LEFT)
@@ -114,13 +119,15 @@ if __name__ == '__main__':
                 
                 if start and end:
                     
-                    fig, [ax1, ax2] = plt.subplots(2, 1, figsize=(10, 9), constrained_layout=True)
+                    fig, [ax1, ax2, ax3] = plt.subplots(3, 1, figsize=(13, 9), constrained_layout=True)
                     
                     steps = 100
                     bins = np.arange(0, 20000+steps, steps)
                     ax1.hist(ds_gps.alt.sel(time=slice(start, end))*3.28, color='k', bins=bins)
                     nbins = 100
                     ax2.hist(ds_gps.alt.sel(time=slice(start, end))*3.28, color='k', bins=nbins)
+                    nbins = 100
+                    ax3.hist(ds_gps.heading.sel(time=slice(start, end)), color='k', bins=nbins)
         
                     # annotate min max median
                     kwargs = dict(ha='left', va='top', xycoords='axes fraction')
@@ -138,6 +145,9 @@ if __name__ == '__main__':
                     
                     ax2.set_xlabel('Altitude [ft]\nnumber of bins: {}'.format(nbins))
                     ax2.set_ylabel('Count')
+
+                    ax3.set_xlabel('Heading [°]\nnumber of bins: {}'.format(nbins))
+                    ax3.set_ylabel('Count')
             
                     tellme('Segment: '+name+'\nNext: right mouse', ax1)
                     pts = plt.ginput(n=1, timeout=-1, show_clicks=False, mouse_add=MouseButton.RIGHT, mouse_stop=MouseButton.MIDDLE, mouse_pop=MouseButton.LEFT)

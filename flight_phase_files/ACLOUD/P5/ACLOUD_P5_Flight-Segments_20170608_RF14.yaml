@@ -119,7 +119,8 @@ segments:
 - kinds:
   - high_level
   name: high level 3
-  remark: Satellite underflight (A-Train)
+  remarks: 
+    - Satellite underflight (A-Train)
   irregularities: []
   segment_id: ACLOUD_P5_RF14_hl03
   start: 2017-06-08 08:59:08
@@ -202,7 +203,7 @@ segments:
     levels: [9700]
 - kinds:
   - large_descend
-  name: large descend
+  name: large descend 1
   irregularities: 
     - not along straight line
   segment_id: ACLOUD_P5_RF14_ld01
@@ -283,9 +284,9 @@ segments:
   end: 2017-06-08 11:02:25
 - kinds:
   - large_ascend
-  name: large ascend
+  name: large ascend 2
   irregularities: []
-  segment_id: ACLOUD_P5_RF14_la01
+  segment_id: ACLOUD_P5_RF14_la02
   start: 2017-06-08 11:02:25
   end: 2017-06-08 11:11:20
   levels: [2400,9700]

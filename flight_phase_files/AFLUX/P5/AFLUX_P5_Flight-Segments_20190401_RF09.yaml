@@ -1,47 +1,544 @@
+---
 name: RF09
 mission: AFLUX
 platform: P5
 flight_id: AFLUX_P5_RF09
 contacts:
-- name: null
-  email: null
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+    - lc
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+    - pi
 date: 2019-04-01
 flight_report: null
-takeoff: &id001 2019-04-01 07:35:45
-landing: &id002 2019-04-01 12:37:50
-events: []
+takeoff: 2019-04-01 07:35:45
+landing: 2019-04-01 12:37:50
+events:
+- A-Train underflight
+- radiation pattern
 remarks:
-- CloudSat/Calipso underflight over low and midlevel clouds of a cold air outbreak
+- low and midlevel clouds of a cold air outbreak
 segments:
 - kinds:
   - major_ascend
-  name: major ascend 1
+  name: major ascend
   irregularities: []
-  segment_id: AFLUX_P5_RF09_ma1
-  start: *id001
-  end: null
+  segment_id: AFLUX_P5_RF09_ma
+  start: 2019-04-01 07:35:45
+  end: 2019-04-01 07:48:13
+  levels: [100,9200]
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
-  - add_new_segments_here
-  name: null
+  - high_level
+  - nya_overflight
+  name: high level 1
   irregularities: []
-  segment_id: null
-  start: null
-  end: null
+  segment_id: AFLUX_P5_RF09_hl01
+  start: 2019-04-01 07:48:13
+  end: 2019-04-01 07:55:04
+  levels: [9200]
   dropsondes:
     GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2019-04-01 07:55:04 
+  end: 2019-04-01 07:56:21
+- kinds:
+  - radiation_square
+  name: radiation square 1
+  irregularities: []
+  segment_id: AFLUX_P5_RF09_rs01
+  start: 2019-04-01 07:56:21
+  end: 2019-04-01 08:06:42
+  levels: [9300,9200,9200,9200]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+  parts:
+  - kinds:
+    - radiation_square_leg
+    name: radiation square 1 leg 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_rs01_l01
+    start: 2019-04-01 07:56:21
+    end: 2019-04-01 07:58:17
+    levels: [9300]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2019-04-01 07:58:17
+    end: 2019-04-01 07:58:54
+  - kinds:
+    - radiation_square_leg
+    name: radiation square 1 leg 2
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_rs01_l02
+    start: 2019-04-01 07:58:54
+    end: 2019-04-01 08:00:52
+    levels: [9200]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2019-04-01 08:00:52
+    end: 2019-04-01 08:01:44
+  - kinds:
+    - radiation_square_leg
+    name: radiation square 1 leg 3
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_rs01_l03
+    start: 2019-04-01 08:01:44
+    end: 2019-04-01 08:03:53
+    levels: [9200]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2019-04-01 08:03:53
+    end: 2019-04-01 08:04:41
+  - kinds:
+    - radiation_square_leg
+    name: radiation square 1 leg 4
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_rs01_l04
+    start: 2019-04-01 08:04:41
+    end: 2019-04-01 08:06:42
+    levels: [9200]
+- kinds:
+  - short_turn
+  - procedure_turn
+  name: short turn
+  start: 2019-04-01 08:06:42
+  end: 2019-04-01 08:10:07
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: AFLUX_P5_RF09_hl02
+  start: 2019-04-01 08:10:07
+  end: 2019-04-01 08:20:31
+  levels: [9200]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - large_descend
+  name: large descend 1
+  irregularities:
+    - 540 deg procedure turn on track
+  segment_id: AFLUX_P5_RF09_ld01
+  start: 2019-04-01 08:20:31
+  end: 2019-04-01 08:32:46
+  levels: [9200,200]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - stairstep_pattern
+  name: star step pattern 1
+  irregularities: []
+  segment_id: AFLUX_P5_RF09_sc1
+  start: 2019-04-01 08:32:46
+  end: 2019-04-01 09:28:37
+  levels: [200,400,800,1100,1500,1900,2800,3300,3700,4200,4600]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+  parts:
+  - kinds:
+    - staicase_leg
+    name: stair step 1 leg 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st01_l01
+    start: 2019-04-01 08:32:46
+    end: 2019-04-01 08:37:47
+    levels: [200]
+  - kinds:
+    - small_ascend
+    name: small ascend
+    start: 2019-04-01 08:37:47 
+    end: 2019-04-01 08:38:28
+  - kinds:
+    - staicase_leg
+    name: stair step 1 leg 2
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st01_l02
+    start: 2019-04-01 08:38:28
+    end: 2019-04-01 08:42:05
+    levels: [400]
+  - kinds:
+    - small_ascend
+    name: small ascend
+    start: 2019-04-01 08:42:05
+    end: 2019-04-01 08:43:10 
+  - kinds:
+    - staicase_leg
+    name: stair step 1 leg 3
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st01_l03
+    start: 2019-04-01 08:43:10
+    end: 2019-04-01 08:47:06
+    levels: [800]
+  - kinds:
+    - small_ascend
+    name: small ascend
+    start: 2019-04-01 08:47:06
+    end: 2019-04-01 08:48:05 
+  - kinds:
+    - staicase_leg
+    name: stair step 1 leg 4
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st01_l04
+    start: 2019-04-01 08:48:05
+    end: 2019-04-01 08:51:57
+    levels: [1100]
+  - kinds:
+    - small_ascend
+    name: small ascend
+    start: 2019-04-01 08:51:57
+    end: 2019-04-01 08:52:44 
+  - kinds:
+    - staicase_leg
+    name: stair step 1 leg 5
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st01_l05
+    start: 2019-04-01 08:52:44
+    end: 2019-04-01 08:56:52
+    levels: [1500]
+  - kinds:
+    - small_ascend
+    name: small ascend
+    start: 2019-04-01 08:56:52
+    end: 2019-04-01 08:57:33 
+  - kinds:
+    - staicase_leg
+    name: stair step 1 leg 6
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st01_l06
+    start: 2019-04-01 08:57:33
+    end: 2019-04-01 09:01:51
+    levels: [1900]
+  - kinds:
+    - small_ascend
+    name: small ascend
+    start: 2019-04-01 09:01:51
+    end: 2019-04-01 09:03:10 
+  - kinds:
+    - staicase_leg
+    name: stair step 1 leg 7
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st01_l07
+    start: 2019-04-01 09:03:10
+    end: 2019-04-01 09:07:48
+    levels: [2800]
+  - kinds:
+    - small_ascend
+    name: small ascend
+    start: 2019-04-01 09:07:48
+    end: 2019-04-01 09:09:12
+  - kinds:
+    - staicase_leg
+    name: stair step 1 leg 8
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st01_l08
+    start: 2019-04-01 09:09:12
+    end: 2019-04-01 09:13:03
+    levels: [3300]
+  - kinds:
+    - small_ascend
+    name: small ascend
+    start: 2019-04-01 09:13:03
+    end: 2019-04-01 09:13:47 
+  - kinds:
+    - staicase_leg
+    name: stair step 1 leg 9
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st01_l09
+    start: 2019-04-01 09:13:47
+    end: 2019-04-01 09:19:24
+    levels: [3700]
+  - kinds:
+    - small_ascend
+    name: small ascend
+    start: 2019-04-01 09:19:24
+    end: 2019-04-01 09:20:36 
+  - kinds:
+    - staicase_leg
+    name: stair step 1 leg 10
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st01_l10
+    start: 2019-04-01 09:20:36
+    end: 2019-04-01 09:24:01
+    levels: [4200]
+  - kinds:
+    - small_ascend
+    name: small ascend
+    start: 2019-04-01 09:24:01
+    end: 2019-04-01 09:24:48 
+  - kinds:
+    - staicase_leg
+    name: stair step 1 leg 11
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st01_l11
+    start: 2019-04-01 09:24:48
+    end: 2019-04-01 09:28:37
+    levels: [4600]
+- kinds:
+  - large_ascend
+  name: large ascend 1
+  irregularities:
+    - included 180 deg turn on track
+  segment_id: AFLUX_P5_RF09_la01
+  start: 2019-04-01 09:28:37
+  end: 2019-04-01 09:35:50
+  levels: [4600,9200]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - high_level
+  name: high level 3
+  remarks: 
+    - Satellite underflight (A-Train)
+  irregularities: []
+  segment_id: AFLUX_P5_RF09_hl03
+  start: 2019-04-01 09:35:50
+  end: 2019-04-01 10:12:00
+  levels: [9200]
+  dropsondes:
+    GOOD:
+      - P5_RF09_sonde01
+      - P5_RF09_sonde02
+      - P5_RF09_sonde03
+    BAD: []
+    UGLY: []
+- kinds:
+  - large_descend
+  name: large descend 2
+  irregularities:
+    - 540 deg procedure turn on track
+  segment_id: AFLUX_P5_RF09_ld02
+  start: 2019-04-01 10:12:00
+  end: 2019-04-01 10:21:15
+  levels: [9100,300]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 1
+  irregularities: []
+  segment_id: AFLUX_P5_RF09_ll01
+  start: 2019-04-01 10:21:15
+  end: 2019-04-01 10:22:25
+  levels: [300]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - sawtooth_pattern
+  name: saw tooth 1
+  irregularities: []
+  segment_id: AFLUX_P5_RF09_st01
+  start: 2019-04-01 10:22:25
+  end: 2019-04-01 10:46:37
+  levels: [300,6900,200]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+  parts:
+  - kinds:
+    - sawtooth_ascend
+    name: saw tooth 1 ascend 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st01_a01
+    start: 2019-04-01 10:22:25
+    end: 2019-04-01 10:35:11
+    levels: [300,6900]
+  - kinds:
+    - sawtooth_descend
+    name: saw tooth 1 descend 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st01_d1
+    start: 2019-04-01 10:35:11
+    end: 2019-04-01 10:46:37
+    levels: [6900,200]
+- kinds:
+  - stairstep_pattern
+  name: stair step pattern 2
+  irregularities: []
+  segment_id: AFLUX_P5_RF09_st2
+  start: 2019-04-01 10:46:37
+  end: 2019-04-01 11:19:08
+  levels: [200,400,600,800,1200,1500,1000,800,600]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+  parts:
+  - kinds:
+    - stairstep_leg
+    name: stair step 2 leg 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st02_l01
+    start: 2019-04-01 10:46:37
+    end: 2019-04-01 10:50:22
+    levels: [200]
+  - kinds:
+    - small_ascend
+    name: small ascend
+    start: 2019-04-01 10:50:22 
+    end: 2019-04-01 10:51:08
+  - kinds:
+    - stairstep_leg
+    name: stair step 2 leg 2
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st02_l02
+    start: 2019-04-01 10:51:08
+    end: 2019-04-01 10:54:27 
+    levels: [400]
+  - kinds:
+    - small_ascend
+    name: small ascend
+    start: 2019-04-01 10:54:27
+    end: 2019-04-01 10:55:04 
+  - kinds:
+    - stairstep_leg
+    name: stair step 2 leg 3
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st02_l03
+    start: 2019-04-01 10:55:04
+    end: 2019-04-01 10:58:34 
+    levels: [600]
+  - kinds:
+    - small_ascend
+    name: small ascend
+    start: 2019-04-01 10:58:34
+    end: 2019-04-01 10:59:10 
+  - kinds:
+    - stairstep_leg
+    name: stair step 2 leg 4
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st02_l04
+    start: 2019-04-01 10:59:10
+    end: 2019-04-01 11:02:30 
+    levels: [800]
+  - kinds:
+    - small_ascend
+    name: small ascend
+    start: 2019-04-01 11:02:30
+    end: 2019-04-01 11:03:24 
+  - kinds:
+    - stairstep_leg
+    name: stair step 2 leg 5
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st02_l05
+    start: 2019-04-01 11:03:24
+    end: 2019-04-01 11:07:36 
+    levels: [1200]
+  - kinds:
+    - small_ascend
+    name: small ascend
+    start: 2019-04-01 11:07:36
+    end: 2019-04-01 11:08:27 
+  - kinds:
+    - stairstep_leg
+    name: stair step 2 leg 6
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st02_l06
+    start: 2019-04-01 11:08:27
+    end: 2019-04-01 11:09:36 
+    levels: [1500]
+  - kinds:
+    - small_descend
+    name: small descend
+    start: 2019-04-01 11:09:36
+    end: 2019-04-01 11:10:35 
+  - kinds:
+    - stairstep_leg
+    name: stair step 2 leg 7
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st02_l07
+    start: 2019-04-01 11:10:35
+    end: 2019-04-01 11:13:34
+    levels: [1000]
+  - kinds:
+    - small_descend
+    name: small descend
+    start: 2019-04-01 11:13:34
+    end: 2019-04-01 11:14:10 
+  - kinds:
+    - stairstep_leg
+    name: stair step 2 leg 8
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st02_l08
+    start: 2019-04-01 11:14:10
+    end: 2019-04-01 11:16:47 
+    levels: [800]
+  - kinds:
+    - small_descend
+    name: small descend
+    start: 2019-04-01 11:16:47
+    end: 2019-04-01 11:17:12 
+  - kinds:
+    - stairstep_leg
+    name: stair step 2 leg 9
+    irregularities: []
+    segment_id: AFLUX_P5_RF09_st02_l9
+    start: 2019-04-01 11:17:12
+    end: 2019-04-01 11:19:08
+    levels: [600]
+- kinds:
+  - large_ascend
+  name: large ascend 3
+  irregularities:
+    - 180 deg procedure turn
+  segment_id: AFLUX_P5_RF09_la03
+  start: 2019-04-01 11:19:08
+  end: 2019-04-01 11:27:32
+  levels: [600,9100]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 4
+  irregularities: []
+  segment_id: AFLUX_P5_RF09_hl04
+  start: 2019-04-01 11:27:32
+  end: 2019-04-01 12:24:49
+  levels: [9200]
+  dropsondes:
+    GOOD:
+      - P5_RF09_sonde04
+      - P5_RF09_sonde05
     BAD: []
     UGLY: []
 - kinds:
   - major_descend
-  name: major descend 1
+  name: major descend
   irregularities: []
-  segment_id: AFLUX_P5_RF09_md1
-  start: null
-  end: *id002
+  segment_id: AFLUX_P5_RF09_md
+  start: 2019-04-01 12:24:49
+  end: 2019-04-01 12:37:50
+  levels: [9300,100]
   dropsondes:
     GOOD: []
     BAD: []
