@@ -63,7 +63,7 @@ if __name__ == '__main__':
     data_crs = ccrs.PlateCarree()
     map_crs = ccrs.NorthPolarStereo()
         
-    fig, ax = plt.subplots(1, 1, figsize=(5, 5), subplot_kw=dict(projection=map_crs))
+    fig, ax = plt.subplots(1, 1, figsize=(12, 8), subplot_kw=dict(projection=map_crs))
     ax.coastlines()
     
     # plot flight in black
@@ -78,7 +78,6 @@ if __name__ == '__main__':
     
     for i, flight_segment in enumerate(flight_segments['segments']):
         
-        tellme('Segment: '+flight_segment['name']+'\nnext segment: right click')
         pts = plt.ginput(n=1, timeout=-1, show_clicks=False, mouse_add=MouseButton.RIGHT, mouse_stop=MouseButton.MIDDLE, mouse_pop=MouseButton.LEFT)
         
         if 'segment_id' in flight_segment.keys():
@@ -104,6 +103,7 @@ if __name__ == '__main__':
             kwargs = dict(fontsize=8, ha='left')
             ax.annotate(name, xy=ax.projection.transform_point(ds_gps.lon.sel(time=start, method='nearest'), ds_gps.lat.sel(time=start, method='nearest'), data_crs), va='top', color='k', **kwargs)
             ax.annotate(name, xy=ax.projection.transform_point(ds_gps.lon.sel(time=end, method='nearest'), ds_gps.lat.sel(time=end, method='nearest'), data_crs), va='bottom', color='gray', **kwargs)
+        tellme('Segment: '+flight_segment['name']+'\nnext segment: right click')
     
         # add parts, if they exist for this flight segment
         if 'parts' in list(flight_segment.keys()):
@@ -115,7 +115,6 @@ if __name__ == '__main__':
                         
             for j, part in enumerate(flight_segment['parts']):
                 
-                tellme('Segment: '+part['name']+'\nnext segment: right click')
                 pts = plt.ginput(n=1, timeout=-1, show_clicks=False, mouse_add=MouseButton.RIGHT, mouse_stop=MouseButton.MIDDLE, mouse_pop=MouseButton.LEFT)
         
                 if 'segment_id' in part.keys():
@@ -141,6 +140,7 @@ if __name__ == '__main__':
                     kwargs = dict(fontsize=6, ha='right')
                     ax.annotate(name, xy=ax.projection.transform_point(ds_gps.lon.sel(time=start), ds_gps.lat.sel(time=start), data_crs), va='top', color='k', **kwargs)
                     ax.annotate(name, xy=ax.projection.transform_point(ds_gps.lon.sel(time=end), ds_gps.lat.sel(time=end), data_crs), va='bottom', color='gray', **kwargs)
+                tellme('Segment: '+part['name']+'\nnext segment: right click')
     
     tellme('All segments are drawn')
     plt.show()

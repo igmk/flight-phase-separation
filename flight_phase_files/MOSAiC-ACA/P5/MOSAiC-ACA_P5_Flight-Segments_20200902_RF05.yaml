@@ -19,15 +19,15 @@ landing: 2020-09-02 12:23:30
 events:
 - A-Train underflight
 - calibration of noseboom
-- radiotion pattern
+- radiation pattern
 - radiometer calibration
 remarks: []
 segments:
 - kinds:
   - major_ascend
-  name: major ascend 1
+  name: major ascend
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF05_ma1
+  segment_id: MOSAiC-ACA_P5_RF05_ma
   start: 2020-09-02 06:55:45
   end: 2020-09-02 07:07:39
   levels: [100, 9600]
@@ -122,8 +122,8 @@ segments:
   end: 2020-09-02 08:22:34
 - kinds:
   - high_level
+  - a-train_underflight
   name: high level 2
-  remark: Satellite underflight (A-Train)
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF05_hl02
   start: 2020-09-02 08:22:34
@@ -138,7 +138,7 @@ segments:
     UGLY: []
 - kinds:
   - large_descend
-  name: large descend
+  name: large descend 1
   irregularities: 
     - not along straight line
   segment_id: MOSAiC-ACA_P5_RF05_ld01
@@ -228,10 +228,10 @@ segments:
     levels: [4900]
 - kinds:
   - large_ascend
-  name: large ascend
+  name: large ascend 2
   irregularities:
     - not along straight line
-  segment_id: MOSAiC-ACA_P5_RF05_ld01
+  segment_id: MOSAiC-ACA_P5_RF05_ld02
   start: 2020-09-02 09:44:50
   end: 2020-09-02 09:53:28
   levels: [4200,9600]
@@ -264,7 +264,8 @@ segments:
 - kinds:
   - cross_pattern
   name: cross pattern 1
-  remark: each leg flown twice (back and forth) 
+  remarks: 
+    - each leg flown twice (back and forth) 
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF05_cp01
   start: 2020-09-02 09:59:07
@@ -348,7 +349,8 @@ segments:
 - kinds:
   - high_level
   name: high level leg 5
-  remarks: radiometer calibration
+  remarks: 
+    - radiometer calibration
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF05_hl05
   start: 2020-09-02 11:20:38
@@ -366,7 +368,8 @@ segments:
 - kinds:
   - high_level
   name: high level leg 6
-  remarks: radiometer calibration
+  remarks: 
+    - radiometer calibration
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF05_hl06
   start: 2020-09-02 11:29:19
@@ -415,9 +418,9 @@ segments:
     UGLY: []
 - kinds:
   - major_descend
-  name: major descend 1
+  name: major descend
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF05_md1
+  segment_id: MOSAiC-ACA_P5_RF05_md
   start: 2020-09-02 12:04:37
   end: 2020-09-02 12:23:30
   levels: [9600,100]
