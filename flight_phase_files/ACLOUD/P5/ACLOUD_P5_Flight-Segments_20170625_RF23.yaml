@@ -1,16 +1,16 @@
 name: RF23
 mission: ACLOUD
-platform: Polar5
+platform: P5
 flight_id: ACLOUD_P5_RF23
 contacts:
-  - name: Christof Lüpkes
-    email: christof.luepkes@awi.de
-    tags:
-      - pi
-  - name: Nils Risse
-    email: n.risse@uni-koeln.de
-    tags:
-      - lc
+- name: Christof Lüpkes
+  email: christof.luepkes@awi.de
+  tags:
+    - pi
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
+  tags:
+    - lc
 date: 2017-06-25
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=23_20170625_p5_acloud_flight_report_2.pdf
 takeoff: 2017-06-25 11:08:55
@@ -527,9 +527,9 @@ segments:
   end: 2017-06-25 16:05:10
 - kinds:
   - large_ascend
-  name: large ascend 1
+  name: large ascend 2
   irregularities: []
-  segment_id: ACLOUD_P5_RF23_la01
+  segment_id: ACLOUD_P5_RF23_la02
   start: 2017-06-25 16:05:10
   end: 2017-06-25 16:15:55
   levels: [400, 9800]

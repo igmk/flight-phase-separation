@@ -15,6 +15,7 @@ def _main():
     all_flights = defaultdict(dict)
 
     for filename in args.infiles:
+        print(filename)
         with open(filename) as f:
             flight = yaml.load(f, Loader=yaml.SafeLoader)
         all_flights[flight["platform"]][flight["flight_id"]] = flight
