@@ -1,36 +1,83 @@
+---
 name: RF02
 mission: AFLUX
 platform: P5
 flight_id: AFLUX_P5_RF02
 contacts:
-- name: null
-  email: null
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+    - lc
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+    - pi
 date: 2019-03-19
-flight_report: null
-takeoff: &id001 2019-03-19 16:35:45
-landing: &id002 2019-03-19 17:55:05
-events: []
-remarks:
+flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetch.php?media=02_20190319_aflux_flight_report.pdf
+takeoff: 2019-03-19 16:35:45
+landing: 2019-03-19 17:55:05
+events:
 - Test of instrumentation
+remarks: []
 segments:
 - kinds:
   - major_ascend
   name: major ascend 1
   irregularities: []
   segment_id: AFLUX_P5_RF02_ma1
-  start: *id001
-  end: null
+  start: 2019-03-19 16:35:45
+  end: 2019-03-19 16:46:29
+  levels: [100,9500]
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
-  - add_new_segments_here
-  name: null
+  - high_level
+  name: high level 1
   irregularities: []
-  segment_id: null
-  start: null
-  end: null
+  segment_id: AFLUX_P5_RF02_hl01
+  start: 2019-03-19 16:46:29
+  end: 2019-03-19 17:14:09
+  levels: [9400]
+  dropsondes:
+    GOOD:
+      - P5_RF02_sonde01
+    BAD: []
+    UGLY: []
+- kinds:
+  - large_descend
+  - procedure_turn
+  name: large descend 1
+  irregularities: [9400,3000]
+  segment_id: AFLUX_P5_RF02_ld_01
+  start: 2019-03-19 17:14:09
+  end: 2019-03-19 17:20:05
+  levels: 
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - large_ascend
+  name: large ascend 1
+  irregularities: []
+  segment_id: AFLUX_P5_RF02_la01
+  start: 2019-03-19 17:20:05
+  end: 2019-03-19 17:28:07
+  levels: [3000,9400]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: AFLUX_P5_RF02_hl02
+  start: 2019-03-19 17:28:07 
+  end: 2019-03-19 17:36:41
+  levels: [9300]
   dropsondes:
     GOOD: []
     BAD: []
@@ -40,8 +87,9 @@ segments:
   name: major descend 1
   irregularities: []
   segment_id: AFLUX_P5_RF02_md1
-  start: null
-  end: *id002
+  start: 2019-03-19 17:36:41
+  end: 2019-03-19 17:55:05
+  levels: [9300,100]
   dropsondes:
     GOOD: []
     BAD: []
