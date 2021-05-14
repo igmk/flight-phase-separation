@@ -46,12 +46,11 @@ def plot_histograms(ds_gps, start, end):
     
     # annotate min max median of altitude
     kwargs = dict(ha='right', va='top', xycoords='axes fraction')
-    ax1.annotate('min: {:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).min('time').values.item()*3.28)), 0),
-                xy=(1, 0.75), **kwargs)
-    ax1.annotate('max: {:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).max('time').values.item()*3.28)), 0),
-                xy=(1, 0.5), **kwargs)
-    ax1.annotate('median: {:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).median('time').values.item()*3.28)), 0),
-                xy=(1, 1), **kwargs)
+    ax1.annotate('min/max: {:,} - {:,} ft'.format(int(np.around(ds_gps.alt.sel(time=slice(start, end)).min('time').values.item()*3.28, -2)),
+                                                  int(np.around(ds_gps.alt.sel(time=slice(start, end)).max('time').values.item()*3.28, -2))),
+                 xy=(1, 0.85), color='gray', **kwargs)
+    ax1.annotate('median: {:,} ft'.format(int(np.around(ds_gps.alt.sel(time=slice(start, end)).median('time').values.item()*3.28, -2))),
+                 xy=(1, 1), **kwargs)
     
     # heading
     ax3.hist(ds_gps.heading.sel(time=slice(start, end)), color='gray', bins=bins_head)
