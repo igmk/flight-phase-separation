@@ -12,9 +12,62 @@ import yaml
 import sys
 
 
-def tellme(s, ax):
-    ax.set_title(s)
-    plt.draw()
+def plot_histograms(ds_gps, start, end):
+    """Plot histograms of variables"""
+
+    fig, [ax1, ax2, ax3] = plt.subplots(3, 1, figsize=(13, 9), constrained_layout=True)
+    
+    # define steps/nbins of histograms
+    steps_ft = 100
+    min_ft, max_ft = [0, 20000]
+    bins_alt = np.arange(min_ft, max_ft+steps_ft, steps_ft)
+    nbins_alt = 100
+    steps_deg = 1
+    bins_head = np.arange(-180, 180+steps_deg, steps_deg)
+
+    # flight altitude
+    ax1.hist(ds_gps.alt.sel(time=slice(start, end))*3.28, color='k', bins=bins_alt)
+    ax1.set_xlim([min_ft, max_ft])
+    ax1.set_xlabel('Altitude [ft], step width: {} ft'.format(steps_ft))
+    ax1.set_ylabel('Count')
+    
+    # annotate flight levels
+    lvls = [1000, 2000, 4000]  # in m
+    for lvl in lvls:
+        ax1.axvline(x=lvl*3.28, color='blue')
+        ax1.annotate(str(lvl)+' m', xy=(lvl*3.28, 1.01), xycoords=('data', 'axes fraction'), ha='center', va='bottom', color='blue')
+    ax1.annotate('low_level', xy=(500*3.28, 1.01), xycoords=('data', 'axes fraction'), ha='center', va='bottom', color='gray')
+    ax1.annotate('mid_level', xy=(1500*3.28, 1.01), xycoords=('data', 'axes fraction'), ha='center', va='bottom', color='gray')
+    ax1.annotate('high_level', xy=(3000*3.28, 1.01), xycoords=('data', 'axes fraction'), ha='center', va='bottom', color='gray')
+
+    ax2.hist(ds_gps.alt.sel(time=slice(start, end))*3.28, color='k', bins=nbins_alt)
+    ax2.set_xlabel('Altitude [ft], number of bins: {}'.format(nbins_alt))
+    ax2.set_ylabel('Count')
+    
+    # annotate min max median of altitude
+    kwargs = dict(ha='right', va='top', xycoords='axes fraction')
+    ax1.annotate('min: {:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).min('time').values.item()*3.28)), 0),
+                xy=(1, 0.75), **kwargs)
+    ax1.annotate('max: {:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).max('time').values.item()*3.28)), 0),
+                xy=(1, 0.5), **kwargs)
+    ax1.annotate('median: {:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).median('time').values.item()*3.28)), 0),
+                xy=(1, 1), **kwargs)
+    
+    # heading
+    ax3.hist(ds_gps.heading.sel(time=slice(start, end)), color='gray', bins=bins_head)
+    ax3.set_xlim([-180, 180])
+    ax3.set_xticks(np.arange(-180, 180+45, 45))
+    ax3.set_xlabel('Heading [°], bin width: {}°'.format(steps_deg))
+    ax3.set_ylabel('Count')
+    
+    for ax in fig.axes:      
+        
+        ax.spines["top"].set_visible(False)  
+        ax.spines["right"].set_visible(False)  
+        ax.get_xaxis().tick_bottom()  
+        ax.get_yaxis().tick_left()
+    
+    return fig
 
 
 if __name__ == '__main__':
@@ -42,114 +95,34 @@ if __name__ == '__main__':
     with open(file, 'r') as f:
         flight_segments = yaml.safe_load(f)
     
-    #%% plot track on map to get an overview        
+    #%% plot histograms  
+      
     for i, flight_segment in enumerate(flight_segments['segments']):
-
-        if 'segment_id' in flight_segment.keys():
-            print('plot segment id %s'%flight_segment['segment_id'])
-        else:
-            print('plot segment id ???')
         
+        name = flight_segment['name']
         start = flight_segment['start']
         end = flight_segment['end']
         
-        # workaround for flight segments without a name
-        try:
-            name = flight_segment['name']
-        
-        except KeyError:
-            name = ', '.join(flight_segment['kinds'])
-        
         if start and end:
             
-            fig, [ax1, ax2, ax3] = plt.subplots(3, 1, figsize=(12, 9), constrained_layout=True)
-            
-            steps = 100
-            bins = np.arange(0, 20000+steps, steps)
-            ax1.hist(ds_gps.alt.sel(time=slice(start, end))*3.28, color='k', bins=bins)
-            nbins = 100
-            ax2.hist(ds_gps.alt.sel(time=slice(start, end))*3.28, color='k', bins=nbins)
-            nbins = 100
-            ax3.hist(ds_gps.heading.sel(time=slice(start, end)), color='k', bins=nbins)
-
-            # annotate min max median
-            kwargs = dict(ha='left', va='top', xycoords='axes fraction')
-            ax1.annotate('min:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).min('time').values.item()*3.28)), 0),
-                        xy=(1.05, 0.3), **kwargs)
-            ax1.annotate('max:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).max('time').values.item()*3.28)), 0),
-                        xy=(1.05, 0.1), **kwargs)
-            ax1.annotate('median:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).median('time').values.item()*3.28)), 0),
-                        xy=(1.05, 1), **kwargs)
-            ax1.annotate('mean:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).mean('time').values.item()*3.28)), 0),
-                        xy=(1.05, 0.8), **kwargs)
-            
-            ax1.set_xlabel('Altitude [ft]\nstep width: {} ft'.format(steps))
-            ax1.set_ylabel('Count')
-            
-            ax2.set_xlabel('Altitude [ft]\nnumber of bins: {}'.format(nbins))
-            ax2.set_ylabel('Count')
-
-            ax3.set_xlabel('Heading [°]\nnumber of bins: {}'.format(nbins))
-            ax3.set_ylabel('Count')
-            
-            tellme('Segment: '+name+'\nNext: right mouse', ax1)
+            fig = plot_histograms(ds_gps, start, end)
+            fig.suptitle('segment: '+name+'\ndraw next segment: any key or right mouse')
+            plt.draw()
             pts = plt.ginput(n=1, timeout=-1, show_clicks=False, mouse_add=MouseButton.RIGHT, mouse_stop=MouseButton.MIDDLE, mouse_pop=MouseButton.LEFT)
-            
             plt.close()
-            
-        # add parts, if they exist for this flight segment
-        if 'parts' in list(flight_segment.keys()):
+        
+        if 'parts' in list(flight_segment.keys()):  # add parts, if they exist for this flight segment
                         
             for j, part in enumerate(flight_segment['parts']):
 
-                if 'segment_id' in part.keys():
-                    print('plot segment id %s'%part['segment_id'])
-                else:
-                    print('plot segment id ???')
-                
+                name = part['name']
                 start = part['start']
                 end = part['end']
                 
-                # workaround for flight segments without a name
-                try:
-                    name = part['name']
-                
-                except KeyError:
-                    name = ', '.join(part['kinds'])
-                
                 if start and end:
                     
-                    fig, [ax1, ax2, ax3] = plt.subplots(3, 1, figsize=(13, 9), constrained_layout=True)
-                    
-                    steps = 100
-                    bins = np.arange(0, 20000+steps, steps)
-                    ax1.hist(ds_gps.alt.sel(time=slice(start, end))*3.28, color='k', bins=bins)
-                    nbins = 100
-                    ax2.hist(ds_gps.alt.sel(time=slice(start, end))*3.28, color='k', bins=nbins)
-                    nbins = 100
-                    ax3.hist(ds_gps.heading.sel(time=slice(start, end)), color='k', bins=nbins)
-        
-                    # annotate min max median
-                    kwargs = dict(ha='left', va='top', xycoords='axes fraction')
-                    ax1.annotate('min:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).min('time').values.item()*3.28)), 0),
-                                xy=(1.05, 0.3), **kwargs)
-                    ax1.annotate('max:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).max('time').values.item()*3.28)), 0),
-                                xy=(1.05, 0.1), **kwargs)
-                    ax1.annotate('median:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).median('time').values.item()*3.28)), 0),
-                                xy=(1.05, 1), **kwargs)
-                    ax1.annotate('mean:\n{:,} ft'.format(int(np.round(ds_gps.alt.sel(time=slice(start, end)).mean('time').values.item()*3.28)), 0),
-                                xy=(1.05, 0.8), **kwargs)
-                    
-                    ax1.set_xlabel('Altitude [ft]\nstep width: {} ft'.format(steps))
-                    ax1.set_ylabel('Count')
-                    
-                    ax2.set_xlabel('Altitude [ft]\nnumber of bins: {}'.format(nbins))
-                    ax2.set_ylabel('Count')
-
-                    ax3.set_xlabel('Heading [°]\nnumber of bins: {}'.format(nbins))
-                    ax3.set_ylabel('Count')
-            
-                    tellme('Segment: '+name+'\nNext: right mouse', ax1)
+                    fig = plot_histograms(ds_gps, start, end)
+                    fig.suptitle('segment: '+name+'\ndraw next segment: any key or right mouse')
+                    plt.draw()
                     pts = plt.ginput(n=1, timeout=-1, show_clicks=False, mouse_add=MouseButton.RIGHT, mouse_stop=MouseButton.MIDDLE, mouse_pop=MouseButton.LEFT)
-                    
                     plt.close()
