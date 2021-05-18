@@ -359,7 +359,7 @@ segments:
     levels: [1800]
 - kinds:
   - large_ascend
-  name: large_ascend 2
+  name: large ascend 2
   irregularities:
     - two curves during ascend
   segment_id: AFLUX_P5_RF13_la02
