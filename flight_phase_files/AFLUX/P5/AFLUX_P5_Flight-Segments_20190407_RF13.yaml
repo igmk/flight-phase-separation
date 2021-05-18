@@ -99,7 +99,7 @@ segments:
     UGLY: []
   parts:
   - kinds:
-    - descend
+    - sawtooth_descend
     name: sawtooth pattern 1 descend 1
     irregularities: []
     segment_id: AFLUX_P5_RF13_st01_d01
@@ -123,7 +123,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - descend
+    - sawtooth_descend
     name: sawtooth pattern 1 descend 2
     irregularities: []
     segment_id: AFLUX_P5_RF13_st01_d02
@@ -135,7 +135,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - ascend
+    - sawtooth_ascend
     name: sawtooth pattern 1 ascend 1
     irregularities: []
     segment_id: AFLUX_P5_RF13_st01_a01
@@ -147,7 +147,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - descend
+    - sawtooth_descend
     name: sawtooth pattern 1 descend 3
     irregularities: []
     segment_id: AFLUX_P5_RF13_st01_d03
@@ -159,7 +159,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - ascend
+    - sawtooth_ascend
     name: sawtooth pattern 1 ascend 2
     irregularities: []
     segment_id: AFLUX_P5_RF13_st01_a02
@@ -171,7 +171,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - descend
+    - sawtooth_descend
     name: sawtooth pattern 1 descend 4
     irregularities: []
     segment_id: AFLUX_P5_RF13_st01_d04
@@ -183,7 +183,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - ascend
+    - sawtooth_ascend
     name: sawtooth pattern 1 ascend 3
     irregularities: []
     segment_id: AFLUX_P5_RF13_st01_a03
@@ -195,7 +195,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - descend
+    - sawtooth_descend
     name: sawtooth pattern 1 descend 5
     irregularities: []
     segment_id: AFLUX_P5_RF13_st01_d05
