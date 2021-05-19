@@ -75,7 +75,7 @@ segments:
     - holding_pattern_leg
     name: holding pattern 1 leg 1
     irregularities: []
-    segment_id: ACLOUD_P5_RF14_ho01_pa01
+    segment_id: ACLOUD_P5_RF14_ho01_lg01
     start: 2017-06-08 08:27:33
     end: 2017-06-08 08:29:28
     levels: [9800]
@@ -88,7 +88,7 @@ segments:
     - holding_pattern_leg
     name: holding pattern 1 leg 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF14_ho01_pa02
+    segment_id: ACLOUD_P5_RF14_ho01_lg02
     start: 2017-06-08 08:31:10
     end: 2017-06-08 08:33:21
     levels: [9800]
