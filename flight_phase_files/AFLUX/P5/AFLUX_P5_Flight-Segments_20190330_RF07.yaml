@@ -3,45 +3,45 @@ mission: AFLUX
 platform: P5
 flight_id: AFLUX_P5_RF07
 contacts:
-- name: null
-  email: null
+- name: 
+  email: 
 date: 2019-03-30
-flight_report: null
-takeoff: &id001 2019-03-30 10:13:30
-landing: &id002 2019-03-30 15:27:40
+flight_report: 
+takeoff: 2019-03-30 10:13:30
+landing: 2019-03-30 15:27:40
 events: []
 remarks:
 - Cold air outbreak with thin clouds over sea ice
 segments:
 - kinds:
   - major_ascend
-  name: major ascend 1
+  name: major ascend
   irregularities: []
-  segment_id: AFLUX_P5_RF07_ma1
-  start: *id001
-  end: null
+  segment_id: AFLUX_P5_RF07_ma
+  start: 
+  end: 
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
   - add_new_segments_here
-  name: null
+  name: 
   irregularities: []
-  segment_id: null
-  start: null
-  end: null
+  segment_id: 
+  start: 
+  end: 
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
   - major_descend
-  name: major descend 1
+  name: major descend
   irregularities: []
-  segment_id: AFLUX_P5_RF07_md1
-  start: null
-  end: *id002
+  segment_id: AFLUX_P5_RF07_md
+  start: 
+  end: 
   dropsondes:
     GOOD: []
     BAD: []

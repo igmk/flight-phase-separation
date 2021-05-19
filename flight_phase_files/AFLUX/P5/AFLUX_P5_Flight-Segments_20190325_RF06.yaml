@@ -3,45 +3,45 @@ mission: AFLUX
 platform: P5
 flight_id: AFLUX_P5_RF06
 contacts:
-- name: null
-  email: null
+- name: 
+  email: 
 date: 2019-03-25
-flight_report: null
-takeoff: &id001 2019-03-25 10:37:45
-landing: &id002 2019-03-25 15:50:50
+flight_report: 
+takeoff: 2019-03-25 10:37:45
+landing: 2019-03-25 15:50:50
 events: []
 remarks:
 - Flight at 10.000 ft above clouds, staircase over MIZ and saw teeth
 segments:
 - kinds:
   - major_ascend
-  name: major ascend 1
+  name: major ascend
   irregularities: []
-  segment_id: AFLUX_P5_RF06_ma1
-  start: *id001
-  end: null
+  segment_id: AFLUX_P5_RF06_ma
+  start: 
+  end: 
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
   - add_new_segments_here
-  name: null
+  name: 
   irregularities: []
-  segment_id: null
-  start: null
-  end: null
+  segment_id: 
+  start: 
+  end: 
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
   - major_descend
-  name: major descend 1
+  name: major descend
   irregularities: []
-  segment_id: AFLUX_P5_RF06_md1
-  start: null
-  end: *id002
+  segment_id: AFLUX_P5_RF06_md
+  start: 
+  end: 
   dropsondes:
     GOOD: []
     BAD: []

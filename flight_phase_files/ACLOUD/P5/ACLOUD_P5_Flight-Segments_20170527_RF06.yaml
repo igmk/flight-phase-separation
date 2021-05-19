@@ -1,47 +1,112 @@
+---
 name: RF06
 mission: ACLOUD
 platform: P5
 flight_id: ACLOUD_P5_RF06
 contacts:
-- name: null
-  email: null
+- name: Manfred Wendisch
+  email: m.wendisch@uni-leipzig.de
+  tags:
+    - pi
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+    - lc
 date: 2017-05-27
-flight_report: null
-takeoff: &id001 2017-05-27 07:58:20
-landing: &id002 2017-05-27 11:25:45
-events: []
-remarks:
-- A-Train Overpass
+flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=06_20170527_p5_acloud_flight_report.pdf
+takeoff: 2017-05-27 07:58:20
+landing: 2017-05-27 11:25:45
+events:
+- A-Train underflight
+remarks: []
 segments:
 - kinds:
   - major_ascend
-  name: major ascend 1
+  name: major ascend
   irregularities: []
-  segment_id: ACLOUD_P5_RF06_ma1
-  start: *id001
-  end: null
+  segment_id: ACLOUD_P5_RF06_ma
+  start: 2017-05-27 07:58:20
+  end: 2017-05-27 08:10:24
+  levels: [100,9600]
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
-  - add_new_segments_here
-  name: null
+  - high_level
+  name: high level 1
   irregularities: []
-  segment_id: null
-  start: null
-  end: null
+  segment_id: ACLOUD_P5_RF06_hl01
+  start: 2017-05-27 08:10:24
+  end: 2017-05-27 08:44:05
+  levels: [9800]
   dropsondes:
     GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-05-27 08:44:05
+  end: 2017-05-27 08:45:14
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: ACLOUD_P5_RF06_hl02
+  start: 2017-05-27 08:45:14
+  end: 2017-05-27 09:45:38
+  levels: [10600]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2017-05-27 09:45:38
+  end: 2017-05-27 09:48:36
+- kinds:
+  - high_level
+  - a-train_underflight
+  name: high level 3
+  irregularities: []
+  segment_id: ACLOUD_P5_RF06_hl03
+  start: 2017-05-27 09:48:36
+  end: 2017-05-27 10:44:28
+  levels: [10900]
+  dropsondes:
+    GOOD:
+      - P5_RF06_sonde01
+      - P5_RF06_sonde02
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-05-27 10:44:28
+  end: 2017-05-27 10:45:45
+- kinds:
+  - high_level
+  name: high level 4
+  irregularities: []
+  segment_id: ACLOUD_P5_RF06_hl04
+  start: 2017-05-27 10:45:45
+  end: 2017-05-27 11:05:43
+  levels: [11000]
+  dropsondes:
+    GOOD:
+      - P5_RF06_sonde03
     BAD: []
     UGLY: []
 - kinds:
   - major_descend
-  name: major descend 1
+  name: major descend
   irregularities: []
-  segment_id: ACLOUD_P5_RF06_md1
-  start: null
-  end: *id002
+  segment_id: ACLOUD_P5_RF06_md
+  start: 2017-05-27 11:05:43
+  end: 2017-05-27 11:25:45
+  levels: [10600,100]
   dropsondes:
     GOOD: []
     BAD: []

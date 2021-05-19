@@ -47,7 +47,7 @@ segments:
     UGLY: []
 - kinds:
   - large_descend
-  name: large descend 1
+  name: large descend
   irregularities: []
   segment_id: AFLUX_P5_RF15_ld01
   start: 2019-04-11 10:30:00
@@ -150,7 +150,7 @@ segments:
     levels: [800]
 - kinds:
   - small_ascend
-  name: small ascend 1
+  name: small ascend
   irregularities: []
   segment_id: AFLUX_P5_RF15_sa01
   start: 2019-04-11 11:39:25
@@ -162,7 +162,7 @@ segments:
     UGLY: []
 - kinds:
   - small_descend
-  name: small descend 1
+  name: small descend
   irregularities: []
   segment_id: AFLUX_P5_RF15_sd01
   start: 2019-04-11 11:45:10
@@ -338,7 +338,7 @@ segments:
     UGLY: []
 - kinds:
   - large_ascend
-  name: large ascend 1
+  name: large ascend
   irregularities: []
   segment_id: AFLUX_P5_RF15_la01
   start: 2019-04-11 13:20:45

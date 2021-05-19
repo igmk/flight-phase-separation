@@ -15,9 +15,9 @@ date: 2017-06-25
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=23_20170625_p5_acloud_flight_report_2.pdf
 takeoff: 2017-06-25 11:08:55
 landing: 2017-06-25 17:11:50
-events: []
-remarks:
+events:
 - profiles over sea ice
+remarks:
 - mostly clear-sky with some thin cirrus clouds
 segments:
 - kinds:
@@ -47,7 +47,7 @@ segments:
     UGLY: []
 - kinds:
   - large_descend
-  name: large descend 1
+  name: large descend
   irregularities: []
   segment_id: ACLOUD_P5_RF23_ld01
   start: 2017-06-25 11:50:45
@@ -64,7 +64,7 @@ segments:
   end: 2017-06-25 12:01:25
 - kinds:
   - small_ascend
-  name: small ascend 1
+  name: small ascend
   irregularities: []
   segment_id: ACLOUD_P5_RF23_sa01
   start: 2017-06-25 12:01:25
@@ -76,7 +76,7 @@ segments:
     UGLY: []
 - kinds:
   - small_descend
-  name: small descend 1
+  name: small descend
   irregularities: 
     - start of procedure turn at end of segment
   segment_id: ACLOUD_P5_RF23_sd01
@@ -527,7 +527,7 @@ segments:
   end: 2017-06-25 16:05:10
 - kinds:
   - large_ascend
-  name: large ascend 1
+  name: large ascend
   irregularities: []
   segment_id: ACLOUD_P5_RF23_la01
   start: 2017-06-25 16:05:10

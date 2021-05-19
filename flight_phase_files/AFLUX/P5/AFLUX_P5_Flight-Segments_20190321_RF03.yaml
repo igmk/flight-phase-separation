@@ -22,9 +22,9 @@ remarks: []
 segments:
 - kinds:
   - major_ascend
-  name: major ascend 1
+  name: major ascend
   irregularities: []
-  segment_id: AFLUX_P5_RF03_ma1
+  segment_id: AFLUX_P5_RF03_ma
   start: 2019-03-21 09:51:50 
   end: 2019-03-21 10:05:48
   levels: [100,9600]
@@ -48,7 +48,7 @@ segments:
   - large_descend
   - profiling
   - short_turn
-  name: large descend 1
+  name: large descend
   irregularities:
     - short turn starts at the end of descending
   segment_id: AFLUX_P5_RF03_ld01
@@ -156,7 +156,7 @@ segments:
 - kinds:
   - large_ascend
   - procedure_turn
-  name: large ascend 1
+  name: large ascend
   irregularities: []
   segment_id: AFLUX_P5_RF03_la01
   start: 2019-03-21 12:36:04
@@ -240,9 +240,9 @@ segments:
     UGLY: []
 - kinds:
   - major_descend
-  name: major descend 1
+  name: major descend
   irregularities: []
-  segment_id: AFLUX_P5_RF03_md1
+  segment_id: AFLUX_P5_RF03_md
   start: 2019-03-21 14:06:38
   end: 2019-03-21 14:31:15 
   levels: [9500,100]

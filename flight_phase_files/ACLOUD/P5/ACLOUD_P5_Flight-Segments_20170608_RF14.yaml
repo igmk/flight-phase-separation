@@ -7,11 +7,11 @@ contacts:
 - name: Mario Mech
   email: mario.mech@uni-koeln.de
   tags:
-    - lc
+    - pi
 - name: Mario Mech
   email: mario.mech@uni-koeln.de
   tags:
-    - pi
+    - lc
 date: 2017-06-08
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=14_20170608_p5_acloud_flight_report.pdf
 takeoff: 2017-06-08 07:36:50
@@ -202,7 +202,7 @@ segments:
     levels: [9700]
 - kinds:
   - large_descend
-  name: large descend 1
+  name: large descend
   irregularities: 
     - not along straight line
   segment_id: ACLOUD_P5_RF14_ld01

@@ -82,7 +82,7 @@ segments:
     UGLY: []
 - kinds:
   - large_descend
-  name: large descend 1
+  name: large descend
   irregularities: []
   segment_id: AFLUX_P5_RF14_ld01
   start: 2019-04-08 10:16:55
@@ -130,7 +130,7 @@ segments:
   parts:
   - kinds:
     - sawtooth_ascend
-    name: sawtooth pattern 1 ascend 1
+    name: sawtooth pattern 1 ascend
     irregularities:
       - ascend begins already during procedure turn before
     segment_id: AFLUX_P5_RF14_st01_a01
@@ -155,7 +155,7 @@ segments:
       UGLY: []
   - kinds:
     - sawtooth_descend
-    name: sawtooth pattern 1 descend 1
+    name: sawtooth pattern 1 descend
     irregularities: []
     segment_id: AFLUX_P5_RF14_st01_d01
     start: 2019-04-08 11:35:25
@@ -304,7 +304,7 @@ segments:
   end: 2019-04-08 12:25:00
 - kinds:
   - small_descend
-  name: small descend 1
+  name: small descend
   irregularities: 
     - two short turns within descend
   segment_id: AFLUX_P5_RF14_sd01
@@ -329,7 +329,7 @@ segments:
     UGLY: []
 - kinds:
   - large_ascend
-  name: large ascend 1
+  name: large ascend
   irregularities: 
     - procedure turn at the end of ascend
   segment_id: AFLUX_P5_RF14_sd01

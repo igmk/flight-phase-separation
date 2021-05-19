@@ -138,7 +138,7 @@ segments:
     UGLY: []
 - kinds:
   - large_descend
-  name: large descend 1
+  name: large descend
   irregularities: 
     - not along straight line
   segment_id: MOSAiC-ACA_P5_RF05_ld01

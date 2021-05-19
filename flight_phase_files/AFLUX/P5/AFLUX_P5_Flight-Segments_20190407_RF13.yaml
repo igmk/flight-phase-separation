@@ -4,7 +4,7 @@ platform: P5
 flight_id: AFLUX_P5_RF13
 contacts:
 - name: Yvonne Boose
-  email: null
+  email: 
   tags:
     - pi
 - name: Nils Risse
@@ -100,7 +100,7 @@ segments:
   parts:
   - kinds:
     - sawtooth_descend
-    name: sawtooth pattern 1 descend 1
+    name: sawtooth pattern 1 descend
     irregularities: []
     segment_id: AFLUX_P5_RF13_st01_d01
     start: 2019-04-07 08:53:05
@@ -136,7 +136,7 @@ segments:
       UGLY: []
   - kinds:
     - sawtooth_ascend
-    name: sawtooth pattern 1 ascend 1
+    name: sawtooth pattern 1 ascend
     irregularities: []
     segment_id: AFLUX_P5_RF13_st01_a01
     start: 2019-04-07 09:00:05
@@ -225,7 +225,7 @@ segments:
   end: 2019-04-07 09:22:45
 - kinds:
   - large_ascend
-  name: large ascend 1
+  name: large ascend
   irregularities:
     - end of procedure turn and two short turns during ascend
   segment_id: AFLUX_P5_RF13_la01
@@ -238,7 +238,7 @@ segments:
     UGLY: []
 - kinds:
   - large_descend
-  name: large descend 1
+  name: large descend
   irregularities: []
   segment_id: AFLUX_P5_RF13_ld01
   start: 2019-04-07 09:30:45

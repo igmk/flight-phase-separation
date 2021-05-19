@@ -3,45 +3,45 @@ mission: AFLUX
 platform: P5
 flight_id: AFLUX_P5_RF11
 contacts:
-- name: null
-  email: null
+- name: 
+  email: 
 date: 2019-04-04
-flight_report: null
-takeoff: &id001 2019-04-04 08:38:30
-landing: &id002 2019-04-04 12:26:10
+flight_report: 
+takeoff: 2019-04-04 08:38:30
+landing: 2019-04-04 12:26:10
 events: []
 remarks:
 - Warm front pushing clouds in the MIZ along steady increasing sea ice concentration
 segments:
 - kinds:
   - major_ascend
-  name: major ascend 1
+  name: major ascend
   irregularities: []
-  segment_id: AFLUX_P5_RF11_ma1
-  start: *id001
-  end: null
+  segment_id: AFLUX_P5_RF11_ma
+  start: 
+  end: 
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
   - add_new_segments_here
-  name: null
+  name: 
   irregularities: []
-  segment_id: null
-  start: null
-  end: null
+  segment_id: 
+  start: 
+  end: 
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
   - major_descend
-  name: major descend 1
+  name: major descend
   irregularities: []
-  segment_id: AFLUX_P5_RF11_md1
-  start: null
-  end: *id002
+  segment_id: AFLUX_P5_RF11_md
+  start: 
+  end: 
   dropsondes:
     GOOD: []
     BAD: []

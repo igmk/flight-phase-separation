@@ -3,12 +3,12 @@ mission: MOSAiC-ACA
 platform: P5
 flight_id: MOSAiC-ACA_P5_RF10
 contacts:
-- name: null
-  email: null
+- name: 
+  email: 
 date: 2020-09-11
-flight_report: null
-takeoff: &id001 2020-09-11 08:19:40
-landing: &id002 2020-09-11 13:59:30
+flight_report: 
+takeoff: 2020-09-11 08:19:40
+landing: 2020-09-11 13:59:30
 events: []
 remarks:
 - Profiles over the marginal sea ice zone and sonding the cloud-free lee area north
@@ -16,33 +16,33 @@ remarks:
 segments:
 - kinds:
   - major_ascend
-  name: major ascend 1
+  name: major ascend
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF10_ma1
-  start: *id001
-  end: null
+  segment_id: MOSAiC-ACA_P5_RF10_ma
+  start: 
+  end: 
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
   - add_new_segments_here
-  name: null
+  name: 
   irregularities: []
-  segment_id: null
-  start: null
-  end: null
+  segment_id: 
+  start: 
+  end: 
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
   - major_descend
-  name: major descend 1
+  name: major descend
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF10_md1
-  start: null
-  end: *id002
+  segment_id: MOSAiC-ACA_P5_RF10_md
+  start: 
+  end: 
   dropsondes:
     GOOD: []
     BAD: []

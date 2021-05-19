@@ -3,45 +3,45 @@ mission: MOSAiC-ACA
 platform: P5
 flight_id: MOSAiC-ACA_P5_RF08
 contacts:
-- name: null
-  email: null
+- name: 
+  email: 
 date: 2020-09-08
-flight_report: null
-takeoff: &id001 2020-09-08 08:00:55
-landing: &id002 2020-09-08 14:05:05
+flight_report: 
+takeoff: 2020-09-08 08:00:55
+landing: 2020-09-08 14:05:05
 events: []
 remarks:
 - Profiles over the marginal sea ice zone
 segments:
 - kinds:
   - major_ascend
-  name: major ascend 1
+  name: major ascend
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF08_ma1
-  start: *id001
-  end: null
+  segment_id: MOSAiC-ACA_P5_RF08_ma
+  start: 
+  end: 
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
   - add_new_segments_here
-  name: null
+  name: 
   irregularities: []
-  segment_id: null
-  start: null
-  end: null
+  segment_id: 
+  start: 
+  end: 
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
   - major_descend
-  name: major descend 1
+  name: major descend
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF08_md1
-  start: null
-  end: *id002
+  segment_id: MOSAiC-ACA_P5_RF08_md
+  start: 
+  end: 
   dropsondes:
     GOOD: []
     BAD: []

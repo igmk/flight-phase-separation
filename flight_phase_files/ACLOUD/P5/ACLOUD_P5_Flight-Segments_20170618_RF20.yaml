@@ -24,9 +24,9 @@ remarks:
 segments:
 - kinds:
   - major_ascend
-  name: major ascend 1
+  name: major ascend
   irregularities: []
-  segment_id: ACLOUD_P5_RF20_ma1
+  segment_id: ACLOUD_P5_RF20_ma
   start: 2017-06-18 12:03:30
   end: 2017-06-18 12:14:25
   levels: [100,8900]
@@ -49,7 +49,7 @@ segments:
 - kinds:
   - large_descend
   - profiling
-  name: large descend 1
+  name: large descend
   irregularities: []
   segment_id: ACLOUD_P5_RF20_ld01
   start: 2017-06-18 12:34:14
@@ -127,6 +127,7 @@ segments:
   end: 2017-06-18 13:27:00
 - kinds:
   - racetrack pattern
+  - p6_co-location
   name: racetrack pattern 1
   irregularities: []
   segment_id: ACLOUD_P5_RF20_rt01
@@ -254,6 +255,7 @@ segments:
   end: 2017-06-18 14:44:55
 - kinds:
   - racetrack pattern
+  - p6_co-location
   name: racetrack pattern 2
   irregularities: []
   segment_id: ACLOUD_P5_RF20_rt02
@@ -329,6 +331,7 @@ segments:
   end: 2017-06-18 16:09:53
 - kinds:
   - racetrack pattern
+  - p6_co-location
   name: racetrack pattern 3
   irregularities: []
   segment_id: ACLOUD_P5_RF20_rt03
@@ -395,9 +398,9 @@ segments:
     UGLY: []
 - kinds:
   - major_descend
-  name: major descend 1
+  name: major descend
   irregularities: []
-  segment_id: ACLOUD_P5_RF20_md1
+  segment_id: ACLOUD_P5_RF20_md
   start: 2017-06-18 17:10:12
   end: 2017-06-18 17:41:43
   levels: [9800,100]

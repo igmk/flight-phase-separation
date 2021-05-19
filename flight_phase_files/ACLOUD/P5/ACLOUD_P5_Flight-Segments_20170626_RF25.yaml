@@ -3,12 +3,12 @@ mission: ACLOUD
 platform: P5
 flight_id: ACLOUD_P5_RF25
 contacts:
-- name: null
-  email: null
+- name: 
+  email: 
 date: 2017-06-26
-flight_report: null
-takeoff: &id001 2017-06-26 12:34:25
-landing: &id002 2017-06-26 15:16:40
+flight_report: 
+takeoff: 2017-06-26 12:34:25
+landing: 2017-06-26 15:16:40
 events:
 - joint flight with P6
 remarks:
@@ -16,33 +16,33 @@ remarks:
 segments:
 - kinds:
   - major_ascend
-  name: major ascend 1
+  name: major ascend
   irregularities: []
-  segment_id: ACLOUD_P5_RF25_ma1
-  start: *id001
-  end: null
+  segment_id: ACLOUD_P5_RF25_ma
+  start: 
+  end: 
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
   - add_new_segments_here
-  name: null
+  name: 
   irregularities: []
-  segment_id: null
-  start: null
-  end: null
+  segment_id: 
+  start: 
+  end: 
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
   - major_descend
-  name: major descend 1
+  name: major descend
   irregularities: []
-  segment_id: ACLOUD_P5_RF25_md1
-  start: null
-  end: *id002
+  segment_id: ACLOUD_P5_RF25_md
+  start: 
+  end: 
   dropsondes:
     GOOD: []
     BAD: []

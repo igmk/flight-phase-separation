@@ -80,7 +80,7 @@ segments:
     UGLY: []
 - kinds:
   - small_ascend
-  name: small ascend 1
+  name: small ascend
   irregularities: [1100, 4100]
   segment_id: ACLOUD_P5_RF10_sa01
   start: 2017-05-31 15:44:45
@@ -92,9 +92,9 @@ segments:
     UGLY: []
 - kinds:
   - small_descend
-  name: small descend 1
+  name: small descend
   irregularities: [4100, 300]
-  segment_id: null
+  segment_id: 
   start: 2017-05-31 15:49:50
   end: 2017-05-31 15:54:15
   levels: []
@@ -197,9 +197,9 @@ segments:
   end: 2017-05-31 16:37:15
 - kinds:
   - small_descend
-  name: small descend 1
+  name: small descend
   irregularities: []
-  segment_id: null
+  segment_id: 
   start: 2017-05-31 16:37:15
   end: 2017-05-31 16:41:10
   levels: [2900, 300]
@@ -236,7 +236,7 @@ segments:
   name: small descend 2
   irregularities:
     - curve during descend
-  segment_id: null
+  segment_id: 
   start: 2017-05-31 16:59:05
   end: 2017-05-31 17:03:00
   levels: [3100, 300]
@@ -425,9 +425,9 @@ segments:
       UGLY: []
 - kinds:
   - large_ascend
-  name: large ascend 1
+  name: large ascend
   irregularities: []
-  segment_id: null
+  segment_id: 
   start: 2017-05-31 17:52:40
   end: 2017-05-31 18:03:40
   levels: [2900, 10800]
