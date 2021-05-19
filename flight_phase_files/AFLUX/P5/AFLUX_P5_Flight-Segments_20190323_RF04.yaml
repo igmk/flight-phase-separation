@@ -204,7 +204,7 @@ segments:
   name: mid level 1
   irregularities:
     - section with series of curves for sensor de-icing
-  segment_id: null
+  segment_id: AFLUX_P5_RF04_ml01
   start: 2019-03-23 13:51:35
   end: 2019-03-23 14:00:10
   levels: [3800]
@@ -216,7 +216,7 @@ segments:
   - mid_level
   name: mid level 2
   irregularities: []
-  segment_id: null
+  segment_id: AFLUX_P5_RF04_ml02
   start: 2019-03-23 14:00:10
   end: 2019-03-23 14:04:45
   levels: [3800]
