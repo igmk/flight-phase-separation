@@ -363,7 +363,7 @@ segments:
   parts:
   - kinds:
     - sawtooth_ascend
-    name: saw tooth 1 ascend
+    name: saw tooth 1 ascend 1
     irregularities: []
     segment_id: AFLUX_P5_RF09_st01_a01
     start: 2019-04-01 10:22:25
@@ -371,9 +371,9 @@ segments:
     levels: [300,6900]
   - kinds:
     - sawtooth_descend
-    name: saw tooth 1 descend
+    name: saw tooth 1 descend 1
     irregularities: []
-    segment_id: AFLUX_P5_RF09_st01_d1
+    segment_id: AFLUX_P5_RF09_st01_d01
     start: 2019-04-01 10:35:11
     end: 2019-04-01 10:46:37
     levels: [6900,200]
