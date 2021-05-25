@@ -4,14 +4,14 @@ mission: AFLUX
 platform: P5
 flight_id: AFLUX_P5_RF03
 contacts:
-- name: Mario Mech
-  email: mario.mech@uni-koeln.de
-  tags:
-    - lc
 - name: Christof Luepkes
   email: christof.luepkes@awi.de
   tags:
     - pi
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+    - lc
 date: 2019-03-21
 flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetch.php?media=03_20190321_aflux_flight_report.pdf
 takeoff: 2019-03-21 09:51:50

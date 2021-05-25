@@ -7,11 +7,11 @@ contacts:
 - name: Mario Mech
   email: mario.mech@uni-koeln.de
   tags:
-    - lc
+    - pi
 - name: Mario Mech
   email: mario.mech@uni-koeln.de
   tags:
-    - pi
+    - lc
 date: 2020-09-02
 flight_report: https://home.uni-leipzig.de/~ehrlich/MOSAiC_ACA_wiki_doku/lib/exe/fetch.php?media=fr20200902.pdf
 takeoff: 2020-09-02 06:55:45

@@ -214,7 +214,7 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - racetrack pattern
+  - racetrack_pattern
   name: racetrack pattern 1
   irregularities: []
   segment_id: ACLOUD_P5_RF14_rt01

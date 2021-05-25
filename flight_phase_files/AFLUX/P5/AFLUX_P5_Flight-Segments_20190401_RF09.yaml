@@ -355,7 +355,7 @@ segments:
   segment_id: AFLUX_P5_RF09_st01
   start: 2019-04-01 10:22:25
   end: 2019-04-01 10:46:37
-  levels: [300,6900,200]
+  levels: [300,6900,6900,200]
   dropsondes:
     GOOD: []
     BAD: []
