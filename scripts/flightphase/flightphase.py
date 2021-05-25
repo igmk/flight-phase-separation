@@ -1,12 +1,9 @@
-import ac3airborne
-
 class FlightPhaseFile(object):
     """docstring for FlightPhaseFile."""
 
-    def __init__(self, a, b):
+    def __init__(self, yaml_content):
         super(FlightPhaseFile, self).__init__()
-        meta = ac3airborne.get_flight_segments()
-        self.ds = meta[a][b]
+        self.ds = yaml_content
 
     def select(self, attribute, value, invertSelection=False, strict=False):
         if strict:
