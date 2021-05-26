@@ -82,7 +82,7 @@ segments:
     UGLY: []
 - kinds:
   - large_descend
-  name: large descend
+  name: large descend 1
   irregularities: []
   segment_id: AFLUX_P5_RF14_ld01
   start: 2019-04-08 10:16:55
@@ -304,7 +304,7 @@ segments:
   end: 2019-04-08 12:25:00
 - kinds:
   - small_descend
-  name: small descend
+  name: small descend 1
   irregularities: 
     - two short turns within descend
   segment_id: AFLUX_P5_RF14_sd01
@@ -329,7 +329,7 @@ segments:
     UGLY: []
 - kinds:
   - large_ascend
-  name: large ascend
+  name: large ascend 1
   irregularities: 
     - procedure turn at the end of ascend
   segment_id: AFLUX_P5_RF14_sd01
