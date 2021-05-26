@@ -47,7 +47,7 @@ segments:
     UGLY: []
 - kinds:
   - large_descend
-  name: large descend
+  name: large descend 1
   irregularities: []
   segment_id: ACLOUD_P5_RF23_ld01
   start: 2017-06-25 11:50:45
@@ -64,7 +64,7 @@ segments:
   end: 2017-06-25 12:01:25
 - kinds:
   - small_ascend
-  name: small ascend
+  name: small ascend 1
   irregularities: []
   segment_id: ACLOUD_P5_RF23_sa01
   start: 2017-06-25 12:01:25
@@ -76,7 +76,7 @@ segments:
     UGLY: []
 - kinds:
   - small_descend
-  name: small descend
+  name: small descend 1
   irregularities: 
     - start of procedure turn at end of segment
   segment_id: ACLOUD_P5_RF23_sd01
@@ -88,7 +88,7 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - racetrack pattern
+  - racetrack_pattern
   name: racetrack pattern 1
   irregularities: []
   segment_id: ACLOUD_P5_RF23_rt01
@@ -201,7 +201,7 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - racetrack pattern
+  - racetrack_pattern
   name: racetrack pattern 2
   irregularities: []
   segment_id: ACLOUD_P5_RF23_rt02
@@ -276,7 +276,7 @@ segments:
   irregularities:
   segment_id: ACLOUD_P5_RF23_ll02
   start: 2017-06-25 13:40:50
-  end: 2017-06-25 14:02:15
+  end: 2017-06-25 14:02:20
   levels: [200]
   dropsondes:
     GOOD: []
@@ -309,7 +309,7 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - racetrack pattern
+  - racetrack_pattern
   name: racetrack pattern 3
   irregularities: []
   segment_id: ACLOUD_P5_RF23_rt03
@@ -443,7 +443,7 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - racetrack pattern
+  - racetrack_pattern
   name: racetrack pattern 4
   irregularities: []
   segment_id: ACLOUD_P5_RF23_rt04
@@ -527,7 +527,7 @@ segments:
   end: 2017-06-25 16:05:10
 - kinds:
   - large_ascend
-  name: large ascend
+  name: large ascend 1
   irregularities: []
   segment_id: ACLOUD_P5_RF23_la01
   start: 2017-06-25 16:05:10

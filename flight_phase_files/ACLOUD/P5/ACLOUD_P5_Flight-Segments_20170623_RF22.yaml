@@ -189,12 +189,16 @@ segments:
 - kinds:
   - nya_overflight
   - large_descend
-  name: large descend
+  name: large descend 1
   irregularities: []
   segment_id: ACLOUD_P5_RF22_ld01
   start: 2017-06-23 13:45:21
   end: 2017-06-23 14:01:50
   levels: [14000, 200]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
 - kinds:
   - short_turn
   name: short turn
@@ -210,15 +214,23 @@ segments:
   start: 2017-06-23 14:03:00
   end: 2017-06-23 14:13:00
   levels: [200, 500]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
 - kinds:
   - small_ascend
-  name: small ascend
+  name: small ascend 1
   irregularities:
     - two curves during ascend
   segment_id: ACLOUD_P5_RF22_sa01
   start: 2017-06-23 14:13:00
   end: 2017-06-23 14:17:45
   levels: [500, 4900]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
 - kinds:
   - mid_level
   name: mid level 1
@@ -228,6 +240,10 @@ segments:
   start: 2017-06-23 14:17:45
   end: 2017-06-23 14:22:30
   levels: [4900]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
 - kinds:
   - major_descend
   name: major descend
