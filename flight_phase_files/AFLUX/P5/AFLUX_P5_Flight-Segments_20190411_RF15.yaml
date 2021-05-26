@@ -47,7 +47,7 @@ segments:
     UGLY: []
 - kinds:
   - large_descend
-  name: large descend
+  name: large descend 1
   irregularities: []
   segment_id: AFLUX_P5_RF15_ld01
   start: 2019-04-11 10:30:00
@@ -75,7 +75,7 @@ segments:
   start: 2019-04-11 10:42:55
   end: 2019-04-11 10:43:20
 - kinds:
-  - racetrack pattern
+  - racetrack_pattern
   name: racetrack pattern 1
   irregularities: []
   segment_id: AFLUX_P5_RF15_rt01
@@ -150,7 +150,7 @@ segments:
     levels: [800]
 - kinds:
   - small_ascend
-  name: small ascend
+  name: small ascend 1
   irregularities: []
   segment_id: AFLUX_P5_RF15_sa01
   start: 2019-04-11 11:39:25
@@ -162,7 +162,7 @@ segments:
     UGLY: []
 - kinds:
   - small_descend
-  name: small descend
+  name: small descend 1
   irregularities: []
   segment_id: AFLUX_P5_RF15_sd01
   start: 2019-04-11 11:45:10
@@ -209,7 +209,7 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - racetrack pattern
+  - racetrack_pattern
   name: racetrack pattern 2
   irregularities: []
   segment_id: AFLUX_P5_RF15_rt02
@@ -338,7 +338,7 @@ segments:
     UGLY: []
 - kinds:
   - large_ascend
-  name: large ascend
+  name: large ascend 1
   irregularities: []
   segment_id: AFLUX_P5_RF15_la01
   start: 2019-04-11 13:20:45
