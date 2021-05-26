@@ -132,7 +132,7 @@ segments:
     UGLY: []
 - kinds:
   - large_descend
-  name: large descend
+  name: large descend 1
   irregularities:
     - 540 deg procedure turn on track
   segment_id: AFLUX_P5_RF09_ld01
@@ -145,7 +145,7 @@ segments:
     UGLY: []
 - kinds:
   - stairstep_pattern
-  name: star step pattern 1
+  name: stairstep pattern 1
   irregularities: []
   segment_id: AFLUX_P5_RF09_st1
   start: 2019-04-01 08:32:46
@@ -158,7 +158,7 @@ segments:
   parts:
   - kinds:
     - stairstep_leg
-    name: stair step 1 leg 1
+    name: stairstep 1 leg 1
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_l01
     start: 2019-04-01 08:32:46
@@ -171,7 +171,7 @@ segments:
     end: 2019-04-01 08:38:28
   - kinds:
     - stairstep_leg
-    name: stair step 1 leg 2
+    name: stairstep 1 leg 2
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_l02
     start: 2019-04-01 08:38:28
@@ -184,7 +184,7 @@ segments:
     end: 2019-04-01 08:43:10 
   - kinds:
     - stairstep_leg
-    name: stair step 1 leg 3
+    name: stairstep 1 leg 3
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_l03
     start: 2019-04-01 08:43:10
@@ -197,7 +197,7 @@ segments:
     end: 2019-04-01 08:48:05 
   - kinds:
     - stairstep_leg
-    name: stair step 1 leg 4
+    name: stairstep 1 leg 4
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_l04
     start: 2019-04-01 08:48:05
@@ -210,7 +210,7 @@ segments:
     end: 2019-04-01 08:52:44 
   - kinds:
     - stairstep_leg
-    name: stair step 1 leg 5
+    name: stairstep 1 leg 5
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_l05
     start: 2019-04-01 08:52:44
@@ -223,7 +223,7 @@ segments:
     end: 2019-04-01 08:57:33 
   - kinds:
     - stairstep_leg
-    name: stair step 1 leg 6
+    name: stairstep 1 leg 6
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_l06
     start: 2019-04-01 08:57:33
@@ -236,7 +236,7 @@ segments:
     end: 2019-04-01 09:03:10 
   - kinds:
     - stairstep_leg
-    name: stair step 1 leg 7
+    name: stairstep 1 leg 7
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_l07
     start: 2019-04-01 09:03:10
@@ -249,7 +249,7 @@ segments:
     end: 2019-04-01 09:09:12
   - kinds:
     - stairstep_leg
-    name: stair step 1 leg 8
+    name: stairstep 1 leg 8
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_l08
     start: 2019-04-01 09:09:12
@@ -262,7 +262,7 @@ segments:
     end: 2019-04-01 09:13:47 
   - kinds:
     - stairstep_leg
-    name: stair step 1 leg 9
+    name: stairstep 1 leg 9
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_l09
     start: 2019-04-01 09:13:47
@@ -275,7 +275,7 @@ segments:
     end: 2019-04-01 09:20:36 
   - kinds:
     - stairstep_leg
-    name: stair step 1 leg 10
+    name: stairstep 1 leg 10
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_l10
     start: 2019-04-01 09:20:36
@@ -288,7 +288,7 @@ segments:
     end: 2019-04-01 09:24:48 
   - kinds:
     - stairstep_leg
-    name: stair step 1 leg 11
+    name: stairstep 1 leg 11
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_l11
     start: 2019-04-01 09:24:48
@@ -296,7 +296,7 @@ segments:
     levels: [4600]
 - kinds:
   - large_ascend
-  name: large ascend
+  name: large ascend 1
   irregularities:
     - included 180 deg turn on track
   segment_id: AFLUX_P5_RF09_la01
@@ -379,7 +379,7 @@ segments:
     levels: [6900,200]
 - kinds:
   - stairstep_pattern
-  name: stair step pattern 2
+  name: stairstep pattern 2
   irregularities: []
   segment_id: AFLUX_P5_RF09_ss2
   start: 2019-04-01 10:46:37
@@ -392,7 +392,7 @@ segments:
   parts:
   - kinds:
     - stairstep_leg
-    name: stair step 2 leg 1
+    name: stairstep 2 leg 1
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_l01
     start: 2019-04-01 10:46:37
@@ -405,7 +405,7 @@ segments:
     end: 2019-04-01 10:51:08
   - kinds:
     - stairstep_leg
-    name: stair step 2 leg 2
+    name: stairstep 2 leg 2
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_l02
     start: 2019-04-01 10:51:08
@@ -418,7 +418,7 @@ segments:
     end: 2019-04-01 10:55:04 
   - kinds:
     - stairstep_leg
-    name: stair step 2 leg 3
+    name: stairstep 2 leg 3
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_l03
     start: 2019-04-01 10:55:04
@@ -431,7 +431,7 @@ segments:
     end: 2019-04-01 10:59:10 
   - kinds:
     - stairstep_leg
-    name: stair step 2 leg 4
+    name: stairstep 2 leg 4
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_l04
     start: 2019-04-01 10:59:10
@@ -444,7 +444,7 @@ segments:
     end: 2019-04-01 11:03:24 
   - kinds:
     - stairstep_leg
-    name: stair step 2 leg 5
+    name: stairstep 2 leg 5
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_l05
     start: 2019-04-01 11:03:24
@@ -457,7 +457,7 @@ segments:
     end: 2019-04-01 11:08:27 
   - kinds:
     - stairstep_leg
-    name: stair step 2 leg 6
+    name: stairstep 2 leg 6
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_l06
     start: 2019-04-01 11:08:27
@@ -470,7 +470,7 @@ segments:
     end: 2019-04-01 11:10:35 
   - kinds:
     - stairstep_leg
-    name: stair step 2 leg 7
+    name: stairstep 2 leg 7
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_l07
     start: 2019-04-01 11:10:35
@@ -483,7 +483,7 @@ segments:
     end: 2019-04-01 11:14:10 
   - kinds:
     - stairstep_leg
-    name: stair step 2 leg 8
+    name: stairstep 2 leg 8
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_l08
     start: 2019-04-01 11:14:10
@@ -496,7 +496,7 @@ segments:
     end: 2019-04-01 11:17:12 
   - kinds:
     - stairstep_leg
-    name: stair step 2 leg 9
+    name: stairstep 2 leg 9
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_l9
     start: 2019-04-01 11:17:12
