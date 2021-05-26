@@ -33,7 +33,7 @@ segments:
     UGLY: []
 - kinds:
   - high_level
-  name: heigh level 1
+  name: high level 1
   irregularities: []
   segment_id: AFLUX_P5_RF06_hl01
   start: 2019-03-25 10:50:57
@@ -92,8 +92,8 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - small_turn
-  name: small turn
+  - short_turn
+  name: short turn
   start: 2019-03-25 11:11:27
   end: 2019-03-25 11:12:58
 - kinds:
@@ -394,9 +394,9 @@ segments:
   end: 2019-03-25 14:07:17
 - kinds:
   - low_level
-  name: low level 3
+  name: low level 5
   irregularities: []
-  segment_id: AFLUX_P5_RF06_ll03
+  segment_id: AFLUX_P5_RF06_ll05
   start: 2019-03-25 14:07:17
   end: 2019-03-25 14:12:23
   levels: [1100]
@@ -411,9 +411,9 @@ segments:
   end: 2019-03-25 14:15:57
 - kinds:
   - low_level
-  name: low level 4
+  name: low level 6
   irregularities: []
-  segment_id: AFLUX_P5_RF06_ll04
+  segment_id: AFLUX_P5_RF06_ll06
   start: 2019-03-25 14:15:57
   end: 2019-03-25 14:32:17
   levels: [1800]
