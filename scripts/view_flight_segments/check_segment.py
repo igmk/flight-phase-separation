@@ -8,6 +8,7 @@ import datetime
 from glob import glob
 from matplotlib import cm
 import xarray as xr
+import re
 import yaml
 import sys
 
@@ -24,14 +25,21 @@ Things that are considered already:
 class SegmentCatalog:
 
     # kinds    
-    regular = ['high_level', 'large_ascend', 'large_descend', 'low_level',
+    regular = ['high_level', 'mid_level', 'low_level', 
+               'large_ascend', 'large_descend',
                'major_ascend', 'major_descend',
-               'small_ascend', 'small_descend', 'profiling']
-    pattern = ['racetrack_pattern', 'stairstep_pattern']
-    curves = ['short_turn', 'long_turn', 'procedure_turn']
+               'small_ascend', 'small_descend', 
+               'profiling',
+               'holding_pattern',
+               'p6_co-location', 
+               'nya_overflight', 'sveabreen_glacier_overflight', 'a-train_underflight', 'polarstern_overflight']
+    
+    pattern = ['racetrack_pattern', 'stairstep_pattern', 'cross_pattern']
+    
+    curves = ['short_turn', 'long_turn', 'procedure_turn', 'waiting_pattern']
 
     # names
-    no_numbering = ['major ascend', 'major descend', 'short turn', 'long turn', 'procedure turn']
+    no_numbering = ['major ascend', 'major descend', 'short turn', 'long turn', 'procedure turn', 'waiting pattern']
     
     # events
     events = ['joint flight with P6',]  # TODO
@@ -113,8 +121,10 @@ if __name__ == '__main__':
             assert len(segment_keys) == 4
     
     # check if underscore is in name
-    # error: sorting has problem with leading zeros
-    name_lst = np.sort([segment['name'] for segment in segments])
+    convert = lambda text: int(text) if text.isdigit() else text.lower() 
+    alphanum_key = lambda key: [convert(c) for c in re.split('([0-9]+)', key)]
+    name_lst = sorted([segment['name'] for segment in segments], key=alphanum_key)
+
     for name in name_lst:
         assert '_' not in name
         
@@ -145,6 +155,8 @@ if __name__ == '__main__':
     for kinds in kinds_lst:
         for kind in kinds:
             assert ' ' not in kind
+            
+            assert kind in SegmentCatalog.pattern or kind in SegmentCatalog.curves or kind in SegmentCatalog.regular
         
     assert 'major_ascend' in kinds_lst[0]
     assert 'major_descend' in kinds_lst[-1]
