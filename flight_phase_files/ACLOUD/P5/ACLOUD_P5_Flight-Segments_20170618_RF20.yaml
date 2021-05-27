@@ -49,7 +49,7 @@ segments:
 - kinds:
   - large_descend
   - profiling
-  name: large descend
+  name: large descend 1
   irregularities: []
   segment_id: ACLOUD_P5_RF20_ld01
   start: 2017-06-18 12:34:14
@@ -68,6 +68,10 @@ segments:
   start: 2017-06-18 12:44:30
   end: 2017-06-18 12:59:08
   levels: [300,300]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
   parts:
   - kinds:
     - cross_pattern_leg
@@ -92,12 +96,12 @@ segments:
     levels: [300]
 - kinds:
   - waiting_pattern
-  name: waiting_pattern
+  name: waiting pattern
   start: 2017-06-18 12:59:08
   end: 2017-06-18 13:03:12
 - kinds:
   - large_ascend
-  name: large ascend
+  name: large ascend 1
   irregularities:
     - starts within turn
   segment_id: ACLOUD_P5_RF20_la01
@@ -126,7 +130,7 @@ segments:
   start: 2017-06-18 13:26:42
   end: 2017-06-18 13:27:00
 - kinds:
-  - racetrack pattern
+  - racetrack_pattern
   - p6_co-location
   name: racetrack pattern 1
   irregularities: []
@@ -253,7 +257,7 @@ segments:
   start: 2017-06-18 14:44:17
   end: 2017-06-18 14:44:55
 - kinds:
-  - racetrack pattern
+  - racetrack_pattern
   - p6_co-location
   name: racetrack pattern 2
   irregularities: []
@@ -328,7 +332,7 @@ segments:
   start: 2017-06-18 16:09:18
   end: 2017-06-18 16:09:53
 - kinds:
-  - racetrack pattern
+  - racetrack_pattern
   - p6_co-location
   name: racetrack pattern 3
   irregularities: []
