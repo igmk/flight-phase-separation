@@ -3,14 +3,14 @@ mission: AFLUX
 platform: P5
 flight_id: AFLUX_P5_RF07
 contacts:
-  - name: Dmitry Chechin
-    email: 
-    tags:
-      - pi
-  - name: Nils Risse
-    email: n.risse@uni-koeln.de
-    tags:
-      - lc
+- name: Dmitry Chechin
+  email: chechin@ifaran.ru
+  tags:
+    - pi
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
+  tags:
+    - lc
 date: 2019-03-30
 flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetch.php?media=07_20190330_aflux_flight_report.pdf
 takeoff: 2019-03-30 10:13:30
