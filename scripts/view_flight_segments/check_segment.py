@@ -34,7 +34,7 @@ class SegmentCatalog:
                'p6_co-location', 
                'nya_overflight', 'sveabreen_glacier_overflight', 'a-train_underflight', 'polarstern_overflight']
     
-    pattern = ['racetrack_pattern', 'stairstep_pattern', 'cross_pattern']
+    pattern = ['racetrack_pattern', 'stairstep_pattern', 'cross_pattern', 'sawtooth_pattern']
     
     curves = ['short_turn', 'long_turn', 'procedure_turn', 'waiting_pattern']
 
