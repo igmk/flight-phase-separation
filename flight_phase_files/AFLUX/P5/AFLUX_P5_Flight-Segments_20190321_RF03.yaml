@@ -48,7 +48,7 @@ segments:
   - large_descend
   - profiling
   - short_turn
-  name: large descend
+  name: large descend 1
   irregularities:
     - short turn starts at the end of descending
   segment_id: AFLUX_P5_RF03_ld01
@@ -73,7 +73,7 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - racetrack pattern
+  - racetrack_pattern
   name: racetrack pattern 1
   irregularities: []
   segment_id: FLUX_P5_RF03_rt01
@@ -156,7 +156,7 @@ segments:
 - kinds:
   - large_ascend
   - procedure_turn
-  name: large ascend
+  name: large ascend 1
   irregularities: []
   segment_id: AFLUX_P5_RF03_la01
   start: 2019-03-21 12:36:04
@@ -203,9 +203,9 @@ segments:
   end: 2019-03-21 13:09:53
 - kinds:
   - low_level
-  name: low level 5
+  name: low level 1
   irregularities: []
-  segment_id: AFLUX_P5_RF03_ll05
+  segment_id: AFLUX_P5_RF03_ll01
   start: 2019-03-21 13:09:53
   end: 2019-03-21 13:25:03
   levels: [200]
