@@ -178,6 +178,10 @@ segments:
   start: 2017-06-08 10:00:14
   end: 2017-06-08 10:10:51
   levels: [9600,9700]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
   parts:
   - kinds:
     - cross_pattern_leg
@@ -202,7 +206,7 @@ segments:
     levels: [9700]
 - kinds:
   - large_descend
-  name: large descend
+  name: large descend 1
   irregularities: 
     - not along straight line
   segment_id: ACLOUD_P5_RF14_ld01
@@ -283,9 +287,9 @@ segments:
   end: 2017-06-08 11:02:25
 - kinds:
   - large_ascend
-  name: large ascend 2
+  name: large ascend 1
   irregularities: []
-  segment_id: ACLOUD_P5_RF14_la02
+  segment_id: ACLOUD_P5_RF14_la01
   start: 2017-06-08 11:02:25
   end: 2017-06-08 11:11:20
   levels: [2400,9700]
@@ -295,9 +299,9 @@ segments:
     UGLY: []
 - kinds:
   - high_level
-  name: high level 8
+  name: high level 6
   irregularities: []
-  segment_id: ACLOUD_P5_RF14_hl08
+  segment_id: ACLOUD_P5_RF14_hl06
   start: 2017-06-08 11:11:20
   end: 2017-06-08 11:52:57
   levels: [9700]
@@ -313,9 +317,9 @@ segments:
   end: 2017-06-08 11:53:38
 - kinds:
   - high_level
-  name: high level 9
+  name: high level 7
   irregularities: []
-  segment_id: ACLOUD_P5_RF14_hl09
+  segment_id: ACLOUD_P5_RF14_hl07
   start: 2017-06-08 11:53:38
   end: 2017-06-08 12:05:14
   levels: [9800]
