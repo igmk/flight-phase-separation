@@ -3,10 +3,16 @@ mission: AFLUX
 platform: P5
 flight_id: AFLUX_P5_RF05
 contacts:
-- name: 
-  email: 
+  - name: Manfred Wendisch
+    email: m.wendisch@uni-leipzig.de
+    tags:
+      - pi
+  - name: Nils Risse
+    email: n.risse@uni-koeln.de
+    tags:
+      - lc
 date: 2019-03-24
-flight_report: 
+flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetch.php?media=05_20190324_aflux_flight_report.pdf
 takeoff: 2019-03-24 10:01:50
 landing: 2019-03-24 14:51:30
 events: []
@@ -18,19 +24,303 @@ segments:
   name: major ascend
   irregularities: []
   segment_id: AFLUX_P5_RF05_ma
-  start: 
-  end: 
+  start: 2019-03-24 10:01:50
+  end: 2019-03-24 10:13:25
+  levels: [100, 9400]
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
-  - add_new_segments_here
-  name: 
+  - high_level
+  name: high level 1
   irregularities: []
-  segment_id: 
-  start: 
-  end: 
+  segment_id: AFLUX_P5_RF05_hl01
+  start: 2019-03-24 10:13:25
+  end: 2019-03-24 10:29:50
+  levels: [9400]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2019-03-24 10:29:50
+  end: 2019-03-24 10:31:45
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: AFLUX_P5_RF05_hl02
+  start: 2019-03-24 10:31:45
+  end: 2019-03-24 11:10:40
+  levels: [9400]
+  dropsondes:
+    GOOD: 
+      - P5_RF05_sonde01
+      - P5_RF05_sonde02
+    BAD: []
+    UGLY: []
+- kinds:
+  - small_ascend
+  name: small ascend 1
+  irregularities: []
+  segment_id: AFLUX_P5_RF05_sa01
+  start: 2019-03-24 11:10:40
+  end: 2019-03-24 11:12:35
+  levels: [9400 10300]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: AFLUX_P5_RF05_hl03
+  start: 2019-03-24 11:12:35
+  end: 2019-03-24 12:07:40
+  levels: [10400]
+  dropsondes:
+    GOOD: 
+      - P5_RF05_sonde03
+      - P5_RF05_sonde04
+    BAD: []
+    UGLY: []
+- kinds:
+  - large_descend
+  name: large descend 1
+  irregularities: []
+  segment_id: AFLUX_P5_RF05_ld01
+  start: 2019-03-24 12:07:40
+  end: 2019-03-24 12:19:00
+  levels: [10400, 200]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2019-03-24 12:19:00
+  end: 2019-03-24 12:23:05
+- kinds:
+  - low_level
+  name: low level 1
+  irregularities: []
+  segment_id: AFLUX_P5_RF05_ll01
+  start: 2019-03-24 12:23:05
+  end: 2019-03-24 12:58:45
+  levels: [300]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - sawtooth_pattern
+  name: sawtooth pattern 1
+  irregularities: []
+  segment_id: AFLUX_P5_RF05_st01
+  start: 2019-03-24 12:58:45
+  end: 2019-03-24 13:48:25
+  levels: []
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+  parts:
+  - kinds:
+    - sawtooth_ascend
+    name: sawtooth 1 ascend 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF05_st01_a01
+    start: 2019-03-24 12:58:45
+    end: 2019-03-24 13:05:10
+    levels: [200, 6300]
+  - kinds:
+    - mid_level
+    name: sawtooth 1 mid level 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF05_st01_ml01
+    start: 2019-03-24 13:05:10
+    end: 2019-03-24 13:07:10
+    levels: [6300]
+  - kinds:
+    - sawtooth_descend
+    name: sawtooth 1 descend 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF05_st01_d01
+    start: 2019-03-24 13:07:10
+    end: 2019-03-24 13:12:25
+    levels: [6400, 200]
+  - kinds:
+    - low_level
+    name: sawtooth 1 low level 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF05_st01_ll01
+    start: 2019-03-24 13:12:25
+    end: 2019-03-24 13:14:35
+    levels: [200]
+  - kinds:
+    - sawtooth_ascend
+    name: sawtooth 1 ascend 2
+    irregularities: []
+    segment_id: AFLUX_P5_RF05_st01_a02
+    start: 2019-03-24 13:14:35
+    end: 2019-03-24 13:22:00
+    levels: [200, 7300]
+  - kinds:
+    - mid_level
+    name: sawtooth 1 high level 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF05_st01_hl01
+    start: 2019-03-24 13:22:00
+    end: 2019-03-24 13:23:35
+    levels: [7300]
+  - kinds:
+    - sawtooth_descend
+    name: sawtooth 1 descend 2
+    irregularities: []
+    segment_id: AFLUX_P5_RF05_st01_d02
+    start: 2019-03-24 13:23:35
+    end: 2019-03-24 13:29:30
+    levels: [7300, 300]
+  - kinds:
+    - low_level
+    name: sawtooth 1 low level 2
+    irregularities: []
+    segment_id: AFLUX_P5_RF05_st01_ll02
+    start: 2019-03-24 13:29:30
+    end: 2019-03-24 13:31:45
+    levels: [300]
+  - kinds:
+    - sawtooth_ascend
+    name: sawtooth 1 ascend 3
+    irregularities: []
+    segment_id: AFLUX_P5_RF05_st01_a03
+    start: 2019-03-24 13:31:45
+    end: 2019-03-24 13:35:00
+    levels: [200, 3600]
+  - kinds:
+    - mid_level
+    name: sawtooth 1 mid level 2
+    irregularities: []
+    segment_id: AFLUX_P5_RF05_st01_ml02
+    start: 2019-03-24 13:35:00
+    end: 2019-03-24 13:36:50
+    levels: [3600]
+  - kinds:
+    - sawtooth_descend
+    name: sawtooth 1 descend 3
+    irregularities: []
+    segment_id: AFLUX_P5_RF05_st01_d03
+    start: 2019-03-24 13:36:50
+    end: 2019-03-24 13:40:55
+    levels: [3500, 200]
+  - kinds:
+    - low_level
+    name: sawtooth 1 low level 3
+    irregularities: []
+    segment_id: AFLUX_P5_RF05_st01_ll03
+    start: 2019-03-24 13:40:55
+    end: 2019-03-24 13:42:10
+    levels: [300]
+  - kinds:
+    - sawtooth_ascend
+    name: sawtooth 1 ascend 4
+    irregularities: []
+    segment_id: AFLUX_P5_RF05_st01_a04
+    start: 2019-03-24 13:42:10
+    end: 2019-03-24 13:45:40
+    levels: [300, 3600]
+  - kinds:
+    - mid_level
+    name: sawtooth 1 mid level 3
+    irregularities: []
+    segment_id: AFLUX_P5_RF05_st01_ml03
+    start: 2019-03-24 13:45:40
+    end: 2019-03-24 13:45:55
+    levels: [3600]
+  - kinds:
+    - sawtooth_descend
+    name: sawtooth 1 descend 4
+    irregularities: []
+    segment_id: AFLUX_P5_RF05_st01_d04
+    start: 2019-03-24 13:45:55
+    end: 2019-03-24 13:48:25
+    levels: [3600, 200]
+- kinds:
+  - low_level
+  name: low level 2
+  irregularities: []
+  segment_id: AFLUX_P5_RF05_ll02
+  start: 2019-03-24 13:48:25
+  end: 2019-03-24 13:48:45
+  levels: [200]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2019-03-24 13:48:45
+  end: 2019-03-24 13:49:35
+- kinds:
+  - low_level
+  name: low level 3
+  irregularities: []
+  segment_id: AFLUX_P5_RF05_ll03
+  start: 2019-03-24 13:49:35
+  end: 2019-03-24 14:01:40
+  levels: [300]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2019-03-24 14:01:40
+  end: 2019-03-24 14:03:35
+- kinds:
+  - low_level
+  name: low level 4
+  irregularities: []
+  segment_id: AFLUX_P5_RF05_ll04
+  start: 2019-03-24 14:03:35
+  end: 2019-03-24 14:13:10
+  levels: [200]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2019-03-24 14:13:10
+  end: 2019-03-24 14:13:55
+- kinds:
+  - large_ascend
+  name: large ascend 1
+  irregularities: []
+  segment_id: AFLUX_P5_RF05_la01
+  start: 2019-03-24 14:13:55
+  end: 2019-03-24 14:19:15
+  levels: [200, 5100]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - mid_level
+  name: mid level 1
+  irregularities: []
+  segment_id: AFLUX_P5_RF05_ml01
+  start: 2019-03-24 14:19:15
+  end: 2019-03-24 14:43:15
+  levels: [5200]
   dropsondes:
     GOOD: []
     BAD: []
@@ -40,8 +330,9 @@ segments:
   name: major descend
   irregularities: []
   segment_id: AFLUX_P5_RF05_md
-  start: 
-  end: 
+  start: 2019-03-24 14:43:15
+  end: 2019-03-24 14:51:30
+  levels: [5000, 100]
   dropsondes:
     GOOD: []
     BAD: []
