@@ -26,8 +26,8 @@ class SegmentCatalog:
     # kinds    
     regular = ['high_level', 'large_ascend', 'large_descend', 'low_level',
                'major_ascend', 'major_descend',
-               'small_ascend', 'small_descend']
-    pattern = ['racetrack_pattern']
+               'small_ascend', 'small_descend', 'profiling']
+    pattern = ['racetrack_pattern', 'stairstep_pattern']
     curves = ['short_turn', 'long_turn', 'procedure_turn']
 
     # names
@@ -94,7 +94,7 @@ if __name__ == '__main__':
         assert 'start' in segment_keys
         assert 'end' in segment_keys
         
-        is_turn = np.any([kind in SegmentCatalog.curves for kind in segment['kinds']])
+        is_turn = np.all([kind in SegmentCatalog.curves for kind in segment['kinds']])
         
         if not is_turn:
             
@@ -113,6 +113,7 @@ if __name__ == '__main__':
             assert len(segment_keys) == 4
     
     # check if underscore is in name
+    # error: sorting has problem with leading zeros
     name_lst = np.sort([segment['name'] for segment in segments])
     for name in name_lst:
         assert '_' not in name
@@ -159,7 +160,7 @@ if __name__ == '__main__':
     # consecutive start and end times
     for t_start, t_end in zip(start_lst[1:], end_lst[:-1]):
         if t_start != t_end:
-            print(t0, t1)
+            print(t_start, t_end)
             assert t_start == t_end
     
     # consecutive start and end times within parts
