@@ -37,7 +37,7 @@ segments:
     UGLY: []
 - kinds:
   - small_descend
-  name: small descend
+  name: small descend 1
   irregularities:
     - slight variation in roll angle
   segment_id: ACLOUD_P5_RF10_sd01
@@ -80,7 +80,7 @@ segments:
     UGLY: []
 - kinds:
   - small_ascend
-  name: small ascend
+  name: small ascend 1
   irregularities: [1100, 4100]
   segment_id: ACLOUD_P5_RF10_sa01
   start: 2017-05-31 15:44:45
@@ -92,9 +92,9 @@ segments:
     UGLY: []
 - kinds:
   - small_descend
-  name: small descend
+  name: small descend 2
   irregularities: [4100, 300]
-  segment_id: 
+  segment_id: ACLOUD_P5_RF10_sd02
   start: 2017-05-31 15:49:50
   end: 2017-05-31 15:54:15
   levels: []
@@ -197,9 +197,9 @@ segments:
   end: 2017-05-31 16:37:15
 - kinds:
   - small_descend
-  name: small descend
+  name: small descend 3
   irregularities: []
-  segment_id: 
+  segment_id: ACLOUD_P5_RF10_sd03
   start: 2017-05-31 16:37:15
   end: 2017-05-31 16:41:10
   levels: [2900, 300]
@@ -233,10 +233,10 @@ segments:
     UGLY: []
 - kinds:
   - small_descend
-  name: small descend 2
+  name: small descend 4
   irregularities:
     - curve during descend
-  segment_id: 
+  segment_id: ACLOUD_P5_RF10_sd04
   start: 2017-05-31 16:59:05
   end: 2017-05-31 17:03:00
   levels: [3100, 300]
@@ -326,7 +326,7 @@ segments:
     UGLY: []
 - kinds:
   - racetrack_pattern
-  - ps_overflight
+  - polarstern_overflight
   name: racetrack pattern 1
   irregularities:
     - legs are not overlapping
@@ -425,9 +425,9 @@ segments:
       UGLY: []
 - kinds:
   - large_ascend
-  name: large ascend
+  name: large ascend 1
   irregularities: []
-  segment_id: 
+  segment_id: ACLOUD_P5_RF10_la01
   start: 2017-05-31 17:52:40
   end: 2017-05-31 18:03:40
   levels: [2900, 10800]
