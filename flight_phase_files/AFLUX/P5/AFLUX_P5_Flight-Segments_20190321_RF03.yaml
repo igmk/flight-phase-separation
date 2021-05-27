@@ -60,8 +60,8 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - low_leg
-  name: low leg 1
+  - low_level
+  name: low level 1
   irregularities:
     - last third already on racetrack
   segment_id: AFLUX_P5_RF03_ll01
@@ -77,7 +77,7 @@ segments:
   name: racetrack pattern 1
   irregularities: []
   segment_id: FLUX_P5_RF03_rt01
-  start: 2019-03-21 10:54:00
+  start: 2019-03-21 11:24:53
   end: 2019-03-21 12:36:04
   levels: [300,700,1200,2400,3400]
   dropsondes:
@@ -203,9 +203,9 @@ segments:
   end: 2019-03-21 13:09:53
 - kinds:
   - low_level
-  name: low level 1
+  name: low level 2
   irregularities: []
-  segment_id: AFLUX_P5_RF03_ll01
+  segment_id: AFLUX_P5_RF03_ll02
   start: 2019-03-21 13:09:53
   end: 2019-03-21 13:25:03
   levels: [200]

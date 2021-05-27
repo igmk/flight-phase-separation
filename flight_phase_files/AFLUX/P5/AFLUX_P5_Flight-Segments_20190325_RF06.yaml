@@ -444,7 +444,7 @@ segments:
     levels: [1900,200]
   - kinds:
     - low_level
-    name: sawtooth 2 low_level 1
+    name: sawtooth 2 low level 1
     irregularities: []
     segment_id: AFLUX_P5_RF06_st02_ll01
     start: 2019-03-25 14:36:59
@@ -468,7 +468,7 @@ segments:
     levels: [2300,300]
   - kinds:
     - low_level
-    name: sawtooth 2 low_level 2
+    name: sawtooth 2 low level 2
     irregularities: []
     segment_id: AFLUX_P5_RF06_st02_ll02
     start: 2019-03-25 14:47:41
@@ -492,7 +492,7 @@ segments:
     levels: [2500,200]
   - kinds:
     - low_level
-    name: sawtooth 2 low_level 3
+    name: sawtooth 2 low level 3
     irregularities: []
     segment_id: AFLUX_P5_RF06_st02_ll03
     start: 2019-03-25 14:59:44

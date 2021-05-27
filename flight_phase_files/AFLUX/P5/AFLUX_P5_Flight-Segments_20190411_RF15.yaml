@@ -451,11 +451,11 @@ segments:
 - kinds:
   - high_level
   name: high level 3
-  irregularities: [9500]
+  irregularities: []
   segment_id: AFLUX_P5_RF15_hl03
   start: 2019-04-11 14:46:35
   end: 2019-04-11 15:00:30
-  levels: []
+  levels: [9500]
   dropsondes:
     GOOD: []
     BAD: []

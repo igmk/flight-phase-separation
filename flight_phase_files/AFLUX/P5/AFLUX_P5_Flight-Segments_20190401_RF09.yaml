@@ -166,7 +166,7 @@ segments:
     levels: [200]
   - kinds:
     - small_ascend
-    name: small ascend
+    name: small ascend 1
     start: 2019-04-01 08:37:47 
     end: 2019-04-01 08:38:28
   - kinds:
@@ -179,7 +179,7 @@ segments:
     levels: [400]
   - kinds:
     - small_ascend
-    name: small ascend
+    name: small ascend 2
     start: 2019-04-01 08:42:05
     end: 2019-04-01 08:43:10 
   - kinds:
@@ -192,7 +192,7 @@ segments:
     levels: [800]
   - kinds:
     - small_ascend
-    name: small ascend
+    name: small ascend 3
     start: 2019-04-01 08:47:06
     end: 2019-04-01 08:48:05 
   - kinds:
@@ -205,7 +205,7 @@ segments:
     levels: [1100]
   - kinds:
     - small_ascend
-    name: small ascend
+    name: small ascend 4
     start: 2019-04-01 08:51:57
     end: 2019-04-01 08:52:44 
   - kinds:
@@ -218,7 +218,7 @@ segments:
     levels: [1500]
   - kinds:
     - small_ascend
-    name: small ascend
+    name: small ascend 5
     start: 2019-04-01 08:56:52
     end: 2019-04-01 08:57:33 
   - kinds:
@@ -231,7 +231,7 @@ segments:
     levels: [1900]
   - kinds:
     - small_ascend
-    name: small ascend
+    name: small ascend 6
     start: 2019-04-01 09:01:51
     end: 2019-04-01 09:03:10 
   - kinds:
@@ -244,7 +244,7 @@ segments:
     levels: [2800]
   - kinds:
     - small_ascend
-    name: small ascend
+    name: small ascend 7
     start: 2019-04-01 09:07:48
     end: 2019-04-01 09:09:12
   - kinds:
@@ -257,7 +257,7 @@ segments:
     levels: [3300]
   - kinds:
     - small_ascend
-    name: small ascend
+    name: small ascend 8
     start: 2019-04-01 09:13:03
     end: 2019-04-01 09:13:47 
   - kinds:
@@ -270,7 +270,7 @@ segments:
     levels: [3700]
   - kinds:
     - small_ascend
-    name: small ascend
+    name: small ascend 9
     start: 2019-04-01 09:19:24
     end: 2019-04-01 09:20:36 
   - kinds:
@@ -283,7 +283,7 @@ segments:
     levels: [4200]
   - kinds:
     - small_ascend
-    name: small ascend
+    name: small ascend 10
     start: 2019-04-01 09:24:01
     end: 2019-04-01 09:24:48 
   - kinds:
@@ -400,7 +400,7 @@ segments:
     levels: [200]
   - kinds:
     - small_ascend
-    name: small ascend
+    name: small ascend 11
     start: 2019-04-01 10:50:22 
     end: 2019-04-01 10:51:08
   - kinds:
@@ -413,7 +413,7 @@ segments:
     levels: [400]
   - kinds:
     - small_ascend
-    name: small ascend
+    name: small ascend 12
     start: 2019-04-01 10:54:27
     end: 2019-04-01 10:55:04 
   - kinds:
@@ -426,7 +426,7 @@ segments:
     levels: [600]
   - kinds:
     - small_ascend
-    name: small ascend
+    name: small ascend 13
     start: 2019-04-01 10:58:34
     end: 2019-04-01 10:59:10 
   - kinds:
@@ -439,7 +439,7 @@ segments:
     levels: [800]
   - kinds:
     - small_ascend
-    name: small ascend
+    name: small ascend 14
     start: 2019-04-01 11:02:30
     end: 2019-04-01 11:03:24 
   - kinds:
@@ -452,7 +452,7 @@ segments:
     levels: [1200]
   - kinds:
     - small_ascend
-    name: small ascend
+    name: small ascend 15
     start: 2019-04-01 11:07:36
     end: 2019-04-01 11:08:27 
   - kinds:
@@ -465,7 +465,7 @@ segments:
     levels: [1500]
   - kinds:
     - small_descend
-    name: small descend
+    name: small descend 1
     start: 2019-04-01 11:09:36
     end: 2019-04-01 11:10:35 
   - kinds:
@@ -478,7 +478,7 @@ segments:
     levels: [1000]
   - kinds:
     - small_descend
-    name: small descend
+    name: small descend 2
     start: 2019-04-01 11:13:34
     end: 2019-04-01 11:14:10 
   - kinds:
@@ -491,7 +491,7 @@ segments:
     levels: [800]
   - kinds:
     - small_descend
-    name: small descend
+    name: small descend 3
     start: 2019-04-01 11:16:47
     end: 2019-04-01 11:17:12 
   - kinds:

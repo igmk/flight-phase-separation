@@ -49,11 +49,11 @@ segments:
   - large_descend
   - procedure_turn
   name: large descend 1
-  irregularities: [9400,3000]
+  irregularities: []
   segment_id: AFLUX_P5_RF02_ld_01
   start: 2019-03-19 17:14:09
   end: 2019-03-19 17:20:05
-  levels: 
+  levels: [9400,3000]
   dropsondes:
     GOOD: []
     BAD: []

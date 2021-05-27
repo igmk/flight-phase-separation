@@ -100,7 +100,7 @@ segments:
   parts:
   - kinds:
     - sawtooth_descend
-    name: sawtooth pattern 1 descend
+    name: sawtooth pattern 1 descend 1
     irregularities: []
     segment_id: AFLUX_P5_RF13_st01_d01
     start: 2019-04-07 08:53:05
@@ -136,7 +136,7 @@ segments:
       UGLY: []
   - kinds:
     - sawtooth_ascend
-    name: sawtooth pattern 1 ascend
+    name: sawtooth pattern 1 ascend 1
     irregularities: []
     segment_id: AFLUX_P5_RF13_st01_a01
     start: 2019-04-07 09:00:05
