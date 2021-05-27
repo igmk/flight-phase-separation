@@ -48,7 +48,7 @@ segments:
 - kinds:
   - large_descend
   - procedure_turn
-  name: large descend
+  name: large descend 1
   irregularities: [9400,3000]
   segment_id: AFLUX_P5_RF02_ld_01
   start: 2019-03-19 17:14:09
@@ -60,7 +60,7 @@ segments:
     UGLY: []
 - kinds:
   - large_ascend
-  name: large ascend
+  name: large ascend 1
   irregularities: []
   segment_id: AFLUX_P5_RF02_la01
   start: 2019-03-19 17:20:05
