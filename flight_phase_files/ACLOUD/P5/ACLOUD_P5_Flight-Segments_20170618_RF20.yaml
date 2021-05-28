@@ -88,7 +88,7 @@ segments:
     end: 2017-06-18 12:56:08
   - kinds:
     - cross_pattern_leg
-    name: cross_pattern 1 leg 2
+    name: cross pattern 1 leg 2
     irregularities: []
     segment_id: ACLOUD_P5_RF20_cp01_l02
     start: 2017-06-18 12:56:08

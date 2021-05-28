@@ -62,29 +62,62 @@ def name_numbering(name_lst):
 
 class SegmentCatalog:
 
-    # kinds    
-    regular = ['high_level', 'mid_level', 'low_level', 
-               'large_ascend', 'large_descend',
-               'major_ascend', 'major_descend',
-               'small_ascend', 'small_descend', 
-               'profiling', 'noseboom_pattern',
+    # kinds
+    regular = ['high_level',
+               'mid_level',
+               'low_level',
+               'large_ascend',
+               'large_descend',
+               'major_ascend',
+               'major_descend',
+               'small_ascend',
+               'small_descend',
+               'profiling',
+               'noseboom_pattern',
                'holding_pattern',
-               'p6_co-location', 
-               'nya_overflight', 'sveabreen_glacier_overflight', 'a-train_underflight', 'polarstern_overflight',
+               'p6_co-location',
+               'nya_overflight',
+               'sveabreen_glacier_overflight',
+               'a-train_underflight',
+               'polarstern_overflight',
                'cloudsat_calipso_underflight']
     
-    pattern = ['racetrack_pattern', 'stairstep_pattern', 'cross_pattern', 'sawtooth_pattern', 'radiation_square']
+    pattern = ['racetrack_pattern',
+               'stairstep_pattern',
+               'cross_pattern',
+               'sawtooth_pattern',
+               'radiation_square',
+               'long_legs_pattern',
+               'holding_pattern']
     
-    curves = ['short_turn', 'long_turn', 'procedure_turn', 'waiting_pattern', 'deicing_leg']
+    curves = ['short_turn',
+              'long_turn',
+              'procedure_turn',
+              'waiting_pattern',
+              'deicing_leg',
+              'cross_pattern_turn',
+              'long_legs_pattern_turn',
+              'circle']
     
     # parts
     parts = {'racetrack_pattern': ['racetrack_leg', 'procedure_turn'], 
              'stairstep_pattern': ['small_ascend', 'stairstep_leg', 'small_descend'],  # no stairstep_ before name
              'cross_pattern': [],
-             'sawtooth_pattern': ['low_level', 'mid_level', 'descend', 'ascend']}  # no sawtooth_ before name
+             'sawtooth_pattern': ['low_level', 'mid_level', 'descend', 'ascend'],# no sawtooth_ before name
+             'holding_pattern': []  
+             }  
     
     # names
-    no_numbering = ['major ascend', 'major descend', 'short turn', 'long turn', 'procedure turn', 'waiting pattern', 'deicing leg']
+    no_numbering = ['major ascend',
+                    'major descend',
+                    'short turn',
+                    'long turn',
+                    'procedure turn',
+                    'waiting pattern',
+                    'deicing leg',
+                    'cross pattern turn',
+                    'long legs pattern turn',
+                    'circle']
     
     # events
     events = ['joint flight with P6',]  # TODO
@@ -187,7 +220,8 @@ if __name__ == '__main__':
     name_lst = name_lst + parts_name_lst
     
     name_numbering(name_lst)
-    
+    name_numbering(name_lst)
+
     #%% levels
     levels_lst = [segment['levels'] for segment in segments for kind in segment['kinds'] if kind in SegmentCatalog.pattern or kind in SegmentCatalog.regular]
     

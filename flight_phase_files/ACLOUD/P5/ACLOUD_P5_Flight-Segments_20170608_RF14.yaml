@@ -28,7 +28,7 @@ segments:
 - kinds:
   - major_ascend
   - nya_overflight
-  - low_level_Sveabreen_glacier
+  - sveabreen_glacier_overflight
   name: major ascend
   irregularities:
     - whale-watching loop
@@ -52,7 +52,6 @@ segments:
     GOOD: []
     BAD: []
     UGLY: []
-  parts: []
 - kinds:
   - holding_pattern
   name: holding pattern 1
@@ -110,7 +109,6 @@ segments:
       - P5_RF14_sonde02
     BAD: []
     UGLY: []
-  parts: []
 - kinds:
   - short_turn
   name: short turn
@@ -130,7 +128,6 @@ segments:
       - P5_RF14_sonde03
     BAD: []
     UGLY: []
-  parts: []
 - kinds:
   - short_turn
   name: short turn
@@ -149,7 +146,6 @@ segments:
       - P5_RF14_sonde04
     BAD: []
     UGLY: []
-  parts: []
 - kinds:
   - short_turn
   name: short turn
@@ -168,7 +164,6 @@ segments:
       - P5_RF14_sonde05
     BAD: []
     UGLY: []
-  parts: []
 - kinds:
   - cross_pattern
   - polarstern_overflight
@@ -198,7 +193,7 @@ segments:
     end: 2017-06-08 10:08:13
   - kinds:
     - cross_pattern_leg
-    name: cross_pattern 1 leg 2
+    name: cross pattern 1 leg 2
     irregularities: []
     segment_id: ACLOUD_P5_RF14_cp01_l02
     start: 2017-06-08 10:08:13
@@ -344,7 +339,7 @@ segments:
   parts:
   - kinds:
     - cross_pattern_leg
-    name: cross pattern 2 leg 1 
+    name: cross pattern 2 leg 1
     irregularities: []
     segment_id: ACLOUD_P5_RF14_cp02_l01
     start: 2017-06-08 12:05:14
