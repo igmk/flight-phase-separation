@@ -67,7 +67,7 @@ segments:
 - kinds:
   - large_descend
   - profiling
-  name: large descend 01
+  name: large descend 1
   irregularities: []
   segment_id: AFLUX_P5_RF08_ld01
   start: 2019-03-31 10:31:22
