@@ -3,45 +3,43 @@ mission: MOSAiC-ACA
 platform: P5
 flight_id: MOSAiC-ACA_P5_RF03
 contacts:
-- name: 
-  email: 
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
+  tags:
+    - lc
 date: 2020-08-31
-flight_report: 
+flight_report: no flight report was created
 takeoff: 2020-08-31 10:20:35
 landing: 2020-08-31 10:58:55
-events: []
-remarks:
-- Certification flight PMS instruments
+events:
+  - Certification flight (PMS instruments)
+remarks: []
 segments:
 - kinds:
   - major_ascend
   name: major ascend
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF03_ma
-  start: 
-  end: 
+  start: 2020-08-31 10:20:35
+  end: 2020-08-31 10:23:35
+  levels: [100, 3000]
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
-  - add_new_segments_here
-  name: 
-  irregularities: []
-  segment_id: 
-  start: 
-  end: 
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  - instrument_testing
+  name: instrument testing
+  start: 2020-08-31 10:23:35
+  end: 2020-08-31 10:56:00
 - kinds:
   - major_descend
   name: major descend
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF03_md
-  start: 
-  end: 
+  start: 2020-08-31 10:56:00
+  end: 2020-08-31 10:58:55
+  levels: [1500, 100]
   dropsondes:
     GOOD: []
     BAD: []

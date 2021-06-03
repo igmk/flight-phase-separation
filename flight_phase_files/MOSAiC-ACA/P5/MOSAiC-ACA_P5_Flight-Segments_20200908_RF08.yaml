@@ -3,13 +3,20 @@ mission: MOSAiC-ACA
 platform: P5
 flight_id: MOSAiC-ACA_P5_RF08
 contacts:
-- name: 
-  email: 
+- name: Christof Lüpkes
+  email: christof.luepkes@awi.de
+  tags:
+    - pi
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
+  tags:
+    - lc
 date: 2020-09-08
-flight_report: 
+flight_report: https://home.uni-leipzig.de/~ehrlich/MOSAiC_ACA_wiki_doku/lib/exe/fetch.php?media=fr_20200908_08_mosaic_aca_final.pdf
 takeoff: 2020-09-08 08:00:55
 landing: 2020-09-08 14:05:05
-events: []
+events: 
+- Ny-Alesund overflight
 remarks:
 - Profiles over the marginal sea ice zone
 segments:
@@ -18,19 +25,423 @@ segments:
   name: major ascend
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF08_ma
-  start: 
-  end: 
+  start: 2020-09-08 08:00:55
+  end: 2020-09-08 08:12:25
+  levels: [100, 9400]
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
-  - add_new_segments_here
-  name: 
+  - high_level
+  - nya_overflight
+  name: high level 1
   irregularities: []
-  segment_id: 
-  start: 
-  end: 
+  segment_id: MOSAiC-ACA_P5_RF08_hl01
+  start: 2020-09-08 08:12:25
+  end: 2020-09-08 08:49:25
+  levels: [9400]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2020-09-08 08:49:25
+  end: 2020-09-08 08:52:30
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: MOSAiC-ACA_P5_RF08_hl02
+  start: 2020-09-08 08:52:30
+  end: 2020-09-08 09:43:35
+  levels: [9400]
+  dropsondes:
+    GOOD: 
+      - P5_RF08_sonde01
+      - P5_RF08_sonde02
+      - P5_RF08_sonde03
+      - P5_RF08_sonde04
+    BAD: []
+    UGLY: []
+- kinds:
+  - long_turn
+  name: long turn
+  start: 2020-09-08 09:43:35
+  end: 2020-09-08 09:48:35
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: MOSAiC-ACA_P5_RF08_hl03
+  start: 2020-09-08 09:48:35
+  end: 2020-09-08 09:53:10
+  levels: [9400]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2020-09-08 09:53:10
+  end: 2020-09-08 09:57:30
+- kinds:
+  - large_descend
+  name: large descend 1
+  irregularities: []
+  segment_id: MOSAiC-ACA_P5_RF08_ld01
+  start: 2020-09-08 09:57:30
+  end: 2020-09-08 10:06:25
+  levels: [9300, 200]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2020-09-08 10:06:25
+  end: 2020-09-08 10:08:00
+- kinds:
+  - racetrack_pattern
+  name: racetrack pattern 1
+  irregularities: []
+  segment_id: MOSAiC-ACA_P5_RF08_rt01
+  start: 2020-09-08 10:08:00
+  end: 2020-09-08 10:46:55
+  levels: [200, 400, 1700, 2900]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+  parts:
+  - kinds:
+    - low_level
+    name: racetrack 1 leg 1
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF08_rt01_l01
+    start: 2020-09-08 10:08:00
+    end: 2020-09-08 10:18:40
+    levels: [200]
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+  - kinds:
+    - procedure_turn
+    name: procedure turn
+    start: 2020-09-08 10:18:40
+    end: 2020-09-08 10:22:55
+  - kinds:
+    - low_level
+    name: racetrack 1 leg 2
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF08_rt01_l02
+    start: 2020-09-08 10:22:55
+    end: 2020-09-08 10:28:15
+    levels: [400]
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+  - kinds:
+    - procedure_turn
+    name: procedure turn
+    start: 2020-09-08 10:28:15
+    end: 2020-09-08 10:31:55
+  - kinds:
+    - low_level
+    name: racetrack 1 leg 3
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF08_rt01_l03
+    start: 2020-09-08 10:31:55
+    end: 2020-09-08 10:37:35
+    levels: [1700]
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+  - kinds:
+    - procedure_turn
+    name: procedure turn
+    start: 2020-09-08 10:37:35
+    end: 2020-09-08 10:42:10
+  - kinds:
+    - low_level
+    name: racetrack 1 leg 4
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF08_rt01_l04
+    start: 2020-09-08 10:42:10
+    end: 2020-09-08 10:46:55
+    levels: [2900]
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2020-09-08 10:46:55
+  end: 2020-09-08 10:50:50
+- kinds:
+  - low_level
+  name: low level 1
+  irregularities: []
+  segment_id: MOSAiC-ACA_P5_RF08_ll01
+  start: 2020-09-08 10:50:50
+  end: 2020-09-08 10:53:50
+  levels: [300]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - large_ascend
+  name: large ascend 1
+  irregularities: []
+  segment_id: MOSAiC-ACA_P5_RF08_la01
+  start: 2020-09-08 10:53:50
+  end: 2020-09-08 11:00:35
+  levels: [200, 7000]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - high_level
+  name: high level 4
+  irregularities: []
+  segment_id: MOSAiC-ACA_P5_RF08_hl04
+  start: 2020-09-08 11:00:35
+  end: 2020-09-08 11:02:00
+  levels: [7000]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - small_descend
+  name: small descend 1
+  irregularities: []
+  segment_id: MOSAiC-ACA_P5_RF08_sd01
+  start: 2020-09-08 11:02:00
+  end: 2020-09-08 11:14:15
+  levels: [7000, 200]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - long_turn
+  name: long turn
+  start: 2020-09-08 11:14:15
+  end: 2020-09-08 11:19:00
+- kinds:
+  - racetrack_pattern
+  name: racetrack pattern 2
+  irregularities: []
+  segment_id: MOSAiC-ACA_P5_RF08_rt02
+  start: 2020-09-08 11:19:00
+  end: 2020-09-08 12:34:45
+  levels: [200, 200, 600, 800, 1100, 2300, 5800, 6100]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+  parts:
+  - kinds:
+    - low_level
+    name: racetrack 2 leg 1
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF08_rt02_l01
+    start: 2020-09-08 11:19:00
+    end: 2020-09-08 11:23:45
+    levels: [200]
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+  - kinds:
+    - procedure_turn
+    name: procedure turn
+    start: 2020-09-08 11:23:45
+    end: 2020-09-08 11:27:15
+  - kinds:
+    - low_level
+    name: racetrack 2 leg 2
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF08_rt02_l02
+    start: 2020-09-08 11:27:15
+    end: 2020-09-08 11:33:35
+    levels: [200]
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+  - kinds:
+    - procedure_turn
+    name: procedure turn
+    start: 2020-09-08 11:33:35
+    end: 2020-09-08 11:37:15
+  - kinds:
+    - low_level
+    name: racetrack 2 leg 3
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF08_rt02_l03
+    start: 2020-09-08 11:37:15
+    end: 2020-09-08 11:43:10
+    levels: [600]
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+  - kinds:
+    - procedure_turn
+    name: procedure turn
+    start: 2020-09-08 11:43:10
+    end: 2020-09-08 11:46:45
+  - kinds:
+    - low_level
+    name: racetrack 2 leg 4
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF08_rt02_l04
+    start: 2020-09-08 11:46:45
+    end: 2020-09-08 11:52:45
+    levels: [800]
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+  - kinds:
+    - procedure_turn
+    name: procedure turn
+    start: 2020-09-08 11:52:45
+    end: 2020-09-08 11:56:55
+  - kinds:
+    - low_level
+    name: racetrack 2 leg 5
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF08_rt02_l05
+    start: 2020-09-08 11:56:55
+    end: 2020-09-08 12:02:15
+    levels: [1100]
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+  - kinds:
+    - procedure_turn
+    name: procedure turn
+    start: 2020-09-08 12:02:15
+    end: 2020-09-08 12:07:00
+  - kinds:
+    - low_level
+    name: racetrack 2 leg 6
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF08_rt02_l06
+    start: 2020-09-08 12:07:00
+    end: 2020-09-08 12:12:30
+    levels: [2300]
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+  - kinds:
+    - procedure_turn
+    name: procedure turn
+    start: 2020-09-08 12:12:30
+    end: 2020-09-08 12:18:25
+  - kinds:
+    - low_level
+    name: racetrack 2 leg 7
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF08_rt02_l07
+    start: 2020-09-08 12:18:25
+    end: 2020-09-08 12:25:30
+    levels: [6100]
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+  - kinds:
+    - procedure_turn
+    name: procedure turn
+    start: 2020-09-08 12:25:30
+    end: 2020-09-08 12:28:40
+  - kinds:
+    - low_level
+    name: racetrack 2 leg 8
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF08_rt02_l08
+    start: 2020-09-08 12:28:40
+    end: 2020-09-08 12:34:45
+    levels: [5800]
+    dropsondes:
+      GOOD: []
+      BAD: []
+      UGLY: []
+- kinds:
+  - small_ascend
+  - short_turn
+  name: small ascend 1
+  irregularities: 
+    - short turn in beginning of ascend
+  segment_id: MOSAiC-ACA_P5_RF08_sa01
+  start: 2020-09-08 12:34:45
+  end: 2020-09-08 12:39:00
+  levels: [5800, 9300]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - high_level
+  name: high level 5
+  irregularities: []
+  segment_id: MOSAiC-ACA_P5_RF08_hl05
+  start: 2020-09-08 12:39:00
+  end: 2020-09-08 13:18:35
+  levels: [9400]
+  dropsondes:
+    GOOD: 
+      - P5_RF08_sonde05
+      - P5_RF08_sonde06
+      - P5_RF08_sonde07
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2020-09-08 13:18:35
+  end: 2020-09-08 13:19:40
+- kinds:
+  - high_level
+  name: high level 6
+  irregularities: []
+  segment_id: MOSAiC-ACA_P5_RF08_hl06
+  start: 2020-09-08 13:19:40
+  end: 2020-09-08 13:41:50
+  levels: [9500]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2020-09-08 13:41:50
+  end: 2020-09-08 13:42:25
+- kinds:
+  - high_level
+  name: high level 7
+  irregularities: []
+  segment_id: MOSAiC-ACA_P5_RF08_hl07
+  start: 2020-09-08 13:42:25
+  end: 2020-09-08 13:47:50
+  levels: [9500]
   dropsondes:
     GOOD: []
     BAD: []
@@ -40,8 +451,9 @@ segments:
   name: major descend
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF08_md
-  start: 
-  end: 
+  start: 2020-09-08 13:47:50
+  end: 2020-09-08 14:05:05
+  levels: [9500, 100]
   dropsondes:
     GOOD: []
     BAD: []
