@@ -256,12 +256,47 @@ if __name__ == '__main__':
     #%% name
     name_lst = [segment['name'] for segment in segments]
     parts_name_lst = [part['name'] for segment in segments for kind in segment['kinds'] if kind in SegmentCatalog.pattern for part in segment['parts']]
-    
-    name_lst = name_lst + parts_name_lst
-    
+        
     name_numbering(name_lst)
-    name_numbering(name_lst)
+    name_numbering(parts_name_lst)
+    
+    #%% consistence of times    
+    # 1: segments
+    start_lst = [segment['start'] for segment in segments]
+    end_lst = [segment['end'] for segment in segments]
+    
+    # landing and takeoff
+    assert start_lst[0] == flight_segments['takeoff'], 'start time of first segment is not equal to takeoff time'
+    assert end_lst[-1] == flight_segments['landing'], 'end time of last segment is not equal to landing time'
 
+    # consecutive start and end times
+    for t_start, t_end in zip(start_lst[1:], end_lst[:-1]):
+        if t_start != t_end:
+            assert t_start == t_end, 'start and end times are not matching: {}, {}'.format(t_start, t_end)
+    
+    # 2: parts
+    for segment in segments:
+        for kind in segment['kinds']:
+            if kind in SegmentCatalog.pattern:
+                
+                start_lst = [part['start'] for part in segment['parts']]
+                end_lst = [part['end'] for part in segment['parts']]
+                
+                # start and end of pattern
+                assert start_lst[0] == segment['start'], 'start time of first part is not equal to start time of pattern: {}, {}'.format(t_start, t_end)
+                assert end_lst[-1] == segment['end'], 'end time of last part is not equal to end time of pattern: {}, {}'.format(t_start, t_end)
+            
+                # consecutive start and end times
+                for t_start, t_end in zip(start_lst[1:], end_lst[:-1]):
+                    if t_start != t_end:
+                        print(t_start, t_end)
+                        assert t_start == t_end, 'start and end times are not matching: {}, {}'.format(t_start, t_end)
+
+    #%% print irregularities of flight
+    print('Irregularities of segments')
+    for segment in segments:
+        print(segment.get('irregularities'))
+    
     #%% levels
     levels_lst = [segment['levels'] for segment in segments for kind in segment['kinds'] if kind in SegmentCatalog.pattern or kind in SegmentCatalog.regular]
     
@@ -302,40 +337,5 @@ if __name__ == '__main__':
             assert len(segment['levels']) == 2, 'Number of levels of segment id "{}" should be 2'.format(segment['segment_id'])
             assert segment_vertical(segment['levels']) == kind, '{} segment segment id "{}" is actually "{}"'.format(kind, segment['segment_id'], segment_vertical(segment['levels']))
     
-    #%% consistence of times    
-    # 1: segments
-    start_lst = [segment['start'] for segment in segments]
-    end_lst = [segment['end'] for segment in segments]
-    
-    # landing and takeoff
-    assert start_lst[0] == flight_segments['takeoff'], 'start time of first segment is not equal to takeoff time'
-    assert end_lst[-1] == flight_segments['landing'], 'end time of last segment is not equal to landing time'
-
-    # consecutive start and end times
-    for t_start, t_end in zip(start_lst[1:], end_lst[:-1]):
-        if t_start != t_end:
-            assert t_start == t_end, 'start and end times are not matching: {}, {}'.format(t_start, t_end)
-    
-    # 2: parts
-    for segment in segments:
-        for kind in segment['kinds']:
-            if kind in SegmentCatalog.pattern:
-                
-                start_lst = [part['start'] for part in segment['parts']]
-                end_lst = [part['end'] for part in segment['parts']]
-                
-                # start and end of pattern
-                assert start_lst[0] == segment['start'], 'start time of first part is not equal to start time of pattern: {}, {}'.format(t_start, t_end)
-                assert end_lst[-1] == segment['end'], 'end time of last part is not equal to end time of pattern: {}, {}'.format(t_start, t_end)
-            
-                # consecutive start and end times
-                for t_start, t_end in zip(start_lst[1:], end_lst[:-1]):
-                    if t_start != t_end:
-                        print(t_start, t_end)
-                        assert t_start == t_end, 'start and end times are not matching: {}, {}'.format(t_start, t_end)
-
-    # print irregularities of flight
-    print('Irregularities of segments')
-    for segment in segments:
-        print(segment.get('irregularities'))
-    
+    #%%
+    print('No errors found in yaml file')
