@@ -3,35 +3,244 @@ mission: ACLOUD
 platform: P5
 flight_id: ACLOUD_P5_RF25
 contacts:
-- name: 
-  email: 
+- name: Christof Lüpkes
+  email: christof.luepkes@awi.de
+  tags:
+    - pi
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
+  tags:
+    - lc
 date: 2017-06-26
-flight_report: 
+flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=25_20170626_p5_acloud_flight_report.pdf
 takeoff: 2017-06-26 12:34:25
 landing: 2017-06-26 15:16:40
 events:
 - joint flight with P6
+- calibration circles for AIMMS20 
 remarks:
 - Boundary layer profiling
+- SMART not working
 segments:
 - kinds:
   - major_ascend
   name: major ascend
   irregularities: []
   segment_id: ACLOUD_P5_RF25_ma
-  start: 
-  end: 
+  start: 2017-06-26 12:34:25
+  end: 2017-06-26 12:45:00
+  levels: [100, 9700]
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
-  - add_new_segments_here
-  name: 
+  - high_level
+  name: high level 1
   irregularities: []
-  segment_id: 
-  start: 
-  end: 
+  segment_id: ACLOUD_P5_RF25_hl01
+  start: 2017-06-26 12:45:00
+  end: 2017-06-26 12:47:10
+  levels: [9700]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-26 12:47:10
+  end: 2017-06-26 12:47:25
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: ACLOUD_P5_RF25_hl02
+  start: 2017-06-26 12:47:25
+  end: 2017-06-26 12:59:05
+  levels: [9800]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - large_descend
+  name: large descend 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF25_ld01
+  start: 2017-06-26 12:59:05
+  end: 2017-06-26 13:11:20
+  levels: [9900, 300]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 1
+  irregularities: 
+    - slight curve in beginning of segment
+  segment_id: ACLOUD_P5_RF25_ll01
+  start: 2017-06-26 13:11:20
+  end: 2017-06-26 13:26:50
+  levels: [200]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - small_ascend
+  name: small ascend 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF25_sa01
+  start: 2017-06-26 13:26:50
+  end: 2017-06-26 13:30:05
+  levels: [200, 2900]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 2
+  irregularities: 
+    - beginning of procedure turn during leg
+  segment_id: ACLOUD_P5_RF25_ll02
+  start: 2017-06-26 13:30:05
+  end: 2017-06-26 13:30:30
+  levels: [2900]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - small_descend
+  - procedure_turn
+  name: small descend 1
+  irregularities:
+    - procedure turn during descend
+  segment_id: ACLOUD_P5_RF25_sd01
+  start: 2017-06-26 13:30:30
+  end: 2017-06-26 13:33:00
+  levels: [2900, 400]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  name: low level 3
+  irregularities: []
+  segment_id: ACLOUD_P5_RF25_ll03
+  start: 2017-06-26 13:33:00
+  end: 2017-06-26 13:56:55
+  levels: [400]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - large_ascend
+  name: large ascend 1
+  irregularities:
+    - several roll maneuvers during ascend
+  segment_id: ACLOUD_P5_RF25_la01
+  start: 2017-06-26 13:56:55
+  end: 2017-06-26 14:06:10
+  levels: [400, 9700]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: ACLOUD_P5_RF25_hl03
+  start: 2017-06-26 14:06:10
+  end: 2017-06-26 14:10:00
+  levels: [9700]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-26 14:10:00
+  end: 2017-06-26 14:11:30
+- kinds:
+  - high_level
+  name: high level 4
+  irregularities: []
+  segment_id: ACLOUD_P5_RF25_hl04
+  start: 2017-06-26 14:11:30
+  end: 2017-06-26 14:17:40
+  levels: [9700]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - circle
+  name: circle
+  start: 2017-06-26 14:17:40
+  end: 2017-06-26 14:22:20
+- kinds:
+  - circle
+  name: circle
+  start: 2017-06-26 14:22:20
+  end: 2017-06-26 14:25:05
+- kinds:
+  - circle
+  name: circle
+  start: 2017-06-26 14:25:05
+  end: 2017-06-26 14:26:35
+- kinds:
+  - circle
+  name: circle
+  start: 2017-06-26 14:26:35
+  end: 2017-06-26 14:30:55
+- kinds:
+  - circle
+  name: circle
+  start: 2017-06-26 14:30:55
+  end: 2017-06-26 14:33:15
+- kinds:
+  - circle
+  name: circle
+  start: 2017-06-26 14:33:15
+  end: 2017-06-26 14:34:45
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-26 14:34:45
+  end: 2017-06-26 14:35:05
+- kinds:
+  - high_level
+  name: high level 5
+  irregularities: []
+  segment_id: ACLOUD_P5_RF25_hl05
+  start: 2017-06-26 14:35:05
+  end: 2017-06-26 14:49:28
+  levels: [9700]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-26 14:49:28
+  end: 2017-06-26 14:49:45
+- kinds:
+  - high_level
+  name: high level 6
+  irregularities: []
+  segment_id: ACLOUD_P5_RF25_hl06
+  start: 2017-06-26 14:49:45
+  end: 2017-06-26 14:58:55
+  levels: [9700]
   dropsondes:
     GOOD: []
     BAD: []
@@ -41,8 +250,9 @@ segments:
   name: major descend
   irregularities: []
   segment_id: ACLOUD_P5_RF25_md
-  start: 
-  end: 
+  start: 2017-06-26 14:58:55
+  end: 2017-06-26 15:16:40
+  levels: [9600, 100]
   dropsondes:
     GOOD: []
     BAD: []
