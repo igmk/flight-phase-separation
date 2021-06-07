@@ -3,35 +3,61 @@ mission: ACLOUD
 platform: P5
 flight_id: ACLOUD_P5_RF15
 contacts:
-- name: 
-  email: 
+- name: Christof Lüpkes
+  email: christof.luepkes@awi.de
+  tags:
+    - pi
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
+  tags:
+    - lc
 date: 2017-06-09
-flight_report: 
+flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=15_20170609_p5_acloud_flight_report.pdf
 takeoff: 2017-06-09 08:00:35
 landing: 2017-06-09 09:21:25
 events:
 - joint flight with P6
-remarks:
-- P5 / P6 Instrument intercomparison
+- instrument intercomparison between P5 and P6
+remarks: []
 segments:
 - kinds:
   - major_ascend
   name: major ascend
   irregularities: []
   segment_id: ACLOUD_P5_RF15_ma
-  start: 
-  end: 
+  start: 2017-06-09 08:00:35
+  end: 2017-06-09 08:30:25
+  levels: [100, 10000]
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
-  - add_new_segments_here
-  name: 
+  - high_level
+  name: high level 1
   irregularities: []
-  segment_id: 
-  start: 
-  end: 
+  segment_id: ACLOUD_P5_RF15_hl01
+  start: 2017-06-09 08:30:25
+  end: 2017-06-09 08:40:40
+  levels: [9900]
+  dropsondes:
+    GOOD: 
+      - P5_RF15_sonde01
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-09 08:40:40
+  end: 2017-06-09 08:42:30
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: ACLOUD_P5_RF15_hl02
+  start: 2017-06-09 08:42:30
+  end: 2017-06-09 08:54:55
+  levels: [9900]
   dropsondes:
     GOOD: []
     BAD: []
@@ -39,10 +65,12 @@ segments:
 - kinds:
   - major_descend
   name: major descend
-  irregularities: []
+  irregularities: 
+    - circle during descend
   segment_id: ACLOUD_P5_RF15_md
-  start: 
-  end: 
+  start: 2017-06-09 08:54:55
+  end: 2017-06-09 09:21:25
+  levels: [10100, 100]
   dropsondes:
     GOOD: []
     BAD: []

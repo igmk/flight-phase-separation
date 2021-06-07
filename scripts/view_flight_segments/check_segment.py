@@ -1,16 +1,11 @@
 
 
 import numpy as np
-import cartopy.crs as ccrs
-import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
 import datetime
 from glob import glob
-from matplotlib import cm
 import xarray as xr
 import re
 import yaml
-import sys
 
 
 """
@@ -72,6 +67,8 @@ class SegmentCatalog:
                'major_descend',
                'small_ascend',
                'small_descend',
+               'medium_ascend',
+               'medium_descend',
                'profiling',
                'noseboom_pattern',
                'holding_pattern',
@@ -80,15 +77,8 @@ class SegmentCatalog:
                'sveabreen_glacier_overflight',
                'a-train_underflight',
                'polarstern_overflight',
-               'cloudsat_calipso_underflight']
-    
-    pattern = ['racetrack_pattern',
-               'stairstep_pattern',
-               'cross_pattern',
-               'sawtooth_pattern',
-               'radiation_square',
-               'long_legs_pattern',
-               'holding_pattern']
+               'cloudsat_calipso_underflight',
+               ]
     
     curves = ['short_turn',
               'long_turn',
@@ -97,15 +87,64 @@ class SegmentCatalog:
               'deicing_leg',
               'cross_pattern_turn',
               'long_legs_pattern_turn',
-              'circle']
+              'circle',
+              ]
+    
+    pattern = ['racetrack_pattern',
+               'stairstep_pattern',
+               'cross_pattern',
+               'sawtooth_pattern',
+               'radiation_square',
+               'holding_pattern',
+               ]
     
     # parts
-    parts = {'racetrack_pattern': ['racetrack_leg', 'procedure_turn'], 
-             'stairstep_pattern': ['small_ascend', 'stairstep_leg', 'small_descend'],  # no stairstep_ before name
-             'cross_pattern': [],
-             'sawtooth_pattern': ['low_level', 'mid_level', 'descend', 'ascend'],# no sawtooth_ before name
-             'holding_pattern': []  
-             }  
+    # the kinds should also be from the above's kinds
+    # the name and segment_id then indicate that it belongs to a pattern
+    # TODO: also, check if we need mid_ascend, when levels[1]-levels[0] between 1000 and 2000 m? same for descend?
+    # TODO: then a routine that systematically checks the ascend and descend kinds and also adds it to turns, if they are also ascend or descend
+    parts = {'racetrack_pattern': ['low_level',
+                                   'mid_level',
+                                   'high_level',
+                                   'procedure_turn',
+                                   ], 
+             
+             'stairstep_pattern': ['small_ascend',
+                                   'medium_ascend',
+                                   'large_ascend',
+                                   'small_descend',
+                                   'medium_descend',
+                                   'large_descend',
+                                   'low_level',
+                                   'mid_level',
+                                   'high_level',
+                                   ],
+             
+             'cross_pattern': ['high_level',
+                               'cross_pattern_turn'
+                               ],
+             
+             'sawtooth_pattern': ['small_ascend',
+                                  'medium_ascend',
+                                  'large_ascend',
+                                  'small_descend',
+                                  'medium_descend',
+                                  'large_descend',
+                                  'low_level',
+                                  'mid_level',
+                                  'high_level'
+                                  ],
+             
+             'radiation_square': ['short_turn',
+                                  'high_level', 
+                                  ],
+             
+             'holding_pattern': ['high_level',
+                                 'short_turn',
+                                 'circle'],
+             }
+    
+    # name examle for racetrack low_level: racetrack 1 leg 1 
     
     # names
     no_numbering = ['major ascend',
@@ -114,10 +153,11 @@ class SegmentCatalog:
                     'long turn',
                     'procedure turn',
                     'waiting pattern',
-                    'deicing leg',
+                    'deicing leg',  # nicht als eigenes leg, aber irregularities und dann mid_level ode rhigh_level
                     'cross pattern turn',
                     'long legs pattern turn',
-                    'circle']
+                    'circle',
+                    ]
     
     # events
     events = ['joint flight with P6',]  # TODO
@@ -228,6 +268,39 @@ if __name__ == '__main__':
     for levels in levels_lst:
         assert type(levels) == list, '"levels" is not a list: {}'.format(levels)
         assert len(levels) > 0, 'one or more "levels" are empty: {}'.format(levels_lst)
+    
+    # check levels of high_level, mid_level and low_level
+    test_kinds_h = ['high_level', 'mid_level', 'low_level']
+
+    def segment_horizontal(level):
+        if level / 3.821 > 2000: return 'high_level'
+        elif level / 3.821 > 1000: return 'mid_level'
+        elif level / 3.821 > 0: return 'low_level'
+        else: return 'input level not a number greater than 0'
+    
+    for segment in segments:
+        if len(set.intersection(set(segment['kinds']), set(test_kinds_h))):
+            kind = list(set.intersection(set(test_kinds_h), set(segment['kinds'])))[0]
+            assert len(segment['levels']) == 1, 'Number of levels of segment id "{}" should be 1'.format(segment['segment_id'])
+            assert segment_horizontal(segment['levels'][0]) == kind, '{} segment segment id "{}" is actually "{}"'.format(kind, segment['segment_id'], segment_horizontal(segment['levels'][0]))
+            
+    # check levels of ascends and descends
+    test_kinds_v = ['small_ascend', 'medium_ascend', 'large_ascend', 'small_descend', 'medium_descend', 'large_descend']
+    
+    def segment_vertical(level):
+        if level[1]/3.821 - level[0]/3.821 > 2000: return 'large_ascend'
+        elif level[1]/3.821 - level[0]/3.821 > 1000: return 'medium_ascend'
+        elif level[1]/3.821 - level[0]/3.821 > 0: return 'small_ascend'
+        elif level[1]/3.821 - level[0]/3.821 > -1000: return 'small_descend'
+        elif level[1]/3.821 - level[0]/3.821 > -2000: return 'medium_descend'
+        elif level[1]/3.821 - level[0]/3.821 <= -2000: return 'large_descend'
+        else: return 'input level can not be classified as ascend or descend'
+    
+    for segment in segments:
+        if len(set.intersection(set(segment['kinds']), set(test_kinds_v))):
+            kind = list(set.intersection(set(test_kinds_v), set(segment['kinds'])))[0]
+            assert len(segment['levels']) == 2, 'Number of levels of segment id "{}" should be 2'.format(segment['segment_id'])
+            assert segment_vertical(segment['levels']) == kind, '{} segment segment id "{}" is actually "{}"'.format(kind, segment['segment_id'], segment_vertical(segment['levels']))
     
     #%% consistence of times    
     # 1: segments
