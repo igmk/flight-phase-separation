@@ -350,7 +350,7 @@ segments:
     UGLY: []
 - kinds:
   - sawtooth_pattern
-  name: saw tooth 1
+  name: saw tooth pattern 1
   irregularities: []
   segment_id: AFLUX_P5_RF09_st01
   start: 2019-04-01 10:22:25
