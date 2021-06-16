@@ -3,10 +3,16 @@ mission: MOSAiC-ACA
 platform: P5
 flight_id: MOSAiC-ACA_P5_RF04
 contacts:
-- name: 
-  email: 
+- name: André Ehrlich
+  email: a.ehrlich@uni-leipzig.de
+  tags:
+    - pi
+- name: Giancarlo Marrollo
+  email: giancarlo.marrollo@uni-koeln.de
+  tags:
+    - lc
 date: 2020-08-31
-flight_report: 
+flight_report: https://home.uni-leipzig.de/~ehrlich/MOSAiC_ACA_wiki_doku/lib/exe/fetch.php?media=fr20200831.pdf
 takeoff: 2020-08-31 12:40:15
 landing: 2020-08-31 14:55:00
 events: []
@@ -14,35 +20,9 @@ remarks:
 - Joint test flight with Polar 6
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - instrument_testing
+  name: instrument testing
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF04_ma
-  start: 
-  end: 
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
-- kinds:
-  - add_new_segments_here
-  name: 
-  irregularities: []
-  segment_id: 
-  start: 
-  end: 
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
-- kinds:
-  - major_descend
-  name: major descend
-  irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF04_md
-  start: 
-  end: 
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  segment_id: MOSAiC-ACA_P5_RF04_it
+  start: 2020-08-31 12:40:15
+  end: 2020-08-31 14:55:00
