@@ -76,8 +76,9 @@ segments:
   levels: [10800]
   dropsondes:
     GOOD:
-      - P5_RF06_sonde01
-      - P5_RF06_sonde02
+      - P5_RF07_sonde01
+      - P5_RF07_sonde02
+      - P5_RF07_sonde03
     BAD: []
     UGLY: []
 - kinds:
@@ -94,8 +95,7 @@ segments:
   end: 2017-05-27 16:03:10
   levels: [10800]
   dropsondes:
-    GOOD:
-      - P5_RF06_sonde03
+    GOOD: []
     BAD: []
     UGLY: []
 - kinds:
