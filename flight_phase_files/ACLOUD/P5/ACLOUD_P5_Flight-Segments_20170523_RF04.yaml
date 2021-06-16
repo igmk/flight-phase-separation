@@ -3,34 +3,471 @@ mission: ACLOUD
 platform: P5
 flight_id: ACLOUD_P5_RF04
 contacts:
-- name: 
-  email: 
+- name: Christof Lüpkes
+  email: christof.luepkes@awi.de
+  tags:
+    - pi
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
+  tags:
+    - lc
 date: 2017-05-23
-flight_report: 
+flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=04_20170523_p5_acloud_flight_report.pdf
 takeoff: 2017-05-23 09:11:47
 landing: 2017-05-23 14:23:40
-events: []
+events: 
+  - Noseboom calibration
+  - Ny-Alesund overflight
 remarks:
-- Clouds above open water and sea ice
+  - Clouds above open water and sea ice
+  - Eagle/Hawk showed some problems occurred due to a broken cable 
+  - SMART connection was sometimes interrupted
+  - Dropsonde system was not working
 segments:
 - kinds:
   - major_ascend
   name: major ascend
   irregularities: []
   segment_id: ACLOUD_P5_RF04_ma
-  start: 
-  end: 
+  start: 2017-05-23 09:11:47
+  end: 2017-05-23 09:22:50
+  levels: [100, 9300]
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
-  - add_new_segments_here
-  name: 
+  - high_level
+  name: high level 1
   irregularities: []
-  segment_id: 
-  start: 
-  end: 
+  segment_id: ACLOUD_P5_RF04_hl01
+  start: 2017-05-23 09:22:50
+  end: 2017-05-23 09:53:20
+  levels: [9300]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-05-23 09:53:20
+  end: 2017-05-23 09:54:10
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: ACLOUD_P5_RF04_hl02
+  start: 2017-05-23 09:54:10
+  end: 2017-05-23 10:40:50
+  levels: [9300]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - large_descend
+  - procedure_turn
+  name: large descend 1
+  irregularities: 
+    - procedure turn during descend
+  segment_id: ACLOUD_P5_RF04_ld01
+  start: 2017-05-23 10:40:50
+  end: 2017-05-23 10:54:20
+  levels: [9300, 200]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - low_level
+  - noseboom_calibration
+  name: low level 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF04_ll01
+  start: 2017-05-23 10:54:20
+  end: 2017-05-23 11:10:40
+  levels: [200]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-05-23 11:10:40
+  end: 2017-05-23 11:11:20
+- kinds:
+  - low_level
+  name: low level 2
+  irregularities: []
+  segment_id: ACLOUD_P5_RF04_ll02
+  start: 2017-05-23 11:11:20
+  end: 2017-05-23 11:21:20
+  levels: [300]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-05-23 11:21:20
+  end: 2017-05-23 11:22:00
+- kinds:
+  - low_level
+  name: low level 3
+  irregularities: 
+    - high variation in roll angle in first half of segment
+  segment_id: ACLOUD_P5_RF04_ll03
+  start: 2017-05-23 11:22:00
+  end: 2017-05-23 11:44:40
+  levels: [200]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-05-23 11:44:40
+  end: 2017-05-23 11:45:15
+- kinds:
+  - low_level
+  name: low level 4
+  irregularities: []
+  segment_id: ACLOUD_P5_RF04_ll04
+  start: 2017-05-23 11:45:15
+  end: 2017-05-23 11:46:20
+  levels: [300]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - medium_ascend
+  name: medium ascend 1
+  irregularities: 
+    - beginning of short turn during ascend
+  segment_id: ACLOUD_P5_RF04_ma01
+  start: 2017-05-23 11:46:20
+  end: 2017-05-23 11:51:00
+  levels: [300, 4400]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-05-23 11:51:00
+  end: 2017-05-23 11:52:10
+- kinds:
+  - mid_level
+  name: mid level 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF04_ml01
+  start: 2017-05-23 11:52:10
+  end: 2017-05-23 11:55:55
+  levels: [4300]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - small_ascend
+  name: small ascend 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF04_sa01
+  start: 2017-05-23 11:55:55
+  end: 2017-05-23 11:58:55
+  levels: [4200, 5400]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - medium_ascend
+  name: medium ascend 2
+  irregularities: 
+    - beginning of short turn during ascend
+  segment_id: ACLOUD_P5_RF04_ma02
+  start: 2017-05-23 11:58:55
+  end: 2017-05-23 12:05:30
+  levels: [5400, 9400]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-05-23 12:05:30
+  end: 2017-05-23 12:06:00
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: ACLOUD_P5_RF04_hl03
+  start: 2017-05-23 12:06:00
+  end: 2017-05-23 12:13:05
+  levels: [9300]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2017-05-23 12:13:05
+  end: 2017-05-23 12:17:20
+- kinds:
+  - high_level
+  name: high level 4
+  irregularities: []
+  segment_id: ACLOUD_P5_RF04_hl04
+  start: 2017-05-23 12:17:20
+  end: 2017-05-23 12:28:00
+  levels: [9300]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-05-23 12:28:00
+  end: 2017-05-23 12:29:00
+- kinds:
+  - high_level
+  name: high level 5
+  irregularities: []
+  segment_id: ACLOUD_P5_RF04_hl05
+  start: 2017-05-23 12:29:00
+  end: 2017-05-23 12:35:25
+  levels: [9400]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-05-23 12:35:25
+  end: 2017-05-23 12:37:35
+- kinds:
+  - high_level
+  name: high level 6
+  irregularities: 
+    - large fluctuations in roll angle
+  segment_id: ACLOUD_P5_RF04_hl06
+  start: 2017-05-23 12:37:35
+  end: 2017-05-23 12:57:10
+  levels: [9400]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-05-23 12:57:10
+  end: 2017-05-23 12:57:50
+- kinds:
+  - high_level
+  name: high level 7
+  irregularities: []
+  segment_id: ACLOUD_P5_RF04_hl7
+  start: 2017-05-23 12:57:50
+  end: 2017-05-23 13:05:00
+  levels: [9400]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - noseboom_calibration_pattern
+  name: noseboom calibration pattern 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF04_nc01
+  start: 2017-05-23 13:05:00
+  end: 2017-05-23 13:27:45
+  levels: [9300, 9400]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+  parts:
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-05-23 13:05:00
+    end: 2017-05-23 13:06:00
+  - kinds:
+    - high_level
+    name: noseboom calibration pattern 1 leg 1
+    irregularities: []
+    segment_id: ACLOUD_P5_RF04_nc01_l01
+    start: 2017-05-23 13:06:00
+    end: 2017-05-23 13:06:40
+    levels: [9300]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-05-23 13:06:40
+    end: 2017-05-23 13:07:25
+  - kinds:
+    - high_level
+    name: noseboom calibration pattern 1 leg 2
+    irregularities: []
+    segment_id: ACLOUD_P5_RF04_nc01_l02
+    start: 2017-05-23 13:07:25
+    end: 2017-05-23 13:08:30
+    levels: [9300]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-05-23 13:08:30
+    end: 2017-05-23 13:09:15
+  - kinds:
+    - high_level
+    name: noseboom calibration pattern 1 leg 3
+    irregularities: []
+    segment_id: ACLOUD_P5_RF04_nc01_l03
+    start: 2017-05-23 13:09:15
+    end: 2017-05-23 13:10:00
+    levels: [9300]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-05-23 13:10:00
+    end: 2017-05-23 13:11:00
+  - kinds:
+    - high_level
+    name: noseboom calibration pattern 1 leg 4
+    irregularities: []
+    segment_id: ACLOUD_P5_RF04_nc01_l04
+    start: 2017-05-23 13:11:00
+    end: 2017-05-23 13:12:05
+    levels: [9300]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-05-23 13:12:05
+    end: 2017-05-23 13:13:00
+  - kinds:
+    - high_level
+    name: noseboom calibration pattern 1 leg 5
+    irregularities: []
+    segment_id: ACLOUD_P5_RF04_nc01_l05
+    start: 2017-05-23 13:13:00
+    end: 2017-05-23 13:14:05
+    levels: [9300]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-05-23 13:14:05
+    end: 2017-05-23 13:14:50
+  - kinds:
+    - high_level
+    name: noseboom calibration pattern 1 leg 6
+    irregularities: []
+    segment_id: ACLOUD_P5_RF04_nc01_l06
+    start: 2017-05-23 13:14:50
+    end: 2017-05-23 13:16:15
+    levels: [9400]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-05-23 13:16:15
+    end: 2017-05-23 13:16:50
+  - kinds:
+    - high_level
+    name: noseboom calibration pattern 1 leg 7
+    irregularities: []
+    segment_id: ACLOUD_P5_RF04_nc01_l07
+    start: 2017-05-23 13:16:50
+    end: 2017-05-23 13:17:45
+    levels: [9300]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-05-23 13:17:45
+    end: 2017-05-23 13:18:50
+  - kinds:
+    - high_level
+    name: noseboom calibration pattern 1 leg 8
+    irregularities: []
+    segment_id: ACLOUD_P5_RF04_nc01_l08
+    start: 2017-05-23 13:18:50
+    end: 2017-05-23 13:19:40
+    levels: [9300]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-05-23 13:19:40
+    end: 2017-05-23 13:20:15
+  - kinds:
+    - high_level
+    name: noseboom calibration pattern 1 leg 9
+    irregularities: []
+    segment_id: ACLOUD_P5_RF04_nc01_l09
+    start: 2017-05-23 13:20:15
+    end: 2017-05-23 13:22:20
+    levels: [9300]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-05-23 13:22:20
+    end: 2017-05-23 13:22:50
+  - kinds:
+    - high_level
+    name: noseboom calibration pattern 1 leg 10
+    irregularities: []
+    segment_id: ACLOUD_P5_RF04_nc01_l10
+    start: 2017-05-23 13:22:50
+    end: 2017-05-23 13:24:30
+    levels: [9400]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-05-23 13:24:30
+    end: 2017-05-23 13:25:00
+  - kinds:
+    - high_level
+    name: noseboom calibration pattern 1 leg 11
+    irregularities: []
+    segment_id: ACLOUD_P5_RF04_nc01_l11
+    start: 2017-05-23 13:25:00
+    end: 2017-05-23 13:26:00
+    levels: [9300]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-05-23 13:26:00
+    end: 2017-05-23 13:26:40
+  - kinds:
+    - high_level
+    name: noseboom calibration pattern 1 leg 12
+    irregularities: []
+    segment_id: ACLOUD_P5_RF04_nc01_l12
+    start: 2017-05-23 13:26:40
+    end: 2017-05-23 13:27:45
+    levels: [9300]
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-05-23 13:27:45
+  end: 2017-05-23 13:28:25
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 8
+  irregularities: []
+  segment_id: ACLOUD_P5_RF04_hl08
+  start: 2017-05-23 13:28:25
+  end: 2017-05-23 13:58:28
+  levels: [9300]
   dropsondes:
     GOOD: []
     BAD: []
@@ -40,8 +477,9 @@ segments:
   name: major descend
   irregularities: []
   segment_id: ACLOUD_P5_RF04_md
-  start: 
-  end: 
+  start: 2017-05-23 13:58:28
+  end: 2017-05-23 14:23:40
+  levels: [9400, 100]
   dropsondes:
     GOOD: []
     BAD: []
