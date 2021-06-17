@@ -195,7 +195,7 @@ segments:
   segment_id: ACLOUD_P5_RF23_sd02
   start: 2017-06-25 13:01:25
   end: 2017-06-25 13:03:30
-  levels: [200, 2400]
+  levels: [2400, 200]
   dropsondes:
     GOOD: []
     BAD: []

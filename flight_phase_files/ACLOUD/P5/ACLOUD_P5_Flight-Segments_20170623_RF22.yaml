@@ -47,7 +47,7 @@ segments:
     UGLY: []
 - kinds:
   - short_turn
-  name: short turn 1
+  name: short turn
   start: 2017-06-23 11:18:20
   end: 2017-06-23 11:18:50
 - kinds:
@@ -92,95 +92,111 @@ segments:
     start: 2017-06-23 11:35:50
     end: 2017-06-23 11:47:40
 - kinds:
-  - long_legs_pattern
+  - high_level
   - nya_overflight
-  name: long legs pattern 1
+  name: high level 2
   irregularities: []
-  segment_id: ACLOUD_P5_RF22_lp01
+  segment_id: ACLOUD_P5_RF22_hl02
   start: 2017-06-23 11:47:40
-  end: 2017-06-23 13:43:15
-  levels: [12100, 13900, 14000]
+  end: 2017-06-23 12:06:40
+  levels: [12100]
   dropsondes:
     GOOD:
       - P5_RF22_sonde02
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-23 12:06:40
+  end: 2017-06-23 12:08:45
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 3
+  irregularities: []
+  segment_id: ACLOUD_P5_RF22_hl03
+  start: 2017-06-23 12:08:45
+  end: 2017-06-23 12:25:10
+  levels: [12100]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-23 12:25:10
+  end: 2017-06-23 12:26:45
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 4
+  irregularities: []
+  segment_id: ACLOUD_P5_RF22_hl04
+  start: 2017-06-23 12:26:45
+  end: 2017-06-23 12:48:05
+  levels: [12100]
+  dropsondes:
+    GOOD:
       - P5_RF22_sonde03
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-23 12:48:05
+  end: 2017-06-23 12:50:15
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 5
+  irregularities: []
+  segment_id: ACLOUD_P5_RF22_hl05
+  start: 2017-06-23 12:50:15
+  end: 2017-06-23 13:05:30
+  levels: [13900]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-23 13:05:30
+  end: 2017-06-23 13:06:45
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 6
+  irregularities: []
+  segment_id: ACLOUD_P5_RF22_hl06
+  start: 2017-06-23 13:06:45
+  end: 2017-06-23 13:26:40
+  levels: [14000]
+  dropsondes:
+    GOOD:
       - P5_RF22_sonde04
     BAD: []
     UGLY: []
-  parts:
-  - kinds:
-    - long_legs_pattern_leg
-    name: long legs pattern 1 leg 1 
-    irregularities: []
-    segment_id: ACLOUD_P5_RF22_lp01_l01
-    start: 2017-06-23 11:47:40
-    end: 2017-06-23 12:06:40
-    levels: [12100]
-  - kinds:
-    - long_legs_pattern_turn
-    name: long legs pattern turn
-    start: 2017-06-23 12:06:40
-    end: 2017-06-23 12:08:45
-  - kinds:
-    - long_legs_pattern_leg
-    name: long legs pattern 1 leg 2
-    irregularities: []
-    segment_id: ACLOUD_P5_RF22_lp01_l02
-    start: 2017-06-23 12:08:45
-    end: 2017-06-23 12:25:10
-    levels: [12100]
-  - kinds:
-    - long_legs_pattern_turn
-    name: long legs pattern turn
-    start: 2017-06-23 12:25:10
-    end: 2017-06-23 12:26:45
-  - kinds:
-    - long_legs_pattern_leg
-    name: long legs pattern 1 leg 3
-    irregularities: []
-    segment_id: ACLOUD_P5_RF22_lp01_l03
-    start: 2017-06-23 12:26:45
-    end: 2017-06-23 12:48:05
-    levels: [12100]
-  - kinds:
-    - long_legs_pattern_turn
-    name: long legs pattern turn
-    start: 2017-06-23 12:48:05
-    end: 2017-06-23 12:50:15
-  - kinds:
-    - long_legs_pattern_leg
-    name: long legs pattern 1 leg 4
-    irregularities: []
-    segment_id: ACLOUD_P5_RF22_lp01_l04
-    start: 2017-06-23 12:50:15
-    end: 2017-06-23 13:05:30
-    levels: [13900]
-  - kinds:
-    - long_legs_pattern_turn
-    name: long legs pattern turn
-    start: 2017-06-23 13:05:30
-    end: 2017-06-23 13:06:45
-  - kinds:
-    - long_legs_pattern_leg
-    name: long legs pattern 1 leg 5
-    irregularities: []
-    segment_id: ACLOUD_P5_RF22_lp01_l05
-    start: 2017-06-23 13:06:45
-    end: 2017-06-23 13:26:40
-    levels: [14000]
-  - kinds:
-    - long_legs_pattern_turn
-    name: long legs pattern turn
-    start: 2017-06-23 13:26:40
-    end: 2017-06-23 13:28:00
-  - kinds:
-    - long_legs_pattern_leg
-    name: long legs pattern 1 leg 6
-    irregularities: []
-    segment_id: ACLOUD_P5_RF22_lp01_l06
-    start: 2017-06-23 13:28:00
-    end: 2017-06-23 13:43:15
-    levels: [14000]
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-23 13:26:40
+  end: 2017-06-23 13:28:00
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 7
+  irregularities: []
+  segment_id: ACLOUD_P5_RF22_hl07
+  start: 2017-06-23 13:28:00
+  end: 2017-06-23 13:43:15
+  levels: [14000]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
 - kinds:
   - procedure_turn
   name: procedure turn
@@ -213,17 +229,17 @@ segments:
   segment_id: ACLOUD_P5_RF22_ll01
   start: 2017-06-23 14:03:00
   end: 2017-06-23 14:13:00
-  levels: [200, 500]
+  levels: [200]
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
-  - small_ascend
-  name: small ascend 1
+  - medium_ascend
+  name: medium ascend 1
   irregularities:
     - two curves during ascend
-  segment_id: ACLOUD_P5_RF22_sa01
+  segment_id: ACLOUD_P5_RF22_ma01
   start: 2017-06-23 14:13:00
   end: 2017-06-23 14:17:45
   levels: [500, 4900]

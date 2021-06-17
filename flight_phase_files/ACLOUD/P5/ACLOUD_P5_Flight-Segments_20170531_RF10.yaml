@@ -91,10 +91,10 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - small_descend
-  name: small descend 2
+  - medium_descend
+  name: medium descend 1
   irregularities: []
-  segment_id: ACLOUD_P5_RF10_sd02
+  segment_id: ACLOUD_P5_RF10_md01
   start: 2017-05-31 15:49:50
   end: 2017-05-31 15:54:15
   levels: [4100, 300]
@@ -179,10 +179,10 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - mid_level
-  name: mid level 1
+  - low_level
+  name: low level 7
   irregularities: []
-  segment_id: ACLOUD_P5_RF10_ml01
+  segment_id: ACLOUD_P5_RF10_ll07
   start: 2017-05-31 16:28:30
   end: 2017-05-31 16:36:50
   levels: [2900]
@@ -197,9 +197,9 @@ segments:
   end: 2017-05-31 16:37:15
 - kinds:
   - small_descend
-  name: small descend 3
+  name: small descend 2
   irregularities: []
-  segment_id: ACLOUD_P5_RF10_sd03
+  segment_id: ACLOUD_P5_RF10_sd02
   start: 2017-05-31 16:37:15
   end: 2017-05-31 16:41:10
   levels: [2900, 300]
@@ -209,12 +209,12 @@ segments:
     UGLY: []
 - kinds:
   - low_level
-  name: low level 7
+  name: low level 8
   irregularities: []
-  segment_id: ACLOUD_P5_RF10_ll07
+  segment_id: ACLOUD_P5_RF10_ll08
   start: 2017-05-31 16:41:10
   end: 2017-05-31 16:54:50
-  levels: [300, 200]
+  levels: [300]
   dropsondes:
     GOOD: []
     BAD: []
@@ -233,10 +233,10 @@ segments:
     UGLY: []
 - kinds:
   - small_descend
-  name: small descend 4
+  name: small descend 3
   irregularities:
     - curve during descend
-  segment_id: ACLOUD_P5_RF10_sd04
+  segment_id: ACLOUD_P5_RF10_sd03
   start: 2017-05-31 16:59:05
   end: 2017-05-31 17:03:00
   levels: [3100, 300]
@@ -263,9 +263,9 @@ segments:
   end: 2017-05-31 17:05:45
 - kinds:
   - low_level
-  name: low level 8
+  name: low level 9
   irregularities: []
-  segment_id: ACLOUD_P5_RF10_ll08
+  segment_id: ACLOUD_P5_RF10_ll09
   start: 2017-05-31 17:05:45
   end: 2017-05-31 17:09:40
   levels: [1300]
@@ -280,9 +280,9 @@ segments:
   end: 2017-05-31 17:11:15
 - kinds:
   - low_level
-  name: low level 9
+  name: low level 10
   irregularities: []
-  segment_id: ACLOUD_P5_RF10_ll09
+  segment_id: ACLOUD_P5_RF10_ll10
   start: 2017-05-31 17:11:15
   end: 2017-05-31 17:12:30
   levels: [1000]
@@ -297,9 +297,9 @@ segments:
   end: 2017-05-31 17:14:00
 - kinds:
   - low_level
-  name: low level 10
+  name: low level 11
   irregularities: []
-  segment_id: ACLOUD_P5_RF10_ll10
+  segment_id: ACLOUD_P5_RF10_ll11
   start: 2017-05-31 17:14:00
   end: 2017-05-31 17:15:30
   levels: [200]
@@ -314,9 +314,9 @@ segments:
   end: 2017-05-31 17:16:15
 - kinds:
   - low_level
-  name: low level 11
+  name: low level 12
   irregularities: []
-  segment_id: ACLOUD_P5_RF10_ll11
+  segment_id: ACLOUD_P5_RF10_ll12
   start: 2017-05-31 17:16:15
   end: 2017-05-31 17:22:00
   levels: [200]

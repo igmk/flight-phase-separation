@@ -1,4 +1,3 @@
----
 name: RF14
 mission: ACLOUD
 platform: P5
@@ -8,9 +7,6 @@ contacts:
   email: mario.mech@uni-koeln.de
   tags:
     - pi
-- name: Mario Mech
-  email: mario.mech@uni-koeln.de
-  tags:
     - lc
 date: 2017-06-08
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=14_20170608_p5_acloud_flight_report.pdf
@@ -230,7 +226,7 @@ segments:
     name: racetrack 1 leg 1
     irregularities: []
     segment_id: ACLOUD_P5_RF14_rt01_l01
-    start: 2017-06-08 10:22:43
+    start: 2017-06-08 10:22:44
     end: 2017-06-08 10:29:21
     levels: [200]
   - kinds:
