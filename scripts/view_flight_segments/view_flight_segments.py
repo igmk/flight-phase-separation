@@ -141,7 +141,7 @@ if __name__ == '__main__':
     #%% plot time series
     print('plot time series')
     
-    fig, axes = plt.subplots(8, 1, figsize=(9, 9), sharex=True, constrained_layout=True)
+    fig, axes = plt.subplots(9, 1, figsize=(9, 9), sharex=True, constrained_layout=True)
     
     fig.suptitle(flight['campaign']+', '+flight['number']+', '+flight['aircraft']+', '+flight['date'])
     
@@ -165,28 +165,33 @@ if __name__ == '__main__':
     axes[3].set_ylim([-10, 10])
     axes[3].fill_between(x=ds_gps.time, y1=0, y2=ds_gps.vs, color='#9087ea', alpha=0.5, linewidth=0)
 
+    # vertical speed
+    axes[4].scatter(ds_gps.time, ds_gps.gs, **kwargs)
+    axes[4].set_ylabel('gs [kn]')
+    axes[4].set_ylim([0, 250])
+    
     # roll angle
-    axes[4].scatter(ds_gps.time, ds_gps['roll'], **kwargs)
-    axes[4].fill_between(x=ds_gps.time, y1=0, y2=ds_gps['roll'], color='red', alpha=0.5, linewidth=0)
-    axes[4].set_ylabel('roll [°]')
+    axes[5].scatter(ds_gps.time, ds_gps['roll'], **kwargs)
+    axes[5].fill_between(x=ds_gps.time, y1=0, y2=ds_gps['roll'], color='red', alpha=0.5, linewidth=0)
+    axes[5].set_ylabel('roll [°]')
 
     # add pitch angle
-    axes[5].scatter(ds_gps.time, ds_gps.pitch, **kwargs)
-    axes[5].fill_between(x=ds_gps.time, y1=3, y2=ds_gps['pitch'], color='red', alpha=0.5, linewidth=0)
-    axes[5].set_ylabel('pitch [°]')
+    axes[6].scatter(ds_gps.time, ds_gps.pitch, **kwargs)
+    axes[6].fill_between(x=ds_gps.time, y1=3, y2=ds_gps['pitch'], color='red', alpha=0.5, linewidth=0)
+    axes[6].set_ylabel('pitch [°]')
     
     # add heading
-    axes[6].scatter(ds_gps.time, ds_gps.heading, **kwargs)
-    axes[6].set_ylabel('head [dir]')
-    axes[6].set_ylim([-180, 180])
-    axes[6].set_yticks(np.arange(-180, 180+45, 45))
-    axes[6].set_yticklabels(['S', 'SW', 'W', 'NW', 'N', 'NE', 'E', 'SE', 'S'], fontsize=7)
+    axes[7].scatter(ds_gps.time, ds_gps.heading, **kwargs)
+    axes[7].set_ylabel('head [dir]')
+    axes[7].set_ylim([-180, 180])
+    axes[7].set_yticks(np.arange(-180, 180+45, 45))
+    axes[7].set_yticklabels(['S', 'SW', 'W', 'NW', 'N', 'NE', 'E', 'SE', 'S'], fontsize=7)
     
     # add sea ice along track
-    axes[7].scatter(ds_sic.time, ds_sic.sic, zorder=1, **kwargs)
-    axes[7].axhline(y=90, color='gray', zorder=0)
-    axes[7].set_ylabel('sea ice [%]')
-    axes[7].set_ylim([0, 100])
+    axes[8].scatter(ds_sic.time, ds_sic.sic, zorder=1, **kwargs)
+    axes[8].axhline(y=90, color='gray', zorder=0)
+    axes[8].set_ylabel('sea ice [%]')
+    axes[8].set_ylim([0, 100])
     
     # add dropsondes
     for ds_name, ds_dsd in dict_ds_dsd.items():

@@ -78,6 +78,9 @@ class SegmentCatalog:
                'a-train_underflight',
                'polarstern_overflight',
                'cloudsat_calipso_underflight',
+               'noseboom_calibration',
+               'radiometer_calibration',
+               'instrument_testing',
                ]
     
     curves = ['short_turn',
@@ -96,6 +99,7 @@ class SegmentCatalog:
                'sawtooth_pattern',
                'radiation_square',
                'holding_pattern',
+               'noseboom_calibration_pattern',
                ]
     
     # parts
@@ -142,6 +146,7 @@ class SegmentCatalog:
              'holding_pattern': ['high_level',
                                  'short_turn',
                                  'circle'],
+             'noseboom_calibration_pattern': ['high_level', 'short_turn'],
              }
     
     # name examle for racetrack low_level: racetrack 1 leg 1 
@@ -157,6 +162,7 @@ class SegmentCatalog:
                     'cross pattern turn',
                     'long legs pattern turn',
                     'circle',
+                    'instrument testing',
                     ]
     
     # events
@@ -283,8 +289,8 @@ if __name__ == '__main__':
                 end_lst = [part['end'] for part in segment['parts']]
                 
                 # start and end of pattern
-                assert start_lst[0] == segment['start'], 'start time of first part is not equal to start time of pattern: {}, {}'.format(t_start, t_end)
-                assert end_lst[-1] == segment['end'], 'end time of last part is not equal to end time of pattern: {}, {}'.format(t_start, t_end)
+                assert start_lst[0] == segment['start'], 'start time of first part is not equal to start time of pattern: {}, {}'.format(start_lst[0], segment['start'])
+                assert end_lst[-1] == segment['end'], 'end time of last part is not equal to end time of pattern: {}, {}'.format(end_lst[-1], segment['end'])
             
                 # consecutive start and end times
                 for t_start, t_end in zip(start_lst[1:], end_lst[:-1]):
@@ -308,9 +314,9 @@ if __name__ == '__main__':
     test_kinds_h = ['high_level', 'mid_level', 'low_level']
 
     def segment_horizontal(level):
-        if level / 3.821 > 2000: return 'high_level'
-        elif level / 3.821 > 1000: return 'mid_level'
-        elif level / 3.821 > 0: return 'low_level'
+        if level / 3.281 > 2000: return 'high_level'
+        elif level / 3.281 > 1000: return 'mid_level'
+        elif level / 3.281 > 0: return 'low_level'
         else: return 'input level not a number greater than 0'
     
     for segment in segments:
@@ -323,12 +329,12 @@ if __name__ == '__main__':
     test_kinds_v = ['small_ascend', 'medium_ascend', 'large_ascend', 'small_descend', 'medium_descend', 'large_descend']
     
     def segment_vertical(level):
-        if level[1]/3.821 - level[0]/3.821 > 2000: return 'large_ascend'
-        elif level[1]/3.821 - level[0]/3.821 > 1000: return 'medium_ascend'
-        elif level[1]/3.821 - level[0]/3.821 > 0: return 'small_ascend'
-        elif level[1]/3.821 - level[0]/3.821 > -1000: return 'small_descend'
-        elif level[1]/3.821 - level[0]/3.821 > -2000: return 'medium_descend'
-        elif level[1]/3.821 - level[0]/3.821 <= -2000: return 'large_descend'
+        if level[1]/3.281 - level[0]/3.281 > 2000: return 'large_ascend'
+        elif level[1]/3.281 - level[0]/3.281 > 1000: return 'medium_ascend'
+        elif level[1]/3.281 - level[0]/3.281 > 0: return 'small_ascend'
+        elif level[1]/3.281 - level[0]/3.281 > -1000: return 'small_descend'
+        elif level[1]/3.281 - level[0]/3.281 > -2000: return 'medium_descend'
+        elif level[1]/3.281 - level[0]/3.281 <= -2000: return 'large_descend'
         else: return 'input level can not be classified as ascend or descend'
     
     for segment in segments:
