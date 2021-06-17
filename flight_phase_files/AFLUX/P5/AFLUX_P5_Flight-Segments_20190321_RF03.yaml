@@ -1,4 +1,3 @@
----
 name: RF03
 mission: AFLUX
 platform: P5
@@ -154,11 +153,11 @@ segments:
     end: 2019-03-21 12:36:04
     levels: [3400]
 - kinds:
-  - large_ascend
+  - medium_ascend
   - procedure_turn
-  name: large ascend 1
+  name: medium ascend 1
   irregularities: []
-  segment_id: AFLUX_P5_RF03_la01
+  segment_id: AFLUX_P5_RF03_ma01
   start: 2019-03-21 12:36:04
   end: 2019-03-21 12:44:57
   levels: [3400,9600]
@@ -215,10 +214,10 @@ segments:
     UGLY: []
 - kinds:
   - large_ascend
-  name: large ascend 2
+  name: large ascend 1
   irregularities:
     - small break in climb
-  segment_id: AFLUX_P5_RF03_la02
+  segment_id: AFLUX_P5_RF03_la01
   start: 2019-03-21 13:25:03
   end: 2019-03-21 13:35:32
   levels: [200,9500]

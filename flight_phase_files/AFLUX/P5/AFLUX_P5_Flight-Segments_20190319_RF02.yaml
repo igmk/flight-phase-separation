@@ -1,4 +1,3 @@
----
 name: RF02
 mission: AFLUX
 platform: P5
@@ -46,11 +45,11 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - large_descend
+  - medium_descend
   - procedure_turn
-  name: large descend 1
+  name: medium descend 1
   irregularities: []
-  segment_id: AFLUX_P5_RF02_ld_01
+  segment_id: AFLUX_P5_RF02_md_01
   start: 2019-03-19 17:14:09
   end: 2019-03-19 17:20:05
   levels: [9400,3000]
@@ -59,8 +58,8 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - large_ascend
-  name: large ascend 1
+  - medium_ascend
+  name: medium ascend 1
   irregularities: []
   segment_id: AFLUX_P5_RF02_la01
   start: 2019-03-19 17:20:05

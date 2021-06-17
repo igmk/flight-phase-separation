@@ -3,14 +3,14 @@ mission: AFLUX
 platform: P5
 flight_id: AFLUX_P5_RF05
 contacts:
-  - name: Manfred Wendisch
-    email: m.wendisch@uni-leipzig.de
-    tags:
-      - pi
-  - name: Nils Risse
-    email: n.risse@uni-koeln.de
-    tags:
-      - lc
+- name: Manfred Wendisch
+  email: m.wendisch@uni-leipzig.de
+  tags:
+    - pi
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
+  tags:
+    - lc
 date: 2019-03-24
 flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetch.php?media=05_20190324_aflux_flight_report.pdf
 takeoff: 2019-03-24 10:01:50
@@ -69,7 +69,7 @@ segments:
   segment_id: AFLUX_P5_RF05_sa01
   start: 2019-03-24 11:10:40
   end: 2019-03-24 11:12:35
-  levels: [9400 10300]
+  levels: [9400, 10300]
   dropsondes:
     GOOD: []
     BAD: []
@@ -302,10 +302,10 @@ segments:
   start: 2019-03-24 14:13:10
   end: 2019-03-24 14:13:55
 - kinds:
-  - large_ascend
-  name: large ascend 1
+  - medium_ascend
+  name: medium ascend 1
   irregularities: []
-  segment_id: AFLUX_P5_RF05_la01
+  segment_id: AFLUX_P5_RF05_ma01
   start: 2019-03-24 14:13:55
   end: 2019-03-24 14:19:15
   levels: [200, 5100]

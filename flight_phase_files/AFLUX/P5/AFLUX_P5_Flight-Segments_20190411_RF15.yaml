@@ -149,10 +149,10 @@ segments:
     end: 2019-04-11 11:39:25
     levels: [800]
 - kinds:
-  - small_ascend
-  name: small ascend 1
+  - medium_ascend
+  name: medium ascend 1
   irregularities: []
-  segment_id: AFLUX_P5_RF15_sa01
+  segment_id: AFLUX_P5_RF15_ma01
   start: 2019-04-11 11:39:25
   end: 2019-04-11 11:45:10
   levels: [200, 3700]
@@ -161,10 +161,10 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - small_descend
-  name: small descend 1
+  - medium_descend
+  name: medium descend 1
   irregularities: []
-  segment_id: AFLUX_P5_RF15_sd01
+  segment_id: AFLUX_P5_RF15_md01
   start: 2019-04-11 11:45:10
   end: 2019-04-11 11:52:00
   levels: [3700, 300]
@@ -186,9 +186,9 @@ segments:
     UGLY: []
 - kinds:
   - small_ascend
-  name: small ascend 2
+  name: small ascend 1
   irregularities: []
-  segment_id: AFLUX_P5_RF15_sa02
+  segment_id: AFLUX_P5_RF15_sa01
   start: 2019-04-11 11:55:50
   end: 2019-04-11 11:57:48
   levels: [200, 2000]
@@ -198,9 +198,9 @@ segments:
     UGLY: []
 - kinds:
   - small_descend
-  name: small descend 2
+  name: small descend 1
   irregularities: []
-  segment_id: AFLUX_P5_RF15_sd02
+  segment_id: AFLUX_P5_RF15_sd01
   start: 2019-04-11 11:57:48
   end: 2019-04-11 12:00:25
   levels: [2000, 200]
@@ -314,9 +314,9 @@ segments:
   end: 2019-04-11 13:13:10
 - kinds:
   - small_descend
-  name: small descend 3
+  name: small descend 2
   irregularities: []
-  segment_id: AFLUX_P5_RF15_sd03
+  segment_id: AFLUX_P5_RF15_sd02
   start: 2019-04-11 13:13:10
   end: 2019-04-11 13:15:30
   levels: [1400, 200]
@@ -395,9 +395,9 @@ segments:
     UGLY: []
 - kinds:
   - small_descend
-  name: small descend 4
+  name: small descend 3
   irregularities: []
-  segment_id: AFLUX_P5_RF15_sd04
+  segment_id: AFLUX_P5_RF15_sd03
   start: 2019-04-11 14:19:30
   end: 2019-04-11 14:21:50
   levels: [2000, 200]

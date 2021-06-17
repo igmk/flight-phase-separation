@@ -225,10 +225,10 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - small_descend
-  name: small descend 1
+  - medium_descend
+  name: medium descend 1
   irregularities: []
-  segment_id: AFLUX_P5_RF04_sd01
+  segment_id: AFLUX_P5_RF04_md01
   start: 2019-03-23 14:04:45
   end: 2019-03-23 14:11:30
   levels: [3800, 300]
@@ -474,10 +474,10 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - large_ascend 
-  name: large ascend 2
+  - medium_ascend 
+  name: medium ascend 1
   irregularities: []
-  segment_id: AFLUX_P5_RF04_la02
+  segment_id: AFLUX_P5_RF04_ma01
   start: 2019-03-23 16:30:00
   end: 2019-03-23 16:34:55
   levels: [200, 5200]
@@ -486,10 +486,10 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - high_level
-  name: high level 9
+  - mid_level
+  name: mid level 3
   irregularities: []
-  segment_id: AFLUX_P5_RF04_hl09
+  segment_id: AFLUX_P5_RF04_ml03
   start: 2019-03-23 16:34:55
   end: 2019-03-23 16:46:55
   levels: [5300]
