@@ -3,10 +3,16 @@ mission: ACLOUD
 platform: P5
 flight_id: ACLOUD_P5_RF19
 contacts:
-- name: 
-  email: 
+- name: Manfred Wendisch
+  email: m.wendisch@uni-leipzig.de
+  tags:
+    - pi
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
+  tags:
+    - lc
 date: 2017-06-17
-flight_report: 
+flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=19_20170617_p5_acloud_flight_report.pdf
 takeoff: 2017-06-17 09:54:15
 landing: 2017-06-17 15:24:25
 events:
@@ -19,21 +25,385 @@ segments:
   name: major ascend
   irregularities: []
   segment_id: ACLOUD_P5_RF19_ma
-  start: 
-  end: 
+  start: 2017-06-17 09:54:15
+  end: 2017-06-17 10:17:10
+  levels: [100, 9700]
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
-  - add_new_segments_here
-  name: 
+  - cross_pattern
+  - polarstern_overflight
+  name: cross pattern 1
   irregularities: []
-  segment_id: 
-  start: 
-  end: 
+  segment_id: ACLOUD_P5_RF19_cp01
+  start: 2017-06-17 10:17:10
+  end: 2017-06-17 10:32:35
+  levels: [9700, 11700]
   dropsondes:
     GOOD: []
+    BAD: []
+    UGLY: []
+  parts:
+  - kinds:
+    - cross_pattern_leg
+    name: cross pattern 1 leg 1
+    irregularities: 
+      - ascend in middle of the leg from 9700 to 11600 ft
+    segment_id: ACLOUD_P5_RF19_cp01_l01
+    start: 2017-06-17 10:17:10
+    end: 2017-06-17 10:23:35
+    levels: [9700]
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-17 10:23:35
+    end: 2017-06-17 10:28:30
+  - kinds:
+    - cross_pattern_leg
+    name: cross pattern 1 leg 2
+    irregularities: []
+    segment_id: ACLOUD_P5_RF19_cp01_l02
+    start: 2017-06-17 10:28:30
+    end: 2017-06-17 10:32:35
+    levels: [11700]
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-17 10:32:35
+  end: 2017-06-17 10:33:45
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF19_hl01
+  start: 2017-06-17 10:33:45
+  end: 2017-06-17 11:16:00
+  levels: [11700]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - long_turn
+  name: long turn
+  start: 2017-06-17 11:16:00
+  end: 2017-06-17 11:19:15
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: ACLOUD_P5_RF19_hl02
+  start: 2017-06-17 11:19:15
+  end: 2017-06-17 11:37:40
+  levels: [11500]
+  dropsondes:
+    GOOD: 
+      - P5_RF19_sonde01
+    BAD: []
+    UGLY: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2017-06-17 11:37:40
+  end: 2017-06-17 11:40:10
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: ACLOUD_P5_RF19_hl03
+  start: 2017-06-17 11:40:10
+  end: 2017-06-17 11:59:10
+  levels: [11500]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2017-06-17 11:59:10
+  end: 2017-06-17 12:02:00
+- kinds:
+  - high_level
+  name: high level 4
+  irregularities: []
+  segment_id: ACLOUD_P5_RF19_hl04
+  start: 2017-06-17 12:02:00
+  end: 2017-06-17 12:14:25
+  levels: [11500]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-17 12:14:25
+  end: 2017-06-17 12:17:30
+- kinds:
+  - high_level
+  name: high level 5
+  irregularities: []
+  segment_id: ACLOUD_P5_RF19_hl05
+  start: 2017-06-17 12:17:30
+  end: 2017-06-17 12:21:05
+  levels: [11600]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-17 12:21:05
+  end: 2017-06-17 12:22:10
+- kinds:
+  - high_level
+  name: high level 6
+  irregularities: 
+    - irregular ascend from 11600 to 14100 ft
+    - high pitch angle in beginning of leg
+  segment_id: ACLOUD_P5_RF19_hl06
+  start: 2017-06-17 12:22:10
+  end: 2017-06-17 12:35:05
+  levels: [13400]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-17 12:35:05
+  end: 2017-06-17 12:37:25
+- kinds:
+  - high_level
+  name: high level 7
+  irregularities: 
+    - irregular ascend from 14800 to 16700 ft, slightly descending during end of leg
+  segment_id: ACLOUD_P5_RF19_hl07
+  start: 2017-06-17 12:37:25
+  end: 2017-06-17 12:51:40
+  levels: [16300]
+  dropsondes:
+    GOOD: 
+      - P5_RF19_sonde02
+    BAD: []
+    UGLY: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2017-06-17 12:51:40
+  end: 2017-06-17 12:53:35
+- kinds:
+  - high_level
+  name: high level 8
+  irregularities: 
+    - slight descend from 16500 to 15000 ft during leg, strongest descend during end of segment
+  segment_id: ACLOUD_P5_RF19_hl08
+  start: 2017-06-17 12:53:35
+  end: 2017-06-17 13:11:30
+  levels: [16400]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2017-06-17 13:11:30
+  end: 2017-06-17 13:14:30
+- kinds:
+  - high_level
+  name: high level 9
+  irregularities: 
+    - slight ascend from 15100 to 17300 ft in the middle of segment, followed by a small descend towards the end
+  segment_id: ACLOUD_P5_RF19_hl09
+  start: 2017-06-17 13:14:30
+  end: 2017-06-17 13:29:45
+  levels: [16300]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-17 13:29:45
+  end: 2017-06-17 13:30:40
+- kinds:
+  - high_level
+  name: high level 10
+  irregularities: 
+    - strong variations in pitch angle
+  segment_id: ACLOUD_P5_RF19_hl10
+  start: 2017-06-17 13:30:40
+  end: 2017-06-17 13:39:25
+  levels: [16300]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - small_descend
+  name: small descend 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF19_sd01
+  start: 2017-06-17 13:39:25
+  end: 2017-06-17 13:43:00
+  levels: [16700, 14100]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - high_level
+  name: high level 11
+  irregularities: []
+  segment_id: ACLOUD_P5_RF19_hl11
+  start: 2017-06-17 13:43:00
+  end: 2017-06-17 13:52:50
+  levels: [14100]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-17 13:52:50
+  end: 2017-06-17 13:54:15
+- kinds:
+  - high_level
+  name: high level 12
+  irregularities: []
+  segment_id: ACLOUD_P5_RF19_hl12
+  start: 2017-06-17 13:54:15
+  end: 2017-06-17 14:07:05
+  levels: [14100]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2017-06-17 14:07:05
+  end: 2017-06-17 14:09:20
+- kinds:
+  - high_level
+  name: high level 13
+  irregularities: []
+  segment_id: ACLOUD_P5_RF19_hl13
+  start: 2017-06-17 14:09:20
+  end: 2017-06-17 14:27:45
+  levels: [14000]
+  dropsondes:
+    GOOD: 
+      - P5_RF19_sonde03
+    BAD: []
+    UGLY: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2017-06-17 14:27:45
+  end: 2017-06-17 14:30:30
+- kinds:
+  - high_level
+  name: high level 14
+  irregularities: []
+  segment_id: ACLOUD_P5_RF19_hl14
+  start: 2017-06-17 14:30:30
+  end: 2017-06-17 14:43:35
+  levels: [14100]
+  dropsondes:
+    GOOD: 
+      - P5_RF19_sonde04
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-17 14:43:35
+  end: 2017-06-17 14:44:00
+- kinds:
+  - radiation_square
+  name: radiation square 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF19_rs01
+  start: 2017-06-17 14:44:00
+  end: 2017-06-17 14:58:50
+  levels: [14000]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+  parts:
+  - kinds:
+    - high_level
+    name: radiation square 1 leg 1
+    irregularities: []
+    segment_id: ACLOUD_P5_RF19_rs01_l01
+    start: 2017-06-17 14:44:00
+    end: 2017-06-17 14:46:45
+    levels: [14000]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-06-17 14:46:45
+    end: 2017-06-17 14:47:25
+  - kinds:
+    - high_level
+    name: radiation square 1 leg 2
+    irregularities: []
+    segment_id: ACLOUD_P5_RF19_rs01_l02
+    start: 2017-06-17 14:47:25
+    end: 2017-06-17 14:50:25
+    levels: [14100]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-06-17 14:50:25
+    end: 2017-06-17 14:51:15
+  - kinds:
+    - high_level
+    name: radiation square 1 leg 3
+    irregularities: []
+    segment_id: ACLOUD_P5_RF19_rs01_l03
+    start: 2017-06-17 14:51:15
+    end: 2017-06-17 14:54:45
+    levels: [14000]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-06-17 14:54:45
+    end: 2017-06-17 14:55:20
+  - kinds:
+    - high_level
+    name: radiation square 1 leg 4
+    irregularities: []
+    segment_id: ACLOUD_P5_RF19_rs01_l04
+    start: 2017-06-17 14:55:20
+    end: 2017-06-17 14:58:50
+    levels: [14100]
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-17 14:58:50
+  end: 2017-06-17 14:59:50
+- kinds:
+  - high_level
+  name: high level 15
+  irregularities: []
+  segment_id: ACLOUD_P5_RF19_hl15
+  start: 2017-06-17 14:59:50
+  end: 2017-06-17 15:06:35
+  levels: [14000]
+  dropsondes:
+    GOOD: 
+      - P5_RF19_sonde05
     BAD: []
     UGLY: []
 - kinds:
@@ -41,8 +411,9 @@ segments:
   name: major descend
   irregularities: []
   segment_id: ACLOUD_P5_RF19_md
-  start: 
-  end: 
+  start: 2017-06-17 15:06:35
+  end: 2017-06-17 15:24:25
+  levels: [14000, 100]
   dropsondes:
     GOOD: []
     BAD: []
