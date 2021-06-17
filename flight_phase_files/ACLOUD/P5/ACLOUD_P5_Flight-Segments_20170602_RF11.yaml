@@ -3,37 +3,387 @@ mission: ACLOUD
 platform: P5
 flight_id: ACLOUD_P5_RF11
 contacts:
-- name: 
-  email: 
+- name: Susanne Crewell
+  email: susanne.crewell@uni-koeln.de
+  tags:
+    - pi
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
+  tags:
+    - lc
 date: 2017-06-02
-flight_report: 
+flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=11_20170602_p5_acloud_flight_report.pdf
 takeoff: 2017-06-02 08:30:40
 landing: 2017-06-02 13:58:05
 events:
 - joint flight with P6
+- Polarstern overflight
+- Ny-Alesund overflight
+- Cloudsat underflight
 remarks:
-- PS Meeting no3; Low clouds in warm air over sea ice
+- Low clouds in warm air over sea ice
 segments:
 - kinds:
   - major_ascend
   name: major ascend
-  irregularities: []
+  irregularities: 
+    - circle at end of ascend
   segment_id: ACLOUD_P5_RF11_ma
-  start: 
-  end: 
+  start: 2017-06-02 08:30:40
+  end: 2017-06-02 08:58:08
+  levels: [100, 9800]
   dropsondes:
     GOOD: []
     BAD: []
     UGLY: []
 - kinds:
-  - add_new_segments_here
-  name: 
+  - high_level
+  name: high level 1
   irregularities: []
-  segment_id: 
-  start: 
-  end: 
+  segment_id: ACLOUD_P5_RF11_hl01
+  start: 2017-06-02 08:58:08
+  end: 2017-06-02 09:00:00
+  levels: [9800]
   dropsondes:
     GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - cross_pattern
+  - nya_overflight
+  name: cross pattern 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF11_cp01
+  start: 2017-06-02 09:00:00
+  end: 2017-06-02 09:36:55
+  levels: [9800]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+  parts:
+  - kinds:
+    - high_level
+    name: cross pattern 1 leg 1
+    irregularities: []
+    segment_id: ACLOUD_P5_RF11_cp01_l01
+    start: 2017-06-02 09:00:00
+    end: 2017-06-02 09:03:35
+    levels: [9800]
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-02 09:03:35
+    end: 2017-06-02 09:07:45
+  - kinds:
+    - high_level
+    name: cross pattern 1 leg 2
+    irregularities: []
+    segment_id: ACLOUD_P5_RF11_cp01_l02
+    start: 2017-06-02 09:07:45
+    end: 2017-06-02 09:12:00
+    levels: [9800]
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-02 09:12:00
+    end: 2017-06-02 09:17:10
+  - kinds:
+    - high_level
+    name: cross pattern 1 leg 3
+    irregularities: []
+    segment_id: ACLOUD_P5_RF11_cp01_l03
+    start: 2017-06-02 09:17:10
+    end: 2017-06-02 09:20:25
+    levels: [9800]
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-02 09:20:25
+    end: 2017-06-02 09:24:45
+  - kinds:
+    - high_level
+    name: cross pattern 1 leg 4
+    irregularities: []
+    segment_id: ACLOUD_P5_RF11_cp01_l04
+    start: 2017-06-02 09:24:45
+    end: 2017-06-02 09:29:00
+    levels: [9800]
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-02 09:29:00
+    end: 2017-06-02 09:33:55
+  - kinds:
+    - high_level
+    name: cross pattern 1 leg 5
+    irregularities: []
+    segment_id: ACLOUD_P5_RF11_cp01_l05
+    start: 2017-06-02 09:33:55
+    end: 2017-06-02 09:36:55
+    levels: [9800]
+- kinds:
+  - waiting_pattern
+  name: waiting pattern
+  start: 2017-06-02 09:36:55
+  end: 2017-06-02 09:40:40
+- kinds:
+  - high_level
+  - cloudsat_calipso_underflight
+  name: high level 2
+  irregularities: 
+    - crash of 230 V system at about 9:55
+  segment_id: ACLOUD_P5_RF11_hl02
+  start: 2017-06-02 09:40:40
+  end: 2017-06-02 09:57:00
+  levels: [9800]
+  dropsondes:
+    GOOD: 
+      - P5_RF11_sonde01
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-02 09:57:00
+  end: 2017-06-02 09:57:55
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: ACLOUD_P5_RF11_hl03
+  start: 2017-06-02 09:57:55
+  end: 2017-06-02 10:10:50
+  levels: [9800]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-02 10:10:50
+  end: 2017-06-02 10:11:40
+- kinds:
+  - high_level
+  name: high level 4
+  irregularities: []
+  segment_id: ACLOUD_P5_RF11_hl04
+  start: 2017-06-02 10:11:40
+  end: 2017-06-02 10:15:30
+  levels: [9800]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-02 10:15:30
+  end: 2017-06-02 10:16:20
+- kinds:
+  - high_level
+  name: high level 5
+  irregularities: 
+    - crash of 230 V system at about 10:18 and 10:29
+  segment_id: ACLOUD_P5_RF11_hl05
+  start: 2017-06-02 10:16:20
+  end: 2017-06-02 10:33:30
+  levels: [9700]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - waiting_pattern
+  name: waiting pattern
+  start: 2017-06-02 10:33:30
+  end: 2017-06-02 10:38:05
+- kinds:
+  - high_level
+  name: high level 6
+  irregularities: []
+  segment_id: ACLOUD_P5_RF11_hl06
+  start: 2017-06-02 10:38:05
+  end: 2017-06-02 10:42:45
+  levels: [9700]
+  dropsondes:
+    GOOD: 
+      - P5_RF11_sonde02
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-02 10:42:45
+  end: 2017-06-02 10:44:55
+- kinds:
+  - high_level
+  name: high level 7
+  irregularities: []
+  segment_id: ACLOUD_P5_RF11_hl07
+  start: 2017-06-02 10:44:55
+  end: 2017-06-02 10:46:25
+  levels: [9700]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2017-06-02 10:46:25
+  end: 2017-06-02 10:49:50
+- kinds:
+  - cross_pattern
+  - polarstern_overflight
+  name: cross pattern 2
+  irregularities: 
+    - cross pattern turn between leg 3 and 4 contains also a waiting pattern
+    - second turn of cross pattern turn between leg 4 and 5 is a long turn
+    - second turn of cross pattern turn between leg 6 and 7 is a long turn
+  segment_id: ACLOUD_P5_RF11_cp02
+  start: 2017-06-02 10:49:50
+  end: 2017-06-02 12:28:05
+  levels: [9700]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+  parts:
+  - kinds:
+    - high_level
+    name: cross pattern 2 leg 1
+    irregularities: []
+    segment_id: ACLOUD_P5_RF11_cp02_l01
+    start: 2017-06-02 10:49:50
+    end: 2017-06-02 10:57:15
+    levels: [9700]
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-02 10:57:15
+    end: 2017-06-02 11:03:05
+  - kinds:
+    - high_level
+    name: cross pattern 2 leg 2
+    irregularities: []
+    segment_id: ACLOUD_P5_RF11_cp02_l02
+    start: 2017-06-02 11:03:05
+    end: 2017-06-02 11:08:25
+    levels: [9700]
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-02 11:08:25
+    end: 2017-06-02 11:13:50
+  - kinds:
+    - high_level
+    name: cross pattern 2 leg 3
+    irregularities: []
+    segment_id: ACLOUD_P5_RF11_cp02_l03
+    start: 2017-06-02 11:13:50
+    end: 2017-06-02 11:21:35
+    levels: [9700]
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-02 11:21:35
+    end: 2017-06-02 11:32:30
+  - kinds:
+    - high_level
+    name: cross pattern 2 leg 4
+    irregularities: []
+    segment_id: ACLOUD_P5_RF11_cp02_l04
+    start: 2017-06-02 11:32:30
+    end: 2017-06-02 11:36:45
+    levels: [9700]
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-02 11:36:45
+    end: 2017-06-02 11:44:52
+  - kinds:
+    - high_level
+    name: cross pattern 2 leg 5
+    irregularities: []
+    segment_id: ACLOUD_P5_RF11_cp02_l05
+    start: 2017-06-02 11:44:52
+    end: 2017-06-02 11:50:55
+    levels: [9700]
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-02 11:50:55
+    end: 2017-06-02 11:56:40
+  - kinds:
+    - high_level
+    name: cross pattern 2 leg 6
+    irregularities: []
+    segment_id: ACLOUD_P5_RF11_cp02_l06
+    start: 2017-06-02 11:56:40
+    end: 2017-06-02 12:01:25
+    levels: [9700]
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-02 12:01:25
+    end: 2017-06-02 12:10:15
+  - kinds:
+    - high_level
+    name: cross pattern 2 leg 7
+    irregularities: []
+    segment_id: ACLOUD_P5_RF11_cp02_l07
+    start: 2017-06-02 12:10:15
+    end: 2017-06-02 12:16:10
+    levels: [9700]
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-02 12:16:10
+    end: 2017-06-02 12:22:10
+  - kinds:
+    - high_level
+    name: cross pattern 2 leg 8
+    irregularities: []
+    segment_id: ACLOUD_P5_RF11_cp02_l08
+    start: 2017-06-02 12:22:10
+    end: 2017-06-02 12:28:05
+    levels: [9700]
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-02 12:28:05
+  end: 2017-06-02 12:29:20
+- kinds:
+  - high_level
+  name: high level 8
+  irregularities: []
+  segment_id: ACLOUD_P5_RF11_hl08
+  start: 2017-06-02 12:29:20
+  end: 2017-06-02 13:18:45
+  levels: [9700]
+  dropsondes:
+    GOOD: 
+      - P5_RF11_sonde03
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-02 13:18:45
+  end: 2017-06-02 13:19:35
+- kinds:
+  - high_level
+  name: high level 9
+  irregularities: []
+  segment_id: ACLOUD_P5_RF11_hl09
+  start: 2017-06-02 13:19:35
+  end: 2017-06-02 13:36:25
+  levels: [9800]
+  dropsondes:
+    GOOD: 
+      - P5_RF11_sonde04
     BAD: []
     UGLY: []
 - kinds:
@@ -41,8 +391,9 @@ segments:
   name: major descend
   irregularities: []
   segment_id: ACLOUD_P5_RF11_md
-  start: 
-  end: 
+  start: 2017-06-02 13:36:25
+  end: 2017-06-02 13:58:05
+  levels: [9800, 100]
   dropsondes:
     GOOD: []
     BAD: []
