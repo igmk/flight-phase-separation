@@ -15,14 +15,44 @@ date: 2020-08-31
 flight_report: https://home.uni-leipzig.de/~ehrlich/MOSAiC_ACA_wiki_doku/lib/exe/fetch.php?media=fr20200831.pdf
 takeoff: 2020-08-31 12:40:15
 landing: 2020-08-31 14:55:00
-events: []
-remarks:
+events: 
 - Joint test flight with Polar 6
+remarks: []
 segments:
+- kinds:
+  - major_ascend
+  name: major ascend
+  irregularities: []
+  segment_id: MOSAiC-ACA_P5_RF04_ma
+  start: 2020-08-31 12:40:15
+  end: 2020-08-31 12:42:10
+  levels: [100, 1700]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
 - kinds:
   - instrument_testing
   name: instrument testing
+  irregularities:
+    - lot of turns and ups and downs
+  segment_id: MOSAiC-ACA_P5_RF04_it01
+  start: 2020-08-31 12:42:10
+  end: 2020-08-31 14:34:45
+  levels: [1300, 9500]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - major_descend
+  name: major descend
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF04_it
-  start: 2020-08-31 12:40:15
+  segment_id: MOSAiC-ACA_P5_RF04_md
+  start: 2020-08-31 14:34:45
   end: 2020-08-31 14:55:00
+  levels: [9300, 100]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

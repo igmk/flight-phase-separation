@@ -199,10 +199,10 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - medium_ascend
-  name: medium ascend 1
+  - large_ascend
+  name: large ascend 1
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF08_ma01
+  segment_id: MOSAiC-ACA_P5_RF08_la01
   start: 2020-09-08 10:53:50
   end: 2020-09-08 11:00:35
   levels: [200, 7000]
@@ -211,10 +211,10 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - mid_level
-  name: mid level 1
+  - high_level
+  name: high level 4
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF08_ml01
+  segment_id: MOSAiC-ACA_P5_RF08_hl04
   start: 2020-09-08 11:00:35
   end: 2020-09-08 11:02:00
   levels: [7000]
@@ -223,10 +223,10 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - medium_descend
-  name: medium descend 1
+  - large_descend
+  name: large descend 2
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF08_md01
+  segment_id: MOSAiC-ACA_P5_RF08_ld02
   start: 2020-09-08 11:02:00
   end: 2020-09-08 11:14:15
   levels: [7000, 200]
@@ -384,12 +384,12 @@ segments:
       BAD: []
       UGLY: []
 - kinds:
-  - small_ascend
+  - medium_ascend
   - short_turn
-  name: small ascend 1
+  name: medium ascend 1
   irregularities: 
     - short turn in beginning of ascend
-  segment_id: MOSAiC-ACA_P5_RF08_sa01
+  segment_id: MOSAiC-ACA_P5_RF08_ma01
   start: 2020-09-08 12:34:45
   end: 2020-09-08 12:39:00
   levels: [5800, 9300]
@@ -399,9 +399,9 @@ segments:
     UGLY: []
 - kinds:
   - high_level
-  name: high level 4
+  name: high level 5
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF08_hl04
+  segment_id: MOSAiC-ACA_P5_RF08_hl05
   start: 2020-09-08 12:39:00
   end: 2020-09-08 13:18:35
   levels: [9400]
@@ -420,9 +420,9 @@ segments:
 - kinds:
   - high_level
   - nya_overflight
-  name: high level 5
+  name: high level 6
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF08_hl05
+  segment_id: MOSAiC-ACA_P5_RF08_hl06
   start: 2020-09-08 13:19:40
   end: 2020-09-08 13:41:50
   levels: [9500]
@@ -437,9 +437,9 @@ segments:
   end: 2020-09-08 13:42:25
 - kinds:
   - high_level
-  name: high level 6
+  name: high level 7
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF08_hl06
+  segment_id: MOSAiC-ACA_P5_RF08_hl07
   start: 2020-09-08 13:42:25
   end: 2020-09-08 13:47:50
   levels: [9500]

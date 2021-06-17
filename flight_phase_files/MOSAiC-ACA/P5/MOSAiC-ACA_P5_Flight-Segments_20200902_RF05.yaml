@@ -1,4 +1,3 @@
----
 name: RF05
 mission: MOSAiC-ACA
 platform: P5
@@ -37,7 +36,7 @@ segments:
     UGLY: []
 - kinds:
   - high_level
-  name: high level leg 1
+  name: high level 1
   irregularities: 
     - high level between 9400 and 9600
   segment_id: MOSAiC-ACA_P5_RF05_hl01
@@ -55,7 +54,7 @@ segments:
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF05_rs01
   start: 2020-09-02 07:57:08
-  end: 2020-09  -02 08:11:14
+  end: 2020-09-02 08:11:14
   levels: [9500,9500,9500,9500]
   dropsondes:
     GOOD: []
@@ -117,7 +116,7 @@ segments:
     levels: [9500]
 - kinds:
   - waiting_pattern
-  name: waiting for satellite pattern
+  name: waiting pattern
   start: 2020-09-02 08:11:14
   end: 2020-09-02 08:22:34
 - kinds:
@@ -138,7 +137,7 @@ segments:
     UGLY: []
 - kinds:
   - large_descend
-  name: large descend
+  name: large descend 1
   irregularities: 
     - not along straight line
   segment_id: MOSAiC-ACA_P5_RF05_ld01
@@ -150,7 +149,7 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - racetrack pattern
+  - racetrack_pattern
   name: racetrack pattern 1
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF05_rt01
@@ -227,11 +226,11 @@ segments:
     end: 2020-09-02 09:44:50
     levels: [4900]
 - kinds:
-  - large_ascend
-  name: large ascend 2
+  - medium_ascend
+  name: medium ascend 1
   irregularities:
     - not along straight line
-  segment_id: MOSAiC-ACA_P5_RF05_ld02
+  segment_id: MOSAiC-ACA_P5_RF05_ma01
   start: 2020-09-02 09:44:50
   end: 2020-09-02 09:53:28
   levels: [4200,9600]
@@ -240,7 +239,7 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - shor_turn
+  - short_turn
   name: short turn
   start: 2020-09-02 09:53:28
   end: 2020-09-02 09:54:22
@@ -264,9 +263,8 @@ segments:
 - kinds:
   - cross_pattern
   name: cross pattern 1
-  remarks: 
-    - each leg flown twice (back and forth) 
-  irregularities: []
+  irregularities: 
+    - each leg flown twice (back and forth)
   segment_id: MOSAiC-ACA_P5_RF05_cp01
   start: 2020-09-02 09:59:07
   end: 2020-09-02 10:48:12
@@ -330,7 +328,7 @@ segments:
   end: 2020-09-02 10:49:13
 - kinds:
   - high_level
-  name: high level leg 4
+  name: high level 4
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF05_hl04
   start: 2020-09-02 10:49:13
@@ -348,9 +346,8 @@ segments:
   end: 2020-09-02 11:20:38
 - kinds:
   - high_level
-  name: high level leg 5
-  remarks: 
-    - radiometer calibration
+  - radiometer_calibration
+  name: high level 5
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF05_hl05
   start: 2020-09-02 11:20:38
@@ -367,9 +364,8 @@ segments:
   end: 2020-09-02 11:29:19
 - kinds:
   - high_level
-  name: high level leg 6
-  remarks: 
-    - radiometer calibration
+  - radiometer_calibration
+  name: high level 6
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF05_hl06
   start: 2020-09-02 11:29:19
@@ -387,7 +383,7 @@ segments:
   end: 2020-09-02 11:34:02
 - kinds:
   - high_level
-  name: high level leg 7
+  name: high level 7
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF05_hl07
   start: 2020-09-02 11:34:02
@@ -405,10 +401,10 @@ segments:
 - kinds:
   - high_level
   - nya_overflight
-  name: high level leg 7
+  name: high level 8
   irregularities: 
     - data gaps between 12:00:00 and 12:01:00 in GPS1
-  segment_id: MOSAiC-ACA_P5_RF05_hl07
+  segment_id: MOSAiC-ACA_P5_RF05_hl08
   start: 2020-09-02 11:53:26
   end: 2020-09-02 12:04:37
   levels: [9600]
