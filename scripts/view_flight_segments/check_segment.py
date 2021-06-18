@@ -6,6 +6,7 @@ from glob import glob
 import xarray as xr
 import re
 import yaml
+from glob import glob
 
 
 """
@@ -70,14 +71,11 @@ class SegmentCatalog:
                'medium_ascend',
                'medium_descend',
                'profiling',
-               'noseboom_pattern',
-               'holding_pattern',
                'p6_co-location',
                'nya_overflight',
                'sveabreen_glacier_overflight',
                'a-train_underflight',
                'polarstern_overflight',
-               'cloudsat_calipso_underflight',
                'noseboom_calibration',
                'radiometer_calibration',
                'instrument_testing',
@@ -87,9 +85,7 @@ class SegmentCatalog:
               'long_turn',
               'procedure_turn',
               'waiting_pattern',
-              'deicing_leg',
               'cross_pattern_turn',
-              'long_legs_pattern_turn',
               'circle',
               ]
     
@@ -103,14 +99,16 @@ class SegmentCatalog:
                ]
     
     # parts
-    # the kinds should also be from the above's kinds
-    # the name and segment_id then indicate that it belongs to a pattern
-    # TODO: also, check if we need mid_ascend, when levels[1]-levels[0] between 1000 and 2000 m? same for descend?
-    # TODO: then a routine that systematically checks the ascend and descend kinds and also adds it to turns, if they are also ascend or descend
     parts = {'racetrack_pattern': ['low_level',
                                    'mid_level',
                                    'high_level',
                                    'procedure_turn',
+                                   'short_turn',
+                                   'small_ascend',
+                                   'small_descend',
+                                   'large_descend',
+                                   'profiling',
+                                   'large_ascend'
                                    ], 
              
              'stairstep_pattern': ['small_ascend',
@@ -125,7 +123,9 @@ class SegmentCatalog:
                                    ],
              
              'cross_pattern': ['high_level',
-                               'cross_pattern_turn'
+                               'low_level',
+                               'cross_pattern_turn',
+                               'procedure_turn',
                                ],
              
              'sawtooth_pattern': ['small_ascend',
@@ -145,75 +145,183 @@ class SegmentCatalog:
              
              'holding_pattern': ['high_level',
                                  'short_turn',
-                                 'circle'],
-             'noseboom_calibration_pattern': ['high_level', 'short_turn'],
+                                 'circle',
+                                 ],
+             
+             'noseboom_calibration_pattern': ['high_level', 
+                                              'short_turn',
+                                              ],
              }
     
-    # name examle for racetrack low_level: racetrack 1 leg 1 
-    
     # names
+    regular_name = ['high level',
+                    'mid level',
+                    'low level',
+                    'large ascend',
+                    'large descend',
+                    'major ascend',
+                    'major descend',
+                    'small ascend',
+                    'small descend',
+                    'medium ascend',
+                    'medium descend',
+                    'instrument testing',
+                    ]
+    
+    curves_name = ['short turn',
+                   'long turn',
+                   'procedure turn',
+                   'waiting pattern',
+                   'cross pattern turn',
+                   'circle',
+                   ]
+    
+    pattern_name = ['racetrack pattern',
+                    'stairstep pattern',
+                    'cross pattern',
+                    'sawtooth pattern',
+                    'radiation square',
+                    'holding pattern',
+                    'noseboom calibration pattern',
+                    ]
+    
+    # parts names
+    # stairstep 2 leg 5
+    # stairstep 2 descend 1 etc
+    # name examle for racetrack low_level: racetrack 1 leg 1 
     no_numbering = ['major ascend',
                     'major descend',
                     'short turn',
                     'long turn',
                     'procedure turn',
                     'waiting pattern',
-                    'deicing leg',  # nicht als eigenes leg, aber irregularities und dann mid_level ode rhigh_level
                     'cross pattern turn',
                     'long legs pattern turn',
                     'circle',
                     'instrument testing',
                     ]
     
+    # short names (used in segment_id)
+    short_names = {'high level': 'hl',
+                   'mid level': 'ml',
+                   'low level': 'll',
+                   'large ascend': 'la',
+                   'large descend': 'ld',
+                   'major ascend': 'ma',
+                   'major descend': 'md',
+                   'small ascend': 'sa',
+                   'small descend': 'sd',
+                   'medium ascend': 'ma',
+                   'medium descend': 'md',
+                   'noseboom calibration': 'nc',
+                   'instrument testing': 'it',
+                   'racetrack pattern': 'rt',
+                   'stairstep pattern': 'ss',
+                   'cross pattern': 'cr',
+                   'sawtooth pattern': 'st',
+                   'radiation square': 'rs',
+                   'holding pattern': 'ho',
+                   'noseboom calibration pattern': 'np',
+                   }
+    
     # events
-    events = ['joint flight with P6',]  # TODO
+    events = ['A-train underflight',
+              'Calibration of 5-hole probe',
+              'Certification flight (PMS instruments)',
+              'Test flight in LYR',
+              'Joint test flight with P6',
+              'Instrument intercomparison between P5 and P6',
+              'Colocation with P6 at Polarstern',
+              'Joint flight with P6',
+              'Calibration circles for AIMMS20',
+              'Test of instrumentation',
+              
+              'Ny-Alesund overflight',
+              'Ny-Alesund overflight with cross pattern',
+              
+              'Polarstern overflight',
+              'Polarstern overflight with racetrack pattern',
+              'Polarstern overflight with cross pattern',
+              
+              'Racetrack pattern over open ocean',
+              'Racetrack pattern over sea ice',
+              'Sawtooth pattern with low-level legs',
+              'Radiation square pattern',
+              'Boundary layer profiling',
+              
+              'Radiometer calibration',
+              'Noseboom calibration',
+              ]
     
+    # remarks
+    remarks = [
+               # on instruments
+               'AMALi pointing zenith', 
+               'Dropsonde system was not working',
+               'Eagle/Hawk showed some problems occurred due to a broken cable',
+               'MiRAC not working',
+               'SMART connection was sometimes interrupted', 
+               'SMART not working',
+               'Heading in GPS/INS dataset missing',
+               'Two power outages of 230 V in beginning during transfer to first satellite meeting',
 
-if __name__ == '__main__':
-    
-    # read file with flight settings
-    with open('flight_settings.yaml') as f:
-        flight = yaml.safe_load(f)
-    
-    # read file with paths (set wdir to the current script location)
-    with open('paths.yaml') as f:
-        paths = yaml.safe_load(f)
-    
-    # read gps data
-    file = paths['path_gps']+flight['campaign'].lower()+'/'+flight['aircraft'].lower()+'/gps_ins/'+flight['campaign']+'_polar'+flight['aircraft'][1]+'_'+flight['date']+'_'+flight['number']+'.nc'
-    ds_gps = xr.open_dataset(file)
+               # on the segmentation
+               'No segmentation apart from instrument_testing segment performed',
+               
+               # on atmopsheric situation
+               'Cloud field spreading into the MIZ and migrating into surface based fog over closed sea ice',
+               'Clouds above open water and sea ice',
+               'Clouds along wind over ice and over sea', 
+               'Low clouds in warm air over sea ice',
+               'Low-level clouds over sea ice weak cold air', 
+               'Cold air outbreak over sea ice and at the MIZ',
+               'Cold air outbreak with thin clouds over sea ice',
+               'Mid-Level stratocumulus over sea ice',
+               'Sharp cloud edge over homogeneous sea ice', 
+               'Thin low level clouds over sea ice',
+               'Warm front pushing clouds in the MIZ along steady increasing sea ice concentration',
+               'Cloud-free areas over closed sea ice',
+               'Low- and mid-level clouds of a cold air outbreak',
+               'Mostly clear-sky with some thin cirrus clouds',
+               'Thin broken clouds over sea ice', 
+               'Thin low- and mid-level clouds',
+               'Thin low clouds over sea ice',
+               'Cloud-free area north of Svalbard',
+               
+               'Icing and re-orientation patterns',
+               'Profiles SW of Svalbard',
+               ]
 
-    # read flight segments of flight
-    file = '../../flight_phase_files/'+flight['campaign']+'/'+flight['aircraft']+'/'+flight['campaign']+'_'+flight['aircraft']+'_Flight-Segments_'+flight['date']+'_'+flight['number']+'.yaml'
-    with open(file, 'r') as f:
-        flight_segments = yaml.safe_load(f)
+
+def main(flight, meta):
+    """Main routine"""
     
-    # read dropsondes of flight
-    files = glob(paths['path_dropsonde']+flight['campaign'].lower()+'/dropsondes/'+flight['date'][:4]+'/'+flight['date'][4:6]+'/'+flight['date'][6:8]+'/*PQC.nc')
-    dict_ds_dsd = {}  # dictionary of dropsondes
-    for file in files:
-        filename = file.split('/')[-1].split('_PQC')[0]
-        dict_ds_dsd[filename] = xr.open_dataset(file)
-        
+    print('Checking flight', flight)
+    
     #%% check flight phase separation
     # meta data
-    assert flight['number'] == flight_segments['name']
-    assert flight['campaign'] == flight_segments['mission']
-    assert flight['aircraft'] == flight_segments['platform']
-    assert flight_segments['mission']+'_'+flight_segments['platform']+'_'+flight_segments['name'] == flight_segments['flight_id']
-    assert type(flight_segments['contacts']) == list
-    assert type(flight_segments['date']) == datetime.date
-    assert flight_segments['flight_report'] != None
-    assert type(flight_segments['takeoff']) == datetime.datetime
-    assert type(flight_segments['landing']) == datetime.datetime
-    assert type(flight_segments['events']) == list
-    assert type(flight_segments['remarks']) == list
+    assert flight['number'] == meta['name']
+    assert flight['campaign'] == meta['mission']
+    assert flight['aircraft'] == meta['platform']
+    assert meta['mission']+'_'+meta['platform']+'_'+meta['name'] == meta['flight_id']
+    assert type(meta['contacts']) == list
+    assert type(meta['date']) == datetime.date
+    assert meta['flight_report'] != None
+    assert type(meta['takeoff']) == datetime.datetime
+    assert type(meta['landing']) == datetime.datetime
+    assert type(meta['events']) == list
+    assert type(meta['remarks']) == list
     
     # make sure, that events is standardized
-    # make sure that remarks is standardized
+    for event in meta['events']:
+        assert event in SegmentCatalog.events, 'Event "{}" not from list of possible events: {}'.format(event, SegmentCatalog.events)
     
+    # make sure that remarks is standardized
+    for remark in meta['remarks']:
+        assert remark in SegmentCatalog.remarks, 'Remark "{}" not from list of possible remarks: {}'.format(remark, SegmentCatalog.remarks)
+        
     # flight segments
-    segments = flight_segments['segments']
+    segments = meta['segments']
     
     # check if all the required attributes exist
     for i, segment in enumerate(segments):
@@ -259,12 +367,49 @@ if __name__ == '__main__':
     assert 'major_ascend' in kinds_lst[0], '"major_ascend" is not the first segment'
     assert 'major_descend' in kinds_lst[-1], '"major_descend" is not the last segment'
     
+    #%% kinds labels of parts
+    for segment in segments:
+        for kind in segment['kinds']:
+            if kind in SegmentCatalog.pattern:
+                for part in segment['parts']:
+                    for part_kind in part['kinds']:
+                        assert part_kind in SegmentCatalog.parts[kind], 'part of kind "{}" from pattern of kind "{}" not from list: {}'.format(part_kind, kind, SegmentCatalog.parts[kind])
+    
     #%% name
     name_lst = [segment['name'] for segment in segments]
     parts_name_lst = [part['name'] for segment in segments for kind in segment['kinds'] if kind in SegmentCatalog.pattern for part in segment['parts']]
-        
+    
+    # check numbering
     name_numbering(name_lst)
     name_numbering(parts_name_lst)
+    
+    #%% check segment id's
+    for segment in segments:
+        
+        is_turn = np.all([kind in SegmentCatalog.curves for kind in segment['kinds']])
+        
+        if not is_turn and segment['name'] not in SegmentCatalog.no_numbering:
+            
+            for s in segment['name'].split():
+                if s.isdigit():
+                    n = int(s)
+            
+            # get short name
+            name_without_n = ' '.join(segment['name'].split()[:-1])
+            short_name = SegmentCatalog.short_names[name_without_n]
+                        
+            segment_id_true = meta['mission'] + '_' + meta['platform'] + '_' + meta['name'] + '_' + short_name + str(n).zfill(2)
+            
+            assert segment['segment_id'] == segment_id_true, 'segment_id "{}" should be "{}"'.format(segment['segment_id'], segment_id_true)
+            
+        elif not is_turn and segment['name'] in SegmentCatalog.no_numbering:
+            
+            # get short name
+            short_name = SegmentCatalog.short_names[segment['name']]
+                        
+            segment_id_true = meta['mission'] + '_' + meta['platform'] + '_' + meta['name'] + '_' + short_name
+            
+            assert segment['segment_id'] == segment_id_true, 'segment_id "{}" should be "{}"'.format(segment['segment_id'], segment_id_true)
     
     #%% consistence of times    
     # 1: segments
@@ -272,8 +417,8 @@ if __name__ == '__main__':
     end_lst = [segment['end'] for segment in segments]
     
     # landing and takeoff
-    assert start_lst[0] == flight_segments['takeoff'], 'start time of first segment is not equal to takeoff time'
-    assert end_lst[-1] == flight_segments['landing'], 'end time of last segment is not equal to landing time'
+    assert start_lst[0] == meta['takeoff'], 'start time of first segment is not equal to takeoff time'
+    assert end_lst[-1] == meta['landing'], 'end time of last segment is not equal to landing time'
 
     # consecutive start and end times
     for t_start, t_end in zip(start_lst[1:], end_lst[:-1]):
@@ -299,12 +444,21 @@ if __name__ == '__main__':
                         assert t_start == t_end, 'start and end times are not matching: {}, {}'.format(t_start, t_end)
 
     #%% print irregularities of flight
-    print('Irregularities of segments')
-    for segment in segments:
-        print(segment.get('irregularities'))
+    #print('Irregularities of segments')
+    #for segment in segments:
+    #    print(segment.get('irregularities'))
     
     #%% levels
     levels_lst = [segment['levels'] for segment in segments for kind in segment['kinds'] if kind in SegmentCatalog.pattern or kind in SegmentCatalog.regular]
+    
+    # append levels from parts which are not only curves
+    for segment in segments:
+        for kind in segment['kinds']:
+            if kind in SegmentCatalog.pattern:
+                for part in segment['parts']:
+                    for kind_part in part['kinds']:
+                        if kind_part in SegmentCatalog.regular:
+                            levels_lst.append(part['levels'])
     
     for levels in levels_lst:
         assert type(levels) == list, '"levels" is not a list: {}'.format(levels)
@@ -323,8 +477,15 @@ if __name__ == '__main__':
         if len(set.intersection(set(segment['kinds']), set(test_kinds_h))):
             kind = list(set.intersection(set(test_kinds_h), set(segment['kinds'])))[0]
             assert len(segment['levels']) == 1, 'Number of levels of segment id "{}" should be 1'.format(segment['segment_id'])
-            assert segment_horizontal(segment['levels'][0]) == kind, '{} segment segment id "{}" is actually "{}"'.format(kind, segment['segment_id'], segment_horizontal(segment['levels'][0]))
+            assert segment_horizontal(segment['levels'][0]) == kind, '{} kind with segment id "{}" is actually "{}"'.format(kind, segment['segment_id'], segment_horizontal(segment['levels'][0]))
             
+        if segment.get('parts') is not None:
+            for part in segment['parts']:
+                if len(set.intersection(set(part['kinds']), set(test_kinds_h))):
+                    kind = list(set.intersection(set(test_kinds_h), set(part['kinds'])))[0]
+                    assert len(part['levels']) == 1, 'Number of levels of segment id "{}" should be 1'.format(part['segment_id'])
+                    assert segment_horizontal(part['levels'][0]) == kind, '{} kind with segment id "{}" is actually "{}"'.format(kind, part['segment_id'], segment_horizontal(part['levels'][0]))
+    
     # check levels of ascends and descends
     test_kinds_v = ['small_ascend', 'medium_ascend', 'large_ascend', 'small_descend', 'medium_descend', 'large_descend']
     
@@ -341,7 +502,72 @@ if __name__ == '__main__':
         if len(set.intersection(set(segment['kinds']), set(test_kinds_v))):
             kind = list(set.intersection(set(test_kinds_v), set(segment['kinds'])))[0]
             assert len(segment['levels']) == 2, 'Number of levels of segment id "{}" should be 2'.format(segment['segment_id'])
-            assert segment_vertical(segment['levels']) == kind, '{} segment segment id "{}" is actually "{}"'.format(kind, segment['segment_id'], segment_vertical(segment['levels']))
+            assert segment_vertical(segment['levels']) == kind, '{} kind with segment id "{}" is actually "{}"'.format(kind, segment['segment_id'], segment_vertical(segment['levels']))
+        
+        if segment.get('parts') is not None:
+            for part in segment['parts']:
+                if len(set.intersection(set(part['kinds']), set(test_kinds_v))):
+                    kind = list(set.intersection(set(test_kinds_v), set(part['kinds'])))[0]
+                    assert len(part['levels']) == 2, 'Number of levels of segment id "{}" should be 2'.format(part['segment_id'])
+                    assert segment_vertical(part['levels']) == kind, '{} kind with segment id "{}" is actually "{}"'.format(kind, part['segment_id'], segment_vertical(part['levels']))
+        
+    #%% check if there may be an ascend or descend missing    
     
     #%%
     print('No errors found in yaml file')
+
+    
+#%%
+if __name__ == '__main__':
+    
+    check_single = True
+    
+    # read file with paths (set wdir to the current script location)
+    with open('paths.yaml') as f:
+        paths = yaml.safe_load(f)
+    
+    if check_single:
+    
+        # read file with flight settings
+        with open('flight_settings.yaml') as f:
+            flight = yaml.safe_load(f)
+
+        # read flight segments of flight
+        file = '../../flight_phase_files/'+flight['campaign']+'/'+flight['aircraft']+'/'+flight['campaign']+'_'+flight['aircraft']+'_Flight-Segments_'+flight['date']+'_'+flight['number']+'.yaml'
+        with open(file, 'r') as f:
+            meta = yaml.safe_load(f)
+            
+        # read gps data
+        #file = paths['path_gps']+flight['campaign'].lower()+'/'+flight['aircraft'].lower()+'/gps_ins/'+flight['campaign']+'_polar'+flight['aircraft'][1]+'_'+flight['date']+'_'+flight['number']+'.nc'
+        #ds_gps = xr.open_dataset(file)
+
+        # read dropsondes of flight
+        #files = glob(paths['path_dropsonde']+flight['campaign'].lower()+'/dropsondes/'+flight['date'][:4]+'/'+flight['date'][4:6]+'/'+flight['date'][6:8]+'/*PQC.nc')
+        #dict_ds_dsd = {}  # dictionary of dropsondes
+        #for file in files:
+        #    filename = file.split('/')[-1].split('_PQC')[0]
+        #    dict_ds_dsd[filename] = xr.open_dataset(file)
+        
+        main(flight, meta)
+
+    else:
+        
+        files = glob('../../flight_phase_files/*/P5/*.yaml')
+        
+        for file in files:
+            
+            with open(file, 'r') as f:
+                meta = yaml.safe_load(f)
+                
+            # extract flight info from filename
+            info = file.split('/')[-1].split('.yaml')[0].split('_')
+            flight = {'campaign': info[0], 
+                      'number': info[4], 
+                      'aircraft': info[1], 
+                      'date': info[3]}
+            
+            if meta['flight_id'] == 'ACLOUD_P5_RF16' or meta['flight_id'] == 'ACLOUD_P5_RF17':
+                continue
+            
+            main(flight, meta)
+            
