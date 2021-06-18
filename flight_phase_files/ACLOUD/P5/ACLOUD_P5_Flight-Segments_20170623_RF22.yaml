@@ -16,10 +16,9 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fet
 takeoff: 2017-06-23 10:57:00
 landing: 2017-06-23 14:38:35
 events:
-- joint flight with P6
-- Ny Alesund overflight for columnar comparison
-remarks:
-- Column over Ny-Alesund
+- Joint flight with P6
+- Ny-Alesund overflight with cross pattern
+remarks: []
 segments:
 - kinds:
   - major_ascend
@@ -37,7 +36,7 @@ segments:
   - high_level
   name: high level 1
   irregularities: []
-  segment_id: 
+  segment_id: ACLOUD_P5_RF22_hl01
   start: 2017-06-23 11:09:00
   end: 2017-06-23 11:18:20
   levels: [11700]
@@ -55,7 +54,7 @@ segments:
   - nya_overflight
   name: cross pattern 1
   irregularities: []
-  segment_id: ACLOUD_P5_RF22_cp01
+  segment_id: ACLOUD_P5_RF22_cr01
   start: 2017-06-23 11:18:50
   end: 2017-06-23 11:47:40
   levels: [12000, 12100]
@@ -66,10 +65,10 @@ segments:
     UGLY: []
   parts:
   - kinds:
-    - cross_pattern_leg
+    - high_level
     name: cross pattern 1 leg 1 
     irregularities: []
-    segment_id: ACLOUD_P5_RF22_cp01_l01
+    segment_id: ACLOUD_P5_RF22_cr01_l01
     start: 2017-06-23 11:18:50
     end: 2017-06-23 11:24:30
     levels: [12000]
@@ -79,10 +78,10 @@ segments:
     start: 2017-06-23 11:24:30
     end: 2017-06-23 11:31:10
   - kinds:
-    - cross_pattern_leg
+    - high_level
     name: cross pattern 1 leg 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF22_cp01_l02
+    segment_id: ACLOUD_P5_RF22_cr01_l02
     start: 2017-06-23 11:31:10
     end: 2017-06-23 11:35:50
     levels: [12100]

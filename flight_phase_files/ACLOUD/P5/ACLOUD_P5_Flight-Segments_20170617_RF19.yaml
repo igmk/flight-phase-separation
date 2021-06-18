@@ -16,7 +16,7 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fet
 takeoff: 2017-06-17 09:54:15
 landing: 2017-06-17 15:24:25
 events:
-- joint flight with P6
+- Joint flight with P6
 remarks:
 - Clouds above sea ice and open water
 segments:
@@ -37,7 +37,7 @@ segments:
   - polarstern_overflight
   name: cross pattern 1
   irregularities: []
-  segment_id: ACLOUD_P5_RF19_cp01
+  segment_id: ACLOUD_P5_RF19_cr01
   start: 2017-06-17 10:17:10
   end: 2017-06-17 10:32:35
   levels: [9700, 11700]
@@ -47,11 +47,11 @@ segments:
     UGLY: []
   parts:
   - kinds:
-    - cross_pattern_leg
+    - high_level
     name: cross pattern 1 leg 1
     irregularities: 
       - ascend in middle of the leg from 9700 to 11600 ft
-    segment_id: ACLOUD_P5_RF19_cp01_l01
+    segment_id: ACLOUD_P5_RF19_cr01_l01
     start: 2017-06-17 10:17:10
     end: 2017-06-17 10:23:35
     levels: [9700]
@@ -61,10 +61,10 @@ segments:
     start: 2017-06-17 10:23:35
     end: 2017-06-17 10:28:30
   - kinds:
-    - cross_pattern_leg
+    - high_level
     name: cross pattern 1 leg 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF19_cp01_l02
+    segment_id: ACLOUD_P5_RF19_cr01_l02
     start: 2017-06-17 10:28:30
     end: 2017-06-17 10:32:35
     levels: [11700]

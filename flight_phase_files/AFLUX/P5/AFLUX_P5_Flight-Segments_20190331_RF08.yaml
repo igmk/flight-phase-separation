@@ -125,7 +125,7 @@ segments:
     UGLY: []
   parts:
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 1
     irregularities: []
     segment_id: AFLUX_P5_RF08_rt01_l01
@@ -134,12 +134,11 @@ segments:
     levels: [200]
   - kinds:
     - procedure_turn
-    - small_ascend
     name: procedure turn
     start: 2019-03-31 10:56:58
     end: 2019-03-31 10:59:57
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 2
     irregularities: []
     segment_id: AFLUX_P5_RF08_rt01_l02
@@ -148,12 +147,11 @@ segments:
     levels: [500]
   - kinds:
     - procedure_turn
-    - small_ascend
     name: procedure turn
     start: 2019-03-31 11:08:22
     end: 2019-03-31 11:11:16
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 3
     irregularities: []
     segment_id: AFLUX_P5_RF08_rt01_l03
@@ -162,12 +160,11 @@ segments:
     levels: [600]
   - kinds:
     - procedure_turn
-    - small_ascend
     name: procedure turn
     start: 2019-03-31 11:20:09
     end: 2019-03-31 11:24:12
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 4
     irregularities: []
     segment_id: AFLUX_P5_RF08_rt01_l04
@@ -176,12 +173,11 @@ segments:
     levels: [900]
   - kinds:
     - procedure_turn
-    - small_ascend
     name: procedure turn
     start: 2019-03-31 11:31:58
     end: 2019-03-31 11:35:34
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 5
     irregularities: []
     segment_id: AFLUX_P5_RF08_rt01_l05
@@ -224,7 +220,7 @@ segments:
     UGLY: []
   parts:
   - kinds:
-    - sawtooth_descend
+    - small_descend
     name: sawtooth 1 descend 1
     irregularities: []
     segment_id: AFLUX_P5_RF08_st01_d01
@@ -240,7 +236,7 @@ segments:
     end: 2019-03-31 12:01:19
     levels: [200]
   - kinds:
-    - sawtooth_ascend
+    - small_ascend
     name: sawtooth 1 ascend 1
     irregularities: []
     segment_id: AFLUX_P5_RF08_st01_a01
@@ -256,7 +252,7 @@ segments:
     end: 2019-03-31 12:03:39
     levels: [900]
   - kinds:
-    - sawtooth_descend
+    - small_descend
     name: sawtooth 1 descend 2
     irregularities: []
     segment_id: AFLUX_P5_RF08_st01_d02
@@ -272,7 +268,7 @@ segments:
     end: 2019-03-31 12:08:57
     levels: [200]
   - kinds:
-    - sawtooth_ascend
+    - small_ascend
     name: sawtooth 1 ascend 2
     irregularities: []
     segment_id: AFLUX_P5_RF08_st01_a02
@@ -280,7 +276,7 @@ segments:
     end: 2019-03-31 12:10:45
     levels: [200,1000]
   - kinds:
-    - sawtooth_descend
+    - small_descend
     name: sawtooth 1 descend 3
     irregularities: []
     segment_id: AFLUX_P5_RF08_st01_d03
@@ -296,7 +292,7 @@ segments:
     end: 2019-03-31 12:16:30
     levels: [200]
   - kinds:
-    - sawtooth_ascend
+    - small_ascend
     name: sawtooth 1 ascend 3
     irregularities: []
     segment_id: AFLUX_P5_RF08_st01_a03
@@ -312,7 +308,7 @@ segments:
     end: 2019-03-31 12:19:53
     levels: [1300]
   - kinds:
-    - sawtooth_descend
+    - small_descend
     name: sawtooth 1 descend 4
     irregularities: []
     segment_id: AFLUX_P5_RF08_st01_d04
@@ -367,7 +363,7 @@ segments:
     UGLY: []
   parts:
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 2 leg 1
     irregularities: []
     segment_id: AFLUX_P5_RF08_rt02_l01
@@ -376,12 +372,11 @@ segments:
     levels: [200]
   - kinds:
     - procedure_turn
-    - small_ascend
     name: procedure turn
     start: 2019-03-31 12:39:52
     end: 2019-03-31 12:43:19
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 2 leg 2
     irregularities: []
     segment_id: AFLUX_P5_RF08_rt02_l02
@@ -390,12 +385,11 @@ segments:
     levels: [400]
   - kinds:
     - procedure_turn
-    - small_ascend
     name: procedure turn
     start: 2019-03-31 12:50:28
     end: 2019-03-31 12:55:22
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 2 leg 3
     irregularities: []
     segment_id: AFLUX_P5_RF08_rt02_l03
@@ -404,12 +398,11 @@ segments:
     levels: [700]
   - kinds:
     - procedure_turn
-    - small_ascend
     name: procedure turn
     start: 2019-03-31 13:03:51
     end: 2019-03-31 13:06:59
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 2 leg 4
     irregularities: []
     segment_id: AFLUX_P5_RF08_rt02_l04
@@ -496,11 +489,11 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - noseboom_pattern
-  name: noseboom pattern 1
+  - noseboom_calibration
+  name: noseboom calibration 1
   irregularities:
     - several pitch and roll maneuvers
-  segment_id: AFLUX_P5_RF08_nb01
+  segment_id: AFLUX_P5_RF08_nc01
   start: 2019-03-31 13:54:00
   end: 2019-03-31 14:02:50
   levels: [9300]

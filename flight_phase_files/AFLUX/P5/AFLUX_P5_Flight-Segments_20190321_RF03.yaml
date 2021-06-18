@@ -16,7 +16,8 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetc
 takeoff: 2019-03-21 09:51:50
 landing: 2019-03-21 14:31:15
 events:
-- Calibration of 5-hole probe, horizontal flight legs below and within cloud
+- Calibration of 5-hole probe
+- Racetrack pattern over sea ice
 remarks: []
 segments:
 - kinds:
@@ -75,7 +76,7 @@ segments:
   - racetrack_pattern
   name: racetrack pattern 1
   irregularities: []
-  segment_id: FLUX_P5_RF03_rt01
+  segment_id: AFLUX_P5_RF03_rt01
   start: 2019-03-21 11:24:53
   end: 2019-03-21 12:36:04
   levels: [300,700,1200,2400,3400]
@@ -92,7 +93,7 @@ segments:
     start: 2019-03-21 11:24:53
     end: 2019-03-21 11:30:28
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 1
     irregularities: []
     segment_id: AFLUX_P5_RF03_rt01_l01
@@ -105,7 +106,7 @@ segments:
     start: 2019-03-21 11:43:26
     end: 2019-03-21 11:47:02
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 2
     irregularities: []
     segment_id: AFLUX_P5_RF03_rt01_l02
@@ -118,7 +119,7 @@ segments:
     start: 2019-03-21 11:54:28
     end: 2019-03-21 11:57:00
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 3
     irregularities: []
     segment_id: AFLUX_P5_RF03_rt01_l03
@@ -131,7 +132,7 @@ segments:
     start: 2019-03-21 12:12:41
     end: 2019-03-21 12:16:14
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 4
     irregularities: []
     segment_id: AFLUX_P5_RF03_rt01_l04
@@ -144,7 +145,7 @@ segments:
     start: 2019-03-21 12:25:30
     end: 2019-03-21 12:28:18
   - kinds:
-    - racetrack_leg
+    - mid_level
     name: racetrack 1 leg 5
     irregularities:
       - ends on half distance

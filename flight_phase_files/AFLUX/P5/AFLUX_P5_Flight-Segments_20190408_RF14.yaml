@@ -128,7 +128,7 @@ segments:
     UGLY: []
   parts:
   - kinds:
-    - sawtooth_ascend
+    - small_ascend
     name: sawtooth pattern 1 ascend 1
     irregularities:
       - ascend begins already during procedure turn before
@@ -141,8 +141,8 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - mid_level
-    name: sawtooth pattern 1 mid level 1
+    - low_level
+    name: sawtooth pattern 1 leg 1
     irregularities: []
     segment_id: AFLUX_P5_RF14_st01_m01
     start: 2019-04-08 11:34:25
@@ -153,7 +153,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - sawtooth_descend
+    - small_descend
     name: sawtooth pattern 1 descend 1
     irregularities: []
     segment_id: AFLUX_P5_RF14_st01_d01
@@ -166,9 +166,9 @@ segments:
       UGLY: []
   - kinds:
     - low_level
-    name: sawtooth pattern 1 low level 1
+    name: sawtooth pattern 1 leg 2
     irregularities: []
-    segment_id: AFLUX_P5_RF14_st01_l01
+    segment_id: AFLUX_P5_RF14_st01_l02
     start: 2019-04-08 11:41:00
     end: 2019-04-08 11:42:45
     levels: [200]
@@ -177,7 +177,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - sawtooth_ascend
+    - small_ascend
     name: sawtooth pattern 1 ascend 2
     irregularities: []
     segment_id: AFLUX_P5_RF14_st01_a02
@@ -189,7 +189,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - sawtooth_descend
+    - small_descend
     name: sawtooth pattern 1 descend 2
     irregularities: []
     segment_id: AFLUX_P5_RF14_st01_d02
@@ -201,7 +201,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - sawtooth_ascend
+    - small_ascend
     name: sawtooth pattern 1 ascend 3
     irregularities: []
     segment_id: AFLUX_P5_RF14_st01_a03
@@ -213,7 +213,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - sawtooth_descend
+    - small_descend
     name: sawtooth pattern 1 descend 3
     irregularities: []
     segment_id: AFLUX_P5_RF14_st01_d03
@@ -225,7 +225,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - sawtooth_ascend
+    - small_ascend
     name: sawtooth pattern 1 ascend 4
     irregularities: []
     segment_id: AFLUX_P5_RF14_st01_a04
@@ -237,7 +237,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - sawtooth_descend
+    - small_descend
     name: sawtooth pattern 1 descend 4
     irregularities: []
     segment_id: AFLUX_P5_RF14_st01_d04
@@ -249,7 +249,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - sawtooth_ascend
+    - small_ascend
     name: sawtooth pattern 1 ascend 5
     irregularities:
       - ascend also within following procedure turn
@@ -330,7 +330,7 @@ segments:
   name: large ascend 1
   irregularities: 
     - procedure turn at the end of ascend
-  segment_id: AFLUX_P5_RF14_sd01
+  segment_id: AFLUX_P5_RF14_la01
   start: 2019-04-08 12:43:15
   end: 2019-04-08 12:53:05
   levels: [200, 9300]

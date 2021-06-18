@@ -37,7 +37,7 @@ segments:
   name: instrument testing
   irregularities:
     - lot of turns and ups and downs
-  segment_id: MOSAiC-ACA_P5_RF02_it01
+  segment_id: MOSAiC-ACA_P5_RF02_it
   start: 2020-08-30 08:22:35
   end: 2020-08-30 09:02:52
   levels: [6800]

@@ -16,8 +16,8 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fet
 takeoff: 2017-06-05 10:48:00
 landing: 2017-06-05 14:47:50
 events:
-- joint flight with P6
-- polarstern overflight
+- Joint flight with P6
+- Polarstern overflight with cross pattern
 remarks:
 - Low clouds in warm air over sea ice
 - MiRAC not working
@@ -80,7 +80,7 @@ segments:
   - polarstern_overflight
   name: cross pattern 1
   irregularities: []
-  segment_id: ACLOUD_P5_RF13_cp01
+  segment_id: ACLOUD_P5_RF13_cr01
   start: 2017-06-05 12:18:10
   end: 2017-06-05 13:16:10
   levels: [9700]
@@ -93,7 +93,7 @@ segments:
     - high_level
     name: cross pattern 1 leg 1
     irregularities: []
-    segment_id: ACLOUD_P5_RF13_cp01_l01
+    segment_id: ACLOUD_P5_RF13_cr01_l01
     start: 2017-06-05 12:18:10
     end: 2017-06-05 12:25:40
     levels: [9700]
@@ -106,7 +106,7 @@ segments:
     - high_level
     name: cross pattern 1 leg 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF13_cp01_l02
+    segment_id: ACLOUD_P5_RF13_cr01_l02
     start: 2017-06-05 12:31:20
     end: 2017-06-05 12:34:35
     levels: [9700]
@@ -119,7 +119,7 @@ segments:
     - high_level
     name: cross pattern 1 leg 3
     irregularities: []
-    segment_id: ACLOUD_P5_RF13_cp01_l03
+    segment_id: ACLOUD_P5_RF13_cr01_l03
     start: 2017-06-05 12:39:50
     end: 2017-06-05 12:45:55
     levels: [9600]
@@ -132,7 +132,7 @@ segments:
     - high_level
     name: cross pattern 1 leg 4
     irregularities: []
-    segment_id: ACLOUD_P5_RF13_cp01_l04
+    segment_id: ACLOUD_P5_RF13_cr01_l04
     start: 2017-06-05 12:51:45
     end: 2017-06-05 12:55:55
     levels: [9700]
@@ -145,7 +145,7 @@ segments:
     - high_level
     name: cross pattern 1 leg 5
     irregularities: []
-    segment_id: ACLOUD_P5_RF13_cp01_l05
+    segment_id: ACLOUD_P5_RF13_cr01_l05
     start: 2017-06-05 13:01:45
     end: 2017-06-05 13:05:50
     levels: [9700]
@@ -158,7 +158,7 @@ segments:
     - high_level
     name: cross pattern 1 leg 6
     irregularities: []
-    segment_id: ACLOUD_P5_RF13_cp01_l06
+    segment_id: ACLOUD_P5_RF13_cr01_l06
     start: 2017-06-05 13:10:45
     end: 2017-06-05 13:16:10
     levels: [9700]
@@ -209,7 +209,7 @@ segments:
   - stairstep_pattern
   name: stairstep pattern 1
   irregularities: []
-  segment_id: ACLOUD_P5_RF13_sp01
+  segment_id: ACLOUD_P5_RF13_ss01
   start: 2017-06-05 13:25:25
   end: 2017-06-05 14:01:35
   levels: [2400, 600, 2000, 6900, 9900]
@@ -223,7 +223,7 @@ segments:
     name: stairstep 1 small descend 1
     irregularities: 
       - short turn during descend
-    segment_id: ACLOUD_P5_RF13_sp01_sd01
+    segment_id: ACLOUD_P5_RF13_ss01_sd01
     start: 2017-06-05 13:25:25
     end: 2017-06-05 13:29:33
     levels: [2400, 600]
@@ -231,7 +231,7 @@ segments:
     - low_level
     name: stairstep 1 low level 1
     irregularities: []
-    segment_id: ACLOUD_P5_RF13_sp01_ll01
+    segment_id: ACLOUD_P5_RF13_ss01_ll01
     start: 2017-06-05 13:29:33
     end: 2017-06-05 13:39:55
     levels: [600]
@@ -240,7 +240,7 @@ segments:
     name: stairstep 1 small ascend 1
     irregularities: 
       - short turn during descend
-    segment_id: ACLOUD_P5_RF13_sp01_sa01
+    segment_id: ACLOUD_P5_RF13_ss01_sa01
     start: 2017-06-05 13:39:55
     end: 2017-06-05 13:42:25
     levels: [600, 2000]
@@ -248,7 +248,7 @@ segments:
     - low_level
     name: stairstep 1 low level 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF13_sp01_ll02
+    segment_id: ACLOUD_P5_RF13_ss01_ll02
     start: 2017-06-05 13:42:25
     end: 2017-06-05 13:48:30
     levels: [2000]
@@ -256,7 +256,7 @@ segments:
     - medium_ascend
     name: stairstep 1 medium ascend 1
     irregularities: []
-    segment_id: ACLOUD_P5_RF13_sp01_ma01
+    segment_id: ACLOUD_P5_RF13_ss01_ma01
     start: 2017-06-05 13:48:30
     end: 2017-06-05 13:55:12
     levels: [2000, 6900]
@@ -264,7 +264,7 @@ segments:
     - high_level
     name: stairstep 1 high level 1
     irregularities: []
-    segment_id: ACLOUD_P5_RF13_sp01_hl01
+    segment_id: ACLOUD_P5_RF13_ss01_hl01
     start: 2017-06-05 13:55:12
     end: 2017-06-05 13:57:10
     levels: [6900]
@@ -272,7 +272,7 @@ segments:
     - small_ascend
     name: stairstep 1 small ascend 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF13_sp01_sa02
+    segment_id: ACLOUD_P5_RF13_ss01_sa02
     start: 2017-06-05 13:57:10
     end: 2017-06-05 14:01:35
     levels: [6900, 9900]
@@ -280,7 +280,7 @@ segments:
   - high_level
   name: high level 3
   irregularities: []
-  segment_id: ACLOUD_P5_RF13_ml03
+  segment_id: ACLOUD_P5_RF13_hl03
   start: 2017-06-05 14:01:35
   end: 2017-06-05 14:30:05
   levels: [9900]

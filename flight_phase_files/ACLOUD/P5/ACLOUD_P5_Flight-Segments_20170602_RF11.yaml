@@ -16,10 +16,10 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fet
 takeoff: 2017-06-02 08:30:40
 landing: 2017-06-02 13:58:05
 events:
-- joint flight with P6
-- Polarstern overflight
-- Ny-Alesund overflight
-- Cloudsat underflight
+- Joint flight with P6
+- Polarstern overflight with cross pattern
+- Ny-Alesund overflight with cross pattern
+- A-train underflight
 remarks:
 - Low clouds in warm air over sea ice
 segments:
@@ -53,7 +53,7 @@ segments:
   - nya_overflight
   name: cross pattern 1
   irregularities: []
-  segment_id: ACLOUD_P5_RF11_cp01
+  segment_id: ACLOUD_P5_RF11_cr01
   start: 2017-06-02 09:00:00
   end: 2017-06-02 09:36:55
   levels: [9800]
@@ -66,7 +66,7 @@ segments:
     - high_level
     name: cross pattern 1 leg 1
     irregularities: []
-    segment_id: ACLOUD_P5_RF11_cp01_l01
+    segment_id: ACLOUD_P5_RF11_cr01_l01
     start: 2017-06-02 09:00:00
     end: 2017-06-02 09:03:35
     levels: [9800]
@@ -79,7 +79,7 @@ segments:
     - high_level
     name: cross pattern 1 leg 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF11_cp01_l02
+    segment_id: ACLOUD_P5_RF11_cr01_l02
     start: 2017-06-02 09:07:45
     end: 2017-06-02 09:12:00
     levels: [9800]
@@ -92,7 +92,7 @@ segments:
     - high_level
     name: cross pattern 1 leg 3
     irregularities: []
-    segment_id: ACLOUD_P5_RF11_cp01_l03
+    segment_id: ACLOUD_P5_RF11_cr01_l03
     start: 2017-06-02 09:17:10
     end: 2017-06-02 09:20:25
     levels: [9800]
@@ -105,7 +105,7 @@ segments:
     - high_level
     name: cross pattern 1 leg 4
     irregularities: []
-    segment_id: ACLOUD_P5_RF11_cp01_l04
+    segment_id: ACLOUD_P5_RF11_cr01_l04
     start: 2017-06-02 09:24:45
     end: 2017-06-02 09:29:00
     levels: [9800]
@@ -118,7 +118,7 @@ segments:
     - high_level
     name: cross pattern 1 leg 5
     irregularities: []
-    segment_id: ACLOUD_P5_RF11_cp01_l05
+    segment_id: ACLOUD_P5_RF11_cr01_l05
     start: 2017-06-02 09:33:55
     end: 2017-06-02 09:36:55
     levels: [9800]
@@ -129,7 +129,7 @@ segments:
   end: 2017-06-02 09:40:40
 - kinds:
   - high_level
-  - cloudsat_calipso_underflight
+  - a-train_underflight
   name: high level 2
   irregularities: 
     - crash of 230 V system at about 9:55
@@ -242,7 +242,7 @@ segments:
     - cross pattern turn between leg 3 and 4 contains also a waiting pattern
     - second turn of cross pattern turn between leg 4 and 5 is a long turn
     - second turn of cross pattern turn between leg 6 and 7 is a long turn
-  segment_id: ACLOUD_P5_RF11_cp02
+  segment_id: ACLOUD_P5_RF11_cr02
   start: 2017-06-02 10:49:50
   end: 2017-06-02 12:28:05
   levels: [9700]
@@ -255,7 +255,7 @@ segments:
     - high_level
     name: cross pattern 2 leg 1
     irregularities: []
-    segment_id: ACLOUD_P5_RF11_cp02_l01
+    segment_id: ACLOUD_P5_RF11_cr02_l01
     start: 2017-06-02 10:49:50
     end: 2017-06-02 10:57:15
     levels: [9700]
@@ -268,7 +268,7 @@ segments:
     - high_level
     name: cross pattern 2 leg 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF11_cp02_l02
+    segment_id: ACLOUD_P5_RF11_cr02_l02
     start: 2017-06-02 11:03:05
     end: 2017-06-02 11:08:25
     levels: [9700]
@@ -281,7 +281,7 @@ segments:
     - high_level
     name: cross pattern 2 leg 3
     irregularities: []
-    segment_id: ACLOUD_P5_RF11_cp02_l03
+    segment_id: ACLOUD_P5_RF11_cr02_l03
     start: 2017-06-02 11:13:50
     end: 2017-06-02 11:21:35
     levels: [9700]
@@ -294,7 +294,7 @@ segments:
     - high_level
     name: cross pattern 2 leg 4
     irregularities: []
-    segment_id: ACLOUD_P5_RF11_cp02_l04
+    segment_id: ACLOUD_P5_RF11_cr02_l04
     start: 2017-06-02 11:32:30
     end: 2017-06-02 11:36:45
     levels: [9700]
@@ -307,7 +307,7 @@ segments:
     - high_level
     name: cross pattern 2 leg 5
     irregularities: []
-    segment_id: ACLOUD_P5_RF11_cp02_l05
+    segment_id: ACLOUD_P5_RF11_cr02_l05
     start: 2017-06-02 11:44:52
     end: 2017-06-02 11:50:55
     levels: [9700]
@@ -320,7 +320,7 @@ segments:
     - high_level
     name: cross pattern 2 leg 6
     irregularities: []
-    segment_id: ACLOUD_P5_RF11_cp02_l06
+    segment_id: ACLOUD_P5_RF11_cr02_l06
     start: 2017-06-02 11:56:40
     end: 2017-06-02 12:01:25
     levels: [9700]
@@ -333,7 +333,7 @@ segments:
     - high_level
     name: cross pattern 2 leg 7
     irregularities: []
-    segment_id: ACLOUD_P5_RF11_cp02_l07
+    segment_id: ACLOUD_P5_RF11_cr02_l07
     start: 2017-06-02 12:10:15
     end: 2017-06-02 12:16:10
     levels: [9700]
@@ -346,7 +346,7 @@ segments:
     - high_level
     name: cross pattern 2 leg 8
     irregularities: []
-    segment_id: ACLOUD_P5_RF11_cp02_l08
+    segment_id: ACLOUD_P5_RF11_cr02_l08
     start: 2017-06-02 12:22:10
     end: 2017-06-02 12:28:05
     levels: [9700]

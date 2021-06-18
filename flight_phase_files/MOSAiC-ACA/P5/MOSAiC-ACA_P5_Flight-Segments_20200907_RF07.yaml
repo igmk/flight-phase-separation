@@ -16,7 +16,7 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/MOSAiC_ACA_wiki_doku/lib/exe
 takeoff: 2020-09-07 08:22:55
 landing: 2020-09-07 14:05:10
 events:
-  - radiometer calibration section
+  - Radiometer calibration
 remarks:
   - Remote sensing of different cloud regimes
 segments:
@@ -85,7 +85,7 @@ segments:
   - high_level
   name: high level 3
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF07_hl04
+  segment_id: MOSAiC-ACA_P5_RF07_hl03
   start: 2020-09-07 09:49:01
   end: 2020-09-07 10:26:21
   levels:

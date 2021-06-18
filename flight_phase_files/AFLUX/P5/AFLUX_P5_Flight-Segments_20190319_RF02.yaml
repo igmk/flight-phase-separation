@@ -7,9 +7,6 @@ contacts:
   email: mario.mech@uni-koeln.de
   tags:
     - lc
-- name: Mario Mech
-  email: mario.mech@uni-koeln.de
-  tags:
     - pi
 date: 2019-03-19
 flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetch.php?media=02_20190319_aflux_flight_report.pdf
@@ -49,7 +46,7 @@ segments:
   - procedure_turn
   name: medium descend 1
   irregularities: []
-  segment_id: AFLUX_P5_RF02_md_01
+  segment_id: AFLUX_P5_RF02_md01
   start: 2019-03-19 17:14:09
   end: 2019-03-19 17:20:05
   levels: [9400,3000]
@@ -61,7 +58,7 @@ segments:
   - medium_ascend
   name: medium ascend 1
   irregularities: []
-  segment_id: AFLUX_P5_RF02_la01
+  segment_id: AFLUX_P5_RF02_ma01
   start: 2019-03-19 17:20:05
   end: 2019-03-19 17:28:07
   levels: [3000,9400]

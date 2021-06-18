@@ -355,7 +355,7 @@ segments:
     start: 2020-09-08 12:12:30
     end: 2020-09-08 12:18:25
   - kinds:
-    - low_level
+    - mid_level
     name: racetrack 2 leg 7
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF08_rt02_l07
@@ -372,7 +372,7 @@ segments:
     start: 2020-09-08 12:25:30
     end: 2020-09-08 12:28:40
   - kinds:
-    - low_level
+    - mid_level
     name: racetrack 2 leg 8
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF08_rt02_l08

@@ -131,7 +131,7 @@ segments:
     UGLY: []
   parts:
   - kinds:
-    - sawtooth_ascend
+    - medium_ascend
     name: sawtooth 1 ascend 1
     irregularities: []
     segment_id: AFLUX_P5_RF05_st01_a01
@@ -147,7 +147,7 @@ segments:
     end: 2019-03-24 13:07:10
     levels: [6300]
   - kinds:
-    - sawtooth_descend
+    - medium_descend
     name: sawtooth 1 descend 1
     irregularities: []
     segment_id: AFLUX_P5_RF05_st01_d01
@@ -163,7 +163,7 @@ segments:
     end: 2019-03-24 13:14:35
     levels: [200]
   - kinds:
-    - sawtooth_ascend
+    - large_ascend
     name: sawtooth 1 ascend 2
     irregularities: []
     segment_id: AFLUX_P5_RF05_st01_a02
@@ -171,7 +171,7 @@ segments:
     end: 2019-03-24 13:22:00
     levels: [200, 7300]
   - kinds:
-    - mid_level
+    - high_level
     name: sawtooth 1 high level 1
     irregularities: []
     segment_id: AFLUX_P5_RF05_st01_hl01
@@ -179,7 +179,7 @@ segments:
     end: 2019-03-24 13:23:35
     levels: [7300]
   - kinds:
-    - sawtooth_descend
+    - large_descend
     name: sawtooth 1 descend 2
     irregularities: []
     segment_id: AFLUX_P5_RF05_st01_d02
@@ -195,7 +195,7 @@ segments:
     end: 2019-03-24 13:31:45
     levels: [300]
   - kinds:
-    - sawtooth_ascend
+    - medium_ascend
     name: sawtooth 1 ascend 3
     irregularities: []
     segment_id: AFLUX_P5_RF05_st01_a03
@@ -211,7 +211,7 @@ segments:
     end: 2019-03-24 13:36:50
     levels: [3600]
   - kinds:
-    - sawtooth_descend
+    - medium_descend
     name: sawtooth 1 descend 3
     irregularities: []
     segment_id: AFLUX_P5_RF05_st01_d03
@@ -227,7 +227,7 @@ segments:
     end: 2019-03-24 13:42:10
     levels: [300]
   - kinds:
-    - sawtooth_ascend
+    - medium_ascend
     name: sawtooth 1 ascend 4
     irregularities: []
     segment_id: AFLUX_P5_RF05_st01_a04
@@ -243,7 +243,7 @@ segments:
     end: 2019-03-24 13:45:55
     levels: [3600]
   - kinds:
-    - sawtooth_descend
+    - medium_descend
     name: sawtooth 1 descend 4
     irregularities: []
     segment_id: AFLUX_P5_RF05_st01_d04

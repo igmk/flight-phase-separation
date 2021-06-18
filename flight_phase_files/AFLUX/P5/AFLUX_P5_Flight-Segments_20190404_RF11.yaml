@@ -16,10 +16,10 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetc
 takeoff: 2019-04-04 08:38:30
 landing: 2019-04-04 12:26:10
 events:
-- nya_overflight
+- Ny-Alesund overflight
 remarks:
 - Warm front pushing clouds in the MIZ along steady increasing sea ice concentration
-- heading in GPS/INS dataset missing
+- Heading in GPS/INS dataset missing
 segments:
 - kinds:
   - major_ascend
@@ -126,7 +126,7 @@ segments:
     UGLY: []
   parts:
   - kinds:
-    - sawtooth_ascend
+    - medium_ascend
     name: sawtooth 1 ascend 1
     irregularities: []
     segment_id: AFLUX_P5_RF11_st01_a01
@@ -134,7 +134,7 @@ segments:
     end: 2019-04-04 10:38:55
     levels: [200,3700]
   - kinds:
-    - sawtooth_descend
+    - medium_descend
     name: sawtooth 1 descend 1
     irregularities: []
     segment_id: AFLUX_P5_RF11_st01_d01
@@ -142,7 +142,7 @@ segments:
     end: 2019-04-04 10:46:32
     levels: [3700,200]
   - kinds:
-    - sawtooth_ascend
+    - medium_ascend
     name: sawtooth 1 ascend 2
     irregularities: []
     segment_id: AFLUX_P5_RF11_st01_a02
@@ -150,7 +150,7 @@ segments:
     end: 2019-04-04 10:52:39
     levels: [200,3600]
   - kinds:
-    - sawtooth_descend
+    - medium_descend
     name: sawtooth 1 descend 2
     irregularities: []
     segment_id: AFLUX_P5_RF11_st01_d02
@@ -158,7 +158,7 @@ segments:
     end: 2019-04-04 10:59:58
     levels: [3600,200]
   - kinds:
-    - sawtooth_ascend
+    - small_ascend
     name: sawtooth 1 ascend 3
     irregularities: []
     segment_id: AFLUX_P5_RF11_st01_a03
@@ -166,7 +166,7 @@ segments:
     end: 2019-04-04 11:04:20
     levels: [200,2500]
   - kinds:
-    - sawtooth_descend
+    - small_descend
     name: sawtooth 1 descend 3
     irregularities: []
     segment_id: AFLUX_P5_RF11_st01_d03

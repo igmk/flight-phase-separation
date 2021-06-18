@@ -13,13 +13,13 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fet
 takeoff: 2017-06-08 07:36:50
 landing: 2017-06-08 12:51:25
 events:
-- cross pattern over Ny-Aalesund
-- cross pattern of Polarstern
-- colocation with P6 at Polarstern
-- A-Train underflight
-- radiometer calibration
+- Ny-Alesund overflight with cross pattern
+- Polarstern overflight with cross pattern
+- Colocation with P6 at Polarstern
+- A-train underflight
+- Radiometer calibration
 remarks:
-- thin broken clouds over sea ice
+- Thin broken clouds over sea ice
 segments:
 - kinds:
   - major_ascend
@@ -67,10 +67,10 @@ segments:
     start: 2017-06-08 08:25:57
     end: 2017-06-08 08:27:33
   - kinds:
-    - holding_pattern_leg
+    - high_level
     name: holding pattern 1 leg 1
     irregularities: []
-    segment_id: ACLOUD_P5_RF14_ho01_lg01
+    segment_id: ACLOUD_P5_RF14_ho01_hl01
     start: 2017-06-08 08:27:33
     end: 2017-06-08 08:29:28
     levels: [9800]
@@ -80,10 +80,10 @@ segments:
     start: 2017-06-08 08:29:28
     end: 2017-06-08 08:31:10
   - kinds:
-    - holding_pattern_leg
+    - high_level
     name: holding pattern 1 leg 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF14_ho01_lg02
+    segment_id: ACLOUD_P5_RF14_ho01_hl02
     start: 2017-06-08 08:31:10
     end: 2017-06-08 08:33:21
     levels: [9800]
@@ -165,7 +165,7 @@ segments:
   - polarstern_overflight
   name: cross pattern 1
   irregularities: []
-  segment_id: ACLOUD_P5_RF14_cp01
+  segment_id: ACLOUD_P5_RF14_cr01
   start: 2017-06-08 10:00:14
   end: 2017-06-08 10:10:51
   levels: [9600,9700]
@@ -175,10 +175,10 @@ segments:
     UGLY: []
   parts:
   - kinds:
-    - cross_pattern_leg
+    - high_level
     name: cross pattern 1 leg 1
     irregularities: []
-    segment_id: ACLOUD_P5_RF14_cp01_l01
+    segment_id: ACLOUD_P5_RF14_cr01_l01
     start: 2017-06-08 10:00:14
     end: 2017-06-08 10:03:14
     levels: [9600]
@@ -188,10 +188,10 @@ segments:
     start: 2017-06-08 10:03:14
     end: 2017-06-08 10:08:13
   - kinds:
-    - cross_pattern_leg
+    - high_level
     name: cross pattern 1 leg 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF14_cp01_l02
+    segment_id: ACLOUD_P5_RF14_cr01_l02
     start: 2017-06-08 10:08:13
     end: 2017-06-08 10:10:51
     levels: [9700]
@@ -222,7 +222,7 @@ segments:
     UGLY: []
   parts:
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 1
     irregularities: []
     segment_id: ACLOUD_P5_RF14_rt01_l01
@@ -231,12 +231,11 @@ segments:
     levels: [200]
   - kinds:
     - procedure_turn
-    - small_ascend
     name: procedure turn
     start: 2017-06-08 10:29:21
     end: 2017-06-08 10:31:41
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 2
     irregularities: []
     segment_id: ACLOUD_P5_RF14_rt01_l02
@@ -245,12 +244,11 @@ segments:
     levels: [300]
   - kinds:
     - procedure_turn
-    - small_ascend
     name: procedure turn
     start: 2017-06-08 10:40:27
     end: 2017-06-08 10:42:41
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 3
     irregularities: []
     segment_id: ACLOUD_P5_RF14_rt01_l03
@@ -259,12 +257,11 @@ segments:
     levels: [1500]
   - kinds:
     - procedure_turn
-    - small_ascend
     name: procedure turn
     start: 2017-06-08 10:50:04
     end: 2017-06-08 10:52:54
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 4
     irregularities: []
     segment_id: ACLOUD_P5_RF14_rt01_l04
@@ -324,7 +321,7 @@ segments:
   - nya_overflight
   name: cross pattern 2
   irregularities: []
-  segment_id: ACLOUD_P5_RF14_cp02
+  segment_id: ACLOUD_P5_RF14_cr02
   start: 2017-06-08 12:05:14
   end: 2017-06-08 12:25:40
   levels: [9800,9800,9800]
@@ -334,10 +331,10 @@ segments:
     UGLY: []
   parts:
   - kinds:
-    - cross_pattern_leg
+    - high_level
     name: cross pattern 2 leg 1
     irregularities: []
-    segment_id: ACLOUD_P5_RF14_cp02_l01
+    segment_id: ACLOUD_P5_RF14_cr02_l01
     start: 2017-06-08 12:05:14
     end: 2017-06-08 12:10:14
     levels: [9800]
@@ -347,10 +344,10 @@ segments:
     start: 2017-06-08 12:10:14
     end: 2017-06-08 12:14:42
   - kinds:
-    - cross_pattern_leg
+    - high_level
     name: cross pattern 2 leg 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF14_cp02_l02
+    segment_id: ACLOUD_P5_RF14_cr02_l02
     start: 2017-06-08 12:14:42
     end: 2017-06-08 12:18:51
     levels: [9800]
@@ -360,10 +357,10 @@ segments:
     start: 2017-06-08 12:18:51
     end: 2017-06-08 12:24:15
   - kinds:
-    - cross_pattern_leg
+    - high_level
     name: cross pattern 2 leg 3
     irregularities: []
-    segment_id: ACLOUD_P5_RF14_cp02_l03
+    segment_id: ACLOUD_P5_RF14_cr02_l03
     start: 2017-06-08 12:24:15
     end: 2017-06-08 12:25:40
     levels: [9800]

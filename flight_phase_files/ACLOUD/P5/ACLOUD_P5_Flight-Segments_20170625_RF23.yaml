@@ -15,10 +15,10 @@ date: 2017-06-25
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=23_20170625_p5_acloud_flight_report_2.pdf
 takeoff: 2017-06-25 11:08:55
 landing: 2017-06-25 17:11:50
-events:
-- profiles over sea ice
+events: 
+- Racetrack pattern over sea ice
 remarks:
-- mostly clear-sky with some thin cirrus clouds
+- Mostly clear-sky with some thin cirrus clouds
 segments:
 - kinds:
   - major_ascend
@@ -106,10 +106,10 @@ segments:
     start: 2017-06-25 12:06:00
     end: 2017-06-25 12:07:05
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 1
     irregularities: []
-    segment_id: ACLOUD_P5_RF23_rt01_l01
+    segment_id: ACLOUD_P5_RF23_rt01_ll01
     start: 2017-06-25 12:07:05
     end: 2017-06-25 12:17:35
     levels: [200]
@@ -119,10 +119,10 @@ segments:
     start: 2017-06-25 12:17:35
     end: 2017-06-25 12:19:05
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF23_rt01_l02
+    segment_id: ACLOUD_P5_RF23_rt01_ll02
     start: 2017-06-25 12:19:05
     end: 2017-06-25 12:27:50
     levels: [300]
@@ -132,10 +132,10 @@ segments:
     start: 2017-06-25 12:27:50
     end: 2017-06-25 12:31:40
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 3
     irregularities: []
-    segment_id: ACLOUD_P5_RF23_rt01_l03
+    segment_id: ACLOUD_P5_RF23_rt01_ll03
     start: 2017-06-25 12:31:40
     end: 2017-06-25 12:40:20
     levels: [400]
@@ -145,10 +145,10 @@ segments:
     start: 2017-06-25 12:40:20
     end: 2017-06-25 12:42:00
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 4
     irregularities: []
-    segment_id: ACLOUD_P5_RF23_rt01_l04
+    segment_id: ACLOUD_P5_RF23_rt01_ll04
     start: 2017-06-25 12:42:00
     end: 2017-06-25 12:43:45
     levels: [500]
@@ -219,10 +219,10 @@ segments:
     start: 2017-06-25 13:03:30
     end: 2017-06-25 13:04:35
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 2 leg 1
     irregularities: []
-    segment_id: ACLOUD_P5_RF23_rt02_l01
+    segment_id: ACLOUD_P5_RF23_rt02_ll01
     start: 2017-06-25 13:04:35
     end: 2017-06-25 13:14:20
     levels: [200]
@@ -232,10 +232,10 @@ segments:
     start: 2017-06-25 13:14:20
     end: 2017-06-25 13:16:25
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 2 leg 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF23_rt02_l02
+    segment_id: ACLOUD_P5_RF23_rt02_ll02
     start: 2017-06-25 13:16:25
     end: 2017-06-25 13:24:10
     levels: [300]
@@ -245,10 +245,10 @@ segments:
     start: 2017-06-25 13:24:10
     end: 2017-06-25 13:26:10
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 2 leg 3
     irregularities: []
-    segment_id: ACLOUD_P5_RF23_rt02_l03
+    segment_id: ACLOUD_P5_RF23_rt02_ll03
     start: 2017-06-25 13:26:10
     end: 2017-06-25 13:35:00
     levels: [400]
@@ -258,10 +258,10 @@ segments:
     start: 2017-06-25 13:35:00
     end: 2017-06-25 13:37:50
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 2 leg 4
     irregularities: []
-    segment_id: ACLOUD_P5_RF23_rt02_l04
+    segment_id: ACLOUD_P5_RF23_rt02_ll04
     start: 2017-06-25 13:37:50
     end: 2017-06-25 13:39:35
     levels: [500]
@@ -327,10 +327,10 @@ segments:
     start: 2017-06-25 14:07:05
     end: 2017-06-25 14:08:30
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 3 leg 1
     irregularities: []
-    segment_id: ACLOUD_P5_RF23_rt03_l01
+    segment_id: ACLOUD_P5_RF23_rt03_ll01
     start: 2017-06-25 14:08:30
     end: 2017-06-25 14:17:10
     levels: [200]
@@ -340,10 +340,10 @@ segments:
     start: 2017-06-25 14:17:10
     end: 2017-06-25 14:20:20
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 3 leg 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF23_rt03_l02
+    segment_id: ACLOUD_P5_RF23_rt03_ll02
     start: 2017-06-25 14:20:20
     end: 2017-06-25 14:28:25
     levels: [200]
@@ -353,10 +353,10 @@ segments:
     start: 2017-06-25 14:28:25
     end: 2017-06-25 14:30:15
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 3 leg 3
     irregularities: []
-    segment_id: ACLOUD_P5_RF23_rt03_l03
+    segment_id: ACLOUD_P5_RF23_rt03_ll03
     start: 2017-06-25 14:30:15
     end: 2017-06-25 14:38:10
     levels: [300]
@@ -366,10 +366,10 @@ segments:
     start: 2017-06-25 14:38:10
     end: 2017-06-25 14:39:40
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 3 leg 4
     irregularities: []
-    segment_id: ACLOUD_P5_RF23_rt03_l04
+    segment_id: ACLOUD_P5_RF23_rt03_ll04
     start: 2017-06-25 14:39:40
     end: 2017-06-25 14:48:05
     levels: [300]
@@ -379,10 +379,10 @@ segments:
     start: 2017-06-25 14:48:05
     end: 2017-06-25 14:50:30
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 3 leg 5
     irregularities: []
-    segment_id: ACLOUD_P5_RF23_rt03_l05
+    segment_id: ACLOUD_P5_RF23_rt03_ll05
     start: 2017-06-25 14:50:30
     end: 2017-06-25 14:57:15
     levels: [500]
@@ -392,10 +392,10 @@ segments:
     start: 2017-06-25 14:57:15
     end: 2017-06-25 14:58:30
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 3 leg 6
     irregularities: []
-    segment_id: ACLOUD_P5_RF23_rt03_l06
+    segment_id: ACLOUD_P5_RF23_rt03_ll06
     start: 2017-06-25 14:58:30
     end: 2017-06-25 15:01:20
     levels: [500]
@@ -461,10 +461,10 @@ segments:
     start: 2017-06-25 15:12:20
     end: 2017-06-25 15:15:00
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 4 leg 1
     irregularities: []
-    segment_id: ACLOUD_P5_RF23_rt04_l01
+    segment_id: ACLOUD_P5_RF23_rt04_ll01
     start: 2017-06-25 15:15:00
     end: 2017-06-25 15:23:10
     levels: [200]
@@ -474,10 +474,10 @@ segments:
     start: 2017-06-25 15:23:10
     end: 2017-06-25 15:24:45
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 4 leg 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF23_rt04_l02
+    segment_id: ACLOUD_P5_RF23_rt04_ll02
     start: 2017-06-25 15:24:45
     end: 2017-06-25 15:33:20
     levels: [300]
@@ -487,10 +487,10 @@ segments:
     start: 2017-06-25 15:33:20
     end: 2017-06-25 15:35:40
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 4 leg 3
     irregularities: []
-    segment_id: ACLOUD_P5_RF23_rt04_l03
+    segment_id: ACLOUD_P5_RF23_rt04_ll03
     start: 2017-06-25 15:35:40
     end: 2017-06-25 15:43:30
     levels: [300]
@@ -500,10 +500,10 @@ segments:
     start: 2017-06-25 15:43:30
     end: 2017-06-25 15:45:45
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 4 leg 4
     irregularities: []
-    segment_id: ACLOUD_P5_RF23_rt04_l04
+    segment_id: ACLOUD_P5_RF23_rt04_ll04
     start: 2017-06-25 15:45:45
     end: 2017-06-25 15:53:40
     levels: [400]
@@ -513,10 +513,10 @@ segments:
     start: 2017-06-25 15:53:40
     end: 2017-06-25 15:55:30
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 4 leg 5
     irregularities: []
-    segment_id: ACLOUD_P5_RF23_rt04_l05
+    segment_id: ACLOUD_P5_RF23_rt04_ll05
     start: 2017-06-25 15:55:30
     end: 2017-06-25 16:03:15
     levels: [500]

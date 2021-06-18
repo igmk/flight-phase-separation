@@ -16,8 +16,8 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetc
 takeoff: 2019-04-07 07:21:35
 landing: 2019-04-07 12:16:40
 events:
-  - CloudSat/Calipso underflight
-  - Ny Alesund overflight
+  - A-train underflight
+  - Ny-Alesund overflight
 remarks:
   - thin low and midlevel clouds
 segments:
@@ -69,7 +69,7 @@ segments:
   end: 2019-04-07 08:23:35
 - kinds:
   - high_level
-  - cloudsat_calipso_underflight
+  - a-train_underflight
   name: high level 3
   irregularities: []
   segment_id: AFLUX_P5_RF13_hl03
@@ -99,7 +99,7 @@ segments:
     UGLY: []
   parts:
   - kinds:
-    - sawtooth_descend
+    - medium_descend
     name: sawtooth pattern 1 descend 1
     irregularities: []
     segment_id: AFLUX_P5_RF13_st01_d01
@@ -123,7 +123,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - sawtooth_descend
+    - small_descend
     name: sawtooth pattern 1 descend 2
     irregularities: []
     segment_id: AFLUX_P5_RF13_st01_d02
@@ -135,7 +135,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - sawtooth_ascend
+    - small_ascend
     name: sawtooth pattern 1 ascend 1
     irregularities: []
     segment_id: AFLUX_P5_RF13_st01_a01
@@ -147,7 +147,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - sawtooth_descend
+    - medium_descend
     name: sawtooth pattern 1 descend 3
     irregularities: []
     segment_id: AFLUX_P5_RF13_st01_d03
@@ -159,7 +159,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - sawtooth_ascend
+    - small_ascend
     name: sawtooth pattern 1 ascend 2
     irregularities: []
     segment_id: AFLUX_P5_RF13_st01_a02
@@ -171,7 +171,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - sawtooth_descend
+    - small_descend
     name: sawtooth pattern 1 descend 4
     irregularities: []
     segment_id: AFLUX_P5_RF13_st01_d04
@@ -183,7 +183,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - sawtooth_ascend
+    - small_ascend
     name: sawtooth pattern 1 ascend 3
     irregularities: []
     segment_id: AFLUX_P5_RF13_st01_a03
@@ -195,7 +195,7 @@ segments:
       BAD: []
       UGLY: []
   - kinds:
-    - sawtooth_descend
+    - small_descend
     name: sawtooth pattern 1 descend 5
     irregularities: []
     segment_id: AFLUX_P5_RF13_st01_d05
@@ -238,7 +238,7 @@ segments:
     UGLY: []
 - kinds:
   - medium_descend
-  name: meidum descend 1
+  name: medium descend 1
   irregularities: []
   segment_id: AFLUX_P5_RF13_md01
   start: 2019-04-07 09:30:45
@@ -256,7 +256,8 @@ segments:
 - kinds:
   - racetrack_pattern
   name: racetrack pattern 1
-  irregularities: []
+  irregularities: 
+    - Procedure turn between leg 4 and leg 5 is extended by various maneuvers for deicing of aircraft, see flight report for details
   segment_id: AFLUX_P5_RF13_rt01
   start: 2019-04-07 09:40:20
   end: 2019-04-07 11:14:05
@@ -267,7 +268,7 @@ segments:
     UGLY: []
   parts:
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 1
     irregularities: []
     segment_id: AFLUX_P5_RF13_rt01_l01
@@ -280,7 +281,7 @@ segments:
     start: 2019-04-07 09:49:10
     end: 2019-04-07 09:51:10
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 2
     irregularities: []
     segment_id: AFLUX_P5_RF13_rt01_l02
@@ -293,7 +294,7 @@ segments:
     start: 2019-04-07 10:00:40
     end: 2019-04-07 10:03:30
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 3
     irregularities:
       - slight curve during leg
@@ -307,7 +308,7 @@ segments:
     start: 2019-04-07 10:12:50
     end: 2019-04-07 10:15:00
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 4
     irregularities:
       - slight curve during leg
@@ -316,12 +317,12 @@ segments:
     end: 2019-04-07 10:25:00
     levels: [800]
   - kinds:
-    - deicing_leg
-    name: deicing leg
+    - procedure_turn
+    name: procedure turn
     start: 2019-04-07 10:25:00
     end: 2019-04-07 10:41:20
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 5
     irregularities:
       - slight curve during leg
@@ -335,7 +336,7 @@ segments:
     start: 2019-04-07 10:50:50
     end: 2019-04-07 10:53:30
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 6
     irregularities:
       - slight curve during leg
@@ -349,7 +350,7 @@ segments:
     start: 2019-04-07 11:02:15
     end: 2019-04-07 11:05:50
   - kinds:
-    - racetrack_leg
+    - low_level
     name: racetrack 1 leg 7
     irregularities:
       - slight curve during leg
