@@ -17,9 +17,9 @@ takeoff: 2017-06-26 12:34:25
 landing: 2017-06-26 15:16:40
 events:
 - Joint flight with P6
-- Calibration circles for AIMMS20 
-remarks:
+- Calibration circles for AIMMS20
 - Boundary layer profiling
+remarks:
 - SMART not working
 segments:
 - kinds:

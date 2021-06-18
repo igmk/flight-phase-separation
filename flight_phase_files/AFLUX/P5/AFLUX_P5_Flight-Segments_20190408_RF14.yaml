@@ -19,7 +19,7 @@ events: []
 remarks:
 - Cloud field spreading into the MIZ and migrating into surface based fog over closed
   sea ice
-- cloud free areas over closed sea ice
+- Cloud-free areas over closed sea ice
 segments:
 - kinds:
   - major_ascend

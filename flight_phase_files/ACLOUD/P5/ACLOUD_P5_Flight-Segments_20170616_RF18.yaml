@@ -20,7 +20,7 @@ events:
 - A-train underflight
 - Polarstern overflight with cross pattern
 remarks: 
-  - two power outages of 230 V in beginning during transfer to first satellite meeting
+  - Two power outages of 230 V in beginning during transfer to first satellite meeting
 segments:
 - kinds:
   - major_ascend

@@ -17,8 +17,8 @@ takeoff: 2020-09-08 08:00:55
 landing: 2020-09-08 14:05:05
 events: 
 - Ny-Alesund overflight
-remarks:
-- Profiles over the marginal sea ice zone
+- Racetrack pattern over sea ice
+remarks: []
 segments:
 - kinds:
   - major_ascend

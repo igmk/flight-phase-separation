@@ -15,10 +15,10 @@ date: 2020-08-30
 flight_report: https://home.uni-leipzig.de/~ehrlich/MOSAiC_ACA_wiki_doku/lib/exe/fetch.php?media=fr20200830.pdf
 takeoff: 2020-08-30 08:14:30
 landing: 2020-08-30 09:07:30
-events: []
+events: 
+- Test flight in LYR
 remarks:
-- Test Flight LYR
-- no segmentation apart from instrument_testing segment performed
+- No segmentation apart from instrument_testing segment performed
 segments:
 - kinds:
   - major_ascend

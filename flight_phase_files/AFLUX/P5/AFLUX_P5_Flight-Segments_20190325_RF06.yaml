@@ -15,9 +15,10 @@ date: 2019-03-25
 flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetch.php?media=06_20190325_aflux_flight_report.pdf
 takeoff: 2019-03-25 10:37:45
 landing: 2019-03-25 15:50:50
-events: []
-remarks:
-- Flight at 10.000 ft above clouds, staircase over MIZ and saw teeth
+events: 
+- Sawtooth pattern with low-level legs
+- Racetrack pattern over sea ice
+remarks: []
 segments:
 - kinds:
   - major_ascend

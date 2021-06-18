@@ -15,10 +15,11 @@ date: 2020-09-11
 flight_report: https://home.uni-leipzig.de/~ehrlich/MOSAiC_ACA_wiki_doku/lib/exe/fetch.php?media=10_20200911_mosaic-aca_flight_report.pdf
 takeoff: 2020-09-11 08:19:40
 landing: 2020-09-11 13:59:30
-events: []
+events: 
+  - Racetrack pattern over sea ice
+  - Racetrack pattern over open ocean
 remarks:
-- Profiles over the marginal sea ice zone and sonding the cloud-free lee area north
-  of Svalbard
+- Cloud-free area north of Svalbard
 segments:
 - kinds:
   - major_ascend

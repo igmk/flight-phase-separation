@@ -19,7 +19,7 @@ events:
 - Joint flight with P6
 - Polarstern overflight with cross pattern
 remarks:
-- Clouds above sea ice and open water
+- Clouds above open water and sea ice
 segments:
 - kinds:
   - major_ascend

@@ -15,9 +15,9 @@ date: 2019-03-23
 flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetch.php?media=04_20190323_aflux_flight_report.pdf
 takeoff: 2019-03-23 11:27:50
 landing: 2019-03-23 16:55:50
-events: []
-remarks:
+events: 
 - Calibration of 5-hole probe
+remarks: []
 segments:
 - kinds:
   - major_ascend

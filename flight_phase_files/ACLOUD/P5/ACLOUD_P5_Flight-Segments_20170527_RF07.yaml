@@ -17,8 +17,7 @@ takeoff: 2017-05-27 13:05:00
 landing: 2017-05-27 16:23:15
 events:
 - Joint flight with P6
-remarks:
-- Clouds co-located
+remarks: []
 segments:
 - kinds:
   - major_ascend

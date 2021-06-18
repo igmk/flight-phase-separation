@@ -17,8 +17,7 @@ takeoff: 2020-09-07 08:22:55
 landing: 2020-09-07 14:05:10
 events:
   - Radiometer calibration
-remarks:
-  - Remote sensing of different cloud regimes
+remarks: []
 segments:
 - kinds:
   - major_ascend
