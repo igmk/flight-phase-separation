@@ -114,7 +114,7 @@ segments:
     - mid_level
     name: sawtooth pattern 1 mid level 1
     irregularities: []
-    segment_id: AFLUX_P5_RF13_st01_m01
+    segment_id: AFLUX_P5_RF13_st01_ml01
     start: 2019-04-07 08:57:20
     end: 2019-04-07 08:58:30
     levels: [5000]
@@ -269,7 +269,7 @@ segments:
   parts:
   - kinds:
     - low_level
-    name: racetrack 1 leg 1
+    name: racetrack pattern 1 leg 1
     irregularities: []
     segment_id: AFLUX_P5_RF13_rt01_l01
     start: 2019-04-07 09:40:20
@@ -282,7 +282,7 @@ segments:
     end: 2019-04-07 09:51:10
   - kinds:
     - low_level
-    name: racetrack 1 leg 2
+    name: racetrack pattern 1 leg 2
     irregularities: []
     segment_id: AFLUX_P5_RF13_rt01_l02
     start: 2019-04-07 09:51:10
@@ -295,7 +295,7 @@ segments:
     end: 2019-04-07 10:03:30
   - kinds:
     - low_level
-    name: racetrack 1 leg 3
+    name: racetrack pattern 1 leg 3
     irregularities:
       - slight curve during leg
     segment_id: AFLUX_P5_RF13_rt01_l03
@@ -309,7 +309,7 @@ segments:
     end: 2019-04-07 10:15:00
   - kinds:
     - low_level
-    name: racetrack 1 leg 4
+    name: racetrack pattern 1 leg 4
     irregularities:
       - slight curve during leg
     segment_id: AFLUX_P5_RF13_rt01_l04
@@ -323,7 +323,7 @@ segments:
     end: 2019-04-07 10:41:20
   - kinds:
     - low_level
-    name: racetrack 1 leg 5
+    name: racetrack pattern 1 leg 5
     irregularities:
       - slight curve during leg
     segment_id: AFLUX_P5_RF13_rt01_l05
@@ -337,7 +337,7 @@ segments:
     end: 2019-04-07 10:53:30
   - kinds:
     - low_level
-    name: racetrack 1 leg 6
+    name: racetrack pattern 1 leg 6
     irregularities:
       - slight curve during leg
     segment_id: AFLUX_P5_RF13_rt01_l06
@@ -351,7 +351,7 @@ segments:
     end: 2019-04-07 11:05:50
   - kinds:
     - low_level
-    name: racetrack 1 leg 7
+    name: racetrack pattern 1 leg 7
     irregularities:
       - slight curve during leg
     segment_id: AFLUX_P5_RF13_rt01_l07

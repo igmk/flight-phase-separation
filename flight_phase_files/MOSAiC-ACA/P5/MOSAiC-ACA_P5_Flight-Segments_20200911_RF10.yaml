@@ -125,7 +125,7 @@ segments:
   parts:
   - kinds:
     - low_level
-    name: racetrack 1 leg 1
+    name: racetrack pattern 1 leg 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_rt01_l01
     start: 2020-09-11 10:10:58
@@ -138,7 +138,7 @@ segments:
     end: 2020-09-11 10:20:01
   - kinds:
     - low_level
-    name: racetrack 1 leg 2
+    name: racetrack pattern 1 leg 2
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_rt01_l02
     start: 2020-09-11 10:20:01
@@ -151,7 +151,7 @@ segments:
     end: 2020-09-11 10:31:47
   - kinds:
     - low_level
-    name: racetrack 1 leg 3
+    name: racetrack pattern 1 leg 3
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_rt01_l03
     start: 2020-09-11 10:31:47
@@ -164,7 +164,7 @@ segments:
     end: 2020-09-11 10:44:53
   - kinds:
     - high_level
-    name: racetrack 1 leg 4
+    name: racetrack pattern 1 leg 4
     irregularities:
       - includes height change
     segment_id: MOSAiC-ACA_P5_RF10_rt01_l04
@@ -178,7 +178,7 @@ segments:
     end: 2020-09-11 11:00:59
   - kinds:
     - high_level
-    name: racetrack 1 leg 5
+    name: racetrack pattern 1 leg 5
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_rt01_l05
     start: 2020-09-11 11:00:59
@@ -191,7 +191,7 @@ segments:
     end: 2020-09-11 11:11:07
   - kinds:
     - high_level
-    name: racetrack 1 leg 6
+    name: racetrack pattern 1 leg 6
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_rt01_l06
     start: 2020-09-11 11:11:07
@@ -248,7 +248,7 @@ segments:
   parts:
   - kinds:
     - small_ascend
-    name: sawtooth 1 ascend 1
+    name: sawtooth pattern 1 ascend 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_st01_a01
     start: 2020-09-11 11:34:19
@@ -256,7 +256,7 @@ segments:
     levels: [200,1100]
   - kinds:
     - small_descend
-    name: sawtooth 1 descend 1
+    name: sawtooth pattern 1 descend 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_st01_d01
     start: 2020-09-11 11:35:40
@@ -264,7 +264,7 @@ segments:
     levels: [1100,300]
   - kinds:
     - small_ascend
-    name: sawtooth 1 ascend 2
+    name: sawtooth pattern 1 ascend 2
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_st01_a02
     start: 2020-09-11 11:37:04
@@ -272,7 +272,7 @@ segments:
     levels: [300,1100]
   - kinds:
     - small_descend
-    name: sawtooth 1 descend 2
+    name: sawtooth pattern 1 descend 2
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_st01_d02
     start: 2020-09-11 11:38:25
@@ -280,7 +280,7 @@ segments:
     levels: [1100,200]
   - kinds:
     - small_ascend
-    name: sawtooth 1 ascend 3
+    name: sawtooth pattern 1 ascend 3
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_st01_a03
     start: 2020-09-11 11:39:51
@@ -288,7 +288,7 @@ segments:
     levels: [200,1100]
   - kinds:
     - small_descend
-    name: sawtooth 1 descend 3
+    name: sawtooth pattern 1 descend 3
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_st01_d03
     start: 2020-09-11 11:41:09
@@ -296,7 +296,7 @@ segments:
     levels: [1100,200]
   - kinds:
     - small_ascend
-    name: sawtooth 1 ascend 4
+    name: sawtooth pattern 1 ascend 4
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_st01_a04
     start: 2020-09-11 11:42:40
@@ -304,7 +304,7 @@ segments:
     levels: [200,1100]
   - kinds:
     - small_descend
-    name: sawtooth 1 descend 4
+    name: sawtooth pattern 1 descend 4
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_st01_d04
     start: 2020-09-11 11:44:01
@@ -312,7 +312,7 @@ segments:
     levels: [1100,300]
   - kinds:
     - small_ascend
-    name: sawtooth 1 ascend 5
+    name: sawtooth pattern 1 ascend 5
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_st01_a05
     start: 2020-09-11 11:46:02
@@ -320,7 +320,7 @@ segments:
     levels: [300,1600]
   - kinds:
     - small_descend
-    name: sawtooth 1 descend 5
+    name: sawtooth pattern 1 descend 5
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_st01_d05
     start: 2020-09-11 11:48:39
@@ -328,7 +328,7 @@ segments:
     levels: [1600,200]
   - kinds:
     - small_ascend
-    name: sawtooth 1 ascend 6
+    name: sawtooth pattern 1 ascend 6
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_st01_a06
     start: 2020-09-11 11:51:37
@@ -336,7 +336,7 @@ segments:
     levels: [200,1500]
   - kinds:
     - small_descend
-    name: sawtooth 1 descend 6
+    name: sawtooth pattern 1 descend 6
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_st01_d06
     start: 2020-09-11 11:53:32
@@ -344,7 +344,7 @@ segments:
     levels: [1500,200]
   - kinds:
     - small_ascend
-    name: sawtooth 1 ascend 7
+    name: sawtooth pattern 1 ascend 7
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_st01_a07
     start: 2020-09-11 11:55:56
@@ -378,7 +378,7 @@ segments:
   parts:
   - kinds:
     - low_level
-    name: racetrack 2 leg 1
+    name: racetrack pattern 2 leg 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_rt02_l01
     start: 2020-09-11 12:02:58
@@ -391,7 +391,7 @@ segments:
     end: 2020-09-11 12:11:28
   - kinds:
     - low_level
-    name: racetrack 2 leg 2
+    name: racetrack pattern 2 leg 2
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_rt02_l02
     start: 2020-09-11 12:11:28
@@ -404,7 +404,7 @@ segments:
     end: 2020-09-11 12:23:00
   - kinds:
     - low_level
-    name: racetrack 2 leg 3
+    name: racetrack pattern 2 leg 3
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_rt02_l03
     start: 2020-09-11 12:23:00
@@ -417,7 +417,7 @@ segments:
     end: 2020-09-11 12:29:47
   - kinds:
     - low_level
-    name: racetrack 2 leg 4
+    name: racetrack pattern 2 leg 4
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF10_rt02_l04
     start: 2020-09-11 12:29:47

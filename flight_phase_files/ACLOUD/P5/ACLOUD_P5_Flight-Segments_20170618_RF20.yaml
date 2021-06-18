@@ -145,7 +145,7 @@ segments:
   parts:
   - kinds:
     - high_level
-    name: racetrack 1 leg 1
+    name: racetrack pattern 1 leg 1
     irregularities: []
     segment_id: ACLOUD_P5_RF20_rt01_l01
     start: 2017-06-18 13:27:00
@@ -158,7 +158,7 @@ segments:
     end: 2017-06-18 13:45:27
   - kinds:
     - high_level
-    name: racetrack 1 leg 2
+    name: racetrack pattern 1 leg 2
     irregularities: []
     segment_id: ACLOUD_P5_RF20_rt01_l02
     start: 2017-06-18 13:45:27
@@ -171,7 +171,7 @@ segments:
     end: 2017-06-18 14:04:26
   - kinds:
     - high_level
-    name: racetrack 1 leg 3
+    name: racetrack pattern 1 leg 3
     irregularities:
       - shorter leg
     segment_id: ACLOUD_P5_RF20_rt01_l03
@@ -269,7 +269,7 @@ segments:
   parts:
   - kinds:
     - high_level
-    name: racetrack 2 leg 1
+    name: racetrack pattern 2 leg 1
     irregularities:
       - shorter leg
     segment_id: ACLOUD_P5_RF20_rt02_l01
@@ -283,7 +283,7 @@ segments:
     end: 2017-06-18 14:59:51
   - kinds:
     - high_level
-    name: racetrack 2 leg 2
+    name: racetrack pattern 2 leg 2
     irregularities: []
     segment_id: ACLOUD_P5_RF20_rt02_l02
     start: 2017-06-18 14:59:51
@@ -296,7 +296,7 @@ segments:
     end: 2017-06-18 15:19:01
   - kinds:
     - high_level
-    name: racetrack 2 leg 3
+    name: racetrack pattern 2 leg 3
     irregularities: []
     segment_id: ACLOUD_P5_RF20_rt02_l03
     start: 2017-06-18 15:19:01
@@ -341,7 +341,7 @@ segments:
   parts:
   - kinds:
     - high_level
-    name: racetrack 3 leg 1
+    name: racetrack pattern 3 leg 1
     irregularities:
       - shorter leg
     segment_id: ACLOUD_P5_RF20_rt03_l01
@@ -355,7 +355,7 @@ segments:
     end: 2017-06-18 16:27:29
   - kinds:
     - high_level
-    name: racetrack 3 leg 2
+    name: racetrack pattern 3 leg 2
     irregularities: []
     segment_id: ACLOUD_P5_RF20_rt03_l02
     start: 2017-06-18 16:27:29
@@ -368,7 +368,7 @@ segments:
     end: 2017-06-18 16:46:25
   - kinds:
     - high_level
-    name: racetrack 3 leg 3
+    name: racetrack pattern 3 leg 3
     irregularities: []
     segment_id: ACLOUD_P5_RF20_rt03_l03
     start: 2017-06-18 16:46:25

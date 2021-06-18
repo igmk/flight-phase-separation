@@ -94,7 +94,7 @@ segments:
     end: 2019-03-21 11:30:28
   - kinds:
     - low_level
-    name: racetrack 1 leg 1
+    name: racetrack pattern 1 leg 1
     irregularities: []
     segment_id: AFLUX_P5_RF03_rt01_l01
     start: 2019-03-21 11:30:28
@@ -107,7 +107,7 @@ segments:
     end: 2019-03-21 11:47:02
   - kinds:
     - low_level
-    name: racetrack 1 leg 2
+    name: racetrack pattern 1 leg 2
     irregularities: []
     segment_id: AFLUX_P5_RF03_rt01_l02
     start: 2019-03-21 11:47:02
@@ -120,7 +120,7 @@ segments:
     end: 2019-03-21 11:57:00
   - kinds:
     - low_level
-    name: racetrack 1 leg 3
+    name: racetrack pattern 1 leg 3
     irregularities: []
     segment_id: AFLUX_P5_RF03_rt01_l03
     start: 2019-03-21 11:57:00
@@ -133,7 +133,7 @@ segments:
     end: 2019-03-21 12:16:14
   - kinds:
     - low_level
-    name: racetrack 1 leg 4
+    name: racetrack pattern 1 leg 4
     irregularities: []
     segment_id: AFLUX_P5_RF03_rt01_l04
     start: 2019-03-21 12:16:14
@@ -146,7 +146,7 @@ segments:
     end: 2019-03-21 12:28:18
   - kinds:
     - mid_level
-    name: racetrack 1 leg 5
+    name: racetrack pattern 1 leg 5
     irregularities:
       - ends on half distance
     segment_id: AFLUX_P5_RF03_rt01_l05

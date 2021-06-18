@@ -160,7 +160,7 @@ segments:
   parts:
   - kinds:
     - low_level
-    name: racetrack 1 leg 1
+    name: racetrack pattern 1 leg 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF05_rt01_l01
     start: 2020-09-02 09:05:02
@@ -173,7 +173,7 @@ segments:
     end: 2020-09-02 09:12:30
   - kinds:
     - low_level
-    name: racetrack 1 leg 2
+    name: racetrack pattern 1 leg 2
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF05_rt01_l02
     start: 2020-09-02 09:12:30
@@ -186,7 +186,7 @@ segments:
     end: 2020-09-02 09:21:38
   - kinds:
     - low_level
-    name: racetrack 1 leg 3
+    name: racetrack pattern 1 leg 3
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF05_rt01_l03
     start: 2020-09-02 09:21:38
@@ -199,7 +199,7 @@ segments:
     end: 2020-09-02 09:30:41
   - kinds:
     - mid_level
-    name: racetrack 1 leg 4
+    name: racetrack pattern 1 leg 4
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF05_rt01_l04
     start: 2020-09-02 09:30:41
@@ -212,7 +212,7 @@ segments:
     end: 2020-09-02 09:38:25
   - kinds:
     - mid_level
-    name: racetrack 1 leg 5
+    name: racetrack pattern 1 leg 5
     irregularities: started at 5000 but descended to 4200 due to decreasing cloud top
     segment_id: MOSAiC-ACA_P5_RF05_rt01_l05
     start: 2020-09-02 09:38:25

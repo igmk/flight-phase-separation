@@ -154,15 +154,15 @@ segments:
   parts:
   - kinds:
     - low_level
-    name: stairstep 1 leg 1
+    name: stairstep pattern 1 low level 1
     irregularities: []
-    segment_id: AFLUX_P5_RF09_ss01_l01
+    segment_id: AFLUX_P5_RF09_ss01_ll01
     start: 2019-04-01 08:32:46
     end: 2019-04-01 08:37:47
     levels: [200]
   - kinds:
     - small_ascend
-    name: stairstep 1 ascend 1
+    name: stairstep pattern 1 ascend 1
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_a01
     start: 2019-04-01 08:37:47
@@ -170,15 +170,15 @@ segments:
     levels: [200, 400]
   - kinds:
     - low_level
-    name: stairstep 1 leg 2
+    name: stairstep pattern 1 low level 2
     irregularities: []
-    segment_id: AFLUX_P5_RF09_ss01_l02
+    segment_id: AFLUX_P5_RF09_ss01_ll02
     start: 2019-04-01 08:38:28
     end: 2019-04-01 08:42:05
     levels: [400]
   - kinds:
     - small_ascend
-    name: stairstep 1 ascend 2
+    name: stairstep pattern 1 ascend 2
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_a02
     start: 2019-04-01 08:42:05
@@ -186,15 +186,15 @@ segments:
     levels: [400, 800]
   - kinds:
     - low_level
-    name: stairstep 1 leg 3
+    name: stairstep pattern 1 low level 3
     irregularities: []
-    segment_id: AFLUX_P5_RF09_ss01_l03
+    segment_id: AFLUX_P5_RF09_ss01_ll03
     start: 2019-04-01 08:43:10
     end: 2019-04-01 08:47:06
     levels: [800]
   - kinds:
     - small_ascend
-    name: stairstep 1 ascend 3
+    name: stairstep pattern 1 ascend 3
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_a03
     start: 2019-04-01 08:47:06
@@ -202,15 +202,15 @@ segments:
     levels: [800, 1100]
   - kinds:
     - low_level
-    name: stairstep 1 leg 4
+    name: stairstep pattern 1 low level 4
     irregularities: []
-    segment_id: AFLUX_P5_RF09_ss01_l04
+    segment_id: AFLUX_P5_RF09_ss01_ll04
     start: 2019-04-01 08:48:05
     end: 2019-04-01 08:51:57
     levels: [1100]
   - kinds:
     - small_ascend
-    name: stairstep 1 ascend 4
+    name: stairstep pattern 1 ascend 4
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_a04
     start: 2019-04-01 08:51:57
@@ -218,15 +218,15 @@ segments:
     levels: [1100, 1500]
   - kinds:
     - low_level
-    name: stairstep 1 leg 5
+    name: stairstep pattern 1 low level 5
     irregularities: []
-    segment_id: AFLUX_P5_RF09_ss01_l05
+    segment_id: AFLUX_P5_RF09_ss01_ll05
     start: 2019-04-01 08:52:44
     end: 2019-04-01 08:56:52
     levels: [1500]
   - kinds:
     - small_ascend
-    name: stairstep 1 ascend 5
+    name: stairstep pattern 1 ascend 5
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_a05
     start: 2019-04-01 08:56:52
@@ -234,15 +234,15 @@ segments:
     levels: [1500, 1900]
   - kinds:
     - low_level
-    name: stairstep 1 leg 6
+    name: stairstep pattern 1 low level 6
     irregularities: []
-    segment_id: AFLUX_P5_RF09_ss01_l06
+    segment_id: AFLUX_P5_RF09_ss01_ll06
     start: 2019-04-01 08:57:33
     end: 2019-04-01 09:01:51
     levels: [1900]
   - kinds:
     - small_ascend
-    name: stairstep 1 ascend 6
+    name: stairstep pattern 1 ascend 6
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_a06
     start: 2019-04-01 09:01:51
@@ -250,15 +250,15 @@ segments:
     levels: [1900, 2800]
   - kinds:
     - low_level
-    name: stairstep 1 leg 7
+    name: stairstep pattern 1 low level 7
     irregularities: []
-    segment_id: AFLUX_P5_RF09_ss01_l07
+    segment_id: AFLUX_P5_RF09_ss01_ll07
     start: 2019-04-01 09:03:10
     end: 2019-04-01 09:07:48
     levels: [2800]
   - kinds:
     - small_ascend
-    name: stairstep 1 ascend 7
+    name: stairstep pattern 1 ascend 7
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_a07
     start: 2019-04-01 09:07:48
@@ -266,15 +266,15 @@ segments:
     levels: [2800, 3300]
   - kinds:
     - mid_level
-    name: stairstep 1 leg 8
+    name: stairstep pattern 1 mid level 1
     irregularities: []
-    segment_id: AFLUX_P5_RF09_ss01_l08
+    segment_id: AFLUX_P5_RF09_ss01_ml01
     start: 2019-04-01 09:09:12
     end: 2019-04-01 09:13:03
     levels: [3300]
   - kinds:
     - small_ascend
-    name: stairstep 1 ascend 8
+    name: stairstep pattern 1 ascend 8
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_a08
     start: 2019-04-01 09:13:03
@@ -282,15 +282,15 @@ segments:
     levels: [3300, 3700]
   - kinds:
     - mid_level
-    name: stairstep 1 leg 9
+    name: stairstep pattern 1 mid level 2
     irregularities: []
-    segment_id: AFLUX_P5_RF09_ss01_l09
+    segment_id: AFLUX_P5_RF09_ss01_ml02
     start: 2019-04-01 09:13:47
     end: 2019-04-01 09:19:24
     levels: [3700]
   - kinds:
     - small_ascend
-    name: stairstep 1 ascend 9
+    name: stairstep pattern 1 ascend 9
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_a09
     start: 2019-04-01 09:19:24
@@ -298,15 +298,15 @@ segments:
     levels: [3700, 4200]
   - kinds:
     - mid_level
-    name: stairstep 1 leg 10
+    name: stairstep pattern 1 mid level 3
     irregularities: []
-    segment_id: AFLUX_P5_RF09_ss01_l10
+    segment_id: AFLUX_P5_RF09_ss01_ml03
     start: 2019-04-01 09:20:36
     end: 2019-04-01 09:24:01
     levels: [4200]
   - kinds:
     - small_ascend
-    name: stairstep 1 ascend 10
+    name: stairstep pattern 1 ascend 10
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_a10
     start: 2019-04-01 09:24:01
@@ -314,9 +314,9 @@ segments:
     levels: [4200, 4600]
   - kinds:
     - mid_level
-    name: stairstep 1 leg 11
+    name: stairstep pattern 1 mid level 4
     irregularities: []
-    segment_id: AFLUX_P5_RF09_ss01_l11
+    segment_id: AFLUX_P5_RF09_ss01_ml04
     start: 2019-04-01 09:24:48
     end: 2019-04-01 09:28:37
     levels: [4600]
@@ -389,7 +389,7 @@ segments:
   parts:
   - kinds:
     - large_ascend
-    name: sawtooth 1 ascend 1
+    name: sawtooth pattern 1 ascend 1
     irregularities: []
     segment_id: AFLUX_P5_RF09_st01_a01
     start: 2019-04-01 10:22:25
@@ -397,7 +397,7 @@ segments:
     levels: [300,6900]
   - kinds:
     - large_descend
-    name: sawtooth 1 descend 1
+    name: sawtooth pattern 1 descend 1
     irregularities: []
     segment_id: AFLUX_P5_RF09_st01_d01
     start: 2019-04-01 10:35:11
@@ -418,15 +418,15 @@ segments:
   parts:
   - kinds:
     - low_level
-    name: stairstep 2 leg 1
+    name: stairstep pattern 2 low level 1
     irregularities: []
-    segment_id: AFLUX_P5_RF09_ss02_l01
+    segment_id: AFLUX_P5_RF09_ss02_ll01
     start: 2019-04-01 10:46:37
     end: 2019-04-01 10:50:22
     levels: [200]
   - kinds:
     - small_ascend
-    name: stairstep 2 ascend 1
+    name: stairstep pattern 2 ascend 1
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_a01
     start: 2019-04-01 10:50:22 
@@ -434,15 +434,15 @@ segments:
     levels: [200, 400]
   - kinds:
     - low_level
-    name: stairstep 2 leg 2
+    name: stairstep pattern 2 low level 2
     irregularities: []
-    segment_id: AFLUX_P5_RF09_ss02_l02
+    segment_id: AFLUX_P5_RF09_ss02_ll02
     start: 2019-04-01 10:51:08
     end: 2019-04-01 10:54:27 
     levels: [400]
   - kinds:
     - small_ascend
-    name: stairstep 2 ascend 2
+    name: stairstep pattern 2 ascend 2
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_a02
     start: 2019-04-01 10:54:27
@@ -450,15 +450,15 @@ segments:
     levels: [400, 600]
   - kinds:
     - low_level
-    name: stairstep 2 leg 3
+    name: stairstep pattern 2 low level 3
     irregularities: []
-    segment_id: AFLUX_P5_RF09_ss02_l03
+    segment_id: AFLUX_P5_RF09_ss02_ll03
     start: 2019-04-01 10:55:04
     end: 2019-04-01 10:58:34 
     levels: [600]
   - kinds:
     - small_ascend
-    name: stairstep 2 ascend 3
+    name: stairstep pattern 2 ascend 3
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_a03
     start: 2019-04-01 10:58:34
@@ -466,15 +466,15 @@ segments:
     levels: [600, 800]
   - kinds:
     - low_level
-    name: stairstep 2 leg 4
+    name: stairstep pattern 2 low level 4
     irregularities: []
-    segment_id: AFLUX_P5_RF09_ss02_l04
+    segment_id: AFLUX_P5_RF09_ss02_ll04
     start: 2019-04-01 10:59:10
     end: 2019-04-01 11:02:30 
     levels: [800]
   - kinds:
     - small_ascend
-    name: stairstep 2 ascend 4
+    name: stairstep pattern 2 ascend 4
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_a04
     start: 2019-04-01 11:02:30
@@ -482,15 +482,15 @@ segments:
     levels: [800, 1200]
   - kinds:
     - low_level
-    name: stairstep 2 leg 5
+    name: stairstep pattern 2 low level 5
     irregularities: []
-    segment_id: AFLUX_P5_RF09_ss02_l05
+    segment_id: AFLUX_P5_RF09_ss02_ll05
     start: 2019-04-01 11:03:24
     end: 2019-04-01 11:07:36 
     levels: [1200]
   - kinds:
     - small_ascend
-    name: stairstep 2 ascend 5
+    name: stairstep pattern 2 ascend 5
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_a05
     start: 2019-04-01 11:07:36
@@ -498,15 +498,15 @@ segments:
     levels: [1200, 1500]
   - kinds:
     - low_level
-    name: stairstep 2 leg 6
+    name: stairstep pattern 2 low level 6
     irregularities: []
-    segment_id: AFLUX_P5_RF09_ss02_l06
+    segment_id: AFLUX_P5_RF09_ss02_ll06
     start: 2019-04-01 11:08:27
     end: 2019-04-01 11:09:36 
     levels: [1500]
   - kinds:
     - small_descend
-    name: stairstep 2 descend 1
+    name: stairstep pattern 2 descend 1
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_d01
     start: 2019-04-01 11:09:36
@@ -514,15 +514,15 @@ segments:
     levels: [1500, 1000]
   - kinds:
     - low_level
-    name: stairstep 2 leg 7
+    name: stairstep pattern 2 low level 7
     irregularities: []
-    segment_id: AFLUX_P5_RF09_ss02_l07
+    segment_id: AFLUX_P5_RF09_ss02_ll07
     start: 2019-04-01 11:10:35
     end: 2019-04-01 11:13:34
     levels: [1000]
   - kinds:
     - small_descend
-    name: stairstep 2 descend 2
+    name: stairstep pattern 2 descend 2
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_d02
     start: 2019-04-01 11:13:34
@@ -530,15 +530,15 @@ segments:
     levels: [1000, 800]
   - kinds:
     - low_level
-    name: stairstep 2 leg 8
+    name: stairstep pattern 2 low level 8
     irregularities: []
-    segment_id: AFLUX_P5_RF09_ss02_l08
+    segment_id: AFLUX_P5_RF09_ss02_ll08
     start: 2019-04-01 11:14:10
     end: 2019-04-01 11:16:47 
     levels: [800]
   - kinds:
     - small_descend
-    name: stairstep 2 descend 3
+    name: stairstep pattern 2 descend 3
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_d03
     start: 2019-04-01 11:16:47
@@ -546,9 +546,9 @@ segments:
     levels: [800, 600]
   - kinds:
     - low_level
-    name: stairstep 2 leg 9
+    name: stairstep pattern 2 low level 9
     irregularities: []
-    segment_id: AFLUX_P5_RF09_ss02_l9
+    segment_id: AFLUX_P5_RF09_ss02_ll09
     start: 2019-04-01 11:17:12
     end: 2019-04-01 11:19:08
     levels: [600]

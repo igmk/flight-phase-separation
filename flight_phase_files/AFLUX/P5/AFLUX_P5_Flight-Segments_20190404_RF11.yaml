@@ -127,7 +127,7 @@ segments:
   parts:
   - kinds:
     - medium_ascend
-    name: sawtooth 1 ascend 1
+    name: sawtooth pattern 1 ascend 1
     irregularities: []
     segment_id: AFLUX_P5_RF11_st01_a01
     start: 2019-04-04 10:32:44
@@ -135,7 +135,7 @@ segments:
     levels: [200,3700]
   - kinds:
     - medium_descend
-    name: sawtooth 1 descend 1
+    name: sawtooth pattern 1 descend 1
     irregularities: []
     segment_id: AFLUX_P5_RF11_st01_d01
     start: 2019-04-04 10:38:55
@@ -143,7 +143,7 @@ segments:
     levels: [3700,200]
   - kinds:
     - medium_ascend
-    name: sawtooth 1 ascend 2
+    name: sawtooth pattern 1 ascend 2
     irregularities: []
     segment_id: AFLUX_P5_RF11_st01_a02
     start: 2019-04-04 10:46:32
@@ -151,7 +151,7 @@ segments:
     levels: [200,3600]
   - kinds:
     - medium_descend
-    name: sawtooth 1 descend 2
+    name: sawtooth pattern 1 descend 2
     irregularities: []
     segment_id: AFLUX_P5_RF11_st01_d02
     start: 2019-04-04 10:52:39
@@ -159,7 +159,7 @@ segments:
     levels: [3600,200]
   - kinds:
     - small_ascend
-    name: sawtooth 1 ascend 3
+    name: sawtooth pattern 1 ascend 3
     irregularities: []
     segment_id: AFLUX_P5_RF11_st01_a03
     start: 2019-04-04 10:59:58
@@ -167,7 +167,7 @@ segments:
     levels: [200,2500]
   - kinds:
     - small_descend
-    name: sawtooth 1 descend 3
+    name: sawtooth pattern 1 descend 3
     irregularities: []
     segment_id: AFLUX_P5_RF11_st01_d03
     start: 2019-04-04 11:04:20

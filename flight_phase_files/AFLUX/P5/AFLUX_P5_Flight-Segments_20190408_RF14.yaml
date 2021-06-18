@@ -142,9 +142,9 @@ segments:
       UGLY: []
   - kinds:
     - low_level
-    name: sawtooth pattern 1 leg 1
+    name: sawtooth pattern 1 low level 1
     irregularities: []
-    segment_id: AFLUX_P5_RF14_st01_m01
+    segment_id: AFLUX_P5_RF14_st01_ll01
     start: 2019-04-08 11:34:25
     end: 2019-04-08 11:35:25
     levels: [2800]
@@ -166,9 +166,9 @@ segments:
       UGLY: []
   - kinds:
     - low_level
-    name: sawtooth pattern 1 leg 2
+    name: sawtooth pattern 1 low level 2
     irregularities: []
-    segment_id: AFLUX_P5_RF14_st01_l02
+    segment_id: AFLUX_P5_RF14_st01_ll02
     start: 2019-04-08 11:41:00
     end: 2019-04-08 11:42:45
     levels: [200]

@@ -106,7 +106,7 @@ segments:
   parts:
   - kinds:
     - low_level
-    name: racetrack 1 leg 1
+    name: racetrack pattern 1 leg 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF06_rt01_l01
     start: 2020-09-04 13:42:41
@@ -119,7 +119,7 @@ segments:
     end: 2020-09-04 13:53:51
   - kinds:
     - low_level
-    name: racetrack 1 leg 2
+    name: racetrack pattern 1 leg 2
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF06_rt01_l02
     start: 2020-09-04 13:53:51
@@ -132,7 +132,7 @@ segments:
     end: 2020-09-04 14:01:41
   - kinds:
     - low_level
-    name: racetrack 1 leg 3
+    name: racetrack pattern 1 leg 3
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF06_rt01_l03
     start: 2020-09-04 14:01:41
@@ -145,7 +145,7 @@ segments:
     end: 2020-09-04 14:12:10
   - kinds:
     - low_level
-    name: racetrack 1 leg 4
+    name: racetrack pattern 1 leg 4
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF06_rt01_l04
     start: 2020-09-04 14:12:10
@@ -171,15 +171,15 @@ segments:
   parts:
   - kinds:
     - low_level
-    name: stairstep 1 leg 1
+    name: stairstep pattern 1 low level 1
     irregularities: []
-    segment_id: MOSAiC-ACA_P5_RF06_ss01_l01
+    segment_id: MOSAiC-ACA_P5_RF06_ss01_ll01
     start: 2020-09-04 14:19:39
     end: 2020-09-04 14:33:45
     levels: [200]
   - kinds:
     - small_ascend
-    name: stairstep 1 ascend 1
+    name: stairstep pattern 1 ascend 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF06_ss01_a01
     start:  2020-09-04 14:33:45
@@ -187,15 +187,15 @@ segments:
     levels: [200, 1600]
   - kinds:
     - low_level
-    name: stairstep 1 leg 2
+    name: stairstep pattern 1 low level 2
     irregularities: []
-    segment_id: MOSAiC-ACA_P5_RF06_ss01_l02
+    segment_id: MOSAiC-ACA_P5_RF06_ss01_ll02
     start: 2020-09-04 14:35:38
     end: 2020-09-04 14:43:39
     levels: [1600]
   - kinds:
     - small_descend
-    name: stairstep 1 descend 1
+    name: stairstep pattern 1 descend 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF06_ss01_d01
     start: 2020-09-04 14:43:39
@@ -203,15 +203,15 @@ segments:
     levels: [1600, 1000]
   - kinds:
     - low_level
-    name: stairstep 1 leg 3
+    name: stairstep pattern 1 low level 3
     irregularities: []
-    segment_id: MOSAiC-ACA_P5_RF06_ss01_l03
+    segment_id: MOSAiC-ACA_P5_RF06_ss01_ll03
     start: 2020-09-04 14:45:05
     end: 2020-09-04 14:51:47
     levels: [1000]
   - kinds:
     - small_ascend
-    name: stairstep 1 ascend 2
+    name: stairstep pattern 1 ascend 2
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF06_ss01_a02
     start: 2020-09-04 14:51:47
@@ -219,9 +219,9 @@ segments:
     levels: [1000, 1300]
   - kinds:
     - low_level
-    name: stairstep 1 leg 4
+    name: stairstep pattern 1 low level 4
     irregularities: []
-    segment_id: MOSAiC-ACA_P5_RF06_ss01_l04
+    segment_id: MOSAiC-ACA_P5_RF06_ss01_ll04
     start: 2020-09-04 14:52:23
     end: 2020-09-04 14:59:02
     levels: [1300]
@@ -245,7 +245,7 @@ segments:
   parts:
   - kinds:
     - low_level
-    name: racetrack 2 leg 1
+    name: racetrack pattern 2 leg 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF06_rt02_l01
     start: 2020-09-04 15:02:48
@@ -258,7 +258,7 @@ segments:
     end: 2020-09-04 15:14:31
   - kinds:
     - low_level
-    name: racetrack 2 leg 2
+    name: racetrack pattern 2 leg 2
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF06_rt02_l02
     start: 2020-09-04 15:14:31
@@ -271,7 +271,7 @@ segments:
     end: 2020-09-04 15:22:13
   - kinds:
     - low_level
-    name: racetrack 2 leg 3
+    name: racetrack pattern 2 leg 3
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF06_rt02_l03
     start: 2020-09-04 15:22:13
@@ -284,7 +284,7 @@ segments:
     end: 2020-09-04 15:33:56
   - kinds:
     - low_level
-    name: racetrack 2 leg 4
+    name: racetrack pattern 2 leg 4
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF06_rt02_l04
     start: 2020-09-04 15:33:56
@@ -371,7 +371,7 @@ segments:
   parts:
   - kinds:
     - high_level
-    name: racetrack 3 leg 1
+    name: racetrack pattern 3 leg 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF06_rt03_l01
     start: 2020-09-04 16:21:18
@@ -384,7 +384,7 @@ segments:
     end: 2020-09-04 16:30:35
   - kinds:
     - high_level
-    name: racetrack 3 leg 2
+    name: racetrack pattern 3 leg 2
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF06_rt03_l02
     start: 2020-09-04 16:30:35
@@ -397,7 +397,7 @@ segments:
     end: 2020-09-04 16:43:59
   - kinds:
     - low_level
-    name: racetrack 3 leg 3
+    name: racetrack pattern 3 leg 3
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF06_rt03_l03
     start: 2020-09-04 16:43:59
@@ -410,7 +410,7 @@ segments:
     end: 2020-09-04 16:52:13
   - kinds:
     - low_level
-    name: racetrack 3 leg 4
+    name: racetrack pattern 3 leg 4
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF06_rt03_l04
     start: 2020-09-04 16:52:13
@@ -423,7 +423,7 @@ segments:
     end: 2020-09-04 17:02:16
   - kinds:
     - low_level
-    name: racetrack 3 leg 5
+    name: racetrack pattern 3 leg 5
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF06_rt03_l05
     start: 2020-09-04 17:02:16

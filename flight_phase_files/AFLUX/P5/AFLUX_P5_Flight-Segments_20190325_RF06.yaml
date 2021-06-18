@@ -176,7 +176,7 @@ segments:
   parts:
   - kinds:
     - low_level
-    name: racetrack 1 leg 1
+    name: racetrack pattern 1 leg 1
     irregularities: []
     segment_id: AFLUX_P5_RF06_rt01_l01
     start: 2019-03-25 12:31:18
@@ -189,7 +189,7 @@ segments:
     end: 2019-03-25 12:41:09
   - kinds:
     - low_level
-    name: racetrack 1 leg 2
+    name: racetrack pattern 1 leg 2
     irregularities: []
     segment_id: AFLUX_P5_RF06_rt01_l02
     start: 2019-03-25 12:41:09
@@ -202,7 +202,7 @@ segments:
     end: 2019-03-25 12:52:32
   - kinds:
     - low_level
-    name: racetrack 1 leg 3
+    name: racetrack pattern 1 leg 3
     irregularities: []
     segment_id: AFLUX_P5_RF06_rt01_l03
     start: 2019-03-25 12:52:32
@@ -245,7 +245,7 @@ segments:
   parts:
   - kinds:
     - small_descend
-    name: sawtooth 1 descend 1
+    name: sawtooth pattern 1 descend 1
     irregularities: []
     segment_id: AFLUX_P5_RF06_st01_d01
     start: 2019-03-25 13:06:57
@@ -253,7 +253,7 @@ segments:
     levels: [1100,200]
   - kinds:
     - small_ascend
-    name: sawtooth 1 ascend 1
+    name: sawtooth pattern 1 ascend 1
     irregularities: []
     segment_id: AFLUX_P5_RF06_st01_a01
     start: 2019-03-25 13:09:29
@@ -261,7 +261,7 @@ segments:
     levels: [300,1100]
   - kinds:
     - small_descend
-    name: sawtooth 1 descend 2
+    name: sawtooth pattern 1 descend 2
     irregularities: []
     segment_id: AFLUX_P5_RF06_st01_d02
     start: 2019-03-25 13:11:53
@@ -269,7 +269,7 @@ segments:
     levels: [1100,200]
   - kinds:
     - small_ascend
-    name: sawtooth 1 ascend 2
+    name: sawtooth pattern 1 ascend 2
     irregularities: []
     segment_id: AFLUX_P5_RF06_st01_a02
     start: 2019-03-25 13:14:11
@@ -277,7 +277,7 @@ segments:
     levels: [200,1100]
   - kinds:
     - small_descend
-    name: sawtooth 1 descend 3
+    name: sawtooth pattern 1 descend 3
     irregularities: []
     segment_id: AFLUX_P5_RF06_st01_d03
     start: 2019-03-25 13:16:38
@@ -285,7 +285,7 @@ segments:
     levels: [1100,200]
   - kinds:
     - small_ascend
-    name: sawtooth 1 ascend 3
+    name: sawtooth pattern 1 ascend 3
     irregularities: []
     segment_id: AFLUX_P5_RF06_st01_a03
     start: 2019-03-25 13:19:22
@@ -293,7 +293,7 @@ segments:
     levels: [200,1100]
   - kinds:
     - small_descend
-    name: sawtooth 1 descend 4
+    name: sawtooth pattern 1 descend 4
     irregularities: []
     segment_id: AFLUX_P5_RF06_st01_d04
     start: 2019-03-25 13:22:11
@@ -301,7 +301,7 @@ segments:
     levels: [1100,300]
   - kinds:
     - small_ascend
-    name: sawtooth 1 ascend 4
+    name: sawtooth pattern 1 ascend 4
     irregularities: []
     segment_id: AFLUX_P5_RF06_st01_a04
     start: 2019-03-25 13:24:38
@@ -309,7 +309,7 @@ segments:
     levels: [200,1300]
   - kinds:
     - small_descend
-    name: sawtooth 1 descend 5
+    name: sawtooth pattern 1 descend 5
     irregularities: []
     segment_id: AFLUX_P5_RF06_st01_d05
     start: 2019-03-25 13:28:11
@@ -352,7 +352,7 @@ segments:
   parts:
   - kinds:
     - low_level
-    name: racetrack 2 leg 1
+    name: racetrack pattern 2 leg 1
     irregularities: []
     segment_id: AFLUX_P5_RF06_rt02_l01
     start: 2019-03-25 13:38:15
@@ -365,7 +365,7 @@ segments:
     end: 2019-03-25 13:47:57
   - kinds:
     - low_level
-    name: racetrack 2 leg 2
+    name: racetrack pattern 2 leg 2
     irregularities: []
     segment_id: AFLUX_P5_RF06_rt02_l02
     start: 2019-03-25 13:47:57
@@ -378,7 +378,7 @@ segments:
     end: 2019-03-25 13:57:39
   - kinds:
     - low_level
-    name: racetrack 2 leg 3
+    name: racetrack pattern 2 leg 3
     irregularities: []
     segment_id: AFLUX_P5_RF06_rt02_l03
     start: 2019-03-25 13:57:39
@@ -433,7 +433,7 @@ segments:
   parts:
   - kinds:
     - small_descend
-    name: sawtooth 2 descend 1
+    name: sawtooth pattern 2 descend 1
     irregularities: []
     segment_id: AFLUX_P5_RF06_st02_d01
     start: 2019-03-25 14:32:17
@@ -441,7 +441,7 @@ segments:
     levels: [1900,200]
   - kinds:
     - low_level
-    name: sawtooth 2 low level 1
+    name: sawtooth pattern 2 low level 1
     irregularities: []
     segment_id: AFLUX_P5_RF06_st02_ll01
     start: 2019-03-25 14:36:59
@@ -449,7 +449,7 @@ segments:
     levels: [300]
   - kinds:
     - small_ascend
-    name: sawtooth 2 ascend 1
+    name: sawtooth pattern 2 ascend 1
     irregularities: []
     segment_id: AFLUX_P5_RF06_st02_a01
     start: 2019-03-25 14:38:53
@@ -457,7 +457,7 @@ segments:
     levels: [300,2300]
   - kinds:
     - small_descend
-    name: sawtooth 2 descend 2
+    name: sawtooth pattern 2 descend 2
     irregularities: []
     segment_id: AFLUX_P5_RF06_st02_d02
     start: 2019-03-25 14:41:59
@@ -465,7 +465,7 @@ segments:
     levels: [2300,300]
   - kinds:
     - low_level
-    name: sawtooth 2 low level 2
+    name: sawtooth pattern 2 low level 2
     irregularities: []
     segment_id: AFLUX_P5_RF06_st02_ll02
     start: 2019-03-25 14:47:41
@@ -473,7 +473,7 @@ segments:
     levels: [300]
   - kinds:
     - small_ascend
-    name: sawtooth 2 ascend 2
+    name: sawtooth pattern 2 ascend 2
     irregularities: []
     segment_id: AFLUX_P5_RF06_st02_a02
     start: 2019-03-25 14:49:44
@@ -481,7 +481,7 @@ segments:
     levels: [300,2500]
   - kinds:
     - small_descend
-    name: sawtooth 2 descend 3
+    name: sawtooth pattern 2 descend 3
     irregularities: []
     segment_id: AFLUX_P5_RF06_st02_d03
     start: 2019-03-25 14:53:46
@@ -489,7 +489,7 @@ segments:
     levels: [2500,200]
   - kinds:
     - low_level
-    name: sawtooth 2 low level 3
+    name: sawtooth pattern 2 low level 3
     irregularities: []
     segment_id: AFLUX_P5_RF06_st02_ll03
     start: 2019-03-25 14:59:44

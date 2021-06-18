@@ -220,16 +220,16 @@ segments:
   parts:
   - kinds:
     - small_descend
-    name: stairstep 1 small descend 1
+    name: stairstep pattern 1 descend 1
     irregularities: 
       - short turn during descend
-    segment_id: ACLOUD_P5_RF13_ss01_sd01
+    segment_id: ACLOUD_P5_RF13_ss01_d01
     start: 2017-06-05 13:25:25
     end: 2017-06-05 13:29:33
     levels: [2400, 600]
   - kinds:
     - low_level
-    name: stairstep 1 low level 1
+    name: stairstep pattern 1 low level 1
     irregularities: []
     segment_id: ACLOUD_P5_RF13_ss01_ll01
     start: 2017-06-05 13:29:33
@@ -237,16 +237,16 @@ segments:
     levels: [600]
   - kinds:
     - small_ascend
-    name: stairstep 1 small ascend 1
+    name: stairstep pattern 1 ascend 1
     irregularities: 
       - short turn during descend
-    segment_id: ACLOUD_P5_RF13_ss01_sa01
+    segment_id: ACLOUD_P5_RF13_ss01_a01
     start: 2017-06-05 13:39:55
     end: 2017-06-05 13:42:25
     levels: [600, 2000]
   - kinds:
     - low_level
-    name: stairstep 1 low level 2
+    name: stairstep pattern 1 low level 2
     irregularities: []
     segment_id: ACLOUD_P5_RF13_ss01_ll02
     start: 2017-06-05 13:42:25
@@ -254,15 +254,15 @@ segments:
     levels: [2000]
   - kinds:
     - medium_ascend
-    name: stairstep 1 medium ascend 1
+    name: stairstep pattern 1 ascend 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF13_ss01_ma01
+    segment_id: ACLOUD_P5_RF13_ss01_a02
     start: 2017-06-05 13:48:30
     end: 2017-06-05 13:55:12
     levels: [2000, 6900]
   - kinds:
     - high_level
-    name: stairstep 1 high level 1
+    name: stairstep pattern 1 high level 1
     irregularities: []
     segment_id: ACLOUD_P5_RF13_ss01_hl01
     start: 2017-06-05 13:55:12
@@ -270,9 +270,9 @@ segments:
     levels: [6900]
   - kinds:
     - small_ascend
-    name: stairstep 1 small ascend 2
+    name: stairstep pattern 1 ascend 3
     irregularities: []
-    segment_id: ACLOUD_P5_RF13_ss01_sa02
+    segment_id: ACLOUD_P5_RF13_ss01_a03
     start: 2017-06-05 13:57:10
     end: 2017-06-05 14:01:35
     levels: [6900, 9900]

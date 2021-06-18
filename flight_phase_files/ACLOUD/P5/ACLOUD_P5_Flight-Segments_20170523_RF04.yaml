@@ -20,7 +20,7 @@ events:
   - Ny-Alesund overflight
 remarks:
   - Clouds above open water and sea ice
-  - Eagle/Hawk showed some problems occurred due to a broken cable 
+  - Eagle/Hawk showed some problems due to a broken cable 
   - SMART connection was sometimes interrupted
   - Dropsonde system was not working
 segments:
@@ -307,7 +307,7 @@ segments:
     - high_level
     name: noseboom calibration pattern 1 leg 1
     irregularities: []
-    segment_id: ACLOUD_P5_RF04_nc01_l01
+    segment_id: ACLOUD_P5_RF04_np01_l01
     start: 2017-05-23 13:06:00
     end: 2017-05-23 13:06:40
     levels: [9300]
@@ -320,7 +320,7 @@ segments:
     - high_level
     name: noseboom calibration pattern 1 leg 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF04_nc01_l02
+    segment_id: ACLOUD_P5_RF04_np01_l02
     start: 2017-05-23 13:07:25
     end: 2017-05-23 13:08:30
     levels: [9300]
@@ -333,7 +333,7 @@ segments:
     - high_level
     name: noseboom calibration pattern 1 leg 3
     irregularities: []
-    segment_id: ACLOUD_P5_RF04_nc01_l03
+    segment_id: ACLOUD_P5_RF04_np01_l03
     start: 2017-05-23 13:09:15
     end: 2017-05-23 13:10:00
     levels: [9300]
@@ -346,7 +346,7 @@ segments:
     - high_level
     name: noseboom calibration pattern 1 leg 4
     irregularities: []
-    segment_id: ACLOUD_P5_RF04_nc01_l04
+    segment_id: ACLOUD_P5_RF04_np01_l04
     start: 2017-05-23 13:11:00
     end: 2017-05-23 13:12:05
     levels: [9300]
@@ -359,7 +359,7 @@ segments:
     - high_level
     name: noseboom calibration pattern 1 leg 5
     irregularities: []
-    segment_id: ACLOUD_P5_RF04_nc01_l05
+    segment_id: ACLOUD_P5_RF04_np01_l05
     start: 2017-05-23 13:13:00
     end: 2017-05-23 13:14:05
     levels: [9300]
@@ -372,7 +372,7 @@ segments:
     - high_level
     name: noseboom calibration pattern 1 leg 6
     irregularities: []
-    segment_id: ACLOUD_P5_RF04_nc01_l06
+    segment_id: ACLOUD_P5_RF04_np01_l06
     start: 2017-05-23 13:14:50
     end: 2017-05-23 13:16:15
     levels: [9400]
@@ -385,7 +385,7 @@ segments:
     - high_level
     name: noseboom calibration pattern 1 leg 7
     irregularities: []
-    segment_id: ACLOUD_P5_RF04_nc01_l07
+    segment_id: ACLOUD_P5_RF04_np01_l07
     start: 2017-05-23 13:16:50
     end: 2017-05-23 13:17:45
     levels: [9300]
@@ -398,7 +398,7 @@ segments:
     - high_level
     name: noseboom calibration pattern 1 leg 8
     irregularities: []
-    segment_id: ACLOUD_P5_RF04_nc01_l08
+    segment_id: ACLOUD_P5_RF04_np01_l08
     start: 2017-05-23 13:18:50
     end: 2017-05-23 13:19:40
     levels: [9300]
@@ -411,7 +411,7 @@ segments:
     - high_level
     name: noseboom calibration pattern 1 leg 9
     irregularities: []
-    segment_id: ACLOUD_P5_RF04_nc01_l09
+    segment_id: ACLOUD_P5_RF04_np01_l09
     start: 2017-05-23 13:20:15
     end: 2017-05-23 13:22:20
     levels: [9300]
@@ -424,7 +424,7 @@ segments:
     - high_level
     name: noseboom calibration pattern 1 leg 10
     irregularities: []
-    segment_id: ACLOUD_P5_RF04_nc01_l10
+    segment_id: ACLOUD_P5_RF04_np01_l10
     start: 2017-05-23 13:22:50
     end: 2017-05-23 13:24:30
     levels: [9400]
@@ -437,7 +437,7 @@ segments:
     - high_level
     name: noseboom calibration pattern 1 leg 11
     irregularities: []
-    segment_id: ACLOUD_P5_RF04_nc01_l11
+    segment_id: ACLOUD_P5_RF04_np01_l11
     start: 2017-05-23 13:25:00
     end: 2017-05-23 13:26:00
     levels: [9300]
@@ -450,7 +450,7 @@ segments:
     - high_level
     name: noseboom calibration pattern 1 leg 12
     irregularities: []
-    segment_id: ACLOUD_P5_RF04_nc01_l12
+    segment_id: ACLOUD_P5_RF04_np01_l12
     start: 2017-05-23 13:26:40
     end: 2017-05-23 13:27:45
     levels: [9300]

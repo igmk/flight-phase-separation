@@ -112,9 +112,9 @@ segments:
   parts:
   - kinds:
     - low_level
-    name: racetrack 1 leg 1
+    name: racetrack pattern 1 leg 1
     irregularities: []
-    segment_id: ACLOUD_P5_RF08_rt01_ll01
+    segment_id: ACLOUD_P5_RF08_rt01_l01
     start: 2017-05-29 06:01:15
     end: 2017-05-29 06:05:10
     levels: [200]
@@ -125,9 +125,9 @@ segments:
     end: 2017-05-29 06:06:20
   - kinds:
     - low_level
-    name: racetrack 1 leg 2
+    name: racetrack pattern 1 leg 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF08_rt01_ll02
+    segment_id: ACLOUD_P5_RF08_rt01_l02
     start: 2017-05-29 06:06:20
     end: 2017-05-29 06:09:55
     levels: [700]
@@ -138,10 +138,10 @@ segments:
     end: 2017-05-29 06:10:50
   - kinds:
     - low_level
-    name: racetrack 1 leg 3
+    name: racetrack pattern 1 leg 3
     irregularities: 
       - large roll angles during leg
-    segment_id: ACLOUD_P5_RF08_rt01_ll03
+    segment_id: ACLOUD_P5_RF08_rt01_l03
     start: 2017-05-29 06:10:50
     end: 2017-05-29 06:14:50
     levels: [1100]
@@ -152,10 +152,10 @@ segments:
     end: 2017-05-29 06:16:00
   - kinds:
     - low_level
-    name: racetrack 1 leg 4
+    name: racetrack pattern 1 leg 4
     irregularities: 
       - large roll angles during leg
-    segment_id: ACLOUD_P5_RF08_rt01_ll04
+    segment_id: ACLOUD_P5_RF08_rt01_l04
     start: 2017-05-29 06:16:00
     end: 2017-05-29 06:19:35
     levels: [1400]
@@ -225,9 +225,9 @@ segments:
   parts:
   - kinds:
     - low_level
-    name: racetrack 2 leg 1
+    name: racetrack pattern 2 leg 1
     irregularities: []
-    segment_id: ACLOUD_P5_RF08_rt02_ll01
+    segment_id: ACLOUD_P5_RF08_rt02_l01
     start: 2017-05-29 06:32:15
     end: 2017-05-29 06:36:30
     levels: [200]
@@ -238,9 +238,9 @@ segments:
     end: 2017-05-29 06:37:55
   - kinds:
     - low_level
-    name: racetrack 2 leg 2
+    name: racetrack pattern 2 leg 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF08_rt02_ll02
+    segment_id: ACLOUD_P5_RF08_rt02_l02
     start: 2017-05-29 06:37:55
     end: 2017-05-29 06:41:40
     levels: [400]
@@ -251,9 +251,9 @@ segments:
     end: 2017-05-29 06:42:45
   - kinds:
     - low_level
-    name: racetrack 2 leg 3
+    name: racetrack pattern 2 leg 3
     irregularities: []
-    segment_id: ACLOUD_P5_RF08_rt02_ll03
+    segment_id: ACLOUD_P5_RF08_rt02_l03
     start: 2017-05-29 06:42:45
     end: 2017-05-29 06:47:20
     levels: [900]
@@ -264,9 +264,9 @@ segments:
     end: 2017-05-29 06:48:40
   - kinds:
     - low_level
-    name: racetrack 2 leg 4
+    name: racetrack pattern 2 leg 4
     irregularities: []
-    segment_id: ACLOUD_P5_RF08_rt02_ll04
+    segment_id: ACLOUD_P5_RF08_rt02_l04
     start: 2017-05-29 06:48:40
     end: 2017-05-29 06:52:10
     levels: [1200]
@@ -277,9 +277,9 @@ segments:
     end: 2017-05-29 06:54:00
   - kinds:
     - low_level
-    name: racetrack 2 leg 5
+    name: racetrack pattern 2 leg 5
     irregularities: []
-    segment_id: ACLOUD_P5_RF08_rt02_ll05
+    segment_id: ACLOUD_P5_RF08_rt02_l05
     start: 2017-05-29 06:54:00
     end: 2017-05-29 06:56:27
     levels: [1400]
