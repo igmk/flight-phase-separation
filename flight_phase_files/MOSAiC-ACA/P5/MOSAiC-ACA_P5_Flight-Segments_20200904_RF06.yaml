@@ -15,10 +15,10 @@ date: 2020-09-04
 flight_report: https://home.uni-leipzig.de/~ehrlich/MOSAiC_ACA_wiki_doku/lib/exe/fetch.php?media=flight_report_20200904_06_mosaic_aca.pdf
 takeoff: 2020-09-04 12:11:50
 landing: 2020-09-04 17:41:30
-events: []
-remarks:
-- Profiles SW of Svalbard
-- Icing and re-orientation patterns
+events: 
+- Racetrack pattern over open ocean
+- Stairstep pattern over open ocean
+remarks: []
 segments:
 - kinds:
   - major_ascend

@@ -16,7 +16,7 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetc
 takeoff: 2019-03-24 10:01:50
 landing: 2019-03-24 14:51:30
 events: 
-  - Sawtooth pattern with low-level legs
+- Sawtooth pattern with low-level legs
 remarks: []
 segments:
 - kinds:

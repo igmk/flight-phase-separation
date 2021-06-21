@@ -14,9 +14,11 @@ takeoff: 2020-09-02 06:55:45
 landing: 2020-09-02 12:23:30
 events:
 - A-train underflight
+- Ny-Alesund overflight
 - Noseboom calibration
 - Radiation square pattern
 - Radiometer calibration
+- Racetrack pattern over open ocean
 remarks: []
 segments:
 - kinds:

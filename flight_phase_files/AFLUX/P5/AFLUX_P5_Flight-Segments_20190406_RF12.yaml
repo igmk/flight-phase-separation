@@ -16,7 +16,9 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetc
 takeoff: 2019-04-06 10:24:45
 landing: 2019-04-06 15:51:40
 events:
-  - Ny-Alesund overflight
+- Ny-Alesund overflight
+- Racetrack pattern over sea ice
+- Racetrack pattern over open ocean
 remarks:
 - Low-level clouds over sea ice weak cold air
 segments:

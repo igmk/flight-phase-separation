@@ -16,9 +16,9 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetc
 takeoff: 2019-04-11 09:37:45
 landing: 2019-04-11 15:14:45
 events:
-  - Racetrack pattern over sea ice
+- Racetrack pattern over sea ice
 remarks:
-  - Sharp cloud edge over homogeneous sea ice
+- Sharp cloud edge over homogeneous sea ice
 segments:
 - kinds:
   - major_ascend

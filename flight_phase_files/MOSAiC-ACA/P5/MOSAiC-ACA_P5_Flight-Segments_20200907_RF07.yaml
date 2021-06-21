@@ -16,7 +16,8 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/MOSAiC_ACA_wiki_doku/lib/exe
 takeoff: 2020-09-07 08:22:55
 landing: 2020-09-07 14:05:10
 events:
-  - Radiometer calibration
+- Radiometer calibration
+- Ny-Alesund overflight
 remarks: []
 segments:
 - kinds:

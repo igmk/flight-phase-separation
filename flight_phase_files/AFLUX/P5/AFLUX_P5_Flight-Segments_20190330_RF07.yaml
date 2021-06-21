@@ -16,7 +16,9 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetc
 takeoff: 2019-03-30 10:13:30
 landing: 2019-03-30 15:27:40
 events: 
-  - Ny-Alesund overflight
+- Ny-Alesund overflight
+- Racetrack pattern over sea ice
+- Sawtooth pattern with low-level legs
 remarks:
 - Cold air outbreak with thin clouds over sea ice
 segments:

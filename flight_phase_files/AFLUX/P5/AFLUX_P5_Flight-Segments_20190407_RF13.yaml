@@ -16,10 +16,11 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetc
 takeoff: 2019-04-07 07:21:35
 landing: 2019-04-07 12:16:40
 events:
-  - A-train underflight
-  - Ny-Alesund overflight
+- A-train underflight
+- Ny-Alesund overflight
+- Racetrack pattern over sea ice
 remarks:
-  - Thin low- and mid-level clouds
+- Thin low- and mid-level clouds
 segments:
 - kinds:
   - major_ascend

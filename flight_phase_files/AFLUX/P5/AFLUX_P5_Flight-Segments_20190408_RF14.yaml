@@ -15,7 +15,8 @@ date: 2019-04-08
 flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetch.php?media=14_20190408_aflux_flight_report.pdf
 takeoff: 2019-04-08 09:05:30
 landing: 2019-04-08 13:53:30
-events: []
+events: 
+- Ny-Alesund overflight
 remarks:
 - Cloud field spreading into the MIZ and migrating into surface based fog over closed
   sea ice

@@ -16,13 +16,13 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fet
 takeoff: 2017-05-23 09:11:47
 landing: 2017-05-23 14:23:40
 events: 
-  - Noseboom calibration
-  - Ny-Alesund overflight
+- Noseboom calibration
+- Ny-Alesund overflight
 remarks:
-  - Clouds above open water and sea ice
-  - Eagle/Hawk showed some problems due to a broken cable 
-  - SMART connection was sometimes interrupted
-  - Dropsonde system was not working
+- Clouds above open water and sea ice
+- Eagle/Hawk showed some problems due to a broken cable 
+- SMART connection was sometimes interrupted
+- Dropsonde system was not working
 segments:
 - kinds:
   - major_ascend

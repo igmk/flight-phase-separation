@@ -16,8 +16,8 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/MOSAiC_ACA_wiki_doku/lib/exe
 takeoff: 2020-09-11 08:19:40
 landing: 2020-09-11 13:59:30
 events: 
-  - Racetrack pattern over sea ice
-  - Racetrack pattern over open ocean
+- Racetrack pattern over sea ice
+- Racetrack pattern over open ocean
 remarks:
 - Cloud-free area north of Svalbard
 segments:

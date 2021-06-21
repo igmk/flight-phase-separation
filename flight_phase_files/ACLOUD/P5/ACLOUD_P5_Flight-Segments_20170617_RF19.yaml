@@ -17,6 +17,8 @@ takeoff: 2017-06-17 09:54:15
 landing: 2017-06-17 15:24:25
 events:
 - Joint flight with P6
+- Ny-Alesund overflight with cross pattern
+- Radiation square pattern
 remarks:
 - Clouds above open water and sea ice
 segments:
@@ -34,7 +36,7 @@ segments:
     UGLY: []
 - kinds:
   - cross_pattern
-  - polarstern_overflight
+  - nya_overflight
   name: cross pattern 1
   irregularities: []
   segment_id: ACLOUD_P5_RF19_cr01

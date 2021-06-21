@@ -15,7 +15,10 @@ date: 2019-03-31
 flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetch.php?media=08_20190331_aflux_flight_report.pdf
 takeoff: 2019-03-31 08:58:45
 landing: 2019-03-31 14:28:20
-events: []
+events: 
+- Racetrack pattern over sea ice
+- Racetrack pattern over open ocean
+- Sawtooth pattern with low-level legs
 remarks:
 - Cold air outbreak over sea ice and at the MIZ
 segments:
