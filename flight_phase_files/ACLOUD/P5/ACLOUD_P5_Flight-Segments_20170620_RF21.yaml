@@ -16,9 +16,10 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fet
 takeoff: 2017-06-20 07:32:00
 landing: 2017-06-20 13:51:30
 events:
-- Joint flight with P6
+- Joint flight between P5 and P6
 - Polarstern overflight with cross pattern
 - Racetrack pattern over sea ice
+- EAGLE/HAWK calibration
 remarks:
 - Clouds above open water and sea ice
 segments:

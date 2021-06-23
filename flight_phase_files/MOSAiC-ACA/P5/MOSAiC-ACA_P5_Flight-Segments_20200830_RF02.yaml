@@ -16,7 +16,7 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/MOSAiC_ACA_wiki_doku/lib/exe
 takeoff: 2020-08-30 08:14:30
 landing: 2020-08-30 09:07:30
 events: 
-- Test flight in LYR
+- Test flight
 remarks:
 - No segmentation apart from instrument_testing segment performed
 segments:

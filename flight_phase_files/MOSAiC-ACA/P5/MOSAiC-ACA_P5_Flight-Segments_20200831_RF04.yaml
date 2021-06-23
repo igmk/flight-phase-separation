@@ -16,7 +16,8 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/MOSAiC_ACA_wiki_doku/lib/exe
 takeoff: 2020-08-31 12:40:15
 landing: 2020-08-31 14:55:00
 events: 
-- Joint test flight with P6
+- Test flight
+- Joint flight between P5 and P6
 remarks: []
 segments:
 - kinds:

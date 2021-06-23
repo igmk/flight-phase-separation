@@ -13,7 +13,7 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetc
 takeoff: 2019-03-19 16:35:45
 landing: 2019-03-19 17:55:05
 events:
-- Test of instrumentation
+- Test flight
 remarks: []
 segments:
 - kinds:

@@ -3,7 +3,7 @@ mission: ACLOUD
 platform: P5
 flight_id: ACLOUD_P5_RF16
 contacts:
-- name: André Ehrlich
+- name: Andre Ehrlich
   email: a.ehrlich@uni-leipzig.de
   tags:
     - pi
@@ -17,7 +17,8 @@ takeoff: 2017-06-13 14:56:10
 landing: 2017-06-13 17:00:05
 events:
 - Noseboom calibration
-- Joint test flight with P6
+- Test flight
+- Joint flight between P5 and P6
 remarks: []
 segments:
 - kinds:
