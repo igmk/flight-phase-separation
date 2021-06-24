@@ -103,6 +103,8 @@ class SegmentCatalog:
                                    'small_ascend',
                                    'small_descend',
                                    'large_descend',
+                                   'medium_descend',
+                                   'medium_ascend',
                                    'profiling',
                                    'large_ascend'
                                    ], 
@@ -260,15 +262,14 @@ class SegmentCatalog:
     
     # events
     events = ['A-train underflight',
-              'Calibration of 5-hole probe',
               'Certification flight (PMS instruments)',
-              'Test flight in LYR',
-              'Joint test flight with P6',
+              'Test flight',
+              #'Test of instrumentation',  # Test flight in LYR
+              #'Joint test flight with P6',
               'Instrument intercomparison between P5 and P6',
+
               'Colocation with P6 at Polarstern',
-              'Joint flight with P6',
-              'Calibration circles for AIMMS20',
-              'Test of instrumentation',
+              'Joint flight between P5 and P6',
               
               'Ny-Alesund overflight',
               'Ny-Alesund overflight with cross pattern',
@@ -285,11 +286,13 @@ class SegmentCatalog:
               'Stairstep pattern over open ocean',
               
               'Sawtooth pattern with low-level legs',
+
               'Radiation square pattern',
-              'Boundary layer profiling',
               
               'Radiometer calibration',
-              'Noseboom calibration',
+              'Noseboom calibration',  # == Calibration of 5-hole probe
+              'EAGLE/HAWK calibration',
+              'AIMMS-20 calibration',
               ]
     
     # remarks
@@ -297,7 +300,7 @@ class SegmentCatalog:
                # on instruments
                'AMALi pointing zenith', 
                'Dropsonde system was not working',
-               'Eagle/Hawk showed some problems due to a broken cable',
+               'EAGLE/HAWK showed some problems due to a broken cable',
                'MiRAC not working',
                'SMART connection was sometimes interrupted', 
                'SMART not working',
@@ -326,6 +329,9 @@ class SegmentCatalog:
                'Thin low- and mid-level clouds',
                'Thin low clouds over sea ice',
                'Cloud-free area north of Svalbard',
+
+               # icing conditions
+               'Icing problems',
                ]
 
 
@@ -534,6 +540,7 @@ def main(flight, meta):
                 for part in segment['parts']:
                     for kind_part in part['kinds']:
                         if kind_part in SegmentCatalog.regular:
+                            assert part.get('levels') is not None, 'Part {} should contain key word "levels"'.format(part['segment_id'])
                             levels_lst.append(part['levels'])
     
     for levels in levels_lst:
@@ -626,9 +633,6 @@ if __name__ == '__main__':
                       'number': info[4], 
                       'aircraft': info[1], 
                       'date': info[3]}
-            
-            if meta['flight_id'] == 'ACLOUD_P5_RF16' or meta['flight_id'] == 'ACLOUD_P5_RF17':
-                continue
             
             main(flight, meta)
             

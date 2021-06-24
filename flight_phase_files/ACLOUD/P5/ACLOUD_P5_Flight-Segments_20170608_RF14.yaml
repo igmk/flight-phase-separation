@@ -232,9 +232,13 @@ segments:
     levels: [200]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 1 ascend 1
+    irregularities: []
+    segment_id: ACLOUD_P5_RF14_rt01_a01
     start: 2017-06-08 10:29:21
     end: 2017-06-08 10:31:41
+    levels: [200, 300]
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 2
@@ -245,9 +249,13 @@ segments:
     levels: [300]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 1 ascend 2
+    irregularities: []
+    segment_id: ACLOUD_P5_RF14_rt01_a02
     start: 2017-06-08 10:40:27
     end: 2017-06-08 10:42:41
+    levels: [300, 1500]
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 3
@@ -259,9 +267,9 @@ segments:
   - kinds:
     - procedure_turn
     - small_ascend
-    name: racetrack pattern 1 ascend 1
+    name: racetrack pattern 1 ascend 3
     irregularities: []
-    segment_id: ACLOUD_P5_RF14_rt01_a01
+    segment_id: ACLOUD_P5_RF14_rt01_a03
     start: 2017-06-08 10:50:04
     end: 2017-06-08 10:52:54
     levels: [1500, 2400]

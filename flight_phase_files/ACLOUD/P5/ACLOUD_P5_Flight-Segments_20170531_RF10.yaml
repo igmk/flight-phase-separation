@@ -355,9 +355,13 @@ segments:
       UGLY: []
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 1 ascend 1
+    irregularities: []
+    segment_id: ACLOUD_P5_RF10_rt01_a01
     start: 2017-05-31 17:27:50
     end: 2017-05-31 17:29:30
+    levels: [200, 500]
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 2
@@ -372,9 +376,13 @@ segments:
       UGLY: []
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 1 ascend 2
+    irregularities: []
+    segment_id: ACLOUD_P5_RF10_rt01_a02
     start: 2017-05-31 17:35:15
     end: 2017-05-31 17:36:50
+    levels: [500, 800]
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 3
@@ -389,9 +397,13 @@ segments:
       UGLY: []
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 1 ascend 3
+    irregularities: []
+    segment_id: ACLOUD_P5_RF10_rt01_a03
     start: 2017-05-31 17:38:55
     end: 2017-05-31 17:41:10
+    levels: [800, 1400]
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 4
@@ -406,9 +418,13 @@ segments:
       UGLY: []
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 1 ascend 4
+    irregularities: []
+    segment_id: ACLOUD_P5_RF10_rt01_a04
     start: 2017-05-31 17:44:40
     end: 2017-05-31 17:46:30
+    levels: [1400, 2900]
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 5

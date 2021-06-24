@@ -115,9 +115,13 @@ segments:
     levels: [200]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 1 ascend 1
+    irregularities: []
+    segment_id: ACLOUD_P5_RF23_rt01_a01
     start: 2017-06-25 12:17:35
     end: 2017-06-25 12:19:05
+    levels: [200, 300]
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 2
@@ -128,9 +132,13 @@ segments:
     levels: [300]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 1 ascend 2
+    irregularities: []
+    segment_id: ACLOUD_P5_RF23_rt01_a02
     start: 2017-06-25 12:27:50
     end: 2017-06-25 12:31:40
+    levels: [300, 400]
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 3
@@ -141,9 +149,13 @@ segments:
     levels: [400]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 1 ascend 3
+    irregularities: []
+    segment_id: ACLOUD_P5_RF23_rt01_a03
     start: 2017-06-25 12:40:20
     end: 2017-06-25 12:42:00
+    levels: [400, 500]
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 4
@@ -228,9 +240,13 @@ segments:
     levels: [200]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 2 ascend 1
+    irregularities: []
+    segment_id: ACLOUD_P5_RF23_rt02_a01
     start: 2017-06-25 13:14:20
     end: 2017-06-25 13:16:25
+    levels: [200, 300]
   - kinds:
     - low_level
     name: racetrack pattern 2 leg 2
@@ -241,9 +257,13 @@ segments:
     levels: [300]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 2 ascend 2
+    irregularities: []
+    segment_id: ACLOUD_P5_RF23_rt02_a02
     start: 2017-06-25 13:24:10
     end: 2017-06-25 13:26:10
+    levels: [300, 400]
   - kinds:
     - low_level
     name: racetrack pattern 2 leg 3
@@ -254,9 +274,13 @@ segments:
     levels: [400]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 2 ascend 3
+    irregularities: []
+    segment_id: ACLOUD_P5_RF23_rt02_a03
     start: 2017-06-25 13:35:00
     end: 2017-06-25 13:37:50
+    levels: [400, 500]
   - kinds:
     - low_level
     name: racetrack pattern 2 leg 4
@@ -349,9 +373,13 @@ segments:
     levels: [200]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 3 ascend 1
+    irregularities: []
+    segment_id: ACLOUD_P5_RF23_rt03_a01
     start: 2017-06-25 14:28:25
     end: 2017-06-25 14:30:15
+    levels: [200, 300]
   - kinds:
     - low_level
     name: racetrack pattern 3 leg 3
@@ -375,9 +403,13 @@ segments:
     levels: [300]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 3 ascend 2
+    irregularities: []
+    segment_id: ACLOUD_P5_RF23_rt03_a02
     start: 2017-06-25 14:48:05
     end: 2017-06-25 14:50:30
+    levels: [300, 500]
   - kinds:
     - low_level
     name: racetrack pattern 3 leg 5
@@ -470,9 +502,13 @@ segments:
     levels: [200]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 4 ascend 1
+    irregularities: []
+    segment_id: ACLOUD_P5_RF23_rt04_a01
     start: 2017-06-25 15:23:10
     end: 2017-06-25 15:24:45
+    levels: [200, 300]
   - kinds:
     - low_level
     name: racetrack pattern 4 leg 2
@@ -496,9 +532,13 @@ segments:
     levels: [300]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 4 ascend 2
+    irregularities: []
+    segment_id: ACLOUD_P5_RF23_rt04_a02
     start: 2017-06-25 15:43:30
     end: 2017-06-25 15:45:45
+    levels: [300, 400]
   - kinds:
     - low_level
     name: racetrack pattern 4 leg 4
@@ -509,9 +549,13 @@ segments:
     levels: [400]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 4 ascend 3
+    irregularities: []
+    segment_id: ACLOUD_P5_RF23_rt04_a03
     start: 2017-06-25 15:53:40
     end: 2017-06-25 15:55:30
+    levels: [400, 500]
   - kinds:
     - low_level
     name: racetrack pattern 4 leg 5

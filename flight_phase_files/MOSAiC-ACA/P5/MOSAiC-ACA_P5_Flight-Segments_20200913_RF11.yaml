@@ -187,9 +187,13 @@ segments:
     levels: [200]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 1 ascend 1
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF11_rt01_a01
     start: 2020-09-13 11:32:00
     end: 2020-09-13 11:35:30
+    levels: [200, 850]
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 2
@@ -200,9 +204,13 @@ segments:
     levels: [850]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 1 ascend 2
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF11_rt01_a02
     start: 2020-09-13 11:43:39
     end: 2020-09-13 11:48:00
+    levels: [850, 1300]
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 3
@@ -213,9 +221,13 @@ segments:
     levels: [1300]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 1 ascend 3
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF11_rt01_a03
     start: 2020-09-13 11:51:40
     end: 2020-09-13 11:54:31
+    levels: [1300, 1500]
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 4
@@ -226,9 +238,13 @@ segments:
     levels: [1500]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 1 ascend 4
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF11_rt01_a04
     start: 2020-09-13 12:02:40
     end: 2020-09-13 12:08:20
+    levels: [1500, 1700]
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 5
@@ -416,9 +432,13 @@ segments:
     levels: [500]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 2 ascend 1
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF11_rt02_a01
     start: 2020-09-13 13:25:18
     end: 2020-09-13 13:29:57
+    levels: [500, 800]
   - kinds:
     - low_level
     name: racetrack pattern 2 leg 2
@@ -429,9 +449,13 @@ segments:
     levels: [800]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 2 ascend 2
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF11_rt02_a02
     start: 2020-09-13 13:34:36
     end: 2020-09-13 13:37:26
+    levels: [800, 1000]
   - kinds:
     - low_level
     name: racetrack pattern 2 leg 3
@@ -442,9 +466,13 @@ segments:
     levels: [1000]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 2 ascend 3
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF11_rt02_a03
     start: 2020-09-13 13:45:03
     end: 2020-09-13 13:49:24
+    levels: [1000, 1200]
   - kinds:
     - low_level
     name: racetrack pattern 2 leg 4

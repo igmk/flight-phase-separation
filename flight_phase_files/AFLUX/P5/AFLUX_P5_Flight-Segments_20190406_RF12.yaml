@@ -115,9 +115,13 @@ segments:
     levels: [200]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 1 ascend 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF12_rt01_a01
     start: 2019-04-06 11:55:05
     end: 2019-04-06 11:58:00
+    levels: [200, 400]
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 2
@@ -128,9 +132,13 @@ segments:
     levels: [400]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 1 ascend 2
+    irregularities: []
+    segment_id: AFLUX_P5_RF12_rt01_a02
     start: 2019-04-06 12:05:20
     end: 2019-04-06 12:07:55
+    levels: [400, 600]
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 3
@@ -141,9 +149,13 @@ segments:
     levels: [600]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 1 ascend 3
+    irregularities: []
+    segment_id: AFLUX_P5_RF12_rt01_a03
     start: 2019-04-06 12:14:05
     end: 2019-04-06 12:17:15
+    levels: [600, 800]
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 4
@@ -154,9 +166,13 @@ segments:
     levels: [800]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 1 ascend 4
+    irregularities: []
+    segment_id: AFLUX_P5_RF12_rt01_a04
     start: 2019-04-06 12:24:35
     end: 2019-04-06 12:27:20
+    levels: [800, 1000]
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 5
@@ -288,9 +304,13 @@ segments:
     levels: [300]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 2 ascend 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF12_rt02_a01
     start: 2019-04-06 13:04:35
     end: 2019-04-06 13:07:15
+    levels: [300, 400]
   - kinds:
     - low_level
     name: racetrack pattern 2 leg 2
@@ -301,9 +321,13 @@ segments:
     levels: [400]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 2 ascend 2
+    irregularities: []
+    segment_id: AFLUX_P5_RF12_rt02_a02
     start: 2019-04-06 13:15:35
     end: 2019-04-06 13:18:05
+    levels: [400, 600]
   - kinds:
     - low_level
     name: racetrack pattern 2 leg 3
@@ -314,9 +338,13 @@ segments:
     levels: [600]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 2 ascend 3
+    irregularities: []
+    segment_id: AFLUX_P5_RF12_rt02_a03
     start: 2019-04-06 13:24:00
     end: 2019-04-06 13:27:40
+    levels: [600, 800]
   - kinds:
     - low_level
     name: racetrack pattern 2 leg 4
@@ -327,9 +355,13 @@ segments:
     levels: [800]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 2 ascend 4
+    irregularities: []
+    segment_id: AFLUX_P5_RF12_rt02_a04
     start: 2019-04-06 13:34:40
     end: 2019-04-06 13:37:20
+    levels: [800, 1000]
   - kinds:
     - low_level
     name: racetrack pattern 2 leg 5
@@ -340,9 +372,13 @@ segments:
     levels: [1000]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 2 ascend 5
+    irregularities: []
+    segment_id: AFLUX_P5_RF12_rt02_a05
     start: 2019-04-06 13:43:20
     end: 2019-04-06 13:45:55
+    levels: [1000, 1200]
   - kinds:
     - low_level
     name: racetrack pattern 2 leg 6
@@ -445,9 +481,13 @@ segments:
     levels: [200]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 3 ascend 1
+    irregularities: []
+    segment_id: AFLUX_P5_RF12_rt03_a01
     start: 2019-04-06 14:12:00
     end: 2019-04-06 14:14:35
+    levels: [200, 400]
   - kinds:
     - low_level
     name: racetrack pattern 3 leg 2
@@ -458,9 +498,13 @@ segments:
     levels: [400]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 3 ascend 2
+    irregularities: []
+    segment_id: AFLUX_P5_RF12_rt03_a02
     start: 2019-04-06 14:23:00
     end: 2019-04-06 14:25:25
+    levels: [400, 600]
   - kinds:
     - low_level
     name: racetrack pattern 3 leg 3
@@ -471,9 +515,13 @@ segments:
     levels: [600]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 3 ascend 3
+    irregularities: []
+    segment_id: AFLUX_P5_RF12_rt03_a03
     start: 2019-04-06 14:30:55
     end: 2019-04-06 14:33:30
+    levels: [600, 800]
   - kinds:
     - low_level
     name: racetrack pattern 3 leg 4
@@ -484,9 +532,13 @@ segments:
     levels: [800]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 3 ascend 4
+    irregularities: []
+    segment_id: AFLUX_P5_RF12_rt03_a04
     start: 2019-04-06 14:40:20
     end: 2019-04-06 14:42:35
+    levels: [800, 1000]
   - kinds:
     - low_level
     name: racetrack pattern 3 leg 5
@@ -497,9 +549,13 @@ segments:
     levels: [1000]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 3 ascend 5
+    irregularities: []
+    segment_id: AFLUX_P5_RF12_rt03_a05
     start: 2019-04-06 14:48:20
     end: 2019-04-06 14:51:05
+    levels: [1000, 1200]
   - kinds:
     - low_level
     name: racetrack pattern 3 leg 6
@@ -510,9 +566,13 @@ segments:
     levels: [1200]
   - kinds:
     - procedure_turn
-    name: procedure turn
+    - small_ascend
+    name: racetrack pattern 3 ascend 6
+    irregularities: []
+    segment_id: AFLUX_P5_RF12_rt03_a06
     start: 2019-04-06 14:57:30
     end: 2019-04-06 15:00:10
+    levels: [1200, 1400]
   - kinds:
     - low_level
     name: racetrack pattern 3 leg 7
