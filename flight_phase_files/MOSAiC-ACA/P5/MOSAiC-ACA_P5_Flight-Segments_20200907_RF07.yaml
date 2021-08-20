@@ -3,14 +3,14 @@ mission: MOSAiC-ACA
 platform: P5
 flight_id: MOSAiC-ACA_P5_RF07
 contacts:
-  - name: Mario Mech
-    email: mario.mech@uni-koeln.de
-    tags:
-      - lc
-  - name: Andre Ehrlich
-    email: a.ehrlich@uni-leipzig.de
-    tags:
-      - pi  
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+  - lc
+- name: Andre Ehrlich
+  email: a.ehrlich@uni-leipzig.de
+  tags:
+  - pi
 date: 2020-09-07
 flight_report: https://home.uni-leipzig.de/~ehrlich/MOSAiC_ACA_wiki_doku/lib/exe/fetch.php?media=07_20200907_mosaic-aca_flight_report.pdf
 takeoff: 2020-09-07 08:22:55
@@ -27,10 +27,10 @@ segments:
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF07_ma
   start: 2020-09-07 08:22:55
-  end: 2020-09-07 08:35:43
+  end: 2020-09-07 08:35:42
   levels:
-    - 100
-    - 9400
+  - 100
+  - 9400
   dropsondes:
     GOOD: []
     BAD: []
@@ -41,9 +41,9 @@ segments:
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF07_hl01
   start: 2020-09-07 08:35:43
-  end: 2020-09-07 09:04:13
+  end: 2020-09-07 09:04:12
   levels:
-    - 9400
+  - 9400
   dropsondes:
     GOOD: []
     BAD: []
@@ -52,21 +52,21 @@ segments:
   - short_turn
   name: short turn
   start: 2020-09-07 09:04:13
-  end: 2020-09-07 09:05:24
+  end: 2020-09-07 09:05:23
 - kinds:
   - high_level
   name: high level 2
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF07_hl02
   start: 2020-09-07 09:05:24
-  end: 2020-09-07 09:47:22
+  end: 2020-09-07 09:47:21
   levels:
-    - 9400
+  - 9400
   dropsondes:
     GOOD:
-      - P5_RF07_sonde01
-      - P5_RF07_sonde02
-      - P5_RF07_sonde03
+    - P5_RF07_sonde01
+    - P5_RF07_sonde02
+    - P5_RF07_sonde03
     BAD: []
     UGLY: []
 - kinds:
@@ -75,8 +75,10 @@ segments:
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF07_sa01
   start: 2020-09-07 09:47:22
-  end: 2020-09-07 09:49:01
-  levels: [9400, 10400]
+  end: 2020-09-07 09:49:00
+  levels:
+  - 9400
+  - 10400
   dropsondes:
     GOOD: []
     BAD: []
@@ -87,29 +89,29 @@ segments:
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF07_hl03
   start: 2020-09-07 09:49:01
-  end: 2020-09-07 10:26:21
+  end: 2020-09-07 10:26:20
   levels:
-    - 10400
+  - 10400
   dropsondes:
     GOOD:
-      - P5_RF07_sonde04
-      - P5_RF07_sonde05
+    - P5_RF07_sonde04
+    - P5_RF07_sonde05
     BAD: []
     UGLY: []
 - kinds:
   - short_turn
   name: short turn
   start: 2020-09-07 10:26:21
-  end: 2020-09-07 10:27:43
+  end: 2020-09-07 10:27:42
 - kinds:
   - high_level
   name: high level 4
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF07_hl04
-  start: 2020-09-07 10:27:43 
-  end: 2020-09-07 10:49:02
+  start: 2020-09-07 10:27:43
+  end: 2020-09-07 10:49:01
   levels:
-    - 10400
+  - 10400
   dropsondes:
     GOOD: []
     BAD: []
@@ -118,29 +120,29 @@ segments:
   - short_turn
   name: short turn
   start: 2020-09-07 10:49:02
-  end: 2020-09-07 10:50:15
+  end: 2020-09-07 10:50:14
 - kinds:
   - high_level
   name: high level 5
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF07_hl05
   start: 2020-09-07 10:50:15
-  end: 2020-09-07 12:11:27
+  end: 2020-09-07 12:11:26
   levels:
-    - 10300
+  - 10300
   dropsondes:
     GOOD:
-      - P5_RF07_sonde06
-      - P5_RF07_sonde07
-      - P5_RF07_sonde08
-      - P5_RF07_sonde09
+    - P5_RF07_sonde06
+    - P5_RF07_sonde07
+    - P5_RF07_sonde08
+    - P5_RF07_sonde09
     BAD: []
     UGLY: []
 - kinds:
   - short_turn
   name: short turn
   start: 2020-09-07 12:11:27
-  end: 2020-09-07 12:12:15
+  end: 2020-09-07 12:12:14
 - kinds:
   - high_level
   - radiometer_calibration
@@ -148,9 +150,9 @@ segments:
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF07_hl06
   start: 2020-09-07 12:12:15
-  end: 2020-09-07 12:15:45
+  end: 2020-09-07 12:15:44
   levels:
-    - 10300
+  - 10300
   dropsondes:
     GOOD: []
     BAD: []
@@ -159,7 +161,7 @@ segments:
   - short_turn
   name: short turn
   start: 2020-09-07 12:15:45
-  end: 2020-09-07 12:17:00
+  end: 2020-09-07 12:16:59
 - kinds:
   - high_level
   - radiometer_calibration
@@ -167,12 +169,12 @@ segments:
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF07_hl07
   start: 2020-09-07 12:17:00
-  end: 2020-09-07 12:21:47
+  end: 2020-09-07 12:21:46
   levels:
-    - 10300
+  - 10300
   dropsondes:
     GOOD:
-      - P5_RF07_sonde10
+    - P5_RF07_sonde10
     BAD: []
     UGLY: []
 - kinds:
@@ -181,8 +183,10 @@ segments:
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF07_sd01
   start: 2020-09-07 12:21:47
-  end: 2020-09-07 12:24:00
-  levels: [10300, 9300]
+  end: 2020-09-07 12:23:59
+  levels:
+  - 10300
+  - 9300
   dropsondes:
     GOOD: []
     BAD: []
@@ -191,52 +195,52 @@ segments:
   - short_turn
   name: short turn
   start: 2020-09-07 12:24:00
-  end: 2020-09-07 12:25:30
+  end: 2020-09-07 12:25:29
 - kinds:
   - high_level
   name: high level 8
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF07_hl08
-  start: 2020-09-07 12:25:30 
-  end: 2020-09-07 12:49:48
+  start: 2020-09-07 12:25:30
+  end: 2020-09-07 12:49:47
   levels:
-    - 9300
+  - 9300
   dropsondes:
     GOOD:
-      - P5_RF07_sonde11
-      - P5_RF07_sonde12
+    - P5_RF07_sonde11
+    - P5_RF07_sonde12
     BAD: []
     UGLY: []
 - kinds:
   - short_turn
   name: short turn
   start: 2020-09-07 12:49:48
-  end: 2020-09-07 12:52:00
+  end: 2020-09-07 12:51:59
 - kinds:
   - high_level
   name: high level 9
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF07_hl09
   start: 2020-09-07 12:52:00
-  end: 2020-09-07 13:40:52
+  end: 2020-09-07 13:40:51
   levels:
-    - 9300
+  - 9300
   dropsondes:
     GOOD:
-      - P5_RF07_sonde13
-      - P5_RF07_sonde14
+    - P5_RF07_sonde13
+    - P5_RF07_sonde14
     BAD: []
     UGLY: []
 - kinds:
   - major_descend
-  name: major descend 
+  name: major descend
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF07_md
   start: 2020-09-07 13:40:52
   end: 2020-09-07 14:05:10
   levels:
-    - 9300
-    - 100
+  - 9300
+  - 100
   dropsondes:
     GOOD: []
     BAD: []

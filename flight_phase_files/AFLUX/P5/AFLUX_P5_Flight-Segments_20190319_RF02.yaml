@@ -6,8 +6,8 @@ contacts:
 - name: Mario Mech
   email: mario.mech@uni-koeln.de
   tags:
-    - lc
-    - pi
+  - lc
+  - pi
 date: 2019-03-19
 flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetch.php?media=02_20190319_aflux_flight_report.pdf
 takeoff: 2019-03-19 16:35:45
@@ -22,8 +22,10 @@ segments:
   irregularities: []
   segment_id: AFLUX_P5_RF02_ma
   start: 2019-03-19 16:35:45
-  end: 2019-03-19 16:46:29
-  levels: [100,9500]
+  end: 2019-03-19 16:46:28
+  levels:
+  - 100
+  - 9500
   dropsondes:
     GOOD: []
     BAD: []
@@ -34,11 +36,12 @@ segments:
   irregularities: []
   segment_id: AFLUX_P5_RF02_hl01
   start: 2019-03-19 16:46:29
-  end: 2019-03-19 17:14:09
-  levels: [9400]
+  end: 2019-03-19 17:14:08
+  levels:
+  - 9400
   dropsondes:
     GOOD:
-      - P5_RF02_sonde01
+    - P5_RF02_sonde01
     BAD: []
     UGLY: []
 - kinds:
@@ -48,8 +51,10 @@ segments:
   irregularities: []
   segment_id: AFLUX_P5_RF02_md01
   start: 2019-03-19 17:14:09
-  end: 2019-03-19 17:20:05
-  levels: [9400,3000]
+  end: 2019-03-19 17:20:04
+  levels:
+  - 9400
+  - 3000
   dropsondes:
     GOOD: []
     BAD: []
@@ -60,8 +65,10 @@ segments:
   irregularities: []
   segment_id: AFLUX_P5_RF02_ma01
   start: 2019-03-19 17:20:05
-  end: 2019-03-19 17:28:07
-  levels: [3000,9400]
+  end: 2019-03-19 17:28:06
+  levels:
+  - 3000
+  - 9400
   dropsondes:
     GOOD: []
     BAD: []
@@ -71,9 +78,10 @@ segments:
   name: high level 2
   irregularities: []
   segment_id: AFLUX_P5_RF02_hl02
-  start: 2019-03-19 17:28:07 
-  end: 2019-03-19 17:36:41
-  levels: [9300]
+  start: 2019-03-19 17:28:07
+  end: 2019-03-19 17:36:40
+  levels:
+  - 9300
   dropsondes:
     GOOD: []
     BAD: []
@@ -85,7 +93,9 @@ segments:
   segment_id: AFLUX_P5_RF02_md
   start: 2019-03-19 17:36:41
   end: 2019-03-19 17:55:05
-  levels: [9300,100]
+  levels:
+  - 9300
+  - 100
   dropsondes:
     GOOD: []
     BAD: []

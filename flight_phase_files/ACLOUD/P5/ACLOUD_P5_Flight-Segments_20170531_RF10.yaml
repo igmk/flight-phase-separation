@@ -6,11 +6,11 @@ contacts:
 - name: Andre Ehrlich
   email: a.ehrlich@uni-leipzig.de
   tags:
-    - pi
+  - pi
 - name: Nils Risse
   email: n.risse@uni-koeln.de
   tags:
-    - lc
+  - lc
 date: 2017-05-31
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=10_20170531_p5_acloud_flight_report.pdf
 takeoff: 2017-05-31 15:05:50
@@ -31,8 +31,11 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P5_RF10_ma
   start: 2017-05-31 15:05:50
-  end: 2017-05-31 15:22:20
-  levels: [100, 1000, 3100]
+  end: 2017-05-31 15:22:19
+  levels:
+  - 100
+  - 1000
+  - 3100
   dropsondes:
     GOOD: []
     BAD: []
@@ -41,11 +44,13 @@ segments:
   - small_descend
   name: small descend 1
   irregularities:
-    - slight variation in roll angle
+  - slight variation in roll angle
   segment_id: ACLOUD_P5_RF10_sd01
   start: 2017-05-31 15:22:20
-  end: 2017-05-31 15:26:55
-  levels: [3100, 1100]
+  end: 2017-05-31 15:26:54
+  levels:
+  - 3100
+  - 1100
   dropsondes:
     GOOD: []
     BAD: []
@@ -57,8 +62,9 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P5_RF10_ll01
   start: 2017-05-31 15:26:55
-  end: 2017-05-31 15:36:40
-  levels: [1000]
+  end: 2017-05-31 15:36:39
+  levels:
+  - 1000
   dropsondes:
     GOOD: []
     BAD: []
@@ -67,15 +73,16 @@ segments:
   - short_turn
   name: short turn
   start: 2017-05-31 15:36:40
-  end: 2017-05-31 15:37:40
+  end: 2017-05-31 15:37:39
 - kinds:
   - low_level
   name: low level 2
   irregularities: []
   segment_id: ACLOUD_P5_RF10_ll02
   start: 2017-05-31 15:37:40
-  end: 2017-05-31 15:44:45
-  levels: [1100]
+  end: 2017-05-31 15:44:44
+  levels:
+  - 1100
   dropsondes:
     GOOD: []
     BAD: []
@@ -86,8 +93,10 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P5_RF10_sa01
   start: 2017-05-31 15:44:45
-  end: 2017-05-31 15:49:50
-  levels: [1100, 4100]
+  end: 2017-05-31 15:49:49
+  levels:
+  - 1100
+  - 4100
   dropsondes:
     GOOD: []
     BAD: []
@@ -98,8 +107,10 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P5_RF10_md01
   start: 2017-05-31 15:49:50
-  end: 2017-05-31 15:54:15
-  levels: [4100, 300]
+  end: 2017-05-31 15:54:14
+  levels:
+  - 4100
+  - 300
   dropsondes:
     GOOD: []
     BAD: []
@@ -110,8 +121,9 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P5_RF10_ll03
   start: 2017-05-31 15:54:15
-  end: 2017-05-31 16:00:20
-  levels: [300]
+  end: 2017-05-31 16:00:19
+  levels:
+  - 300
   dropsondes:
     GOOD: []
     BAD: []
@@ -120,15 +132,16 @@ segments:
   - short_turn
   name: short turn
   start: 2017-05-31 16:00:20
-  end: 2017-05-31 16:00:40
+  end: 2017-05-31 16:00:39
 - kinds:
   - low_level
   name: low level 4
   irregularities: []
   segment_id: ACLOUD_P5_RF10_ll04
   start: 2017-05-31 16:00:40
-  end: 2017-05-31 16:12:05
-  levels: [300]
+  end: 2017-05-31 16:12:04
+  levels:
+  - 300
   dropsondes:
     GOOD: []
     BAD: []
@@ -137,15 +150,16 @@ segments:
   - short_turn
   name: short turn
   start: 2017-05-31 16:12:05
-  end: 2017-05-31 16:12:40
+  end: 2017-05-31 16:12:39
 - kinds:
   - low_level
   name: low level 5
   irregularities: []
   segment_id: ACLOUD_P5_RF10_ll05
   start: 2017-05-31 16:12:40
-  end: 2017-05-31 16:14:35
-  levels: [300]
+  end: 2017-05-31 16:14:34
+  levels:
+  - 300
   dropsondes:
     GOOD: []
     BAD: []
@@ -154,15 +168,16 @@ segments:
   - short_turn
   name: short turn
   start: 2017-05-31 16:14:35
-  end: 2017-05-31 16:15:05
+  end: 2017-05-31 16:15:04
 - kinds:
   - low_level
   name: low level 6
   irregularities: []
   segment_id: ACLOUD_P5_RF10_ll06
   start: 2017-05-31 16:15:05
-  end: 2017-05-31 16:25:00
-  levels: [300]
+  end: 2017-05-31 16:24:59
+  levels:
+  - 300
   dropsondes:
     GOOD: []
     BAD: []
@@ -171,11 +186,13 @@ segments:
   - small_ascend
   name: small ascend 2
   irregularities:
-    - ascend in curve
+  - ascend in curve
   segment_id: ACLOUD_P5_RF10_sa02
   start: 2017-05-31 16:25:00
-  end: 2017-05-31 16:28:30
-  levels: [300, 2900]
+  end: 2017-05-31 16:28:29
+  levels:
+  - 300
+  - 2900
   dropsondes:
     GOOD: []
     BAD: []
@@ -186,8 +203,9 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P5_RF10_ll07
   start: 2017-05-31 16:28:30
-  end: 2017-05-31 16:36:50
-  levels: [2900]
+  end: 2017-05-31 16:36:49
+  levels:
+  - 2900
   dropsondes:
     GOOD: []
     BAD: []
@@ -196,15 +214,17 @@ segments:
   - short_turn
   name: short turn
   start: 2017-05-31 16:36:50
-  end: 2017-05-31 16:37:15
+  end: 2017-05-31 16:37:14
 - kinds:
   - small_descend
   name: small descend 2
   irregularities: []
   segment_id: ACLOUD_P5_RF10_sd02
   start: 2017-05-31 16:37:15
-  end: 2017-05-31 16:41:10
-  levels: [2900, 300]
+  end: 2017-05-31 16:41:09
+  levels:
+  - 2900
+  - 300
   dropsondes:
     GOOD: []
     BAD: []
@@ -215,8 +235,9 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P5_RF10_ll08
   start: 2017-05-31 16:41:10
-  end: 2017-05-31 16:54:50
-  levels: [300]
+  end: 2017-05-31 16:54:49
+  levels:
+  - 300
   dropsondes:
     GOOD: []
     BAD: []
@@ -227,8 +248,10 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P5_RF10_sa03
   start: 2017-05-31 16:54:50
-  end: 2017-05-31 16:59:05
-  levels: [200, 3100]
+  end: 2017-05-31 16:59:04
+  levels:
+  - 200
+  - 3100
   dropsondes:
     GOOD: []
     BAD: []
@@ -237,11 +260,13 @@ segments:
   - small_descend
   name: small descend 3
   irregularities:
-    - curve during descend
+  - curve during descend
   segment_id: ACLOUD_P5_RF10_sd03
   start: 2017-05-31 16:59:05
-  end: 2017-05-31 17:03:00
-  levels: [3100, 300]
+  end: 2017-05-31 17:02:59
+  levels:
+  - 3100
+  - 300
   dropsondes:
     GOOD: []
     BAD: []
@@ -252,8 +277,10 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P5_RF10_sa04
   start: 2017-05-31 17:03:00
-  end: 2017-05-31 17:04:55
-  levels: [300, 1200]
+  end: 2017-05-31 17:04:54
+  levels:
+  - 300
+  - 1200
   dropsondes:
     GOOD: []
     BAD: []
@@ -262,15 +289,16 @@ segments:
   - short_turn
   name: short turn
   start: 2017-05-31 17:04:55
-  end: 2017-05-31 17:05:45
+  end: 2017-05-31 17:05:44
 - kinds:
   - low_level
   name: low level 9
   irregularities: []
   segment_id: ACLOUD_P5_RF10_ll09
   start: 2017-05-31 17:05:45
-  end: 2017-05-31 17:09:40
-  levels: [1300]
+  end: 2017-05-31 17:09:39
+  levels:
+  - 1300
   dropsondes:
     GOOD: []
     BAD: []
@@ -279,15 +307,16 @@ segments:
   - short_turn
   name: short turn
   start: 2017-05-31 17:09:40
-  end: 2017-05-31 17:11:15
+  end: 2017-05-31 17:11:14
 - kinds:
   - low_level
   name: low level 10
   irregularities: []
   segment_id: ACLOUD_P5_RF10_ll10
   start: 2017-05-31 17:11:15
-  end: 2017-05-31 17:12:30
-  levels: [1000]
+  end: 2017-05-31 17:12:29
+  levels:
+  - 1000
   dropsondes:
     GOOD: []
     BAD: []
@@ -296,15 +325,16 @@ segments:
   - short_turn
   name: short turn
   start: 2017-05-31 17:12:30
-  end: 2017-05-31 17:14:00
+  end: 2017-05-31 17:13:59
 - kinds:
   - low_level
   name: low level 11
   irregularities: []
   segment_id: ACLOUD_P5_RF10_ll11
   start: 2017-05-31 17:14:00
-  end: 2017-05-31 17:15:30
-  levels: [200]
+  end: 2017-05-31 17:15:29
+  levels:
+  - 200
   dropsondes:
     GOOD: []
     BAD: []
@@ -313,15 +343,16 @@ segments:
   - short_turn
   name: short turn
   start: 2017-05-31 17:15:30
-  end: 2017-05-31 17:16:15
+  end: 2017-05-31 17:16:14
 - kinds:
   - low_level
   name: low level 12
   irregularities: []
   segment_id: ACLOUD_P5_RF10_ll12
   start: 2017-05-31 17:16:15
-  end: 2017-05-31 17:22:00
-  levels: [200]
+  end: 2017-05-31 17:21:59
+  levels:
+  - 200
   dropsondes:
     GOOD: []
     BAD: []
@@ -331,11 +362,16 @@ segments:
   - polarstern_overflight
   name: racetrack pattern 1
   irregularities:
-    - legs are not overlapping
+  - legs are not overlapping
   segment_id: ACLOUD_P5_RF10_rt01
   start: 2017-05-31 17:22:00
-  end: 2017-05-31 17:52:40
-  levels: [200, 500, 800, 1400, 2900]
+  end: 2017-05-31 17:52:39
+  levels:
+  - 200
+  - 500
+  - 800
+  - 1400
+  - 2900
   dropsondes:
     GOOD: []
     BAD: []
@@ -347,8 +383,9 @@ segments:
     irregularities: []
     segment_id: ACLOUD_P5_RF10_rt01_l01
     start: 2017-05-31 17:22:00
-    end: 2017-05-31 17:27:50
-    levels: [200]
+    end: 2017-05-31 17:27:49
+    levels:
+    - 200
     dropsondes:
       GOOD: []
       BAD: []
@@ -360,16 +397,19 @@ segments:
     irregularities: []
     segment_id: ACLOUD_P5_RF10_rt01_a01
     start: 2017-05-31 17:27:50
-    end: 2017-05-31 17:29:30
-    levels: [200, 500]
+    end: 2017-05-31 17:29:29
+    levels:
+    - 200
+    - 500
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 2
     irregularities: []
     segment_id: ACLOUD_P5_RF10_rt01_l02
     start: 2017-05-31 17:29:30
-    end: 2017-05-31 17:35:15
-    levels: [500]
+    end: 2017-05-31 17:35:14
+    levels:
+    - 500
     dropsondes:
       GOOD: []
       BAD: []
@@ -381,16 +421,19 @@ segments:
     irregularities: []
     segment_id: ACLOUD_P5_RF10_rt01_a02
     start: 2017-05-31 17:35:15
-    end: 2017-05-31 17:36:50
-    levels: [500, 800]
+    end: 2017-05-31 17:36:49
+    levels:
+    - 500
+    - 800
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 3
     irregularities: []
     segment_id: ACLOUD_P5_RF10_rt01_l03
     start: 2017-05-31 17:36:50
-    end: 2017-05-31 17:38:55
-    levels: [800]
+    end: 2017-05-31 17:38:54
+    levels:
+    - 800
     dropsondes:
       GOOD: []
       BAD: []
@@ -402,16 +445,19 @@ segments:
     irregularities: []
     segment_id: ACLOUD_P5_RF10_rt01_a03
     start: 2017-05-31 17:38:55
-    end: 2017-05-31 17:41:10
-    levels: [800, 1400]
+    end: 2017-05-31 17:41:09
+    levels:
+    - 800
+    - 1400
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 4
     irregularities: []
     segment_id: ACLOUD_P5_RF10_rt01_l04
     start: 2017-05-31 17:41:10
-    end: 2017-05-31 17:44:40
-    levels: [1400]
+    end: 2017-05-31 17:44:39
+    levels:
+    - 1400
     dropsondes:
       GOOD: []
       BAD: []
@@ -423,16 +469,19 @@ segments:
     irregularities: []
     segment_id: ACLOUD_P5_RF10_rt01_a04
     start: 2017-05-31 17:44:40
-    end: 2017-05-31 17:46:30
-    levels: [1400, 2900]
+    end: 2017-05-31 17:46:29
+    levels:
+    - 1400
+    - 2900
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 5
     irregularities: []
     segment_id: ACLOUD_P5_RF10_rt01_l05
     start: 2017-05-31 17:46:30
-    end: 2017-05-31 17:52:40
-    levels: [2900]
+    end: 2017-05-31 17:52:39
+    levels:
+    - 2900
     dropsondes:
       GOOD: []
       BAD: []
@@ -443,8 +492,10 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P5_RF10_la01
   start: 2017-05-31 17:52:40
-  end: 2017-05-31 18:03:40
-  levels: [2900, 10800]
+  end: 2017-05-31 18:03:39
+  levels:
+  - 2900
+  - 10800
   dropsondes:
     GOOD: []
     BAD: []
@@ -455,27 +506,29 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P5_RF10_hl01
   start: 2017-05-31 18:03:40
-  end: 2017-05-31 18:27:20
-  levels: [10800]
+  end: 2017-05-31 18:27:19
+  levels:
+  - 10800
   dropsondes:
     GOOD:
-      - P5_RF10_sonde01
-      - P5_RF10_sonde02
+    - P5_RF10_sonde01
+    - P5_RF10_sonde02
     BAD: []
     UGLY: []
 - kinds:
   - short_turn
   name: short turn
   start: 2017-05-31 18:27:20
-  end: 2017-05-31 18:27:55
+  end: 2017-05-31 18:27:54
 - kinds:
   - high_level
   name: high level 2
   irregularities: []
   segment_id: ACLOUD_P5_RF10_hl02
   start: 2017-05-31 18:27:55
-  end: 2017-05-31 18:37:40
-  levels: [11100]
+  end: 2017-05-31 18:37:39
+  levels:
+  - 11100
   dropsondes:
     GOOD: []
     BAD: []
@@ -487,7 +540,9 @@ segments:
   segment_id: ACLOUD_P5_RF10_md
   start: 2017-05-31 18:37:40
   end: 2017-05-31 18:56:50
-  levels: [11100, 100]
+  levels:
+  - 11100
+  - 100
   dropsondes:
     GOOD: []
     BAD: []

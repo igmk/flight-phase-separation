@@ -6,11 +6,11 @@ contacts:
 - name: Manfred Wendisch
   email: m.wendisch@uni-leipzig.de
   tags:
-    - pi
+  - pi
 - name: Nils Risse
   email: n.risse@uni-koeln.de
   tags:
-    - lc
+  - lc
 date: 2017-05-27
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=07_20170527_p5_acloud_flight_report.pdf
 takeoff: 2017-05-27 13:05:00
@@ -25,8 +25,10 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P5_RF07_ma
   start: 2017-05-27 13:05:00
-  end: 2017-05-27 13:19:20
-  levels: [100, 10400]
+  end: 2017-05-27 13:19:19
+  levels:
+  - 100
+  - 10400
   dropsondes:
     GOOD: []
     BAD: []
@@ -37,8 +39,9 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P5_RF07_hl01
   start: 2017-05-27 13:19:20
-  end: 2017-05-27 13:49:53
-  levels: [10700]
+  end: 2017-05-27 13:49:52
+  levels:
+  - 10700
   dropsondes:
     GOOD: []
     BAD: []
@@ -47,15 +50,16 @@ segments:
   - short_turn
   name: short turn
   start: 2017-05-27 13:49:53
-  end: 2017-05-27 13:51:02
+  end: 2017-05-27 13:51:01
 - kinds:
   - high_level
   name: high level 2
   irregularities: []
   segment_id: ACLOUD_P5_RF07_hl02
   start: 2017-05-27 13:51:02
-  end: 2017-05-27 14:50:45
-  levels: [10800]
+  end: 2017-05-27 14:50:44
+  levels:
+  - 10800
   dropsondes:
     GOOD: []
     BAD: []
@@ -64,35 +68,37 @@ segments:
   - procedure_turn
   name: procedure turn
   start: 2017-05-27 14:50:45
-  end: 2017-05-27 14:54:20
+  end: 2017-05-27 14:54:19
 - kinds:
   - high_level
   name: high level 3
   irregularities: []
   segment_id: ACLOUD_P5_RF07_hl03
   start: 2017-05-27 14:54:20
-  end: 2017-05-27 15:43:35
-  levels: [10800]
+  end: 2017-05-27 15:43:34
+  levels:
+  - 10800
   dropsondes:
     GOOD:
-      - P5_RF07_sonde01
-      - P5_RF07_sonde02
-      - P5_RF07_sonde03
+    - P5_RF07_sonde01
+    - P5_RF07_sonde02
+    - P5_RF07_sonde03
     BAD: []
     UGLY: []
 - kinds:
   - short_turn
   name: short turn
   start: 2017-05-27 15:43:35
-  end: 2017-05-27 15:46:45
+  end: 2017-05-27 15:46:44
 - kinds:
   - high_level
   name: high level 4
   irregularities: []
   segment_id: ACLOUD_P5_RF07_hl04
   start: 2017-05-27 15:46:45
-  end: 2017-05-27 16:03:10
-  levels: [10800]
+  end: 2017-05-27 16:03:09
+  levels:
+  - 10800
   dropsondes:
     GOOD: []
     BAD: []
@@ -104,7 +110,9 @@ segments:
   segment_id: ACLOUD_P5_RF07_md
   start: 2017-05-27 16:03:10
   end: 2017-05-27 16:23:15
-  levels: [10900, 100]
+  levels:
+  - 10900
+  - 100
   dropsondes:
     GOOD: []
     BAD: []

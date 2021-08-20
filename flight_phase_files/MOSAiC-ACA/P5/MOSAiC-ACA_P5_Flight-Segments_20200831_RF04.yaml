@@ -6,16 +6,16 @@ contacts:
 - name: Andre Ehrlich
   email: a.ehrlich@uni-leipzig.de
   tags:
-    - pi
+  - pi
 - name: Giancarlo Marrollo
   email: giancarlo.marrollo@uni-koeln.de
   tags:
-    - lc
+  - lc
 date: 2020-08-31
 flight_report: https://home.uni-leipzig.de/~ehrlich/MOSAiC_ACA_wiki_doku/lib/exe/fetch.php?media=fr20200831.pdf
 takeoff: 2020-08-31 12:40:15
 landing: 2020-08-31 14:55:00
-events: 
+events:
 - Test flight
 - Joint flight between P5 and P6
 remarks: []
@@ -26,8 +26,10 @@ segments:
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF04_ma
   start: 2020-08-31 12:40:15
-  end: 2020-08-31 12:42:10
-  levels: [100, 1700]
+  end: 2020-08-31 12:42:09
+  levels:
+  - 100
+  - 1700
   dropsondes:
     GOOD: []
     BAD: []
@@ -36,11 +38,13 @@ segments:
   - instrument_testing
   name: instrument testing
   irregularities:
-    - lot of turns and ups and downs
+  - lot of turns and ups and downs
   segment_id: MOSAiC-ACA_P5_RF04_it
   start: 2020-08-31 12:42:10
-  end: 2020-08-31 14:34:45
-  levels: [1300, 9500]
+  end: 2020-08-31 14:34:44
+  levels:
+  - 1300
+  - 9500
   dropsondes:
     GOOD: []
     BAD: []
@@ -52,7 +56,9 @@ segments:
   segment_id: MOSAiC-ACA_P5_RF04_md
   start: 2020-08-31 14:34:45
   end: 2020-08-31 14:55:00
-  levels: [9300, 100]
+  levels:
+  - 9300
+  - 100
   dropsondes:
     GOOD: []
     BAD: []

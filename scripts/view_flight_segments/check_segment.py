@@ -509,8 +509,8 @@ def main(flight, meta):
 
     # consecutive start and end times
     for t_start, t_end in zip(start_lst[1:], end_lst[:-1]):
-        if t_start != t_end:
-            assert t_start == t_end, 'start and end times are not matching: {}, {}'.format(t_start, t_end)
+        assert t_start == (t_end + datetime.timedelta(seconds=1)), 'start and end times are not matching: {}, {}'.format(
+            t_start, t_end + datetime.timedelta(seconds=1))
     
     # 2: parts
     for segment in segments:
@@ -526,9 +526,8 @@ def main(flight, meta):
             
                 # consecutive start and end times
                 for t_start, t_end in zip(start_lst[1:], end_lst[:-1]):
-                    if t_start != t_end:
-                        print(t_start, t_end)
-                        assert t_start == t_end, 'start and end times are not matching: {}, {}'.format(t_start, t_end)
+                    assert t_start == (t_end+ datetime.timedelta(seconds=1)), 'start and end times are not matching: {}, {}'.format(
+                        t_start, t_end + datetime.timedelta(seconds=1))
 
     # levels
     levels_lst = [segment['levels'] for segment in segments for kind in segment['kinds'] if kind in SegmentCatalog.pattern or kind in SegmentCatalog.regular]

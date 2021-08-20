@@ -6,16 +6,16 @@ contacts:
 - name: Manfred Wendisch
   email: m.wendisch@uni-leipzig.de
   tags:
-    - pi
+  - pi
 - name: Mario Mech
   email: mario.mech@uni-koeln.de
   tags:
-    - lc
+  - lc
 date: 2020-08-30
 flight_report: https://home.uni-leipzig.de/~ehrlich/MOSAiC_ACA_wiki_doku/lib/exe/fetch.php?media=fr20200830.pdf
 takeoff: 2020-08-30 08:14:30
 landing: 2020-08-30 09:07:30
-events: 
+events:
 - Test flight
 remarks:
 - No segmentation apart from instrument_testing segment performed
@@ -26,8 +26,10 @@ segments:
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF02_ma
   start: 2020-08-30 08:14:30
-  end: 2020-08-30 08:22:35
-  levels: [100,7000]
+  end: 2020-08-30 08:22:34
+  levels:
+  - 100
+  - 7000
   dropsondes:
     GOOD: []
     BAD: []
@@ -36,11 +38,12 @@ segments:
   - instrument_testing
   name: instrument testing
   irregularities:
-    - lot of turns and ups and downs
+  - lot of turns and ups and downs
   segment_id: MOSAiC-ACA_P5_RF02_it
   start: 2020-08-30 08:22:35
-  end: 2020-08-30 09:02:52
-  levels: [6800]
+  end: 2020-08-30 09:02:51
+  levels:
+  - 6800
   dropsondes:
     GOOD: []
     BAD: []
@@ -52,7 +55,9 @@ segments:
   segment_id: MOSAiC-ACA_P5_RF02_md
   start: 2020-08-30 09:02:52
   end: 2020-08-30 09:07:30
-  levels: [2600,100]
+  levels:
+  - 2600
+  - 100
   dropsondes:
     GOOD: []
     BAD: []

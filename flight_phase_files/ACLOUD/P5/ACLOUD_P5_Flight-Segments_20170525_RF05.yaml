@@ -6,11 +6,11 @@ contacts:
 - name: Andre Ehrlich
   email: a.ehrlich@uni-leipzig.de
   tags:
-    - pi
+  - pi
 - name: Nils Risse
   email: n.risse@uni-koeln.de
   tags:
-    - lc
+  - lc
 date: 2017-05-25
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=05_20170525_p5_acloud_flight_report.pdf
 takeoff: 2017-05-25 08:17:45
@@ -26,8 +26,11 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P5_RF05_ma
   start: 2017-05-25 08:17:45
-  end: 2017-05-25 08:43:20
-  levels: [100, 3800, 9500]
+  end: 2017-05-25 08:43:19
+  levels:
+  - 100
+  - 3800
+  - 9500
   dropsondes:
     GOOD: []
     BAD: []
@@ -39,8 +42,9 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P5_RF05_hl01
   start: 2017-05-25 08:43:20
-  end: 2017-05-25 08:45:15
-  levels: [9400]
+  end: 2017-05-25 08:45:14
+  levels:
+  - 9400
   dropsondes:
     GOOD: []
     BAD: []
@@ -49,52 +53,55 @@ segments:
   - short_turn
   name: short turn
   start: 2017-05-25 08:45:15
-  end: 2017-05-25 08:46:45
+  end: 2017-05-25 08:46:44
 - kinds:
   - high_level
   name: high level 2
   irregularities: []
   segment_id: ACLOUD_P5_RF05_hl02
   start: 2017-05-25 08:46:45
-  end: 2017-05-25 09:30:40
-  levels: [9500]
+  end: 2017-05-25 09:30:39
+  levels:
+  - 9500
   dropsondes:
     GOOD:
-      - P5_RF05_sonde01
-      - P5_RF05_sonde02
+    - P5_RF05_sonde01
+    - P5_RF05_sonde02
     BAD: []
     UGLY: []
 - kinds:
   - short_turn
   name: short turn
   start: 2017-05-25 09:30:40
-  end: 2017-05-25 09:31:30
+  end: 2017-05-25 09:31:29
 - kinds:
   - high_level
   name: high level 3
   irregularities: []
   segment_id: ACLOUD_P5_RF05_hl03
   start: 2017-05-25 09:31:30
-  end: 2017-05-25 09:49:15
-  levels: [9500]
+  end: 2017-05-25 09:49:14
+  levels:
+  - 9500
   dropsondes:
     GOOD: []
     BAD:
-      - P5_RF05_sonde03
+    - P5_RF05_sonde03
     UGLY: []
 - kinds:
   - short_turn
   name: short turn
   start: 2017-05-25 09:49:15
-  end: 2017-05-25 09:50:00
+  end: 2017-05-25 09:49:59
 - kinds:
   - high_level
   name: high level 4
   irregularities: []
   segment_id: ACLOUD_P5_RF05_hl04
   start: 2017-05-25 09:50:00
-  end: 2017-05-25 10:06:20
-  levels: [9500]
+  end: 2017-05-25 10:06:19
+  levels:
+  - 9500
   dropsondes:
     GOOD: []
     BAD: []
@@ -103,33 +110,35 @@ segments:
   - short_turn
   name: short turn
   start: 2017-05-25 10:06:20
-  end: 2017-05-25 10:07:25
+  end: 2017-05-25 10:07:24
 - kinds:
   - high_level
   name: high level 5
   irregularities: []
   segment_id: ACLOUD_P5_RF05_hl05
   start: 2017-05-25 10:07:25
-  end: 2017-05-25 10:27:20
-  levels: [9500]
+  end: 2017-05-25 10:27:19
+  levels:
+  - 9500
   dropsondes:
     GOOD:
-      - P5_RF05_sonde04
+    - P5_RF05_sonde04
     BAD: []
     UGLY: []
 - kinds:
   - short_turn
   name: short turn
   start: 2017-05-25 10:27:20
-  end: 2017-05-25 10:28:15
+  end: 2017-05-25 10:28:14
 - kinds:
   - high_level
   name: high level 6
   irregularities: []
   segment_id: ACLOUD_P5_RF05_hl06
   start: 2017-05-25 10:28:15
-  end: 2017-05-25 10:52:50
-  levels: [9500]
+  end: 2017-05-25 10:52:49
+  levels:
+  - 9500
   dropsondes:
     GOOD: []
     BAD: []
@@ -138,34 +147,36 @@ segments:
   - short_turn
   name: short turn
   start: 2017-05-25 10:52:50
-  end: 2017-05-25 10:54:45
+  end: 2017-05-25 10:54:44
 - kinds:
   - high_level
   name: high level 7
   irregularities: []
   segment_id: ACLOUD_P5_RF05_hl07
   start: 2017-05-25 10:54:45
-  end: 2017-05-25 11:16:35
-  levels: [9500]
+  end: 2017-05-25 11:16:34
+  levels:
+  - 9500
   dropsondes:
     GOOD:
-      - P5_RF05_sonde06
-    BAD: 
-      - P5_RF05_sonde05
+    - P5_RF05_sonde06
+    BAD:
+    - P5_RF05_sonde05
     UGLY: []
 - kinds:
   - short_turn
   name: short turn
   start: 2017-05-25 11:16:35
-  end: 2017-05-25 11:17:25
+  end: 2017-05-25 11:17:24
 - kinds:
   - high_level
   name: high level 8
   irregularities: []
   segment_id: ACLOUD_P5_RF05_hl08
   start: 2017-05-25 11:17:25
-  end: 2017-05-25 11:26:55
-  levels: [9600]
+  end: 2017-05-25 11:26:54
+  levels:
+  - 9600
   dropsondes:
     GOOD: []
     BAD: []
@@ -174,36 +185,38 @@ segments:
   - short_turn
   name: short turn
   start: 2017-05-25 11:26:55
-  end: 2017-05-25 11:28:15
+  end: 2017-05-25 11:28:14
 - kinds:
   - high_level
   name: high level 9
   irregularities: []
   segment_id: ACLOUD_P5_RF05_hl09
   start: 2017-05-25 11:28:15
-  end: 2017-05-25 11:50:05
-  levels: [9500]
+  end: 2017-05-25 11:50:04
+  levels:
+  - 9500
   dropsondes:
     GOOD:
-      - P5_RF05_sonde07
+    - P5_RF05_sonde07
     BAD: []
     UGLY: []
 - kinds:
   - short_turn
   name: short turn
   start: 2017-05-25 11:50:05
-  end: 2017-05-25 11:50:30
+  end: 2017-05-25 11:50:29
 - kinds:
   - high_level
   name: high level 10
   irregularities: []
   segment_id: ACLOUD_P5_RF05_hl10
   start: 2017-05-25 11:50:30
-  end: 2017-05-25 12:32:40
-  levels: [9500]
+  end: 2017-05-25 12:32:39
+  levels:
+  - 9500
   dropsondes:
     GOOD:
-      - P5_RF05_sonde08
+    - P5_RF05_sonde08
     BAD: []
     UGLY: []
 - kinds:
@@ -213,7 +226,9 @@ segments:
   segment_id: ACLOUD_P5_RF05_md
   start: 2017-05-25 12:32:40
   end: 2017-05-25 12:46:00
-  levels: [9500, 100]
+  levels:
+  - 9500
+  - 100
   dropsondes:
     GOOD: []
     BAD: []

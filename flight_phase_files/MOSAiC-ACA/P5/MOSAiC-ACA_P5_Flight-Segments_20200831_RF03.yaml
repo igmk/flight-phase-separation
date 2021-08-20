@@ -6,13 +6,13 @@ contacts:
 - name: Nils Risse
   email: n.risse@uni-koeln.de
   tags:
-    - lc
+  - lc
 date: 2020-08-31
 flight_report: no flight report was created
 takeoff: 2020-08-31 10:20:35
 landing: 2020-08-31 10:58:55
 events:
-  - Certification flight (PMS instruments)
+- Certification flight (PMS instruments)
 remarks: []
 segments:
 - kinds:
@@ -21,8 +21,10 @@ segments:
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF03_ma
   start: 2020-08-31 10:20:35
-  end: 2020-08-31 10:23:35
-  levels: [100, 3000]
+  end: 2020-08-31 10:23:34
+  levels:
+  - 100
+  - 3000
   dropsondes:
     GOOD: []
     BAD: []
@@ -31,11 +33,15 @@ segments:
   - instrument_testing
   name: instrument testing
   irregularities:
-    - lot of turns and ups and downs
+  - lot of turns and ups and downs
   segment_id: MOSAiC-ACA_P5_RF03_it
   start: 2020-08-31 10:23:35
-  end: 2020-08-31 10:56:00
-  levels: [100, 1500, 2500, 3000]
+  end: 2020-08-31 10:55:59
+  levels:
+  - 100
+  - 1500
+  - 2500
+  - 3000
   dropsondes:
     GOOD: []
     BAD: []
@@ -47,7 +53,9 @@ segments:
   segment_id: MOSAiC-ACA_P5_RF03_md
   start: 2020-08-31 10:56:00
   end: 2020-08-31 10:58:55
-  levels: [1500, 100]
+  levels:
+  - 1500
+  - 100
   dropsondes:
     GOOD: []
     BAD: []
