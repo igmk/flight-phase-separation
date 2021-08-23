@@ -45,8 +45,7 @@ segments:
   levels:
   - 9400
   dropsondes:
-    GOOD:
-    - P5_RF15_sonde01
+    GOOD: []
     BAD: []
     UGLY: []
 - kinds:
@@ -457,12 +456,11 @@ segments:
   - 9500
   dropsondes:
     GOOD:
+    - P5_RF15_sonde01
     - P5_RF15_sonde02
     - P5_RF15_sonde03
-    - P5_RF15_sonde04
     BAD: []
-    UGLY:
-    - P5_RF15_sonde05
+    UGLY: []
 - kinds:
   - short_turn
   name: short turn

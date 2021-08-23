@@ -47,7 +47,8 @@ segments:
   levels:
   - 9800
   dropsondes:
-    GOOD: []
+    GOOD: 
+      - P5_RF21_sonde01
     BAD: []
     UGLY: []
 - kinds:
@@ -672,7 +673,7 @@ segments:
   - 9700
   dropsondes:
     GOOD:
-    - P5_RF21_sonde01
+    - P5_RF21_sonde02
     BAD: []
     UGLY: []
 - kinds:

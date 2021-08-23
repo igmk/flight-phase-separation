@@ -84,9 +84,9 @@ segments:
   levels:
   - 9500
   dropsondes:
-    GOOD: []
-    BAD:
+    GOOD: 
     - P5_RF05_sonde03
+    BAD: []
     UGLY: []
 - kinds:
   - short_turn
@@ -159,9 +159,8 @@ segments:
   - 9500
   dropsondes:
     GOOD:
-    - P5_RF05_sonde06
-    BAD:
     - P5_RF05_sonde05
+    BAD: []
     UGLY: []
 - kinds:
   - short_turn
@@ -197,7 +196,7 @@ segments:
   - 9500
   dropsondes:
     GOOD:
-    - P5_RF05_sonde07
+    - P5_RF05_sonde06
     BAD: []
     UGLY: []
 - kinds:
@@ -216,7 +215,7 @@ segments:
   - 9500
   dropsondes:
     GOOD:
-    - P5_RF05_sonde08
+    - P5_RF05_sonde07
     BAD: []
     UGLY: []
 - kinds:

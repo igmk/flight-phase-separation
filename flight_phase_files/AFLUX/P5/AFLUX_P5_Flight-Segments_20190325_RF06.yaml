@@ -122,6 +122,7 @@ segments:
     - P5_RF06_sonde02
     - P5_RF06_sonde03
     - P5_RF06_sonde04
+    - P5_RF06_sonde05
     BAD: []
     UGLY: []
 - kinds:

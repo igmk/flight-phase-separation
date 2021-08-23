@@ -44,8 +44,7 @@ segments:
   levels:
   - 9900
   dropsondes:
-    GOOD:
-    - P5_RF15_sonde01
+    GOOD: []
     BAD: []
     UGLY: []
 - kinds:

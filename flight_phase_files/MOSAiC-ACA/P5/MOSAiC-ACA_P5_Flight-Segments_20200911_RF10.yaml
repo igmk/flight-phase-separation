@@ -91,13 +91,13 @@ segments:
   - 10500
   dropsondes:
     GOOD:
+    - P5_RF10_sonde01
     - P5_RF10_sonde02
     - P5_RF10_sonde03
     - P5_RF10_sonde04
     - P5_RF10_sonde05
-    BAD:
-    - P5_RF10_sonde01
     - P5_RF10_sonde06
+    BAD: []
     UGLY: []
 - kinds:
   - large_descend
@@ -587,7 +587,8 @@ segments:
   levels:
   - 9500
   dropsondes:
-    GOOD: []
+    GOOD: 
+      - P5_RF10_sonde08
     BAD: []
     UGLY: []
 - kinds:
@@ -614,7 +615,9 @@ segments:
   levels:
   - 10600
   dropsondes:
-    GOOD: []
+    GOOD: 
+      - P5_RF10_sonde09
+      - P5_RF10_sonde10
     BAD: []
     UGLY: []
 - kinds:
