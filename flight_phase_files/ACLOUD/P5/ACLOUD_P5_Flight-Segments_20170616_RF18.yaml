@@ -33,10 +33,7 @@ segments:
   levels:
   - 100
   - 9800
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 1
@@ -47,10 +44,7 @@ segments:
   end: 2017-06-16 06:24:49
   levels:
   - 9800
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - waiting_pattern
   name: waiting pattern
@@ -67,11 +61,8 @@ segments:
   levels:
   - 9800
   dropsondes:
-    GOOD:
-    - P5_RF18_sonde01
-    - P5_RF18_sonde02
-    BAD: []
-    UGLY: []
+  - ACLOUD_P5_RF18_DS01
+  - ACLOUD_P5_RF18_DS02
 - kinds:
   - short_turn
   name: short turn
@@ -87,10 +78,7 @@ segments:
   levels:
   - 9800
   dropsondes:
-    GOOD:
-    - P5_RF18_sonde03
-    BAD: []
-    UGLY: []
+  - ACLOUD_P5_RF18_DS03
 - kinds:
   - cross_pattern
   - polarstern_overflight
@@ -101,10 +89,7 @@ segments:
   end: 2017-06-16 07:32:49
   levels:
   - 9800
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - high_level
@@ -157,10 +142,7 @@ segments:
   end: 2017-06-16 07:51:19
   levels:
   - 9800
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - waiting_pattern
   name: waiting pattern
@@ -177,12 +159,9 @@ segments:
   levels:
   - 9700
   dropsondes:
-    GOOD:
-    - P5_RF18_sonde04
-    - P5_RF18_sonde05
-    - P5_RF18_sonde06
-    BAD: []
-    UGLY: []
+  - ACLOUD_P5_RF18_DS04
+  - ACLOUD_P5_RF18_DS05
+  - ACLOUD_P5_RF18_DS06
 - kinds:
   - short_turn
   name: short turn
@@ -198,10 +177,7 @@ segments:
   levels:
   - 9800
   dropsondes:
-    GOOD:
-    - P5_RF18_sonde07
-    BAD: []
-    UGLY: []
+  - ACLOUD_P5_RF18_DS07
 - kinds:
   - short_turn
   name: short turn
@@ -221,10 +197,7 @@ segments:
   end: 2017-06-16 09:23:27
   levels:
   - 9800
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -239,10 +212,7 @@ segments:
   end: 2017-06-16 09:27:59
   levels:
   - 9700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - cross_pattern
   - nya_overflight
@@ -253,10 +223,7 @@ segments:
   end: 2017-06-16 09:36:44
   levels:
   - 9700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - high_level
@@ -295,10 +262,7 @@ segments:
   end: 2017-06-16 09:42:29
   levels:
   - 9800
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - major_descend
   name: major descend
@@ -309,7 +273,4 @@ segments:
   levels:
   - 9700
   - 100
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []

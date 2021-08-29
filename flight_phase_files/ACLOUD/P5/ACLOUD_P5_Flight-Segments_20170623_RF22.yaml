@@ -30,10 +30,7 @@ segments:
   levels:
   - 100
   - 11700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 1
@@ -43,10 +40,7 @@ segments:
   end: 2017-06-23 11:18:19
   levels:
   - 11700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -64,10 +58,7 @@ segments:
   - 12000
   - 12100
   dropsondes:
-    GOOD:
-    - P5_RF22_sonde01
-    BAD: []
-    UGLY: []
+  - ACLOUD_P5_RF22_DS01
   parts:
   - kinds:
     - high_level
@@ -108,10 +99,7 @@ segments:
   levels:
   - 12100
   dropsondes:
-    GOOD:
-    - P5_RF22_sonde02
-    BAD: []
-    UGLY: []
+  - ACLOUD_P5_RF22_DS02
 - kinds:
   - short_turn
   name: short turn
@@ -127,10 +115,7 @@ segments:
   end: 2017-06-23 12:25:09
   levels:
   - 12100
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -147,10 +132,7 @@ segments:
   levels:
   - 12100
   dropsondes:
-    GOOD:
-    - P5_RF22_sonde03
-    BAD: []
-    UGLY: []
+  - ACLOUD_P5_RF22_DS03
 - kinds:
   - short_turn
   name: short turn
@@ -166,10 +148,7 @@ segments:
   end: 2017-06-23 13:05:29
   levels:
   - 13900
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -186,10 +165,7 @@ segments:
   levels:
   - 14000
   dropsondes:
-    GOOD:
-    - P5_RF22_sonde04
-    BAD: []
-    UGLY: []
+  - ACLOUD_P5_RF22_DS04
 - kinds:
   - short_turn
   name: short turn
@@ -205,10 +181,7 @@ segments:
   end: 2017-06-23 13:43:14
   levels:
   - 14000
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - procedure_turn
   name: procedure turn
@@ -225,10 +198,7 @@ segments:
   levels:
   - 14000
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -245,10 +215,7 @@ segments:
   end: 2017-06-23 14:12:59
   levels:
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - medium_ascend
   name: medium ascend 1
@@ -260,10 +227,7 @@ segments:
   levels:
   - 500
   - 4900
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - mid_level
   name: mid level 1
@@ -274,10 +238,7 @@ segments:
   end: 2017-06-23 14:22:29
   levels:
   - 4900
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - major_descend
   name: major descend
@@ -288,7 +249,4 @@ segments:
   levels:
   - 4700
   - 100
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []

@@ -30,10 +30,7 @@ segments:
   levels:
   - 100
   - 7000
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - instrument_testing
   name: instrument testing
@@ -44,10 +41,7 @@ segments:
   end: 2020-08-30 09:02:51
   levels:
   - 6800
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - major_descend
   name: major descend
@@ -58,7 +52,4 @@ segments:
   levels:
   - 2600
   - 100
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []

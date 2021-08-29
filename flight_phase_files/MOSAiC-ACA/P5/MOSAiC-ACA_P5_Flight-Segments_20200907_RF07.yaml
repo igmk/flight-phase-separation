@@ -31,10 +31,7 @@ segments:
   levels:
   - 100
   - 9400
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 1
@@ -44,10 +41,7 @@ segments:
   end: 2020-09-07 09:04:12
   levels:
   - 9400
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -63,12 +57,9 @@ segments:
   levels:
   - 9400
   dropsondes:
-    GOOD:
-    - P5_RF07_sonde01
-    - P5_RF07_sonde02
-    - P5_RF07_sonde03
-    BAD: []
-    UGLY: []
+  - MOSAiC-ACA_P5_RF07_DS01
+  - MOSAiC-ACA_P5_RF07_DS02
+  - MOSAiC-ACA_P5_RF07_DS03
 - kinds:
   - small_ascend
   name: small ascend 1
@@ -79,10 +70,7 @@ segments:
   levels:
   - 9400
   - 10400
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 3
@@ -93,11 +81,8 @@ segments:
   levels:
   - 10400
   dropsondes:
-    GOOD:
-    - P5_RF07_sonde04
-    - P5_RF07_sonde05
-    BAD: []
-    UGLY: []
+  - MOSAiC-ACA_P5_RF07_DS04
+  - MOSAiC-ACA_P5_RF07_DS05
 - kinds:
   - short_turn
   name: short turn
@@ -112,10 +97,7 @@ segments:
   end: 2020-09-07 10:49:01
   levels:
   - 10400
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -131,13 +113,10 @@ segments:
   levels:
   - 10300
   dropsondes:
-    GOOD:
-    - P5_RF07_sonde06
-    - P5_RF07_sonde07
-    - P5_RF07_sonde08
-    - P5_RF07_sonde09
-    BAD: []
-    UGLY: []
+  - MOSAiC-ACA_P5_RF07_DS06
+  - MOSAiC-ACA_P5_RF07_DS07
+  - MOSAiC-ACA_P5_RF07_DS08
+  - MOSAiC-ACA_P5_RF07_DS09
 - kinds:
   - short_turn
   name: short turn
@@ -153,10 +132,7 @@ segments:
   end: 2020-09-07 12:15:44
   levels:
   - 10300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -173,10 +149,7 @@ segments:
   levels:
   - 10300
   dropsondes:
-    GOOD:
-    - P5_RF07_sonde10
-    BAD: []
-    UGLY: []
+  - MOSAiC-ACA_P5_RF07_DS10
 - kinds:
   - small_descend
   name: small descend 1
@@ -187,10 +160,7 @@ segments:
   levels:
   - 10300
   - 9300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -206,11 +176,8 @@ segments:
   levels:
   - 9300
   dropsondes:
-    GOOD:
-    - P5_RF07_sonde11
-    - P5_RF07_sonde12
-    BAD: []
-    UGLY: []
+  - MOSAiC-ACA_P5_RF07_DS11
+  - MOSAiC-ACA_P5_RF07_DS12
 - kinds:
   - short_turn
   name: short turn
@@ -226,11 +193,8 @@ segments:
   levels:
   - 9300
   dropsondes:
-    GOOD:
-    - P5_RF07_sonde13
-    - P5_RF07_sonde14
-    BAD: []
-    UGLY: []
+  - MOSAiC-ACA_P5_RF07_DS13
+  - MOSAiC-ACA_P5_RF07_DS14
 - kinds:
   - major_descend
   name: major descend
@@ -241,7 +205,4 @@ segments:
   levels:
   - 9300
   - 100
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []

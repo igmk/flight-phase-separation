@@ -25,10 +25,7 @@ segments:
   levels:
   - 100
   - 3000
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - instrument_testing
   name: instrument testing
@@ -42,10 +39,7 @@ segments:
   - 1500
   - 2500
   - 3000
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - major_descend
   name: major descend
@@ -56,7 +50,4 @@ segments:
   levels:
   - 1500
   - 100
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []

@@ -32,10 +32,7 @@ segments:
   levels:
   - 100
   - 9500
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 1
@@ -45,10 +42,7 @@ segments:
   end: 2019-04-03 10:33:19
   levels:
   - 9400
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -63,10 +57,7 @@ segments:
   end: 2019-04-03 10:55:09
   levels:
   - 9400
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -82,11 +73,8 @@ segments:
   levels:
   - 9400
   dropsondes:
-    GOOD:
-    - P5_RF10_sonde01
-    - P5_RF10_sonde02
-    BAD: []
-    UGLY: []
+  - AFLUX_P5_RF10_DS01
+  - AFLUX_P5_RF10_DS02
 - kinds:
   - small_ascend
   name: small ascend 1
@@ -97,10 +85,7 @@ segments:
   levels:
   - 9400
   - 10700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 4
@@ -111,10 +96,7 @@ segments:
   levels:
   - 10800
   dropsondes:
-    GOOD:
-    - P5_RF10_sonde03
-    BAD: []
-    UGLY: []
+  - AFLUX_P5_RF10_DS03
 - kinds:
   - short_turn
   name: short turn
@@ -129,10 +111,7 @@ segments:
   end: 2019-04-03 12:00:49
   levels:
   - 10700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -157,10 +136,7 @@ segments:
   - 400
   - 500
   - 700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - high_level
@@ -389,10 +365,7 @@ segments:
   - 2700
   - 5600
   - 6000
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - low_level
@@ -493,10 +466,7 @@ segments:
   end: 2019-04-03 14:13:09
   levels:
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - large_ascend
   name: large ascend 1
@@ -507,10 +477,7 @@ segments:
   levels:
   - 300
   - 9300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   - nya_overflight
@@ -521,10 +488,7 @@ segments:
   end: 2019-04-03 14:39:54
   levels:
   - 9300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -539,10 +503,7 @@ segments:
   end: 2019-04-03 14:44:24
   levels:
   - 9300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - major_descend
   name: major descend
@@ -553,7 +514,4 @@ segments:
   levels:
   - 9200
   - 100
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []

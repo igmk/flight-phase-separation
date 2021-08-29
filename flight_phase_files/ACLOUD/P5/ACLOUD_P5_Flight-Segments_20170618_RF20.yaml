@@ -33,10 +33,7 @@ segments:
   levels:
   - 100
   - 8900
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 1
@@ -46,10 +43,7 @@ segments:
   end: 2017-06-18 12:34:13
   levels:
   - 9000
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - large_descend
   - profiling
@@ -61,10 +55,7 @@ segments:
   levels:
   - 9100
   - 300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - cross_pattern
   - polarstern_overflight
@@ -76,10 +67,7 @@ segments:
   levels:
   - 300
   - 300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - low_level
@@ -120,10 +108,7 @@ segments:
   levels:
   - 100
   - 9700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 2
@@ -133,10 +118,7 @@ segments:
   end: 2017-06-18 13:26:41
   levels:
   - 9700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -155,10 +137,7 @@ segments:
   - 9700
   - 9700
   dropsondes:
-    GOOD:
-    - P5_RF20_sonde01
-    BAD: []
-    UGLY: []
+  - ACLOUD_P5_RF20_DS01
   parts:
   - kinds:
     - high_level
@@ -214,10 +193,7 @@ segments:
   - 9700
   - 9700
   - 9700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - high_level
@@ -270,10 +246,7 @@ segments:
   end: 2017-06-18 14:44:16
   levels:
   - 9700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -292,10 +265,7 @@ segments:
   - 9700
   - 9700
   dropsondes:
-    GOOD:
-    - P5_RF20_sonde02
-    BAD: []
-    UGLY: []
+  - ACLOUD_P5_RF20_DS02
   parts:
   - kinds:
     - high_level
@@ -349,10 +319,7 @@ segments:
   end: 2017-06-18 16:09:17
   levels:
   - 9600
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -371,10 +338,7 @@ segments:
   - 9700
   - 9700
   dropsondes:
-    GOOD:
-    - P5_RF20_sonde03
-    BAD: []
-    UGLY: []
+  - ACLOUD_P5_RF20_DS03
   parts:
   - kinds:
     - high_level
@@ -424,10 +388,7 @@ segments:
   levels:
   - 9700
   dropsondes:
-    GOOD:
-    - P5_RF20_sonde04
-    BAD: []
-    UGLY: []
+  - ACLOUD_P5_RF20_DS04
 - kinds:
   - major_descend
   name: major descend
@@ -438,7 +399,4 @@ segments:
   levels:
   - 9800
   - 100
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []

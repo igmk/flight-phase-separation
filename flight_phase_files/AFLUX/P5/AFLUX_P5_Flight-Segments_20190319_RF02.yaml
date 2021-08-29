@@ -26,10 +26,7 @@ segments:
   levels:
   - 100
   - 9500
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 1
@@ -40,10 +37,7 @@ segments:
   levels:
   - 9400
   dropsondes:
-    GOOD:
-    - P5_RF02_sonde01
-    BAD: []
-    UGLY: []
+  - AFLUX_P5_RF02_DS01
 - kinds:
   - medium_descend
   - procedure_turn
@@ -55,10 +49,7 @@ segments:
   levels:
   - 9400
   - 3000
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - medium_ascend
   name: medium ascend 1
@@ -69,10 +60,7 @@ segments:
   levels:
   - 3000
   - 9400
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 2
@@ -82,10 +70,7 @@ segments:
   end: 2019-03-19 17:36:40
   levels:
   - 9300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - major_descend
   name: major descend
@@ -96,7 +81,4 @@ segments:
   levels:
   - 9300
   - 100
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []

@@ -31,10 +31,7 @@ segments:
   levels:
   - 100
   - 9400
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 1
@@ -44,10 +41,7 @@ segments:
   end: 2019-04-11 10:29:59
   levels:
   - 9400
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - large_descend
   name: large descend 1
@@ -58,10 +52,7 @@ segments:
   levels:
   - 9400
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - low_level
   name: low level 1
@@ -71,10 +62,7 @@ segments:
   end: 2019-04-11 10:42:54
   levels:
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -92,10 +80,7 @@ segments:
   - 300
   - 500
   - 800
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - low_level
@@ -190,10 +175,7 @@ segments:
   levels:
   - 800
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - medium_ascend
   name: medium ascend 1
@@ -204,10 +186,7 @@ segments:
   levels:
   - 200
   - 3700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - medium_descend
   name: medium descend 1
@@ -218,10 +197,7 @@ segments:
   levels:
   - 3700
   - 300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - low_level
   name: low level 2
@@ -231,10 +207,7 @@ segments:
   end: 2019-04-11 11:55:49
   levels:
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - small_ascend
   name: small ascend 1
@@ -245,10 +218,7 @@ segments:
   levels:
   - 200
   - 2000
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - small_descend
   name: small descend 2
@@ -259,10 +229,7 @@ segments:
   levels:
   - 2000
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - racetrack_pattern
   name: racetrack pattern 2
@@ -278,10 +245,7 @@ segments:
   - 1100
   - 1300
   - 1500
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - low_level
@@ -427,10 +391,7 @@ segments:
   levels:
   - 1400
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - low_level
   name: low level 3
@@ -440,10 +401,7 @@ segments:
   end: 2019-04-11 13:20:44
   levels:
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - large_ascend
   name: large ascend 1
@@ -454,10 +412,7 @@ segments:
   levels:
   - 200
   - 9400
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 2
@@ -468,12 +423,9 @@ segments:
   levels:
   - 9500
   dropsondes:
-    GOOD:
-    - P5_RF15_sonde01
-    - P5_RF15_sonde02
-    - P5_RF15_sonde03
-    BAD: []
-    UGLY: []
+  - AFLUX_P5_RF15_DS01
+  - AFLUX_P5_RF15_DS02
+  - AFLUX_P5_RF15_DS03
 - kinds:
   - short_turn
   name: short turn
@@ -489,10 +441,7 @@ segments:
   levels:
   - 9300
   - 2000
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - low_level
   name: low level 4
@@ -502,10 +451,7 @@ segments:
   end: 2019-04-11 14:19:29
   levels:
   - 1900
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - small_descend
   name: small descend 4
@@ -516,10 +462,7 @@ segments:
   levels:
   - 2000
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - low_level
   name: low level 5
@@ -530,10 +473,7 @@ segments:
   end: 2019-04-11 14:25:09
   levels:
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -549,10 +489,7 @@ segments:
   end: 2019-04-11 14:38:14
   levels:
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - large_ascend
   name: large ascend 2
@@ -563,10 +500,7 @@ segments:
   levels:
   - 300
   - 9600
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 3
@@ -576,10 +510,7 @@ segments:
   end: 2019-04-11 15:00:29
   levels:
   - 9500
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - major_descend
   name: major descend
@@ -591,7 +522,4 @@ segments:
   levels:
   - 9500
   - 100
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []

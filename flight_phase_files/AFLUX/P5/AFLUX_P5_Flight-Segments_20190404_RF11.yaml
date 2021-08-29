@@ -31,10 +31,7 @@ segments:
   levels:
   - 100
   - 9400
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   - nya_overflight
@@ -45,10 +42,7 @@ segments:
   end: 2019-04-04 09:20:44
   levels:
   - 9300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -63,10 +57,7 @@ segments:
   end: 2019-04-04 09:22:19
   levels:
   - 9300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -81,10 +72,7 @@ segments:
   end: 2019-04-04 09:41:13
   levels:
   - 9300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - large_descend
   - profiling
@@ -97,10 +85,7 @@ segments:
   levels:
   - 9400
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - low_level
   name: low level 1
@@ -110,10 +95,7 @@ segments:
   end: 2019-04-04 10:32:35
   levels:
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - procedure_turn
   name: procedure turn
@@ -140,10 +122,7 @@ segments:
   - 2500
   - 2500
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - medium_ascend
@@ -217,10 +196,7 @@ segments:
   levels:
   - 200
   - 9400
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 4
@@ -230,10 +206,7 @@ segments:
   end: 2019-04-04 11:45:39
   levels:
   - 9400
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -249,10 +222,7 @@ segments:
   end: 2019-04-04 12:14:12
   levels:
   - 9400
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - major_descend
   name: major descend
@@ -263,7 +233,4 @@ segments:
   levels:
   - 9400
   - 100
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []

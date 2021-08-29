@@ -31,10 +31,7 @@ segments:
   levels:
   - 100
   - 11000
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 1
@@ -44,10 +41,7 @@ segments:
   end: 2017-06-13 15:22:20
   levels:
   - 11000
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - noseboom_calibration_pattern
   name: noseboom calibration pattern 1
@@ -58,10 +52,7 @@ segments:
   levels:
   - 11000
   dropsondes:
-    GOOD:
-    - P5_RF16_sonde01
-    BAD: []
-    UGLY: []
+  - ACLOUD_P5_RF16_DS01
   parts:
   - kinds:
     - short_turn
@@ -287,10 +278,7 @@ segments:
   end: 2017-06-13 16:37:32
   levels:
   - 7800
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - high_level
@@ -526,10 +514,7 @@ segments:
   levels:
   - 8300
   - 9900
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 2
@@ -539,10 +524,7 @@ segments:
   end: 2017-06-13 16:47:53
   levels:
   - 9900
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - major_descend
   name: major descend
@@ -553,7 +535,4 @@ segments:
   levels:
   - 9900
   - 100
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []

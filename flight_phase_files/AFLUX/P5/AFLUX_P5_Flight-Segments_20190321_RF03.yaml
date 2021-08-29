@@ -30,10 +30,7 @@ segments:
   levels:
   - 100
   - 9600
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 1
@@ -43,10 +40,7 @@ segments:
   end: 2019-03-21 10:44:51
   levels:
   - 9500
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - large_descend
   - profiling
@@ -60,10 +54,7 @@ segments:
   levels:
   - 9500
   - 400
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - low_level
   name: low level 1
@@ -74,10 +65,7 @@ segments:
   end: 2019-03-21 11:24:52
   levels:
   - 300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - racetrack_pattern
   name: racetrack pattern 1
@@ -91,10 +79,7 @@ segments:
   - 1200
   - 2400
   - 3400
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - procedure_turn
@@ -204,10 +189,7 @@ segments:
   levels:
   - 3400
   - 9600
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 2
@@ -217,10 +199,7 @@ segments:
   end: 2019-03-21 12:53:41
   levels:
   - 9500
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - procedure_turn
   name: procedure turn
@@ -237,10 +216,7 @@ segments:
   levels:
   - 9300
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -255,10 +231,7 @@ segments:
   end: 2019-03-21 13:25:02
   levels:
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - large_ascend
   name: large ascend 1
@@ -270,10 +243,7 @@ segments:
   levels:
   - 200
   - 9500
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 3
@@ -283,10 +253,7 @@ segments:
   end: 2019-03-21 14:06:37
   levels:
   - 9500
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - major_descend
   name: major descend
@@ -297,7 +264,4 @@ segments:
   levels:
   - 9500
   - 100
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []

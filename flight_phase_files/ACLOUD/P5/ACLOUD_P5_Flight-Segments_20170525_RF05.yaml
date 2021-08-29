@@ -31,10 +31,7 @@ segments:
   - 100
   - 3800
   - 9500
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   - nya_overflight
@@ -45,10 +42,7 @@ segments:
   end: 2017-05-25 08:45:14
   levels:
   - 9400
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -64,11 +58,8 @@ segments:
   levels:
   - 9500
   dropsondes:
-    GOOD:
-    - P5_RF05_sonde01
-    - P5_RF05_sonde02
-    BAD: []
-    UGLY: []
+  - ACLOUD_P5_RF05_DS01
+  - ACLOUD_P5_RF05_DS02
 - kinds:
   - short_turn
   name: short turn
@@ -84,10 +75,7 @@ segments:
   levels:
   - 9500
   dropsondes:
-    GOOD: 
-    - P5_RF05_sonde03
-    BAD: []
-    UGLY: []
+  - ACLOUD_P5_RF05_DS03
 - kinds:
   - short_turn
   name: short turn
@@ -102,10 +90,7 @@ segments:
   end: 2017-05-25 10:06:19
   levels:
   - 9500
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -121,10 +106,7 @@ segments:
   levels:
   - 9500
   dropsondes:
-    GOOD:
-    - P5_RF05_sonde04
-    BAD: []
-    UGLY: []
+  - ACLOUD_P5_RF05_DS04
 - kinds:
   - short_turn
   name: short turn
@@ -139,10 +121,7 @@ segments:
   end: 2017-05-25 10:52:49
   levels:
   - 9500
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -158,10 +137,7 @@ segments:
   levels:
   - 9500
   dropsondes:
-    GOOD:
-    - P5_RF05_sonde05
-    BAD: []
-    UGLY: []
+  - ACLOUD_P5_RF05_DS05
 - kinds:
   - short_turn
   name: short turn
@@ -176,10 +152,7 @@ segments:
   end: 2017-05-25 11:26:54
   levels:
   - 9600
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -195,10 +168,7 @@ segments:
   levels:
   - 9500
   dropsondes:
-    GOOD:
-    - P5_RF05_sonde06
-    BAD: []
-    UGLY: []
+  - ACLOUD_P5_RF05_DS06
 - kinds:
   - short_turn
   name: short turn
@@ -214,10 +184,7 @@ segments:
   levels:
   - 9500
   dropsondes:
-    GOOD:
-    - P5_RF05_sonde07
-    BAD: []
-    UGLY: []
+  - ACLOUD_P5_RF05_DS07
 - kinds:
   - major_descend
   name: major descend
@@ -228,7 +195,4 @@ segments:
   levels:
   - 9500
   - 100
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []

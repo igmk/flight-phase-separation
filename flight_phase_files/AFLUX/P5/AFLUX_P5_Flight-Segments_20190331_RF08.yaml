@@ -32,10 +32,7 @@ segments:
   levels:
   - 100
   - 9300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 1
@@ -45,10 +42,7 @@ segments:
   end: 2019-03-31 09:45:37
   levels:
   - 9300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -64,13 +58,10 @@ segments:
   levels:
   - 9300
   dropsondes:
-    GOOD:
-    - P5_RF08_sonde01
-    - P5_RF08_sonde02
-    - P5_RF08_sonde03
-    - P5_RF08_sonde04
-    BAD: []
-    UGLY: []
+  - AFLUX_P5_RF08_DS01
+  - AFLUX_P5_RF08_DS02
+  - AFLUX_P5_RF08_DS03
+  - AFLUX_P5_RF08_DS04
 - kinds:
   - large_descend
   - profiling
@@ -82,10 +73,7 @@ segments:
   levels:
   - 9400
   - 300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - low_level
   name: low level 1
@@ -95,10 +83,7 @@ segments:
   end: 2019-03-31 10:40:08
   levels:
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -113,10 +98,7 @@ segments:
   end: 2019-03-31 10:44:39
   levels:
   - 300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - procedure_turn
   name: procedure turn
@@ -135,10 +117,7 @@ segments:
   - 600
   - 900
   - 1800
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - low_level
@@ -243,10 +222,7 @@ segments:
   end: 2019-03-31 11:50:21
   levels:
   - 2700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -279,10 +255,7 @@ segments:
   - 1300
   - 1300
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - small_descend
@@ -408,10 +381,7 @@ segments:
   end: 2019-03-31 12:23:41
   levels:
   - 300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -426,10 +396,7 @@ segments:
   end: 2019-03-31 12:28:03
   levels:
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - procedure_turn
   name: procedure turn
@@ -447,10 +414,7 @@ segments:
   - 400
   - 700
   - 1500
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - low_level
@@ -532,10 +496,7 @@ segments:
   levels:
   - 1500
   - 2700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - low_level
   name: low level 6
@@ -545,10 +506,7 @@ segments:
   end: 2019-03-31 13:20:27
   levels:
   - 2700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -564,10 +522,7 @@ segments:
   levels:
   - 2700
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - low_level
   name: low level 7
@@ -577,10 +532,7 @@ segments:
   end: 2019-03-31 13:35:50
   levels:
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - large_ascend
   name: large ascend 1
@@ -592,10 +544,7 @@ segments:
   levels:
   - 300
   - 9700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 3
@@ -605,10 +554,7 @@ segments:
   end: 2019-03-31 13:53:59
   levels:
   - 9300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - noseboom_calibration
   name: noseboom calibration 1
@@ -619,10 +565,7 @@ segments:
   end: 2019-03-31 14:02:49
   levels:
   - 9300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 4
@@ -632,10 +575,7 @@ segments:
   end: 2019-03-31 14:17:21
   levels:
   - 9300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - major_descend
   name: major descend
@@ -646,7 +586,4 @@ segments:
   levels:
   - 9200
   - 100
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []

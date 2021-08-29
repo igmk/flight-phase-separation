@@ -30,10 +30,7 @@ segments:
   levels:
   - 100
   - 9200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   - nya_overflight
@@ -44,10 +41,7 @@ segments:
   end: 2019-04-01 07:55:03
   levels:
   - 9200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -65,10 +59,7 @@ segments:
   - 9200
   - 9200
   - 9200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - high_level
@@ -136,10 +127,7 @@ segments:
   end: 2019-04-01 08:20:30
   levels:
   - 9200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - large_descend
   name: large descend 1
@@ -151,10 +139,7 @@ segments:
   levels:
   - 9200
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - stairstep_pattern
   name: stairstep pattern 1
@@ -174,10 +159,7 @@ segments:
   - 3700
   - 4200
   - 4600
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - low_level
@@ -389,10 +371,7 @@ segments:
   levels:
   - 4600
   - 9200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   - a-train_underflight
@@ -404,12 +383,9 @@ segments:
   levels:
   - 9200
   dropsondes:
-    GOOD:
-    - P5_RF09_sonde01
-    - P5_RF09_sonde02
-    - P5_RF09_sonde03
-    BAD: []
-    UGLY: []
+  - AFLUX_P5_RF09_DS01
+  - AFLUX_P5_RF09_DS02
+  - AFLUX_P5_RF09_DS03
 - kinds:
   - large_descend
   name: large descend 2
@@ -421,10 +397,7 @@ segments:
   levels:
   - 9100
   - 300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - low_level
   name: low level 1
@@ -434,10 +407,7 @@ segments:
   end: 2019-04-01 10:22:24
   levels:
   - 300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - sawtooth_pattern
   name: sawtooth pattern 1
@@ -450,10 +420,7 @@ segments:
   - 6900
   - 6900
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - large_ascend
@@ -492,10 +459,7 @@ segments:
   - 1000
   - 800
   - 600
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - low_level
@@ -669,10 +633,7 @@ segments:
   levels:
   - 600
   - 9100
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   - nya_overflight
@@ -684,11 +645,8 @@ segments:
   levels:
   - 9200
   dropsondes:
-    GOOD:
-    - P5_RF09_sonde04
-    - P5_RF09_sonde05
-    BAD: []
-    UGLY: []
+  - AFLUX_P5_RF09_DS04
+  - AFLUX_P5_RF09_DS05
 - kinds:
   - major_descend
   name: major descend
@@ -699,7 +657,4 @@ segments:
   levels:
   - 9300
   - 100
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []

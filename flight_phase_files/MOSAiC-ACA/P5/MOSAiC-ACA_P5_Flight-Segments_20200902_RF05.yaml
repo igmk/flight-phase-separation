@@ -31,10 +31,7 @@ segments:
   levels:
   - 100
   - 9600
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 1
@@ -46,10 +43,7 @@ segments:
   levels:
   - 9500
   dropsondes:
-    GOOD:
-    - P5_RF05_sonde01
-    BAD: []
-    UGLY: []
+  - MOSAiC-ACA_P5_RF05_DS01
 - kinds:
   - radiation_square
   name: radiation square 1
@@ -62,10 +56,7 @@ segments:
   - 9500
   - 9500
   - 9500
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - short_turn
@@ -140,12 +131,9 @@ segments:
   levels:
   - 9500
   dropsondes:
-    GOOD:
-    - P5_RF05_sonde02
-    - P5_RF05_sonde03
-    - P5_RF05_sonde04
-    BAD: []
-    UGLY: []
+  - MOSAiC-ACA_P5_RF05_DS02
+  - MOSAiC-ACA_P5_RF05_DS03
+  - MOSAiC-ACA_P5_RF05_DS04
 - kinds:
   - large_descend
   name: large descend 1
@@ -157,10 +145,7 @@ segments:
   levels:
   - 9500
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - racetrack_pattern
   name: racetrack pattern 1
@@ -174,10 +159,7 @@ segments:
   - 1800
   - 4000
   - 4900
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - low_level
@@ -280,10 +262,7 @@ segments:
   levels:
   - 4200
   - 9600
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -298,10 +277,7 @@ segments:
   end: 2020-09-02 09:57:12
   levels:
   - 9700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -317,10 +293,7 @@ segments:
   end: 2020-09-02 10:48:11
   levels:
   - 9600
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - high_level
@@ -388,10 +361,7 @@ segments:
   levels:
   - 9600
   dropsondes:
-    GOOD:
-    - P5_RF05_sonde05
-    BAD: []
-    UGLY: []
+  - MOSAiC-ACA_P5_RF05_DS05
 - kinds:
   - short_turn
   name: short turn
@@ -407,10 +377,7 @@ segments:
   end: 2020-09-02 11:25:12
   levels:
   - 9600
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -427,10 +394,7 @@ segments:
   levels:
   - 9600
   dropsondes:
-    GOOD:
-    - P5_RF05_sonde06
-    BAD: []
-    UGLY: []
+  - MOSAiC-ACA_P5_RF05_DS06
 - kinds:
   - short_turn
   name: short turn
@@ -445,10 +409,7 @@ segments:
   end: 2020-09-02 11:52:23
   levels:
   - 9600
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -465,10 +426,7 @@ segments:
   end: 2020-09-02 12:04:36
   levels:
   - 9600
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - major_descend
   name: major descend
@@ -479,7 +437,4 @@ segments:
   levels:
   - 9600
   - 100
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []

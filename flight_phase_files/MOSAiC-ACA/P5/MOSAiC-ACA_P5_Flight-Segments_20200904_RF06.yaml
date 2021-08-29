@@ -18,7 +18,8 @@ landing: 2020-09-04 17:41:30
 events:
 - Racetrack pattern over open ocean
 - Stairstep pattern over open ocean
-remarks: []
+remarks:
+- Dropsondes failed at 16:18 UTC, 16:24 UTC
 segments:
 - kinds:
   - major_ascend
@@ -31,10 +32,7 @@ segments:
   levels:
   - 100
   - 10700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - small_descend
   name: small descend 1
@@ -45,10 +43,7 @@ segments:
   levels:
   - 10800
   - 9700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 1
@@ -58,10 +53,7 @@ segments:
   end: 2020-09-04 12:54:43
   levels:
   - 9700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -77,13 +69,10 @@ segments:
   levels:
   - 9800
   dropsondes:
-    GOOD:
-    - P5_RF06_sonde01
-    - P5_RF06_sonde02
-    - P5_RF06_sonde03
-    - P5_RF06_sonde04
-    BAD: []
-    UGLY: []
+  - MOSAiC-ACA_P5_RF06_DS01
+  - MOSAiC-ACA_P5_RF06_DS02
+  - MOSAiC-ACA_P5_RF06_DS03
+  - MOSAiC-ACA_P5_RF06_DS04
 - kinds:
   - large_descend
   - long_turn
@@ -95,10 +84,7 @@ segments:
   levels:
   - 9800
   - 1800
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - racetrack_pattern
   name: racetrack pattern 1
@@ -111,10 +97,7 @@ segments:
   - 600
   - 300
   - 200
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - low_level
@@ -202,10 +185,7 @@ segments:
   - 1600
   - 1000
   - 1300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - low_level
@@ -290,10 +270,7 @@ segments:
   - 400
   - 300
   - 400
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - low_level
@@ -375,10 +352,7 @@ segments:
   levels:
   - 400
   - 7000
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - procedure_turn
   name: procedure turn
@@ -393,10 +367,7 @@ segments:
   end: 2020-09-04 15:55:07
   levels:
   - 7100
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - small_ascend
   name: small ascend 1
@@ -408,10 +379,7 @@ segments:
   levels:
   - 7100
   - 9800
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - procedure_turn
   name: procedure turn
@@ -427,10 +395,7 @@ segments:
   levels:
   - 9800
   dropsondes:
-    GOOD:
-    - P5_RF06_sonde05
-    BAD: []
-    UGLY: []
+  - MOSAiC-ACA_P5_RF06_DS05
 - kinds:
   - waiting_pattern
   name: waiting pattern
@@ -449,10 +414,7 @@ segments:
   - 900
   - 500
   - 300
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - high_level
@@ -547,10 +509,7 @@ segments:
   levels:
   - 300
   - 9800
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 5
@@ -560,10 +519,7 @@ segments:
   end: 2020-09-04 17:26:36
   levels:
   - 9700
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - major_descend
   name: major descend
@@ -574,7 +530,4 @@ segments:
   levels:
   - 9600
   - 100
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
