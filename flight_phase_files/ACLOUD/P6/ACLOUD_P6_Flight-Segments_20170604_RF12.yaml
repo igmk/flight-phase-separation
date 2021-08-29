@@ -20,10 +20,7 @@ segments:
   segment_id: ACLOUD_P6_RF12_ma
   start: 
   end: 
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - add_new_segments_here
   name: 
@@ -31,10 +28,7 @@ segments:
   segment_id: 
   start: 
   end: 
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - major_descend
   name: major descend
@@ -42,7 +36,4 @@ segments:
   segment_id: ACLOUD_P6_RF12_md
   start: 
   end: 
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
