@@ -46,10 +46,49 @@ segments:
   - 9800
   dropsondes: []
 - kinds:
-  - waiting_pattern
-  name: waiting pattern
+  - holding_pattern
+  name: holding pattern 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF18_ho01
   start: 2017-06-16 06:24:50
   end: 2017-06-16 06:29:44
+  levels:
+  - 9800
+  dropsondes: []
+  parts:
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-06-16 06:24:50
+    end: 2017-06-16 06:25:32
+  - kinds:
+    - high_level
+    name: holding pattern 1 leg 1
+    irregularities: []
+    segment_id: ACLOUD_P5_RF18_ho01_l01
+    start: 2017-06-16 06:25:33
+    end: 2017-06-16 06:26:59
+    levels:
+    - 9800
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-06-16 06:27:00
+    end: 2017-06-16 06:27:43
+  - kinds:
+    - high_level
+    name: holding pattern 1 leg 2
+    irregularities: []
+    segment_id: ACLOUD_P5_RF18_ho01_l02
+    start: 2017-06-16 06:27:44
+    end: 2017-06-16 06:28:43
+    levels:
+    - 9800
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-06-16 06:28:44
+    end: 2017-06-16 06:29:44
 - kinds:
   - high_level
   - a-train_underflight
@@ -144,10 +183,44 @@ segments:
   - 9800
   dropsondes: []
 - kinds:
-  - waiting_pattern
-  name: waiting pattern
+  - holding_pattern
+  name: holding pattern 2
+  irregularities: []
+  segment_id: ACLOUD_P5_RF18_ho02
   start: 2017-06-16 07:51:20
   end: 2017-06-16 08:08:49
+  levels:
+  - 9800
+  dropsondes: []
+  parts:
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-06-16 07:51:20
+    end: 2017-06-16 07:57:43
+  - kinds:
+    - high_level
+    name: holding pattern 2 leg 1
+    irregularities: []
+    segment_id: ACLOUD_P5_RF18_ho02_l01
+    start: 2017-06-16 07:57:44
+    end: 2017-06-16 08:01:33
+    levels:
+    - 9800
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-06-16 08:01:34
+    end: 2017-06-16 08:04:12
+  - kinds:
+    - high_level
+    name: holding pattern 2 leg 2
+    irregularities: []
+    segment_id: ACLOUD_P5_RF18_ho02_l02
+    start: 2017-06-16 08:04:13
+    end: 2017-06-16 08:08:49
+    levels:
+    - 9800
 - kinds:
   - high_level
   - a-train_underflight

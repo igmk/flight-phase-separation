@@ -80,7 +80,6 @@ class SegmentCatalog:
     curves = ['short_turn',
               'long_turn',
               'procedure_turn',
-              'waiting_pattern',
               'cross_pattern_turn',
               'circle',
               ]
@@ -143,6 +142,7 @@ class SegmentCatalog:
              
              'holding_pattern': ['high_level',
                                  'short_turn',
+                                 'long_turn',
                                  'circle',
                                  ],
              
@@ -332,6 +332,10 @@ class SegmentCatalog:
 
                # icing conditions
                'Icing problems',
+               
+               # dropsondes (find better solution)
+               'Dropsondes failed at 16:18 UTC, 16:24 UTC',
+               'Dropsonde failed at 09:34 UTC',
                ]
 
 

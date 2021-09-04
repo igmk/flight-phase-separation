@@ -123,10 +123,21 @@ segments:
     levels:
     - 9800
 - kinds:
-  - waiting_pattern
-  name: waiting pattern
+  - holding_pattern
+  name: holding pattern 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF11_ho01
   start: 2017-06-02 09:36:55
-  end: 2017-06-02 09:40:39
+  end: 2017-06-02 09:40:38
+  levels:
+  - 9800
+  dropsondes: []
+  parts:
+  - kinds:
+    - circle
+    name: circle
+    start: 2017-06-02 09:36:55
+    end: 2017-06-02 09:40:38
 - kinds:
   - high_level
   - a-train_underflight
@@ -134,7 +145,7 @@ segments:
   irregularities:
   - crash of 230 V system at about 9:55
   segment_id: ACLOUD_P5_RF11_hl02
-  start: 2017-06-02 09:40:40
+  start: 2017-06-02 09:40:39
   end: 2017-06-02 09:56:59
   levels:
   - 9800
@@ -186,10 +197,35 @@ segments:
   - 9700
   dropsondes: []
 - kinds:
-  - waiting_pattern
-  name: waiting pattern
+  - holding_pattern
+  name: holding pattern 2
+  irregularities: []
+  segment_id: ACLOUD_P5_RF11_ho02
   start: 2017-06-02 10:33:30
   end: 2017-06-02 10:38:04
+  levels:
+  - 9700
+  dropsondes: []
+  parts:
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-06-02 10:33:30
+    end: 2017-06-08 10:35:08
+  - kinds:
+    - high_level
+    name: holding pattern 2 leg 1
+    irregularities: []
+    segment_id: ACLOUD_P5_RF11_ho02_l01
+    start: 2017-06-08 10:35:09
+    end: 2017-06-08 10:36:39
+    levels:
+    - 9700
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-06-08 10:36:40
+    end: 2017-06-02 10:38:04
 - kinds:
   - high_level
   name: high level 6

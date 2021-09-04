@@ -109,17 +109,57 @@ segments:
     - high_level
     name: radiation square 1 leg 4
     irregularities:
-    - leg a bit longer to spent some time while waiting for satellite
+    - leg a bit longer to spend some time while waiting for satellite
     segment_id: MOSAiC-ACA_P5_RF05_rs01_l04
     start: 2020-09-02 08:07:30
     end: 2020-09-02 08:11:13
     levels:
     - 9500
 - kinds:
-  - waiting_pattern
-  name: waiting pattern
+  - holding_pattern
+  name: holding pattern 1
+  irregularities: []
+  segment_id: MOSAiC-ACA_P5_RF05_ho01
   start: 2020-09-02 08:11:14
   end: 2020-09-02 08:22:33
+  levels:
+  - 9500
+  dropsondes: []
+  parts:
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2020-09-02 08:11:14
+    end: 2020-09-02 08:12:53
+  - kinds:
+    - high_level
+    name: holding pattern 1 leg 1
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF05_ho01_l01
+    start: 2020-09-02 08:12:54
+    end: 2020-09-02 08:14:06
+    levels:
+    - 9500
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2020-09-02 08:14:07
+    end: 2020-09-02 08:17:14
+  - kinds:
+    - long_turn
+    name: long turn
+    start: 2020-09-02 08:17:15
+    end: 2020-09-02 08:19:57
+  - kinds:
+    - high_level
+    name: holding pattern 1 leg 2
+    irregularities: 
+    - 'slight roll deviations during leg'
+    segment_id: MOSAiC-ACA_P5_RF05_ho01_l02
+    start: 2020-09-02 08:19:58
+    end: 2020-09-02 08:22:33
+    levels:
+    - 9500
 - kinds:
   - high_level
   - a-train_underflight

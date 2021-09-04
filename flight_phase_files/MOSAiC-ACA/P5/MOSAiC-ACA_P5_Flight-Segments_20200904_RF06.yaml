@@ -397,10 +397,40 @@ segments:
   dropsondes:
   - MOSAiC-ACA_P5_RF06_DS05
 - kinds:
-  - waiting_pattern
-  name: waiting pattern
+  - holding_pattern
+  name: holding pattern 1
+  irregularities: []
+  segment_id: MOSAiC-ACA_P5_RF06_ho01
   start: 2020-09-04 16:09:37
   end: 2020-09-04 16:21:17
+  levels:
+  - 9800
+  dropsondes: []
+  parts:
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2020-09-04 16:09:37
+    end: 2020-09-04 16:10:23
+  - kinds:
+    - high_level
+    name: holding pattern 1 leg 1
+    irregularities: []
+    segment_id: MOSAiC-ACA_P5_RF06_ho01_l01
+    start: 2020-09-04 16:10:24
+    end: 2020-09-04 16:13:18
+    levels:
+    - 9800
+  - kinds:
+    - high_level
+    name: holding pattern 1 leg 2
+    irregularities: 
+    - 'Segment consists of various curves and a circle and is mostly not straight'
+    segment_id: MOSAiC-ACA_P5_RF06_ho01_l02
+    start: 2020-09-04 16:13:19
+    end: 2020-09-04 16:21:17
+    levels:
+    - 9800
 - kinds:
   - racetrack_pattern
   name: racetrack pattern 3

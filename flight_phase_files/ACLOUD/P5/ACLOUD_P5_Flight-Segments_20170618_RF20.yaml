@@ -93,10 +93,42 @@ segments:
     levels:
     - 300
 - kinds:
-  - waiting_pattern
-  name: waiting pattern
+  - holding_pattern
+  name: holding pattern 1
+  irregularities: []
+  segment_id: ACLOUD_P5_RF20_ho01
   start: 2017-06-18 12:59:08
   end: 2017-06-18 13:03:11
+  levels:
+  - 9800
+  - 9800
+  dropsondes: []
+  parts:
+  - kinds:
+    - high_level
+    name: holding pattern 1 leg 1
+    irregularities: 
+    - 'slight roll deviations in beginning of segment'
+    segment_id: ACLOUD_P5_RF20_ho01_l01
+    start: 2017-06-18 12:59:08
+    end: 2017-06-18 13:00:03
+    levels:
+    - 9800
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-06-18 13:00:04
+    end: 2017-06-18 13:02:30
+  - kinds:
+    - high_level
+    name: holding pattern 1 leg 2
+    irregularities: 
+    - 'slight curve at end of segment'
+    segment_id: ACLOUD_P5_RF20_ho01_l02
+    start: 2017-06-18 13:02:31
+    end: 2017-06-18 13:03:11
+    levels:
+    - 9800
 - kinds:
   - large_ascend
   name: large ascend 1
@@ -184,9 +216,9 @@ segments:
   end: 2017-06-18 14:16:41
 - kinds:
   - holding_pattern
-  name: holding pattern 1
+  name: holding pattern 2
   irregularities: []
-  segment_id: ACLOUD_P5_RF20_ho01
+  segment_id: ACLOUD_P5_RF20_ho02
   start: 2017-06-18 14:16:42
   end: 2017-06-18 14:26:23
   levels:
@@ -197,9 +229,9 @@ segments:
   parts:
   - kinds:
     - high_level
-    name: holding pattern 1 leg 1
+    name: holding pattern 2 leg 1
     irregularities: []
-    segment_id: ACLOUD_P5_RF20_ho01_l01
+    segment_id: ACLOUD_P5_RF20_ho02_l01
     start: 2017-06-18 14:16:42
     end: 2017-06-18 14:17:59
     levels:
@@ -211,9 +243,9 @@ segments:
     end: 2017-06-18 14:19:40
   - kinds:
     - high_level
-    name: holding pattern 1 leg 2
+    name: holding pattern 2 leg 2
     irregularities: []
-    segment_id: ACLOUD_P5_RF20_ho01_l02
+    segment_id: ACLOUD_P5_RF20_ho02_l02
     start: 2017-06-18 14:19:41
     end: 2017-06-18 14:21:26
     levels:
@@ -225,9 +257,9 @@ segments:
     end: 2017-06-18 14:22:57
   - kinds:
     - high_level
-    name: holding pattern 1 leg 3
+    name: holding pattern 2 leg 3
     irregularities: []
-    segment_id: ACLOUD_P5_RF20_ho01_l03
+    segment_id: ACLOUD_P5_RF20_ho02_l03
     start: 2017-06-18 14:22:58
     end: 2017-06-18 14:24:38
     levels:
