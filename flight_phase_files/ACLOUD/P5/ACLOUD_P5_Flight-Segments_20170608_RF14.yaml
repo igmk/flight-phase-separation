@@ -378,6 +378,7 @@ segments:
     - 9800
 - kinds:
   - major_descend
+  - nya_overflight
   name: major descend
   irregularities: []
   segment_id: ACLOUD_P5_RF14_md

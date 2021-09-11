@@ -493,6 +493,7 @@ segments:
   end: 2019-03-30 15:07:49
 - kinds:
   - high_level
+  - nya_overflight
   name: high level 5
   irregularities: []
   segment_id: AFLUX_P5_RF07_hl05

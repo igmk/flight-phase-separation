@@ -24,22 +24,43 @@ remarks:
 segments:
 - kinds:
   - major_ascend
-  - nya_overflight
   - sveabreen_glacier_overflight
   name: major ascend
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF09_ma
   start: 2020-09-10 08:30:15
-  end: 2020-09-10 09:05:49
+  end: 2020-09-10 08:41:47
   levels:
   - 100
+  - 9500
+  dropsondes: []
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 1
+  irregularities: []
+  segment_id: MOSAiC-ACA_P5_RF09_hl01
+  start: 2020-09-10 08:41:48
+  end: 2020-09-10 09:02:43
+  levels:
+  - 9500
+  dropsondes: []
+- kinds:
+  - small_ascend
+  name: small ascend 1
+  irregularities: []
+  segment_id: MOSAiC-ACA_P5_RF09_sa01
+  start: 2020-09-10 09:02:44
+  end: 2020-09-10 09:05:49
+  levels:
+  - 9500
   - 11500
   dropsondes: []
 - kinds:
   - high_level
-  name: high level 1
+  name: high level 2
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF09_hl01
+  segment_id: MOSAiC-ACA_P5_RF09_hl02
   start: 2020-09-10 09:05:50
   end: 2020-09-10 09:15:36
   levels:
@@ -53,9 +74,9 @@ segments:
   end: 2020-09-10 09:16:05
 - kinds:
   - high_level
-  name: high level 2
+  name: high level 3
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF09_hl02
+  segment_id: MOSAiC-ACA_P5_RF09_hl03
   start: 2020-09-10 09:16:06
   end: 2020-09-10 10:08:39
   levels:
@@ -224,9 +245,9 @@ segments:
   end: 2020-09-10 11:25:31
 - kinds:
   - high_level
-  name: high level 3
+  name: high level 4
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF09_hl03
+  segment_id: MOSAiC-ACA_P5_RF09_hl04
   start: 2020-09-10 11:25:32
   end: 2020-09-10 11:46:47
   levels:
@@ -414,9 +435,9 @@ segments:
   end: 2020-09-10 13:11:42
 - kinds:
   - high_level
-  name: high level 4
+  name: high level 5
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF09_hl04
+  segment_id: MOSAiC-ACA_P5_RF09_hl05
   start: 2020-09-10 13:11:43
   end: 2020-09-10 13:19:57
   levels:
@@ -424,9 +445,9 @@ segments:
   dropsondes: []
 - kinds:
   - small_ascend
-  name: small ascend 1
+  name: small ascend 2
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF09_sa01
+  segment_id: MOSAiC-ACA_P5_RF09_sa02
   start: 2020-09-10 13:19:58
   end: 2020-09-10 13:21:09
   levels:
@@ -435,9 +456,9 @@ segments:
   dropsondes: []
 - kinds:
   - high_level
-  name: high level 5
+  name: high level 6
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF09_hl05
+  segment_id: MOSAiC-ACA_P5_RF09_hl06
   start: 2020-09-10 13:21:10
   end: 2020-09-10 13:33:17
   levels:
@@ -446,9 +467,9 @@ segments:
   - MOSAiC-ACA_P5_RF09_DS09
 - kinds:
   - small_ascend
-  name: small ascend 2
+  name: small ascend 3
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF09_sa02
+  segment_id: MOSAiC-ACA_P5_RF09_sa03
   start: 2020-09-10 13:33:18
   end: 2020-09-10 13:34:21
   levels:
@@ -457,9 +478,9 @@ segments:
   dropsondes: []
 - kinds:
   - high_level
-  name: high level 6
+  name: high level 7
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF09_hl06
+  segment_id: MOSAiC-ACA_P5_RF09_hl07
   start: 2020-09-10 13:34:22
   end: 2020-09-10 13:58:34
   levels:
@@ -468,9 +489,9 @@ segments:
   - MOSAiC-ACA_P5_RF09_DS10
 - kinds:
   - small_ascend
-  name: small ascend 3
+  name: small ascend 4
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF09_sa03
+  segment_id: MOSAiC-ACA_P5_RF09_sa04
   start: 2020-09-10 13:58:35
   end: 2020-09-10 13:59:19
   levels:
@@ -479,9 +500,9 @@ segments:
   dropsondes: []
 - kinds:
   - high_level
-  name: high level 7
+  name: high level 8
   irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF09_hl07
+  segment_id: MOSAiC-ACA_P5_RF09_hl08
   start: 2020-09-10 13:59:20
   end: 2020-09-10 14:05:27
   levels:
@@ -495,22 +516,24 @@ segments:
   end: 2020-09-10 14:06:23
 - kinds:
   - high_level
-  name: high level 8
-  irregularities: []
-  segment_id: MOSAiC-ACA_P5_RF09_hl08
+  - nya_overflight
+  name: high level 9
+  irregularities: 
+  - slight descend before Ny-Alesund overflight
+  segment_id: MOSAiC-ACA_P5_RF09_hl09
   start: 2020-09-10 14:06:24
-  end: 2020-09-10 14:16:37
+  end: 2020-09-10 14:20:11
   levels:
   - 12500
   dropsondes: []
 - kinds:
   - major_descend
-  - nya_overflight
   - sveabreen_glacier_overflight
+  - nya_overflight
   name: major descend
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF09_md
-  start: 2020-09-10 14:16:38
+  start: 2020-09-10 14:20:12
   end: 2020-09-10 14:45:05
   levels:
   - 12500

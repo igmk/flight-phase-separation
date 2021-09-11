@@ -444,6 +444,7 @@ segments:
   end: 2020-09-08 13:42:24
 - kinds:
   - high_level
+  - nya_overflight
   name: high level 7
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF08_hl07

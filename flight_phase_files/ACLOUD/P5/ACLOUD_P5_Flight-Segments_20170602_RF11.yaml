@@ -211,20 +211,20 @@ segments:
     - short_turn
     name: short turn
     start: 2017-06-02 10:33:30
-    end: 2017-06-08 10:35:08
+    end: 2017-06-02 10:35:08
   - kinds:
     - high_level
     name: holding pattern 2 leg 1
     irregularities: []
     segment_id: ACLOUD_P5_RF11_ho02_l01
-    start: 2017-06-08 10:35:09
-    end: 2017-06-08 10:36:39
+    start: 2017-06-02 10:35:09
+    end: 2017-06-02 10:36:39
     levels:
     - 9700
   - kinds:
     - short_turn
     name: short turn
-    start: 2017-06-08 10:36:40
+    start: 2017-06-02 10:36:40
     end: 2017-06-02 10:38:04
 - kinds:
   - high_level
@@ -402,6 +402,7 @@ segments:
   end: 2017-06-02 13:19:34
 - kinds:
   - high_level
+  - nya_overflight
   name: high level 9
   irregularities: []
   segment_id: ACLOUD_P5_RF11_hl09

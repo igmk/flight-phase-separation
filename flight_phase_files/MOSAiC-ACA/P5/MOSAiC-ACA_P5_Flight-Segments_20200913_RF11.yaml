@@ -488,6 +488,7 @@ segments:
   dropsondes: []
 - kinds:
   - high_level
+  - nya_overflight
   name: high level 7
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF11_hl07
@@ -499,6 +500,7 @@ segments:
   - MOSAiC-ACA_P5_RF11_DS07
 - kinds:
   - major_descend
+  - nya_overflight
   name: major descend
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF11_md

@@ -22,7 +22,6 @@ remarks: []
 segments:
 - kinds:
   - major_ascend
-  - nya_overflight
   name: major ascend
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF07_ma
@@ -34,8 +33,10 @@ segments:
   dropsondes: []
 - kinds:
   - high_level
+  - nya_overflight
   name: high level 1
-  irregularities: []
+  irregularities:
+    - slight curve over Ny-Alesund
   segment_id: MOSAiC-ACA_P5_RF07_hl01
   start: 2020-09-07 08:35:43
   end: 2020-09-07 09:04:12
