@@ -94,6 +94,7 @@ segments:
     - 300
 - kinds:
   - holding_pattern
+  - polarstern_overflight
   name: holding pattern 1
   irregularities: []
   segment_id: ACLOUD_P5_RF20_ho01
@@ -131,6 +132,7 @@ segments:
     - 9800
 - kinds:
   - large_ascend
+  - polarstern_overflight
   name: large ascend 1
   irregularities:
   - starts within turn

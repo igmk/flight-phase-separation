@@ -560,6 +560,7 @@ segments:
   - ACLOUD_P5_RF21_DS02
 - kinds:
   - large_descend
+  - polarstern_overflight
   name: large descend 2
   irregularities:
   - short turn during descend
@@ -572,6 +573,7 @@ segments:
   dropsondes: []
 - kinds:
   - low_level
+  - polarstern_overflight
   name: low level 6
   irregularities: []
   segment_id: ACLOUD_P5_RF21_ll06
@@ -592,6 +594,7 @@ segments:
   end: 2017-06-20 12:29:59
 - kinds:
   - low_level
+  - polarstern_overflight
   name: low level 7
   irregularities: []
   segment_id: ACLOUD_P5_RF21_ll07
@@ -612,6 +615,7 @@ segments:
   end: 2017-06-20 12:33:29
 - kinds:
   - low_level
+  - polarstern_overflight
   name: low level 8
   irregularities: []
   segment_id: ACLOUD_P5_RF21_ll08
@@ -627,6 +631,7 @@ segments:
   end: 2017-06-20 12:37:14
 - kinds:
   - low_level
+  - polarstern_overflight
   name: low level 9
   irregularities: []
   segment_id: ACLOUD_P5_RF21_ll09
@@ -637,6 +642,7 @@ segments:
   dropsondes: []
 - kinds:
   - small_ascend
+  - polarstern_overflight
   name: small ascend 4
   irregularities:
   - short turn during ascend
@@ -654,6 +660,7 @@ segments:
   end: 2017-06-20 12:41:14
 - kinds:
   - low_level
+  - polarstern_overflight
   name: low level 10
   irregularities: []
   segment_id: ACLOUD_P5_RF21_ll10
@@ -669,6 +676,7 @@ segments:
   end: 2017-06-20 12:42:34
 - kinds:
   - low_level
+  - polarstern_overflight
   name: low level 11
   irregularities:
   - slight changes in flight altitude
@@ -685,6 +693,7 @@ segments:
   end: 2017-06-20 12:46:59
 - kinds:
   - low_level
+  - polarstern_overflight
   name: low level 12
   irregularities:
   - slightly high roll angles during leg
@@ -701,6 +710,7 @@ segments:
   end: 2017-06-20 12:52:59
 - kinds:
   - large_ascend
+  - polarstern_overflight
   name: large ascend 2
   irregularities:
   - circle and short turn during ascend

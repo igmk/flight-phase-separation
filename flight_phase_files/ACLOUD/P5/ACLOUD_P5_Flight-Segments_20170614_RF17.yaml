@@ -61,6 +61,7 @@ segments:
 - kinds:
   - large_descend
   - profiling
+  - polarstern_overflight
   name: large descend 1
   irregularities: []
   segment_id: ACLOUD_P5_RF17_ld01
@@ -73,6 +74,7 @@ segments:
   - ACLOUD_P5_RF17_DS02
 - kinds:
   - low_level
+  - polarstern_overflight
   name: low level 1
   irregularities: []
   segment_id: ACLOUD_P5_RF17_ll01
@@ -88,6 +90,7 @@ segments:
   end: 2017-06-14 14:06:51
 - kinds:
   - low_level
+  - polarstern_overflight
   name: low level 2
   irregularities: []
   segment_id: ACLOUD_P5_RF17_ll02
@@ -103,6 +106,7 @@ segments:
   end: 2017-06-14 14:09:11
 - kinds:
   - low_level
+  - polarstern_overflight
   name: low level 3
   irregularities: []
   segment_id: ACLOUD_P5_RF17_ll03
@@ -118,6 +122,7 @@ segments:
   end: 2017-06-14 14:13:19
 - kinds:
   - low_level
+  - polarstern_overflight
   name: low level 4
   irregularities:
   - height is not constant
@@ -134,6 +139,7 @@ segments:
   end: 2017-06-14 14:17:36
 - kinds:
   - low_level
+  - polarstern_overflight
   name: low level 5
   irregularities: []
   segment_id: ACLOUD_P5_RF17_ll05
@@ -275,6 +281,7 @@ segments:
   end: 2017-06-14 15:22:10
 - kinds:
   - low_level
+  - polarstern_overflight
   name: low level 6
   irregularities: []
   segment_id: ACLOUD_P5_RF17_ll06

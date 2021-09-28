@@ -232,6 +232,7 @@ segments:
     end: 2017-06-02 10:38:04
 - kinds:
   - high_level
+  - polarstern_overflight
   name: high level 6
   irregularities: []
   segment_id: ACLOUD_P5_RF11_hl06
@@ -248,6 +249,7 @@ segments:
   end: 2017-06-02 10:44:54
 - kinds:
   - high_level
+  - polarstern_overflight
   name: high level 7
   irregularities: []
   segment_id: ACLOUD_P5_RF11_hl07
@@ -390,6 +392,7 @@ segments:
   end: 2017-06-02 12:29:19
 - kinds:
   - high_level
+  - polarstern_overflight
   name: high level 8
   irregularities: []
   segment_id: ACLOUD_P5_RF11_hl08
