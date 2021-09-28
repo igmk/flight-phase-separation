@@ -38,6 +38,7 @@ segments:
   dropsondes: []
 - kinds:
   - high_level
+  - nya_overflight
   name: high level 1
   irregularities: []
   segment_id: ACLOUD_P5_RF14_hl01

@@ -218,6 +218,7 @@ segments:
   dropsondes: []
 - kinds:
   - medium_ascend
+  - nya_overflight
   name: medium ascend 1
   irregularities:
   - two curves during ascend
@@ -230,6 +231,7 @@ segments:
   dropsondes: []
 - kinds:
   - mid_level
+  - nya_overflight
   name: mid level 1
   irregularities:
   - slight curve at the end of pattern

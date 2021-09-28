@@ -278,6 +278,7 @@ segments:
   end: 2017-06-16 09:23:46
 - kinds:
   - high_level
+  - nya_overflight
   name: high level 8
   irregularities: []
   segment_id: ACLOUD_P5_RF18_hl08
@@ -328,6 +329,7 @@ segments:
   end: 2017-06-16 09:37:29
 - kinds:
   - high_level
+  - nya_overflight
   name: high level 9
   irregularities: []
   segment_id: ACLOUD_P5_RF18_hl09

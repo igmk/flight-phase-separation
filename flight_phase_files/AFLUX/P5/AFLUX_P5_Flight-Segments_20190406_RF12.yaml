@@ -648,6 +648,7 @@ segments:
   dropsondes: []
 - kinds:
   - high_level
+  - nya_overflight
   name: high level 2
   irregularities: []
   segment_id: AFLUX_P5_RF12_hl02
@@ -663,6 +664,7 @@ segments:
   end: 2019-04-06 15:28:49
 - kinds:
   - high_level
+  - nya_overflight
   name: high level 3
   irregularities: []
   segment_id: AFLUX_P5_RF12_hl03
