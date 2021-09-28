@@ -18,6 +18,7 @@ landing: 2017-06-20 13:51:30
 events:
 - Joint flight between P5 and P6
 - Polarstern overflight with cross pattern
+- Ny-Alesund overflight
 - Racetrack pattern over sea ice
 - EAGLE/HAWK calibration
 remarks:
@@ -36,6 +37,7 @@ segments:
   dropsondes: []
 - kinds:
   - high_level
+  - nya_overflight
   name: high level 1
   irregularities: []
   segment_id: ACLOUD_P5_RF21_hl01
