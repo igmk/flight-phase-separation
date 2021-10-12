@@ -6,7 +6,7 @@ The idea behind flight phase separation is to be able to select segments of flig
 A description of the flight segments together with illustrations and code examples can be found in the [pyac3airborne book](https://igmk.github.io/pyac3airborne_book/flight_tracks.html).
 
 ## Updating *all_flights.yaml*
-When creating new or updated flight segment files, a new tag with a new veriosn number needs to be created and pushed to kick of the generation of the *all_flights.yaml*.
+When creating new or updated flight segment files, a new tag with a new version number needs to be created and pushed to kick off the generation of the *all_flights.yaml*.
 
 ```
 git add .
