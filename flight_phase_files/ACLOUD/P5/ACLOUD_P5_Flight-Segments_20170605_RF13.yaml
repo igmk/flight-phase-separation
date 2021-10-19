@@ -52,6 +52,7 @@ segments:
   end: 2017-06-05 11:44:59
 - kinds:
   - high_level
+  - polarstern_overflight
   name: high level 2
   irregularities: []
   segment_id: ACLOUD_P5_RF13_hl02
@@ -165,6 +166,7 @@ segments:
 - kinds:
   - large_descend
   - profiling
+  - polarstern_overflight
   name: large descend 1
   irregularities:
   - short turn during descend
@@ -177,6 +179,7 @@ segments:
   dropsondes: []
 - kinds:
   - low_level
+  - polarstern_overflight
   name: low level 1
   irregularities: []
   segment_id: ACLOUD_P5_RF13_ll01

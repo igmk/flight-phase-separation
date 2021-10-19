@@ -24,6 +24,7 @@ remarks:
 segments:
 - kinds:
   - major_ascend
+  - nya_overflight
   name: major ascend
   irregularities: []
   segment_id: ACLOUD_P5_RF19_ma

@@ -103,7 +103,8 @@ segments:
   - kinds:
     - low_level
     name: racetrack pattern 1 leg 1
-    irregularities: []
+    irregularities: 
+    - slight curve between 12:08:20 and 12:08:28
     segment_id: ACLOUD_P5_RF23_rt01_l01
     start: 2017-06-25 12:07:05
     end: 2017-06-25 12:17:34
@@ -235,7 +236,8 @@ segments:
   - kinds:
     - low_level
     name: racetrack pattern 2 leg 1
-    irregularities: []
+    irregularities: 
+    - slight curve between 13:05:05 and 13:05:15
     segment_id: ACLOUD_P5_RF23_rt02_l01
     start: 2017-06-25 13:04:35
     end: 2017-06-25 13:14:19
@@ -443,7 +445,8 @@ segments:
   - kinds:
     - low_level
     name: racetrack pattern 3 leg 6
-    irregularities: []
+    irregularities: 
+    - off-track in the beginning by about 2 km
     segment_id: ACLOUD_P5_RF23_rt03_l06
     start: 2017-06-25 14:58:30
     end: 2017-06-25 15:01:19

@@ -22,6 +22,7 @@ segments:
 - kinds:
   - major_ascend
   - sveabreen_glacier_overflight
+  - nya_overflight
   name: major ascend
   irregularities: []
   segment_id: ACLOUD_P5_RF05_ma
@@ -50,6 +51,7 @@ segments:
   end: 2017-05-25 08:46:44
 - kinds:
   - high_level
+  - nya_overflight
   name: high level 2
   irregularities: []
   segment_id: ACLOUD_P5_RF05_hl02

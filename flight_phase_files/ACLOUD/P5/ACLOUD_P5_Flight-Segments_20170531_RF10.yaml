@@ -286,6 +286,7 @@ segments:
   end: 2017-05-31 17:16:14
 - kinds:
   - low_level
+  - polarstern_overflight
   name: low level 12
   irregularities: []
   segment_id: ACLOUD_P5_RF10_ll12
@@ -402,6 +403,7 @@ segments:
     - 2900
 - kinds:
   - large_ascend
+  - polarstern_overflight
   name: large ascend 1
   irregularities: []
   segment_id: ACLOUD_P5_RF10_la01
