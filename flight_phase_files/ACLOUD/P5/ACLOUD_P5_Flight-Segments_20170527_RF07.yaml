@@ -20,8 +20,8 @@ events:
 remarks: []
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: ACLOUD_P5_RF07_ma
   start: 2017-05-27 13:05:00
@@ -89,8 +89,8 @@ segments:
   - 10800
   dropsondes: []
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: ACLOUD_P5_RF07_md
   start: 2017-05-27 16:03:10

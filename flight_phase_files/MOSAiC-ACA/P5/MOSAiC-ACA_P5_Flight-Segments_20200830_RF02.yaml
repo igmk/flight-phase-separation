@@ -21,8 +21,8 @@ remarks:
 - No segmentation apart from instrument_testing segment performed
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF02_ma
   start: 2020-08-30 08:14:30
@@ -43,8 +43,8 @@ segments:
   - 6800
   dropsondes: []
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF02_md
   start: 2020-08-30 09:02:52

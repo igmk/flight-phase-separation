@@ -20,10 +20,10 @@ events:
 remarks: []
 segments:
 - kinds:
-  - major_ascend
+  - major_ascent
   - sveabreen_glacier_overflight
   - nya_overflight
-  name: major ascend
+  name: major ascent
   irregularities: []
   segment_id: ACLOUD_P5_RF05_ma
   start: 2017-05-25 08:17:45
@@ -188,8 +188,8 @@ segments:
   dropsondes:
   - ACLOUD_P5_RF05_DS07
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: ACLOUD_P5_RF05_md
   start: 2017-05-25 12:32:40

@@ -24,8 +24,8 @@ remarks:
 - Two power outages of 230 V in beginning during transfer to first satellite meeting
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: ACLOUD_P5_RF18_ma
   start: 2017-06-16 04:46:10
@@ -341,8 +341,8 @@ segments:
   - 9800
   dropsondes: []
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: ACLOUD_P5_RF18_md
   start: 2017-06-16 09:42:30

@@ -58,14 +58,14 @@ class SegmentCatalog:
     regular = ['high_level',
                'mid_level',
                'low_level',
-               'large_ascend',
-               'large_descend',
-               'major_ascend',
-               'major_descend',
-               'small_ascend',
-               'small_descend',
-               'medium_ascend',
-               'medium_descend',
+               'large_ascent',
+               'large_descent',
+               'major_ascent',
+               'major_descent',
+               'small_ascent',
+               'small_descent',
+               'medium_ascent',
+               'medium_descent',
                'profiling',
                'p6_co-location',
                'nya_overflight',
@@ -99,21 +99,21 @@ class SegmentCatalog:
                                    'high_level',
                                    'procedure_turn',
                                    'short_turn',
-                                   'small_ascend',
-                                   'small_descend',
-                                   'large_descend',
-                                   'medium_descend',
-                                   'medium_ascend',
+                                   'small_ascent',
+                                   'small_descent',
+                                   'large_descent',
+                                   'medium_descent',
+                                   'medium_ascent',
                                    'profiling',
-                                   'large_ascend'
+                                   'large_ascent'
                                    ], 
              
-             'stairstep_pattern': ['small_ascend',
-                                   'medium_ascend',
-                                   'large_ascend',
-                                   'small_descend',
-                                   'medium_descend',
-                                   'large_descend',
+             'stairstep_pattern': ['small_ascent',
+                                   'medium_ascent',
+                                   'large_ascent',
+                                   'small_descent',
+                                   'medium_descent',
+                                   'large_descent',
                                    'low_level',
                                    'mid_level',
                                    'high_level',
@@ -125,12 +125,12 @@ class SegmentCatalog:
                                'procedure_turn',
                                ],
              
-             'sawtooth_pattern': ['small_ascend',
-                                  'medium_ascend',
-                                  'large_ascend',
-                                  'small_descend',
-                                  'medium_descend',
-                                  'large_descend',
+             'sawtooth_pattern': ['small_ascent',
+                                  'medium_ascent',
+                                  'large_ascent',
+                                  'small_descent',
+                                  'medium_descent',
+                                  'large_descent',
                                   'low_level',
                                   'mid_level',
                                   'high_level'
@@ -155,14 +155,14 @@ class SegmentCatalog:
     regular_name = ['high level',
                     'mid level',
                     'low level',
-                    'large ascend',
-                    'large descend',
-                    'major ascend',
-                    'major descend',
-                    'small ascend',
-                    'small descend',
-                    'medium ascend',
-                    'medium descend',
+                    'large ascent',
+                    'large descent',
+                    'major ascent',
+                    'major descent',
+                    'small ascent',
+                    'small descent',
+                    'medium ascent',
+                    'medium descent',
                     'instrument testing',
                     ]
     
@@ -189,18 +189,18 @@ class SegmentCatalog:
                                         'short turn',  
                                        ], 
                  
-                 'stairstep_pattern': ['stairstep pattern {} ascend {}',
-                                       'stairstep pattern {} descend {}',
+                 'stairstep_pattern': ['stairstep pattern {} ascent {}',
+                                       'stairstep pattern {} descent {}',
                                        'stairstep pattern {} leg {}',
                                        ],
                  
-                 'cross_pattern': ['cross pattern {} ascend {}',
+                 'cross_pattern': ['cross pattern {} ascent {}',
                                    'cross pattern turn', 
                                    'procedure turn',
                                    ],
                  
-                 'sawtooth_pattern': ['sawtooth pattern {} ascend {}',
-                                      'sawtooth pattern {} descend {}',
+                 'sawtooth_pattern': ['sawtooth pattern {} ascent {}',
+                                      'sawtooth pattern {} descent {}',
                                       'sawtooth pattern {} high level {}',
                                       'sawtooth pattern {} mid level {}',
                                       'sawtooth pattern {} low level {}',
@@ -220,8 +220,8 @@ class SegmentCatalog:
                                                   ],
                  }
     
-    no_numbering = ['major ascend',
-                    'major descend',
+    no_numbering = ['major ascent',
+                    'major descent',
                     'short turn',
                     'long turn',
                     'procedure turn',
@@ -236,14 +236,14 @@ class SegmentCatalog:
     short_names = {'high level': 'hl',
                    'mid level': 'ml',
                    'low level': 'll',
-                   'large ascend': 'la',
-                   'large descend': 'ld',
-                   'major ascend': 'ma',
-                   'major descend': 'md',
-                   'small ascend': 'sa',
-                   'small descend': 'sd',
-                   'medium ascend': 'ma',
-                   'medium descend': 'md',
+                   'large ascent': 'la',
+                   'large descent': 'ld',
+                   'major ascent': 'ma',
+                   'major descent': 'md',
+                   'small ascent': 'sa',
+                   'small descent': 'sd',
+                   'medium ascent': 'ma',
+                   'medium descent': 'md',
                    'noseboom calibration': 'nc',
                    'instrument testing': 'it',
                    'racetrack pattern': 'rt',
@@ -255,8 +255,8 @@ class SegmentCatalog:
                    'noseboom calibration pattern': 'np',
                    
                    # only used in parts
-                   'ascend': 'a',
-                   'descend': 'd',
+                   'ascent': 'a',
+                   'descent': 'd',
                    'leg': 'l'
                    }
     
@@ -409,8 +409,8 @@ def main(flight, meta):
             
             assert kind in SegmentCatalog.pattern or kind in SegmentCatalog.curves or kind in SegmentCatalog.regular, 'element "{}" in "kinds" list not available. Please correct it or add the kind to the SegmentCatalog class'.format(kind)
         
-    assert 'major_ascend' in kinds_lst[0], '"major_ascend" is not the first segment'
-    assert 'major_descend' in kinds_lst[-1], '"major_descend" is not the last segment'
+    assert 'major_ascent' in kinds_lst[0], '"major_ascent" is not the first segment'
+    assert 'major_descent' in kinds_lst[-1], '"major_descent" is not the last segment'
     
     # kinds labels of parts
     for segment in segments:
@@ -442,7 +442,7 @@ def main(flight, meta):
                     if 'sawtooth pattern' in segment['name'] or 'stairstep pattern' in segment['name']:
                         
                         end_name = ' '.join(part['name'].split(segment['name'])[-1].split(' ')[1:-1])
-                        true_name = ['ascend', 'descend', 'low level', 'mid level', 'high level']
+                        true_name = ['ascent', 'descent', 'low level', 'mid level', 'high level']
                         assert end_name in true_name, 'part with segment_id "{}" with name "{}" is not equal to one of these possible names {}'.format(part['segment_id'], end_name, true_name)
                     
     # check segment id's
@@ -572,17 +572,17 @@ def main(flight, meta):
                     assert len(part['levels']) == 1, 'Number of levels of segment id "{}" should be 1'.format(part['segment_id'])
                     assert segment_horizontal(part['levels'][0]) == kind, '{} kind with segment id "{}" is actually "{}"'.format(kind, part['segment_id'], segment_horizontal(part['levels'][0]))
     
-    # check levels of ascends and descends
-    test_kinds_v = ['small_ascend', 'medium_ascend', 'large_ascend', 'small_descend', 'medium_descend', 'large_descend']
+    # check levels of ascents and descents
+    test_kinds_v = ['small_ascent', 'medium_ascent', 'large_ascent', 'small_descent', 'medium_descent', 'large_descent']
     
     def segment_vertical(level):
-        if level[1]/3.281 - level[0]/3.281 > 2000: return 'large_ascend'
-        elif level[1]/3.281 - level[0]/3.281 > 1000: return 'medium_ascend'
-        elif level[1]/3.281 - level[0]/3.281 > 0: return 'small_ascend'
-        elif level[1]/3.281 - level[0]/3.281 > -1000: return 'small_descend'
-        elif level[1]/3.281 - level[0]/3.281 > -2000: return 'medium_descend'
-        elif level[1]/3.281 - level[0]/3.281 <= -2000: return 'large_descend'
-        else: return 'input level can not be classified as ascend or descend'
+        if level[1]/3.281 - level[0]/3.281 > 2000: return 'large_ascent'
+        elif level[1]/3.281 - level[0]/3.281 > 1000: return 'medium_ascent'
+        elif level[1]/3.281 - level[0]/3.281 > 0: return 'small_ascent'
+        elif level[1]/3.281 - level[0]/3.281 > -1000: return 'small_descent'
+        elif level[1]/3.281 - level[0]/3.281 > -2000: return 'medium_descent'
+        elif level[1]/3.281 - level[0]/3.281 <= -2000: return 'large_descent'
+        else: return 'input level can not be classified as ascent or descent'
     
     for segment in segments:
         if len(set.intersection(set(segment['kinds']), set(test_kinds_v))):

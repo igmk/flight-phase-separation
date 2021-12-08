@@ -23,8 +23,8 @@ remarks:
 - Dropsonde failed at 09:34 UTC
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF08_ma
   start: 2020-09-08 08:00:55
@@ -84,8 +84,8 @@ segments:
   start: 2020-09-08 09:53:10
   end: 2020-09-08 09:57:29
 - kinds:
-  - large_descend
-  name: large descend 1
+  - large_descent
+  name: large descent 1
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF08_ld01
   start: 2020-09-08 09:57:30
@@ -124,8 +124,8 @@ segments:
     - 200
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 1
+    - small_ascent
+    name: racetrack pattern 1 ascent 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF08_rt01_a01
     start: 2020-09-08 10:18:40
@@ -144,8 +144,8 @@ segments:
     - 400
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 2
+    - small_ascent
+    name: racetrack pattern 1 ascent 2
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF08_rt01_a02
     start: 2020-09-08 10:28:15
@@ -164,8 +164,8 @@ segments:
     - 1700
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 3
+    - small_ascent
+    name: racetrack pattern 1 ascent 3
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF08_rt01_a03
     start: 2020-09-08 10:37:35
@@ -198,8 +198,8 @@ segments:
   - 300
   dropsondes: []
 - kinds:
-  - large_ascend
-  name: large ascend 1
+  - large_ascent
+  name: large ascent 1
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF08_la01
   start: 2020-09-08 10:53:50
@@ -219,8 +219,8 @@ segments:
   - 7000
   dropsondes: []
 - kinds:
-  - large_descend
-  name: large descend 2
+  - large_descent
+  name: large descent 2
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF08_ld02
   start: 2020-09-08 11:02:00
@@ -277,8 +277,8 @@ segments:
     - 200
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 2 ascend 1
+    - small_ascent
+    name: racetrack pattern 2 ascent 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF08_rt02_a01
     start: 2020-09-08 11:33:35
@@ -297,8 +297,8 @@ segments:
     - 600
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 2 ascend 2
+    - small_ascent
+    name: racetrack pattern 2 ascent 2
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF08_rt02_a02
     start: 2020-09-08 11:43:10
@@ -317,8 +317,8 @@ segments:
     - 800
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 2 ascend 3
+    - small_ascent
+    name: racetrack pattern 2 ascent 3
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF08_rt02_a03
     start: 2020-09-08 11:52:45
@@ -337,8 +337,8 @@ segments:
     - 1100
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 2 ascend 4
+    - small_ascent
+    name: racetrack pattern 2 ascent 4
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF08_rt02_a04
     start: 2020-09-08 12:02:15
@@ -357,8 +357,8 @@ segments:
     - 2300
   - kinds:
     - procedure_turn
-    - medium_ascend
-    name: racetrack pattern 2 ascend 5
+    - medium_ascent
+    name: racetrack pattern 2 ascent 5
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF08_rt02_a05
     start: 2020-09-08 12:12:30
@@ -377,8 +377,8 @@ segments:
     - 6100
   - kinds:
     - procedure_turn
-    - small_descend
-    name: racetrack pattern 2 descend 1
+    - small_descent
+    name: racetrack pattern 2 descent 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF08_rt02_d01
     start: 2020-09-08 12:25:30
@@ -396,11 +396,11 @@ segments:
     levels:
     - 5800
 - kinds:
-  - medium_ascend
+  - medium_ascent
   - short_turn
-  name: medium ascend 1
+  name: medium ascent 1
   irregularities:
-  - short turn in beginning of ascend
+  - short turn in beginning of ascent
   segment_id: MOSAiC-ACA_P5_RF08_ma01
   start: 2020-09-08 12:34:45
   end: 2020-09-08 12:38:59
@@ -454,8 +454,8 @@ segments:
   - 9500
   dropsondes: []
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF08_md
   start: 2020-09-08 13:47:50

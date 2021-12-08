@@ -21,8 +21,8 @@ remarks:
 - Sharp cloud edge over homogeneous sea ice
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities:
   - curve at about 800 m altitude
   segment_id: AFLUX_P5_RF15_ma
@@ -43,8 +43,8 @@ segments:
   - 9400
   dropsondes: []
 - kinds:
-  - large_descend
-  name: large descend 1
+  - large_descent
+  name: large descent 1
   irregularities: []
   segment_id: AFLUX_P5_RF15_ld01
   start: 2019-04-11 10:30:00
@@ -107,8 +107,8 @@ segments:
     - 200
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 1
+    - small_ascent
+    name: racetrack pattern 1 ascent 1
     irregularities: []
     segment_id: AFLUX_P5_RF15_rt01_a01
     start: 2019-04-11 11:00:00
@@ -127,8 +127,8 @@ segments:
     - 300
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 2
+    - small_ascent
+    name: racetrack pattern 1 ascent 2
     irregularities: []
     segment_id: AFLUX_P5_RF15_rt01_a02
     start: 2019-04-11 11:11:20
@@ -147,8 +147,8 @@ segments:
     - 500
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 3
+    - small_ascent
+    name: racetrack pattern 1 ascent 3
     irregularities: []
     segment_id: AFLUX_P5_RF15_rt01_a03
     start: 2019-04-11 11:23:35
@@ -166,8 +166,8 @@ segments:
     levels:
     - 800
 - kinds:
-  - small_descend
-  name: small descend 1
+  - small_descent
+  name: small descent 1
   irregularities: []
   segment_id: AFLUX_P5_RF15_sd01
   start: 2019-04-11 11:37:14
@@ -177,8 +177,8 @@ segments:
   - 200
   dropsondes: []
 - kinds:
-  - medium_ascend
-  name: medium ascend 1
+  - medium_ascent
+  name: medium ascent 1
   irregularities: []
   segment_id: AFLUX_P5_RF15_ma01
   start: 2019-04-11 11:39:25
@@ -188,8 +188,8 @@ segments:
   - 3700
   dropsondes: []
 - kinds:
-  - medium_descend
-  name: medium descend 1
+  - medium_descent
+  name: medium descent 1
   irregularities: []
   segment_id: AFLUX_P5_RF15_md01
   start: 2019-04-11 11:45:10
@@ -209,8 +209,8 @@ segments:
   - 200
   dropsondes: []
 - kinds:
-  - small_ascend
-  name: small ascend 1
+  - small_ascent
+  name: small ascent 1
   irregularities: []
   segment_id: AFLUX_P5_RF15_sa01
   start: 2019-04-11 11:55:50
@@ -220,8 +220,8 @@ segments:
   - 2000
   dropsondes: []
 - kinds:
-  - small_descend
-  name: small descend 2
+  - small_descent
+  name: small descent 2
   irregularities: []
   segment_id: AFLUX_P5_RF15_sd02
   start: 2019-04-11 11:57:48
@@ -258,8 +258,8 @@ segments:
     - 200
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 2 ascend 1
+    - small_ascent
+    name: racetrack pattern 2 ascent 1
     irregularities: []
     segment_id: AFLUX_P5_RF15_rt02_a01
     start: 2019-04-11 12:08:00
@@ -278,8 +278,8 @@ segments:
     - 500
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 2 ascend 2
+    - small_ascent
+    name: racetrack pattern 2 ascent 2
     irregularities: []
     segment_id: AFLUX_P5_RF15_rt02_a02
     start: 2019-04-11 12:19:15
@@ -298,8 +298,8 @@ segments:
     - 800
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 2 ascend 3
+    - small_ascent
+    name: racetrack pattern 2 ascent 3
     irregularities: []
     segment_id: AFLUX_P5_RF15_rt02_a03
     start: 2019-04-11 12:29:00
@@ -318,8 +318,8 @@ segments:
     - 900
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 2 ascend 4
+    - small_ascent
+    name: racetrack pattern 2 ascent 4
     irregularities: []
     segment_id: AFLUX_P5_RF15_rt02_a04
     start: 2019-04-11 12:40:00
@@ -338,8 +338,8 @@ segments:
     - 1100
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 2 ascend 5
+    - small_ascent
+    name: racetrack pattern 2 ascent 5
     irregularities: []
     segment_id: AFLUX_P5_RF15_rt02_a05
     start: 2019-04-11 12:50:30
@@ -358,8 +358,8 @@ segments:
     - 1300
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 2 ascend 6
+    - small_ascent
+    name: racetrack pattern 2 ascent 6
     irregularities: []
     segment_id: AFLUX_P5_RF15_rt02_a06
     start: 2019-04-11 13:02:30
@@ -382,8 +382,8 @@ segments:
   start: 2019-04-11 13:11:30
   end: 2019-04-11 13:13:09
 - kinds:
-  - small_descend
-  name: small descend 3
+  - small_descent
+  name: small descent 3
   irregularities: []
   segment_id: AFLUX_P5_RF15_sd03
   start: 2019-04-11 13:13:10
@@ -403,8 +403,8 @@ segments:
   - 200
   dropsondes: []
 - kinds:
-  - large_ascend
-  name: large ascend 1
+  - large_ascent
+  name: large ascent 1
   irregularities: []
   segment_id: AFLUX_P5_RF15_la01
   start: 2019-04-11 13:20:45
@@ -432,8 +432,8 @@ segments:
   start: 2019-04-11 14:08:40
   end: 2019-04-11 14:09:21
 - kinds:
-  - large_descend
-  name: large descend 2
+  - large_descent
+  name: large descent 2
   irregularities: []
   segment_id: AFLUX_P5_RF15_ld02
   start: 2019-04-11 14:09:22
@@ -453,8 +453,8 @@ segments:
   - 1900
   dropsondes: []
 - kinds:
-  - small_descend
-  name: small descend 4
+  - small_descent
+  name: small descent 4
   irregularities: []
   segment_id: AFLUX_P5_RF15_sd04
   start: 2019-04-11 14:19:30
@@ -491,8 +491,8 @@ segments:
   - 200
   dropsondes: []
 - kinds:
-  - large_ascend
-  name: large ascend 2
+  - large_ascent
+  name: large ascent 2
   irregularities: []
   segment_id: AFLUX_P5_RF15_la02
   start: 2019-04-11 14:38:15
@@ -512,8 +512,8 @@ segments:
   - 9500
   dropsondes: []
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities:
   - curve at about 1 km altitude
   segment_id: AFLUX_P5_RF15_md

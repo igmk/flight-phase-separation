@@ -23,9 +23,9 @@ remarks:
 - Clouds above open water and sea ice
 segments:
 - kinds:
-  - major_ascend
+  - major_ascent
   - nya_overflight
-  name: major ascend
+  name: major ascent
   irregularities: []
   segment_id: ACLOUD_P5_RF19_ma
   start: 2017-06-17 09:54:15
@@ -51,7 +51,7 @@ segments:
     - high_level
     name: cross pattern 1 leg 1
     irregularities:
-    - ascend in middle of the leg from 9700 to 11600 ft
+    - ascent in middle of the leg from 9700 to 11600 ft
     segment_id: ACLOUD_P5_RF19_cr01_l01
     start: 2017-06-17 10:17:10
     end: 2017-06-17 10:23:34
@@ -156,7 +156,7 @@ segments:
   - high_level
   name: high level 6
   irregularities:
-  - irregular ascend from 11600 to 14100 ft
+  - irregular ascent from 11600 to 14100 ft
   - high pitch angle in beginning of leg
   segment_id: ACLOUD_P5_RF19_hl06
   start: 2017-06-17 12:22:10
@@ -173,7 +173,7 @@ segments:
   - high_level
   name: high level 7
   irregularities:
-  - irregular ascend from 14800 to 16700 ft, slightly descending during end of leg
+  - irregular ascent from 14800 to 16700 ft, slightly descending during end of leg
   segment_id: ACLOUD_P5_RF19_hl07
   start: 2017-06-17 12:37:25
   end: 2017-06-17 12:51:39
@@ -190,7 +190,7 @@ segments:
   - high_level
   name: high level 8
   irregularities:
-  - slight descend from 16500 to 15000 ft during leg, strongest descend during end
+  - slight descent from 16500 to 15000 ft during leg, strongest descent during end
     of segment
   segment_id: ACLOUD_P5_RF19_hl08
   start: 2017-06-17 12:53:35
@@ -207,8 +207,8 @@ segments:
   - high_level
   name: high level 9
   irregularities:
-  - slight ascend from 15100 to 17300 ft in the middle of segment, followed by a small
-    descend towards the end
+  - slight ascent from 15100 to 17300 ft in the middle of segment, followed by a small
+    descent towards the end
   segment_id: ACLOUD_P5_RF19_hl09
   start: 2017-06-17 13:14:30
   end: 2017-06-17 13:29:44
@@ -232,8 +232,8 @@ segments:
   - 16300
   dropsondes: []
 - kinds:
-  - small_descend
-  name: small descend 1
+  - small_descent
+  name: small descent 1
   irregularities: []
   segment_id: ACLOUD_P5_RF19_sd01
   start: 2017-06-17 13:39:25
@@ -383,8 +383,8 @@ segments:
   dropsondes:
   - ACLOUD_P5_RF19_DS05
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: ACLOUD_P5_RF19_md
   start: 2017-06-17 15:06:35

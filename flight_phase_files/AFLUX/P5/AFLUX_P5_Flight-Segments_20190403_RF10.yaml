@@ -23,8 +23,8 @@ remarks:
 - Mid-Level stratocumulus over sea ice
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: AFLUX_P5_RF10_ma
   start: 2019-04-03 10:21:00
@@ -76,8 +76,8 @@ segments:
   - AFLUX_P5_RF10_DS01
   - AFLUX_P5_RF10_DS02
 - kinds:
-  - small_ascend
-  name: small ascend 1
+  - small_ascent
+  name: small ascent 1
   irregularities: []
   segment_id: AFLUX_P5_RF10_sa01
   start: 2019-04-03 11:26:25
@@ -149,8 +149,8 @@ segments:
     - 10700
   - kinds:
     - procedure_turn
-    - small_descend
-    name: racetrack pattern 1 descend 1
+    - small_descent
+    name: racetrack pattern 1 descent 1
     irregularities: []
     segment_id: AFLUX_P5_RF10_rt01_d01
     start: 2019-04-03 12:07:20
@@ -169,8 +169,8 @@ segments:
     - 7700
   - kinds:
     - procedure_turn
-    - medium_descend
-    name: racetrack pattern 1 descend 2
+    - medium_descent
+    name: racetrack pattern 1 descent 2
     irregularities: []
     segment_id: AFLUX_P5_RF10_rt01_d02
     start: 2019-04-03 12:17:35
@@ -189,8 +189,8 @@ segments:
     - 3700
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 1
+    - small_ascent
+    name: racetrack pattern 1 ascent 1
     irregularities: []
     segment_id: AFLUX_P5_RF10_rt01_a01
     start: 2019-04-03 12:24:50
@@ -209,8 +209,8 @@ segments:
     - 5700
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 2
+    - small_ascent
+    name: racetrack pattern 1 ascent 2
     irregularities: []
     segment_id: AFLUX_P5_RF10_rt01_a02
     start: 2019-04-03 12:34:10
@@ -229,8 +229,8 @@ segments:
     - 6000
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 3
+    - small_ascent
+    name: racetrack pattern 1 ascent 3
     irregularities: []
     segment_id: AFLUX_P5_RF10_rt01_a03
     start: 2019-04-03 12:41:25
@@ -249,8 +249,8 @@ segments:
     - 6300
   - kinds:
     - procedure_turn
-    - small_descend
-    name: racetrack pattern 1 descend 3
+    - small_descent
+    name: racetrack pattern 1 descent 3
     irregularities: []
     segment_id: AFLUX_P5_RF10_rt01_d03
     start: 2019-04-03 12:48:00
@@ -269,8 +269,8 @@ segments:
     - 5800
   - kinds:
     - procedure_turn
-    - medium_descend
-    name: racetrack pattern 1 descend 4
+    - medium_descent
+    name: racetrack pattern 1 descent 4
     irregularities: []
     segment_id: AFLUX_P5_RF10_rt01_d04
     start: 2019-04-03 12:55:15
@@ -289,8 +289,8 @@ segments:
     - 200
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 4
+    - small_ascent
+    name: racetrack pattern 1 ascent 4
     irregularities: []
     segment_id: AFLUX_P5_RF10_rt01_a04
     start: 2019-04-03 13:04:35
@@ -309,8 +309,8 @@ segments:
     - 400
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 5
+    - small_ascent
+    name: racetrack pattern 1 ascent 5
     irregularities: []
     segment_id: AFLUX_P5_RF10_rt01_a05
     start: 2019-04-03 13:12:20
@@ -329,8 +329,8 @@ segments:
     - 500
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 6
+    - small_ascent
+    name: racetrack pattern 1 ascent 6
     irregularities: []
     segment_id: AFLUX_P5_RF10_rt01_a06
     start: 2019-04-03 13:22:30
@@ -377,8 +377,8 @@ segments:
     levels:
     - 200
   - kinds:
-    - medium_ascend
-    name: sawtooth pattern 1 ascend 1
+    - medium_ascent
+    name: sawtooth pattern 1 ascent 1
     irregularities: []
     segment_id: AFLUX_P5_RF10_st01_a01
     start: 2019-04-03 13:34:20
@@ -396,8 +396,8 @@ segments:
     levels:
     - 6000
   - kinds:
-    - medium_descend
-    name: sawtooth pattern 1 descend 1
+    - medium_descent
+    name: sawtooth pattern 1 descent 1
     irregularities: []
     segment_id: AFLUX_P5_RF10_st01_d01
     start: 2019-04-03 13:43:30
@@ -415,8 +415,8 @@ segments:
     levels:
     - 200
   - kinds:
-    - small_ascend
-    name: sawtooth pattern 1 ascend 2
+    - small_ascent
+    name: sawtooth pattern 1 ascent 2
     irregularities: []
     segment_id: AFLUX_P5_RF10_st01_a02
     start: 2019-04-03 13:57:35
@@ -434,8 +434,8 @@ segments:
     levels:
     - 2700
   - kinds:
-    - small_descend
-    name: sawtooth pattern 1 descend 2
+    - small_descent
+    name: sawtooth pattern 1 descent 2
     irregularities: []
     segment_id: AFLUX_P5_RF10_st01_d02
     start: 2019-04-03 14:02:20
@@ -468,8 +468,8 @@ segments:
   - 200
   dropsondes: []
 - kinds:
-  - large_ascend
-  name: large ascend 1
+  - large_ascent
+  name: large ascent 1
   irregularities: []
   segment_id: AFLUX_P5_RF10_la01
   start: 2019-04-03 14:13:10
@@ -505,8 +505,8 @@ segments:
   - 9300
   dropsondes: []
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: AFLUX_P5_RF10_md
   start: 2019-04-03 14:44:25

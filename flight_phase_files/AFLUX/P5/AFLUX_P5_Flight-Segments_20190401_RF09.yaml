@@ -21,8 +21,8 @@ remarks:
 - Low- and mid-level clouds of a cold air outbreak
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: AFLUX_P5_RF09_ma
   start: 2019-04-01 07:35:45
@@ -129,8 +129,8 @@ segments:
   - 9200
   dropsondes: []
 - kinds:
-  - large_descend
-  name: large descend 1
+  - large_descent
+  name: large descent 1
   irregularities:
   - 540 deg procedure turn on track
   segment_id: AFLUX_P5_RF09_ld01
@@ -171,8 +171,8 @@ segments:
     levels:
     - 200
   - kinds:
-    - small_ascend
-    name: stairstep pattern 1 ascend 1
+    - small_ascent
+    name: stairstep pattern 1 ascent 1
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_a01
     start: 2019-04-01 08:37:47
@@ -190,8 +190,8 @@ segments:
     levels:
     - 400
   - kinds:
-    - small_ascend
-    name: stairstep pattern 1 ascend 2
+    - small_ascent
+    name: stairstep pattern 1 ascent 2
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_a02
     start: 2019-04-01 08:42:05
@@ -209,8 +209,8 @@ segments:
     levels:
     - 800
   - kinds:
-    - small_ascend
-    name: stairstep pattern 1 ascend 3
+    - small_ascent
+    name: stairstep pattern 1 ascent 3
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_a03
     start: 2019-04-01 08:47:06
@@ -228,8 +228,8 @@ segments:
     levels:
     - 1100
   - kinds:
-    - small_ascend
-    name: stairstep pattern 1 ascend 4
+    - small_ascent
+    name: stairstep pattern 1 ascent 4
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_a04
     start: 2019-04-01 08:51:57
@@ -247,8 +247,8 @@ segments:
     levels:
     - 1500
   - kinds:
-    - small_ascend
-    name: stairstep pattern 1 ascend 5
+    - small_ascent
+    name: stairstep pattern 1 ascent 5
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_a05
     start: 2019-04-01 08:56:52
@@ -266,8 +266,8 @@ segments:
     levels:
     - 1900
   - kinds:
-    - small_ascend
-    name: stairstep pattern 1 ascend 6
+    - small_ascent
+    name: stairstep pattern 1 ascent 6
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_a06
     start: 2019-04-01 09:01:51
@@ -285,8 +285,8 @@ segments:
     levels:
     - 2800
   - kinds:
-    - small_ascend
-    name: stairstep pattern 1 ascend 7
+    - small_ascent
+    name: stairstep pattern 1 ascent 7
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_a07
     start: 2019-04-01 09:07:48
@@ -304,8 +304,8 @@ segments:
     levels:
     - 3300
   - kinds:
-    - small_ascend
-    name: stairstep pattern 1 ascend 8
+    - small_ascent
+    name: stairstep pattern 1 ascent 8
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_a08
     start: 2019-04-01 09:13:03
@@ -323,8 +323,8 @@ segments:
     levels:
     - 3700
   - kinds:
-    - small_ascend
-    name: stairstep pattern 1 ascend 9
+    - small_ascent
+    name: stairstep pattern 1 ascent 9
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_a09
     start: 2019-04-01 09:19:24
@@ -342,8 +342,8 @@ segments:
     levels:
     - 4200
   - kinds:
-    - small_ascend
-    name: stairstep pattern 1 ascend 10
+    - small_ascent
+    name: stairstep pattern 1 ascent 10
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss01_a10
     start: 2019-04-01 09:24:01
@@ -361,8 +361,8 @@ segments:
     levels:
     - 4600
 - kinds:
-  - medium_ascend
-  name: medium ascend 1
+  - medium_ascent
+  name: medium ascent 1
   irregularities:
   - included 180 deg turn on track
   segment_id: AFLUX_P5_RF09_ma01
@@ -387,8 +387,8 @@ segments:
   - AFLUX_P5_RF09_DS02
   - AFLUX_P5_RF09_DS03
 - kinds:
-  - large_descend
-  name: large descend 2
+  - large_descent
+  name: large descent 2
   irregularities:
   - 540 deg procedure turn on track
   segment_id: AFLUX_P5_RF09_ld02
@@ -423,8 +423,8 @@ segments:
   dropsondes: []
   parts:
   - kinds:
-    - large_ascend
-    name: sawtooth pattern 1 ascend 1
+    - large_ascent
+    name: sawtooth pattern 1 ascent 1
     irregularities: []
     segment_id: AFLUX_P5_RF09_st01_a01
     start: 2019-04-01 10:22:25
@@ -433,8 +433,8 @@ segments:
     - 300
     - 6900
   - kinds:
-    - large_descend
-    name: sawtooth pattern 1 descend 1
+    - large_descent
+    name: sawtooth pattern 1 descent 1
     irregularities: []
     segment_id: AFLUX_P5_RF09_st01_d01
     start: 2019-04-01 10:35:11
@@ -471,8 +471,8 @@ segments:
     levels:
     - 200
   - kinds:
-    - small_ascend
-    name: stairstep pattern 2 ascend 1
+    - small_ascent
+    name: stairstep pattern 2 ascent 1
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_a01
     start: 2019-04-01 10:50:22
@@ -490,8 +490,8 @@ segments:
     levels:
     - 400
   - kinds:
-    - small_ascend
-    name: stairstep pattern 2 ascend 2
+    - small_ascent
+    name: stairstep pattern 2 ascent 2
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_a02
     start: 2019-04-01 10:54:27
@@ -509,8 +509,8 @@ segments:
     levels:
     - 600
   - kinds:
-    - small_ascend
-    name: stairstep pattern 2 ascend 3
+    - small_ascent
+    name: stairstep pattern 2 ascent 3
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_a03
     start: 2019-04-01 10:58:34
@@ -528,8 +528,8 @@ segments:
     levels:
     - 800
   - kinds:
-    - small_ascend
-    name: stairstep pattern 2 ascend 4
+    - small_ascent
+    name: stairstep pattern 2 ascent 4
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_a04
     start: 2019-04-01 11:02:30
@@ -547,8 +547,8 @@ segments:
     levels:
     - 1200
   - kinds:
-    - small_ascend
-    name: stairstep pattern 2 ascend 5
+    - small_ascent
+    name: stairstep pattern 2 ascent 5
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_a05
     start: 2019-04-01 11:07:36
@@ -566,8 +566,8 @@ segments:
     levels:
     - 1500
   - kinds:
-    - small_descend
-    name: stairstep pattern 2 descend 1
+    - small_descent
+    name: stairstep pattern 2 descent 1
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_d01
     start: 2019-04-01 11:09:36
@@ -585,8 +585,8 @@ segments:
     levels:
     - 1000
   - kinds:
-    - small_descend
-    name: stairstep pattern 2 descend 2
+    - small_descent
+    name: stairstep pattern 2 descent 2
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_d02
     start: 2019-04-01 11:13:34
@@ -604,8 +604,8 @@ segments:
     levels:
     - 800
   - kinds:
-    - small_descend
-    name: stairstep pattern 2 descend 3
+    - small_descent
+    name: stairstep pattern 2 descent 3
     irregularities: []
     segment_id: AFLUX_P5_RF09_ss02_d03
     start: 2019-04-01 11:16:47
@@ -623,8 +623,8 @@ segments:
     levels:
     - 600
 - kinds:
-  - large_ascend
-  name: large ascend 1
+  - large_ascent
+  name: large ascent 1
   irregularities:
   - 180 deg procedure turn
   segment_id: AFLUX_P5_RF09_la01
@@ -648,8 +648,8 @@ segments:
   - AFLUX_P5_RF09_DS04
   - AFLUX_P5_RF09_DS05
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: AFLUX_P5_RF09_md
   start: 2019-04-01 12:24:49

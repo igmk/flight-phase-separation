@@ -24,8 +24,8 @@ remarks:
 - MiRAC not working
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: ACLOUD_P5_RF13_ma
   start: 2017-06-05 10:48:00
@@ -164,12 +164,12 @@ segments:
     levels:
     - 9700
 - kinds:
-  - large_descend
+  - large_descent
   - profiling
   - polarstern_overflight
-  name: large descend 1
+  name: large descent 1
   irregularities:
-  - short turn during descend
+  - short turn during descent
   segment_id: ACLOUD_P5_RF13_ld01
   start: 2017-06-05 13:16:10
   end: 2017-06-05 13:20:54
@@ -219,10 +219,10 @@ segments:
   dropsondes: []
   parts:
   - kinds:
-    - small_descend
-    name: stairstep pattern 1 descend 1
+    - small_descent
+    name: stairstep pattern 1 descent 1
     irregularities:
-    - short turn during descend
+    - short turn during descent
     segment_id: ACLOUD_P5_RF13_ss01_d01
     start: 2017-06-05 13:25:25
     end: 2017-06-05 13:29:32
@@ -239,10 +239,10 @@ segments:
     levels:
     - 600
   - kinds:
-    - small_ascend
-    name: stairstep pattern 1 ascend 1
+    - small_ascent
+    name: stairstep pattern 1 ascent 1
     irregularities:
-    - short turn during descend
+    - short turn during descent
     segment_id: ACLOUD_P5_RF13_ss01_a01
     start: 2017-06-05 13:39:55
     end: 2017-06-05 13:42:24
@@ -259,8 +259,8 @@ segments:
     levels:
     - 2000
   - kinds:
-    - medium_ascend
-    name: stairstep pattern 1 ascend 2
+    - medium_ascent
+    name: stairstep pattern 1 ascent 2
     irregularities: []
     segment_id: ACLOUD_P5_RF13_ss01_a02
     start: 2017-06-05 13:48:30
@@ -278,8 +278,8 @@ segments:
     levels:
     - 6900
   - kinds:
-    - small_ascend
-    name: stairstep pattern 1 ascend 3
+    - small_ascent
+    name: stairstep pattern 1 ascent 3
     irregularities: []
     segment_id: ACLOUD_P5_RF13_ss01_a03
     start: 2017-06-05 13:57:10
@@ -299,8 +299,8 @@ segments:
   dropsondes:
   - ACLOUD_P5_RF13_DS03
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: ACLOUD_P5_RF13_md
   start: 2017-06-05 14:30:05

@@ -23,9 +23,9 @@ remarks:
 - Clouds along wind over ice and over sea
 segments:
 - kinds:
-  - major_ascend
+  - major_ascent
   - sveabreen_glacier_overflight
-  name: major ascend
+  name: major ascent
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF09_ma
   start: 2020-09-10 08:30:15
@@ -46,8 +46,8 @@ segments:
   - 9500
   dropsondes: []
 - kinds:
-  - small_ascend
-  name: small ascend 1
+  - small_ascent
+  name: small ascent 1
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF09_sa01
   start: 2020-09-10 09:02:44
@@ -124,9 +124,9 @@ segments:
     start: 2020-09-10 10:15:50
     end: 2020-09-10 10:19:15
   - kinds:
-    - large_descend
+    - large_descent
     - profiling
-    name: racetrack pattern 1 descend 1
+    name: racetrack pattern 1 descent 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF09_rt01_d01
     start: 2020-09-10 10:19:16
@@ -135,8 +135,8 @@ segments:
     - 11500
     - 1300
   - kinds:
-    - small_descend
-    name: racetrack pattern 1 descend 2
+    - small_descent
+    name: racetrack pattern 1 descent 2
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF09_rt01_d02
     start: 2020-09-10 10:24:30
@@ -160,8 +160,8 @@ segments:
     - 300
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 1
+    - small_ascent
+    name: racetrack pattern 1 ascent 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF09_rt01_a01
     start: 2020-09-10 10:38:41
@@ -180,8 +180,8 @@ segments:
     - 1300
   - kinds:
     - procedure_turn
-    - medium_ascend
-    name: racetrack pattern 1 ascend 2
+    - medium_ascent
+    name: racetrack pattern 1 ascent 2
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF09_rt01_a02
     start: 2020-09-10 10:50:05
@@ -200,8 +200,8 @@ segments:
     - 4600
   - kinds:
     - procedure_turn
-    - medium_ascend
-    name: racetrack pattern 1 ascend 3
+    - medium_ascent
+    name: racetrack pattern 1 ascent 3
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF09_rt01_a03
     start: 2020-09-10 11:00:33
@@ -220,8 +220,8 @@ segments:
     - 8300
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 4
+    - small_ascent
+    name: racetrack pattern 1 ascent 4
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF09_rt01_a04
     start: 2020-09-10 11:14:06
@@ -280,9 +280,9 @@ segments:
   - MOSAiC-ACA_P5_RF09_DS08
   parts:
   - kinds:
-    - large_descend
+    - large_descent
     - profiling
-    name: racetrack pattern 2 large descend 1
+    name: racetrack pattern 2 large descent 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF09_rt02_ld01
     start: 2020-09-10 11:51:07
@@ -291,8 +291,8 @@ segments:
     - 9600
     - 1000
   - kinds:
-    - small_descend
-    name: racetrack pattern 2 small descend 1
+    - small_descent
+    name: racetrack pattern 2 small descent 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF09_rt02_sd01
     start: 2020-09-10 11:55:30
@@ -316,8 +316,8 @@ segments:
     - 300
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 2 ascend 1
+    - small_ascent
+    name: racetrack pattern 2 ascent 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF09_rt02_a01
     start: 2020-09-10 12:05:48
@@ -336,8 +336,8 @@ segments:
     - 800
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 2 ascend 2
+    - small_ascent
+    name: racetrack pattern 2 ascent 2
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF09_rt02_a02
     start: 2020-09-10 12:15:25
@@ -356,8 +356,8 @@ segments:
     - 1100
   - kinds:
     - procedure_turn
-    - small_descend
-    name: racetrack pattern 2 descend 1
+    - small_descent
+    name: racetrack pattern 2 descent 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF09_rt02_d01
     start: 2020-09-10 12:26:09
@@ -376,8 +376,8 @@ segments:
     - 500
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 2 ascend 3
+    - small_ascent
+    name: racetrack pattern 2 ascent 3
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF09_rt02_a03
     start: 2020-09-10 12:36:36
@@ -396,8 +396,8 @@ segments:
     - 2600
   - kinds:
     - procedure_turn
-    - large_ascend
-    name: racetrack pattern 2 ascend 4
+    - large_ascent
+    name: racetrack pattern 2 ascent 4
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF09_rt02_a04
     start: 2020-09-10 12:48:56
@@ -444,8 +444,8 @@ segments:
   - 9600
   dropsondes: []
 - kinds:
-  - small_ascend
-  name: small ascend 2
+  - small_ascent
+  name: small ascent 2
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF09_sa02
   start: 2020-09-10 13:19:58
@@ -466,8 +466,8 @@ segments:
   dropsondes:
   - MOSAiC-ACA_P5_RF09_DS09
 - kinds:
-  - small_ascend
-  name: small ascend 3
+  - small_ascent
+  name: small ascent 3
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF09_sa03
   start: 2020-09-10 13:33:18
@@ -488,8 +488,8 @@ segments:
   dropsondes:
   - MOSAiC-ACA_P5_RF09_DS10
 - kinds:
-  - small_ascend
-  name: small ascend 4
+  - small_ascent
+  name: small ascent 4
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF09_sa04
   start: 2020-09-10 13:58:35
@@ -518,8 +518,8 @@ segments:
   - high_level
   - nya_overflight
   name: high level 9
-  irregularities: 
-  - slight descend before Ny-Alesund overflight
+  irregularities:
+  - slight descent before Ny-Alesund overflight
   segment_id: MOSAiC-ACA_P5_RF09_hl09
   start: 2020-09-10 14:06:24
   end: 2020-09-10 14:20:11
@@ -527,10 +527,10 @@ segments:
   - 12500
   dropsondes: []
 - kinds:
-  - major_descend
+  - major_descent
   - sveabreen_glacier_overflight
   - nya_overflight
-  name: major descend
+  name: major descent
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF09_md
   start: 2020-09-10 14:20:12

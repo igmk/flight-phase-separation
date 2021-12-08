@@ -21,8 +21,8 @@ events:
 remarks: []
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: ACLOUD_P5_RF22_ma
   start: 2017-06-23 10:57:00
@@ -189,8 +189,8 @@ segments:
   end: 2017-06-23 13:45:20
 - kinds:
   - nya_overflight
-  - large_descend
-  name: large descend 1
+  - large_descent
+  name: large descent 1
   irregularities: []
   segment_id: ACLOUD_P5_RF22_ld01
   start: 2017-06-23 13:45:21
@@ -217,11 +217,11 @@ segments:
   - 200
   dropsondes: []
 - kinds:
-  - medium_ascend
+  - medium_ascent
   - nya_overflight
-  name: medium ascend 1
+  name: medium ascent 1
   irregularities:
-  - two curves during ascend
+  - two curves during ascent
   segment_id: ACLOUD_P5_RF22_ma01
   start: 2017-06-23 14:13:00
   end: 2017-06-23 14:17:44
@@ -242,8 +242,8 @@ segments:
   - 4900
   dropsondes: []
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: ACLOUD_P5_RF22_md
   start: 2017-06-23 14:22:30

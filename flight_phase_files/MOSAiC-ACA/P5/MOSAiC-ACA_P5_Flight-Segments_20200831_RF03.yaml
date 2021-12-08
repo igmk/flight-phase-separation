@@ -16,8 +16,8 @@ events:
 remarks: []
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF03_ma
   start: 2020-08-31 10:20:35
@@ -41,8 +41,8 @@ segments:
   - 3000
   dropsondes: []
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF03_md
   start: 2020-08-31 10:56:00

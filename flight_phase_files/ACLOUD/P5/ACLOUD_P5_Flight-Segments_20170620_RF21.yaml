@@ -25,8 +25,8 @@ remarks:
 - Clouds above open water and sea ice
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: ACLOUD_P5_RF21_ma
   start: 2017-06-20 07:32:00
@@ -48,8 +48,8 @@ segments:
   dropsondes:
   - ACLOUD_P5_RF21_DS01
 - kinds:
-  - large_descend
-  name: large descend 1
+  - large_descent
+  name: large descent 1
   irregularities: []
   segment_id: ACLOUD_P5_RF21_ld01
   start: 2017-06-20 08:19:30
@@ -59,10 +59,10 @@ segments:
   - 300
   dropsondes: []
 - kinds:
-  - small_ascend
-  name: small ascend 1
+  - small_ascent
+  name: small ascent 1
   irregularities:
-  - short turn during ascend
+  - short turn during ascent
   segment_id: ACLOUD_P5_RF21_sa01
   start: 2017-06-20 08:41:55
   end: 2017-06-20 08:44:54
@@ -71,10 +71,10 @@ segments:
   - 1300
   dropsondes: []
 - kinds:
-  - small_descend
-  name: small descend 1
+  - small_descent
+  name: small descent 1
   irregularities:
-  - start of procedure turn during descend
+  - start of procedure turn during descent
   segment_id: ACLOUD_P5_RF21_sd01
   start: 2017-06-20 08:44:55
   end: 2017-06-20 08:46:04
@@ -113,8 +113,8 @@ segments:
     - 200
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 1
+    - small_ascent
+    name: racetrack pattern 1 ascent 1
     irregularities: []
     segment_id: ACLOUD_P5_RF21_rt01_a01
     start: 2017-06-20 08:55:15
@@ -133,8 +133,8 @@ segments:
     - 300
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 2
+    - small_ascent
+    name: racetrack pattern 1 ascent 2
     irregularities: []
     segment_id: ACLOUD_P5_RF21_rt01_a02
     start: 2017-06-20 09:05:10
@@ -153,8 +153,8 @@ segments:
     - 400
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 3
+    - small_ascent
+    name: racetrack pattern 1 ascent 3
     irregularities: []
     segment_id: ACLOUD_P5_RF21_rt01_a03
     start: 2017-06-20 09:14:05
@@ -173,8 +173,8 @@ segments:
     - 500
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 4
+    - small_ascent
+    name: racetrack pattern 1 ascent 4
     irregularities: []
     segment_id: ACLOUD_P5_RF21_rt01_a04
     start: 2017-06-20 09:23:35
@@ -237,8 +237,8 @@ segments:
   - 200
   dropsondes: []
 - kinds:
-  - small_ascend
-  name: small ascend 2
+  - small_ascent
+  name: small ascent 2
   irregularities: []
   segment_id: ACLOUD_P5_RF21_sa02
   start: 2017-06-20 09:51:50
@@ -248,10 +248,10 @@ segments:
   - 1900
   dropsondes: []
 - kinds:
-  - small_descend
-  name: small descend 2
+  - small_descent
+  name: small descent 2
   irregularities:
-  - start of procedure turn during descend
+  - start of procedure turn during descent
   segment_id: ACLOUD_P5_RF21_sd02
   start: 2017-06-20 09:53:30
   end: 2017-06-20 09:55:29
@@ -290,8 +290,8 @@ segments:
     - 200
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 2 ascend 1
+    - small_ascent
+    name: racetrack pattern 2 ascent 1
     irregularities: []
     segment_id: ACLOUD_P5_RF21_rt02_a01
     start: 2017-06-20 10:04:15
@@ -310,8 +310,8 @@ segments:
     - 300
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 2 ascend 2
+    - small_ascent
+    name: racetrack pattern 2 ascent 2
     irregularities: []
     segment_id: ACLOUD_P5_RF21_rt02_a02
     start: 2017-06-20 10:15:30
@@ -330,8 +330,8 @@ segments:
     - 400
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 2 ascend 3
+    - small_ascent
+    name: racetrack pattern 2 ascent 3
     irregularities: []
     segment_id: ACLOUD_P5_RF21_rt02_a03
     start: 2017-06-20 10:24:45
@@ -350,8 +350,8 @@ segments:
     - 600
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 2 ascend 4
+    - small_ascent
+    name: racetrack pattern 2 ascent 4
     irregularities: []
     segment_id: ACLOUD_P5_RF21_rt02_a04
     start: 2017-06-20 10:35:30
@@ -390,10 +390,10 @@ segments:
   start: 2017-06-20 10:51:25
   end: 2017-06-20 10:51:39
 - kinds:
-  - small_descend
-  name: small descend 3
+  - small_descent
+  name: small descent 3
   irregularities:
-  - short turn during descend
+  - short turn during descent
   segment_id: ACLOUD_P5_RF21_sd03
   start: 2017-06-20 10:51:40
   end: 2017-06-20 10:52:59
@@ -417,10 +417,10 @@ segments:
   start: 2017-06-20 11:07:55
   end: 2017-06-20 11:08:19
 - kinds:
-  - small_ascend
-  name: small ascend 3
+  - small_ascent
+  name: small ascent 3
   irregularities:
-  - short turn during ascend
+  - short turn during ascent
   segment_id: ACLOUD_P5_RF21_sa03
   start: 2017-06-20 11:08:20
   end: 2017-06-20 11:09:59
@@ -429,8 +429,8 @@ segments:
   - 2000
   dropsondes: []
 - kinds:
-  - small_descend
-  name: small descend 4
+  - small_descent
+  name: small descent 4
   irregularities: []
   segment_id: ACLOUD_P5_RF21_sd04
   start: 2017-06-20 11:10:00
@@ -498,8 +498,8 @@ segments:
     - 300
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 3 ascend 1
+    - small_ascent
+    name: racetrack pattern 3 ascent 1
     irregularities: []
     segment_id: ACLOUD_P5_RF21_rt03_a01
     start: 2017-06-20 11:42:10
@@ -518,8 +518,8 @@ segments:
     - 400
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 3 ascend 2
+    - small_ascent
+    name: racetrack pattern 3 ascent 2
     irregularities: []
     segment_id: ACLOUD_P5_RF21_rt03_a02
     start: 2017-06-20 11:53:40
@@ -537,8 +537,8 @@ segments:
     levels:
     - 500
 - kinds:
-  - large_ascend
-  name: large ascend 1
+  - large_ascent
+  name: large ascent 1
   irregularities: []
   segment_id: ACLOUD_P5_RF21_la01
   start: 2017-06-20 12:03:10
@@ -559,11 +559,11 @@ segments:
   dropsondes:
   - ACLOUD_P5_RF21_DS02
 - kinds:
-  - large_descend
+  - large_descent
   - polarstern_overflight
-  name: large descend 2
+  name: large descent 2
   irregularities:
-  - short turn during descend
+  - short turn during descent
   segment_id: ACLOUD_P5_RF21_ld02
   start: 2017-06-20 12:19:40
   end: 2017-06-20 12:28:19
@@ -641,11 +641,11 @@ segments:
   - 300
   dropsondes: []
 - kinds:
-  - small_ascend
+  - small_ascent
   - polarstern_overflight
-  name: small ascend 4
+  name: small ascent 4
   irregularities:
-  - short turn during ascend
+  - short turn during ascent
   segment_id: ACLOUD_P5_RF21_sa04
   start: 2017-06-20 12:38:10
   end: 2017-06-20 12:40:19
@@ -709,11 +709,11 @@ segments:
   start: 2017-06-20 12:51:15
   end: 2017-06-20 12:52:59
 - kinds:
-  - large_ascend
+  - large_ascent
   - polarstern_overflight
-  name: large ascend 2
+  name: large ascent 2
   irregularities:
-  - circle and short turn during ascend
+  - circle and short turn during ascent
   segment_id: ACLOUD_P5_RF21_la02
   start: 2017-06-20 12:53:00
   end: 2017-06-20 13:01:54
@@ -773,8 +773,8 @@ segments:
   - 9700
   dropsondes: []
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities:
   - calibration pattern over airport
   segment_id: ACLOUD_P5_RF21_md

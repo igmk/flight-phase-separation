@@ -23,10 +23,10 @@ remarks:
 - Thin broken clouds over sea ice
 segments:
 - kinds:
-  - major_ascend
+  - major_ascent
   - nya_overflight
   - sveabreen_glacier_overflight
-  name: major ascend
+  name: major ascent
   irregularities:
   - whale-watching loop
   segment_id: ACLOUD_P5_RF14_ma
@@ -191,9 +191,9 @@ segments:
     levels:
     - 9700
 - kinds:
-  - large_descend
+  - large_descent
   - polarstern_overflight
-  name: large descend 1
+  name: large descent 1
   irregularities:
   - not along straight line
   segment_id: ACLOUD_P5_RF14_ld01
@@ -228,8 +228,8 @@ segments:
     - 200
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 1
+    - small_ascent
+    name: racetrack pattern 1 ascent 1
     irregularities: []
     segment_id: ACLOUD_P5_RF14_rt01_a01
     start: 2017-06-08 10:29:21
@@ -248,8 +248,8 @@ segments:
     - 300
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 2
+    - small_ascent
+    name: racetrack pattern 1 ascent 2
     irregularities: []
     segment_id: ACLOUD_P5_RF14_rt01_a02
     start: 2017-06-08 10:40:27
@@ -268,8 +268,8 @@ segments:
     - 1500
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 3
+    - small_ascent
+    name: racetrack pattern 1 ascent 3
     irregularities: []
     segment_id: ACLOUD_P5_RF14_rt01_a03
     start: 2017-06-08 10:50:04
@@ -292,9 +292,9 @@ segments:
   start: 2017-06-08 11:02:02
   end: 2017-06-08 11:02:24
 - kinds:
-  - large_ascend
+  - large_ascent
   - polarstern_overflight
-  name: large ascend 1
+  name: large ascent 1
   irregularities: []
   segment_id: ACLOUD_P5_RF14_la01
   start: 2017-06-08 11:02:25
@@ -381,9 +381,9 @@ segments:
     levels:
     - 9800
 - kinds:
-  - major_descend
+  - major_descent
   - nya_overflight
-  name: major descend
+  name: major descent
   irregularities: []
   segment_id: ACLOUD_P5_RF14_md
   start: 2017-06-08 12:25:40

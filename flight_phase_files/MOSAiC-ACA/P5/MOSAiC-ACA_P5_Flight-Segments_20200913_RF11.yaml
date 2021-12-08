@@ -23,8 +23,8 @@ events:
 remarks: []
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF11_ma
   start: 2020-09-13 09:20:00
@@ -61,8 +61,8 @@ segments:
   - 9300
   dropsondes: []
 - kinds:
-  - small_ascend
-  name: small ascend 1
+  - small_ascent
+  name: small ascent 1
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF11_sa01
   start: 2020-09-13 09:51:36
@@ -83,8 +83,8 @@ segments:
   dropsondes:
   - MOSAiC-ACA_P5_RF11_DS01
 - kinds:
-  - small_ascend
-  name: small ascend 2
+  - small_ascent
+  name: small ascent 2
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF11_sa02
   start: 2020-09-13 10:00:54
@@ -105,8 +105,8 @@ segments:
   dropsondes:
   - MOSAiC-ACA_P5_RF11_DS02
 - kinds:
-  - small_ascend
-  name: small ascend 3
+  - small_ascent
+  name: small ascent 3
   irregularities:
   - a short pause in between
   segment_id: MOSAiC-ACA_P5_RF11_sa03
@@ -120,7 +120,7 @@ segments:
   - high_level
   name: high level 5
   irregularities:
-  - short ascend to 12300 ft and descend
+  - short ascent to 12300 ft and descent
   segment_id: MOSAiC-ACA_P5_RF11_hl05
   start: 2020-09-13 10:20:22
   end: 2020-09-13 11:01:36
@@ -130,10 +130,10 @@ segments:
   - MOSAiC-ACA_P5_RF11_DS03
   - MOSAiC-ACA_P5_RF11_DS04
 - kinds:
-  - large_descend
-  name: large descend 1
+  - large_descent
+  name: large descent 1
   irregularities:
-  - circle during descend
+  - circle during descent
   segment_id: MOSAiC-ACA_P5_RF11_ld01
   start: 2020-09-13 11:01:37
   end: 2020-09-13 11:18:29
@@ -176,8 +176,8 @@ segments:
     - 200
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 1
+    - small_ascent
+    name: racetrack pattern 1 ascent 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF11_rt01_a01
     start: 2020-09-13 11:32:00
@@ -196,8 +196,8 @@ segments:
     - 850
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 2
+    - small_ascent
+    name: racetrack pattern 1 ascent 2
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF11_rt01_a02
     start: 2020-09-13 11:43:39
@@ -216,8 +216,8 @@ segments:
     - 1300
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 3
+    - small_ascent
+    name: racetrack pattern 1 ascent 3
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF11_rt01_a03
     start: 2020-09-13 11:51:40
@@ -236,8 +236,8 @@ segments:
     - 1500
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 4
+    - small_ascent
+    name: racetrack pattern 1 ascent 4
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF11_rt01_a04
     start: 2020-09-13 12:02:40
@@ -272,8 +272,8 @@ segments:
   dropsondes: []
   parts:
   - kinds:
-    - small_descend
-    name: sawtooth pattern 1 descend 1
+    - small_descent
+    name: sawtooth pattern 1 descent 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF11_st01_d01
     start: 2020-09-13 12:14:03
@@ -291,8 +291,8 @@ segments:
     levels:
     - 200
   - kinds:
-    - small_ascend
-    name: sawtooth pattern 1 ascend 1
+    - small_ascent
+    name: sawtooth pattern 1 ascent 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF11_st01_a01
     start: 2020-09-13 12:23:30
@@ -301,8 +301,8 @@ segments:
     - 200
     - 2500
   - kinds:
-    - small_descend
-    name: sawtooth pattern 1 descend 2
+    - small_descent
+    name: sawtooth pattern 1 descent 2
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF11_st01_d02
     start: 2020-09-13 12:26:37
@@ -320,8 +320,8 @@ segments:
     levels:
     - 200
 - kinds:
-  - large_ascend
-  name: large ascend 1
+  - large_ascent
+  name: large ascent 1
   irregularities:
   - small horizonatal portion at about 6500 ft
   segment_id: MOSAiC-ACA_P5_RF11_la01
@@ -354,8 +354,8 @@ segments:
   start: 2020-09-13 12:58:58
   end: 2020-09-13 13:02:41
 - kinds:
-  - large_descend
-  name: large descend 2
+  - large_descent
+  name: large descent 2
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF11_ld02
   start: 2020-09-13 13:02:42
@@ -380,8 +380,8 @@ segments:
   - 200
   dropsondes: []
 - kinds:
-  - small_ascend
-  name: small ascend 4
+  - small_ascent
+  name: small ascent 4
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF11_sa04
   start: 2020-09-13 13:19:09
@@ -415,8 +415,8 @@ segments:
     - 500
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 2 ascend 1
+    - small_ascent
+    name: racetrack pattern 2 ascent 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF11_rt02_a01
     start: 2020-09-13 13:25:18
@@ -435,8 +435,8 @@ segments:
     - 800
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 2 ascend 2
+    - small_ascent
+    name: racetrack pattern 2 ascent 2
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF11_rt02_a02
     start: 2020-09-13 13:34:36
@@ -455,8 +455,8 @@ segments:
     - 1000
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 2 ascend 3
+    - small_ascent
+    name: racetrack pattern 2 ascent 3
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF11_rt02_a03
     start: 2020-09-13 13:45:03
@@ -474,11 +474,11 @@ segments:
     levels:
     - 1200
 - kinds:
-  - large_ascend
-  name: large ascend 2
+  - large_ascent
+  name: large ascent 2
   irregularities:
-  - ascend to 12300 ft then short discend to 11200 ft
-  - one curve at the beginning of the ascend
+  - ascent to 12300 ft then short descent to 11200 ft
+  - one curve at the beginning of the ascent
   segment_id: MOSAiC-ACA_P5_RF11_la02
   start: 2020-09-13 13:55:06
   end: 2020-09-13 14:08:51
@@ -499,9 +499,9 @@ segments:
   dropsondes:
   - MOSAiC-ACA_P5_RF11_DS07
 - kinds:
-  - major_descend
+  - major_descent
   - nya_overflight
-  name: major descend
+  name: major descent
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF11_md
   start: 2020-09-13 14:44:08

@@ -24,8 +24,8 @@ remarks:
 - Clouds above open water and sea ice
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: ACLOUD_P5_RF20_ma
   start: 2017-06-18 12:03:30
@@ -45,9 +45,9 @@ segments:
   - 9000
   dropsondes: []
 - kinds:
-  - large_descend
+  - large_descent
   - profiling
-  name: large descend 1
+  name: large descent 1
   irregularities: []
   segment_id: ACLOUD_P5_RF20_ld01
   start: 2017-06-18 12:34:14
@@ -108,8 +108,8 @@ segments:
   - kinds:
     - high_level
     name: holding pattern 1 leg 1
-    irregularities: 
-    - 'slight roll deviations in beginning of segment'
+    irregularities:
+    - slight roll deviations in beginning of segment
     segment_id: ACLOUD_P5_RF20_ho01_l01
     start: 2017-06-18 12:59:08
     end: 2017-06-18 13:00:03
@@ -123,17 +123,17 @@ segments:
   - kinds:
     - high_level
     name: holding pattern 1 leg 2
-    irregularities: 
-    - 'slight curve at end of segment'
+    irregularities:
+    - slight curve at end of segment
     segment_id: ACLOUD_P5_RF20_ho01_l02
     start: 2017-06-18 13:02:31
     end: 2017-06-18 13:03:11
     levels:
     - 9800
 - kinds:
-  - large_ascend
+  - large_ascent
   - polarstern_overflight
-  name: large ascend 1
+  name: large ascent 1
   irregularities:
   - starts within turn
   segment_id: ACLOUD_P5_RF20_la01
@@ -424,8 +424,8 @@ segments:
   dropsondes:
   - ACLOUD_P5_RF20_DS04
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: ACLOUD_P5_RF20_md
   start: 2017-06-18 17:10:12

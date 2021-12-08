@@ -22,8 +22,8 @@ remarks:
 - SMART not working
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: ACLOUD_P5_RF25_ma
   start: 2017-06-26 12:34:25
@@ -58,8 +58,8 @@ segments:
   - 9800
   dropsondes: []
 - kinds:
-  - large_descend
-  name: large descend 1
+  - large_descent
+  name: large descent 1
   irregularities: []
   segment_id: ACLOUD_P5_RF25_ld01
   start: 2017-06-26 12:59:05
@@ -80,8 +80,8 @@ segments:
   - 200
   dropsondes: []
 - kinds:
-  - small_ascend
-  name: small ascend 1
+  - small_ascent
+  name: small ascent 1
   irregularities: []
   segment_id: ACLOUD_P5_RF25_sa01
   start: 2017-06-26 13:26:50
@@ -102,11 +102,11 @@ segments:
   - 2900
   dropsondes: []
 - kinds:
-  - small_descend
+  - small_descent
   - procedure_turn
-  name: small descend 1
+  name: small descent 1
   irregularities:
-  - procedure turn during descend
+  - procedure turn during descent
   segment_id: ACLOUD_P5_RF25_sd01
   start: 2017-06-26 13:30:30
   end: 2017-06-26 13:32:59
@@ -125,10 +125,10 @@ segments:
   - 400
   dropsondes: []
 - kinds:
-  - large_ascend
-  name: large ascend 1
+  - large_ascent
+  name: large ascent 1
   irregularities:
-  - several roll maneuvers during ascend
+  - several roll maneuvers during ascent
   segment_id: ACLOUD_P5_RF25_la01
   start: 2017-06-26 13:56:55
   end: 2017-06-26 14:06:09
@@ -222,8 +222,8 @@ segments:
   - 9700
   dropsondes: []
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: ACLOUD_P5_RF25_md
   start: 2017-06-26 14:58:55

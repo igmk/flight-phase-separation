@@ -22,8 +22,8 @@ remarks:
 - Heading in GPS/INS dataset missing
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: AFLUX_P5_RF11_ma
   start: 2019-04-04 08:38:30
@@ -74,10 +74,10 @@ segments:
   - 9300
   dropsondes: []
 - kinds:
-  - large_descend
+  - large_descent
   - profiling
   - procedure_turn
-  name: large descend 1
+  name: large descent 1
   irregularities: []
   segment_id: AFLUX_P5_RF11_ld01
   start: 2019-04-04 09:41:14
@@ -105,7 +105,7 @@ segments:
   - sawtooth_pattern
   name: sawtooth pattern 1
   irregularities:
-  - first ascend starts already in procedure turn
+  - first ascent starts already in procedure turn
   segment_id: AFLUX_P5_RF11_st01
   start: 2019-04-04 10:32:44
   end: 2019-04-04 11:08:07
@@ -125,8 +125,8 @@ segments:
   dropsondes: []
   parts:
   - kinds:
-    - medium_ascend
-    name: sawtooth pattern 1 ascend 1
+    - medium_ascent
+    name: sawtooth pattern 1 ascent 1
     irregularities: []
     segment_id: AFLUX_P5_RF11_st01_a01
     start: 2019-04-04 10:32:44
@@ -135,8 +135,8 @@ segments:
     - 200
     - 3700
   - kinds:
-    - medium_descend
-    name: sawtooth pattern 1 descend 1
+    - medium_descent
+    name: sawtooth pattern 1 descent 1
     irregularities: []
     segment_id: AFLUX_P5_RF11_st01_d01
     start: 2019-04-04 10:38:55
@@ -145,8 +145,8 @@ segments:
     - 3700
     - 200
   - kinds:
-    - medium_ascend
-    name: sawtooth pattern 1 ascend 2
+    - medium_ascent
+    name: sawtooth pattern 1 ascent 2
     irregularities: []
     segment_id: AFLUX_P5_RF11_st01_a02
     start: 2019-04-04 10:46:32
@@ -155,8 +155,8 @@ segments:
     - 200
     - 3600
   - kinds:
-    - medium_descend
-    name: sawtooth pattern 1 descend 2
+    - medium_descent
+    name: sawtooth pattern 1 descent 2
     irregularities: []
     segment_id: AFLUX_P5_RF11_st01_d02
     start: 2019-04-04 10:52:39
@@ -165,8 +165,8 @@ segments:
     - 3600
     - 200
   - kinds:
-    - small_ascend
-    name: sawtooth pattern 1 ascend 3
+    - small_ascent
+    name: sawtooth pattern 1 ascent 3
     irregularities: []
     segment_id: AFLUX_P5_RF11_st01_a03
     start: 2019-04-04 10:59:58
@@ -175,8 +175,8 @@ segments:
     - 200
     - 2500
   - kinds:
-    - small_descend
-    name: sawtooth pattern 1 descend 3
+    - small_descent
+    name: sawtooth pattern 1 descent 3
     irregularities: []
     segment_id: AFLUX_P5_RF11_st01_d03
     start: 2019-04-04 11:04:20
@@ -185,9 +185,9 @@ segments:
     - 2500
     - 200
 - kinds:
-  - large_ascend
+  - large_ascent
   - procedure_turn
-  name: large ascend 1
+  name: large ascent 1
   irregularities:
   - not along straight line
   segment_id: AFLUX_P5_RF11_la01
@@ -224,8 +224,8 @@ segments:
   - 9400
   dropsondes: []
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: AFLUX_P5_RF11_md
   start: 2019-04-04 12:14:13

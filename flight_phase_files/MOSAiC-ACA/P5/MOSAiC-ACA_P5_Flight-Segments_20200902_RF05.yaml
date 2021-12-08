@@ -22,8 +22,8 @@ events:
 remarks: []
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF05_ma
   start: 2020-09-02 06:55:45
@@ -153,8 +153,8 @@ segments:
   - kinds:
     - high_level
     name: holding pattern 1 leg 2
-    irregularities: 
-    - 'slight roll deviations during leg'
+    irregularities:
+    - slight roll deviations during leg
     segment_id: MOSAiC-ACA_P5_RF05_ho01_l02
     start: 2020-09-02 08:19:58
     end: 2020-09-02 08:22:33
@@ -175,8 +175,8 @@ segments:
   - MOSAiC-ACA_P5_RF05_DS03
   - MOSAiC-ACA_P5_RF05_DS04
 - kinds:
-  - large_descend
-  name: large descend 1
+  - large_descent
+  name: large descent 1
   irregularities:
   - not along straight line
   segment_id: MOSAiC-ACA_P5_RF05_ld01
@@ -212,8 +212,8 @@ segments:
     - 200
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 1
+    - small_ascent
+    name: racetrack pattern 1 ascent 1
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF05_rt01_a01
     start: 2020-09-02 09:09:50
@@ -232,8 +232,8 @@ segments:
     - 900
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 2
+    - small_ascent
+    name: racetrack pattern 1 ascent 2
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF05_rt01_a02
     start: 2020-09-02 09:17:59
@@ -252,8 +252,8 @@ segments:
     - 1800
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 3
+    - small_ascent
+    name: racetrack pattern 1 ascent 3
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF05_rt01_a03
     start: 2020-09-02 09:26:52
@@ -272,8 +272,8 @@ segments:
     - 4000
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 4
+    - small_ascent
+    name: racetrack pattern 1 ascent 4
     irregularities: []
     segment_id: MOSAiC-ACA_P5_RF05_rt01_a04
     start: 2020-09-02 09:35:19
@@ -284,16 +284,16 @@ segments:
   - kinds:
     - mid_level
     name: racetrack pattern 1 leg 5
-    irregularities: started at 5000 but descended to 4200 due to decreasing cloud
-      top
+    irregularities:
+    - started at 5000 but descented to 4200 due to decreasing cloud top
     segment_id: MOSAiC-ACA_P5_RF05_rt01_l05
     start: 2020-09-02 09:38:25
     end: 2020-09-02 09:44:49
     levels:
     - 4900
 - kinds:
-  - medium_ascend
-  name: medium ascend 1
+  - medium_ascent
+  name: medium ascent 1
   irregularities:
   - not along straight line
   segment_id: MOSAiC-ACA_P5_RF05_ma01
@@ -468,8 +468,8 @@ segments:
   - 9600
   dropsondes: []
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF05_md
   start: 2020-09-02 12:04:37

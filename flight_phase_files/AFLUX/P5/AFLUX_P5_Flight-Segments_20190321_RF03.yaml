@@ -21,8 +21,8 @@ events:
 remarks: []
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: AFLUX_P5_RF03_ma
   start: 2019-03-21 09:51:50
@@ -42,12 +42,12 @@ segments:
   - 9500
   dropsondes: []
 - kinds:
-  - large_descend
+  - large_descent
   - profiling
   - short_turn
-  name: large descend 1
+  name: large descent 1
   irregularities:
-  - short turn starts at the end of descending
+  - short turn starts at the end of descent
   segment_id: AFLUX_P5_RF03_ld01
   start: 2019-03-21 10:44:52
   end: 2019-03-21 10:53:59
@@ -99,8 +99,8 @@ segments:
     - 300
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 1
+    - small_ascent
+    name: racetrack pattern 1 ascent 1
     irregularities: []
     segment_id: AFLUX_P5_RF03_rt01_a01
     start: 2019-03-21 11:43:26
@@ -119,8 +119,8 @@ segments:
     - 700
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 2
+    - small_ascent
+    name: racetrack pattern 1 ascent 2
     irregularities: []
     segment_id: AFLUX_P5_RF03_rt01_a02
     start: 2019-03-21 11:54:28
@@ -139,8 +139,8 @@ segments:
     - 1200
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 3
+    - small_ascent
+    name: racetrack pattern 1 ascent 3
     irregularities: []
     segment_id: AFLUX_P5_RF03_rt01_a03
     start: 2019-03-21 12:12:41
@@ -159,8 +159,8 @@ segments:
     - 2400
   - kinds:
     - procedure_turn
-    - small_ascend
-    name: racetrack pattern 1 ascend 4
+    - small_ascent
+    name: racetrack pattern 1 ascent 4
     irregularities: []
     segment_id: AFLUX_P5_RF03_rt01_a04
     start: 2019-03-21 12:25:30
@@ -179,9 +179,9 @@ segments:
     levels:
     - 3400
 - kinds:
-  - medium_ascend
+  - medium_ascent
   - procedure_turn
-  name: medium ascend 1
+  name: medium ascent 1
   irregularities: []
   segment_id: AFLUX_P5_RF03_ma01
   start: 2019-03-21 12:36:04
@@ -206,9 +206,9 @@ segments:
   start: 2019-03-21 12:53:42
   end: 2019-03-21 12:57:52
 - kinds:
-  - large_descend
+  - large_descent
   - profiling
-  name: large descend 2
+  name: large descent 2
   irregularities: []
   segment_id: AFLUX_P5_RF03_ld02
   start: 2019-03-21 12:57:53
@@ -233,8 +233,8 @@ segments:
   - 200
   dropsondes: []
 - kinds:
-  - large_ascend
-  name: large ascend 1
+  - large_ascent
+  name: large ascent 1
   irregularities:
   - small break in climb
   segment_id: AFLUX_P5_RF03_la01
@@ -255,8 +255,8 @@ segments:
   - 9500
   dropsondes: []
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: AFLUX_P5_RF03_md
   start: 2019-03-21 14:06:38

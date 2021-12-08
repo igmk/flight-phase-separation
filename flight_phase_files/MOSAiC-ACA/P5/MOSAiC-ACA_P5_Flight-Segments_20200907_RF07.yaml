@@ -21,8 +21,8 @@ events:
 remarks: []
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF07_ma
   start: 2020-09-07 08:22:55
@@ -36,7 +36,7 @@ segments:
   - nya_overflight
   name: high level 1
   irregularities:
-    - slight curve over Ny-Alesund
+  - slight curve over Ny-Alesund
   segment_id: MOSAiC-ACA_P5_RF07_hl01
   start: 2020-09-07 08:35:43
   end: 2020-09-07 09:04:12
@@ -62,8 +62,8 @@ segments:
   - MOSAiC-ACA_P5_RF07_DS02
   - MOSAiC-ACA_P5_RF07_DS03
 - kinds:
-  - small_ascend
-  name: small ascend 1
+  - small_ascent
+  name: small ascent 1
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF07_sa01
   start: 2020-09-07 09:47:22
@@ -152,8 +152,8 @@ segments:
   dropsondes:
   - MOSAiC-ACA_P5_RF07_DS10
 - kinds:
-  - small_descend
-  name: small descend 1
+  - small_descent
+  name: small descent 1
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF07_sd01
   start: 2020-09-07 12:21:47
@@ -197,8 +197,8 @@ segments:
   - MOSAiC-ACA_P5_RF07_DS13
   - MOSAiC-ACA_P5_RF07_DS14
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF07_md
   start: 2020-09-07 13:40:52

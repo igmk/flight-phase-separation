@@ -17,8 +17,8 @@ events:
 remarks: []
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: AFLUX_P5_RF02_ma
   start: 2019-03-19 16:35:45
@@ -39,9 +39,9 @@ segments:
   dropsondes:
   - AFLUX_P5_RF02_DS01
 - kinds:
-  - medium_descend
+  - medium_descent
   - procedure_turn
-  name: medium descend 1
+  name: medium descent 1
   irregularities: []
   segment_id: AFLUX_P5_RF02_md01
   start: 2019-03-19 17:14:09
@@ -51,8 +51,8 @@ segments:
   - 3000
   dropsondes: []
 - kinds:
-  - medium_ascend
-  name: medium ascend 1
+  - medium_ascent
+  name: medium ascent 1
   irregularities: []
   segment_id: AFLUX_P5_RF02_ma01
   start: 2019-03-19 17:20:05
@@ -72,8 +72,8 @@ segments:
   - 9300
   dropsondes: []
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: AFLUX_P5_RF02_md
   start: 2019-03-19 17:36:41
