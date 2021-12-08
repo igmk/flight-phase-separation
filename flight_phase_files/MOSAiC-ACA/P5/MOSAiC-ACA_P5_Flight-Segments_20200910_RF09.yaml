@@ -516,16 +516,42 @@ segments:
   end: 2020-09-10 14:06:23
 - kinds:
   - high_level
-  - nya_overflight
   name: high level 9
-  irregularities:
-  - slight descent before Ny-Alesund overflight
+  irregularities: []
   segment_id: MOSAiC-ACA_P5_RF09_hl09
   start: 2020-09-10 14:06:24
-  end: 2020-09-10 14:20:11
+  end: 2020-09-10 14:16:35
   levels:
   - 12500
   dropsondes: []
+- kinds:
+  - small_descent
+  - nya_overflight
+  name: small descent 1
+  irregularities: []
+  segment_id: MOSAiC-ACA_P5_RF09_sd01
+  start: 2020-09-10 14:16:36
+  end: 2020-09-10 14:19:10
+  levels:
+  - 12500
+  - 11400
+  dropsondes: []
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 10
+  irregularities: []
+  segment_id: MOSAiC-ACA_P5_RF09_hl10
+  start: 2020-09-10 14:19:11
+  end: 2020-09-10 14:20:14
+  levels:
+  - 11500
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2020-09-10 14:20:15
+  end: 2020-09-10 14:20:36
 - kinds:
   - major_descent
   - sveabreen_glacier_overflight
@@ -533,9 +559,9 @@ segments:
   name: major descent
   irregularities: []
   segment_id: MOSAiC-ACA_P5_RF09_md
-  start: 2020-09-10 14:20:12
+  start: 2020-09-10 14:20:37
   end: 2020-09-10 14:45:05
   levels:
-  - 12500
+  - 11600
   - 100
   dropsondes: []
