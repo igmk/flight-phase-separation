@@ -1,15 +1,10 @@
 
 
 import numpy as np
-import cartopy.crs as ccrs
 import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
 from matplotlib.backend_bases import MouseButton
-from glob import glob
-from matplotlib import cm
 import xarray as xr
 import yaml
-import sys
 
 
 def plot_histograms(ds_gps, start, end):
