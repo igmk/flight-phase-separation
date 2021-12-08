@@ -4,7 +4,7 @@ platform: P6
 flight_id: ACLOUD_P6_RF07
 contacts:
 - name: Johannes Schneider
-  email: null
+  email: johannes.schneider@mpic.de
   tags:
     - pi
 - name: Giancarlo Marrollo
@@ -21,8 +21,8 @@ remarks:
 - Clouds co-located
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: ACLOUD_P6_RF07_ma
   start: 2017-05-27 13:02:00
@@ -51,8 +51,8 @@ segments:
   start: 2017-05-27 13:47:30
   end: 2017-05-27 13:48:18
 - kinds:
-  - medium_descend
-  name: medium descend 1
+  - medium_descent
+  name: medium descent 1
   irregularities: []
   segment_id: ACLOUD_P6_RF07_md01
   start: 2017-05-27 13:48:18
@@ -84,8 +84,8 @@ segments:
     end: 2017-05-27 14:06:45
     levels: [400]
   - kinds:
-    - small_ascend
-    name: stairstep pattern 1 ascend 1
+    - small_ascent
+    name: stairstep pattern 1 ascent 1
     irregularities: []
     segment_id: ACLOUD_P6_RF07_ss01_a01
     start: 2017-05-27 14:06:45
@@ -100,8 +100,8 @@ segments:
     end: 2017-05-27 14:14:38
     levels: [1100]
   - kinds:
-    - small_ascend
-    name: stairstep pattern 1 ascend 2
+    - small_ascent
+    name: stairstep pattern 1 ascent 2
     irregularities: []
     segment_id: ACLOUD_P6_RF07_ss01_a02
     start: 2017-05-27 14:14:38
@@ -116,8 +116,8 @@ segments:
     end: 2017-05-27 14:25:23
     levels: [1300]
 - kinds:
-  - medium_ascend
-  name: medium ascend 1
+  - medium_ascent
+  name: medium ascent 1
   irregularities: []
   segment_id: ACLOUD_P6_RF07_ma01
   start: 2017-05-27 14:25:23
@@ -145,8 +145,8 @@ segments:
   start: 2017-05-27 14:49:58
   end: 2017-05-27 14:53:07
 - kinds:
-  - small_descend
-  name: small descend 1
+  - small_descent
+  name: small descent 1
   irregularities: []
   segment_id: ACLOUD_P6_RF07_sd01
   start: 2017-05-27 14:53:07
@@ -178,8 +178,8 @@ segments:
     end: 2017-05-27 15:04:47
     levels: [1600]
   - kinds:
-    - small_descend
-    name: stairstep pattern 2 descend 1
+    - small_descent
+    name: stairstep pattern 2 descent 1
     irregularities: []
     segment_id: ACLOUD_P6_RF07_ss02_d01
     start: 2017-05-27 15:04:47
@@ -194,8 +194,8 @@ segments:
     end: 2017-05-27 15:15:57
     levels: [1400]
   - kinds:
-    - small_descend
-    name: stairstep pattern 2 descend 2
+    - small_descent
+    name: stairstep pattern 2 descent 2
     irregularities: []
     segment_id: ACLOUD_P6_RF07_ss02_d02
     start: 2017-05-27 15:15:57
@@ -210,8 +210,8 @@ segments:
     end: 2017-05-27 15:30:02
     levels: [1200]
   - kinds:
-    - small_descend
-    name: stairstep pattern 2 descend 3
+    - small_descent
+    name: stairstep pattern 2 descent 3
     irregularities: []
     segment_id: ACLOUD_P6_RF07_ss02_d03
     start: 2017-05-27 15:30:02
@@ -231,8 +231,8 @@ segments:
   start: 2017-05-27 15:44:25
   end: 2017-05-27 15:45:10
 - kinds:
-  - medium_ascend
-  name: medium ascend 2
+  - medium_ascent
+  name: medium ascent 2
   irregularities: []
   segment_id: ACLOUD_P6_RF07_ma02
   start: 2017-05-27 15:45:10
@@ -255,8 +255,8 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - medium_ascend
-  name: medium ascend 3
+  - medium_ascent
+  name: medium ascent 3
   irregularities: []
   segment_id: ACLOUD_P6_RF07_ma03
   start: 2017-05-27 15:59:27
@@ -279,8 +279,8 @@ segments:
     BAD: []
     UGLY: []
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: ACLOUD_P6_RF07_md
   start: 2017-05-27 16:14:13

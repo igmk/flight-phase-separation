@@ -15,8 +15,8 @@ remarks:
 - Thin low level clouds over sea ice
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: ACLOUD_P6_RF08_ma
   start: 
@@ -31,8 +31,8 @@ segments:
   end: 
   dropsondes: []
 - kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: ACLOUD_P6_RF08_md
   start: 
