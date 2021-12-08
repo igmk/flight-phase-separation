@@ -3,14 +3,20 @@ mission: ACLOUD
 platform: P6
 flight_id: ACLOUD_P6_RF07
 contacts:
-- name: 
-  email: 
+- name: Johannes Schneider
+  email: null
+  tags:
+    - pi
+- name: Giancarlo Marrollo
+  email: giancarlo.marrollo@uni-koeln.de
+  tags:
+    - lc
 date: 2017-05-27
-flight_report: 
+flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=07_20170527_p6_acloud_flight_report.pdf
 takeoff: 2017-05-27 13:02:00
 landing: 2017-05-27 16:26:50
 events:
-- joint flight with P5
+- Joint flight with P5
 remarks:
 - Clouds co-located
 segments:
@@ -19,22 +25,268 @@ segments:
   name: major ascend
   irregularities: []
   segment_id: ACLOUD_P6_RF07_ma
-  start: 
-  end: 
-  dropsondes: []
+  start: 2017-05-27 13:02:00
+  end: 2017-05-27 13:10:08
+  levels: [100, 5700]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
 - kinds:
-  - add_new_segments_here
-  name: 
+  - mid_level
+  - p5_co-location
+  name: mid level 1
   irregularities: []
-  segment_id: 
-  start: 
-  end: 
-  dropsondes: []
+  segment_id: ACLOUD_P6_RF07_ml01
+  start: 2017-05-27 13:10:08
+  end: 2017-05-27 13:47:30
+  levels: [5700]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-05-27 13:47:30
+  end: 2017-05-27 13:48:18
+- kinds:
+  - medium_descend
+  name: medium descend 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF07_md01
+  start: 2017-05-27 13:48:18
+  end: 2017-05-27 13:58:56
+  levels: [5700, 400]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - stairstep_pattern
+  name: stairstep pattern 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF07_ss01
+  start: 2017-05-27 13:58:56
+  end: 2017-05-27 14:25:23
+  levels: [400, 1100, 1300]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+  parts:
+  - kinds:
+    - low_level
+    name: stairstep pattern 1 low level 1
+    irregularities: []
+    segment_id: ACLOUD_P6_RF07_ss01_ll01
+    start: 2017-05-27 13:58:56
+    end: 2017-05-27 14:06:45
+    levels: [400]
+  - kinds:
+    - small_ascend
+    name: stairstep pattern 1 ascend 1
+    irregularities: []
+    segment_id: ACLOUD_P6_RF07_ss01_a01
+    start: 2017-05-27 14:06:45
+    end: 2017-05-27 14:08:39
+    levels: [400, 1100]
+  - kinds:
+    - low_level
+    name: stairstep pattern 1 low level 2
+    irregularities: []
+    segment_id: ACLOUD_P6_RF07_ss01_ll02
+    start: 2017-05-27 14:08:39
+    end: 2017-05-27 14:14:38
+    levels: [1100]
+  - kinds:
+    - small_ascend
+    name: stairstep pattern 1 ascend 2
+    irregularities: []
+    segment_id: ACLOUD_P6_RF07_ss01_a02
+    start: 2017-05-27 14:14:38
+    end: 2017-05-27 14:15:05
+    levels: [1100, 1300]
+  - kinds:
+    - low_level
+    name: stairstep pattern 1 low level 3
+    irregularities: []
+    segment_id: ACLOUD_P6_RF07_ss01_ll03
+    start: 2017-05-27 14:15:05
+    end: 2017-05-27 14:25:23
+    levels: [1300]
+- kinds:
+  - medium_ascend
+  name: medium ascend 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF07_ma01
+  start: 2017-05-27 14:25:23
+  end: 2017-05-27 14:30:27
+  levels: [1300, 4800]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - mid_level
+  name: mid level 2
+  irregularities: []
+  segment_id: ACLOUD_P6_RF07_ml02
+  start: 2017-05-27 14:30:27
+  end: 2017-05-27 14:49:58
+  levels: [4800]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2017-05-27 14:49:58
+  end: 2017-05-27 14:53:07
+- kinds:
+  - small_descend
+  name: small descend 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF07_sd01
+  start: 2017-05-27 14:53:07
+  end: 2017-05-27 14:59:47
+  levels: [4800, 1600]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - stairstep_pattern
+  name: stairstep pattern 2
+  irregularities: []
+  segment_id: ACLOUD_P6_RF07_ss02
+  start: 2017-05-27 14:59:47
+  end: 2017-05-27 15:44:25
+  levels: [1600, 1400, 1200, 400]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+  parts:
+  - kinds:
+    - low_level
+    name: stairstep pattern 2 low level 1
+    irregularities: []
+    segment_id: ACLOUD_P6_RF07_ss02_ll01
+    start: 2017-05-27 14:59:47
+    end: 2017-05-27 15:04:47
+    levels: [1600]
+  - kinds:
+    - small_descend
+    name: stairstep pattern 2 descend 1
+    irregularities: []
+    segment_id: ACLOUD_P6_RF07_ss02_d01
+    start: 2017-05-27 15:04:47
+    end: 2017-05-27 15:05:29
+    levels: [1600, 1400]
+  - kinds:
+    - low_level
+    name: stairstep pattern 2 low level 2
+    irregularities: []
+    segment_id: ACLOUD_P6_RF07_ss02_ll02
+    start: 2017-05-27 15:05:29
+    end: 2017-05-27 15:15:57
+    levels: [1400]
+  - kinds:
+    - small_descend
+    name: stairstep pattern 2 descend 2
+    irregularities: []
+    segment_id: ACLOUD_P6_RF07_ss02_d02
+    start: 2017-05-27 15:15:57
+    end: 2017-05-27 15:16:45
+    levels: [1400, 1200]
+  - kinds:
+    - low_level
+    name: stairstep pattern 2 low level 3
+    irregularities: []
+    segment_id: ACLOUD_P6_RF07_ss02_ll03
+    start: 2017-05-27 15:16:45
+    end: 2017-05-27 15:30:02
+    levels: [1200]
+  - kinds:
+    - small_descend
+    name: stairstep pattern 2 descend 3
+    irregularities: []
+    segment_id: ACLOUD_P6_RF07_ss02_d03
+    start: 2017-05-27 15:30:02
+    end: 2017-05-27 15:32:13
+    levels: [1200, 400]
+  - kinds:
+    - low_level
+    name: stairstep pattern 2 low level 4
+    irregularities: []
+    segment_id: ACLOUD_P6_RF07_ss02_ll04
+    start: 2017-05-27 15:32:13
+    end: 2017-05-27 15:44:25
+    levels: [400]
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-05-27 15:44:25
+  end: 2017-05-27 15:45:10
+- kinds:
+  - medium_ascend
+  name: medium ascend 2
+  irregularities: []
+  segment_id: ACLOUD_P6_RF07_ma02
+  start: 2017-05-27 15:45:10
+  end: 2017-05-27 15:52:37
+  levels: [400, 4900]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - mid_level
+  name: mid level 3
+  irregularities: []
+  segment_id: ACLOUD_P6_RF07_ml03
+  start: 2017-05-27 15:52:37
+  end: 2017-05-27 15:59:27
+  levels: [4900]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - medium_ascend
+  name: medium ascend 3
+  irregularities: []
+  segment_id: ACLOUD_P6_RF07_ma03
+  start: 2017-05-27 15:59:27
+  end: 2017-05-27 16:08:33
+  levels: [4900, 9600]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF07_hl01
+  start: 2017-05-27 16:08:33
+  end: 2017-05-27 16:14:13
+  levels: [9600]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
 - kinds:
   - major_descend
   name: major descend
   irregularities: []
   segment_id: ACLOUD_P6_RF07_md
-  start: 
-  end: 
-  dropsondes: []
+  start: 2017-05-27 16:14:13
+  end: 2017-05-27 16:26:50
+  levels: [9600, 100]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
