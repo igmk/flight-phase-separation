@@ -68,6 +68,7 @@ class SegmentCatalog:
                'medium_descent',
                'profiling',
                'p6_co-location',
+               'p5_co-location',
                'nya_overflight',
                'sveabreen_glacier_overflight',
                'a-train_underflight',
@@ -602,7 +603,7 @@ def main(flight, meta):
 
 if __name__ == '__main__':
     
-    check_single = False
+    check_single = True
     
     # read file with paths (set wdir to the current script location)
     with open('paths.yaml') as f:
@@ -623,7 +624,7 @@ if __name__ == '__main__':
 
     else:
         
-        files = glob('../../flight_phase_files/*/P5/*.yaml')
+        files = glob('../../flight_phase_files/*/*/*.yaml')
         
         for file in files:
             
