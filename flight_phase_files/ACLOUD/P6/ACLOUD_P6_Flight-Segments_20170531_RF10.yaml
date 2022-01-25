@@ -3,10 +3,16 @@ mission: ACLOUD
 platform: P6
 flight_id: ACLOUD_P6_RF10
 contacts:
-- name: 
-  email: 
+- name: Johannes Schneider
+  email: johannes.schneider@mpic.de
+  tags:
+    - pi
+- name: Giancarlo Marrollo
+  email: giancarlo.marrollo@uni-koeln.de
+  tags:
+    - lc
 date: 2017-05-31
-flight_report: 
+flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=10_20170531_p6_acloud_flight_report.pdf
 takeoff: 2017-05-31 14:59:20
 landing: 2017-05-31 19:02:45
 events:
@@ -15,26 +21,14 @@ remarks:
 - PS Meeting no2; Thin low clouds over sea ice
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: ACLOUD_P6_RF10_ma
-  start: 
-  end: 
-  dropsondes: []
-- kinds:
-  - add_new_segments_here
-  name: 
-  irregularities: []
-  segment_id: 
-  start: 
-  end: 
-  dropsondes: []
-- kinds:
-  - major_descend
-  name: major descend
-  irregularities: []
-  segment_id: ACLOUD_P6_RF10_md
-  start: 
-  end: 
-  dropsondes: []
+  start: 2017-05-31 14:59:20
+  end: 2017-05-31 19:02:45
+  levels: [100, 100]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
