@@ -3,10 +3,16 @@ mission: ACLOUD
 platform: P6
 flight_id: ACLOUD_P6_RF15
 contacts:
-- name: 
-  email: 
+- name: Johannes Schneider
+  email: johannes.schneider@mpic.de
+  tags:
+    - pi
+- name: Giancarlo Marrollo
+  email: giancarlo.marrollo@uni-koeln.de
+  tags:
+    - lc
 date: 2017-06-09
-flight_report: 
+flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=15_20170609_p6_acloud_flight_report.pdf
 takeoff: 2017-06-09 07:59:45
 landing: 2017-06-09 09:18:05
 events:
@@ -15,26 +21,14 @@ remarks:
 - P5 / P6 Instrument intercomparison
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: ACLOUD_P6_RF15_ma
-  start: 
-  end: 
-  dropsondes: []
-- kinds:
-  - add_new_segments_here
-  name: 
-  irregularities: []
-  segment_id: 
-  start: 
-  end: 
-  dropsondes: []
-- kinds:
-  - major_descend
-  name: major descend
-  irregularities: []
-  segment_id: ACLOUD_P6_RF15_md
-  start: 
-  end: 
-  dropsondes: []
+  start: 2017-06-09 07:59:45
+  end: 2017-06-09 09:18:05
+  levels: [100, 100]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
