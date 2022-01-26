@@ -1,0 +1,38 @@
+name: RF04
+mission: PAMARCMiP
+platform: P5
+flight_id: PAMARCMiP_P5_RF04
+contacts:
+- name: 
+  email: 
+date: 2018-03-25
+flight_report: None
+takeoff: 2018-03-25 
+landing: 2018-03-25 
+events:
+remarks:
+segments:
+- kinds:
+  - major_ascend
+  name: major ascend
+  irregularities: []
+  segment_id: PAMARCMiP_P5_RF04_ma
+  start: 
+  end: 
+  dropsondes: []
+- kinds:
+  - add_new_segments_here
+  name: 
+  irregularities: []
+  segment_id: 
+  start: 
+  end: 
+  dropsondes: []
+- kinds:
+  - major_descend
+  name: major descend
+  irregularities: []
+  segment_id: PAMARCMiP_P5_RF04_md
+  start: 
+  end: 
+  dropsondes: []

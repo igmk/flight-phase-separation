@@ -1,0 +1,38 @@
+name: RF14
+mission: PAMARCMiP
+platform: P5
+flight_id: PAMARCMiP_P5_RF14
+contacts:
+- name: 
+  email: 
+date: 2018-04-02
+flight_report: None
+takeoff: 2018-04-02 
+landing: 2018-04-02 
+events:
+remarks:
+segments:
+- kinds:
+  - major_ascend
+  name: major ascend
+  irregularities: []
+  segment_id: PAMARCMiP_P5_RF14_ma
+  start: 
+  end: 
+  dropsondes: []
+- kinds:
+  - add_new_segments_here
+  name: 
+  irregularities: []
+  segment_id: 
+  start: 
+  end: 
+  dropsondes: []
+- kinds:
+  - major_descend
+  name: major descend
+  irregularities: []
+  segment_id: PAMARCMiP_P5_RF14_md
+  start: 
+  end: 
+  dropsondes: []
