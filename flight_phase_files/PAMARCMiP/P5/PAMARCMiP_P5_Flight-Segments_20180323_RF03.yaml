@@ -7,8 +7,8 @@ contacts:
   email: 
 date: 2018-03-23
 flight_report: None
-takeoff: 2018-03-23 
-landing: 2018-03-23 
+takeoff: 2018-03-23 11:53:30
+landing: 2018-03-23 12:46:45
 events:
 remarks:
 segments:
@@ -36,3 +36,4 @@ segments:
   start: 
   end: 
   dropsondes: []
+

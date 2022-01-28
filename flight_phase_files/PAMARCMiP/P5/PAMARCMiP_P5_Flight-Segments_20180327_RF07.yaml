@@ -5,10 +5,10 @@ flight_id: PAMARCMiP_P5_RF07
 contacts:
 - name: 
   email: 
-date: 2018-03-26
+date: 2018-03-27
 flight_report: None
-takeoff: 2018-03-26 
-landing: 2018-03-26 
+takeoff: 2018-03-27 12:59:55
+landing: 2018-03-27 17:04:35
 events:
 remarks:
 segments:
@@ -36,3 +36,4 @@ segments:
   start: 
   end: 
   dropsondes: []
+

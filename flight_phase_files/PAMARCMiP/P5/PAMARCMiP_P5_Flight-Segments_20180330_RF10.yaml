@@ -1,14 +1,14 @@
-name: RF11
+name: RF10
 mission: PAMARCMiP
 platform: P5
-flight_id: PAMARCMiP_P5_RF11
+flight_id: PAMARCMiP_P5_RF10
 contacts:
 - name: 
   email: 
 date: 2018-03-30
 flight_report: None
-takeoff: 2018-03-30 
-landing: 2018-03-30 
+takeoff: 2018-03-30 07:42:00
+landing: 2018-03-30 13:06:50
 events:
 remarks:
 segments:
@@ -16,7 +16,7 @@ segments:
   - major_ascend
   name: major ascend
   irregularities: []
-  segment_id: PAMARCMiP_P5_RF11_ma
+  segment_id: PAMARCMiP_P5_RF10_ma
   start: 
   end: 
   dropsondes: []
@@ -32,7 +32,8 @@ segments:
   - major_descend
   name: major descend
   irregularities: []
-  segment_id: PAMARCMiP_P5_RF11_md
+  segment_id: PAMARCMiP_P5_RF10_md
   start: 
   end: 
   dropsondes: []
+
