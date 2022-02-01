@@ -2,11 +2,17 @@ name: RF18
 mission: ACLOUD
 platform: P6
 flight_id: ACLOUD_P6_RF18
-contacts:
-- name: 
-  email: 
+contacts::
+- name: Emma Järvinen
+  email: null
+  tags:
+    - pi
+- name: Giancarlo Marrollo
+  email: giancarlo.marrollo@uni-koeln.de
+  tags:
+    - lc
 date: 2017-06-16
-flight_report: 
+flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=18_20170616_p6_acloud_flight_report.pdf
 takeoff: 2017-06-16 04:40:40
 landing: 2017-06-16 10:31:15
 events:
@@ -15,26 +21,15 @@ remarks:
 - PS Meeting no8; Satellite overpass
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: ACLOUD_P6_RF18_ma
-  start: 
-  end: 
-  dropsondes: []
-- kinds:
-  - add_new_segments_here
-  name: 
-  irregularities: []
-  segment_id: 
-  start: 
-  end: 
-  dropsondes: []
-- kinds:
-  - major_descend
-  name: major descend
-  irregularities: []
-  segment_id: ACLOUD_P6_RF18_md
-  start: 
-  end: 
-  dropsondes: []
+  start: 2017-06-16 04:40:40
+  end: 2017-06-16 10:31:15
+  levels: [100, 100]
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+
