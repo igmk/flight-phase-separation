@@ -12,17 +12,16 @@ contacts:
   tags:
     - lc
 date: 2017-06-26
-flight_report: 
+flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=25_20170626_p6_acloud_flight_report.pdf
 takeoff: 2017-06-26 12:33:05
 landing: 2017-06-26 14:48:20
 events:
-- joint flight with P5
-remarks:
-- Boundary layer profiling
+- Joint flight between P5 and P6
+remarks: []
 segments:
 - kinds:
-  - major_ascend
-  name: major ascend
+  - major_ascent
+  name: major ascent
   irregularities: []
   segment_id: ACLOUD_P6_RF25_ma
   start: 2017-06-26 12:33:05
@@ -37,14 +36,15 @@ segments:
   start: 2017-06-26 12:44:39
   end: 2017-06-26 12:58:57
   levels: [9700]
+  dropsondes: []
 - kinds:
-  - medium_descent
-  name: medium descent 1
+  - large_descent
+  name: large descent 1
   irregularities: []
-  segment_id: ACLOUD_P6_RF25_md01
+  segment_id: ACLOUD_P6_RF25_ld01
   start: 2017-06-26 12:58:58
   end: 2017-06-26 13:11:33
-  levels: [9600,200]
+  levels: [9700,200]
   dropsondes: []
 - kinds:  
   - low_level
@@ -52,25 +52,28 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF25_ll01
   start: 2017-06-26 13:11:34
-  end: 2017-06-26 13:26:57
-  levels: [200]
+  end: 2017-06-26 13:26:56
+  levels: [300]
+  dropsondes: []
 - kinds:  
- - medium_ascent
-  name: medium ascent 1
+  - small_ascent
+  name: small ascent 1
   irregularities: []
-  segment_id: ACLOUD_P6_RF25_ma01
+  segment_id: ACLOUD_P6_RF25_sa01
   start: 2017-06-26 13:26:57
   end: 2017-06-26 13:30:15
-  levels: [200, 3000 ]
+  levels: [300, 2900]
+  dropsondes: []
 - kinds:
-  - medium_descent
+  - small_descent
   - procedure_turn
-  name: medium descent 2
+  name: small descent 1
   irregularities: []
-  segment_id: ACLOUD_P6_RF25_md02
-  start: 2017-06-26 13:30:29
+  segment_id: ACLOUD_P6_RF25_sd01
+  start: 2017-06-26 13:30:16
   end: 2017-06-26 13:33:41
-  levels: [3000, 400]
+  levels: [2900, 400]
+  dropsondes: []
 - kinds:  
   - low_level
   name: low level 2
@@ -78,66 +81,56 @@ segments:
   segment_id: ACLOUD_P6_RF25_ll02
   start: 2017-06-26 13:33:42
   end: 2017-06-26 13:57:15
-  levels: [400]      
+  levels: [600]
+  dropsondes: []   
 - kinds:
   - stairstep_pattern
   name: stairstep pattern 1
   irregularities: []
   segment_id: ACLOUD_P6_RF25_ss01
   start: 2017-06-26 13:57:16
-  end: 2017-06-26 14:49:00
+  end: 2017-06-26 14:35:22
   levels: [400, 6000, 6900, 1200, 100]
+  dropsondes: []
   parts:
   - kinds:
     - medium_ascent
-    name: stairstep pattern 1 medium ascent 1
+    name: stairstep pattern 1 ascent 1
     irregularities: []
-    segment_id: ACLOUD_P6_RF25_ss01_ma01
+    segment_id: ACLOUD_P6_RF25_ss01_a01
     start: 2017-06-26 13:57:16
     end: 2017-06-26 14:03:58
-    levels: [400, 6000]
+    levels: [500, 6000]
+  - kinds:
+    - mid_level
+    name: stairstep pattern 1 mid level 1
+    irregularities: []
+    segment_id: ACLOUD_P6_RF25_ss01_ml01
+    start: 2017-06-26 14:03:59
+    end: 2017-06-26 14:09:39
+    levels: [5900]
+  - kinds:  
+    - small_ascent
+    name: stairstep pattern 1 ascent 2
+    irregularities: []
+    segment_id: ACLOUD_P6_RF25_ss01_a02
+    start: 2017-06-26 14:09:40
+    end: 2017-06-26 14:12:41
+    levels: [5900, 6900]
   - kinds:
     - high_level
     name: stairstep pattern 1 high level 1
     irregularities: []
     segment_id: ACLOUD_P6_RF25_ss01_hl01
-    start: 2017-06-26 14:05:59
-    end: 2017-06-26 14:09:39
-    levels: [6000]
-  - kinds:  
-    - small_ascent
-    name: stairstep pattern 1 small ascent 1
-    irregularities: []
-    segment_id: ACLOUD_P6_RF25_ss01_sa01
-    start: 2017-06-26 14:09:39
-    end: 2017-06-26 14:12:41
-    levels: [6000, 7000]
-  - kinds:
-    - high_level
-    name: stairstep pattern 1 high level 2
-    irregularities: []
-    segment_id: ACLOUD_P6_RF25_ss01_hl02
     start: 2017-06-26 14:12:42
     end: 2017-06-26 14:35:22
-    levels: [7000]
-  - kinds:
-    - medium_descent
-    name: stairstep pattern 1 medium descent 1
-    irregularities: []
-    segment_id: ACLOUD_P6_RF25_ss01_md01
-    start: 2017-06-26 14:35:23
-    end: 2017-06-26 14:45:40
-    levels: [7000, 1000]
+    levels: [6800]
 - kinds:
-  - short_turn
-  name: short turn
-  start: 2017-06-26 14:45:40
-  end: 2017-05-27 14:46:53
-- kinds:
-  - major_descend
-  name: major descend
+  - major_descent
+  name: major descent
   irregularities: []
   segment_id: ACLOUD_P6_RF25_md
-  start: 2017-06-26 14:46:54
-  end: 2017-06-26 14:48:24
+  start: 2017-06-26 14:35:23
+  end: 2017-06-26 14:48:20
+  levels: [900, 100]
   dropsondes: []
