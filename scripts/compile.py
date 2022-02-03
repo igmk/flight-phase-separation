@@ -1,7 +1,10 @@
 import sys
 import yaml
 from collections import defaultdict
+import re
 
+
+campaigns = ['ACLOUD','PAMARCMiP','AFLUX','MOSAiC-ACA']
 
 def _main():
     import argparse
@@ -12,20 +15,27 @@ def _main():
 
     args = parser.parse_args()
 
-    all_flights = defaultdict(dict)
 
-    for filename in args.infiles:
-        print(filename)
-        with open(filename) as f:
-            flight = yaml.load(f, Loader=yaml.SafeLoader)
-        all_flights[flight["platform"]][flight["flight_id"]] = flight
+    all_campaigns = dict()
 
-    if args.outfile:
-        outfile = open(args.outfile, "w")
-    else:
-        outfile = sys.stdout
+    for campaign in campaigns:
+        all_flights = defaultdict(dict)
+        print(campaign)
+        r = re.compile(campaign)
+        for filename in [fl for fl in args.infiles if r.search(fl)]:
+            print(filename)
+            with open(filename) as f:
+                flight = yaml.load(f, Loader=yaml.SafeLoader)
+            all_flights[flight["platform"]][flight["flight_id"]] = flight
 
-    yaml.dump(dict(all_flights.items()), outfile)
+        if args.outfile:
+            outfile = open(args.outfile, "w")
+        else:
+            outfile = sys.stdout
+
+        all_campaigns[campaign] = dict(all_flights.items())
+
+    yaml.dump(all_campaigns, outfile)
 
     return 0
 
