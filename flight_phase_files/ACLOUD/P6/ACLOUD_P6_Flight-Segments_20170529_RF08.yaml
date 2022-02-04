@@ -28,10 +28,7 @@ segments:
   start: 2017-05-29 05:11:20
   end: 2017-05-29 05:16:38
   levels: [100, 4000]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - mid_level
   name: mid level 1
@@ -40,10 +37,7 @@ segments:
   start: 2017-05-29 05:16:38
   end: 2017-05-29 05:28:34
   levels: [4000]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - long_turn
   name: long turn
@@ -57,10 +51,7 @@ segments:
   start: 2017-05-29 05:30:23
   end: 2017-05-29 05:35:00
   levels: [4000, 1500]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - low_level
   name: low level 1
@@ -69,10 +60,7 @@ segments:
   start: 2017-05-29 05:35:00
   end: 2017-05-29 05:40:41
   levels: [1500]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - small_descent
   name: small descent 2
@@ -81,10 +69,7 @@ segments:
   start: 2017-05-29 05:40:41
   end: 2017-05-29 05:41:55
   levels: [1500, 900]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - low_level
   name: low level 2
@@ -93,10 +78,7 @@ segments:
   start: 2017-05-29 05:41:55
   end: 2017-05-29 05:43:14
   levels: [900]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - small_descent
   name: small descent 3
@@ -105,10 +87,7 @@ segments:
   start: 2017-05-29 05:43:14
   end: 2017-05-29 05:44:38
   levels: [900, 300]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - low_level
   name: low level 3
@@ -117,10 +96,7 @@ segments:
   start: 2017-05-29 05:44:38
   end: 2017-05-29 05:49:37
   levels: [300]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - small_ascent
   name: small ascent 1
@@ -129,10 +105,7 @@ segments:
   start: 2017-05-29 05:49:37
   end: 2017-05-29 05:52:59
   levels: [300, 1500]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - low_level
   name: low level 4
@@ -141,10 +114,7 @@ segments:
   start: 2017-05-29 05:52:59
   end: 2017-05-29 05:57:40
   levels: [1500]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - small_ascent
   name: small ascent 2
@@ -153,10 +123,7 @@ segments:
   start: 2017-05-29 05:57:40
   end: 2017-05-29 06:00:29
   levels: [1500, 3000]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - low_level
   name: low level 5
@@ -165,10 +132,7 @@ segments:
   start: 2017-05-29 06:00:29
   end: 2017-05-29 06:06:17
   levels: [3000]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - short_turn
   name: short turn
@@ -182,10 +146,7 @@ segments:
   start: 2017-05-29 06:07:20
   end: 2017-05-29 06:12:49
   levels: [3000, 300]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - low_level
   name: low level 6
@@ -194,10 +155,7 @@ segments:
   start: 2017-05-29 06:12:49
   end: 2017-05-29 06:17:06
   levels: [300]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - long_turn
   name: long turn
@@ -211,10 +169,7 @@ segments:
   start: 2017-05-29 06:21:26
   end: 2017-05-29 07:41:18
   levels: [300, 400, 600, 1100, 1300, 3000, 3300, 3600]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - low_level
@@ -344,10 +299,7 @@ segments:
   start: 2017-05-29 07:41:18
   end: 2017-05-29 07:50:18
   levels: [3600, 10000]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 1
@@ -357,10 +309,7 @@ segments:
   start: 2017-05-29 07:50:18
   end: 2017-05-29 07:57:07
   levels: [10000]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - small_ascent
   name: small ascent 3
@@ -369,10 +318,7 @@ segments:
   start: 2017-05-29 07:57:07
   end: 2017-05-29 08:00:07
   levels: [10000, 12000]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 2
@@ -381,10 +327,7 @@ segments:
   start: 2017-05-29 08:00:07
   end: 2017-05-29 08:05:29
   levels: [12000]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - small_descent
   name: small descent 5
@@ -393,10 +336,7 @@ segments:
   start: 2017-05-29 08:05:29
   end: 2017-05-29 08:10:23
   levels: [12000, 9500]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - high_level
   name: high level 3
@@ -405,10 +345,7 @@ segments:
   start: 2017-05-29 08:10:23
   end: 2017-05-29 08:17:03
   levels: [9500]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - noseboom_calibration_pattern
   - nya_overflight
@@ -418,10 +355,7 @@ segments:
   start: 2017-05-29 08:17:03
   end: 2017-05-29 08:53:04
   levels: [9500]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
   parts:
   - kinds:
     - short_turn
@@ -709,10 +643,7 @@ segments:
   start: 2017-05-29 08:53:40
   end: 2017-05-29 08:57:05
   levels: [9500]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - medium_descent
   name: medium descent 1
@@ -721,10 +652,7 @@ segments:
   start: 2017-05-29 08:57:05
   end: 2017-05-29 09:05:16
   levels: [9500, 5000]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - mid_level
   name: mid level 2
@@ -733,10 +661,7 @@ segments:
   start: 2017-05-29 09:05:16
   end: 2017-05-29 09:09:23
   levels: [5000]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 - kinds:
   - major_descent
   name: major descent
@@ -745,7 +670,4 @@ segments:
   start: 2017-05-29 09:09:23
   end: 2017-05-29 09:16:40
   levels: [5000, 100]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []

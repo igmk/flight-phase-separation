@@ -28,8 +28,5 @@ segments:
   start: 2017-06-16 04:40:40
   end: 2017-06-16 10:31:15
   levels: [100, 100]
-  dropsondes:
-    GOOD: []
-    BAD: []
-    UGLY: []
+  dropsondes: []
 
