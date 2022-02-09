@@ -4,7 +4,7 @@ from collections import defaultdict
 import re
 
 
-campaigns = ['ACLOUD','PAMARCMiP','AFLUX','MOSAiC-ACA']
+campaigns = ['ACLOUD','PAMARCMiP','AFLUX','MOSAiC-ACA','HALO-AC3']
 
 def _main():
     import argparse
