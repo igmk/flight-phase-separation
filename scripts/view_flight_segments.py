@@ -8,7 +8,7 @@ from glob import glob
 from matplotlib import cm
 import xarray as xr
 import yaml
-import sys
+import ac3airborne
 
 
 if __name__ == '__main__':
@@ -17,25 +17,37 @@ if __name__ == '__main__':
     with open('flight_settings.yaml') as f:
         flight = yaml.safe_load(f)
     
-    # read file with paths
-    with open('paths.yaml') as f:
-        paths = yaml.safe_load(f)
+    flight_id = flight['mission']+'_'+flight['platform']+'_'+flight['name']
     
-    # read gps data
-    file = paths['path_gps']+flight['campaign'].lower()+'/'+flight['aircraft'].lower()+'/gps_ins/'+flight['campaign']+'_polar'+flight['aircraft'][1]+'_'+flight['date']+'_'+flight['number']+'.nc'
-    ds_gps = xr.open_dataset(file)
+    # read data
+    cat = ac3airborne.get_intake_catalog()
+    ds_gps = cat[flight['mission']][flight['platform']]['GPS_INS'][flight_id].to_dask()
     
     # read flight segments of flight
-    file = '../flight_phase_files/'+flight['campaign']+'/'+flight['aircraft']+'/'+flight['campaign']+'_'+flight['aircraft']+'_Flight-Segments_'+flight['date']+'_'+flight['number']+'.yaml'
+    file = '../flight_phase_files/'+flight['mission']+'/'+flight['platform']+'/'+flight['mission']+'_'+flight['platform']+'_Flight-Segments_'+flight['date']+'_'+flight['name']+'.yaml'
     with open(file, 'r') as f:
         flight_segments = yaml.safe_load(f)
     
     # read dropsondes of flight
-    files = glob(paths['path_dropsonde']+flight['campaign'].lower()+'/dropsondes/'+flight['date'][:4]+'/'+flight['date'][4:6]+'/'+flight['date'][6:8]+'/*PQC.nc')
+    files = [] # glob(paths['path_dropsonde']+flight['mission'].lower()+'/dropsondes/'+flight['date'][:4]+'/'+flight['date'][4:6]+'/'+flight['date'][6:8]+'/*PQC.nc')
     dict_ds_dsd = {}  # dictionary of dropsondes
     for file in files:
         filename = file.split('/')[-1].split('_PQC')[0]
         dict_ds_dsd[filename] = xr.open_dataset(file)
+    
+    #%% unify data
+    # convert halo yaw angle
+    if flight['platform'] == 'HALO':
+        ds_gps['yaw'] = ds_gps['yaw']  # TODO: transformation 
+        
+    if 'yaw' in list(ds_gps):
+        ds_gps = ds_gps.rename({'yaw': 'heading'})
+    
+    # create variable for speed and set values to nan, if they do not exist
+    variables = ['gs', 'vs']
+    for var in variables:
+        if var not in list(ds_gps):
+            ds_gps[var] = (('time'), np.full(len(ds_gps.time), fill_value=-999))
     
     #%% plot track on map to get an overview
     print('plot track on map')
@@ -49,7 +61,12 @@ if __name__ == '__main__':
     # add places
     lon_n, lat_n = (11.922222, 78.925)     # coordinates Ny Alesund
     lon_l, lat_l = (15.633333, 78.216667)  # coordinates Longyearbyen
-
+    # create variable for speed and set values to nan, if they do not exist
+    variables = ['gs', 'vs']
+    for var in variables:
+        if var not in list(ds_gps):
+            ds_gps[var] = (('time'), np.full(len(ds_gps.time), fill_value=-999))
+    
     ax.scatter(lon_n, lat_n, marker='o', c='r', s=10, zorder=3, transform=data_crs, edgecolors='none')
     ax.annotate(text='NYA', xy=ax.projection.transform_point(lon_n, lat_n, data_crs))
     ax.scatter(lon_l, lat_l, marker='o', c='r', s=10, zorder=3, transform=data_crs, edgecolors='none')
@@ -131,7 +148,7 @@ if __name__ == '__main__':
     
     fig, axes = plt.subplots(8, 1, figsize=(9, 9), sharex=True, constrained_layout=True)
     
-    fig.suptitle(flight['campaign']+', '+flight['number']+', '+flight['aircraft']+', '+flight['date'])
+    fig.suptitle(flight['mission']+', '+flight['name']+', '+flight['platform']+', '+flight['date'])
     
     kwargs = dict(linewidths=0, c='k', s=1)
     ds_kwargs = dict(linewidths=0, c='r', s=1)
@@ -157,7 +174,7 @@ if __name__ == '__main__':
     axes[3].set_ylim([-10, 10])
     axes[3].fill_between(x=ds_gps.time, y1=0, y2=ds_gps.vs, color='#9087ea', alpha=0.5, linewidth=0)
 
-    # vertical speed
+    # ground speed
     axes[4].scatter(ds_gps.time, ds_gps.gs, **kwargs)
     axes[4].set_ylabel('gs [kn]')
     axes[4].set_ylim([0, 250])
