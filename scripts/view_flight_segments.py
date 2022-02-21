@@ -1,7 +1,4 @@
-# matplotlib==3.3.4
-# xarray==0.17.0
-# pandas==1.2.3
-# numpy==1.20.1
+
 
 import numpy as np
 import cartopy.crs as ccrs
@@ -13,19 +10,14 @@ import xarray as xr
 import yaml
 import sys
 
+
 if __name__ == '__main__':
-    
-    # # choose a flight
-    # campaign = 'ACLOUD'
-    # flight['number'] = 'RF14'
-    # flight['aircraft'] = 'P5'
-    # flight['date'] = '20170608'
 
     # read file with flight settings
     with open('flight_settings.yaml') as f:
         flight = yaml.safe_load(f)
     
-    # read file with paths (set wdir to the current script location)
+    # read file with paths
     with open('paths.yaml') as f:
         paths = yaml.safe_load(f)
     
@@ -33,12 +25,8 @@ if __name__ == '__main__':
     file = paths['path_gps']+flight['campaign'].lower()+'/'+flight['aircraft'].lower()+'/gps_ins/'+flight['campaign']+'_polar'+flight['aircraft'][1]+'_'+flight['date']+'_'+flight['number']+'.nc'
     ds_gps = xr.open_dataset(file)
     
-    # read sea ice along path
-    file = paths['path_sea_ice']+flight['campaign']+'_polar'+flight['aircraft'][-1]+'_'+flight['date']+'_'+flight['number']+'.nc'
-    ds_sic = xr.open_dataset(file)
-    
     # read flight segments of flight
-    file = '../../flight_phase_files/'+flight['campaign']+'/'+flight['aircraft']+'/'+flight['campaign']+'_'+flight['aircraft']+'_Flight-Segments_'+flight['date']+'_'+flight['number']+'.yaml'
+    file = '../flight_phase_files/'+flight['campaign']+'/'+flight['aircraft']+'/'+flight['campaign']+'_'+flight['aircraft']+'_Flight-Segments_'+flight['date']+'_'+flight['number']+'.yaml'
     with open(file, 'r') as f:
         flight_segments = yaml.safe_load(f)
     
@@ -141,7 +129,7 @@ if __name__ == '__main__':
     #%% plot time series
     print('plot time series')
     
-    fig, axes = plt.subplots(9, 1, figsize=(9, 9), sharex=True, constrained_layout=True)
+    fig, axes = plt.subplots(8, 1, figsize=(9, 9), sharex=True, constrained_layout=True)
     
     fig.suptitle(flight['campaign']+', '+flight['number']+', '+flight['aircraft']+', '+flight['date'])
     
@@ -190,12 +178,6 @@ if __name__ == '__main__':
     axes[7].set_ylim([-180, 180])
     axes[7].set_yticks(np.arange(-180, 180+45, 45))
     axes[7].set_yticklabels(['S', 'SW', 'W', 'NW', 'N', 'NE', 'E', 'SE', 'S'], fontsize=7)
-    
-    # add sea ice along track
-    axes[8].scatter(ds_sic.time, ds_sic.sic, zorder=1, **kwargs)
-    axes[8].axhline(y=90, color='gray', zorder=0)
-    axes[8].set_ylabel('sea ice [%]')
-    axes[8].set_ylim([0, 100])
     
     # add dropsondes
     for ds_name, ds_dsd in dict_ds_dsd.items():
