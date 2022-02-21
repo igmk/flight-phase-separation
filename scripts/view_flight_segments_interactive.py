@@ -1,7 +1,4 @@
-# matplotlib==3.3.4
-# xarray==0.17.0
-# pandas==1.2.3
-# numpy==1.20.1
+
 
 import numpy as np
 import cartopy.crs as ccrs
@@ -22,12 +19,6 @@ def tellme(s):
 
 
 if __name__ == '__main__':
-    
-    # # choose a flight
-    # campaign = 'ACLOUD'
-    # flight['number'] = 'RF14'
-    # flight['aircraft'] = 'P5'
-    # flight['date'] = '20170608'
 
     # read file with flight settings
     with open('flight_settings.yaml') as f:
@@ -41,12 +32,8 @@ if __name__ == '__main__':
     file = paths['path_gps']+flight['campaign'].lower()+'/'+flight['aircraft'].lower()+'/gps_ins/'+flight['campaign']+'_polar'+flight['aircraft'][1]+'_'+flight['date']+'_'+flight['number']+'.nc'
     ds_gps = xr.open_dataset(file)
     
-    # read sea ice along path
-    file = paths['path_sea_ice']+flight['campaign']+'_polar'+flight['aircraft'][-1]+'_'+flight['date']+'_'+flight['number']+'.nc'
-    ds_sic = xr.open_dataset(file)
-    
     # read flight segments of flight
-    file = '../../flight_phase_files/'+flight['campaign']+'/'+flight['aircraft']+'/'+flight['campaign']+'_'+flight['aircraft']+'_Flight-Segments_'+flight['date']+'_'+flight['number']+'.yaml'
+    file = '../flight_phase_files/'+flight['campaign']+'/'+flight['aircraft']+'/'+flight['campaign']+'_'+flight['aircraft']+'_Flight-Segments_'+flight['date']+'_'+flight['number']+'.yaml'
     with open(file, 'r') as f:
         flight_segments = yaml.safe_load(f)
     

@@ -128,6 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-scripts/view_flight_segments/paths.yaml
-scripts/view_flight_segments/flight_settings.yaml
-# flight_phase_files/ACLOUD/P5/ACLOUD_P5_Flight-Segments_20170608_RF14.yaml
+scripts/paths.yaml
+scripts/flight_settings.yaml
+branch_name
