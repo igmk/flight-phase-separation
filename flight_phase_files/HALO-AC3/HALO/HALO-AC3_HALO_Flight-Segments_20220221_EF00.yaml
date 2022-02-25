@@ -1,0 +1,47 @@
+name: RF00
+mission: HALO-AC3
+platform: HALO
+flight_id: HALO-AC3_HALO_EF00
+contacts:
+- name: 
+  email: 
+  tags:
+  - pi
+- name: 
+  email: 
+  tags:
+  - lc
+date: 2022-02-21
+flight_report: 
+takeoff: 2022-02-21 10:25:00
+landing: 2022-02-21 13:42:00
+events: []
+remarks: []
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: HALO-AC3_HALO_EF00_ma
+  start: 2022-02-21 10:25:00
+  end: 2022-02-21 11:06:30
+  levels: []
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: HALO-AC3_HALO_EF00_hl01
+  start: 2022-02-21 11:06:31
+  end: 2022-02-21 11:24:59
+  levels: []
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: HALO-AC3_HALO_EF00_md
+  start: 2022-02-21 13:25:00
+  end: 2022-02-21 13:42:00
+  levels: []
+  dropsondes: []
