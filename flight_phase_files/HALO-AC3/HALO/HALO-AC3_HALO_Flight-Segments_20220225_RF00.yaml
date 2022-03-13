@@ -3,16 +3,16 @@ mission: HALO-AC3
 platform: HALO
 flight_id: HALO-AC3_HALO_RF00
 contacts:
-- name: 
-  email: 
+- name: Manfred Wendisch
+  email: manfred.wendisch@uni-leipzig.de
   tags:
   - pi
-- name: 
-  email: 
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
   tags:
   - lc
 date: 2022-02-25
-flight_report: 
+flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=halo_ac3_20220225_halo_rf00.pdf
 takeoff: 2022-02-25 07:35:00
 landing: 2022-02-25 12:13:00
 events: []
