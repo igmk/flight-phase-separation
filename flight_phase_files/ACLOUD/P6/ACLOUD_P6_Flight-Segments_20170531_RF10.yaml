@@ -129,6 +129,75 @@ segments:
   levels: [200]
   dropsondes: []
 - kinds:
+  - small_ascent
+  name: small ascent 2
+  irregularities: []
+  segment_id: ACLOUD_P6_RF10_sa2
+  start: 2017-05-31 15:56:17
+  end: 2017-05-31 15:57:54
+  levels: [200, 1000]
+  dropsondes: []
+- kinds:
+  - low_level
+  name: low level 6
+  irregularities: []
+  segment_id: ACLOUD_P6_RF10_ll06
+  start: 2017-05-31 15:57:54
+  end: 2017-05-31 15:59:10
+  levels: [1000]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-05-31 15:59:10
+  end: 2017-05-31 16:00:00
+- kinds:
+  - small_descent
+  name: small descent 5
+  irregularities: []
+  segment_id: ACLOUD_P6_RF10_sd05
+  start: 2017-05-31 16:00:00
+  end: 2017-05-31 16:01:37
+  levels: [1000, 200]
+  dropsondes: []
+- kinds:
+  - low_level
+  name: low level 7
+  irregularities: []
+  segment_id: ACLOUD_P6_RF10_ll07
+  start: 2017-05-31 16:01:37
+  end: 2017-05-31 16:20:18
+  levels: [200]
+  dropsondes: []
+- kinds:
+  - long_turn
+  name: long turn
+  start: 2017-05-31 16:20:18
+  end: 2017-05-31 16:28:30
+- kinds:
+  - low_level
+  name: low level 8
+  irregularities: []
+  segment_id: ACLOUD_P6_RF10_ll08
+  start: 2017-05-31 16:28:30
+  end: 2017-05-31 16:37:16
+  levels: [1600]
+  dropsondes: []
+- kinds:
+  - long_turn
+  name: long turn
+  start: 2017-05-31 16:37:16
+  end: 2017-05-31 16:46:54
+- kinds:
+  - square_pattern                  # square pattern? how do we call it?
+  name: square pattern 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF10_sq01
+  start: 2017-05-31 16:46:54
+  end: 2017-05-31 18:15:48
+  levels: []
+  dropsondes: []
+- kinds:
   - major_descent
   name: major descent
   irregularities: []
