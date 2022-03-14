@@ -11,7 +11,7 @@ def plot_histograms(ds_gps, start, end):
     """Plot histograms of variables"""
 
     fig, [ax1, ax2, ax3] = plt.subplots(3, 1, figsize=(13, 9), constrained_layout=True)
-    
+
     # define steps/nbins of histograms
     steps_ft = 100
     min_ft, max_ft = [0, 20000]
@@ -25,7 +25,7 @@ def plot_histograms(ds_gps, start, end):
     ax1.set_xlim([min_ft, max_ft])
     ax1.set_xlabel('Altitude [ft], step width: {} ft'.format(steps_ft))
     ax1.set_ylabel('Count')
-    
+
     # annotate flight levels
     lvls = [1000, 2000, 4000]  # in m
     for lvl in lvls:
@@ -38,7 +38,7 @@ def plot_histograms(ds_gps, start, end):
     ax2.hist(ds_gps.alt.sel(time=slice(start, end))*3.28, color='k', bins=nbins_alt)
     ax2.set_xlabel('Altitude [ft], number of bins: {}'.format(nbins_alt))
     ax2.set_ylabel('Count')
-    
+
     # annotate min max median of altitude
     kwargs = dict(ha='right', va='top', xycoords='axes fraction')
     ax1.annotate('min/max: {:,} - {:,} ft'.format(int(np.around(ds_gps.alt.sel(time=slice(start, end)).min('time').values.item()*3.28, -2)),
@@ -46,26 +46,26 @@ def plot_histograms(ds_gps, start, end):
                  xy=(1, 0.85), color='gray', **kwargs)
     ax1.annotate('median: {:,} ft'.format(int(np.around(ds_gps.alt.sel(time=slice(start, end)).median('time').values.item()*3.28, -2))),
                  xy=(1, 1), **kwargs)
-    
+
     # heading
     ax3.hist(ds_gps.heading.sel(time=slice(start, end)), color='gray', bins=bins_head)
     ax3.set_xlim([-180, 180])
     ax3.set_xticks(np.arange(-180, 180+45, 45))
     ax3.set_xlabel('Heading [°], bin width: {}°'.format(steps_deg))
     ax3.set_ylabel('Count')
-    
-    for ax in fig.axes:      
-        
-        ax.spines["top"].set_visible(False)  
-        ax.spines["right"].set_visible(False)  
-        ax.get_xaxis().tick_bottom()  
+
+    for ax in fig.axes:
+
+        ax.spines["top"].set_visible(False)
+        ax.spines["right"].set_visible(False)
+        ax.get_xaxis().tick_bottom()
         ax.get_yaxis().tick_left()
-    
+
     return fig
 
 
 if __name__ == '__main__':
-    
+
     # # choose a flight
     # campaign = 'ACLOUD'
     # flight['number'] = 'RF14'
@@ -75,46 +75,46 @@ if __name__ == '__main__':
     # read file with flight settings
     with open('flight_settings.yaml') as f:
         flight = yaml.safe_load(f)
-    
+
     # read file with paths (set wdir to the current script location)
     with open('paths.yaml') as f:
         paths = yaml.safe_load(f)
-    
+
     # read gps data
     file = paths['path_gps']+flight['campaign'].lower()+'/'+flight['aircraft'].lower()+'/gps_ins/'+flight['campaign']+'_polar'+flight['aircraft'][1]+'_'+flight['date']+'_'+flight['number']+'.nc'
     ds_gps = xr.open_dataset(file)
-    
+
     # read flight segments of flight
-    file = '../../flight_phase_files/'+flight['campaign']+'/'+flight['aircraft']+'/'+flight['campaign']+'_'+flight['aircraft']+'_Flight-Segments_'+flight['date']+'_'+flight['number']+'.yaml'
+    file = '../flight_phase_files/'+flight['campaign']+'/'+flight['aircraft']+'/'+flight['campaign']+'_'+flight['aircraft']+'_Flight-Segments_'+flight['date']+'_'+flight['number']+'.yaml'
     with open(file, 'r') as f:
         flight_segments = yaml.safe_load(f)
-    
-    #%% plot histograms  
-      
+
+    #%% plot histograms
+
     for i, flight_segment in enumerate(flight_segments['segments']):
-        
+
         name = flight_segment['name']
         start = flight_segment['start']
         end = flight_segment['end']
-        
+
         if start and end:
-            
+
             fig = plot_histograms(ds_gps, start, end)
             fig.suptitle('segment: '+name+'\ndraw next segment: any key or right mouse')
             plt.draw()
             pts = plt.ginput(n=1, timeout=-1, show_clicks=False, mouse_add=MouseButton.RIGHT, mouse_stop=MouseButton.MIDDLE, mouse_pop=MouseButton.LEFT)
             plt.close()
-        
+
         if 'parts' in list(flight_segment.keys()):  # add parts, if they exist for this flight segment
-                        
+
             for j, part in enumerate(flight_segment['parts']):
 
                 name = part['name']
                 start = part['start']
                 end = part['end']
-                
+
                 if start and end:
-                    
+
                     fig = plot_histograms(ds_gps, start, end)
                     fig.suptitle('segment: '+name+'\ndraw next segment: any key or right mouse')
                     plt.draw()
