@@ -346,9 +346,9 @@ def main(flight, meta):
     print('Checking flight', flight)
     
     # meta data
-    assert flight['number'] == meta['name']
-    assert flight['campaign'] == meta['mission']
-    assert flight['aircraft'] == meta['platform']
+    assert flight['name'] == meta['name']
+    assert flight['mission'] == meta['mission']
+    assert flight['platform'] == meta['platform']
     assert meta['mission']+'_'+meta['platform']+'_'+meta['name'] == meta['flight_id']
     assert type(meta['contacts']) == list
     assert type(meta['date']) == datetime.date
@@ -616,7 +616,7 @@ if __name__ == '__main__':
             flight = yaml.safe_load(f)
 
         # read flight segments of flight
-        file = '../../flight_phase_files/'+flight['campaign']+'/'+flight['aircraft']+'/'+flight['campaign']+'_'+flight['aircraft']+'_Flight-Segments_'+flight['date']+'_'+flight['number']+'.yaml'
+        file = '../flight_phase_files/'+flight['mission']+'/'+flight['platform']+'/'+flight['mission']+'_'+flight['platform']+'_Flight-Segments_'+flight['date']+'_'+flight['name']+'.yaml'
         with open(file, 'r') as f:
             meta = yaml.safe_load(f)
         
