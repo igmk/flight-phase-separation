@@ -14,6 +14,7 @@ import os
 ac3cloud_username = os.environ['AC3_USER']
 ac3cloud_password = os.environ['AC3_PASSWORD']
 
+
 if __name__ == '__main__':
 
     # read file with flight settings
@@ -39,13 +40,16 @@ if __name__ == '__main__':
     files = glob(paths['path_dropsonde']+'HALO-AC3_HALO_Dropsondes_'+flight['date']+'_RF02/Level_1/D'+flight['date']+'_*QC.nc')
     dict_ds_dsd = {}  # dictionary of dropsondes
     for file in files:
-        filename = file.split('/')[-1].split('_PQC')[0]
+        filename = file.split('/')[-1].split('QC')[0]
         dict_ds_dsd[filename] = xr.open_dataset(file)
     
     #%% unify data
-    # convert halo yaw angle
+    # yaw angle names from -180 to 180 in 45 deg steps
     if flight['platform'] == 'HALO':
-        ds_gps['yaw'] = ds_gps['yaw']  # TODO: transformation 
+        yaw_names = ['W', 'SW', 'S', 'SE', 'E', 'NE', 'N', 'NW', 'W']
+        
+    else:
+        yaw_names = ['S', 'SW', 'W', 'NW', 'N', 'NE', 'E', 'SE', 'S']
         
     if 'yaw' in list(ds_gps):
         ds_gps = ds_gps.rename({'yaw': 'heading'})
@@ -201,7 +205,7 @@ if __name__ == '__main__':
     axes[7].set_ylabel('head [dir]')
     axes[7].set_ylim([-180, 180])
     axes[7].set_yticks(np.arange(-180, 180+45, 45))
-    axes[7].set_yticklabels(['S', 'SW', 'W', 'NW', 'N', 'NE', 'E', 'SE', 'S'], fontsize=7)
+    axes[7].set_yticklabels(yaw_names, fontsize=7)
     
     # add dropsondes
     for ds_name, ds_dsd in dict_ds_dsd.items():
