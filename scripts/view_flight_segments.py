@@ -15,6 +15,27 @@ ac3cloud_username = os.environ['AC3_USER']
 ac3cloud_password = os.environ['AC3_PASSWORD']
 
 
+def distance(lat1, lon1, lat2, lon2):
+    """
+    Calculate distance in km between two geographic locations
+    """
+    
+    R = 6371  # Earth's radius
+    
+    dlat = np.deg2rad(lat2-lat1)
+    dlon = np.deg2rad(lon2-lon1)
+    
+    rlat1 = np.deg2rad(lat1)
+    rlat2 = np.deg2rad(lat2)
+    
+    # distance
+    a = np.sin(dlat/2) * np.sin(dlat/2) + np.cos(rlat1) * np.cos(rlat2) * np.sin(dlon/2) * np.sin(dlon/2) 
+    c = 2 * np.arctan2(np.sqrt(a), np.sqrt(1-a))
+    d = R * c
+    
+    return d
+
+
 if __name__ == '__main__':
 
     # read file with flight settings
@@ -55,10 +76,18 @@ if __name__ == '__main__':
         ds_gps = ds_gps.rename({'yaw': 'heading'})
     
     # create variable for speed and set values to nan, if they do not exist
-    variables = ['gs', 'vs']
-    for var in variables:
-        if var not in list(ds_gps):
-            ds_gps[var] = (('time'), np.full(len(ds_gps.time), fill_value=-999))
+    if 'gs' not in list(ds_gps):
+        d = distance(ds_gps.lat.values[1:], ds_gps.lon.values[1:], ds_gps.lat.values[:-1], ds_gps.lon.values[:-1])*1e3  # m
+        gs = d/((ds_gps.time.values[1:] - ds_gps.time.values[:-1])/np.timedelta64(1, 's'))
+        gs = np.append(gs, 0)
+        gs *= 1.94384  # m/s --> kn
+        ds_gps['gs'] = (('time'), gs)
+    
+    # calculate vertical speed from altitude
+    if 'vs' not in list(ds_gps):
+        vs = (ds_gps.alt.values[1:] - ds_gps.alt.values[:-1])/((ds_gps.time.values[1:] - ds_gps.time.values[:-1])/np.timedelta64(1, 's'))
+        vs = np.append(vs, 0)
+        ds_gps['vs'] = (('time'), vs)
     
     #%% plot track on map to get an overview
     print('plot track on map')
@@ -72,16 +101,14 @@ if __name__ == '__main__':
     # add places
     lon_n, lat_n = (11.922222, 78.925)     # coordinates Ny Alesund
     lon_l, lat_l = (15.633333, 78.216667)  # coordinates Longyearbyen
-    # create variable for speed and set values to nan, if they do not exist
-    variables = ['gs', 'vs']
-    for var in variables:
-        if var not in list(ds_gps):
-            ds_gps[var] = (('time'), np.full(len(ds_gps.time), fill_value=-999))
+    lon_k, lat_k = (20.326667, 67.822222)  # coordinates Kiruna
     
     ax.scatter(lon_n, lat_n, marker='o', c='r', s=10, zorder=3, transform=data_crs, edgecolors='none')
     ax.annotate(text='NYA', xy=ax.projection.transform_point(lon_n, lat_n, data_crs))
     ax.scatter(lon_l, lat_l, marker='o', c='r', s=10, zorder=3, transform=data_crs, edgecolors='none')
     ax.annotate(text='LYR', xy=ax.projection.transform_point(lon_l, lat_l, data_crs), va='top', ha='center')
+    ax.scatter(lon_k, lat_k, marker='o', c='r', s=10, zorder=3, transform=data_crs, edgecolors='none')
+    ax.annotate(text='KIR', xy=ax.projection.transform_point(lon_k, lat_k, data_crs), va='top', ha='center')
     
     # plot flight in black
     kwargs = dict(s=4, color='k', linewidths=0, transform=data_crs, zorder=0)
@@ -182,13 +209,13 @@ if __name__ == '__main__':
     # vertical speed
     axes[3].scatter(ds_gps.time, ds_gps.vs, **kwargs)
     axes[3].set_ylabel('vs [m/s]')
-    axes[3].set_ylim([-10, 10])
+    axes[3].set_ylim([-20, 20])
     axes[3].fill_between(x=ds_gps.time, y1=0, y2=ds_gps.vs, color='#9087ea', alpha=0.5, linewidth=0)
 
     # ground speed
     axes[4].scatter(ds_gps.time, ds_gps.gs, **kwargs)
     axes[4].set_ylabel('gs [kn]')
-    axes[4].set_ylim([0, 250])
+    axes[4].set_ylim([0, 500])
     
     # roll angle
     axes[5].scatter(ds_gps.time, ds_gps['roll'], **kwargs)
