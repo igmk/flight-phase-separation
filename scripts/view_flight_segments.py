@@ -53,12 +53,15 @@ if __name__ == '__main__':
         flight_segments = yaml.safe_load(f)
     
     # read dropsondes of flight
-    cat_ds = cat[flight['mission']][flight['platform']]['DROPSONDES'][flight_id]
-    times = cat_ds.description.split(',')
-    dict_ds_dsd = {}  # dictionary of dropsondes
-    for t in times: 
-        dict_ds_dsd[t] = cat_ds(user=ac3cloud_username,
-                                password=ac3cloud_password, time=t).to_dask()
+    try:
+        cat_ds = cat[flight['mission']][flight['platform']]['DROPSONDES'][flight_id]
+        times = cat_ds.description.split(',')
+        dict_ds_dsd = {}  # dictionary of dropsondes
+        for t in times: 
+            dict_ds_dsd[t] = cat_ds(user=ac3cloud_username,
+                                    password=ac3cloud_password, time=t).to_dask()
+    except KeyError:
+        print('No dropsondes found. Does intake catalog entry exist?')
     
     #%% unify data
     # yaw angle names from -180 to 180 in 45 deg steps
