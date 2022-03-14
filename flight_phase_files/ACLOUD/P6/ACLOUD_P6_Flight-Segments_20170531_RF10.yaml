@@ -26,6 +26,42 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF10_ma
   start: 2017-05-31 14:59:20
+  end: 2017-05-31 15:05:02
+  levels: [100, 4500]
+  dropsondes: []
+- kinds:
+  - mid_level
+  name: mid level 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF10_ml01
+  start: 2017-05-31 15:05:02
+  end: 2017-05-31 15:09:55
+  levels: [4500]
+  dropsondes: []
+- kinds:
+  - small_descent
+  name: small descent 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF10_sd01
+  start: 2017-05-31 15:09:55
+  end: 2017-05-31 15:18:02
+  levels: [4500, 1500]
+  dropsondes: []
+- kinds:
+  - low_level
+  name: low level 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF10_ll01
+  start: 2017-05-31 15:18:02
+  end: 2017-05-31 15:30:16
+  levels: [1500]
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: ACLOUD_P6_RF10_ma
+  start: 2017-05-31 18:51:57
   end: 2017-05-31 19:02:45
-  levels: [100, 100]
+  levels: [5100, 100]
   dropsondes: []
