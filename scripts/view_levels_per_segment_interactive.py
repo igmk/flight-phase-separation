@@ -74,10 +74,6 @@ if __name__ == '__main__':
     with open('flight_settings.yaml') as f:
         flight = yaml.safe_load(f)
     
-    # read file with paths (set wdir to the current script location)
-    with open('paths.yaml') as f:
-        paths = yaml.safe_load(f)
-    
     flight_id = flight['mission']+'_'+flight['platform']+'_'+flight['name']
     
     # read data

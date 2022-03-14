@@ -3,13 +3,14 @@
 import numpy as np
 import cartopy.crs as ccrs
 import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
 from matplotlib.backend_bases import MouseButton
-from glob import glob
 from matplotlib import cm
-import xarray as xr
 import yaml
-import sys
+import ac3airborne
+import os
+
+ac3cloud_username = os.environ['AC3_USER']
+ac3cloud_password = os.environ['AC3_PASSWORD']
 
 
 def tellme(s):
@@ -24,25 +25,17 @@ if __name__ == '__main__':
     with open('flight_settings.yaml') as f:
         flight = yaml.safe_load(f)
     
-    # read file with paths (set wdir to the current script location)
-    with open('paths.yaml') as f:
-        paths = yaml.safe_load(f)
+    flight_id = flight['mission']+'_'+flight['platform']+'_'+flight['name']
     
-    # read gps data
-    file = paths['path_gps']+flight['campaign'].lower()+'/'+flight['aircraft'].lower()+'/gps_ins/'+flight['campaign']+'_polar'+flight['aircraft'][1]+'_'+flight['date']+'_'+flight['number']+'.nc'
-    ds_gps = xr.open_dataset(file)
+    # read data
+    cat = ac3airborne.get_intake_catalog()
+    ds_gps = cat[flight['mission']][flight['platform']]['GPS_INS'][flight_id](
+        user=ac3cloud_username,password=ac3cloud_password).to_dask()
     
     # read flight segments of flight
-    file = '../flight_phase_files/'+flight['campaign']+'/'+flight['aircraft']+'/'+flight['campaign']+'_'+flight['aircraft']+'_Flight-Segments_'+flight['date']+'_'+flight['number']+'.yaml'
+    file = '../flight_phase_files/'+flight['mission']+'/'+flight['platform']+'/'+flight['mission']+'_'+flight['platform']+'_Flight-Segments_'+flight['date']+'_'+flight['name']+'.yaml'
     with open(file, 'r') as f:
         flight_segments = yaml.safe_load(f)
-    
-    # read dropsondes of flight
-    files = glob(paths['path_dropsonde']+flight['campaign'].lower()+'/dropsondes/'+flight['date'][:4]+'/'+flight['date'][4:6]+'/'+flight['date'][6:8]+'/*PQC.nc')
-    dict_ds_dsd = {}  # dictionary of dropsondes
-    for file in files:
-        filename = file.split('/')[-1].split('_PQC')[0]
-        dict_ds_dsd[filename] = xr.open_dataset(file)
     
     #%% plot track on map to get an overview
     print('plot track on map')

@@ -605,10 +605,6 @@ if __name__ == '__main__':
     
     check_single = True
     
-    # read file with paths (set wdir to the current script location)
-    with open('paths.yaml') as f:
-        paths = yaml.safe_load(f)
-    
     if check_single:
     
         # read file with flight settings

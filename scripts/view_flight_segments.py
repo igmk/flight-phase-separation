@@ -4,9 +4,7 @@ import numpy as np
 import cartopy.crs as ccrs
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
-from glob import glob
 from matplotlib import cm
-import xarray as xr
 import yaml
 import ac3airborne
 import os
@@ -41,15 +39,13 @@ if __name__ == '__main__':
     # read file with flight settings
     with open('flight_settings.yaml') as f:
         flight = yaml.safe_load(f)
-
-    with open('paths.yaml') as f:
-        paths = yaml.safe_load(f)
     
     flight_id = flight['mission']+'_'+flight['platform']+'_'+flight['name']
     
     # read data
     cat = ac3airborne.get_intake_catalog()
-    ds_gps = cat[flight['mission']][flight['platform']]['GPS_INS'][flight_id](user=ac3cloud_username,password=ac3cloud_password).to_dask()
+    ds_gps = cat[flight['mission']][flight['platform']]['GPS_INS'][flight_id](
+        user=ac3cloud_username,password=ac3cloud_password).to_dask()
     
     # read flight segments of flight
     file = '../flight_phase_files/'+flight['mission']+'/'+flight['platform']+'/'+flight['mission']+'_'+flight['platform']+'_Flight-Segments_'+flight['date']+'_'+flight['name']+'.yaml'
@@ -57,12 +53,12 @@ if __name__ == '__main__':
         flight_segments = yaml.safe_load(f)
     
     # read dropsondes of flight
-    #files = glob(paths['path_dropsonde']+flight['mission'].lower()+'/dropsondes/'+flight['date'][:4]+'/'+flight['date'][4:6]+'/'+flight['date'][6:8]+'/*PQC.nc')
-    files = glob(paths['path_dropsonde']+'HALO-AC3_HALO_Dropsondes_'+flight['date']+'_RF02/Level_1/D'+flight['date']+'_*QC.nc')
+    cat_ds = cat[flight['mission']][flight['platform']]['DROPSONDES'][flight_id]
+    times = cat_ds.description.split(',')
     dict_ds_dsd = {}  # dictionary of dropsondes
-    for file in files:
-        filename = file.split('/')[-1].split('QC')[0]
-        dict_ds_dsd[filename] = xr.open_dataset(file)
+    for t in times: 
+        dict_ds_dsd[t] = cat_ds(user=ac3cloud_username,
+                                password=ac3cloud_password, time=t).to_dask()
     
     #%% unify data
     # yaw angle names from -180 to 180 in 45 deg steps
