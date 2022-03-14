@@ -53,10 +53,10 @@ if __name__ == '__main__':
         flight_segments = yaml.safe_load(f)
     
     # read dropsondes of flight
+    dict_ds_dsd = {}  # dictionary of dropsondes
     try:
         cat_ds = cat[flight['mission']][flight['platform']]['DROPSONDES'][flight_id]
         times = cat_ds.description.split(',')
-        dict_ds_dsd = {}  # dictionary of dropsondes
         for t in times: 
             dict_ds_dsd[t] = cat_ds(user=ac3cloud_username,
                                     password=ac3cloud_password, time=t).to_dask()
