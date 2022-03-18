@@ -1,0 +1,280 @@
+name: RF06
+mission: HALO-AC3
+platform: HALO
+flight_id: HALO-AC3_HALO_RF06
+contacts:
+- name: Florian Ewald
+  email: florian.ewald@dlr.de
+  tags:
+  - pi
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
+  tags:
+  - lc
+date: 2022-03-16
+flight_report: missing
+takeoff: 2022-03-16 08:58:15
+landing: 2022-03-16 18:28:08
+events:
+- Test flight
+remarks: []
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities:
+  - short turn included
+  segment_id: HALO-AC3_HALO_RF06_ma
+  start: 2022-03-16 08:58:15
+  end: 2022-03-16 09:25:14
+  levels: [1600, 40000]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-16 09:25:15
+  end: 2022-03-16 09:27:46
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF06_hl01
+  start: 2022-03-16 09:27:47
+  end: 2022-03-16 10:06:46
+  levels: [40200]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-03-16 10:06:47
+  end: 2022-03-16 10:14:19
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF06_hl02
+  start: 2022-03-16 10:14:20
+  end: 2022-03-16 10:40:55
+  levels: [40200]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-03-16 10:40:56
+  end: 2022-03-16 10:46:04
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF06_hl03
+  start: 2022-03-16 10:46:05
+  end: 2022-03-16 11:10:58
+  levels: [40200]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-16 11:10:59
+  end: 2022-03-16 11:12:43
+- kinds:
+  - high_level
+  name: high level 4
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF06_hl04
+  start: 2022-03-16 11:12:44
+  end: 2022-03-16 11:22:25
+  levels: [39900]
+  dropsondes: []
+- kinds:
+  - long_turn
+  name: long turn
+  start: 2022-03-16 11:22:26
+  end: 2022-03-16 11:27:20
+- kinds:
+  - high_level
+  name: high level 5
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF06_hl05
+  start: 2022-03-16 11:27:21
+  end: 2022-03-16 12:07:13
+  levels: [40000]
+  dropsondes: []
+- kinds:
+  - long_turn
+  name: long turn
+  start: 2022-03-16 12:07:14
+  end: 2022-03-16 12:13:00
+- kinds:
+  - high_level
+  name: high level 6
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF06_hl06
+  start: 2022-03-16 12:13:01
+  end: 2022-03-16 12:52:07
+  levels: [40000]
+  dropsondes: []
+- kinds:
+  - long_turn
+  name: long turn
+  start: 2022-03-16 12:52:08
+  end: 2022-03-16 12:58:14
+- kinds:
+  - high_level
+  name: high level 7
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF06_hl07
+  start: 2022-03-16 12:58:15
+  end: 2022-03-16 13:40:13
+  levels: [39900]
+  dropsondes: []
+- kinds:
+  - long_turn
+  name: long turn
+  start: 2022-03-16 13:40:14
+  end: 2022-03-16 13:47:50
+- kinds:
+  - high_level
+  name: high level 8
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF06_hl08
+  start: 2022-03-16 13:47:51
+  end: 2022-03-16 14:08:28
+  levels: [39900]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-16 14:08:29
+  end: 2022-03-16 14:08:48
+- kinds:
+  - high_level
+  name: high level 9
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF06_hl09
+  start: 2022-03-16 14:08:49
+  end: 2022-03-16 14:17:26
+  levels: [39700]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-16 14:17:27
+  end: 2022-03-16 14:20:28
+- kinds:
+  - high_level
+  name: high level 10
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF06_hl10
+  start: 2022-03-16 14:20:29
+  end: 2022-03-16 14:28:34
+  levels: [39500]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-16 14:28:35
+  end: 2022-03-16 14:29:25
+- kinds:
+  - high_level
+  name: high level 11
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF06_hl11
+  start: 2022-03-16 14:29:26
+  end: 2022-03-16 14:33:29
+  levels: [39500]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-16 14:33:30
+  end: 2022-03-16 14:35:14
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 12
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF06_hl12
+  start: 2022-03-16 14:35:15
+  end: 2022-03-16 15:23:02
+  levels: [38900]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-03-16 15:23:03
+  end: 2022-03-16 15:28:47
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 13
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF06_hl13
+  start: 2022-03-16 15:28:48
+  end: 2022-03-16 16:51:04
+  levels: [39100]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-16 16:51:05
+  end: 2022-03-16 16:51:55
+- kinds:
+  - high_level
+  name: high level 14
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF06_hl14
+  start: 2022-03-16 16:51:56
+  end: 2022-03-16 17:33:19
+  levels: [39900]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-16 17:33:20
+  end: 2022-03-16 17:36:23
+- kinds:
+  - high_level
+  name: high level 15
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF06_hl15
+  start: 2022-03-16 17:36:24
+  end: 2022-03-16 17:48:09
+  levels: [40300]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-16 17:48:10
+  end: 2022-03-16 17:50:42
+- kinds:
+  - high_level
+  name: high level 16
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF06_hl16
+  start: 2022-03-16 17:50:43
+  end: 2022-03-16 17:54:02
+  levels: [40400]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-16 17:54:03
+  end: 2022-03-16 17:54:50
+- kinds:
+  - high_level
+  name: high level 17
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF06_hl17
+  start: 2022-03-16 17:54:51
+  end: 2022-03-16 17:56:34
+  levels: [40400]
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF06_md
+  start: 2022-03-16 17:56:35
+  end: 2022-03-16 18:28:08
+  levels: [40400, 1600]
+  dropsondes: []
