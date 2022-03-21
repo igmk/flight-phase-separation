@@ -1,0 +1,47 @@
+name: RF01
+mission: HALO-AC3
+platform: P5
+flight_id: HALO-AC3_P5_RF01
+contacts:
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+  - pi
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
+  tags:
+  - lc
+date: 2022-03-20
+flight_report: 
+takeoff: 2022-03-20 10:00:00
+landing: 2022-03-20 15:37:25
+events: []
+remarks: []
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF01_ma
+  start: 2022-03-20 10:00:00
+  end: 2022-03-20 10:00:01
+  levels: []
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF01_hl01
+  start: 2022-03-20 10:00:02
+  end: 2022-03-20 10:00:03
+  levels: []
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF01_md
+  start: 2022-03-20 10:00:04
+  end: 2022-03-20 15:37:25
+  levels: []
+  dropsondes: []
