@@ -13,8 +13,8 @@ contacts:
   - lc
 date: 2022-03-20
 flight_report: 
-takeoff: 2022-03-20 10:00:00
-landing: 2022-03-20 15:37:25
+takeoff: 2022-03-20 11:25:42
+landing: 2022-03-20 15:37:20
 events: []
 remarks: []
 segments:
@@ -23,8 +23,8 @@ segments:
   name: major ascent
   irregularities: []
   segment_id: HALO-AC3_P5_RF01_ma
-  start: 2022-03-20 10:00:00
-  end: 2022-03-20 10:00:01
+  start: 2022-03-20 11:25:42
+  end: 2022-03-20 11:37:41
   levels: []
   dropsondes: []
 - kinds:
@@ -32,8 +32,8 @@ segments:
   name: high level 1
   irregularities: []
   segment_id: HALO-AC3_P5_RF01_hl01
-  start: 2022-03-20 10:00:02
-  end: 2022-03-20 10:00:03
+  start: 2022-03-20 11:37:42
+  end: 2022-03-20 15:16:12
   levels: []
   dropsondes: []
 - kinds:
@@ -41,7 +41,7 @@ segments:
   name: major descent
   irregularities: []
   segment_id: HALO-AC3_P5_RF01_md
-  start: 2022-03-20 10:00:04
-  end: 2022-03-20 15:37:25
+  start: 2022-03-20 15:16:13
+  end: 2022-03-20 15:37:20
   levels: []
   dropsondes: []
