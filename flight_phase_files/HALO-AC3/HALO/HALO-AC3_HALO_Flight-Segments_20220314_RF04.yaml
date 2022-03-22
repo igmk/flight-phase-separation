@@ -12,11 +12,10 @@ contacts:
   tags:
   - lc
 date: 2022-03-14
-flight_report: missing
+flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=flight_report_halo-ac3_20220314_halo_rf04.pdf
 takeoff: 2022-03-14 08:45:13
 landing: 2022-03-14 17:19:08
-events:
-- Test flight
+events: []
 remarks: []
 segments:
 - kinds:

@@ -15,8 +15,7 @@ date: 2022-03-16
 flight_report: missing
 takeoff: 2022-03-16 08:58:15
 landing: 2022-03-16 18:28:08
-events:
-- Test flight
+events: []
 remarks: []
 segments:
 - kinds:

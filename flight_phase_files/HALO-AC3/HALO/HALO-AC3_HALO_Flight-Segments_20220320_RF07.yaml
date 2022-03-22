@@ -21,8 +21,7 @@ segments:
 - kinds:
   - major_ascent
   name: major ascent
-  irregularities:
-  - short turn included
+  irregularities: []
   segment_id: HALO-AC3_HALO_RF07_ma
   start: 2022-03-20 07:58:30
   end: 2022-03-20 08:26:16
