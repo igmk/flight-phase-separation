@@ -14,7 +14,7 @@ contacts:
 date: 2022-03-20
 flight_report: missing
 takeoff: 2022-03-20 07:58:30
-landing: 2022-03-20 18:28:08
+landing: 2022-03-20 17:07:05
 events: []
 remarks: []
 segments:
@@ -222,6 +222,6 @@ segments:
   irregularities: []
   segment_id: HALO-AC3_HALO_RF07_md
   start: 2022-03-20 16:38:08
-  end: 2022-03-20 18:28:08
+  end: 2022-03-20 17:07:05
   levels: [42400, 1600]
   dropsondes: []
