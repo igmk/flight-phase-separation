@@ -1,0 +1,81 @@
+name: RF02
+mission: HALO-AC3
+platform: P5
+flight_id: HALO-AC3_P5_RF02
+contacts:
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+  - pi
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+  - lc
+date: 2022-03-22
+flight_report: missing
+takeoff: 2022-03-22 08:23:14
+landing: 2022-03-22 09:58:24
+events: []
+remarks: []
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF02_ma
+  start: 2022-03-22 08:23:14
+  end: 2022-03-22 08:34:17
+  levels: [100,9200]
+  dropsondes: []
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 1
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF02_hl01
+  start: 2022-03-22 08:34:18
+  end: 2022-03-22 08:39:41
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - small_ascent
+  name: small ascent 1
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF02_sa01
+  start: 2022-03-22 08:39:42
+  end: 2022-03-22 08:42:20
+  levels: [9100, 10100]
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF02_hl02
+  start: 2022-03-22 08:42:21
+  end: 2022-03-22 09:09:31
+  levels: [10100]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-03-22 09:09:32
+  end: 2022-03-22 09:13:05
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 3
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF02_hl03
+  start: 2022-03-22 09:13:06
+  end: 2022-03-22 09:40:44
+  levels: [10100]
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF02_md
+  start: 2022-03-22 09:40:45
+  end: 2022-03-22 09:58:24
+  levels: [10100, 100]
+  dropsondes: []
