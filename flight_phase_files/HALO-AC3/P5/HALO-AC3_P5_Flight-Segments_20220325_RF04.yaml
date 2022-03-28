@@ -1,0 +1,53 @@
+name: RF03
+mission: HALO-AC3
+platform: P5
+flight_id: HALO-AC3_P5_RF03
+contacts:
+- name: 
+  email: 
+  tags:
+  - pi
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
+  tags:
+  - lc
+date: 2022-03-25
+flight_report: missing
+takeoff: 2022-03-25 11:22:34
+landing: 2022-03-25 16:14:35
+events: []
+remarks: []
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF03_ma
+  start: 2022-03-25 11:22:34
+  end: 2022-03-25 11:33:45
+  levels: [100, 9200]
+  dropsondes: []
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 1
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF03_hl01
+  start: 2022-03-25 11:33:46
+  end: 2022-03-25 12:12:47
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-25 12:12:48
+  end: 2022-03-25 15:55:19
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF03_md
+  start: 2022-03-25 15:55:20
+  end: 2022-03-25 16:14:35
+  levels: [10100, 100]
+  dropsondes: []
