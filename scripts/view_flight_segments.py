@@ -183,10 +183,10 @@ if __name__ == '__main__':
     #%% plot time series
     print('plot time series')
     
-    fig, axes = plt.subplots(8, 1, figsize=(9, 9), sharex=True, gridspec_kw=dict(hspace=0))
+    fig, axes = plt.subplots(8, 1, figsize=(9, 9), sharex=True, gridspec_kw=dict(hspace=0, top=0.98, right=1))
     
     axes[0].annotate(flight['mission']+', '+flight['name']+', '+flight['platform']+', '+flight['date'],
-                     xy=(0.5, 1), ha='center', va='bottom', fontsize=7, annotation_clip=False)
+                     xy=(0.5, 1), xycoords='axes fraction', ha='center', va='bottom', fontsize=7)
     
     kwargs = dict(linewidths=0, c='k', s=1)
     ds_kwargs = dict(linewidths=0, c='r', s=1)
@@ -275,7 +275,7 @@ if __name__ == '__main__':
                 ax.axvline(start, color='blue', alpha=0.5)
                 ax.axvline(end, color='green', alpha=0.5, linestyle='--')
                 
-                if i_ax == 0:
+                if i_ax == len(axes)-1:
                     
                     if 'segment_id' in flight_segment.keys():
                         print('plot segment id %s'%flight_segment['segment_id'])
@@ -305,7 +305,7 @@ if __name__ == '__main__':
                         ax.axvline(start, color='blue', alpha=0.5)
                         ax.axvline(end, color='green', alpha=0.5, linestyle='--')
                         
-                        if i_ax == 0:
+                        if i_ax == len(axes)-1:
                             
                             if 'segment_id' in part.keys():
                                 print('plot segment id %s'%part['segment_id'])

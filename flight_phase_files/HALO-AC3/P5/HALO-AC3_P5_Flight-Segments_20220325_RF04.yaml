@@ -1,7 +1,7 @@
-name: RF03
+name: RF04
 mission: HALO-AC3
 platform: P5
-flight_id: HALO-AC3_P5_RF03
+flight_id: HALO-AC3_P5_RF04
 contacts:
 - name: 
   email: 
@@ -22,31 +22,108 @@ segments:
   - major_ascent
   name: major ascent
   irregularities: []
-  segment_id: HALO-AC3_P5_RF03_ma
+  segment_id: HALO-AC3_P5_RF04_ma
   start: 2022-03-25 11:22:34
   end: 2022-03-25 11:33:45
   levels: [100, 9200]
   dropsondes: []
 - kinds:
   - high_level
-  - nya_overflight
   name: high level 1
   irregularities: []
-  segment_id: HALO-AC3_P5_RF03_hl01
+  segment_id: HALO-AC3_P5_RF04_hl01
   start: 2022-03-25 11:33:46
-  end: 2022-03-25 12:12:47
+  end: 2022-03-25 12:10:20
   levels: [9200]
   dropsondes: []
 - kinds:
   - short_turn
   name: short turn
-  start: 2022-03-25 12:12:48
-  end: 2022-03-25 15:55:19
+  start: 2022-03-25 12:10:20
+  end: 2022-03-25 12:10:43
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF04_hl02
+  start: 2022-03-25 12:10:44
+  end: 2022-03-25 12:33:37
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - large_descent
+  name: large descent 1
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF04_ld01
+  start: 2022-03-25 12:33:38
+  end: 2022-03-25 12:48:03
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - low_level
+  name: low level 1
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF04_ll01
+  start: 2022-03-25 12:48:04
+  end: 2022-03-25 12:49:19
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-25 12:49:20
+  end: 2022-03-25 12:50:21
+- kinds:
+  - racetrack_pattern
+  name: racetrack pattern 1
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF04_rt01
+  start: 2022-03-25 12:50:22
+  end: 2022-03-25 12:50:23
+  levels:
+  - 200
+  - 300
+  - 400
+  - 500
+  dropsondes: []
+  parts:
+  - kinds:
+    - low_level
+    name: racetrack pattern 1 leg 1
+    irregularities: []
+    segment_id: HALO-AC3_P5_RF04_rt01_l01
+    start: 2022-03-25 12:50:22
+    end: 2022-03-25 12:54:50
+    levels:
+    - 200
+  - kinds:
+    - procedure_turn
+    name: procedure turn
+    start: 2022-03-25 12:54:51
+    end: 2022-03-25 12:56:55
+  - kinds:
+    - low_level
+    name: racetrack pattern 1 leg 2
+    irregularities: []
+    segment_id: HALO-AC3_P5_RF04_rt01_l02
+    start: 2022-03-25 12:56:56
+    end: 2022-03-25 13:02:17
+    levels: []
+  - kinds:
+    - procedure_turn
+    name: procedure turn
+    start: 2022-03-25 13:02:17
+    end: 2022-03-25 13:04:40
+
+
+
+
+
 - kinds:
   - major_descent
   name: major descent
   irregularities: []
-  segment_id: HALO-AC3_P5_RF03_md
+  segment_id: HALO-AC3_P5_RF04_md
   start: 2022-03-25 15:55:20
   end: 2022-03-25 16:14:35
   levels: [10100, 100]
