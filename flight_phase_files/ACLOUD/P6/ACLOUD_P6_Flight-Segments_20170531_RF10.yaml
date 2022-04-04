@@ -189,20 +189,80 @@ segments:
   start: 2017-05-31 16:37:16
   end: 2017-05-31 16:46:54
 - kinds:
-  - square_pattern                  # square pattern? how do we call it?
-  name: square pattern 1
+  - radiation_square                  # square pattern? how do we call it?
+  name: radiation square 1
   irregularities: []
-  segment_id: ACLOUD_P6_RF10_sq01
+  segment_id: ACLOUD_P6_RF10_rs01
   start: 2017-05-31 16:46:54
   end: 2017-05-31 18:15:48
   levels: []
   dropsondes: []
 - kinds:
+  - small_ascent
+  name: small ascent 3
+  irregularities: []
+  segment_id: ACLOUD_P6_RF10_sa3
+  start: 2017-05-31 18:15:48
+  end: 2017-05-31 18:18:41
+  levels: [10000, 12000]
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF10_hl01
+  start: 2017-05-31 18:18:41
+  end: 2017-05-31 18:24:52
+  levels: [12000]
+  dropsondes: []
+- kinds:
+  - small_descent
+  name: small descent 6
+  irregularities: []
+  segment_id: ACLOUD_P6_RF10_sd06
+  start: 2017-05-31 18:24:52
+  end: 2017-05-31 18:29:37
+  levels: [12000, 10000]
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: ACLOUD_P6_RF10_hl02
+  start: 2017-05-31 18:29:37
+  end: 2017-05-31 18:32:42
+  levels: [10000]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-05-31 18:32:42
+  end: 2017-05-31 18:33:09
+- kinds:
+  - medium_descent
+  name: medium descent 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF10_md01
+  start: 2017-05-31 18:33:09
+  end: 2017-05-31 18:41:27
+  levels: [10000, 4900]
+  dropsondes: []
+- kinds:
+  - mid_level
+  name: mid level 2
+  irregularities:
+  - not perfectly straight
+  segment_id: ACLOUD_P6_RF10_ml02
+  start: 2017-05-31 18:41:27
+  end: 2017-05-31 18:51:57
+  levels: [4900]
+  dropsondes: []
+- kinds:
   - major_descent
   name: major descent
   irregularities: []
-  segment_id: ACLOUD_P6_RF10_ma
+  segment_id: ACLOUD_P6_RF10_md
   start: 2017-05-31 18:51:57
   end: 2017-05-31 19:02:45
-  levels: [5100, 100]
+  levels: [4900, 100]
   dropsondes: []
