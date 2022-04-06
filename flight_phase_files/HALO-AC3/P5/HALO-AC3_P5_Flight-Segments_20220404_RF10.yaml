@@ -13,8 +13,8 @@ contacts:
   - lc
 date: 2022-04-04
 flight_report: missing
-takeoff: 2022-04-04 11:34:46
-landing: 2022-04-04 16:02:14
+takeoff: 2022-04-04 10:06:40
+landing: 2022-04-04 14:22:56
 events: []
 remarks: []
 segments:
@@ -23,7 +23,7 @@ segments:
   name: major ascent
   irregularities: []
   segment_id: HALO-AC3_P5_RF10_ma
-  start: 2022-04-04 11:34:46
+  start: 2022-04-04 10:06:40
   end: 2022-04-04 11:34:47
   levels: [100, 9200]
   dropsondes: []
@@ -47,6 +47,6 @@ segments:
   irregularities: []
   segment_id: HALO-AC3_P5_RF10_md
   start: 2022-04-04 11:34:52
-  end: 2022-04-04 16:02:14
+  end: 2022-04-04 14:22:56
   levels: [10100, 100]
   dropsondes: []
