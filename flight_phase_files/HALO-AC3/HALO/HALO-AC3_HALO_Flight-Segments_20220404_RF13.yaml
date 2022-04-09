@@ -1,0 +1,20 @@
+name: RF13
+mission: HALO-AC3
+platform: HALO
+flight_id: HALO-AC3_HALO_RF13
+contacts:
+- name: Felix Ament
+  email: felix.ament@uni-hamburg.de
+  tags:
+  - pi
+- name: Johannes Röttenbacher
+  email: johannes.roettenbacher@uni-leipzig.de
+  tags:
+  - lc
+date: 2022-04-04
+flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=flight_report_halo_ac3_20220404_halo_rf13.pdf
+takeoff: 2022-04-04 07:25:58
+landing: 2022-04-04 16:18:50
+events: []
+remarks: []
+segments:
