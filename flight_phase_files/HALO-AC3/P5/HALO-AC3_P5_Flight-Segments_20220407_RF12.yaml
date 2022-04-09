@@ -3,8 +3,8 @@ mission: HALO-AC3
 platform: P5
 flight_id: HALO-AC3_P5_RF12
 contacts:
-- name: 
-  email: 
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
   tags:
   - pi
 - name: Nils Risse
@@ -20,33 +20,202 @@ remarks: []
 segments:
 - kinds:
   - major_ascent
+  - sveabreen_glacier_overflight
   name: major ascent
   irregularities: []
   segment_id: HALO-AC3_P5_RF12_ma
   start: 2022-04-07 09:10:19
-  end: 2022-04-07 11:34:47
-  levels: [100, 9200]
+  end: 2022-04-07 09:44:41
+  levels: [100, 9300]
   dropsondes: []
 - kinds:
   - high_level
   name: high level 1
   irregularities: []
   segment_id: HALO-AC3_P5_RF12_hl01
-  start: 2022-04-07 11:34:48
-  end: 2022-04-07 11:34:49
-  levels: [9200]
+  start: 2022-04-07 09:44:42
+  end: 2022-04-07 09:46:57
+  levels: [9300]
   dropsondes: []
 - kinds:
   - short_turn
   name: short turn
-  start: 2022-04-07 11:34:50
-  end: 2022-04-07 11:34:51
+  start: 2022-04-07 09:46:58
+  end: 2022-04-07 09:47:18
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF12_hl02
+  start: 2022-04-07 09:47:19
+  end: 2022-04-07 09:51:12
+  levels: [9300]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-07 09:51:13
+  end: 2022-04-07 09:52:00
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF12_hl03
+  start: 2022-04-07 09:52:01
+  end: 2022-04-07 10:09:49
+  levels: [9300]
+  dropsondes: []
+- kinds:
+  - small_descent
+  name: small descent 1
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF12_sd01
+  start: 2022-04-07 10:09:50
+  end: 2022-04-07 10:14:36
+  levels: [9300, 7300]
+  dropsondes: []
+- kinds:
+  - small_ascent
+  name: small ascent 1
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF12_sa01
+  start: 2022-04-07 10:14:37
+  end: 2022-04-07 10:18:03
+  levels: [7300, 9400]
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 4
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF12_hl04
+  start: 2022-04-07 10:18:04
+  end: 2022-04-07 10:30:01
+  levels: [9300]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-04-07 10:30:02
+  end: 2022-04-07 10:34:31
+- kinds:
+  - high_level
+  name: high level 5
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF12_hl05
+  start: 2022-04-07 10:34:32
+  end: 2022-04-07 11:13:36
+  levels: [9300]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-04-07 11:13:37
+  end: 2022-04-07 11:17:44
+- kinds:
+  - high_level
+  name: high level 6
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF12_hl06
+  start: 2022-04-07 11:17:45
+  end: 2022-04-07 11:53:08
+  levels: [9300]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-04-07 11:53:09
+  end: 2022-04-07 11:54:12
+- kinds:
+  - large_descent
+  name: large descent 1
+  irregularities:
+  - procedure turn during descent
+  segment_id: HALO-AC3_P5_RF12_ld01
+  start: 2022-04-07 11:54:13
+  end: 2022-04-07 12:04:07
+  levels: [9400, 200]
+  dropsondes: []
+- kinds:
+  - low_level
+  name: low level 1
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF12_ll01
+  start: 2022-04-07 12:04:08
+  end: 2022-04-07 12:18:03
+  levels: [200]
+  dropsondes: []
+- kinds:
+  - large_ascent
+  name: large ascent 1
+  irregularities:
+  - procedure turn during ascent
+  segment_id: HALO-AC3_P5_RF12_la01
+  start: 2022-04-07 12:18:04
+  end: 2022-04-07 12:27:34
+  levels: [300, 9300]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-07 12:27:35
+  end: 2022-04-07 12:29:41
+- kinds:
+  - high_level
+  name: high level 7
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF12_hl07
+  start: 2022-04-07 12:29:42
+  end: 2022-04-07 12:36:45
+  levels: [9300]
+  dropsondes: []
+- kinds:
+  - circle
+  name: circle
+  start: 2022-04-07 12:36:46
+  end: 2022-04-07 12:40:55
+- kinds:
+  - high_level
+  name: high level 8
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF12_hl08
+  start: 2022-04-07 12:40:56
+  end: 2022-04-07 12:55:40
+  levels: [9300]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-07 12:55:41
+  end: 2022-04-07 12:55:58
+- kinds:
+  - high_level
+  name: high level 9
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF12_hl09
+  start: 2022-04-07 12:55:59
+  end: 2022-04-07 13:10:28
+  levels: [9300]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-07 13:10:29
+  end: 2022-04-07 13:10:49
+- kinds:
+  - high_level
+  name: high level 10
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF12_hl10
+  start: 2022-04-07 13:10:50
+  end: 2022-04-07 13:15:14
+  levels: [9300]
+  dropsondes: []
 - kinds:
   - major_descent
   name: major descent
   irregularities: []
   segment_id: HALO-AC3_P5_RF12_md
-  start: 2022-04-07 11:34:52
+  start: 2022-04-07 13:15:15
   end: 2022-04-07 13:33:08
-  levels: [10100, 100]
+  levels: [9300, 100]
   dropsondes: []
