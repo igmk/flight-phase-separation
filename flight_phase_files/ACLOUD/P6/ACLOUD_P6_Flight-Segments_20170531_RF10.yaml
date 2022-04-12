@@ -170,10 +170,14 @@ segments:
   levels: [200]
   dropsondes: []
 - kinds:
-  - long_turn
-  name: long turn
+  - small_ascent
+  name: small ascent 3
+  irregularities: []
+  segment_id: ACLOUD_P6_RF10_sa3
   start: 2017-05-31 16:20:18
   end: 2017-05-31 16:28:30
+  levels: [200, 1600]
+  dropsondes: []
 - kinds:
   - low_level
   name: low level 8
@@ -184,10 +188,14 @@ segments:
   levels: [1600]
   dropsondes: []
 - kinds:
-  - long_turn
-  name: long turn
+  - small_descent
+  name: small descent 6
+  irregularities: []
+  segment_id: ACLOUD_P6_RF10_sd06
   start: 2017-05-31 16:37:16
   end: 2017-05-31 16:46:54
+  levels: [1600, 200]
+  dropsondes: []
 - kinds:
   - radiation_square                  # square pattern? how do we call it?
   name: radiation square 1
@@ -195,13 +203,40 @@ segments:
   segment_id: ACLOUD_P6_RF10_rs01
   start: 2017-05-31 16:46:54
   end: 2017-05-31 18:15:48
-  levels: []
+  levels: [200]
   dropsondes: []
+  parts:
+  - kinds:
+    - low_level
+    name: radiation square 1 low level 1
+    irregularities: []
+    segment_id: ACLOUD_P6_RF10_rs01_ll01
+    start: 2017-05-31 16:46:54
+    end: 2017-05-31 16:50:44
+    levels: [200]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-05-31 16:50:44
+    end: 2017-05-31 16:51:40
+  - kinds:
+    - low_level
+    name: radiation square 1 low level 2
+    irregularities: []
+    segment_id: ACLOUD_P6_RF10_rs01_ll02
+    start: 2017-05-31 16:51:40
+    end: 2017-05-31 16:54:16
+    levels: [200]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-05-31 16:54:16
+    end: 2017-05-31 16:55:36
 - kinds:
   - small_ascent
-  name: small ascent 3
+  name: small ascent 4
   irregularities: []
-  segment_id: ACLOUD_P6_RF10_sa3
+  segment_id: ACLOUD_P6_RF10_sa4
   start: 2017-05-31 18:15:48
   end: 2017-05-31 18:18:41
   levels: [10000, 12000]
@@ -217,9 +252,9 @@ segments:
   dropsondes: []
 - kinds:
   - small_descent
-  name: small descent 6
+  name: small descent 7
   irregularities: []
-  segment_id: ACLOUD_P6_RF10_sd06
+  segment_id: ACLOUD_P6_RF10_sd07
   start: 2017-05-31 18:24:52
   end: 2017-05-31 18:29:37
   levels: [12000, 10000]
