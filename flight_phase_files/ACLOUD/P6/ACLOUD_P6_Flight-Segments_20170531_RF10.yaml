@@ -239,7 +239,7 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_ll03
     start: 2017-05-31 16:55:36
     end: 2017-05-31 16:58:36
-    levels: [200]
+    levels: [200, 1100, 3100, 5000]
   - kinds:
     - small_ascent
     name: radiation square 1 small ascent 1
@@ -247,7 +247,7 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs_01_sa1
     start: 2017-05-31 16:58:36
     end: 2017-05-31 17:00:55
-    levels: [200, 1200]
+    levels: [200, 1100]
   - kinds:
     - low_level
     name: radiation square 1 low level 4
@@ -255,7 +255,7 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_ll04
     start: 2017-05-31 17:00:55
     end: 2017-05-31 17:03:32
-    levels: [1200]
+    levels: [1100]
   - kinds:
     - short_turn
     name: short turn
@@ -302,7 +302,7 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs_01_sa2
     start: 2017-05-31 17:15:01
     end: 2017-05-31 17:18:14
-    levels: [1100, 3000]
+    levels: [1100, 3100]
   - kinds:
     - low_level
     name: radiation square 1 low level 8
@@ -310,7 +310,62 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_ll08
     start: 2017-05-31 17:18:14
     end: 2017-05-31 17:19:44
-    levels: [3000]
+    levels: [3100]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-05-31 17:19:44
+    end: 2017-05-31 17:20:38
+  - kinds:
+    - low_level
+    name: radiation square 1 low level 9
+    irregularities: []
+    segment_id: ACLOUD_P6_RF10_rs01_ll09
+    start: 2017-05-31 17:20:38
+    end: 2017-05-31 17:23:47
+    levels: [3100]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-05-31 17:23:47
+    end: 2017-05-31 17:24:23
+  - kinds:
+    - low_level
+    name: radiation square 1 low level 10
+    irregularities: []
+    segment_id: ACLOUD_P6_RF10_rs01_ll10
+    start: 2017-05-31 17:24:23
+    end: 2017-05-31 17:27:12
+    levels: [3100]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-05-31 17:27:12
+    end: 2017-05-31 17:28:00
+  - kinds:
+    - low_level
+    name: radiation square 1 low level 11
+    irregularities: []
+    segment_id: ACLOUD_P6_RF10_rs01_ll11
+    start: 2017-05-31 17:28:00
+    end: 2017-05-31 17:30:42
+    levels: [3100]
+  - kinds:
+    - small_ascent
+    name: radiation square 1 small ascent 3
+    irregularities: []
+    segment_id: ACLOUD_P6_RF10_rs_01_sa3
+    start: 2017-05-31 17:30:42
+    end: 2017-05-31 17:33:41
+    levels: [3100, 5000]
+  - kinds:
+    - mid_level
+    name: radiation square 1 mid level 1
+    irregularities: []
+    segment_id: ACLOUD_P6_RF10_rs01_md1
+    start: 2017-05-31 17:33:41
+    end: 2017-05-31 17:35:10
+    levels: [5000]
 - kinds:
   - small_ascent
   name: small ascent 4
