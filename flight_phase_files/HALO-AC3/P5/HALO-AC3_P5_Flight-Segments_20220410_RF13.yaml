@@ -55,7 +55,7 @@ segments:
   name: procedure turn
   start: 2022-04-10 10:52:45
   end: 2022-04-10 10:55:35
-- kinds:9700
+- kinds:
   - high_level
   name: high level 3
   irregularities: []
