@@ -1,0 +1,131 @@
+name: RF13
+mission: HALO-AC3
+platform: P5
+flight_id: HALO-AC3_P5_RF13
+contacts:
+- name: Marcus Klingebiel
+  email: marcus.klingebiel@uni-leipzig.de
+  tags:
+  - pi
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
+  tags:
+  - lc
+date: 2022-04-10
+flight_report: missing
+takeoff: 2022-04-10 09:15:09
+landing: 2022-04-10 14:10:53
+events: []
+remarks: []
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF13_ma
+  start: 2022-04-10 09:15:09
+  end: 2022-04-10 09:26:49
+  levels: [100, 9600]
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF13_hl01
+  start: 2022-04-10 09:26:50
+  end: 2022-04-10 10:00:30
+  levels: [9700]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-10 10:00:31
+  end: 2022-04-10 10:01:57
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF13_hl02
+  start: 2022-04-10 10:01:58
+  end: 2022-04-10 10:52:44
+  levels: [9700]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-04-10 10:52:45
+  end: 2022-04-10 10:55:35
+- kinds:9700
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF13_hl03
+  start: 2022-04-10 10:55:36
+  end: 2022-04-10 11:43:29
+  levels: [9700]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-04-10 11:43:30
+  end: 2022-04-10 11:47:46
+- kinds:
+  - high_level
+  name: high level 4
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF13_hl04
+  start: 2022-04-10 11:47:47
+  end: 2022-04-10 12:30:25
+  levels: [9700]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-04-10 12:30:26
+  end: 2022-04-10 12:32:41
+- kinds:
+  - high_level
+  name: high level 5
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF13_hl05
+  start: 2022-04-10 12:32:42
+  end: 2022-04-10 13:21:01
+  levels: [9700]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-10 13:21:02
+  end: 2022-04-10 13:21:52
+- kinds:
+  - high_level
+  name: high level 6
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF13_hl06
+  start: 2022-04-10 13:21:53
+  end: 2022-04-10 13:26:35
+  levels: [9700]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-10 13:26:36
+  end: 2022-04-10 13:27:03
+- kinds:
+  - high_level
+  name: high level 7
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF13_hl07
+  start: 2022-04-10 13:27:04
+  end: 2022-04-10 13:55:32
+  levels: [9700]
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF13_md
+  start: 2022-04-10 13:55:33
+  end: 2022-04-10 14:10:53
+  levels: [9700, 100]
+  dropsondes: []
