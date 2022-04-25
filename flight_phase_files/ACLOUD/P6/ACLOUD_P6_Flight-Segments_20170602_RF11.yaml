@@ -90,8 +90,8 @@ segments:
   levels: [2100, 3900]
   dropsondes: []
 - kinds:
-  - cirle
-  name: cirle
+  - circle
+  name: circle
   start: 2017-06-02 09:19:07
   end: 2017-06-02 09:24:52
 - kinds:
@@ -106,9 +106,9 @@ segments:
   parts:
   - kinds:
     - small_descent
-    name: sawtooth pattern 1 small descent 1
+    name: sawtooth pattern 1 descent 1
     irregularities: []
-    segment_id: ACLOUD_P6_RF11_st01_sd01
+    segment_id: ACLOUD_P6_RF11_st01_d01
     start: 2017-06-02 09:24:53
     end: 2017-06-02 09:39:39
     levels: [3200, 500]
@@ -119,9 +119,9 @@ segments:
     end: 2017-06-02 09:40:45
   - kinds:
     - small_ascent
-    name: sawtooth pattern 1 small ascent 1
+    name: sawtooth pattern 1 ascent 1
     irregularities: []
-    segment_id: ACLOUD_P6_RF11_st01_sa01
+    segment_id: ACLOUD_P6_RF11_st01_a01
     start: 2017-06-02 09:40:46
     end: 2017-06-02 09:50:07
     levels: [700, 2600]
@@ -132,9 +132,9 @@ segments:
     end: 2017-06-02 09:52:04
   - kinds:
     - small_descent
-    name: sawtooth pattern 1 small descent 2
+    name: sawtooth pattern 1 descent 2
     irregularities: []
-    segment_id: ACLOUD_P6_RF11_st01_sd02
+    segment_id: ACLOUD_P6_RF11_st01_d02
     start: 2017-06-02 09:52:05
     end: 2017-06-02 09:56:51
     levels: [2100, 1600]
@@ -157,39 +157,39 @@ segments:
   parts:
   - kinds:
     - small_descent
-    name: sawtooth pattern 2 small descent 1
+    name: sawtooth pattern 2 descent 1
     irregularities: []
-    segment_id: ACLOUD_P6_RF11_st02_sd01
+    segment_id: ACLOUD_P6_RF11_st02_d01
     start: 2017-06-02 09:57:28
     end: 2017-06-02 10:06:13
     levels: [1500, 700]
   - kinds:
     - small_ascent
-    name: sawtooth pattern 2 small ascent 1
+    name: sawtooth pattern 2 ascent 1
     irregularities: []
-    segment_id: ACLOUD_P6_RF11_st02_sa01
+    segment_id: ACLOUD_P6_RF11_st02_a01
     start: 2017-06-02 10:06:14
     end: 2017-06-02 10:12:22
     levels: [700, 2200]
   - kinds:
     - small_descent
-    name: sawtooth pattern 2 small descent 2
+    name: sawtooth pattern 2 descent 2
     irregularities: []
-    segment_id: ACLOUD_P6_RF11_st02_sd02
+    segment_id: ACLOUD_P6_RF11_st02_d02
     start: 2017-06-02 10:12:23
     end: 2017-06-02 10:23:32
     levels: [2200, 100]
   - kinds:
     - small_ascent
-    name: sawtooth pattern 2 small ascent 2
+    name: sawtooth pattern 2 ascent 2
     irregularities: []
-    segment_id: ACLOUD_P6_RF11_st02_sa02
+    segment_id: ACLOUD_P6_RF11_st02_a02
     start: 2017-06-02 10:23:33
     end: 2017-06-02 10:33:27
     levels: [100, 1900]
 - kinds:
-  - cirle
-  name: cirle
+  - circle
+  name: circle
   start: 2017-06-02 10:33:28
   end: 2017-06-02 10:37:43
 - kinds:
@@ -209,8 +209,119 @@ segments:
   segment_id: ACLOUD_P6_RF11_cr01
   start: 2017-06-02 10:42:48
   end: 2017-06-02 12:34:14
-  levels: []
+  levels: [200, 700, 900, 1200, 1700]
   dropsondes: []
+  parts:
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-02 10:42:48
+    end: 2017-06-02 10:50:08
+  - kinds:
+    - low_level
+    name: cross pattern 1 low level 1
+    irregularities: []
+    segment_id: ACLOUD_P6_RF11_cr01_ll01
+    start: 2017-06-02 10:50:09
+    end: 2017-06-02 10:56:51
+    levels: [200]
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-02 10:56:52
+    end: 2017-06-02 11:03:02
+  - kinds:
+    - low_level
+    name: cross pattern 1 low level 2
+    irregularities: []
+    segment_id: ACLOUD_P6_RF11_cr01_ll02
+    start: 2017-06-02 11:03:03
+    end: 2017-06-02 11:07:48
+    levels: [200]
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-02 11:07:49
+    end: 2017-06-02 11:19:25
+  - kinds:
+    - low_level
+    name: cross pattern 1 low level 3
+    irregularities: []
+    segment_id: ACLOUD_P6_RF11_cr01_ll03
+    start: 2017-06-02 11:19:26
+    end: 2017-06-02 11:25:44
+    levels: [700]
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-02 11:25:45
+    end: 2017-06-02 11:31:44
+  - kinds:
+    - low_level
+    name: cross pattern 1 low level 4
+    irregularities: []
+    segment_id: ACLOUD_P6_RF11_cr01_ll04
+    start: 2017-06-02 11:31:45
+    end: 2017-06-02 11:35:57
+    levels: [700]
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-02 11:35:58
+    end: 2017-06-02 11:44:34
+  - kinds:
+    - low_level
+    name: cross pattern 1 low level 5
+    irregularities: []
+    segment_id: ACLOUD_P6_RF11_cr01_ll05
+    start: 2017-06-02 11:44:35
+    end: 2017-06-02 11:50:59
+    levels: [900]
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-02 11:51:00
+    end: 2017-06-02 11:56:57
+  - kinds:
+    - low_level
+    name: cross pattern 1 low level 6
+    irregularities: []
+    segment_id: ACLOUD_P6_RF11_cr01_ll06
+    start: 2017-06-02 11:56:58
+    end: 2017-06-02 12:01:14
+    levels: [900]
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-02 12:01:15
+    end: 2017-06-02 12:09:31
+  - kinds:
+    - low_level
+    name: cross pattern 1 low level 7
+    irregularities:
+    - level variation
+    segment_id: ACLOUD_P6_RF11_cr01_ll07
+    start: 2017-06-02 12:09:32
+    end: 2017-06-02 12:16:19
+    levels: [1700]
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-02 12:16:20
+    end: 2017-06-02 12:22:50
+  - kinds:
+    - low_level
+    name: cross pattern 1 low level 8
+    irregularities: []
+    segment_id: ACLOUD_P6_RF11_cr01_ll08
+    start: 2017-06-02 12:22:51
+    end: 2017-06-02 12:28:16
+    levels: [1200]
+  - kinds:
+    - cross_pattern_turn
+    name: cross pattern turn
+    start: 2017-06-02 12:28:17
+    end: 2017-06-02 12:34:14
 - kinds:
   - low_level
   name: low level 4
@@ -289,10 +400,10 @@ segments:
   start: 2017-06-02 13:19:10
   end: 2017-06-02 13:19:28
 - kinds:
-  - small_ascent
-  name: small ascent 5
+  - medium_ascent
+  name: medium ascent 1
   irregularities: []
-  segment_id: ACLOUD_P6_RF11_sa05
+  segment_id: ACLOUD_P6_RF11_ma01
   start: 2017-06-02 13:19:29
   end: 2017-06-02 13:25:13
   levels: [1600, 5800]
@@ -307,10 +418,10 @@ segments:
   levels: [5800]
   dropsondes: []
 - kinds:
-  - small_ascent
-  name: small ascent 6
+  - medium_ascent
+  name: medium ascent 2
   irregularities: []
-  segment_id: ACLOUD_P6_RF11_sa06
+  segment_id: ACLOUD_P6_RF11_ma02
   start: 2017-06-02 13:29:21
   end: 2017-06-02 13:37:30
   levels: [5800, 11800]
