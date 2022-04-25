@@ -95,6 +95,124 @@ segments:
   start: 2017-06-02 09:19:07
   end: 2017-06-02 09:24:52
 - kinds:
+  - sawtooth_pattern
+  name: sawtooth pattern 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF11_st01
+  start: 2017-06-02 09:24:53
+  end: 2017-06-02 09:56:51
+  levels: [3200, 500]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-02 09:56:52
+  end: 2017-06-02 09:57:27
+- kinds:
+  - sawtooth_pattern
+  name: sawtooth pattern 2
+  irregularities: []
+  segment_id: ACLOUD_P6_RF11_st02
+  start: 2017-06-02 09:57:28
+  end: 2017-06-02 10:33:27
+  levels: [100, 2200]
+  dropsondes: []
+- kinds:
+  - cirle
+  name: cirle
+  start: 2017-06-02 10:33:28
+  end: 2017-06-02 10:37:43
+- kinds:
+  - low_level
+  name: low level 3
+  irregularities: []
+  segment_id: ACLOUD_P6_RF11_ll03
+  start: 2017-06-02 10:37:44
+  end: 2017-06-02 10:42:47
+  levels: [400]
+  dropsondes: []
+- kinds:
+  - cross_pattern
+  name: cross pattern 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF11_cr01
+  start: 2017-06-02 10:42:48
+  end: 2017-06-02 12:34:14
+  levels: []
+  dropsondes: []
+- kinds:
+  - low_level
+  name: low level 4
+  irregularities: []
+  segment_id: ACLOUD_P6_RF11_ll04
+  start: 2017-06-02 12:34:15
+  end: 2017-06-02 12:50:08
+  levels: [1000]
+  dropsondes: []
+- kinds:
+  - small_ascent
+  name: small ascent 2
+  irregularities: []
+  segment_id: ACLOUD_P6_RF11_sa02
+  start: 2017-06-02 12:50:09
+  end: 2017-06-02 12:51:56
+  levels: [1000, 2200]
+  dropsondes: []
+- kinds:
+  - low_level
+  name: low level 5
+  irregularities: []
+  segment_id: ACLOUD_P6_RF11_ll05
+  start: 2017-06-02 12:51:57
+  end: 2017-06-02 12:57:29
+  levels: [2200]
+  dropsondes: []
+- kinds:
+  - small_descent
+  name: small descent 2
+  irregularities: []
+  segment_id: ACLOUD_P6_RF11_sd02
+  start: 2017-06-02 12:57:30
+  end: 2017-06-02 13:00:02
+  levels: [2200, 1000]
+  dropsondes: []
+- kinds:
+  - small_ascent
+  name: small ascent 3
+  irregularities: []
+  segment_id: ACLOUD_P6_RF11_sa03
+  start: 2017-06-02 13:00:03
+  end: 2017-06-02 13:01:25
+  levels: [1000, 1400]
+  dropsondes: []
+- kinds:
+  - low_level
+  name: low level 6
+  irregularities: []
+  segment_id: ACLOUD_P6_RF11_ll06
+  start: 2017-06-02 13:01:26
+  end: 2017-06-02 13:12:50
+  levels: [1400]
+  dropsondes: []
+- kinds:
+  - small_ascent
+  name: small ascent 4
+  irregularities: []
+  segment_id: ACLOUD_P6_RF11_sa04
+  start: 2017-06-02 13:12:51
+  end: 2017-06-02 13:13:14
+  levels: [1400, 1600]
+  dropsondes: []
+- kinds:
+  - low_level
+  name: low level 7
+  irregularities: []
+  segment_id: ACLOUD_P6_RF11_ll07
+  start: 2017-06-02 13:13:15
+  end: 2017-06-02 13:19:09
+  levels: [1600]
+  dropsondes: []
+- kinds:
   - major_descent
   name: major descent
   irregularities: []
