@@ -110,6 +110,8 @@ segments:
   end: 2017-06-02 09:57:27
 - kinds:
   - sawtooth_pattern
+  - a-train_underflight
+  - p5_co-location
   name: sawtooth pattern 2
   irregularities: []
   segment_id: ACLOUD_P6_RF11_st02
@@ -133,6 +135,7 @@ segments:
   dropsondes: []
 - kinds:
   - cross_pattern
+  - polarstern_overflight
   name: cross pattern 1
   irregularities: []
   segment_id: ACLOUD_P6_RF11_cr01
@@ -213,7 +216,50 @@ segments:
   levels: [1600]
   dropsondes: []
 - kinds:
+  - short_turn
+  name: short turn
+  start: 2017-06-02 13:19:10
+  end: 2017-06-02 13:19:28
+- kinds:
+  - small_ascent
+  name: small ascent 5
+  irregularities: []
+  segment_id: ACLOUD_P6_RF11_sa05
+  start: 2017-06-02 13:19:29
+  end: 2017-06-02 13:25:13
+  levels: [1600, 5800]
+  dropsondes: []
+- kinds:
+  - mid_level
+  name: mid level 2
+  irregularities: []
+  segment_id: ACLOUD_P6_RF11_ml02
+  start: 2017-06-02 13:25:14
+  end: 2017-06-02 13:29:20
+  levels: [5800]
+  dropsondes: []
+- kinds:
+  - small_ascent
+  name: small ascent 6
+  irregularities: []
+  segment_id: ACLOUD_P6_RF11_sa06
+  start: 2017-06-02 13:29:21
+  end: 2017-06-02 13:37:30
+  levels: [5800, 11800]
+  dropsondes: []
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF11_hl01
+  start: 2017-06-02 13:37:31
+  end: 2017-06-02 13:40:34
+  levels: [11800]
+  dropsondes: []
+- kinds:
   - major_descent
+  - sveabreen_glacier_overflight
   name: major descent
   irregularities: []
   segment_id: ACLOUD_P6_RF11_md
