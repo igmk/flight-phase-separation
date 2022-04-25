@@ -103,6 +103,41 @@ segments:
   end: 2017-06-02 09:56:51
   levels: [3200, 500]
   dropsondes: []
+  parts:
+  - kinds:
+    - small_descent
+    name: sawtooth pattern 1 small descent 1
+    irregularities: []
+    segment_id: ACLOUD_P6_RF11_st01_sd01
+    start: 2017-06-02 09:24:53
+    end: 2017-06-02 09:39:39
+    levels: [3200, 500]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-06-02 09:39:40
+    end: 2017-06-02 09:40:45
+  - kinds:
+    - small_ascent
+    name: sawtooth pattern 1 small ascent 1
+    irregularities: []
+    segment_id: ACLOUD_P6_RF11_st01_sa01
+    start: 2017-06-02 09:40:46
+    end: 2017-06-02 09:50:07
+    levels: [700, 2600]
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2017-06-02 09:50:08
+    end: 2017-06-02 09:52:04
+  - kinds:
+    - small_descent
+    name: sawtooth pattern 1 small descent 2
+    irregularities: []
+    segment_id: ACLOUD_P6_RF11_st01_sd02
+    start: 2017-06-02 09:52:05
+    end: 2017-06-02 09:56:51
+    levels: [2100, 1600]
 - kinds:
   - short_turn
   name: short turn
@@ -119,6 +154,39 @@ segments:
   end: 2017-06-02 10:33:27
   levels: [100, 2200]
   dropsondes: []
+  parts:
+  - kinds:
+    - small_descent
+    name: sawtooth pattern 2 small descent 1
+    irregularities: []
+    segment_id: ACLOUD_P6_RF11_st02_sd01
+    start: 2017-06-02 09:57:28
+    end: 2017-06-02 10:06:13
+    levels: [1500, 700]
+  - kinds:
+    - small_ascent
+    name: sawtooth pattern 2 small ascent 1
+    irregularities: []
+    segment_id: ACLOUD_P6_RF11_st02_sa01
+    start: 2017-06-02 10:06:14
+    end: 2017-06-02 10:12:22
+    levels: [700, 2200]
+  - kinds:
+    - small_descent
+    name: sawtooth pattern 2 small descent 2
+    irregularities: []
+    segment_id: ACLOUD_P6_RF11_st02_sd02
+    start: 2017-06-02 10:12:23
+    end: 2017-06-02 10:23:32
+    levels: [2200, 100]
+  - kinds:
+    - small_ascent
+    name: sawtooth pattern 2 small ascent 2
+    irregularities: []
+    segment_id: ACLOUD_P6_RF11_st02_sa02
+    start: 2017-06-02 10:23:33
+    end: 2017-06-02 10:33:27
+    levels: [100, 1900]
 - kinds:
   - cirle
   name: cirle
