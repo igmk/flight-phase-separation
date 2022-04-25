@@ -26,6 +26,80 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF11_ma
   start: 2017-06-02 08:27:35
+  end: 2017-06-02 08:33:40
+  levels: [100, 3900]
+  dropsondes: []
+- kinds:
+  - mid_level
+  - nya_overflight
+  - sveabreen_glacier_overflight
+  name: mid level 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF11_ml01
+  start: 2017-06-02 08:33:41
+  end: 2017-06-02 08:52:58
+  levels: [3900]
+  dropsondes: []
+- kinds:
+  - small_descent
+  name: small descent 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF11_sd01
+  start: 2017-06-02 08:52:59
+  end: 2017-06-02 08:56:38
+  levels: [3900, 1500]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2017-06-02 08:56:39
+  end: 2017-06-02 08:57:48
+- kinds:
+  - low_level
+  name: low level 1
+  irregularities:
+  - level varies between 1000 and 1500 feet
+  segment_id: ACLOUD_P6_RF11_ll01
+  start: 2017-06-02 08:57:49
+  end: 2017-06-02 09:05:40
+  levels: [1200]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2017-06-02 09:05:41
+  end: 2017-06-02 09:07:21
+- kinds:
+  - low_level
+  - nya_overflight
+  name: low level 2
+  irregularities:
+  - level varies between 1800 and 2200 feet
+  segment_id: ACLOUD_P6_RF11_ll02
+  start: 2017-06-02 09:07:22
+  end: 2017-06-02 09:15:03
+  levels: [2100]
+  dropsondes: []
+- kinds:
+  - small_ascent
+  name: small ascent 1
+  irregularities: []
+  segment_id: ACLOUD_P6_RF11_sa01
+  start: 2017-06-02 09:15:04
+  end: 2017-06-02 09:19:06
+  levels: [2100, 3900]
+  dropsondes: []
+- kinds:
+  - cirle
+  name: cirle
+  start: 2017-06-02 09:19:07
+  end: 2017-06-02 09:24:52
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: ACLOUD_P6_RF11_md
+  start: 2017-06-02 13:40:35
   end: 2017-06-02 14:04:50
-  levels: [100, 100]
+  levels: [11800, 100]
   dropsondes: []
