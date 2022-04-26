@@ -1,0 +1,20 @@
+name: RF09
+mission: HALO-AC3
+platform: HALO
+flight_id: HALO-AC3_HALO_RF09
+contacts:
+- name: Henning Dorff
+  email: henning.dorf@uni-hamburg.de
+  tags:
+  - pi
+- name: Johannes Röttenbacher
+  email: johannes.roettenbacher@uni-leipzig.de
+  tags:
+  - lc
+date: 2022-03-28
+flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=flight_report_halo_ac3_20220328_halo_rf09.pdf
+takeoff: 2022-03-28 08:38:36
+landing: 2022-03-28 16:06:06
+events: []
+remarks: []
+segments:

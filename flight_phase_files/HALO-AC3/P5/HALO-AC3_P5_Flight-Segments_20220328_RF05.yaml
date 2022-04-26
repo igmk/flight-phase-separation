@@ -1,0 +1,189 @@
+name: RF05
+mission: HALO-AC3
+platform: P5
+flight_id: HALO-AC3_P5_RF05
+contacts:
+- name: 
+  email: 
+  tags:
+  - pi
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
+  tags:
+  - lc
+date: 2022-03-28
+flight_report: missing
+takeoff: 2022-03-28 12:26:20
+landing: 2022-03-28 16:56:09
+events:
+- Ny-Alesund overflight
+remarks: []
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF05_ma
+  start: 2022-03-28 12:26:20
+  end: 2022-03-28 12:38:31
+  levels: [100, 9200]
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF05_hl01
+  start: 2022-03-28 12:38:32
+  end: 2022-03-28 13:02:38
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-28 13:02:39
+  end: 2022-03-28 13:03:57
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF05_hl02
+  start: 2022-03-28 13:03:58
+  end: 2022-03-28 13:30:00
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - long_turn
+  name: long turn
+  start: 2022-03-28 13:30:01
+  end: 2022-03-28 13:34:35
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF05_hl03
+  start: 2022-03-28 13:34:36
+  end: 2022-03-28 13:59:11
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-28 13:59:12
+  end: 2022-03-28 14:00:52
+- kinds:
+  - high_level
+  name: high level 4
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF05_hl04
+  start: 2022-03-28 14:00:53
+  end: 2022-03-28 14:08:43
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-28 14:08:44
+  end: 2022-03-28 14:09:50
+- kinds:
+  - high_level
+  name: high level 5
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF05_hl05
+  start: 2022-03-28 14:09:51
+  end: 2022-03-28 14:39:31
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-28 14:39:32
+  end: 2022-03-28 14:40:05
+- kinds:
+  - high_level
+  name: high level 6
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF05_hl06
+  start: 2022-03-28 14:40:06
+  end: 2022-03-28 15:04:41
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-28 15:04:42
+  end: 2022-03-28 15:07:23
+- kinds:
+  - high_level
+  name: high level 7
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF05_hl07
+  start: 2022-03-28 15:07:24
+  end: 2022-03-28 15:34:02
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-28 15:34:03
+  end: 2022-03-28 15:34:33
+- kinds:
+  - high_level
+  name: high level 8
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF05_hl08
+  start: 2022-03-28 15:34:34
+  end: 2022-03-28 15:42:36
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-03-28 15:42:37
+  end: 2022-03-28 15:45:25
+- kinds:
+  - high_level
+  name: high level 9
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF05_hl09
+  start: 2022-03-28 15:45:26
+  end: 2022-03-28 16:08:11
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-28 16:08:12
+  end: 2022-03-28 16:08:45
+- kinds:
+  - high_level
+  name: high level 10
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF05_hl10
+  start: 2022-03-28 16:08:46
+  end: 2022-03-28 16:29:00
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-28 16:29:01
+  end: 2022-03-28 16:30:37
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 11
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF05_hl11
+  start: 2022-03-28 16:30:38
+  end: 2022-03-28 16:36:14
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF05_md
+  start: 2022-03-28 16:36:15
+  end: 2022-03-28 16:56:09
+  levels: [10100, 100]
+  dropsondes: []

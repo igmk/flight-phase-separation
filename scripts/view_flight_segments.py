@@ -183,9 +183,10 @@ if __name__ == '__main__':
     #%% plot time series
     print('plot time series')
     
-    fig, axes = plt.subplots(8, 1, figsize=(9, 9), sharex=True, constrained_layout=True)
+    fig, axes = plt.subplots(8, 1, figsize=(9, 9), sharex=True, gridspec_kw=dict(hspace=0, top=0.98, right=1))
     
-    fig.suptitle(flight['mission']+', '+flight['name']+', '+flight['platform']+', '+flight['date'])
+    axes[0].annotate(flight['mission']+', '+flight['name']+', '+flight['platform']+', '+flight['date'],
+                     xy=(0.5, 1), xycoords='axes fraction', ha='center', va='bottom', fontsize=7)
     
     kwargs = dict(linewidths=0, c='k', s=1)
     ds_kwargs = dict(linewidths=0, c='r', s=1)
@@ -274,15 +275,15 @@ if __name__ == '__main__':
                 ax.axvline(start, color='blue', alpha=0.5)
                 ax.axvline(end, color='green', alpha=0.5, linestyle='--')
                 
-                if i_ax == 0:
+                if i_ax == len(axes)-1:
                     
                     if 'segment_id' in flight_segment.keys():
                         print('plot segment id %s'%flight_segment['segment_id'])
                     else:
                         print('plot segment id ???')
                     
-                    ax.annotate('start: '+name, xy=(start, 1), va='bottom', ha='left', xycoords=('data', 'axes fraction'), fontsize=8, rotation=90, color='blue')
-                    ax.annotate('end: '+name, xy=(end, 1), va='bottom', ha='right', xycoords=('data', 'axes fraction'), fontsize=8, rotation=90, color='green')
+                    ax.annotate('s: '+name, xy=(start, 0), va='top', ha='left', xycoords=('data', 'axes fraction'), fontsize=6, rotation=90, color='blue')
+                    ax.annotate('e: '+name, xy=(end, 0), va='top', ha='right', xycoords=('data', 'axes fraction'), fontsize=6, rotation=90, color='green')
     
             # add parts, if they exist for this flight segment
             if 'parts' in list(flight_segment.keys()):
@@ -304,14 +305,14 @@ if __name__ == '__main__':
                         ax.axvline(start, color='blue', alpha=0.5)
                         ax.axvline(end, color='green', alpha=0.5, linestyle='--')
                         
-                        if i_ax == 0:
+                        if i_ax == len(axes)-1:
                             
                             if 'segment_id' in part.keys():
                                 print('plot segment id %s'%part['segment_id'])
                             else:
                                 print('plot segment id ???')    
                         
-                            ax.annotate('start: '+name, xy=(start, 1), va='bottom', ha='left', xycoords=('data', 'axes fraction'), fontsize=6, rotation=90, color='blue')
-                            ax.annotate('end: '+name, xy=(end, 1), va='bottom', ha='right', xycoords=('data', 'axes fraction'), fontsize=6, rotation=90, color='green')
+                            ax.annotate('s: '+name, xy=(start, 0), va='bottom', ha='left', xycoords=('data', 'axes fraction'), fontsize=5, rotation=90, color='blue')
+                            ax.annotate('e: '+name, xy=(end, 0), va='bottom', ha='right', xycoords=('data', 'axes fraction'), fontsize=5, rotation=90, color='green')
     
     plt.show()
