@@ -75,6 +75,16 @@ segments:
   irregularities: []
   segment_id: HALO-AC3_P5_RF01_hl04
   start: 2022-03-20 12:41:23
+  end: 2022-03-20 13:02:05
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - high_level
+  - noseboom_calibration
+  name: high level 5
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF01_hl05
+  start: 2022-03-20 13:02:06
   end: 2022-03-20 13:10:35
   levels: [9200]
   dropsondes: []
@@ -82,13 +92,14 @@ segments:
   - procedure_turn
   name: procedure turn
   start: 2022-03-20 13:10:36
-  end: 2022-03-20 13:15:50
+  end: 2022-03-20 13:14:51
 - kinds:
   - high_level
-  name: high level 5
+  - noseboom_calibration
+  name: high level 6
   irregularities: []
-  segment_id: HALO-AC3_P5_RF01_hl05
-  start: 2022-03-20 13:15:51
+  segment_id: HALO-AC3_P5_RF01_hl06
+  start: 2022-03-20 13:14:52
   end: 2022-03-20 13:19:42
   levels: [9200]
   dropsondes: []
@@ -99,9 +110,9 @@ segments:
   end: 2022-03-20 13:24:29
 - kinds:
   - high_level
-  name: high level 6
+  name: high level 7
   irregularities: []
-  segment_id: HALO-AC3_P5_RF01_hl06
+  segment_id: HALO-AC3_P5_RF01_hl07
   start: 2022-03-20 13:24:30
   end: 2022-03-20 13:32:01
   levels: [9200]
@@ -113,9 +124,9 @@ segments:
   end: 2022-03-20 13:35:18
 - kinds:
   - high_level
-  name: high level 7
+  name: high level 8
   irregularities: []
-  segment_id: HALO-AC3_P5_RF01_hl07
+  segment_id: HALO-AC3_P5_RF01_hl08
   start: 2022-03-20 13:35:19
   end: 2022-03-20 13:50:46
   levels: [9200]
@@ -127,9 +138,9 @@ segments:
   end: 2022-03-20 13:54:40
 - kinds:
   - high_level
-  name: high level 8
+  name: high level 9
   irregularities: []
-  segment_id: HALO-AC3_P5_RF01_hl08
+  segment_id: HALO-AC3_P5_RF01_hl09
   start: 2022-03-20 13:54:41
   end: 2022-03-20 14:10:08
   levels: [9300]
@@ -141,9 +152,9 @@ segments:
   end: 2022-03-20 14:11:02
 - kinds:
   - high_level
-  name: high level 9
+  name: high level 10
   irregularities: []
-  segment_id: HALO-AC3_P5_RF01_hl09
+  segment_id: HALO-AC3_P5_RF01_hl10
   start: 2022-03-20 14:11:03
   end: 2022-03-20 14:30:28
   levels: [9300]
@@ -155,9 +166,9 @@ segments:
   end: 2022-03-20 14:31:42
 - kinds:
   - high_level
-  name: high level 10
+  name: high level 11
   irregularities: []
-  segment_id: HALO-AC3_P5_RF01_hl10
+  segment_id: HALO-AC3_P5_RF01_hl11
   start: 2022-03-20 14:31:43
   end: 2022-03-20 14:40:43
   levels: [9200]
@@ -169,9 +180,9 @@ segments:
   end: 2022-03-20 14:42:59
 - kinds:
   - high_level
-  name: high level 11
+  name: high level 12
   irregularities: []
-  segment_id: HALO-AC3_P5_RF01_hl11
+  segment_id: HALO-AC3_P5_RF01_hl12
   start: 2022-03-20 14:43:00
   end: 2022-03-20 14:58:00
   levels: [9300]
@@ -183,9 +194,9 @@ segments:
   end: 2022-03-20 14:59:31
 - kinds:
   - high_level
-  name: high level 12
+  name: high level 13
   irregularities: []
-  segment_id: HALO-AC3_P5_RF01_hl12
+  segment_id: HALO-AC3_P5_RF01_hl13
   start: 2022-03-20 14:59:32
   end: 2022-03-20 15:11:50
   levels: [9300]
@@ -197,9 +208,9 @@ segments:
   end: 2022-03-20 15:13:05
 - kinds:
   - high_level
-  name: high level 13
+  name: high level 14
   irregularities: []
-  segment_id: HALO-AC3_P5_RF01_hl13
+  segment_id: HALO-AC3_P5_RF01_hl14
   start: 2022-03-20 15:13:06
   end: 2022-03-20 15:15:19
   levels: [9400]
