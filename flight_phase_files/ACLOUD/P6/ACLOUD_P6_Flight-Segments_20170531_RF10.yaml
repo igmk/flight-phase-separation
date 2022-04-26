@@ -204,8 +204,7 @@ segments:
   start: 2017-05-31 16:46:55
   end: 2017-05-31 18:15:48
   levels: [200, 1100, 3100, 5000, 7000, 10000]
-  dropsondes:
-  - ACLOUD_P6_RF10_DS01
+  dropsondes: []
   parts:
   - kinds:
     - low_level
@@ -540,8 +539,7 @@ segments:
   start: 2017-05-31 18:18:42
   end: 2017-05-31 18:24:52
   levels: [12000]
-  dropsondes:
-  - ACLOUD_P6_RF10_DS02
+  dropsondes: []
 - kinds:
   - small_descent
   name: small descent 7
