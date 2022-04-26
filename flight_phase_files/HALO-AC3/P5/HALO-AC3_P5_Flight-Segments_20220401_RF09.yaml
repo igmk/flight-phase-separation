@@ -1,0 +1,190 @@
+name: RF09
+mission: HALO-AC3
+platform: P5
+flight_id: HALO-AC3_P5_RF09
+contacts:
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+  - pi
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
+  tags:
+  - lc
+date: 2022-04-01
+flight_report: missing
+takeoff: 2022-04-01 09:08:13
+landing: 2022-04-01 14:16:26
+events:
+- Ny-Alesund overflight
+remarks: []
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF09_ma
+  start: 2022-04-01 09:08:13
+  end: 2022-04-01 09:18:45
+  levels: [100, 9000]
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF09_hl01
+  start: 2022-04-01 09:18:46
+  end: 2022-04-01 09:33:26
+  levels: [9100]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-01 09:33:27
+  end: 2022-04-01 09:33:44
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 2
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF09_hl02
+  start: 2022-04-01 09:33:45
+  end: 2022-04-01 09:42:27
+  levels: [9100]
+  dropsondes: []
+- kinds:
+  - circle
+  name: circle
+  start: 2022-04-01 09:42:28
+  end: 2022-04-01 09:48:40
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF09_hl03
+  start: 2022-04-01 09:48:41
+  end: 2022-04-01 10:37:59
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-04-01 10:38:00
+  end: 2022-04-01 10:42:43
+- kinds:
+  - high_level
+  name: high level 4
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF09_hl04
+  start: 2022-04-01 10:42:44
+  end: 2022-04-01 11:17:41
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-04-01 11:17:42
+  end: 2022-04-01 11:20:59
+- kinds:
+  - high_level
+  name: high level 5
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF09_hl05
+  start: 2022-04-01 11:21:00
+  end: 2022-04-01 11:50:23
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-04-01 11:50:24
+  end: 2022-04-01 11:54:57
+- kinds:
+  - high_level
+  name: high level 6
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF09_hl06
+  start: 2022-04-01 11:54:58
+  end: 2022-04-01 12:21:20
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-04-01 12:21:21
+  end: 2022-04-01 12:23:19
+- kinds:
+  - high_level
+  name: high level 7
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF09_hl07
+  start: 2022-04-01 12:23:20
+  end: 2022-04-01 12:48:31
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-04-01 12:48:32
+  end: 2022-04-01 12:52:32
+- kinds:
+  - high_level
+  name: high level 8
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF09_hl08
+  start: 2022-04-01 12:52:33
+  end: 2022-04-01 13:16:36
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-04-01 13:16:37
+  end: 2022-04-01 13:19:23
+- kinds:
+  - high_level
+  name: high level 9
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF09_hl09
+  start: 2022-04-01 13:19:24
+  end: 2022-04-01 13:25:14
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-04-01 13:25:15
+  end: 2022-04-01 13:28:20
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 10
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF09_hl10
+  start: 2022-04-01 13:28:21
+  end: 2022-04-01 13:52:50
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-01 13:52:51
+  end: 2022-04-01 13:53:33
+- kinds:
+  - high_level
+  name: high level 11
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF09_hl11
+  start: 2022-04-01 13:53:34
+  end: 2022-04-01 13:56:38
+  levels: [9200]
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF09_md
+  start: 2022-04-01 13:56:39
+  end: 2022-04-01 14:16:26
+  levels: [9300, 100]
+  dropsondes: []

@@ -1,0 +1,20 @@
+name: RF12
+mission: HALO-AC3
+platform: HALO
+flight_id: HALO-AC3_HALO_RF12
+contacts:
+- name: Veronika Pörtge
+  email: veronika.poertge@physik.uni-muenchen.de
+  tags:
+  - pi
+- name: Johannes Röttenbacher
+  email: johannes.roettenbacher@uni-leipzig.de
+  tags:
+  - lc
+date: 2022-04-01
+flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=flight_report_halo_ac3_20220401_halo_rf12.pdf
+takeoff: 2022-04-01 07:29:57
+landing: 2022-04-01 15:40:34
+events: []
+remarks: []
+segments:

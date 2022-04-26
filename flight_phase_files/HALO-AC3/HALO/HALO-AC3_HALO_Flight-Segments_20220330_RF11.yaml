@@ -1,0 +1,20 @@
+name: RF11
+mission: HALO-AC3
+platform: HALO
+flight_id: HALO-AC3_HALO_RF11
+contacts:
+- name: Roel Neggers
+  email: neggers@meteo.uni-koeln.de
+  tags:
+  - pi
+- name: Johannes Röttenbacher
+  email: johannes.roettenbacher@uni-leipzig.de
+  tags:
+  - lc
+date: 2022-03-30
+flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=flight_report_halo_ac3_20220330_halo_rf11.pdf
+takeoff: 2022-03-30 07:56:42
+landing: 2022-03-30 16:20:55
+events: []
+remarks: []
+segments:

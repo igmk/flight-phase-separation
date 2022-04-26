@@ -3,8 +3,12 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.backend_bases import MouseButton
-import xarray as xr
 import yaml
+import ac3airborne
+import os
+
+ac3cloud_username = os.environ['AC3_USER']
+ac3cloud_password = os.environ['AC3_PASSWORD']
 
 
 def plot_histograms(ds_gps, start, end):
@@ -14,7 +18,7 @@ def plot_histograms(ds_gps, start, end):
 
     # define steps/nbins of histograms
     steps_ft = 100
-    min_ft, max_ft = [0, 20000]
+    min_ft, max_ft = [0, 45000]
     bins_alt = np.arange(min_ft, max_ft+steps_ft, steps_ft)
     nbins_alt = 100
     steps_deg = 1
@@ -65,32 +69,28 @@ def plot_histograms(ds_gps, start, end):
 
 
 if __name__ == '__main__':
-
-    # # choose a flight
-    # campaign = 'ACLOUD'
-    # flight['number'] = 'RF14'
-    # flight['aircraft'] = 'P5'
-    # flight['date'] = '20170608'
-
+    
     # read file with flight settings
     with open('flight_settings.yaml') as f:
         flight = yaml.safe_load(f)
-
-    # read file with paths (set wdir to the current script location)
-    with open('paths.yaml') as f:
-        paths = yaml.safe_load(f)
-
-    # read gps data
-    file = paths['path_gps']+flight['campaign'].lower()+'/'+flight['aircraft'].lower()+'/gps_ins/'+flight['campaign']+'_polar'+flight['aircraft'][1]+'_'+flight['date']+'_'+flight['number']+'.nc'
-    ds_gps = xr.open_dataset(file)
-
+    
+    flight_id = flight['mission']+'_'+flight['platform']+'_'+flight['name']
+    
+    # read data
+    cat = ac3airborne.get_intake_catalog()
+    ds_gps = cat[flight['mission']][flight['platform']]['GPS_INS'][flight_id](user=ac3cloud_username,password=ac3cloud_password).to_dask()
+    
     # read flight segments of flight
-    file = '../flight_phase_files/'+flight['campaign']+'/'+flight['aircraft']+'/'+flight['campaign']+'_'+flight['aircraft']+'_Flight-Segments_'+flight['date']+'_'+flight['number']+'.yaml'
+    file = '../flight_phase_files/'+flight['mission']+'/'+flight['platform']+'/'+flight['mission']+'_'+flight['platform']+'_Flight-Segments_'+flight['date']+'_'+flight['name']+'.yaml'
     with open(file, 'r') as f:
         flight_segments = yaml.safe_load(f)
-
-    #%% plot histograms
-
+    
+    #%% unify data
+    if 'yaw' in list(ds_gps):
+        ds_gps = ds_gps.rename({'yaw': 'heading'})
+    
+    #%% plot histograms  
+      
     for i, flight_segment in enumerate(flight_segments['segments']):
 
         name = flight_segment['name']

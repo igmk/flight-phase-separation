@@ -4,12 +4,33 @@ import numpy as np
 import cartopy.crs as ccrs
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
-from glob import glob
 from matplotlib import cm
-import xarray as xr
 import yaml
-import sys
+import ac3airborne
+import os
 
+ac3cloud_username = os.environ['AC3_USER']
+ac3cloud_password = os.environ['AC3_PASSWORD']
+
+def distance(lat1, lon1, lat2, lon2):
+    """
+    Calculate distance in km between two geographic locations
+    """
+    
+    R = 6371  # Earth's radius
+    
+    dlat = np.deg2rad(lat2-lat1)
+    dlon = np.deg2rad(lon2-lon1)
+    
+    rlat1 = np.deg2rad(lat1)
+    rlat2 = np.deg2rad(lat2)
+    
+    # distance
+    a = np.sin(dlat/2) * np.sin(dlat/2) + np.cos(rlat1) * np.cos(rlat2) * np.sin(dlon/2) * np.sin(dlon/2) 
+    c = 2 * np.arctan2(np.sqrt(a), np.sqrt(1-a))
+    d = R * c
+    
+    return d
 
 if __name__ == '__main__':
 
@@ -17,25 +38,54 @@ if __name__ == '__main__':
     with open('flight_settings.yaml') as f:
         flight = yaml.safe_load(f)
     
-    # read file with paths
-    with open('paths.yaml') as f:
-        paths = yaml.safe_load(f)
+    flight_id = flight['mission']+'_'+flight['platform']+'_'+flight['name']
     
-    # read gps data
-    file = paths['path_gps']+flight['campaign'].lower()+'/'+flight['aircraft'].lower()+'/gps_ins/'+flight['campaign']+'_polar'+flight['aircraft'][1]+'_'+flight['date']+'_'+flight['number']+'.nc'
-    ds_gps = xr.open_dataset(file)
+    # read data
+    cat = ac3airborne.get_intake_catalog()
+    ds_gps = cat[flight['mission']][flight['platform']]['GPS_INS'][flight_id](
+        user=ac3cloud_username,password=ac3cloud_password).to_dask()
     
     # read flight segments of flight
-    file = '../flight_phase_files/'+flight['campaign']+'/'+flight['aircraft']+'/'+flight['campaign']+'_'+flight['aircraft']+'_Flight-Segments_'+flight['date']+'_'+flight['number']+'.yaml'
+    file = '../flight_phase_files/'+flight['mission']+'/'+flight['platform']+'/'+flight['mission']+'_'+flight['platform']+'_Flight-Segments_'+flight['date']+'_'+flight['name']+'.yaml'
+
     with open(file, 'r') as f:
         flight_segments = yaml.safe_load(f)
     
     # read dropsondes of flight
-    files = glob(paths['path_dropsonde']+flight['campaign'].lower()+'/dropsondes/'+flight['date'][:4]+'/'+flight['date'][4:6]+'/'+flight['date'][6:8]+'/*PQC.nc')
     dict_ds_dsd = {}  # dictionary of dropsondes
-    for file in files:
-        filename = file.split('/')[-1].split('_PQC')[0]
-        dict_ds_dsd[filename] = xr.open_dataset(file)
+    try:
+        cat_ds = cat[flight['mission']][flight['platform']]['DROPSONDES'][flight_id]
+        times = cat_ds.description.split(',')
+        for t in times: 
+            dict_ds_dsd[t] = cat_ds(user=ac3cloud_username,
+                                    password=ac3cloud_password, time=t).to_dask()
+    except KeyError:
+        print('No dropsondes found. Does intake catalog entry exist?')
+    
+    #%% unify data
+    # yaw angle names from -180 to 180 in 45 deg steps
+    if flight['platform'] == 'HALO':
+        yaw_names = ['W', 'SW', 'S', 'SE', 'E', 'NE', 'N', 'NW', 'W']
+        
+    else:
+        yaw_names = ['S', 'SW', 'W', 'NW', 'N', 'NE', 'E', 'SE', 'S']
+        
+    if 'yaw' in list(ds_gps):
+        ds_gps = ds_gps.rename({'yaw': 'heading'})
+    
+    # create variable for speed and set values to nan, if they do not exist
+    if 'gs' not in list(ds_gps):
+        d = distance(ds_gps.lat.values[1:], ds_gps.lon.values[1:], ds_gps.lat.values[:-1], ds_gps.lon.values[:-1])*1e3  # m
+        gs = d/((ds_gps.time.values[1:] - ds_gps.time.values[:-1])/np.timedelta64(1, 's'))
+        gs = np.append(gs, 0)
+        gs *= 1.94384  # m/s --> kn
+        ds_gps['gs'] = (('time'), gs)
+    
+    # calculate vertical speed from altitude
+    if 'vs' not in list(ds_gps):
+        vs = (ds_gps.alt.values[1:] - ds_gps.alt.values[:-1])/((ds_gps.time.values[1:] - ds_gps.time.values[:-1])/np.timedelta64(1, 's'))
+        vs = np.append(vs, 0)
+        ds_gps['vs'] = (('time'), vs)
     
     #%% plot track on map to get an overview
     print('plot track on map')
@@ -49,11 +99,14 @@ if __name__ == '__main__':
     # add places
     lon_n, lat_n = (11.922222, 78.925)     # coordinates Ny Alesund
     lon_l, lat_l = (15.633333, 78.216667)  # coordinates Longyearbyen
-
+    lon_k, lat_k = (20.326667, 67.822222)  # coordinates Kiruna
+    
     ax.scatter(lon_n, lat_n, marker='o', c='r', s=10, zorder=3, transform=data_crs, edgecolors='none')
     ax.annotate(text='NYA', xy=ax.projection.transform_point(lon_n, lat_n, data_crs))
     ax.scatter(lon_l, lat_l, marker='o', c='r', s=10, zorder=3, transform=data_crs, edgecolors='none')
     ax.annotate(text='LYR', xy=ax.projection.transform_point(lon_l, lat_l, data_crs), va='top', ha='center')
+    ax.scatter(lon_k, lat_k, marker='o', c='r', s=10, zorder=3, transform=data_crs, edgecolors='none')
+    ax.annotate(text='KIR', xy=ax.projection.transform_point(lon_k, lat_k, data_crs), va='top', ha='center')
     
     # plot flight in black
     kwargs = dict(s=4, color='k', linewidths=0, transform=data_crs, zorder=0)
@@ -129,9 +182,10 @@ if __name__ == '__main__':
     #%% plot time series
     print('plot time series')
     
-    fig, axes = plt.subplots(8, 1, figsize=(9, 9), sharex=True, constrained_layout=True)
+    fig, axes = plt.subplots(8, 1, figsize=(9, 9), sharex=True, gridspec_kw=dict(hspace=0, top=0.98, right=1))
     
-    fig.suptitle(flight['campaign']+', '+flight['number']+', '+flight['aircraft']+', '+flight['date'])
+    axes[0].annotate(flight['mission']+', '+flight['name']+', '+flight['platform']+', '+flight['date'],
+                     xy=(0.5, 1), xycoords='axes fraction', ha='center', va='bottom', fontsize=7)
     
     kwargs = dict(linewidths=0, c='k', s=1)
     ds_kwargs = dict(linewidths=0, c='r', s=1)
@@ -154,13 +208,13 @@ if __name__ == '__main__':
     # vertical speed
     axes[3].scatter(ds_gps.time, ds_gps.vs, **kwargs)
     axes[3].set_ylabel('vs [m/s]')
-    axes[3].set_ylim([-10, 10])
+    axes[3].set_ylim([-20, 20])
     axes[3].fill_between(x=ds_gps.time, y1=0, y2=ds_gps.vs, color='#9087ea', alpha=0.5, linewidth=0)
 
-    # vertical speed
+    # ground speed
     axes[4].scatter(ds_gps.time, ds_gps.gs, **kwargs)
     axes[4].set_ylabel('gs [kn]')
-    axes[4].set_ylim([0, 250])
+    axes[4].set_ylim([0, 500])
     
     # roll angle
     axes[5].scatter(ds_gps.time, ds_gps['roll'], **kwargs)
@@ -177,7 +231,7 @@ if __name__ == '__main__':
     axes[7].set_ylabel('head [dir]')
     axes[7].set_ylim([-180, 180])
     axes[7].set_yticks(np.arange(-180, 180+45, 45))
-    axes[7].set_yticklabels(['S', 'SW', 'W', 'NW', 'N', 'NE', 'E', 'SE', 'S'], fontsize=7)
+    axes[7].set_yticklabels(yaw_names, fontsize=7)
     
     # add dropsondes
     for ds_name, ds_dsd in dict_ds_dsd.items():
@@ -220,15 +274,15 @@ if __name__ == '__main__':
                 ax.axvline(start, color='blue', alpha=0.5)
                 ax.axvline(end, color='green', alpha=0.5, linestyle='--')
                 
-                if i_ax == 0:
+                if i_ax == len(axes)-1:
                     
                     if 'segment_id' in flight_segment.keys():
                         print('plot segment id %s'%flight_segment['segment_id'])
                     else:
                         print('plot segment id ???')
                     
-                    ax.annotate('start: '+name, xy=(start, 1), va='bottom', ha='left', xycoords=('data', 'axes fraction'), fontsize=8, rotation=90, color='blue')
-                    ax.annotate('end: '+name, xy=(end, 1), va='bottom', ha='right', xycoords=('data', 'axes fraction'), fontsize=8, rotation=90, color='green')
+                    ax.annotate('s: '+name, xy=(start, 0), va='top', ha='left', xycoords=('data', 'axes fraction'), fontsize=6, rotation=90, color='blue')
+                    ax.annotate('e: '+name, xy=(end, 0), va='top', ha='right', xycoords=('data', 'axes fraction'), fontsize=6, rotation=90, color='green')
     
             # add parts, if they exist for this flight segment
             if 'parts' in list(flight_segment.keys()):
@@ -250,14 +304,14 @@ if __name__ == '__main__':
                         ax.axvline(start, color='blue', alpha=0.5)
                         ax.axvline(end, color='green', alpha=0.5, linestyle='--')
                         
-                        if i_ax == 0:
+                        if i_ax == len(axes)-1:
                             
                             if 'segment_id' in part.keys():
                                 print('plot segment id %s'%part['segment_id'])
                             else:
                                 print('plot segment id ???')    
                         
-                            ax.annotate('start: '+name, xy=(start, 1), va='bottom', ha='left', xycoords=('data', 'axes fraction'), fontsize=6, rotation=90, color='blue')
-                            ax.annotate('end: '+name, xy=(end, 1), va='bottom', ha='right', xycoords=('data', 'axes fraction'), fontsize=6, rotation=90, color='green')
+                            ax.annotate('s: '+name, xy=(start, 0), va='bottom', ha='left', xycoords=('data', 'axes fraction'), fontsize=5, rotation=90, color='blue')
+                            ax.annotate('e: '+name, xy=(end, 0), va='bottom', ha='right', xycoords=('data', 'axes fraction'), fontsize=5, rotation=90, color='green')
     
     plt.show()

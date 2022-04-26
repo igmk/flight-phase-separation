@@ -1,0 +1,103 @@
+name: RF11
+mission: HALO-AC3
+platform: P5
+flight_id: HALO-AC3_P5_RF11
+contacts:
+- name: 
+  email: 
+  tags:
+  - pi
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
+  tags:
+  - lc
+date: 2022-04-05
+flight_report: missing
+takeoff: 2022-04-05 09:35:03
+landing: 2022-04-05 13:54:37
+events: []
+remarks: []
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF11_ma
+  start: 2022-04-05 09:35:03
+  end: 2022-04-05 10:17:13
+  levels: [100, 9400]
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF11_hl01
+  start: 2022-04-05 10:17:14
+  end: 2022-04-05 11:09:42
+  levels: [9500]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-04-05 11:09:43
+  end: 2022-04-05 11:13:36
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF11_hl02
+  start: 2022-04-05 11:13:37
+  end: 2022-04-05 11:52:20
+  levels: [9500]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-04-05 11:52:21
+  end: 2022-04-05 11:54:57
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF11_hl03
+  start: 2022-04-05 11:54:58
+  end: 2022-04-05 12:30:10
+  levels: [9500]
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2022-04-05 12:30:11
+  end: 2022-04-05 12:34:24
+- kinds:
+  - high_level
+  name: high level 4
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF11_hl04
+  start: 2022-04-05 12:34:25
+  end: 2022-04-05 13:14:23
+  levels: [9300]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-05 13:14:24
+  end: 2022-04-05 13:14:42
+- kinds:
+  - high_level
+  name: high level 5
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF11_hl05
+  start: 2022-04-05 13:14:43
+  end: 2022-04-05 13:37:30
+  levels: [9500]
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF11_md
+  start: 2022-04-05 13:37:31
+  end: 2022-04-05 13:54:37
+  levels: [9400, 100]
+  dropsondes: []
