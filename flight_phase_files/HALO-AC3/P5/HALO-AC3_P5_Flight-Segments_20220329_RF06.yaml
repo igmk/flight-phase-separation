@@ -3,8 +3,8 @@ mission: HALO-AC3
 platform: P5
 flight_id: HALO-AC3_P5_RF06
 contacts:
-- name: 
-  email: 
+- name: Christof Luepkes
+  email: christof.luepkes@awi.de
   tags:
   - pi
 - name: Nils Risse
@@ -12,7 +12,7 @@ contacts:
   tags:
   - lc
 date: 2022-03-29
-flight_report: missing
+flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=p5_flight_report_halo-ac3_20220329_rf06.pdf
 takeoff: 2022-03-29 08:15:27
 landing: 2022-03-29 09:14:44
 events: []

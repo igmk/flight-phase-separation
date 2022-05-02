@@ -3,8 +3,8 @@ mission: HALO-AC3
 platform: P5
 flight_id: HALO-AC3_P5_RF05
 contacts:
-- name: 
-  email: 
+- name: Maximilian Mahn
+  email: maximilian.maahn@uni-leipzig.de
   tags:
   - pi
 - name: Nils Risse
@@ -12,7 +12,7 @@ contacts:
   tags:
   - lc
 date: 2022-03-28
-flight_report: missing
+flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=p5_flight_report_halo-ac3_20220328_rf05.pdf
 takeoff: 2022-03-28 12:26:20
 landing: 2022-03-28 16:56:09
 events:
