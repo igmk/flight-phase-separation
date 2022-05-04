@@ -18,6 +18,9 @@ landing: 2022-03-30 16:02:14
 events:
 - Ny-Alesund overflight
 remarks: []
+co-location:
+  - HALO-AC3_P6_RF07
+  - HALO-AC3_HALO_RF11
 segments:
 - kinds:
   - major_ascent

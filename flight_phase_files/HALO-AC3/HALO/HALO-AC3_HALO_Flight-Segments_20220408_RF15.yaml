@@ -1,0 +1,20 @@
+name: RF15
+mission: HALO-AC3
+platform: HALO
+flight_id: HALO-AC3_HALO_RF15
+contacts:
+- name: Andreas Walbroel
+  email: a.walbroel@uni-koeln.de
+  tags:
+  - pi
+- name: Johannes Roettenbacher
+  email: johannes.roettenbacher@uni-leipzig.de
+  tags:
+  - lc
+date: 2022-04-08
+flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=flight_report_halo-ac3_20220408_halo_rf15.pdf
+takeoff: 2022-04-08 07:25:58
+landing: 2022-04-08 16:18:50
+events: []
+remarks: []
+segments: []

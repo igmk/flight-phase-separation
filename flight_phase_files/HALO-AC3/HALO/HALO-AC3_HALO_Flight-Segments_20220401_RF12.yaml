@@ -3,11 +3,11 @@ mission: HALO-AC3
 platform: HALO
 flight_id: HALO-AC3_HALO_RF12
 contacts:
-- name: Veronika Pörtge
+- name: Veronika Poertge
   email: veronika.poertge@physik.uni-muenchen.de
   tags:
   - pi
-- name: Johannes Röttenbacher
+- name: Johannes Roettenbacher
   email: johannes.roettenbacher@uni-leipzig.de
   tags:
   - lc

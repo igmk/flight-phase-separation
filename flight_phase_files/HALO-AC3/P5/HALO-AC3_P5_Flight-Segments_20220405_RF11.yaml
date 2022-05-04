@@ -17,6 +17,8 @@ takeoff: 2022-04-05 09:35:03
 landing: 2022-04-05 13:54:37
 events: []
 remarks: []
+co-location: 
+  - HALO-AC3_P6_RF10
 segments:
 - kinds:
   - major_ascent
