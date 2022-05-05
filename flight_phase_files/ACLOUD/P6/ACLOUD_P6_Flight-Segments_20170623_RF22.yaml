@@ -19,6 +19,7 @@ events:
 - joint flight with P5
 remarks:
 - Column over Ny-Alesund
+co-location: [ACLOUD_P5_RF22]
 segments:
 - kinds:
   - major_ascent

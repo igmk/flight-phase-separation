@@ -18,6 +18,7 @@ landing: 2017-06-26 10:39:50
 events: []
 remarks:
 - Calibration pattern for AIMMS-20
+co-location: []
 segments:
 - kinds:
   - major_ascent

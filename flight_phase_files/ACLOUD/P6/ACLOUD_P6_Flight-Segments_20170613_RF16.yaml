@@ -19,6 +19,7 @@ events:
 - joint flight with P5
 remarks:
 - Joint P5 / P6 calibration flight in multi layer clouds
+co-location: [ACLOUD_P5_RF16]
 segments:
 - kinds:
   - major_ascent

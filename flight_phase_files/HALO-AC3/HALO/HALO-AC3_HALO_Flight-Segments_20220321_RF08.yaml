@@ -17,6 +17,7 @@ takeoff: 2022-03-21 08:48:42
 landing: 2022-03-21 16:35:37
 events: []
 remarks: []
+co-location: []
 segments:
 - kinds:
   - major_ascent

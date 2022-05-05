@@ -19,6 +19,7 @@ events:
 - joint flight with P5
 remarks:
 - PS Meeting no8; Satellite overpass
+co-location: [ACLOUD_P5_RF18]
 segments:
 - kinds:
   - major_ascent

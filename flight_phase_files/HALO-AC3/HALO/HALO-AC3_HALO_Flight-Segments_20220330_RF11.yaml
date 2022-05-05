@@ -17,4 +17,7 @@ takeoff: 2022-03-30 07:56:42
 landing: 2022-03-30 16:20:55
 events: []
 remarks: []
+co-location:
+  - HALO-AC3_P5_RF08
+  - HALO-AC3_P6_RF07
 segments: []

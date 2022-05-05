@@ -19,6 +19,7 @@ events:
 - Joint flight between P5 and P6
 - Ny-Alesund overflight with cross pattern
 remarks: []
+co-location: [ACLOUD_P6_RF22]
 segments:
 - kinds:
   - major_ascent

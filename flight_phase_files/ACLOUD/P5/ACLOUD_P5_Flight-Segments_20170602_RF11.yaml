@@ -22,6 +22,7 @@ events:
 - A-train underflight
 remarks:
 - Low clouds in warm air over sea ice
+co-location: [ACLOUD_P6_RF11]
 segments:
 - kinds:
   - major_ascent

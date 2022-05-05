@@ -19,6 +19,7 @@ events:
 - Joint flight between P5 and P6
 - Instrument intercomparison between P5 and P6
 remarks: []
+co-location: [ACLOUD_P6_RF15]
 segments:
 - kinds:
   - major_ascent

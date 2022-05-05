@@ -18,6 +18,7 @@ landing: 2017-05-27 16:26:50
 events:
 - Joint flight between P5 and P6
 remarks: []
+co-location: [ACLOUD_P5_RF07]
 segments:
 - kinds:
   - major_ascent

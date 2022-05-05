@@ -20,6 +20,7 @@ events:
 - Polarstern overflight with racetrack pattern
 - Racetrack pattern over sea ice
 remarks: []
+co-location: [ACLOUD_P6_RF17]
 segments:
 - kinds:
   - major_ascent

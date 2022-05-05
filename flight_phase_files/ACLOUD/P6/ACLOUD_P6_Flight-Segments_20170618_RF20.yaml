@@ -19,6 +19,7 @@ events:
 - joint flight with P5
 remarks:
 - Clouds above sea ice and open water II
+co-location: [ACLOUD_P5_RF20]
 segments:
 - kinds:
   - major_ascent
