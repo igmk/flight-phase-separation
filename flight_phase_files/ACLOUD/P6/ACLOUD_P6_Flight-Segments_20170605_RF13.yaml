@@ -19,6 +19,7 @@ events:
 - joint flight with P5
 remarks:
 - PS Meeting no5; Low clouds in warm air over sea ice
+co-location: [ACLOUD_P5_RF13]
 segments:
 - kinds:
   - major_ascent

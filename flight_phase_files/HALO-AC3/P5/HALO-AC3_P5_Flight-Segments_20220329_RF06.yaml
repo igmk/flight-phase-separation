@@ -3,8 +3,8 @@ mission: HALO-AC3
 platform: P5
 flight_id: HALO-AC3_P5_RF06
 contacts:
-- name: 
-  email: 
+- name: Christof Luepkes
+  email: christof.luepkes@awi.de
   tags:
   - pi
 - name: Nils Risse
@@ -12,11 +12,12 @@ contacts:
   tags:
   - lc
 date: 2022-03-29
-flight_report: missing
+flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=p5_flight_report_halo-ac3_20220329_rf06.pdf
 takeoff: 2022-03-29 08:15:27
 landing: 2022-03-29 09:14:44
 events: []
 remarks: []
+co-location: []
 segments:
 - kinds:
   - major_ascent
@@ -24,29 +25,88 @@ segments:
   irregularities: []
   segment_id: HALO-AC3_P5_RF06_ma
   start: 2022-03-29 08:15:27
-  end: 2022-03-29 08:15:28
-  levels: [100, 9200]
+  end: 2022-03-29 08:19:59
+  levels: [100, 4600]
+  dropsondes: []
+- kinds:
+  - mid_level
+  name: mid level 1
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF06_ml01
+  start: 2022-03-29 08:20:00
+  end: 2022-03-29 08:42:17
+  levels: [4700]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-29 08:42:18
+  end: 2022-03-29 08:43:18
+- kinds:
+  - mid_level
+  name: mid level 2
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF06_ml02
+  start: 2022-03-29 08:43:19
+  end: 2022-03-29 08:45:35
+  levels: [4700]
+  dropsondes: []
+- kinds:
+  - small_ascent
+  name: small ascent 1
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF06_sa01
+  start: 2022-03-29 08:45:36
+  end: 2022-03-29 08:48:32
+  levels: [4700, 7000]
   dropsondes: []
 - kinds:
   - high_level
   name: high level 1
   irregularities: []
   segment_id: HALO-AC3_P5_RF06_hl01
-  start: 2022-03-29 08:15:29
-  end: 2022-03-29 08:15:30
-  levels: [9200]
+  start: 2022-03-29 08:48:33
+  end: 2022-03-29 08:51:16
+  levels: [6900]
+  dropsondes: []
+- kinds:
+  - small_ascent
+  name: small ascent 2
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF06_sa02
+  start: 2022-03-29 08:51:17
+  end: 2022-03-29 08:52:14
+  levels: [7000, 7800]
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF06_hl02
+  start: 2022-03-29 08:52:15
+  end: 2022-03-29 08:56:57
+  levels: [7800]
   dropsondes: []
 - kinds:
   - short_turn
   name: short turn
-  start: 2022-03-29 08:15:31
-  end: 2022-03-29 09:14:42
+  start: 2022-03-29 08:56:58
+  end: 2022-03-29 08:58:05
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: HALO-AC3_P5_RF06_hl03
+  start: 2022-03-29 08:58:06
+  end: 2022-03-29 09:01:33
+  levels: [7900]
+  dropsondes: []
 - kinds:
   - major_descent
   name: major descent
   irregularities: []
   segment_id: HALO-AC3_P5_RF06_md
-  start: 2022-03-29 09:14:43
+  start: 2022-03-29 09:01:34
   end: 2022-03-29 09:14:44
-  levels: [10100, 100]
+  levels: [7900, 100]
   dropsondes: []

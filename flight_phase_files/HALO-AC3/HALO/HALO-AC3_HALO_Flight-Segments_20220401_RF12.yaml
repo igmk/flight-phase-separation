@@ -3,11 +3,11 @@ mission: HALO-AC3
 platform: HALO
 flight_id: HALO-AC3_HALO_RF12
 contacts:
-- name: Veronika Pörtge
+- name: Veronika Poertge
   email: veronika.poertge@physik.uni-muenchen.de
   tags:
   - pi
-- name: Johannes Röttenbacher
+- name: Johannes Roettenbacher
   email: johannes.roettenbacher@uni-leipzig.de
   tags:
   - lc
@@ -17,4 +17,7 @@ takeoff: 2022-04-01 07:29:57
 landing: 2022-04-01 15:40:34
 events: []
 remarks: []
+co-location:
+  - HALO-AC3_P5_RF09
+  - HALO-AC3_P6_RF08
 segments: []

@@ -19,6 +19,7 @@ events:
 - Joint flight with P5
 remarks:
 - Thin low level clouds over sea ice
+co-location: [ACLOUD_P5_RF08]
 segments:
 - kinds:
   - major_ascent

@@ -20,6 +20,7 @@ events:
 - Stairstep pattern over open ocean
 remarks:
 - Dropsondes failed at 16:18 UTC, 16:24 UTC
+co-location: []
 segments:
 - kinds:
   - major_ascent

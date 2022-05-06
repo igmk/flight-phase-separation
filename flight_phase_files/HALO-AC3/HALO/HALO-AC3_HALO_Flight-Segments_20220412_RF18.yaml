@@ -1,0 +1,21 @@
+name: RF18
+mission: HALO-AC3
+platform: HALO
+flight_id: HALO-AC3_HALO_RF18
+contacts:
+- name: Geet George
+  email: geet.george@mpimet.mpg.de
+  tags:
+  - pi
+- name: Johannes Roettenbacher
+  email: johannes.roettenbacher@uni-leipzig.de
+  tags:
+  - lc
+date: 2022-04-12
+flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=flight_report_halo_ac3_20220412_halo_rf18.pdf
+takeoff: 2022-04-12 07:25:58
+landing: 2022-04-12 16:18:50
+events: []
+remarks: []
+co-location: []
+segments: []

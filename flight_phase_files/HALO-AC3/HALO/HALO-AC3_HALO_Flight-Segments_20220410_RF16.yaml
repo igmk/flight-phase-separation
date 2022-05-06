@@ -1,0 +1,23 @@
+name: RF16
+mission: HALO-AC3
+platform: HALO
+flight_id: HALO-AC3_HALO_RF16
+contacts:
+- name: Irina Gorodetskaya
+  email: irina.gorodetskaya@ua.pt
+  tags:
+  - pi
+- name: Johannes Roettenbacher
+  email: johannes.roettenbacher@uni-leipzig.de
+  tags:
+  - lc
+date: 2022-04-10
+flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=flight_report_halo_ac3_20220410_halo_rf16.pdf
+takeoff: 2022-04-10 07:25:58
+landing: 2022-04-10 16:18:50
+events: []
+remarks: []
+co-location:
+  - HALO-AC3_P5_RF13
+  - HALO-AC3_P6_RF13
+segments: []

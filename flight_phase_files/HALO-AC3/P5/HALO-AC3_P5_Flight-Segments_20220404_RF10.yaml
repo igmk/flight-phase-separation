@@ -7,16 +7,23 @@ contacts:
   email: mario.mech@uni-koeln.de
   tags:
   - pi
+- name: Sabrina Schnitt
+  email: s.schnitt@uni-koeln.de
+  tags:
+  - pi
 - name: Nils Risse
   email: n.risse@uni-koeln.de
   tags:
   - lc
 date: 2022-04-04
-flight_report: missing
+flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=flight_report_halo-ac3_20220404_polar5_rf10.pdf
 takeoff: 2022-04-04 10:06:40
 landing: 2022-04-04 14:22:56
 events: []
 remarks: []
+co-location: 
+  - HALO-AC3_P6_RF09
+  - HALO-AC3_HALO_RF13
 segments:
 - kinds:
   - major_ascent

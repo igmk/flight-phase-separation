@@ -1,0 +1,21 @@
+name: RF17
+mission: HALO-AC3
+platform: HALO
+flight_id: HALO-AC3_HALO_RF17
+contacts:
+- name: Johannes Roettenbacher
+  email: johannes.roettenbacher@uni-leipzig.de
+  tags:
+  - pi
+- name: Johannes Roettenbacher
+  email: johannes.roettenbacher@uni-leipzig.de
+  tags:
+  - lc
+date: 2022-04-11
+flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=flight_report_halo_ac3_20220411_halo_rf17.pdf
+takeoff: 2022-04-11 07:25:58
+landing: 2022-04-11 16:18:50
+events: []
+remarks: []
+co-location: []
+segments: []

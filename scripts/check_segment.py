@@ -83,6 +83,7 @@ class SegmentCatalog:
               'procedure_turn',
               'cross_pattern_turn',
               'circle',
+              'roll_maneuver',
               ]
     
     pattern = ['racetrack_pattern',
@@ -173,6 +174,7 @@ class SegmentCatalog:
                    'waiting pattern',
                    'cross pattern turn',
                    'circle',
+                   'roll_maneuver',
                    ]
     
     pattern_name = ['racetrack pattern',
@@ -231,6 +233,7 @@ class SegmentCatalog:
                     'long legs pattern turn',
                     'circle',
                     'instrument testing',
+                    'roll maneuver'
                     ]
     
     # short names (used in segment_id)
@@ -357,7 +360,8 @@ def main(flight, meta):
     assert type(meta['landing']) == datetime.datetime
     assert type(meta['events']) == list
     assert type(meta['remarks']) == list
-    
+    assert type(meta['co-location']) == list
+
     # make sure, that events is standardized
     for event in meta['events']:
         assert event in SegmentCatalog.events, 'Event "{}" not from list of possible events: {}'.format(event, SegmentCatalog.events)
@@ -368,7 +372,7 @@ def main(flight, meta):
         
     # flight segments
     segments = meta['segments']
-    
+
     # check if all the required attributes exist
     for i, segment in enumerate(segments):
 

@@ -11,6 +11,7 @@ takeoff: 2018-03-27 12:59:55
 landing: 2018-03-27 17:04:35
 events:
 remarks:
+co-location: []
 segments:
 - kinds:
   - major_ascend

@@ -20,6 +20,7 @@ events:
 - AIMMS-20 calibration
 remarks:
 - SMART not working
+co-location: [ACLOUD_P6_RF25]
 segments:
 - kinds:
   - major_ascent

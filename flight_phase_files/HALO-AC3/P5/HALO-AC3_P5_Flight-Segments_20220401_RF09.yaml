@@ -12,12 +12,15 @@ contacts:
   tags:
   - lc
 date: 2022-04-01
-flight_report: missing
+flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=flight_report_halo-ac3_20220401_polar5_rf09.pdf
 takeoff: 2022-04-01 09:08:13
 landing: 2022-04-01 14:16:26
 events:
 - Ny-Alesund overflight
 remarks: []
+co-location: 
+  - HALO-AC3_P6_RF08
+  - HALO-AC3_HALO_RF12
 segments:
 - kinds:
   - major_ascent
