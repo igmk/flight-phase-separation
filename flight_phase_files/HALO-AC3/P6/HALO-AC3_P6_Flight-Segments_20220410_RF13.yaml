@@ -1,0 +1,48 @@
+name: RF13
+mission: HALO-AC3
+platform: P6
+flight_id: HALO-AC3_P6_RF13
+contacts:
+- name: Manuel Moser
+  email: manuel.moser@dlr.de
+  tags:
+  - pi
+- name: Daria Paul
+  email: daria.paul@uni-koeln.de
+  tags:
+  - lc
+date: 2022-04-10
+flight_report: 
+takeoff: 2022-04-10 09:09:41
+landing: 2022-04-10 14:07:12
+events: []
+remarks: []
+co-located: [HALO-AC3_P5_RF13]
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF13_ma
+  start: 2022-04-10 09:09:41
+  end: 2022-04-10 09:22:12
+  levels: [100, 9600]
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF13_hl01
+  start: 2022-04-10 09:22:13
+  end: 2022-04-10 13:54:12
+  levels: [5600]
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF13_md
+  start: 2022-04-10 13:54:13
+  end: 2022-04-10 14:07:12
+  levels: []
+  dropsondes: []

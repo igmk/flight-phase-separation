@@ -1,0 +1,47 @@
+name: RF07
+mission: HALO-AC3
+platform: P6
+flight_id: HALO-AC3_P6_RF07
+contacts:
+- name: Manuel Moser
+  email: manuel.moser@dlr.de
+  tags:
+  - pi
+- name: Daria Paul
+  email: daria.paul@uni-koeln.de
+  tags:
+  - lc
+date: 2022-03-30
+flight_report: 
+takeoff: 2022-03-30 10:28:00
+landing: 2022-03-30 15:28:59
+events: []
+remarks: []
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF07_ma
+  start: 2022-03-30 10:28:00
+  end: 2022-03-30 10:40:55
+  levels: [100, 9600]
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF07_hl01
+  start: 2022-03-30 10:40:56
+  end: 2022-03-30 15:16:21
+  levels: [9600]
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF07_md
+  start: 2022-03-30 15:16:22
+  end: 2022-03-30 15:28:59
+  levels: [9600, 100]
+  dropsondes: []

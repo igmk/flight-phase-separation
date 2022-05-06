@@ -1,0 +1,48 @@
+name: RF09
+mission: HALO-AC3
+platform: P6
+flight_id: HALO-AC3_P6_RF09
+contacts:
+- name: Johannes Schneider
+  email:  johannes.schneider@mpic.de
+  tags:
+  - pi
+- name: Daria Paul
+  email: daria.paul@uni-koeln.de
+  tags:
+  - lc
+date: 2022-04-04
+flight_report: 
+takeoff: 2022-04-04 09:59:35
+landing: 2022-04-04 14:25:17
+events: []
+remarks: []
+co-located: [HALO-AC3_HALO_RF13, HALO-AC3_P5_RF10]
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF09_ma
+  start: 2022-04-04 09:59:35
+  end: 2022-04-04 10:11:23
+  levels: [100, 9000]
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF09_hl01
+  start: 2022-04-04 10:11:24
+  end: 2022-04-04 14:06:09
+  levels: [9000]
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF09_md
+  start: 2022-04-04 14:06:10
+  end: 2022-04-04 14:20:04
+  levels: [7500, 100]
+  dropsondes: []
