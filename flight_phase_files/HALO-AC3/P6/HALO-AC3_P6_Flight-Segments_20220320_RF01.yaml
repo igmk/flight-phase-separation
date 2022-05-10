@@ -17,7 +17,7 @@ takeoff: 2022-03-20 11:19:11
 landing: 2022-03-20 15:58:54
 events: []
 remarks: []
-co-located: [HALO-AC3_P5_RF01]
+co-location: [HALO-AC3_P5_RF01]
 segments:
 - kinds:
   - major_ascent
@@ -171,7 +171,7 @@ segments:
     levels: [200, 2200]
   - kinds:
     - mid_level
-    - procedure_turn
+#    - procedure_turn
     name: stairstep pattern 1 mid level 1
     irregularities: []
     segment_id: HALO-AC3_P6_RF01_ss01_ml01
@@ -359,7 +359,7 @@ segments:
     levels: [2000, 3200]
   - kinds:
     - mid_level
-    - procedure_turn
+#    - procedure_turn
     name: stairstep pattern 2 mid level 1
     irregularities: []
     segment_id: HALO-AC3_P6_RF01_ss02_ml02
@@ -400,7 +400,7 @@ segments:
     levels: [2000, 2400]  
   - kinds:
     - small_descent
-    - short_turn
+#    - short_turn
     name: sawtooth pattern 2 descent 2
     irregularities: []
     segment_id: HALO-AC3_P6_RF01_st02_d02
@@ -423,7 +423,8 @@ segments:
   segment_id: HALO-AC3_P6_RF01_la01
   start: 2022-03-20 15:20:12
   end: 2022-03-20 15:34:33
-  levels: [200, 12000]    
+  levels: [200, 12000]
+  dropsondes: []    
 - kinds:
   - high_level
   name: high level 2
@@ -432,7 +433,7 @@ segments:
   start: 2022-03-20 15:34:34
   end: 2022-03-20 15:40:46
   levels: [12000]   
-              
+  dropsondes: []             
 - kinds:
   - major_descent
   name: major descent
