@@ -6,20 +6,20 @@ contacts:
 - name: Johannes Schneider
   email: null
   tags:
-    - pi
+  - pi
 - name: Giancarlo Marrollo
   email: giancarlo.marrollo@uni-koeln.de
   tags:
-    - lc
+  - lc
 date: 2017-05-29
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=08_20170529_p6_acloud_flight_report.pdf
 takeoff: 2017-05-29 05:11:20
 landing: 2017-05-29 09:16:40
-events:
-- Joint flight with P5
+events: []
 remarks:
 - Thin low level clouds over sea ice
-co-location: [ACLOUD_P5_RF08]
+co-location:
+- ACLOUD_P5_RF08
 segments:
 - kinds:
   - major_ascent
@@ -27,8 +27,10 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF08_ma
   start: 2017-05-29 05:11:20
-  end: 2017-05-29 05:16:38
-  levels: [100, 4000]
+  end: 2017-05-29 05:16:37
+  levels:
+  - 100
+  - 4000
   dropsondes: []
 - kinds:
   - mid_level
@@ -36,22 +38,25 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF08_ml01
   start: 2017-05-29 05:16:38
-  end: 2017-05-29 05:28:34
-  levels: [4000]
+  end: 2017-05-29 05:28:33
+  levels:
+  - 4000
   dropsondes: []
 - kinds:
   - long_turn
   name: long turn
   start: 2017-05-29 05:28:34
-  end: 2017-05-29 05:30:23
+  end: 2017-05-29 05:30:22
 - kinds:
   - small_descent
   name: small descent 1
   irregularities: []
   segment_id: ACLOUD_P6_RF08_sd01
   start: 2017-05-29 05:30:23
-  end: 2017-05-29 05:35:00
-  levels: [4000, 1500]
+  end: 2017-05-29 05:34:59
+  levels:
+  - 4000
+  - 1500
   dropsondes: []
 - kinds:
   - low_level
@@ -59,8 +64,9 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF08_ll01
   start: 2017-05-29 05:35:00
-  end: 2017-05-29 05:40:41
-  levels: [1500]
+  end: 2017-05-29 05:40:40
+  levels:
+  - 1500
   dropsondes: []
 - kinds:
   - small_descent
@@ -68,8 +74,10 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF08_sd02
   start: 2017-05-29 05:40:41
-  end: 2017-05-29 05:41:55
-  levels: [1500, 900]
+  end: 2017-05-29 05:41:54
+  levels:
+  - 1500
+  - 900
   dropsondes: []
 - kinds:
   - low_level
@@ -77,8 +85,9 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF08_ll02
   start: 2017-05-29 05:41:55
-  end: 2017-05-29 05:43:14
-  levels: [900]
+  end: 2017-05-29 05:43:13
+  levels:
+  - 900
   dropsondes: []
 - kinds:
   - small_descent
@@ -86,8 +95,10 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF08_sd03
   start: 2017-05-29 05:43:14
-  end: 2017-05-29 05:44:38
-  levels: [900, 300]
+  end: 2017-05-29 05:44:37
+  levels:
+  - 900
+  - 300
   dropsondes: []
 - kinds:
   - low_level
@@ -95,8 +106,9 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF08_ll03
   start: 2017-05-29 05:44:38
-  end: 2017-05-29 05:49:37
-  levels: [300]
+  end: 2017-05-29 05:49:36
+  levels:
+  - 300
   dropsondes: []
 - kinds:
   - small_ascent
@@ -104,8 +116,10 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF08_sa01
   start: 2017-05-29 05:49:37
-  end: 2017-05-29 05:52:59
-  levels: [300, 1500]
+  end: 2017-05-29 05:52:58
+  levels:
+  - 300
+  - 1500
   dropsondes: []
 - kinds:
   - low_level
@@ -113,8 +127,9 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF08_ll04
   start: 2017-05-29 05:52:59
-  end: 2017-05-29 05:57:40
-  levels: [1500]
+  end: 2017-05-29 05:57:39
+  levels:
+  - 1500
   dropsondes: []
 - kinds:
   - small_ascent
@@ -122,8 +137,10 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF08_sa02
   start: 2017-05-29 05:57:40
-  end: 2017-05-29 06:00:29
-  levels: [1500, 3000]
+  end: 2017-05-29 06:00:28
+  levels:
+  - 1500
+  - 3000
   dropsondes: []
 - kinds:
   - low_level
@@ -131,22 +148,25 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF08_ll05
   start: 2017-05-29 06:00:29
-  end: 2017-05-29 06:06:17
-  levels: [3000]
+  end: 2017-05-29 06:06:16
+  levels:
+  - 3000
   dropsondes: []
 - kinds:
   - short_turn
   name: short turn
   start: 2017-05-29 06:06:17
-  end: 2017-05-29 06:07:20
+  end: 2017-05-29 06:07:19
 - kinds:
   - small_descent
   name: small descent 4
   irregularities: []
   segment_id: ACLOUD_P6_RF08_sd04
   start: 2017-05-29 06:07:20
-  end: 2017-05-29 06:12:49
-  levels: [3000, 300]
+  end: 2017-05-29 06:12:48
+  levels:
+  - 3000
+  - 300
   dropsondes: []
 - kinds:
   - low_level
@@ -154,22 +174,31 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF08_ll06
   start: 2017-05-29 06:12:49
-  end: 2017-05-29 06:17:06
-  levels: [300]
+  end: 2017-05-29 06:17:05
+  levels:
+  - 300
   dropsondes: []
 - kinds:
   - long_turn
   name: long turn
   start: 2017-05-29 06:17:06
-  end: 2017-05-29 06:21:26
+  end: 2017-05-29 06:21:25
 - kinds:
   - racetrack_pattern
   name: racetrack pattern 1
   irregularities: []
   segment_id: ACLOUD_P6_RF08_rt01
   start: 2017-05-29 06:21:26
-  end: 2017-05-29 07:41:18
-  levels: [300, 400, 600, 1100, 1300, 3000, 3300, 3600]
+  end: 2017-05-29 07:41:17
+  levels:
+  - 300
+  - 400
+  - 600
+  - 1100
+  - 1300
+  - 3000
+  - 3300
+  - 3600
   dropsondes: []
   parts:
   - kinds:
@@ -178,128 +207,152 @@ segments:
     irregularities: []
     segment_id: ACLOUD_P6_RF08_rt01_ll01
     start: 2017-05-29 06:21:26
-    end: 2017-05-29 06:27:22
-    levels: [300]
+    end: 2017-05-29 06:27:21
+    levels:
+    - 300
   - kinds:
     - small_ascent
     name: racetrack pattern 1 small ascent 1
     irregularities: []
     segment_id: ACLOUD_P6_RF08_rt01_sa01
     start: 2017-05-29 06:27:22
-    end: 2017-05-29 06:30:02
-    levels: [300, 400]
+    end: 2017-05-29 06:30:01
+    levels:
+    - 300
+    - 400
   - kinds:
     - low_level
     name: racetrack pattern 1 low level 2
     irregularities: []
     segment_id: ACLOUD_P6_RF08_rt01_ll02
     start: 2017-05-29 06:30:02
-    end: 2017-05-29 06:37:13
-    levels: [400]
+    end: 2017-05-29 06:37:12
+    levels:
+    - 400
   - kinds:
     - small_ascent
     name: racetrack pattern 1 small ascent 2
     irregularities: []
     segment_id: ACLOUD_P6_RF08_rt01_sa02
     start: 2017-05-29 06:37:13
-    end: 2017-05-29 06:41:16
-    levels: [400, 600]
+    end: 2017-05-29 06:41:15
+    levels:
+    - 400
+    - 600
   - kinds:
     - low_level
     name: racetrack pattern 1 low level 3
     irregularities: []
     segment_id: ACLOUD_P6_RF08_rt01_ll03
     start: 2017-05-29 06:41:16
-    end: 2017-05-29 06:48:53
-    levels: [600]
+    end: 2017-05-29 06:48:52
+    levels:
+    - 600
   - kinds:
     - small_ascent
     name: racetrack pattern 1 small ascent 3
     irregularities: []
     segment_id: ACLOUD_P6_RF08_rt01_sa03
     start: 2017-05-29 06:48:53
-    end: 2017-05-29 06:51:44
-    levels: [600, 1100]
+    end: 2017-05-29 06:51:43
+    levels:
+    - 600
+    - 1100
   - kinds:
     - low_level
     name: racetrack pattern 1 low level 4
     irregularities: []
     segment_id: ACLOUD_P6_RF08_rt01_ll04
     start: 2017-05-29 06:51:44
-    end: 2017-05-29 06:58:43
-    levels: [1100]
+    end: 2017-05-29 06:58:42
+    levels:
+    - 1100
   - kinds:
     - small_ascent
     name: racetrack pattern 1 small ascent 4
     irregularities: []
     segment_id: ACLOUD_P6_RF08_rt01_sa04
     start: 2017-05-29 06:58:43
-    end: 2017-05-29 07:02:57
-    levels: [1100, 1300]
+    end: 2017-05-29 07:02:56
+    levels:
+    - 1100
+    - 1300
   - kinds:
     - low_level
     name: racetrack pattern 1 low level 5
     irregularities: []
     segment_id: ACLOUD_P6_RF08_rt01_ll05
     start: 2017-05-29 07:02:57
-    end: 2017-05-29 07:10:12
-    levels: [1300]
+    end: 2017-05-29 07:10:11
+    levels:
+    - 1300
   - kinds:
     - small_ascent
     name: racetrack pattern 1 small ascent 5
     irregularities: []
     segment_id: ACLOUD_P6_RF08_rt01_sa05
     start: 2017-05-29 07:10:12
-    end: 2017-05-29 07:15:03
-    levels: [1300, 3000]
+    end: 2017-05-29 07:15:02
+    levels:
+    - 1300
+    - 3000
   - kinds:
     - low_level
     name: racetrack pattern 1 low level 6
     irregularities: []
     segment_id: ACLOUD_P6_RF08_rt01_ll06
     start: 2017-05-29 07:15:03
-    end: 2017-05-29 07:20:21
-    levels: [3000]
+    end: 2017-05-29 07:20:20
+    levels:
+    - 3000
   - kinds:
     - small_ascent
     name: racetrack pattern 1 small ascent 6
     irregularities: []
     segment_id: ACLOUD_P6_RF08_rt01_sa06
     start: 2017-05-29 07:20:21
-    end: 2017-05-29 07:24:22
-    levels: [3000, 3300]
+    end: 2017-05-29 07:24:21
+    levels:
+    - 3000
+    - 3300
   - kinds:
     - mid_level
     name: racetrack pattern 1 mid level 1
     irregularities: []
     segment_id: ACLOUD_P6_RF08_rt01_ml01
     start: 2017-05-29 07:24:22
-    end: 2017-05-29 07:31:51
-    levels: [3300]
+    end: 2017-05-29 07:31:50
+    levels:
+    - 3300
   - kinds:
     - small_ascent
     name: racetrack pattern 1 small ascent 7
     irregularities: []
     segment_id: ACLOUD_P6_RF08_rt01_sa07
     start: 2017-05-29 07:31:51
-    end: 2017-05-29 07:35:26
-    levels: [3300, 3600]
+    end: 2017-05-29 07:35:25
+    levels:
+    - 3300
+    - 3600
   - kinds:
     - mid_level
     name: racetrack pattern 1 mid level 2
     irregularities: []
     segment_id: ACLOUD_P6_RF08_rt01_ml02
     start: 2017-05-29 07:35:26
-    end: 2017-05-29 07:41:18
-    levels: [3600]
+    end: 2017-05-29 07:41:17
+    levels:
+    - 3600
 - kinds:
   - medium_ascent
   name: medium ascent 1
   irregularities: []
   segment_id: ACLOUD_P6_RF08_ma01
   start: 2017-05-29 07:41:18
-  end: 2017-05-29 07:50:18
-  levels: [3600, 10000]
+  end: 2017-05-29 07:50:17
+  levels:
+  - 3600
+  - 10000
   dropsondes: []
 - kinds:
   - high_level
@@ -308,8 +361,9 @@ segments:
   - a small curvature in the middle of the leg
   segment_id: ACLOUD_P6_RF08_hl01
   start: 2017-05-29 07:50:18
-  end: 2017-05-29 07:57:07
-  levels: [10000]
+  end: 2017-05-29 07:57:06
+  levels:
+  - 10000
   dropsondes: []
 - kinds:
   - small_ascent
@@ -317,8 +371,10 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF08_sa03
   start: 2017-05-29 07:57:07
-  end: 2017-05-29 08:00:07
-  levels: [10000, 12000]
+  end: 2017-05-29 08:00:06
+  levels:
+  - 10000
+  - 12000
   dropsondes: []
 - kinds:
   - high_level
@@ -326,8 +382,9 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF08_hl02
   start: 2017-05-29 08:00:07
-  end: 2017-05-29 08:05:29
-  levels: [12000]
+  end: 2017-05-29 08:05:28
+  levels:
+  - 12000
   dropsondes: []
 - kinds:
   - small_descent
@@ -335,8 +392,10 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF08_sd05
   start: 2017-05-29 08:05:29
-  end: 2017-05-29 08:10:23
-  levels: [12000, 9500]
+  end: 2017-05-29 08:10:22
+  levels:
+  - 12000
+  - 9500
   dropsondes: []
 - kinds:
   - high_level
@@ -344,8 +403,9 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF08_hl03
   start: 2017-05-29 08:10:23
-  end: 2017-05-29 08:17:03
-  levels: [9500]
+  end: 2017-05-29 08:17:02
+  levels:
+  - 9500
   dropsondes: []
 - kinds:
   - noseboom_calibration_pattern
@@ -354,296 +414,319 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF08_np01
   start: 2017-05-29 08:17:03
-  end: 2017-05-29 08:53:04
-  levels: [9500]
+  end: 2017-05-29 08:53:03
+  levels:
+  - 9500
   dropsondes: []
   parts:
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:17:03
-    end: 2017-05-29 08:17:50
+    end: 2017-05-29 08:17:49
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 1
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl01
     start: 2017-05-29 08:17:50
-    end: 2017-05-29 08:18:27
-    levels: [9500]
+    end: 2017-05-29 08:18:26
+    levels:
+    - 9500
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:18:27
-    end: 2017-05-29 08:19:11
+    end: 2017-05-29 08:19:10
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 2
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl02
     start: 2017-05-29 08:19:11
-    end: 2017-05-29 08:20:07
-    levels: [9500]
+    end: 2017-05-29 08:20:06
+    levels:
+    - 9500
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:20:07
-    end: 2017-05-29 08:20:54
+    end: 2017-05-29 08:20:53
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 3
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl03
     start: 2017-05-29 08:20:54
-    end: 2017-05-29 08:21:18
-    levels: [9500]
+    end: 2017-05-29 08:21:17
+    levels:
+    - 9500
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:21:18
-    end: 2017-05-29 08:22:14
+    end: 2017-05-29 08:22:13
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 4
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl04
     start: 2017-05-29 08:22:14
-    end: 2017-05-29 08:23:05
-    levels: [9500]
+    end: 2017-05-29 08:23:04
+    levels:
+    - 9500
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:23:05
-    end: 2017-05-29 08:23:45
+    end: 2017-05-29 08:23:44
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 5
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl05
     start: 2017-05-29 08:23:45
-    end: 2017-05-29 08:24:31
-    levels: [9500]
+    end: 2017-05-29 08:24:30
+    levels:
+    - 9500
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:24:31
-    end: 2017-05-29 08:25:33
+    end: 2017-05-29 08:25:32
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 6
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl06
     start: 2017-05-29 08:25:33
-    end: 2017-05-29 08:26:03
-    levels: [9500]
+    end: 2017-05-29 08:26:02
+    levels:
+    - 9500
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:26:03
-    end: 2017-05-29 08:26:56
+    end: 2017-05-29 08:26:55
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 7
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl07
     start: 2017-05-29 08:26:56
-    end: 2017-05-29 08:29:16
-    levels: [9500]
+    end: 2017-05-29 08:29:15
+    levels:
+    - 9500
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:29:16
-    end: 2017-05-29 08:30:06
+    end: 2017-05-29 08:30:05
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 8
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl08
     start: 2017-05-29 08:30:06
-    end: 2017-05-29 08:30:40
-    levels: [9500]
+    end: 2017-05-29 08:30:39
+    levels:
+    - 9500
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:30:40
-    end: 2017-05-29 08:31:24
+    end: 2017-05-29 08:31:23
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 9
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl09
     start: 2017-05-29 08:31:24
-    end: 2017-05-29 08:31:44
-    levels: [9500]
+    end: 2017-05-29 08:31:43
+    levels:
+    - 9500
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:31:44
-    end: 2017-05-29 08:32:34
+    end: 2017-05-29 08:32:33
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 10
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl10
     start: 2017-05-29 08:32:34
-    end: 2017-05-29 08:33:05
-    levels: [9500]
+    end: 2017-05-29 08:33:04
+    levels:
+    - 9500
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:33:05
-    end: 2017-05-29 08:33:56
+    end: 2017-05-29 08:33:55
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 11
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl11
     start: 2017-05-29 08:33:56
-    end: 2017-05-29 08:34:30
-    levels: [9500]
+    end: 2017-05-29 08:34:29
+    levels:
+    - 9500
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:34:30
-    end: 2017-05-29 08:35:29
+    end: 2017-05-29 08:35:28
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 12
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl12
     start: 2017-05-29 08:35:29
-    end: 2017-05-29 08:35:51
-    levels: [9500]
+    end: 2017-05-29 08:35:50
+    levels:
+    - 9500
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:35:51
-    end: 2017-05-29 08:36:38
+    end: 2017-05-29 08:36:37
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 13
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl13
     start: 2017-05-29 08:36:38
-    end: 2017-05-29 08:38:09
-    levels: [9500]
+    end: 2017-05-29 08:38:08
+    levels:
+    - 9500
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:38:09
-    end: 2017-05-29 08:38:47
+    end: 2017-05-29 08:38:46
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 14
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl14
     start: 2017-05-29 08:38:47
-    end: 2017-05-29 08:39:07
-    levels: [9500]
+    end: 2017-05-29 08:39:06
+    levels:
+    - 9500
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:39:07
-    end: 2017-05-29 08:40:54
+    end: 2017-05-29 08:40:53
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 15
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl15
     start: 2017-05-29 08:40:54
-    end: 2017-05-29 08:41:27
-    levels: [9500]
+    end: 2017-05-29 08:41:26
+    levels:
+    - 9500
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:41:27
-    end: 2017-05-29 08:42:18
+    end: 2017-05-29 08:42:17
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 16
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl16
     start: 2017-05-29 08:42:18
-    end: 2017-05-29 08:42:44
-    levels: [9500]
+    end: 2017-05-29 08:42:43
+    levels:
+    - 9500
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:42:44
-    end: 2017-05-29 08:43:36
+    end: 2017-05-29 08:43:35
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 17
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl17
     start: 2017-05-29 08:43:36
-    end: 2017-05-29 08:44:31
-    levels: [9500]
+    end: 2017-05-29 08:44:30
+    levels:
+    - 9500
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:44:31
-    end: 2017-05-29 08:45:30
+    end: 2017-05-29 08:45:29
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 18
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl18
     start: 2017-05-29 08:45:30
-    end: 2017-05-29 08:48:10
-    levels: [9500]
+    end: 2017-05-29 08:48:09
+    levels:
+    - 9500
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:48:10
-    end: 2017-05-29 08:48:50
+    end: 2017-05-29 08:48:49
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 19
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl19
     start: 2017-05-29 08:48:50
-    end: 2017-05-29 08:49:59
-    levels: [9500]
+    end: 2017-05-29 08:49:58
+    levels:
+    - 9500
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:49:59
-    end: 2017-05-29 08:50:34
+    end: 2017-05-29 08:50:33
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 20
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl20
     start: 2017-05-29 08:50:34
-    end: 2017-05-29 08:51:11
-    levels: [9500]
+    end: 2017-05-29 08:51:10
+    levels:
+    - 9500
   - kinds:
     - short_turn
     name: short turn
     start: 2017-05-29 08:51:11
-    end: 2017-05-29 08:51:52
+    end: 2017-05-29 08:51:51
   - kinds:
     - high_level
     name: noseboom calibration pattern 1 high level 21
     irregularities: []
     segment_id: ACLOUD_P6_RF08_np01_hl21
     start: 2017-05-29 08:51:52
-    end: 2017-05-29 08:53:04
-    levels: [9500]
+    end: 2017-05-29 08:53:03
+    levels:
+    - 9500
 - kinds:
   - short_turn
   name: short turn
   start: 2017-05-29 08:53:04
-  end: 2017-05-29 08:53:40
+  end: 2017-05-29 08:53:39
 - kinds:
   - high_level
   name: high level 4
   irregularities: []
   segment_id: ACLOUD_P6_RF08_hl04
   start: 2017-05-29 08:53:40
-  end: 2017-05-29 08:57:05
-  levels: [9500]
+  end: 2017-05-29 08:57:04
+  levels:
+  - 9500
   dropsondes: []
 - kinds:
   - medium_descent
@@ -651,8 +734,10 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF08_md01
   start: 2017-05-29 08:57:05
-  end: 2017-05-29 09:05:16
-  levels: [9500, 5000]
+  end: 2017-05-29 09:05:15
+  levels:
+  - 9500
+  - 5000
   dropsondes: []
 - kinds:
   - mid_level
@@ -660,8 +745,9 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF08_ml02
   start: 2017-05-29 09:05:16
-  end: 2017-05-29 09:09:23
-  levels: [5000]
+  end: 2017-05-29 09:09:22
+  levels:
+  - 5000
   dropsondes: []
 - kinds:
   - major_descent
@@ -670,5 +756,7 @@ segments:
   segment_id: ACLOUD_P6_RF08_md
   start: 2017-05-29 09:09:23
   end: 2017-05-29 09:16:40
-  levels: [5000, 100]
+  levels:
+  - 5000
+  - 100
   dropsondes: []
