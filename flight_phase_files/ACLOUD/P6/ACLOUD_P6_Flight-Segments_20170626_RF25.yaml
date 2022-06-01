@@ -15,8 +15,7 @@ date: 2017-06-26
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=25_20170626_p6_acloud_flight_report.pdf
 takeoff: 2017-06-26 12:33:05
 landing: 2017-06-26 14:48:20
-events:
-- Joint flight between P5 and P6
+events: []
 remarks: []
 co-location: [ACLOUD_P5_RF25]
 segments:

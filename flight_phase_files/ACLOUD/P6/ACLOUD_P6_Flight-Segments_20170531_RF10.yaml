@@ -15,8 +15,7 @@ date: 2017-05-31
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=10_20170531_p6_acloud_flight_report.pdf
 takeoff: 2017-05-31 14:59:20
 landing: 2017-05-31 19:02:45
-events:
-- joint flight with P5
+events: []
 remarks:
 - PS Meeting no2; Thin low clouds over sea ice
 co-location: [ACLOUD_P5_RF10]
@@ -198,7 +197,7 @@ segments:
   levels: [1600, 200]
   dropsondes: []
 - kinds:
-  - radiation_square                  # square pattern? how do we call it?
+  - radiation_square
   name: radiation square 1
   irregularities: []
   segment_id: ACLOUD_P6_RF10_rs01

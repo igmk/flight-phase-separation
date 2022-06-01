@@ -16,7 +16,6 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fet
 takeoff: 2017-06-09 08:00:35
 landing: 2017-06-09 09:21:25
 events:
-- Joint flight between P5 and P6
 - Instrument intercomparison between P5 and P6
 remarks: []
 co-location: [ACLOUD_P6_RF15]

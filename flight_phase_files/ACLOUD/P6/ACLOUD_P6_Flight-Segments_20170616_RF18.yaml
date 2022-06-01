@@ -15,8 +15,7 @@ date: 2017-06-16
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=18_20170616_p6_acloud_flight_report.pdf
 takeoff: 2017-06-16 04:40:40
 landing: 2017-06-16 10:31:15
-events:
-- joint flight with P5
+events: []
 remarks:
 - PS Meeting no8; Satellite overpass
 co-location: [ACLOUD_P5_RF18]

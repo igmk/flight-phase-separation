@@ -139,7 +139,7 @@ class SegmentCatalog:
                                   ],
              
              'radiation_square': ['short_turn',
-                                  'high_level', 
+                                  'high_level',
                                   ],
              
              'holding_pattern': ['high_level',
@@ -271,9 +271,6 @@ class SegmentCatalog:
               #'Test of instrumentation',  # Test flight in LYR
               #'Joint test flight with P6',
               'Instrument intercomparison between P5 and P6',
-
-              'Colocation with P6 at Polarstern',
-              'Joint flight between P5 and P6',
               
               'Ny-Alesund overflight',
               'Ny-Alesund overflight with cross pattern',
@@ -367,8 +364,8 @@ def main(flight, meta):
         assert event in SegmentCatalog.events, 'Event "{}" not from list of possible events: {}'.format(event, SegmentCatalog.events)
     
     # make sure that remarks is standardized
-    for remark in meta['remarks']:
-        assert remark in SegmentCatalog.remarks, 'Remark "{}" not from list of possible remarks: {}'.format(remark, SegmentCatalog.remarks)
+    #for remark in meta['remarks']:
+    #    assert remark in SegmentCatalog.remarks, 'Remark "{}" not from list of possible remarks: {}'.format(remark, SegmentCatalog.remarks)
         
     # flight segments
     segments = meta['segments']
@@ -607,7 +604,7 @@ def main(flight, meta):
 
 if __name__ == '__main__':
     
-    check_single = True
+    check_single = False  #True
     
     if check_single:
     
@@ -624,7 +621,7 @@ if __name__ == '__main__':
 
     else:
         
-        files = glob('../../flight_phase_files/*/*/*.yaml')
+        files = glob('../flight_phase_files/*/*/*.yaml')
         
         for file in files:
             
@@ -633,9 +630,9 @@ if __name__ == '__main__':
                 
             # extract flight info from filename
             info = file.split('/')[-1].split('.yaml')[0].split('_')
-            flight = {'campaign': info[0], 
-                      'number': info[4], 
-                      'aircraft': info[1], 
+            flight = {'mission': info[0], 
+                      'name': info[4], 
+                      'platform': info[1], 
                       'date': info[3]}
             
             main(flight, meta)

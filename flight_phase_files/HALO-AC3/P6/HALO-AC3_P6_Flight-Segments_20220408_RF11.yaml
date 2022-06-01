@@ -17,7 +17,8 @@ takeoff: 2022-04-08 09:40:16
 landing: 2022-04-08 14:56:41
 events: []
 remarks: []
-co-location: []
+co-location:
+- HALO-AC3_HALO_RF15
 segments:
 - kinds:
   - major_ascent

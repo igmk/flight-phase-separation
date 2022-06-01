@@ -15,8 +15,7 @@ date: 2017-06-02
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=11_20170602_p6_acloud_flight_report.pdf
 takeoff: 2017-06-02 08:27:35
 landing: 2017-06-02 14:04:50
-events:
-- joint flight with P5
+events: []
 remarks:
 - PS Meeting no3; Low clouds in warm air over sea ice
 co-location: [ACLOUD_P5_RF11]
