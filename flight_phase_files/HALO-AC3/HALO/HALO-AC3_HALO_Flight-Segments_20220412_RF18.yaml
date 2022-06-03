@@ -13,9 +13,279 @@ contacts:
   - lc
 date: 2022-04-12
 flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=flight_report_halo_ac3_20220412_halo_rf18.pdf
-takeoff: 2022-04-12 07:25:58
-landing: 2022-04-12 16:18:50
+takeoff: 2022-04-12 07:24:21
+landing: 2022-04-12 15:30:05
 events: []
 remarks: []
 co-location: []
-segments: []
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF18_ma
+  start: 2022-04-12 07:24:21
+  end: 2022-04-12 07:54:44
+  levels: [1500, 39500]
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF18_hl01
+  start: 2022-04-12 07:54:45
+  end: 2022-04-12 08:54:50
+  levels: [39500]
+  dropsondes: []
+- kinds:
+  - roll_maneuver
+  name: roll maneuver
+  start: 2022-04-12 08:54:51
+  end: 2022-04-12 09:09:36
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF18_hl02
+  start: 2022-04-12 09:09:37
+  end: 2022-04-12 09:27:25
+  levels: [39500]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-12 09:27:26
+  end: 2022-04-12 09:31:01
+- kinds:
+  - circle
+  name: circle 1
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF18_ci01
+  start: 2022-04-12 09:31:02
+  end: 2022-04-12 10:03:34
+  levels: [39500]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-12 10:03:35
+  end: 2022-04-12 10:05:07
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF18_hl03
+  start: 2022-04-12 10:05:08
+  end: 2022-04-12 11:03:18
+  levels: [37400]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-12 11:03:19
+  end: 2022-04-12 11:03:35
+- kinds:
+  - polygon_pattern
+  name: polygon pattern 1
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF18_pp01
+  start: 2022-04-12 11:03:36
+  end: 2022-04-12 11:40:34
+  levels: [37300]
+  dropsondes: []
+  parts:
+  - kinds:
+    - high_level
+    name: polygon pattern 1 leg 1
+    irregularities: []
+    segment_id: HALO-AC3_HALO_RF18_pp01_l01
+    start: 2022-04-12 11:03:36
+    end: 2022-04-12 11:07:35
+    levels: [37300]
+    dropsondes: []
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2022-04-12 11:07:36
+    end: 2022-04-12 11:09:26
+  - kinds:
+    - roll_maneuver
+    name: roll maneuver
+    start: 2022-04-12 11:09:27
+    end: 2022-04-12 11:10:05
+  - kinds:
+    - high_level
+    name: polygon pattern 1 leg 2
+    irregularities:
+    - roll maneuver during leg
+    segment_id: HALO-AC3_HALO_RF18_pp01_l02
+    start: 2022-04-12 11:10:06
+    end: 2022-04-12 11:13:26
+    levels: [37300]
+    dropsondes: []
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2022-04-12 11:13:27
+    end: 2022-04-12 11:15:45
+  - kinds:
+    - high_level
+    name: polygon pattern 1 leg 3
+    irregularities: []
+    segment_id: HALO-AC3_HALO_RF18_pp01_l03
+    start: 2022-04-12 11:15:46
+    end: 2022-04-12 11:18:42
+    levels: [37300]
+    dropsondes: []
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2022-04-12 11:18:43
+    end: 2022-04-12 11:21:17
+  - kinds:
+    - high_level
+    name: polygon pattern 1 leg 4
+    irregularities: []
+    segment_id: HALO-AC3_HALO_RF18_pp01_l04
+    start: 2022-04-12 11:21:18
+    end: 2022-04-12 11:25:42
+    levels: [37300]
+    dropsondes: []
+  - kinds:
+    - large_descent
+    name: polygon pattern 1 descent 1
+    irregularities:
+    - various roll manuvers and curves during descent
+    segment_id: HALO-AC3_HALO_RF18_pp01_d01
+    start: 2022-04-12 11:25:43
+    end: 2022-04-12 11:40:34
+    levels: [37300, 10200]
+    dropsondes: []
+- kinds:
+  - polygon_pattern
+  name: polygon pattern 2
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF18_pp02
+  start: 2022-04-12 11:40:35
+  end: 2022-04-12 12:15:45
+  levels: [10200]
+  dropsondes: []
+  parts:
+  - kinds:
+    - high_level
+    name: polygon pattern 2 leg 1
+    irregularities: []
+    segment_id: HALO-AC3_HALO_RF18_pp02_l01
+    start: 2022-04-12 11:40:35
+    end: 2022-04-12 11:45:53
+    levels: [10200]
+    dropsondes: []
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2022-04-12 11:45:54
+    end: 2022-04-12 11:47:25
+  - kinds:
+    - high_level
+    name: polygon pattern 2 leg 2
+    irregularities: []
+    segment_id: HALO-AC3_HALO_RF18_pp02_l02
+    start: 2022-04-12 11:47:26
+    end: 2022-04-12 11:55:52
+    levels: [10200]
+    dropsondes: []
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2022-04-12 11:55:53
+    end: 2022-04-12 11:57:11
+  - kinds:
+    - high_level
+    name: polygon pattern 2 leg 3
+    irregularities: []
+    segment_id: HALO-AC3_HALO_RF18_pp02_l03
+    start: 2022-04-12 11:57:12
+    end: 2022-04-12 12:05:07
+    levels: [10200]
+    dropsondes: []
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2022-04-12 12:05:08
+    end: 2022-04-12 12:06:17
+  - kinds:
+    - high_level
+    name: polygon pattern 2 leg 4
+    irregularities: []
+    segment_id: HALO-AC3_HALO_RF18_pp02_l04
+    start: 2022-04-12 12:06:18
+    end: 2022-04-12 12:15:45
+    levels: [10200]
+    dropsondes: []
+- kinds:
+  - large_ascent
+  - roll_maneuver
+  name: large ascent 1
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF18_la01
+  start: 2022-04-12 12:15:46
+  end: 2022-04-12 12:19:19
+  levels: [10200, 17700]
+  dropsondes: []
+- kinds:
+  - roll_maneuver
+  name: roll maneuver
+  start: 2022-04-12 12:19:20
+  end: 2022-04-12 12:21:55
+- kinds:
+  - large_ascent
+  - short_turn
+  name: large ascent 2
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF18_la02
+  start: 2022-04-12 12:21:56
+  end: 2022-04-12 12:30:36
+  levels: [17800, 33200]
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 4
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF18_hl04
+  start: 2022-04-12 12:30:37
+  end: 2022-04-12 12:44:36
+  levels: [33200]
+  dropsondes: []
+- kinds:
+  - medium_ascent
+  - short_turn
+  name: medium ascent 1
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF18_ma01
+  start: 2022-04-12 12:44:37
+  end: 2022-04-12 12:49:05
+  levels: [33200, 37400]
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 5
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF18_hl05
+  start: 2022-04-12 12:49:06
+  end: 2022-04-12 14:54:45
+  levels: [37400]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-12 14:54:46
+  end: 2022-04-12 14:55:17
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF18_md
+  start: 2022-04-12 14:55:18
+  end: 2022-04-12 15:30:05
+  levels: [37400, 1200]
+  dropsondes: []

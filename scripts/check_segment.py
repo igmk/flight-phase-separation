@@ -94,6 +94,7 @@ class SegmentCatalog:
                'radiation_square',
                'holding_pattern',
                'noseboom_calibration_pattern',
+               'polygon_pattern'
                ]
     
     # parts
@@ -149,6 +150,19 @@ class SegmentCatalog:
                                  '360_turn',
                                  ],
              
+             'polygon_pattern': ['low_level',
+                                 'mid_level',
+                                 'high_level',
+                                 'short_turn',
+                                 'small_ascent',
+                                 'small_descent',
+                                 'large_descent',
+                                 'medium_descent',
+                                 'medium_ascent',
+                                 'large_ascent',
+                                 'roll_maneuver',
+                                 ],
+             
              'noseboom_calibration_pattern': ['high_level', 
                                               'short_turn',
                                               ],
@@ -185,6 +199,7 @@ class SegmentCatalog:
                     'radiation square',
                     'holding pattern',
                     'noseboom calibration pattern',
+                    'polygon pattern'
                     ]
     
     # parts names
@@ -218,6 +233,11 @@ class SegmentCatalog:
                                      'short turn',
                                      '360 turn',
                                      ],
+
+                 'polygon_pattern': ['polygon pattern {} leg {}',
+                                     'procedure turn',
+                                     'short turn',  
+                                    ], 
                  
                  'noseboom_calibration_pattern': ['noseboom calibration pattern {} leg {}', 
                                                   'short turn',
@@ -257,6 +277,7 @@ class SegmentCatalog:
                    'sawtooth pattern': 'st',
                    'radiation square': 'rs',
                    'holding pattern': 'ho',
+                   'polygon pattern': 'pp',
                    'noseboom calibration pattern': 'np',
                    
                    # only used in parts
