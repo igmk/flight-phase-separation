@@ -90,8 +90,8 @@ segments:
   levels: [2100, 3900]
   dropsondes: []
 - kinds:
-  - circle
-  name: circle
+  - 360_turn
+  name: 360 turn
   start: 2017-06-02 09:19:07
   end: 2017-06-02 09:24:52
 - kinds:
@@ -188,8 +188,8 @@ segments:
     end: 2017-06-02 10:33:27
     levels: [100, 1900]
 - kinds:
-  - circle
-  name: circle
+  - 360_turn
+  name: 360 turn
   start: 2017-06-02 10:33:28
   end: 2017-06-02 10:37:43
 - kinds:

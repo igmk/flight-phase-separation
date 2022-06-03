@@ -134,7 +134,7 @@ segments:
   - large_descent
   name: large descent 1
   irregularities:
-  - circle during descent
+  - 360 turn during descent
   segment_id: MOSAiC-ACA_P5_RF11_ld01
   start: 2020-09-13 11:01:37
   end: 2020-09-13 11:18:29

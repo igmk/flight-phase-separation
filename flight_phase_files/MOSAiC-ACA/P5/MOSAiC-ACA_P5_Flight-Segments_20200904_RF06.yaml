@@ -426,7 +426,7 @@ segments:
     - high_level
     name: holding pattern 1 leg 2
     irregularities:
-    - Segment consists of various curves and a circle and is mostly not straight
+    - Segment consists of various curves and a 360 turn and is mostly not straight
     segment_id: MOSAiC-ACA_P5_RF06_ho01_l02
     start: 2020-09-04 16:13:19
     end: 2020-09-04 16:21:17

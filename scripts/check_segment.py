@@ -67,6 +67,7 @@ class SegmentCatalog:
                'medium_ascent',
                'medium_descent',
                'profiling',
+               'circle',
                'p6_co-location',
                'p5_co-location',
                'nya_overflight',
@@ -82,7 +83,7 @@ class SegmentCatalog:
               'long_turn',
               'procedure_turn',
               'cross_pattern_turn',
-              'circle',
+              '360_turn',
               'roll_maneuver',
               ]
     
@@ -145,7 +146,7 @@ class SegmentCatalog:
              'holding_pattern': ['high_level',
                                  'short_turn',
                                  'long_turn',
-                                 'circle',
+                                 '360_turn',
                                  ],
              
              'noseboom_calibration_pattern': ['high_level', 
@@ -165,15 +166,15 @@ class SegmentCatalog:
                     'small descent',
                     'medium ascent',
                     'medium descent',
+                    'circle',
                     'instrument testing',
                     ]
     
     curves_name = ['short turn',
                    'long turn',
                    'procedure turn',
-                   'waiting pattern',
                    'cross pattern turn',
-                   'circle',
+                   '360 turn',
                    'roll_maneuver',
                    ]
     
@@ -215,7 +216,7 @@ class SegmentCatalog:
                  
                  'holding_pattern': ['holding pattern {} leg {}',
                                      'short turn',
-                                     'circle',
+                                     '360 turn',
                                      ],
                  
                  'noseboom_calibration_pattern': ['noseboom calibration pattern {} leg {}', 
@@ -228,10 +229,9 @@ class SegmentCatalog:
                     'short turn',
                     'long turn',
                     'procedure turn',
-                    'waiting pattern',
                     'cross pattern turn',
                     'long legs pattern turn',
-                    'circle',
+                    '360 turn',
                     'instrument testing',
                     'roll maneuver'
                     ]
@@ -248,6 +248,7 @@ class SegmentCatalog:
                    'small descent': 'sd',
                    'medium ascent': 'ma',
                    'medium descent': 'md',
+                   'circle': 'ci',
                    'noseboom calibration': 'nc',
                    'instrument testing': 'it',
                    'racetrack pattern': 'rt',
@@ -604,7 +605,7 @@ def main(flight, meta):
 
 if __name__ == '__main__':
     
-    check_single = False  #True
+    check_single = True
     
     if check_single:
     

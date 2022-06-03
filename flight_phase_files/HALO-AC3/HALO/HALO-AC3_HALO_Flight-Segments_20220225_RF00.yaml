@@ -292,8 +292,8 @@ segments:
   start: 2022-02-25 10:19:31
   end: 2022-02-25 10:25:28
 - kinds:
-  - circle
-  name: circle
+  - 360_turn
+  name: 360 turn
   start: 2022-02-25 10:25:29
   end: 2022-02-25 10:40:31
 - kinds:

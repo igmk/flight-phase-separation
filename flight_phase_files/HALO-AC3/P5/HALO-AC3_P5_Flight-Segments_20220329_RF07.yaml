@@ -366,7 +366,7 @@ segments:
   - large_ascent
   name: large ascent 1
   irregularities: 
-  - four circles during ascent
+  - four 360 turns during ascent
   segment_id: HALO-AC3_P5_RF07_la01
   start: 2022-03-29 16:03:40
   end: 2022-03-29 16:16:30

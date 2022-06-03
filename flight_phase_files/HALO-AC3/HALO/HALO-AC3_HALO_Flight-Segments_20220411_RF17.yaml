@@ -13,8 +13,8 @@ contacts:
   - lc
 date: 2022-04-11
 flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=flight_report_halo_ac3_20220411_halo_rf17.pdf
-takeoff: 2022-04-11 07:25:58
-landing: 2022-04-11 16:18:50
+takeoff: 2022-04-11 07:55:49
+landing: 2022-04-11 15:55:42
 events: []
 remarks: []
 co-location: []
@@ -24,7 +24,7 @@ segments:
   name: major ascent
   irregularities: []
   segment_id: HALO-AC3_HALO_RF17_ma
-  start: 2022-04-11 07:25:58
+  start: 2022-04-11 07:55:49
   end: 2022-04-11 08:17:46
   levels: [1500, 35200]
   dropsondes: []
@@ -293,6 +293,6 @@ segments:
   irregularities: []
   segment_id: HALO-AC3_HALO_RF17_md
   start: 2022-04-11 15:22:16
-  end: 2022-04-11 16:18:50
+  end: 2022-04-11 15:55:42
   levels: [37300, 1600]
   dropsondes: []

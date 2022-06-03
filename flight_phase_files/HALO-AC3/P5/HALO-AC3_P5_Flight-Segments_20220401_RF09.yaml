@@ -56,8 +56,8 @@ segments:
   levels: [9100]
   dropsondes: []
 - kinds:
-  - circle
-  name: circle
+  - 360_turn
+  name: 360 turn
   start: 2022-04-01 09:42:28
   end: 2022-04-01 09:48:40
 - kinds:
