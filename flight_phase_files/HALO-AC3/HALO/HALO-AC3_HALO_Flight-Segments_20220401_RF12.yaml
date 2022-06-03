@@ -7,17 +7,379 @@ contacts:
   email: veronika.poertge@physik.uni-muenchen.de
   tags:
   - pi
-- name: Johannes Roettenbacher
-  email: johannes.roettenbacher@uni-leipzig.de
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
   tags:
   - lc
 date: 2022-04-01
 flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=flight_report_halo_ac3_20220401_halo_rf12.pdf
-takeoff: 2022-04-01 07:29:57
+takeoff: 2022-04-01 07:29:08
 landing: 2022-04-01 15:40:34
 events: []
 remarks: []
 co-location:
   - HALO-AC3_P5_RF09
   - HALO-AC3_P6_RF08
-segments: []
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_ma
+  start: 2022-04-01 07:29:08
+  end: 2022-04-01 07:54:28
+  levels: [1500, 3770]
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl01
+  start: 2022-04-01 07:54:29
+  end: 2022-04-01 09:12:53
+  levels: [37600]
+  dropsondes: []
+- kinds:
+  - roll_maneuver
+  name: roll maneuver
+  start: 2022-04-01 09:12:54
+  end: 2022-04-01 09:16:06
+- kinds:
+  - large_descent
+  name: large descent 1
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_ld01
+  start: 2022-04-01 09:16:07
+  end: 2022-04-01 09:22:10
+  levels: [37700, 28700]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-01 09:22:11
+  end: 2022-04-01 09:23:41
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl02
+  start: 2022-04-01 09:23:42
+  end: 2022-04-01 09:40:00
+  levels: [28800]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-01 09:40:01
+  end: 2022-04-01 09:42:37
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl03
+  start: 2022-04-01 09:42:38
+  end: 2022-04-01 09:44:49
+  levels: [28900]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-01 09:44:50
+  end: 2022-04-01 09:47:01
+- kinds:
+  - high_level
+  name: high level 4
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl04
+  start: 2022-04-01 09:47:02
+  end: 2022-04-01 10:00:42
+  levels: [28700]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-01 10:00:43
+  end: 2022-04-01 10:03:31
+- kinds:
+  - high_level
+  name: high level 5
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl05
+  start: 2022-04-01 10:03:32
+  end: 2022-04-01 10:12:57
+  levels: [28700]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-01 10:12:58
+  end: 2022-04-01 10:15:49
+- kinds:
+  - high_level
+  name: high level 6
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl06
+  start: 2022-04-01 10:15:50
+  end: 2022-04-01 10:31:58
+  levels: [28800]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-01 10:31:59
+  end: 2022-04-01 10:34:22
+- kinds:
+  - high_level
+  name: high level 7
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl07
+  start: 2022-04-01 10:34:23
+  end: 2022-04-01 10:37:32
+  levels: [28800]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-01 10:37:33
+  end: 2022-04-01 10:39:58
+- kinds:
+  - high_level
+  name: high level 8
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl08
+  start: 2022-04-01 10:39:59
+  end: 2022-04-01 10:55:59
+  levels: [28700]
+  dropsondes: []
+- kinds:
+  - long_turn
+  name: long turn
+  start: 2022-04-01 10:56:00
+  end: 2022-04-01 11:01:29
+- kinds:
+  - high_level
+  name: high level 9
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl09
+  start: 2022-04-01 11:01:30
+  end: 2022-04-01 11:08:18
+  levels: [28700]
+  dropsondes: []
+- kinds:
+  - long_turn
+  name: long turn
+  start: 2022-04-01 11:08:19
+  end: 2022-04-01 11:14:14
+- kinds:
+  - high_level
+  name: high level 10
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl10
+  start: 2022-04-01 11:14:15
+  end: 2022-04-01 11:32:45
+  levels: [28700]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-01 11:32:46
+  end: 2022-04-01 11:35:24
+- kinds:
+  - high_level
+  name: high level 11
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl11
+  start: 2022-04-01 11:35:25
+  end: 2022-04-01 11:37:56
+  levels: [28900]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-01 11:37:57
+  end: 2022-04-01 11:40:26
+- kinds:
+  - high_level
+  name: high level 12
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl12
+  start: 2022-04-01 11:40:27
+  end: 2022-04-01 11:55:53
+  levels: [28800]
+  dropsondes: []
+- kinds:
+  - long_turn
+  name: long turn
+  start: 2022-04-01 11:55:54
+  end: 2022-04-01 12:01:04
+- kinds:
+  - high_level
+  name: high level 13
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl13
+  start: 2022-04-01 12:01:05
+  end: 2022-04-01 12:06:42
+  levels: [28700]
+  dropsondes: []
+- kinds:
+  - long_turn
+  name: long turn
+  start: 2022-04-01 12:06:43
+  end: 2022-04-01 12:12:00
+- kinds:
+  - high_level
+  name: high level 14
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl14
+  start: 2022-04-01 12:12:01
+  end: 2022-04-01 12:30:38
+  levels: [28800]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-01 12:30:39
+  end: 2022-04-01 12:33:19
+- kinds:
+  - high_level
+  name: high level 15
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl15
+  start: 2022-04-01 12:33:20
+  end: 2022-04-01 12:41:23
+  levels: [29000]
+  dropsondes: []
+- kinds:
+  - small_ascent
+  name: small ascent 1
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_sa01
+  start: 2022-04-01 12:41:24
+  end: 2022-04-01 12:42:47
+  levels: [29000, 30900]
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 16
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl16
+  start: 2022-04-01 12:42:48
+  end: 2022-04-01 12:43:54
+  levels: [30900]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-01 12:43:55
+  end: 2022-04-01 12:46:07
+- kinds:
+  - high_level
+  name: high level 17
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl17
+  start: 2022-04-01 12:46:08
+  end: 2022-04-01 13:00:16
+  levels: [30900]
+  dropsondes: []
+- kinds:
+  - long_turn
+  name: long turn
+  start: 2022-04-01 13:00:17
+  end: 2022-04-01 13:06:07
+- kinds:
+  - high_level
+  name: high level 18
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl18
+  start: 2022-04-01 13:06:08
+  end: 2022-04-01 13:14:09
+  levels: [30700]
+  dropsondes: []
+- kinds:
+  - long_turn
+  name: long turn
+  start: 2022-04-01 13:14:10
+  end: 2022-04-01 13:20:40
+- kinds:
+  - high_level
+  name: high level 19
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl19
+  start: 2022-04-01 13:20:41
+  end: 2022-04-01 13:39:06
+  levels: [30700]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-01 13:39:07
+  end: 2022-04-01 13:41:45
+- kinds:
+  - high_level
+  name: high level 20
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl20
+  start: 2022-04-01 13:41:46
+  end: 2022-04-01 13:46:36
+  levels: [30900]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-01 13:46:37
+  end: 2022-04-01 13:49:09
+- kinds:
+  - high_level
+  name: high level 21
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl21
+  start: 2022-04-01 13:49:10
+  end: 2022-04-01 14:01:56
+  levels: [30900]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-01 14:01:57
+  end: 2022-04-01 14:03:45
+- kinds:
+  - large_ascent
+  name: large ascent 1
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_la01
+  start: 2022-04-01 14:03:46
+  end: 2022-04-01 14:12:27
+  levels: [30700, 40800]
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 22
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl22
+  start: 2022-04-01 14:12:28
+  end: 2022-04-01 14:42:54
+  levels: [40900]
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-04-01 14:42:55
+  end: 2022-04-01 14:43:59
+- kinds:
+  - high_level
+  name: high level 23
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_hl23
+  start: 2022-04-01 14:44:00
+  end: 2022-04-01 15:17:04
+  levels: [40800]
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: HALO-AC3_HALO_RF12_md
+  start: 2022-04-01 15:17:05
+  end: 2022-04-01 15:40:34
+  levels: [40700, 1600]
+  dropsondes: []
