@@ -6,11 +6,11 @@ contacts:
 - name: Johannes Schneider
   email: johannes.schneider@mpic.de
   tags:
-    - pi
+  - pi
 - name: Giancarlo Marrollo
   email: giancarlo.marrollo@uni-koeln.de
   tags:
-    - lc
+  - lc
 date: 2017-05-31
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=10_20170531_p6_acloud_flight_report.pdf
 takeoff: 2017-05-31 14:59:20
@@ -18,7 +18,8 @@ landing: 2017-05-31 19:02:45
 events: []
 remarks:
 - PS Meeting no2; Thin low clouds over sea ice
-co-location: [ACLOUD_P5_RF10]
+co-location:
+- ACLOUD_P5_RF10
 segments:
 - kinds:
   - major_ascent
@@ -27,7 +28,9 @@ segments:
   segment_id: ACLOUD_P6_RF10_ma
   start: 2017-05-31 14:59:20
   end: 2017-05-31 15:05:02
-  levels: [100, 4500]
+  levels:
+  - 100
+  - 4500
   dropsondes: []
 - kinds:
   - mid_level
@@ -36,7 +39,8 @@ segments:
   segment_id: ACLOUD_P6_RF10_ml01
   start: 2017-05-31 15:05:03
   end: 2017-05-31 15:09:55
-  levels: [4500]
+  levels:
+  - 4500
   dropsondes: []
 - kinds:
   - small_descent
@@ -45,7 +49,9 @@ segments:
   segment_id: ACLOUD_P6_RF10_sd01
   start: 2017-05-31 15:09:56
   end: 2017-05-31 15:18:02
-  levels: [4500, 1500]
+  levels:
+  - 4500
+  - 1500
   dropsondes: []
 - kinds:
   - low_level
@@ -54,7 +60,8 @@ segments:
   segment_id: ACLOUD_P6_RF10_ll01
   start: 2017-05-31 15:18:03
   end: 2017-05-31 15:30:16
-  levels: [1500]
+  levels:
+  - 1500
   dropsondes: []
 - kinds:
   - small_descent
@@ -63,7 +70,9 @@ segments:
   segment_id: ACLOUD_P6_RF10_sd02
   start: 2017-05-31 15:30:17
   end: 2017-05-31 15:32:50
-  levels: [1500, 200]
+  levels:
+  - 1500
+  - 200
   dropsondes: []
 - kinds:
   - low_level
@@ -72,7 +81,8 @@ segments:
   segment_id: ACLOUD_P6_RF10_ll02
   start: 2017-05-31 15:32:51
   end: 2017-05-31 15:38:47
-  levels: [200]
+  levels:
+  - 200
   dropsondes: []
 - kinds:
   - small_ascent
@@ -81,7 +91,9 @@ segments:
   segment_id: ACLOUD_P6_RF10_sa01
   start: 2017-05-31 15:38:48
   end: 2017-05-31 15:40:32
-  levels: [200, 1100]
+  levels:
+  - 200
+  - 1100
   dropsondes: []
 - kinds:
   - low_level
@@ -90,7 +102,8 @@ segments:
   segment_id: ACLOUD_P6_RF10_ll03
   start: 2017-05-31 15:40:33
   end: 2017-05-31 15:46:00
-  levels: [1100]
+  levels:
+  - 1100
   dropsondes: []
 - kinds:
   - small_descent
@@ -99,7 +112,9 @@ segments:
   segment_id: ACLOUD_P6_RF10_sd03
   start: 2017-05-31 15:46:01
   end: 2017-05-31 15:47:51
-  levels: [1100, 500]
+  levels:
+  - 1100
+  - 500
   dropsondes: []
 - kinds:
   - low_level
@@ -108,7 +123,8 @@ segments:
   segment_id: ACLOUD_P6_RF10_ll04
   start: 2017-05-31 15:47:52
   end: 2017-05-31 15:52:55
-  levels: [500]
+  levels:
+  - 500
   dropsondes: []
 - kinds:
   - small_descent
@@ -117,7 +133,9 @@ segments:
   segment_id: ACLOUD_P6_RF10_sd04
   start: 2017-05-31 15:52:56
   end: 2017-05-31 15:54:01
-  levels: [500, 200]
+  levels:
+  - 500
+  - 200
   dropsondes: []
 - kinds:
   - low_level
@@ -126,7 +144,8 @@ segments:
   segment_id: ACLOUD_P6_RF10_ll05
   start: 2017-05-31 15:54:02
   end: 2017-05-31 15:56:17
-  levels: [200]
+  levels:
+  - 200
   dropsondes: []
 - kinds:
   - small_ascent
@@ -135,7 +154,9 @@ segments:
   segment_id: ACLOUD_P6_RF10_sa02
   start: 2017-05-31 15:56:18
   end: 2017-05-31 15:57:54
-  levels: [200, 1000]
+  levels:
+  - 200
+  - 1000
   dropsondes: []
 - kinds:
   - low_level
@@ -144,7 +165,8 @@ segments:
   segment_id: ACLOUD_P6_RF10_ll06
   start: 2017-05-31 15:57:55
   end: 2017-05-31 15:59:10
-  levels: [1000]
+  levels:
+  - 1000
   dropsondes: []
 - kinds:
   - short_turn
@@ -158,7 +180,9 @@ segments:
   segment_id: ACLOUD_P6_RF10_sd05
   start: 2017-05-31 16:00:01
   end: 2017-05-31 16:01:37
-  levels: [1000, 200]
+  levels:
+  - 1000
+  - 200
   dropsondes: []
 - kinds:
   - low_level
@@ -167,7 +191,8 @@ segments:
   segment_id: ACLOUD_P6_RF10_ll07
   start: 2017-05-31 16:01:38
   end: 2017-05-31 16:20:18
-  levels: [200]
+  levels:
+  - 200
   dropsondes: []
 - kinds:
   - small_ascent
@@ -176,7 +201,9 @@ segments:
   segment_id: ACLOUD_P6_RF10_sa03
   start: 2017-05-31 16:20:19
   end: 2017-05-31 16:28:30
-  levels: [200, 1600]
+  levels:
+  - 200
+  - 1600
   dropsondes: []
 - kinds:
   - low_level
@@ -185,7 +212,8 @@ segments:
   segment_id: ACLOUD_P6_RF10_ll08
   start: 2017-05-31 16:28:31
   end: 2017-05-31 16:37:16
-  levels: [1600]
+  levels:
+  - 1600
   dropsondes: []
 - kinds:
   - small_descent
@@ -194,7 +222,9 @@ segments:
   segment_id: ACLOUD_P6_RF10_sd06
   start: 2017-05-31 16:37:17
   end: 2017-05-31 16:46:54
-  levels: [1600, 200]
+  levels:
+  - 1600
+  - 200
   dropsondes: []
 - kinds:
   - radiation_square
@@ -203,7 +233,13 @@ segments:
   segment_id: ACLOUD_P6_RF10_rs01
   start: 2017-05-31 16:46:55
   end: 2017-05-31 18:15:48
-  levels: [200, 1100, 3100, 5000, 7000, 10000]
+  levels:
+  - 200
+  - 1100
+  - 3100
+  - 5000
+  - 7000
+  - 10000
   dropsondes: []
   parts:
   - kinds:
@@ -213,7 +249,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_ll01
     start: 2017-05-31 16:46:55
     end: 2017-05-31 16:50:44
-    levels: [200]
+    levels:
+    - 200
   - kinds:
     - short_turn
     name: short turn
@@ -226,7 +263,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_ll02
     start: 2017-05-31 16:51:41
     end: 2017-05-31 16:54:16
-    levels: [200]
+    levels:
+    - 200
   - kinds:
     - short_turn
     name: short turn
@@ -239,7 +277,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_ll03
     start: 2017-05-31 16:55:37
     end: 2017-05-31 16:58:36
-    levels: [200]
+    levels:
+    - 200
   - kinds:
     - small_ascent
     name: radiation square 1 small ascent 1
@@ -247,7 +286,9 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_sa01
     start: 2017-05-31 16:58:37
     end: 2017-05-31 17:00:55
-    levels: [200, 1100]
+    levels:
+    - 200
+    - 1100
   - kinds:
     - low_level
     name: radiation square 1 low level 4
@@ -255,7 +296,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_ll04
     start: 2017-05-31 17:00:56
     end: 2017-05-31 17:03:32
-    levels: [1100]
+    levels:
+    - 1100
   - kinds:
     - short_turn
     name: short turn
@@ -268,7 +310,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_ll05
     start: 2017-05-31 17:04:15
     end: 2017-05-31 17:07:43
-    levels: [1100]
+    levels:
+    - 1100
   - kinds:
     - short_turn
     name: short turn
@@ -281,7 +324,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_ll06
     start: 2017-05-31 17:08:55
     end: 2017-05-31 17:11:17
-    levels: [1100]
+    levels:
+    - 1100
   - kinds:
     - short_turn
     name: short turn
@@ -294,7 +338,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_ll07
     start: 2017-05-31 17:12:01
     end: 2017-05-31 17:15:01
-    levels: [1100]
+    levels:
+    - 1100
   - kinds:
     - small_ascent
     name: radiation square 1 small ascent 2
@@ -302,7 +347,9 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_sa02
     start: 2017-05-31 17:15:02
     end: 2017-05-31 17:18:14
-    levels: [1100, 3100]
+    levels:
+    - 1100
+    - 3100
   - kinds:
     - low_level
     name: radiation square 1 low level 8
@@ -310,7 +357,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_ll08
     start: 2017-05-31 17:18:15
     end: 2017-05-31 17:19:44
-    levels: [3100]
+    levels:
+    - 3100
   - kinds:
     - short_turn
     name: short turn
@@ -323,7 +371,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_ll09
     start: 2017-05-31 17:20:39
     end: 2017-05-31 17:23:47
-    levels: [3100]
+    levels:
+    - 3100
   - kinds:
     - short_turn
     name: short turn
@@ -336,7 +385,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_ll10
     start: 2017-05-31 17:24:24
     end: 2017-05-31 17:27:12
-    levels: [3100]
+    levels:
+    - 3100
   - kinds:
     - short_turn
     name: short turn
@@ -349,7 +399,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_ll11
     start: 2017-05-31 17:28:01
     end: 2017-05-31 17:30:42
-    levels: [3100]
+    levels:
+    - 3100
   - kinds:
     - small_ascent
     name: radiation square 1 small ascent 3
@@ -357,7 +408,9 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_sa03
     start: 2017-05-31 17:30:43
     end: 2017-05-31 17:33:41
-    levels: [3100, 5000]
+    levels:
+    - 3100
+    - 5000
   - kinds:
     - mid_level
     name: radiation square 1 mid level 1
@@ -365,7 +418,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_ml01
     start: 2017-05-31 17:33:42
     end: 2017-05-31 17:35:10
-    levels: [5000]
+    levels:
+    - 5000
   - kinds:
     - short_turn
     name: short turn
@@ -378,7 +432,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_ml02
     start: 2017-05-31 17:35:51
     end: 2017-05-31 17:39:08
-    levels: [5000]
+    levels:
+    - 5000
   - kinds:
     - short_turn
     name: short turn
@@ -391,7 +446,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_ml03
     start: 2017-05-31 17:40:16
     end: 2017-05-31 17:42:35
-    levels: [5000]
+    levels:
+    - 5000
   - kinds:
     - short_turn
     name: short turn
@@ -404,7 +460,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_ml04
     start: 2017-05-31 17:43:14
     end: 2017-05-31 17:46:02
-    levels: [5000]
+    levels:
+    - 5000
   - kinds:
     - short_turn
     name: short turn
@@ -417,7 +474,9 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_sa04
     start: 2017-05-31 17:46:45
     end: 2017-05-31 17:49:14
-    levels: [5000, 7000]
+    levels:
+    - 5000
+    - 7000
   - kinds:
     - high_level
     name: radiation square 1 high level 1
@@ -425,7 +484,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_hl01
     start: 2017-05-31 17:49:15
     end: 2017-05-31 17:50:18
-    levels: [7000]
+    levels:
+    - 7000
   - kinds:
     - short_turn
     name: short turn
@@ -438,7 +498,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_hl02
     start: 2017-05-31 17:50:58
     end: 2017-05-31 17:54:16
-    levels: [7000]
+    levels:
+    - 7000
   - kinds:
     - short_turn
     name: short turn
@@ -451,7 +512,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_hl03
     start: 2017-05-31 17:55:13
     end: 2017-05-31 17:57:34
-    levels: [7000]
+    levels:
+    - 7000
   - kinds:
     - short_turn
     name: short turn
@@ -464,7 +526,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_hl04
     start: 2017-05-31 17:58:25
     end: 2017-05-31 18:00:45
-    levels: [7000]
+    levels:
+    - 7000
   - kinds:
     - short_turn
     name: short turn
@@ -477,7 +540,9 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_sa05
     start: 2017-05-31 18:01:52
     end: 2017-05-31 18:05:05
-    levels: [7000, 10000]
+    levels:
+    - 7000
+    - 10000
   - kinds:
     - short_turn
     name: short turn
@@ -490,7 +555,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_hl05
     start: 2017-05-31 18:05:51
     end: 2017-05-31 18:08:46
-    levels: [10000]
+    levels:
+    - 10000
   - kinds:
     - short_turn
     name: short turn
@@ -503,7 +569,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_hl06
     start: 2017-05-31 18:09:30
     end: 2017-05-31 18:11:53
-    levels: [10000]
+    levels:
+    - 10000
   - kinds:
     - short_turn
     name: short turn
@@ -516,7 +583,8 @@ segments:
     segment_id: ACLOUD_P6_RF10_rs01_hl07
     start: 2017-05-31 18:12:52
     end: 2017-05-31 18:14:58
-    levels: [10000]
+    levels:
+    - 10000
   - kinds:
     - short_turn
     name: short turn
@@ -529,7 +597,9 @@ segments:
   segment_id: ACLOUD_P6_RF10_sa04
   start: 2017-05-31 18:15:49
   end: 2017-05-31 18:18:41
-  levels: [10000, 12000]
+  levels:
+  - 10000
+  - 12000
   dropsondes: []
 - kinds:
   - high_level
@@ -538,7 +608,8 @@ segments:
   segment_id: ACLOUD_P6_RF10_hl01
   start: 2017-05-31 18:18:42
   end: 2017-05-31 18:24:52
-  levels: [12000]
+  levels:
+  - 12000
   dropsondes: []
 - kinds:
   - small_descent
@@ -547,7 +618,9 @@ segments:
   segment_id: ACLOUD_P6_RF10_sd07
   start: 2017-05-31 18:24:53
   end: 2017-05-31 18:29:37
-  levels: [12000, 10000]
+  levels:
+  - 12000
+  - 10000
   dropsondes: []
 - kinds:
   - high_level
@@ -556,7 +629,8 @@ segments:
   segment_id: ACLOUD_P6_RF10_hl02
   start: 2017-05-31 18:29:38
   end: 2017-05-31 18:32:42
-  levels: [10000]
+  levels:
+  - 10000
   dropsondes: []
 - kinds:
   - short_turn
@@ -570,7 +644,9 @@ segments:
   segment_id: ACLOUD_P6_RF10_md01
   start: 2017-05-31 18:33:10
   end: 2017-05-31 18:41:27
-  levels: [10000, 4900]
+  levels:
+  - 10000
+  - 4900
   dropsondes: []
 - kinds:
   - mid_level
@@ -580,7 +656,8 @@ segments:
   segment_id: ACLOUD_P6_RF10_ml02
   start: 2017-05-31 18:41:28
   end: 2017-05-31 18:51:57
-  levels: [4900]
+  levels:
+  - 4900
   dropsondes: []
 - kinds:
   - major_descent
@@ -589,5 +666,7 @@ segments:
   segment_id: ACLOUD_P6_RF10_md
   start: 2017-05-31 18:51:58
   end: 2017-05-31 19:02:45
-  levels: [4900, 100]
+  levels:
+  - 4900
+  - 100
   dropsondes: []

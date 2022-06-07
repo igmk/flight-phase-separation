@@ -28,7 +28,9 @@ segments:
   segment_id: HALO-AC3_P6_RF13_ma
   start: 2022-04-10 09:09:41
   end: 2022-04-10 09:22:12
-  levels: [100, 9600]
+  levels:
+  - 100
+  - 9600
   dropsondes: []
 - kinds:
   - high_level
@@ -37,7 +39,8 @@ segments:
   segment_id: HALO-AC3_P6_RF13_hl01
   start: 2022-04-10 09:22:13
   end: 2022-04-10 13:54:12
-  levels: [5600]
+  levels:
+  - 5600
   dropsondes: []
 - kinds:
   - major_descent

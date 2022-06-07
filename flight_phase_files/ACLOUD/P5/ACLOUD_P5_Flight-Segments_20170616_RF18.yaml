@@ -21,7 +21,8 @@ events:
 - Ny-Alesund overflight with cross pattern
 remarks:
 - Two power outages of 230 V in beginning during transfer to first satellite meeting
-co-location: [ACLOUD_P6_RF18]
+co-location:
+- ACLOUD_P6_RF18
 segments:
 - kinds:
   - major_ascent

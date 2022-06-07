@@ -4,7 +4,7 @@ platform: P6
 flight_id: HALO-AC3_P6_RF11
 contacts:
 - name: Johannes Schneider
-  email:  johannes.schneider@mpic.de
+  email: johannes.schneider@mpic.de
   tags:
   - pi
 - name: Daria Paul
@@ -27,7 +27,9 @@ segments:
   segment_id: HALO-AC3_P6_RF11_ma
   start: 2022-04-08 09:40:16
   end: 2022-04-08 09:52:21
-  levels: [100, 9000]
+  levels:
+  - 100
+  - 9000
   dropsondes: []
 - kinds:
   - high_level
@@ -36,7 +38,8 @@ segments:
   segment_id: HALO-AC3_P6_RF11_hl01
   start: 2022-04-08 09:52:22
   end: 2022-04-08 14:39:32
-  levels: [9000]
+  levels:
+  - 9000
   dropsondes: []
 - kinds:
   - major_descent
@@ -45,5 +48,7 @@ segments:
   segment_id: HALO-AC3_P6_RF11_md
   start: 2022-04-08 14:39:33
   end: 2022-04-08 14:56:41
-  levels: [12000, 100]
+  levels:
+  - 12000
+  - 100
   dropsondes: []

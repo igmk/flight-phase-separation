@@ -18,7 +18,8 @@ landing: 2017-06-09 09:21:25
 events:
 - Instrument intercomparison between P5 and P6
 remarks: []
-co-location: [ACLOUD_P6_RF15]
+co-location:
+- ACLOUD_P6_RF15
 segments:
 - kinds:
   - major_ascent

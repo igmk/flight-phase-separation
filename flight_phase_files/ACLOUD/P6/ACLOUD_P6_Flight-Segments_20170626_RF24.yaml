@@ -6,11 +6,11 @@ contacts:
 - name: Mario Mech
   email: mario.mech@uni-koeln.de
   tags:
-    - pi
+  - pi
 - name: Giancarlo Marrollo
   email: giancarlo.marrollo@uni-koeln.de
   tags:
-    - lc
+  - lc
 date: 2017-06-26
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=24_20170626_p6_acloud_flight_report.pdf
 takeoff: 2017-06-26 08:33:20
@@ -27,5 +27,7 @@ segments:
   segment_id: ACLOUD_P6_RF24_ma
   start: 2017-06-26 08:33:20
   end: 2017-06-26 10:39:50
-  levels: [100, 100]
+  levels:
+  - 100
+  - 100
   dropsondes: []

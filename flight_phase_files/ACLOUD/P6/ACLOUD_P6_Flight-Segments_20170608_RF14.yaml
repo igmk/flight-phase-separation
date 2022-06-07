@@ -3,14 +3,14 @@ mission: ACLOUD
 platform: P6
 flight_id: ACLOUD_P6_RF14
 contacts:
-- name: Emma Järvinen
+- name: "Emma J\xE4rvinen"
   email: null
   tags:
-    - pi
+  - pi
 - name: Giancarlo Marrollo
   email: giancarlo.marrollo@uni-koeln.de
   tags:
-    - lc
+  - lc
 date: 2017-06-08
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=14_20170608_p6_acloud_flight_report.pdf
 takeoff: 2017-06-08 07:31:20
@@ -18,7 +18,8 @@ landing: 2017-06-08 13:11:20
 events: []
 remarks:
 - PS Meeting no6; Thin broken clouds over sea ice
-co-location: [ACLOUD_P5_RF14]
+co-location:
+- ACLOUD_P5_RF14
 segments:
 - kinds:
   - major_ascent
@@ -27,5 +28,7 @@ segments:
   segment_id: ACLOUD_P6_RF14_ma
   start: 2017-06-08 07:31:20
   end: 2017-06-08 13:11:20
-  levels: [100, 100]
+  levels:
+  - 100
+  - 100
   dropsondes: []

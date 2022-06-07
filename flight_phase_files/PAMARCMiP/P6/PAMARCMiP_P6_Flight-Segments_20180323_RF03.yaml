@@ -3,14 +3,14 @@ mission: PAMARCMiP
 platform: P6
 flight_id: PAMARCMiP_P6_RF03
 contacts:
-- name: 
-  email: 
+- name: null
+  email: null
 date: 2018-03-23
 flight_report: None
 takeoff: 2018-03-23 11:53:30
 landing: 2018-03-23 12:46:45
-events:
-remarks:
+events: null
+remarks: null
 co-location: []
 segments:
 - kinds:
@@ -18,23 +18,22 @@ segments:
   name: major ascend
   irregularities: []
   segment_id: PAMARCMiP_P6_RF03_ma
-  start: 
-  end: 
+  start: null
+  end: null
   dropsondes: []
 - kinds:
   - add_new_segments_here
-  name: 
+  name: null
   irregularities: []
-  segment_id: 
-  start: 
-  end: 
+  segment_id: null
+  start: null
+  end: null
   dropsondes: []
 - kinds:
   - major_descend
   name: major descend
   irregularities: []
   segment_id: PAMARCMiP_P6_RF03_md
-  start: 
-  end: 
+  start: null
+  end: null
   dropsondes: []
-

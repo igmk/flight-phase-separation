@@ -26,7 +26,9 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_ma
   start: 2022-04-11 07:55:49
   end: 2022-04-11 08:17:46
-  levels: [1500, 35200]
+  levels:
+  - 1500
+  - 35200
   dropsondes: []
 - kinds:
   - high_level
@@ -35,7 +37,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_hl01
   start: 2022-04-11 08:17:47
   end: 2022-04-11 08:24:38
-  levels: [35200]
+  levels:
+  - 35200
   dropsondes: []
 - kinds:
   - short_turn
@@ -49,7 +52,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_hl02
   start: 2022-04-11 08:24:59
   end: 2022-04-11 08:37:35
-  levels: [35300]
+  levels:
+  - 35300
   dropsondes: []
 - kinds:
   - small_ascent
@@ -58,7 +62,9 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_sa01
   start: 2022-04-11 08:37:36
   end: 2022-04-11 08:40:39
-  levels: [35400, 37500]
+  levels:
+  - 35400
+  - 37500
   dropsondes: []
 - kinds:
   - high_level
@@ -67,7 +73,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_hl03
   start: 2022-04-11 08:40:40
   end: 2022-04-11 09:28:33
-  levels: [37700]
+  levels:
+  - 37700
   dropsondes: []
 - kinds:
   - short_turn
@@ -81,7 +88,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_hl04
   start: 2022-04-11 09:30:58
   end: 2022-04-11 09:35:56
-  levels: [37800]
+  levels:
+  - 37800
   dropsondes: []
 - kinds:
   - short_turn
@@ -95,7 +103,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_hl05
   start: 2022-04-11 09:37:56
   end: 2022-04-11 09:53:24
-  levels: [37800]
+  levels:
+  - 37800
   dropsondes: []
 - kinds:
   - short_turn
@@ -109,7 +118,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_hl06
   start: 2022-04-11 09:56:03
   end: 2022-04-11 10:42:54
-  levels: [37800]
+  levels:
+  - 37800
   dropsondes: []
 - kinds:
   - procedure_turn
@@ -123,7 +133,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_hl07
   start: 2022-04-11 10:48:47
   end: 2022-04-11 11:03:16
-  levels: [37800]
+  levels:
+  - 37800
   dropsondes: []
 - kinds:
   - short_turn
@@ -137,7 +148,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_hl08
   start: 2022-04-11 11:06:26
   end: 2022-04-11 11:07:14
-  levels: [37700]
+  levels:
+  - 37700
   dropsondes: []
 - kinds:
   - large_descent
@@ -148,7 +160,9 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_ld01
   start: 2022-04-11 11:07:15
   end: 2022-04-11 11:17:45
-  levels: [37700, 14400]
+  levels:
+  - 37700
+  - 14400
   dropsondes: []
 - kinds:
   - procedure_turn
@@ -162,7 +176,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_hl09
   start: 2022-04-11 11:20:11
   end: 2022-04-11 11:34:38
-  levels: [14400]
+  levels:
+  - 14400
   dropsondes: []
 - kinds:
   - short_turn
@@ -176,7 +191,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_hl10
   start: 2022-04-11 11:35:39
   end: 2022-04-11 12:00:32
-  levels: [14400]
+  levels:
+  - 14400
   dropsondes: []
 - kinds:
   - procedure_turn
@@ -192,7 +208,9 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_la01
   start: 2022-04-11 12:00:46
   end: 2022-04-11 12:14:44
-  levels: [14400, 37800]
+  levels:
+  - 14400
+  - 37800
   dropsondes: []
 - kinds:
   - high_level
@@ -201,7 +219,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_hl11
   start: 2022-04-11 12:14:45
   end: 2022-04-11 12:18:03
-  levels: [37800]
+  levels:
+  - 37800
   dropsondes: []
 - kinds:
   - short_turn
@@ -215,7 +234,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_hl12
   start: 2022-04-11 12:20:49
   end: 2022-04-11 12:44:16
-  levels: [37800]
+  levels:
+  - 37800
   dropsondes: []
 - kinds:
   - procedure_turn
@@ -229,7 +249,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_hl13
   start: 2022-04-11 12:50:19
   end: 2022-04-11 13:15:27
-  levels: [37800]
+  levels:
+  - 37800
   dropsondes: []
 - kinds:
   - short_turn
@@ -243,7 +264,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_hl14
   start: 2022-04-11 13:17:55
   end: 2022-04-11 13:48:03
-  levels: [37800]
+  levels:
+  - 37800
   dropsondes: []
 - kinds:
   - short_turn
@@ -257,7 +279,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_hl15
   start: 2022-04-11 13:50:46
   end: 2022-04-11 14:06:59
-  levels: [37800]
+  levels:
+  - 37800
   dropsondes: []
 - kinds:
   - short_turn
@@ -271,7 +294,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_hl16
   start: 2022-04-11 14:08:29
   end: 2022-04-11 15:17:15
-  levels: [37600]
+  levels:
+  - 37600
   dropsondes: []
 - kinds:
   - short_turn
@@ -285,7 +309,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_hl17
   start: 2022-04-11 15:17:31
   end: 2022-04-11 15:22:15
-  levels: [37300]
+  levels:
+  - 37300
   dropsondes: []
 - kinds:
   - major_descent
@@ -294,5 +319,7 @@ segments:
   segment_id: HALO-AC3_HALO_RF17_md
   start: 2022-04-11 15:22:16
   end: 2022-04-11 15:55:42
-  levels: [37300, 1600]
+  levels:
+  - 37300
+  - 1600
   dropsondes: []

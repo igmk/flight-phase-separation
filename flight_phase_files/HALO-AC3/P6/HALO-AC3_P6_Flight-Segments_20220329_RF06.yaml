@@ -4,7 +4,7 @@ platform: P6
 flight_id: HALO-AC3_P6_RF06
 contacts:
 - name: Stephan Borrmann
-  email:  stephan.borrmann@mpic.de
+  email: stephan.borrmann@mpic.de
   tags:
   - pi
 - name: Daria Paul
@@ -28,7 +28,9 @@ segments:
   segment_id: HALO-AC3_P6_RF06_ma
   start: 2022-03-29 12:16:51
   end: 2022-03-29 12:26:44
-  levels: [100, 9000]
+  levels:
+  - 100
+  - 9000
   dropsondes: []
 - kinds:
   - high_level
@@ -37,7 +39,8 @@ segments:
   segment_id: HALO-AC3_P6_RF06_hl01
   start: 2022-03-29 12:26:45
   end: 2022-03-29 17:25:40
-  levels: [9000]
+  levels:
+  - 9000
   dropsondes: []
 - kinds:
   - major_descent
@@ -46,5 +49,7 @@ segments:
   segment_id: HALO-AC3_P6_RF06_md
   start: 2022-03-29 17:25:41
   end: 2022-03-29 17:44:47
-  levels: [12000, 100]
+  levels:
+  - 12000
+  - 100
   dropsondes: []

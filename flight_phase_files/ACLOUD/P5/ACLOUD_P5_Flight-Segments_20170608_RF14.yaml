@@ -20,7 +20,8 @@ events:
 - Radiometer calibration
 remarks:
 - Thin broken clouds over sea ice
-co-location: [ACLOUD_P6_RF14]
+co-location:
+- ACLOUD_P6_RF14
 segments:
 - kinds:
   - major_ascent

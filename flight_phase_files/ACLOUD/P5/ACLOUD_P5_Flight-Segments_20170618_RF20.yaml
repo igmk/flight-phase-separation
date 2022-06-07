@@ -21,7 +21,8 @@ events:
 - Racetrack pattern over open ocean
 remarks:
 - Clouds above open water and sea ice
-co-location: [ACLOUD_P6_RF20]
+co-location:
+- ACLOUD_P6_RF20
 segments:
 - kinds:
   - major_ascent

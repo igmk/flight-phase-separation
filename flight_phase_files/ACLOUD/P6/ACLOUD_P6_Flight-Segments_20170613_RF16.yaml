@@ -6,11 +6,11 @@ contacts:
 - name: Manfred Wendisch
   email: m.wendisch@uni-leipzig.de
   tags:
-    - pi
+  - pi
 - name: Nils Risse
   email: n.risse@uni-koeln.de
   tags:
-    - lc
+  - lc
 date: 2017-06-13
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=16_20170613_p6_acloud_flight_report.pdf
 takeoff: 2017-06-13 14:55:20
@@ -18,7 +18,8 @@ landing: 2017-06-13 17:14:50
 events: []
 remarks:
 - Joint P5 / P6 calibration flight in multi layer clouds
-co-location: [ACLOUD_P5_RF16]
+co-location:
+- ACLOUD_P5_RF16
 segments:
 - kinds:
   - major_ascent
@@ -27,8 +28,7 @@ segments:
   segment_id: ACLOUD_P6_RF16_ma
   start: 2017-06-13 14:55:20
   end: 2017-06-13 17:14:50
-  levels: [100, 100]
+  levels:
+  - 100
+  - 100
   dropsondes: []
-
-
-

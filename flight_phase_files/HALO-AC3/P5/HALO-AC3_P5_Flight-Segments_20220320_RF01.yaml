@@ -18,8 +18,8 @@ landing: 2022-03-20 15:37:20
 events: []
 remarks: []
 co-location:
-  - HALO-AC3_P6_RF01
-  - HALO-AC3_HALO_RF07
+- HALO-AC3_P6_RF01
+- HALO-AC3_HALO_RF07
 segments:
 - kinds:
   - major_ascent
@@ -28,7 +28,9 @@ segments:
   segment_id: HALO-AC3_P5_RF01_ma
   start: 2022-03-20 11:25:42
   end: 2022-03-20 11:37:41
-  levels: [100, 9400]
+  levels:
+  - 100
+  - 9400
   dropsondes: []
 - kinds:
   - high_level
@@ -37,7 +39,8 @@ segments:
   segment_id: HALO-AC3_P5_RF01_hl01
   start: 2022-03-20 11:37:42
   end: 2022-03-20 11:50:54
-  levels: [9400]
+  levels:
+  - 9400
   dropsondes: []
 - kinds:
   - short_turn
@@ -51,7 +54,8 @@ segments:
   segment_id: HALO-AC3_P5_RF01_hl02
   start: 2022-03-20 11:51:25
   end: 2022-03-20 12:05:57
-  levels: [9400]
+  levels:
+  - 9400
   dropsondes: []
 - kinds:
   - short_turn
@@ -65,7 +69,8 @@ segments:
   segment_id: HALO-AC3_P5_RF01_hl03
   start: 2022-03-20 12:06:56
   end: 2022-03-20 12:40:37
-  levels: [9300]
+  levels:
+  - 9300
   dropsondes: []
 - kinds:
   - short_turn
@@ -79,7 +84,8 @@ segments:
   segment_id: HALO-AC3_P5_RF01_hl04
   start: 2022-03-20 12:41:23
   end: 2022-03-20 13:02:05
-  levels: [9200]
+  levels:
+  - 9200
   dropsondes: []
 - kinds:
   - high_level
@@ -89,7 +95,8 @@ segments:
   segment_id: HALO-AC3_P5_RF01_hl05
   start: 2022-03-20 13:02:06
   end: 2022-03-20 13:10:35
-  levels: [9200]
+  levels:
+  - 9200
   dropsondes: []
 - kinds:
   - procedure_turn
@@ -104,7 +111,8 @@ segments:
   segment_id: HALO-AC3_P5_RF01_hl06
   start: 2022-03-20 13:14:52
   end: 2022-03-20 13:19:42
-  levels: [9200]
+  levels:
+  - 9200
   dropsondes: []
 - kinds:
   - long_turn
@@ -118,7 +126,8 @@ segments:
   segment_id: HALO-AC3_P5_RF01_hl07
   start: 2022-03-20 13:24:30
   end: 2022-03-20 13:32:01
-  levels: [9200]
+  levels:
+  - 9200
   dropsondes: []
 - kinds:
   - long_turn
@@ -132,7 +141,8 @@ segments:
   segment_id: HALO-AC3_P5_RF01_hl08
   start: 2022-03-20 13:35:19
   end: 2022-03-20 13:50:46
-  levels: [9200]
+  levels:
+  - 9200
   dropsondes: []
 - kinds:
   - long_turn
@@ -146,7 +156,8 @@ segments:
   segment_id: HALO-AC3_P5_RF01_hl09
   start: 2022-03-20 13:54:41
   end: 2022-03-20 14:10:08
-  levels: [9300]
+  levels:
+  - 9300
   dropsondes: []
 - kinds:
   - short_turn
@@ -160,7 +171,8 @@ segments:
   segment_id: HALO-AC3_P5_RF01_hl10
   start: 2022-03-20 14:11:03
   end: 2022-03-20 14:30:28
-  levels: [9300]
+  levels:
+  - 9300
   dropsondes: []
 - kinds:
   - short_turn
@@ -174,7 +186,8 @@ segments:
   segment_id: HALO-AC3_P5_RF01_hl11
   start: 2022-03-20 14:31:43
   end: 2022-03-20 14:40:43
-  levels: [9200]
+  levels:
+  - 9200
   dropsondes: []
 - kinds:
   - long_turn
@@ -188,7 +201,8 @@ segments:
   segment_id: HALO-AC3_P5_RF01_hl12
   start: 2022-03-20 14:43:00
   end: 2022-03-20 14:58:00
-  levels: [9300]
+  levels:
+  - 9300
   dropsondes: []
 - kinds:
   - short_turn
@@ -202,7 +216,8 @@ segments:
   segment_id: HALO-AC3_P5_RF01_hl13
   start: 2022-03-20 14:59:32
   end: 2022-03-20 15:11:50
-  levels: [9300]
+  levels:
+  - 9300
   dropsondes: []
 - kinds:
   - short_turn
@@ -216,7 +231,8 @@ segments:
   segment_id: HALO-AC3_P5_RF01_hl14
   start: 2022-03-20 15:13:06
   end: 2022-03-20 15:15:19
-  levels: [9400]
+  levels:
+  - 9400
   dropsondes: []
 - kinds:
   - short_turn
@@ -230,5 +246,7 @@ segments:
   segment_id: HALO-AC3_P5_RF01_md
   start: 2022-03-20 15:15:42
   end: 2022-03-20 15:37:20
-  levels: [9500, 100]
+  levels:
+  - 9500
+  - 100
   dropsondes: []

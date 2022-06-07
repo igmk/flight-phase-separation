@@ -6,11 +6,11 @@ contacts:
 - name: Johannes Schneider
   email: johannes.schneider@mpic.de
   tags:
-    - pi
+  - pi
 - name: Giancarlo Marrollo
   email: giancarlo.marrollo@uni-koeln.de
   tags:
-    - lc
+  - lc
 date: 2017-06-05
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=13_20170605_p6_acloud_flight_report.pdf
 takeoff: 2017-06-05 10:43:40
@@ -18,7 +18,8 @@ landing: 2017-06-05 14:43:50
 events: []
 remarks:
 - PS Meeting no5; Low clouds in warm air over sea ice
-co-location: [ACLOUD_P5_RF13]
+co-location:
+- ACLOUD_P5_RF13
 segments:
 - kinds:
   - major_ascent
@@ -27,5 +28,7 @@ segments:
   segment_id: ACLOUD_P6_RF13_ma
   start: 2017-06-05 10:43:40
   end: 2017-06-05 14:43:50
-  levels: [100, 100]
+  levels:
+  - 100
+  - 100
   dropsondes: []
