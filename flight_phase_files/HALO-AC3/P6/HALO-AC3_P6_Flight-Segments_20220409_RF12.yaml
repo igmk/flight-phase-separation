@@ -3,7 +3,7 @@ mission: HALO-AC3
 platform: P6
 flight_id: HALO-AC3_P6_RF12
 contacts:
-- name: "Christof L\xFCpkes"
+- name: Christof Luepkes
   email: christof.luepkes@awi.de
   tags:
   - pi

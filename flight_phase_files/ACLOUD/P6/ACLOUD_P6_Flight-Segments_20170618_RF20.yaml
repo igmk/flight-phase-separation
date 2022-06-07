@@ -4,7 +4,7 @@ platform: P6
 flight_id: ACLOUD_P6_RF20
 contacts:
 - name: Dmitry Chechin
-  email: null
+  email: chechin@ifaran.ru
   tags:
   - pi
 - name: Giancarlo Marrollo

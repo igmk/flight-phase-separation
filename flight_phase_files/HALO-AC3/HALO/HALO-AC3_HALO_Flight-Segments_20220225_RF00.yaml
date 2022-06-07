@@ -4,7 +4,7 @@ platform: HALO
 flight_id: HALO-AC3_HALO_RF00
 contacts:
 - name: Manfred Wendisch
-  email: manfred.wendisch@uni-leipzig.de
+  email: m.wendisch@uni-leipzig.de
   tags:
   - pi
 - name: Mario Mech

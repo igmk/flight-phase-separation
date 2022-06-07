@@ -3,7 +3,7 @@ mission: ACLOUD
 platform: P6
 flight_id: ACLOUD_P6_RF11
 contacts:
-- name: "Emma J\xE4rvinen"
+- name: Emma Jaervinen
   email: null
   tags:
   - pi

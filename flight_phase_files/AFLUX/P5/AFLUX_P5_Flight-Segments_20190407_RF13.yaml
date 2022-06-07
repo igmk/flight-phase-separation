@@ -4,7 +4,7 @@ platform: P5
 flight_id: AFLUX_P5_RF13
 contacts:
 - name: Yvonne Boose
-  email: null
+  email: yvonne.boose@dlr.de
   tags:
   - pi
 - name: Nils Risse

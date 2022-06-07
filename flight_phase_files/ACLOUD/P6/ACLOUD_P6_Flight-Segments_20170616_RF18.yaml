@@ -2,8 +2,8 @@ name: RF18
 mission: ACLOUD
 platform: P6
 flight_id: ACLOUD_P6_RF18
-'contacts:':
-- name: "Emma J\xE4rvinen"
+contacts:
+- name: Emma Jaervinen
   email: null
   tags:
   - pi

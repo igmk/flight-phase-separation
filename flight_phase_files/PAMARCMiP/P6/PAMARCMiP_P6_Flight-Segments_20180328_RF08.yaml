@@ -5,8 +5,9 @@ flight_id: PAMARCMiP_P6_RF08
 contacts:
 - name: null
   email: null
+  tags: []
 date: 2018-03-28
-flight_report: None
+flight_report: null
 takeoff: 2018-03-28 11:02:25
 landing: 2018-03-28 13:05:30
 events: null

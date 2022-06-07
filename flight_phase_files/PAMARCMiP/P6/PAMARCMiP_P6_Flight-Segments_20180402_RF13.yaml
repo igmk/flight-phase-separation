@@ -5,8 +5,9 @@ flight_id: PAMARCMiP_P6_RF13
 contacts:
 - name: null
   email: null
+  tags: []
 date: 2018-04-02
-flight_report: None
+flight_report: null
 takeoff: 2018-04-02 15:07:10
 landing: 2018-04-02 16:28:40
 events: null

@@ -12,7 +12,7 @@ contacts:
   tags:
   - lc
 date: 2022-03-11
-flight_report: missing
+flight_report: null
 takeoff: 2022-03-11 13:19:27
 landing: 2022-03-11 16:22:29
 events: []

@@ -4,7 +4,7 @@ platform: P6
 flight_id: ACLOUD_P6_RF09
 contacts:
 - name: Heiko Bozem
-  email: null
+  email: bozemh@uni-mainz.de
   tags:
   - pi
 - name: Giancarlo Marrollo
