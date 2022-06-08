@@ -1,15 +1,15 @@
-name: RF04
+name: RF09
 mission: PAMARCMiP
-platform: P6
-flight_id: PAMARCMiP_P6_RF04
+platform: P5
+flight_id: PAMARCMiP_P5_RF09
 contacts:
 - name: null
   email: null
   tags: []
-date: 2018-03-25
+date: 2018-03-28
 flight_report: null
-takeoff: 2018-03-25 14:12:45
-landing: 2018-03-25 17:54:20
+takeoff: 2018-03-28 14:58:55
+landing: 2018-03-28 17:27:15
 events: null
 remarks: null
 co-location: []
@@ -18,7 +18,7 @@ segments:
   - major_ascend
   name: major ascend
   irregularities: []
-  segment_id: PAMARCMiP_P6_RF04_ma
+  segment_id: PAMARCMiP_P5_RF09_ma
   start: null
   end: null
   dropsondes: []
@@ -34,7 +34,7 @@ segments:
   - major_descend
   name: major descend
   irregularities: []
-  segment_id: PAMARCMiP_P6_RF04_md
+  segment_id: PAMARCMiP_P5_RF09_md
   start: null
   end: null
   dropsondes: []
