@@ -140,9 +140,9 @@ segments:
   - kinds:
     - small_ascent
     - procedure_turn
-    name: racetrack pattern 1 ascent 1
+    name: racetrack pattern 1 ascent 2
     irregularities: []
-    segment_id: HALO-AC3_P5_RF04_rt01_a01
+    segment_id: HALO-AC3_P5_RF04_rt01_a02
     start: 2022-03-25 13:10:05
     end: 2022-03-25 13:13:43
     levels:
@@ -162,7 +162,7 @@ segments:
   - short_turn
   name: small descent 1
   irregularities: []
-  segment_id: HALO-AC3_P5_RF04_sa01
+  segment_id: HALO-AC3_P5_RF04_sd01
   start: 2022-03-25 13:17:18
   end: 2022-03-25 13:18:15
   levels:
@@ -192,9 +192,9 @@ segments:
   dropsondes: []
 - kinds:
   - small_descent
-  name: small descent 1
+  name: small descent 2
   irregularities: []
-  segment_id: HALO-AC3_P5_RF04_sd01
+  segment_id: HALO-AC3_P5_RF04_sd02
   start: 2022-03-25 13:27:53
   end: 2022-03-25 13:31:35
   levels:
@@ -262,9 +262,9 @@ segments:
   - kinds:
     - small_ascent
     - procedure_turn
-    name: racetrack pattern 2 ascent 1
+    name: racetrack pattern 2 ascent 2
     irregularities: []
-    segment_id: HALO-AC3_P5_RF04_rt02_a01
+    segment_id: HALO-AC3_P5_RF04_rt02_a02
     start: 2022-03-25 13:48:09
     end: 2022-03-25 13:51:13
     levels:
@@ -282,9 +282,9 @@ segments:
   - kinds:
     - small_ascent
     - procedure_turn
-    name: racetrack pattern 2 ascent 1
+    name: racetrack pattern 2 ascent 3
     irregularities: []
-    segment_id: HALO-AC3_P5_RF04_rt02_a01
+    segment_id: HALO-AC3_P5_RF04_rt02_a03
     start: 2022-03-25 13:57:47
     end: 2022-03-25 14:00:48
     levels:
@@ -302,9 +302,9 @@ segments:
 - kinds:
   - small_descent
   - short_turn
-  name: small descent 1
+  name: small descent 3
   irregularities: []
-  segment_id: HALO-AC3_P5_RF04_sa01
+  segment_id: HALO-AC3_P5_RF04_sd03
   start: 2022-03-25 14:07:02
   end: 2022-03-25 14:08:18
   levels:
@@ -334,9 +334,9 @@ segments:
   dropsondes: []
 - kinds:
   - small_descent
-  name: small descent 2
+  name: small descent 4
   irregularities: []
-  segment_id: HALO-AC3_P5_RF04_sd02
+  segment_id: HALO-AC3_P5_RF04_sd04
   start: 2022-03-25 14:14:30
   end: 2022-03-25 14:16:43
   levels:
@@ -355,9 +355,9 @@ segments:
   dropsondes: []
 - kinds:
   - small_ascent
-  name: small ascent 2
+  name: small ascent 3
   irregularities: []
-  segment_id: HALO-AC3_P5_RF04_sa02
+  segment_id: HALO-AC3_P5_RF04_sa03
   start: 2022-03-25 14:19:30
   end: 2022-03-25 14:20:31
   levels:
@@ -366,9 +366,9 @@ segments:
   dropsondes: []
 - kinds:
   - low_level
-  name: low level 5
+  name: low level 6
   irregularities: []
-  segment_id: HALO-AC3_P5_RF04_ll05
+  segment_id: HALO-AC3_P5_RF04_ll06
   start: 2022-03-25 14:20:32
   end: 2022-03-25 14:24:52
   levels:
@@ -429,7 +429,7 @@ segments:
   - medium_descent
   name: medium descent 1
   irregularities: []
-  segment_id: HALO-AC3_P5_RF04_md03
+  segment_id: HALO-AC3_P5_RF04_md01
   start: 2022-03-25 14:47:16
   end: 2022-03-25 14:53:35
   levels:
@@ -464,8 +464,6 @@ segments:
     end: 2022-03-25 15:00:39
     levels:
     - 500
-    - 1000
-    - 1700
   - kinds:
     - procedure_turn
     name: procedure turn

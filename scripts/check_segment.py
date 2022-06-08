@@ -137,7 +137,8 @@ class SegmentCatalog:
                                   'large_descent',
                                   'low_level',
                                   'mid_level',
-                                  'high_level'
+                                  'high_level',
+                                  'short_turn',
                                   ],
              
              'radiation_square': ['short_turn',
@@ -374,7 +375,7 @@ def main(flight, meta):
     assert meta['mission']+'_'+meta['platform']+'_'+meta['name'] == meta['flight_id']
     assert type(meta['contacts']) == list
     assert type(meta['date']) == datetime.date
-    assert meta['flight_report'] != None
+    assert (meta['flight_report'] == None) or (type(meta['flight_report']) == str)
     assert type(meta['takeoff']) == datetime.datetime
     assert type(meta['landing']) == datetime.datetime
     assert type(meta['events']) == list

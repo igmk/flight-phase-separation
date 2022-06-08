@@ -227,10 +227,10 @@ segments:
   - 200
   dropsondes: []
 - kinds:
-  - radiation_square
-  name: radiation square 1
+  - racetrack_pattern
+  name: racetrack pattern 1
   irregularities: []
-  segment_id: ACLOUD_P6_RF10_rs01
+  segment_id: ACLOUD_P6_RF10_rt01
   start: 2017-05-31 16:46:55
   end: 2017-05-31 18:15:48
   levels:
@@ -244,9 +244,9 @@ segments:
   parts:
   - kinds:
     - low_level
-    name: radiation square 1 low level 1
+    name: racetrack pattern 1 low level 1
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_ll01
+    segment_id: ACLOUD_P6_RF10_rt01_ll01
     start: 2017-05-31 16:46:55
     end: 2017-05-31 16:50:44
     levels:
@@ -258,9 +258,9 @@ segments:
     end: 2017-05-31 16:51:40
   - kinds:
     - low_level
-    name: radiation square 1 low level 2
+    name: racetrack pattern 1 low level 2
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_ll02
+    segment_id: ACLOUD_P6_RF10_rt01_ll02
     start: 2017-05-31 16:51:41
     end: 2017-05-31 16:54:16
     levels:
@@ -272,18 +272,18 @@ segments:
     end: 2017-05-31 16:55:36
   - kinds:
     - low_level
-    name: radiation square 1 low level 3
+    name: racetrack pattern 1 low level 3
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_ll03
+    segment_id: ACLOUD_P6_RF10_rt01_ll03
     start: 2017-05-31 16:55:37
     end: 2017-05-31 16:58:36
     levels:
     - 200
   - kinds:
     - small_ascent
-    name: radiation square 1 small ascent 1
+    name: racetrack pattern 1 small ascent 1
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_sa01
+    segment_id: ACLOUD_P6_RF10_rt01_sa01
     start: 2017-05-31 16:58:37
     end: 2017-05-31 17:00:55
     levels:
@@ -291,9 +291,9 @@ segments:
     - 1100
   - kinds:
     - low_level
-    name: radiation square 1 low level 4
+    name: racetrack pattern 1 low level 4
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_ll04
+    segment_id: ACLOUD_P6_RF10_rt01_ll04
     start: 2017-05-31 17:00:56
     end: 2017-05-31 17:03:32
     levels:
@@ -305,9 +305,9 @@ segments:
     end: 2017-05-31 17:04:14
   - kinds:
     - low_level
-    name: radiation square 1 low level 5
+    name: racetrack pattern 1 low level 5
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_ll05
+    segment_id: ACLOUD_P6_RF10_rt01_ll05
     start: 2017-05-31 17:04:15
     end: 2017-05-31 17:07:43
     levels:
@@ -319,9 +319,9 @@ segments:
     end: 2017-05-31 17:08:54
   - kinds:
     - low_level
-    name: radiation square 1 low level 6
+    name: racetrack pattern 1 low level 6
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_ll06
+    segment_id: ACLOUD_P6_RF10_rt01_ll06
     start: 2017-05-31 17:08:55
     end: 2017-05-31 17:11:17
     levels:
@@ -333,18 +333,18 @@ segments:
     end: 2017-05-31 17:12:00
   - kinds:
     - low_level
-    name: radiation square 1 low level 7
+    name: racetrack pattern 1 low level 7
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_ll07
+    segment_id: ACLOUD_P6_RF10_rt01_ll07
     start: 2017-05-31 17:12:01
     end: 2017-05-31 17:15:01
     levels:
     - 1100
   - kinds:
     - small_ascent
-    name: radiation square 1 small ascent 2
+    name: racetrack pattern 1 small ascent 2
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_sa02
+    segment_id: ACLOUD_P6_RF10_rt01_sa02
     start: 2017-05-31 17:15:02
     end: 2017-05-31 17:18:14
     levels:
@@ -352,9 +352,9 @@ segments:
     - 3100
   - kinds:
     - low_level
-    name: radiation square 1 low level 8
+    name: racetrack pattern 1 low level 8
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_ll08
+    segment_id: ACLOUD_P6_RF10_rt01_ll08
     start: 2017-05-31 17:18:15
     end: 2017-05-31 17:19:44
     levels:
@@ -366,9 +366,9 @@ segments:
     end: 2017-05-31 17:20:38
   - kinds:
     - low_level
-    name: radiation square 1 low level 9
+    name: racetrack pattern 1 low level 9
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_ll09
+    segment_id: ACLOUD_P6_RF10_rt01_ll09
     start: 2017-05-31 17:20:39
     end: 2017-05-31 17:23:47
     levels:
@@ -380,9 +380,9 @@ segments:
     end: 2017-05-31 17:24:23
   - kinds:
     - low_level
-    name: radiation square 1 low level 10
+    name: racetrack pattern 1 low level 10
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_ll10
+    segment_id: ACLOUD_P6_RF10_rt01_ll10
     start: 2017-05-31 17:24:24
     end: 2017-05-31 17:27:12
     levels:
@@ -394,18 +394,18 @@ segments:
     end: 2017-05-31 17:28:00
   - kinds:
     - low_level
-    name: radiation square 1 low level 11
+    name: racetrack pattern 1 low level 11
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_ll11
+    segment_id: ACLOUD_P6_RF10_rt01_ll11
     start: 2017-05-31 17:28:01
     end: 2017-05-31 17:30:42
     levels:
     - 3100
   - kinds:
     - small_ascent
-    name: radiation square 1 small ascent 3
+    name: racetrack pattern 1 small ascent 3
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_sa03
+    segment_id: ACLOUD_P6_RF10_rt01_sa03
     start: 2017-05-31 17:30:43
     end: 2017-05-31 17:33:41
     levels:
@@ -413,9 +413,9 @@ segments:
     - 5000
   - kinds:
     - mid_level
-    name: radiation square 1 mid level 1
+    name: racetrack pattern 1 mid level 1
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_ml01
+    segment_id: ACLOUD_P6_RF10_rt01_ml01
     start: 2017-05-31 17:33:42
     end: 2017-05-31 17:35:10
     levels:
@@ -427,9 +427,9 @@ segments:
     end: 2017-05-31 17:35:50
   - kinds:
     - mid_level
-    name: radiation square 1 mid level 2
+    name: racetrack pattern 1 mid level 2
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_ml02
+    segment_id: ACLOUD_P6_RF10_rt01_ml02
     start: 2017-05-31 17:35:51
     end: 2017-05-31 17:39:08
     levels:
@@ -441,9 +441,9 @@ segments:
     end: 2017-05-31 17:40:15
   - kinds:
     - mid_level
-    name: radiation square 1 mid level 3
+    name: racetrack pattern 1 mid level 3
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_ml03
+    segment_id: ACLOUD_P6_RF10_rt01_ml03
     start: 2017-05-31 17:40:16
     end: 2017-05-31 17:42:35
     levels:
@@ -455,9 +455,9 @@ segments:
     end: 2017-05-31 17:43:13
   - kinds:
     - mid_level
-    name: radiation square 1 mid level 4
+    name: racetrack pattern 1 mid level 4
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_ml04
+    segment_id: ACLOUD_P6_RF10_rt01_ml04
     start: 2017-05-31 17:43:14
     end: 2017-05-31 17:46:02
     levels:
@@ -469,9 +469,9 @@ segments:
     end: 2017-05-31 17:46:44
   - kinds:
     - small_ascent
-    name: radiation square 1 small ascent 4
+    name: racetrack pattern 1 small ascent 4
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_sa04
+    segment_id: ACLOUD_P6_RF10_rt01_sa04
     start: 2017-05-31 17:46:45
     end: 2017-05-31 17:49:14
     levels:
@@ -479,9 +479,9 @@ segments:
     - 7000
   - kinds:
     - high_level
-    name: radiation square 1 high level 1
+    name: racetrack pattern 1 high level 1
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_hl01
+    segment_id: ACLOUD_P6_RF10_rt01_hl01
     start: 2017-05-31 17:49:15
     end: 2017-05-31 17:50:18
     levels:
@@ -493,9 +493,9 @@ segments:
     end: 2017-05-31 17:50:57
   - kinds:
     - high_level
-    name: radiation square 1 high level 2
+    name: racetrack pattern 1 high level 2
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_hl02
+    segment_id: ACLOUD_P6_RF10_rt01_hl02
     start: 2017-05-31 17:50:58
     end: 2017-05-31 17:54:16
     levels:
@@ -507,9 +507,9 @@ segments:
     end: 2017-05-31 17:55:12
   - kinds:
     - high_level
-    name: radiation square 1 high level 3
+    name: racetrack pattern 1 high level 3
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_hl03
+    segment_id: ACLOUD_P6_RF10_rt01_hl03
     start: 2017-05-31 17:55:13
     end: 2017-05-31 17:57:34
     levels:
@@ -521,9 +521,9 @@ segments:
     end: 2017-05-31 17:58:24
   - kinds:
     - high_level
-    name: radiation square 1 high level 4
+    name: racetrack pattern 1 high level 4
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_hl04
+    segment_id: ACLOUD_P6_RF10_rt01_hl04
     start: 2017-05-31 17:58:25
     end: 2017-05-31 18:00:45
     levels:
@@ -535,9 +535,9 @@ segments:
     end: 2017-05-31 18:01:51
   - kinds:
     - small_ascent
-    name: radiation square 1 small ascent 5
+    name: racetrack pattern 1 small ascent 5
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_sa05
+    segment_id: ACLOUD_P6_RF10_rt01_sa05
     start: 2017-05-31 18:01:52
     end: 2017-05-31 18:05:05
     levels:
@@ -550,9 +550,9 @@ segments:
     end: 2017-05-31 18:05:50
   - kinds:
     - high_level
-    name: radiation square 1 high level 5
+    name: racetrack pattern 1 high level 5
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_hl05
+    segment_id: ACLOUD_P6_RF10_rt01_hl05
     start: 2017-05-31 18:05:51
     end: 2017-05-31 18:08:46
     levels:
@@ -564,9 +564,9 @@ segments:
     end: 2017-05-31 18:09:29
   - kinds:
     - high_level
-    name: radiation square 1 high level 6
+    name: racetrack pattern 1 high level 6
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_hl06
+    segment_id: ACLOUD_P6_RF10_rt01_hl06
     start: 2017-05-31 18:09:30
     end: 2017-05-31 18:11:53
     levels:
@@ -578,9 +578,9 @@ segments:
     end: 2017-05-31 18:12:51
   - kinds:
     - high_level
-    name: radiation square 1 high level 7
+    name: racetrack pattern 1 high level 7
     irregularities: []
-    segment_id: ACLOUD_P6_RF10_rs01_hl07
+    segment_id: ACLOUD_P6_RF10_rt01_hl07
     start: 2017-05-31 18:12:52
     end: 2017-05-31 18:14:58
     levels:

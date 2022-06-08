@@ -89,7 +89,7 @@ segments:
     levels:
     - 9800
   - kinds:
-    - 360 turn
+    - 360_turn
     name: 360 turn
     start: 2017-06-08 08:33:21
     end: 2017-06-08 08:36:29

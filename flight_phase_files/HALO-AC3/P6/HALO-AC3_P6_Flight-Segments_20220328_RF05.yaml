@@ -13,8 +13,8 @@ contacts:
   - lc
 date: 2022-03-28
 flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=p6_flight_report_halo-ac3_20220328_rf05.pdf
-takeoff: 2022-03-28 09:00:00
-landing: 2022-03-28 18:00:00
+takeoff: 2022-03-28 11:33:42
+landing: 2022-03-28 16:18:00
 events: []
 remarks: []
 co-location:
@@ -28,7 +28,9 @@ segments:
   segment_id: HALO-AC3_P6_RF05_ma
   start: 2022-03-28 11:33:42
   end: 2022-03-28 11:39:39
-  levels: []
+  levels:
+  - 100
+  - 9000
   dropsondes: []
 - kinds:
   - high_level
@@ -37,7 +39,8 @@ segments:
   segment_id: HALO-AC3_P6_RF05_hl01
   start: 2022-03-28 11:39:40
   end: 2022-03-28 16:00:00
-  levels: []
+  levels:
+  - 9000
   dropsondes: []
 - kinds:
   - major_descent
@@ -46,5 +49,7 @@ segments:
   segment_id: HALO-AC3_P6_RF05_md
   start: 2022-03-28 16:00:01
   end: 2022-03-28 16:18:00
-  levels: []
+  levels:
+  - 9000
+  - 100
   dropsondes: []

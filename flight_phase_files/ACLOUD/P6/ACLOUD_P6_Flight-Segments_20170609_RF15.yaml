@@ -27,8 +27,19 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF15_ma
   start: 2017-06-09 07:59:45
-  end: 2017-06-09 09:18:05
+  end: 2017-06-09 09:18:03
   levels:
   - 100
+  - 100
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: ACLOUD_P6_RF15_md
+  start: 2017-06-09 09:18:04
+  end: 2017-06-09 09:18:05
+  levels:
+  - 900
   - 100
   dropsondes: []
