@@ -36,10 +36,230 @@ segments:
   irregularities: []
   segment_id: HALO-AC3_P6_RF03_hl01
   start: 2022-03-24 10:29:11
-  end: 2022-03-24 15:08:37
+  end: 2022-03-24 10:43:11
   levels:
   - 9000
   dropsondes: []
+- kinds:
+  - large_descent
+  name: large descent 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF03_ld01
+  start: 2022-03-24 10:43:12
+  end: 2022-03-24 11:01:19
+  levels:
+  - 9000
+  - 200
+  dropsondes: []
+- kinds:
+  - racetrack_pattern
+  name: racetrack pattern 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF03_rt01
+  start: 2022-03-24 11:01:20
+  end: 2022-03-24 12:03:18
+  levels:
+  - 200
+  - 1400
+  - 2800
+  - 5400
+  dropsondes: []
+  parts:
+  - kinds:
+    - low_level
+    name: racetrack pattern 1 low level 1
+    irregularities: []
+    segment_id: HALO-AC3_P6_RF03_rt01_ll01
+    start: 2022-03-24 11:01:20
+    end: 2022-03-24 11:23:48
+    levels:
+    - 200  
+  - kinds:
+    - small_ascent
+    - procedure_turn
+    name: racetrack pattern 1 ascent 1
+    irregularities: []
+    segment_id: HALO-AC3_P6_RF03_rt01_a01
+    start: 2022-03-24 11:23:49
+    end: 2022-03-24 11:26:19
+    levels:
+    - 200
+    - 1400
+  - kinds:
+    - low_level
+    name: racetrack pattern 1 low level 2
+    irregularities: []
+    segment_id: HALO-AC3_P6_RF03_rt01_ll02
+    start: 2022-03-24 11:26:20
+    end: 2022-03-24 11:36:18
+    levels:
+    - 1400  
+  - kinds:
+    - small_ascent
+    - procedure_turn
+    name: racetrack pattern 1 ascent 2
+    irregularities: []
+    segment_id: HALO-AC3_P6_RF03_rt01_a02
+    start: 2022-03-24 11:36:19
+    end: 2022-03-24 11:41:38
+    levels:
+    - 1400
+    - 2800
+  - kinds:
+    - low_level
+    name: racetrack pattern 1 low level 3
+    irregularities: []
+    segment_id: HALO-AC3_P6_RF03_rt01_ll03
+    start: 2022-03-24 11:41:39
+    end: 2022-03-24 11:53:51
+    levels:
+    - 2800
+  - kinds:
+    - small_ascent
+    - short_turn
+    name: racetrack pattern 1 ascent 3
+    irregularities: []
+    segment_id: HALO-AC3_P6_RF03_rt01_a03
+    start: 2022-03-24 11:53:52
+    end: 2022-03-24 11:57:52
+    levels:
+    - 2800
+    - 5400
+  - kinds:
+    - mid_level
+    name: racetrack pattern 1 mid level 1
+    irregularities: []
+    segment_id: HALO-AC3_P6_RF03_rt01_ml01
+    start: 2022-03-24 11:57:53
+    end: 2022-03-24 12:03:18
+    levels:
+    - 5400
+- kinds:
+  - sawtooth_pattern
+  name: sawtooth pattern 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF03_st01
+  start: 2022-03-24 12:03:19
+  end: 2022-03-24 12:23:57
+  levels:
+  - 100
+  dropsondes: []
+  parts:
+  - kinds:
+    - medium_descent
+    name: sawtooth pattern 1 descent 1
+    irregularities: []
+    segment_id: HALO-AC3_P6_RF03_st01_d01
+    start: 2022-03-24 12:03:19
+    end: 2022-03-24 12:14:22
+    levels:
+    - 5400
+    - 200
+  - kinds:
+    - small_ascent
+    name: sawtooth pattern 1 ascent 1
+    irregularities: []
+    segment_id: HALO-AC3_P6_RF03_st01_a01
+    start: 2022-03-24 12:14:23
+    end: 2022-03-24 12:18:19
+    levels:
+    - 200   
+    - 2800 
+  - kinds:
+    - small_descent
+    name: sawtooth pattern 1 descent 2
+    irregularities: []
+    segment_id: HALO-AC3_P6_RF03_st01_d02
+    start: 2022-03-24 12:18:20
+    end: 2022-03-24 12:23:57
+    levels:
+    - 2800 
+    - 200  
+- kinds:
+  - stairstep_pattern
+  name: stairstep pattern 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF03_ss01
+  start: 2022-03-24 12:23:58
+  end: 2022-03-24 13:06:13
+  levels:
+  - 200
+  - 1600
+  - 3400
+  - 5200
+  - 10000
+  - 12000
+  dropsondes: []
+#  parts:
+
+
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-24 13:06:14
+  end: 2022-03-24 13:07:35
+
+
+- kinds:
+  - racetrack_pattern
+  name: racetrack pattern 2
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF03_rt02
+  start: 2022-03-24 13:07:36
+  end: 2022-03-24 13:52:27
+  levels:
+  - 200
+  dropsondes: []
+#  parts:
+  
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-24 13:52:28
+  end: 2022-03-24 13:54:36
+
+
+- kinds:
+  - stairstep_pattern
+  name: stairstep pattern 2
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF03_ss02
+  start: 2022-03-24 13:54:37
+  end: 2022-03-24 14:46:16
+  levels:
+  - 200
+  dropsondes: []
+#  parts:
+
+
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2022-03-24 14:46:17
+  end: 2022-03-24 14:47:26
+  
+- kinds:
+  - large_ascent
+  name: large ascent 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF03_la01
+  start: 2022-03-24 14:47:27
+  end: 2022-03-24 14:59:19
+  levels:
+  - 2400
+  - 11000
+  dropsondes: []
+  
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF03_hl02
+  start: 2022-03-24 14:59:20
+  end: 2022-03-24 15:08:38
+  levels:
+  - 11000
+  dropsondes: []              
 - kinds:
   - major_descent
   name: major descent
