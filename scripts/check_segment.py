@@ -604,7 +604,7 @@ def main(flight, meta):
 
 if __name__ == '__main__':
     
-    check_single = False  #True
+    check_single = True
     
     if check_single:
     
