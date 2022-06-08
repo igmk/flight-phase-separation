@@ -6,11 +6,11 @@ contacts:
 - name: Manfred Wendisch
   email: m.wendisch@uni-leipzig.de
   tags:
-    - pi
+  - pi
 - name: Giancarlo Marrollo
   email: giancarlo.marrollo@uni-koeln.de
   tags:
-    - lc
+  - lc
 date: 2017-06-14
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=17_20170614_p6_acloud_flight_report.pdf
 takeoff: 2017-06-14 12:53:50
@@ -18,7 +18,8 @@ landing: 2017-06-14 17:36:10
 events: []
 remarks:
 - PS Meeting no7; Boundary layer profiling
-co-location: [ACLOUD_P5_RF17]
+co-location:
+- ACLOUD_P5_RF17
 segments:
 - kinds:
   - major_ascent
@@ -26,6 +27,19 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF17_ma
   start: 2017-06-14 12:53:50
+  end: 2017-06-14 17:36:08
+  levels:
+  - 100
+  - 100
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: ACLOUD_P6_RF17_md
+  start: 2017-06-14 17:36:09
   end: 2017-06-14 17:36:10
-  levels: [100, 100]
+  levels:
+  - 1000
+  - 100
   dropsondes: []

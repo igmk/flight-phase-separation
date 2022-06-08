@@ -1,40 +1,40 @@
 name: RF13
 mission: PAMARCMiP
-platform: P6
-flight_id: PAMARCMiP_P6_RF13
+platform: P5
+flight_id: PAMARCMiP_P5_RF13
 contacts:
-- name: 
-  email: 
+- name: null
+  email: null
+  tags: []
 date: 2018-04-02
-flight_report: None
+flight_report: null
 takeoff: 2018-04-02 15:07:10
 landing: 2018-04-02 16:28:40
-events:
-remarks:
+events: null
+remarks: null
 co-location: []
 segments:
 - kinds:
   - major_ascend
   name: major ascend
   irregularities: []
-  segment_id: PAMARCMiP_P6_RF13_ma
-  start: 
-  end: 
+  segment_id: PAMARCMiP_P5_RF13_ma
+  start: null
+  end: null
   dropsondes: []
 - kinds:
   - add_new_segments_here
-  name: 
+  name: null
   irregularities: []
-  segment_id: 
-  start: 
-  end: 
+  segment_id: null
+  start: null
+  end: null
   dropsondes: []
 - kinds:
   - major_descend
   name: major descend
   irregularities: []
-  segment_id: PAMARCMiP_P6_RF13_md
-  start: 
-  end: 
+  segment_id: PAMARCMiP_P5_RF13_md
+  start: null
+  end: null
   dropsondes: []
-

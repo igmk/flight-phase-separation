@@ -67,6 +67,7 @@ class SegmentCatalog:
                'medium_ascent',
                'medium_descent',
                'profiling',
+               'circle',
                'p6_co-location',
                'p5_co-location',
                'nya_overflight',
@@ -82,7 +83,7 @@ class SegmentCatalog:
               'long_turn',
               'procedure_turn',
               'cross_pattern_turn',
-              'circle',
+              '360_turn',
               'roll_maneuver',
               ]
     
@@ -93,6 +94,7 @@ class SegmentCatalog:
                'radiation_square',
                'holding_pattern',
                'noseboom_calibration_pattern',
+               'polygon_pattern'
                ]
     
     # parts
@@ -135,7 +137,8 @@ class SegmentCatalog:
                                   'large_descent',
                                   'low_level',
                                   'mid_level',
-                                  'high_level'
+                                  'high_level',
+                                  'short_turn',
                                   ],
              
              'radiation_square': ['short_turn',
@@ -145,7 +148,20 @@ class SegmentCatalog:
              'holding_pattern': ['high_level',
                                  'short_turn',
                                  'long_turn',
-                                 'circle',
+                                 '360_turn',
+                                 ],
+             
+             'polygon_pattern': ['low_level',
+                                 'mid_level',
+                                 'high_level',
+                                 'short_turn',
+                                 'small_ascent',
+                                 'small_descent',
+                                 'large_descent',
+                                 'medium_descent',
+                                 'medium_ascent',
+                                 'large_ascent',
+                                 'roll_maneuver',
                                  ],
              
              'noseboom_calibration_pattern': ['high_level', 
@@ -165,15 +181,15 @@ class SegmentCatalog:
                     'small descent',
                     'medium ascent',
                     'medium descent',
+                    'circle',
                     'instrument testing',
                     ]
     
     curves_name = ['short turn',
                    'long turn',
                    'procedure turn',
-                   'waiting pattern',
                    'cross pattern turn',
-                   'circle',
+                   '360 turn',
                    'roll_maneuver',
                    ]
     
@@ -184,6 +200,7 @@ class SegmentCatalog:
                     'radiation square',
                     'holding pattern',
                     'noseboom calibration pattern',
+                    'polygon pattern'
                     ]
     
     # parts names
@@ -215,8 +232,13 @@ class SegmentCatalog:
                  
                  'holding_pattern': ['holding pattern {} leg {}',
                                      'short turn',
-                                     'circle',
+                                     '360 turn',
                                      ],
+
+                 'polygon_pattern': ['polygon pattern {} leg {}',
+                                     'procedure turn',
+                                     'short turn',  
+                                    ], 
                  
                  'noseboom_calibration_pattern': ['noseboom calibration pattern {} leg {}', 
                                                   'short turn',
@@ -228,10 +250,9 @@ class SegmentCatalog:
                     'short turn',
                     'long turn',
                     'procedure turn',
-                    'waiting pattern',
                     'cross pattern turn',
                     'long legs pattern turn',
-                    'circle',
+                    '360 turn',
                     'instrument testing',
                     'roll maneuver'
                     ]
@@ -248,6 +269,7 @@ class SegmentCatalog:
                    'small descent': 'sd',
                    'medium ascent': 'ma',
                    'medium descent': 'md',
+                   'circle': 'ci',
                    'noseboom calibration': 'nc',
                    'instrument testing': 'it',
                    'racetrack pattern': 'rt',
@@ -256,6 +278,7 @@ class SegmentCatalog:
                    'sawtooth pattern': 'st',
                    'radiation square': 'rs',
                    'holding pattern': 'ho',
+                   'polygon pattern': 'pp',
                    'noseboom calibration pattern': 'np',
                    
                    # only used in parts
@@ -352,7 +375,7 @@ def main(flight, meta):
     assert meta['mission']+'_'+meta['platform']+'_'+meta['name'] == meta['flight_id']
     assert type(meta['contacts']) == list
     assert type(meta['date']) == datetime.date
-    assert meta['flight_report'] != None
+    assert (meta['flight_report'] == None) or (type(meta['flight_report']) == str)
     assert type(meta['takeoff']) == datetime.datetime
     assert type(meta['landing']) == datetime.datetime
     assert type(meta['events']) == list

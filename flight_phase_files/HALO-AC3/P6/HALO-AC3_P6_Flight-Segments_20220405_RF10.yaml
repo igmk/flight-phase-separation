@@ -17,7 +17,8 @@ takeoff: 2022-04-05 09:41:37
 landing: 2022-04-05 14:11:00
 events: []
 remarks: []
-co-location: [HALO-AC3_P5_RF11]
+co-location:
+- HALO-AC3_P5_RF11
 segments:
 - kinds:
   - major_ascent
@@ -26,7 +27,9 @@ segments:
   segment_id: HALO-AC3_P6_RF10_ma
   start: 2022-04-05 09:41:37
   end: 2022-04-05 09:48:38
-  levels: [100, 5600]
+  levels:
+  - 100
+  - 5600
   dropsondes: []
 - kinds:
   - high_level
@@ -35,7 +38,8 @@ segments:
   segment_id: HALO-AC3_P6_RF10_hl01
   start: 2022-04-05 09:48:39
   end: 2022-04-05 13:54:34
-  levels: [5600]
+  levels:
+  - 5600
   dropsondes: []
 - kinds:
   - major_descent

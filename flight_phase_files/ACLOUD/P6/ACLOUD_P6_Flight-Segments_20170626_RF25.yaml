@@ -6,18 +6,19 @@ contacts:
 - name: Mario Mech
   email: mario.mech@uni-koeln.de
   tags:
-    - pi
+  - pi
 - name: Daria Paul
   email: daria.paul@uni-koeln.de
   tags:
-    - lc
+  - lc
 date: 2017-06-26
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=25_20170626_p6_acloud_flight_report.pdf
 takeoff: 2017-06-26 12:33:05
 landing: 2017-06-26 14:48:20
 events: []
 remarks: []
-co-location: [ACLOUD_P5_RF25]
+co-location:
+- ACLOUD_P5_RF25
 segments:
 - kinds:
   - major_ascent
@@ -26,7 +27,9 @@ segments:
   segment_id: ACLOUD_P6_RF25_ma
   start: 2017-06-26 12:33:05
   end: 2017-06-26 12:44:38
-  levels: [100,9700]
+  levels:
+  - 100
+  - 9700
   dropsondes: []
 - kinds:
   - high_level
@@ -35,7 +38,8 @@ segments:
   segment_id: ACLOUD_P6_RF25_hl01
   start: 2017-06-26 12:44:39
   end: 2017-06-26 12:58:57
-  levels: [9700]
+  levels:
+  - 9700
   dropsondes: []
 - kinds:
   - large_descent
@@ -44,25 +48,30 @@ segments:
   segment_id: ACLOUD_P6_RF25_ld01
   start: 2017-06-26 12:58:58
   end: 2017-06-26 13:11:33
-  levels: [9700,200]
+  levels:
+  - 9700
+  - 200
   dropsondes: []
-- kinds:  
+- kinds:
   - low_level
   name: low level 1
   irregularities: []
   segment_id: ACLOUD_P6_RF25_ll01
   start: 2017-06-26 13:11:34
   end: 2017-06-26 13:26:56
-  levels: [300]
+  levels:
+  - 300
   dropsondes: []
-- kinds:  
+- kinds:
   - small_ascent
   name: small ascent 1
   irregularities: []
   segment_id: ACLOUD_P6_RF25_sa01
   start: 2017-06-26 13:26:57
   end: 2017-06-26 13:30:15
-  levels: [300, 2900]
+  levels:
+  - 300
+  - 2900
   dropsondes: []
 - kinds:
   - small_descent
@@ -72,17 +81,20 @@ segments:
   segment_id: ACLOUD_P6_RF25_sd01
   start: 2017-06-26 13:30:16
   end: 2017-06-26 13:33:41
-  levels: [2900, 400]
+  levels:
+  - 2900
+  - 400
   dropsondes: []
-- kinds:  
+- kinds:
   - low_level
   name: low level 2
   irregularities: []
   segment_id: ACLOUD_P6_RF25_ll02
   start: 2017-06-26 13:33:42
   end: 2017-06-26 13:57:15
-  levels: [600]
-  dropsondes: []   
+  levels:
+  - 600
+  dropsondes: []
 - kinds:
   - stairstep_pattern
   name: stairstep pattern 1
@@ -90,7 +102,12 @@ segments:
   segment_id: ACLOUD_P6_RF25_ss01
   start: 2017-06-26 13:57:16
   end: 2017-06-26 14:35:22
-  levels: [400, 6000, 6900, 1200, 100]
+  levels:
+  - 400
+  - 6000
+  - 6900
+  - 1200
+  - 100
   dropsondes: []
   parts:
   - kinds:
@@ -100,7 +117,9 @@ segments:
     segment_id: ACLOUD_P6_RF25_ss01_a01
     start: 2017-06-26 13:57:16
     end: 2017-06-26 14:03:58
-    levels: [500, 6000]
+    levels:
+    - 500
+    - 6000
   - kinds:
     - mid_level
     name: stairstep pattern 1 mid level 1
@@ -108,15 +127,18 @@ segments:
     segment_id: ACLOUD_P6_RF25_ss01_ml01
     start: 2017-06-26 14:03:59
     end: 2017-06-26 14:09:39
-    levels: [5900]
-  - kinds:  
+    levels:
+    - 5900
+  - kinds:
     - small_ascent
     name: stairstep pattern 1 ascent 2
     irregularities: []
     segment_id: ACLOUD_P6_RF25_ss01_a02
     start: 2017-06-26 14:09:40
     end: 2017-06-26 14:12:41
-    levels: [5900, 6900]
+    levels:
+    - 5900
+    - 6900
   - kinds:
     - high_level
     name: stairstep pattern 1 high level 1
@@ -124,7 +146,8 @@ segments:
     segment_id: ACLOUD_P6_RF25_ss01_hl01
     start: 2017-06-26 14:12:42
     end: 2017-06-26 14:35:22
-    levels: [6800]
+    levels:
+    - 6800
 - kinds:
   - major_descent
   name: major descent
@@ -132,5 +155,7 @@ segments:
   segment_id: ACLOUD_P6_RF25_md
   start: 2017-06-26 14:35:23
   end: 2017-06-26 14:48:20
-  levels: [900, 100]
+  levels:
+  - 900
+  - 100
   dropsondes: []

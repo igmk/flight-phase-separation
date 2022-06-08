@@ -20,7 +20,8 @@ events:
 - Radiometer calibration
 remarks:
 - Thin broken clouds over sea ice
-co-location: [ACLOUD_P6_RF14]
+co-location:
+- ACLOUD_P6_RF14
 segments:
 - kinds:
   - major_ascent
@@ -88,8 +89,8 @@ segments:
     levels:
     - 9800
   - kinds:
-    - circle
-    name: circle
+    - 360_turn
+    name: 360 turn
     start: 2017-06-08 08:33:21
     end: 2017-06-08 08:36:29
 - kinds:

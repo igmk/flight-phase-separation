@@ -6,11 +6,11 @@ contacts:
 - name: Johannes Schneider
   email: johannes.schneider@mpic.de
   tags:
-    - pi
+  - pi
 - name: Giancarlo Marrollo
   email: giancarlo.marrollo@uni-koeln.de
   tags:
-    - lc
+  - lc
 date: 2017-06-09
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=15_20170609_p6_acloud_flight_report.pdf
 takeoff: 2017-06-09 07:59:45
@@ -18,7 +18,8 @@ landing: 2017-06-09 09:18:05
 events: []
 remarks:
 - P5 / P6 Instrument intercomparison
-co-location: [ACLOUD_P5_RF15]
+co-location:
+- ACLOUD_P5_RF15
 segments:
 - kinds:
   - major_ascent
@@ -26,6 +27,19 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF15_ma
   start: 2017-06-09 07:59:45
+  end: 2017-06-09 09:18:03
+  levels:
+  - 100
+  - 100
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: ACLOUD_P6_RF15_md
+  start: 2017-06-09 09:18:04
   end: 2017-06-09 09:18:05
-  levels: [100, 100]
+  levels:
+  - 900
+  - 100
   dropsondes: []

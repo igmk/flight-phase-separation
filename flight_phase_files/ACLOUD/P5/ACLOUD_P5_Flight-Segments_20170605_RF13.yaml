@@ -21,7 +21,8 @@ events:
 remarks:
 - Low clouds in warm air over sea ice
 - MiRAC not working
-co-location: [ACLOUD_P6_RF13]
+co-location:
+- ACLOUD_P6_RF13
 segments:
 - kinds:
   - major_ascent

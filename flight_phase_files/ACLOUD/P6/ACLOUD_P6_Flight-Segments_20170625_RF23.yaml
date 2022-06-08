@@ -6,11 +6,11 @@ contacts:
 - name: Mario Mech
   email: mario.mech@uni-koeln.de
   tags:
-    - pi
+  - pi
 - name: Giancarlo Marrollo
   email: giancarlo.marrollo@uni-koeln.de
   tags:
-    - lc
+  - lc
 date: 2017-06-25
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=23_20170625_p6_acloud_flight_report.pdf
 takeoff: 2017-06-25 11:03:15
@@ -18,7 +18,8 @@ landing: 2017-06-25 16:56:00
 events: []
 remarks:
 - Boundary layer profiling in clear sky conditions
-co-location: [ACLOUD_P5_RF23]
+co-location:
+- ACLOUD_P5_RF23
 segments:
 - kinds:
   - major_ascent
@@ -26,6 +27,19 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF23_ma
   start: 2017-06-25 11:03:15
+  end: 2017-06-25 16:55:58
+  levels:
+  - 100
+  - 100
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: ACLOUD_P6_RF23_md
+  start: 2017-06-25 16:55:59
   end: 2017-06-25 16:56:00
-  levels: [100, 100]
+  levels:
+  - 900
+  - 100
   dropsondes: []

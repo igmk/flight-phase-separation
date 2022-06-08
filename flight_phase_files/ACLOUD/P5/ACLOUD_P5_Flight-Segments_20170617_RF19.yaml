@@ -20,7 +20,8 @@ events:
 - Radiation square pattern
 remarks:
 - Clouds above open water and sea ice
-co-location: [ACLOUD_P6_RF19]
+co-location:
+- ACLOUD_P6_RF19
 segments:
 - kinds:
   - major_ascent

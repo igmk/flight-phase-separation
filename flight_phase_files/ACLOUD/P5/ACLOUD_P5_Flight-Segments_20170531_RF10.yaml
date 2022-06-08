@@ -22,7 +22,8 @@ events:
 remarks:
 - Thin low clouds over sea ice
 - AMALi pointing zenith
-co-location: [ACLOUD_P6_RF10]
+co-location:
+- ACLOUD_P6_RF10
 segments:
 - kinds:
   - major_ascent

@@ -20,7 +20,8 @@ events:
 - Racetrack pattern over sea ice
 remarks:
 - Thin low level clouds over sea ice
-co-location: [ACLOUD_P6_RF08]
+co-location:
+- ACLOUD_P6_RF08
 segments:
 - kinds:
   - major_ascent

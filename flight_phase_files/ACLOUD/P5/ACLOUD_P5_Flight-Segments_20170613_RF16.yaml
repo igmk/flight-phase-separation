@@ -19,7 +19,8 @@ events:
 - Noseboom calibration
 - Test flight
 remarks: []
-co-location: [ACLOUD_P6_RF16]
+co-location:
+- ACLOUD_P6_RF16
 segments:
 - kinds:
   - major_ascent

@@ -19,8 +19,8 @@ events:
 - Ny-Alesund overflight
 remarks: []
 co-location:
-  - HALO-AC3_P6_RF07
-  - HALO-AC3_HALO_RF11
+- HALO-AC3_P6_RF07
+- HALO-AC3_HALO_RF11
 segments:
 - kinds:
   - major_ascent
@@ -29,7 +29,9 @@ segments:
   segment_id: HALO-AC3_P5_RF08_ma
   start: 2022-03-30 11:34:46
   end: 2022-03-30 11:46:49
-  levels: [100, 9600]
+  levels:
+  - 100
+  - 9600
   dropsondes: []
 - kinds:
   - high_level
@@ -39,7 +41,8 @@ segments:
   segment_id: HALO-AC3_P5_RF08_hl01
   start: 2022-03-30 11:46:50
   end: 2022-03-30 11:59:34
-  levels: [9600]
+  levels:
+  - 9600
   dropsondes: []
 - kinds:
   - short_turn
@@ -54,7 +57,8 @@ segments:
   segment_id: HALO-AC3_P5_RF08_hl02
   start: 2022-03-30 12:00:01
   end: 2022-03-30 12:19:09
-  levels: [9700]
+  levels:
+  - 9700
   dropsondes: []
 - kinds:
   - short_turn
@@ -68,7 +72,8 @@ segments:
   segment_id: HALO-AC3_P5_RF08_hl03
   start: 2022-03-30 12:19:20
   end: 2022-03-30 12:47:41
-  levels: [9700]
+  levels:
+  - 9700
   dropsondes: []
 - kinds:
   - short_turn
@@ -82,7 +87,8 @@ segments:
   segment_id: HALO-AC3_P5_RF08_hl04
   start: 2022-03-30 12:51:14
   end: 2022-03-30 12:56:00
-  levels: [9700]
+  levels:
+  - 9700
   dropsondes: []
 - kinds:
   - long_turn
@@ -96,7 +102,8 @@ segments:
   segment_id: HALO-AC3_P5_RF08_hl05
   start: 2022-03-30 12:58:30
   end: 2022-03-30 13:24:24
-  levels: [9700]
+  levels:
+  - 9700
   dropsondes: []
 - kinds:
   - long_turn
@@ -110,7 +117,8 @@ segments:
   segment_id: HALO-AC3_P5_RF08_hl06
   start: 2022-03-30 13:26:45
   end: 2022-03-30 13:33:47
-  levels: [9600]
+  levels:
+  - 9600
   dropsondes: []
 - kinds:
   - short_turn
@@ -125,7 +133,8 @@ segments:
   segment_id: HALO-AC3_P5_RF08_hl07
   start: 2022-03-30 13:34:46
   end: 2022-03-30 14:02:24
-  levels: [9700]
+  levels:
+  - 9700
   dropsondes: []
 - kinds:
   - long_turn
@@ -139,7 +148,8 @@ segments:
   segment_id: HALO-AC3_P5_RF08_hl08
   start: 2022-03-30 14:06:00
   end: 2022-03-30 14:12:06
-  levels: [9700]
+  levels:
+  - 9700
   dropsondes: []
 - kinds:
   - short_turn
@@ -149,12 +159,13 @@ segments:
 - kinds:
   - high_level
   name: high level 9
-  irregularities: 
+  irregularities:
   - slight curve in beginning of segment
   segment_id: HALO-AC3_P5_RF08_hl09
   start: 2022-03-30 14:13:07
   end: 2022-03-30 14:38:09
-  levels: [9700]
+  levels:
+  - 9700
   dropsondes: []
 - kinds:
   - procedure_turn
@@ -168,7 +179,8 @@ segments:
   segment_id: HALO-AC3_P5_RF08_hl10
   start: 2022-03-30 14:40:42
   end: 2022-03-30 14:56:58
-  levels: [9700]
+  levels:
+  - 9700
   dropsondes: []
 - kinds:
   - short_turn
@@ -183,7 +195,8 @@ segments:
   segment_id: HALO-AC3_P5_RF08_hl11
   start: 2022-03-30 14:57:49
   end: 2022-03-30 15:14:19
-  levels: [9700]
+  levels:
+  - 9700
   dropsondes: []
 - kinds:
   - short_turn
@@ -197,7 +210,8 @@ segments:
   segment_id: HALO-AC3_P5_RF08_hl12
   start: 2022-03-30 15:15:18
   end: 2022-03-30 15:27:05
-  levels: [9600]
+  levels:
+  - 9600
   dropsondes: []
 - kinds:
   - short_turn
@@ -211,7 +225,8 @@ segments:
   segment_id: HALO-AC3_P5_RF08_hl13
   start: 2022-03-30 15:28:01
   end: 2022-03-30 15:47:30
-  levels: [9600]
+  levels:
+  - 9600
   dropsondes: []
 - kinds:
   - major_descent
@@ -220,5 +235,7 @@ segments:
   segment_id: HALO-AC3_P5_RF08_md
   start: 2022-03-30 15:47:31
   end: 2022-03-30 16:02:14
-  levels: [9600, 100]
+  levels:
+  - 9600
+  - 100
   dropsondes: []

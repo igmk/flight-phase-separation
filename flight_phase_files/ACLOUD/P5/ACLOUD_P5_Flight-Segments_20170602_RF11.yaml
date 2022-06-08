@@ -21,14 +21,15 @@ events:
 - A-train underflight
 remarks:
 - Low clouds in warm air over sea ice
-co-location: [ACLOUD_P6_RF11]
+co-location:
+- ACLOUD_P6_RF11
 segments:
 - kinds:
   - major_ascent
   - nya_overflight
   name: major ascent
   irregularities:
-  - circle at end of ascent
+  - 360 turn at end of ascent
   segment_id: ACLOUD_P5_RF11_ma
   start: 2017-06-02 08:30:40
   end: 2017-06-02 08:58:07
@@ -137,8 +138,8 @@ segments:
   dropsondes: []
   parts:
   - kinds:
-    - circle
-    name: circle
+    - 360_turn
+    name: 360 turn
     start: 2017-06-02 09:36:55
     end: 2017-06-02 09:40:38
 - kinds:

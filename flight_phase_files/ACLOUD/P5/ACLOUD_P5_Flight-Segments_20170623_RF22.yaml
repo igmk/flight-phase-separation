@@ -18,7 +18,8 @@ landing: 2017-06-23 14:38:35
 events:
 - Ny-Alesund overflight with cross pattern
 remarks: []
-co-location: [ACLOUD_P6_RF22]
+co-location:
+- ACLOUD_P6_RF22
 segments:
 - kinds:
   - major_ascent

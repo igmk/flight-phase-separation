@@ -28,7 +28,9 @@ segments:
   segment_id: HALO-AC3_P6_RF07_ma
   start: 2022-03-30 10:28:00
   end: 2022-03-30 10:40:55
-  levels: [100, 9600]
+  levels:
+  - 100
+  - 9600
   dropsondes: []
 - kinds:
   - high_level
@@ -37,16 +39,20 @@ segments:
   segment_id: HALO-AC3_P6_RF07_hl01
   start: 2022-03-30 10:40:56
   end: 2022-03-30 11:17:46
-  levels: [9600]
+  levels:
+  - 9600
+  dropsondes: []
 - kinds:
   - large_descent
-  - short turn
+  - short_turn
   name: large descent 1
   irregularities: []
   segment_id: HALO-AC3_P6_RF07_ld01
-  start: 2022-03-30 11:17:46
+  start: 2022-03-30 11:17:47
   end: 2022-03-30 11:32:39
-  levels: [9600, 200]
+  levels:
+  - 9600
+  - 200
   dropsondes: []
 - kinds:
   - racetrack_pattern
@@ -55,10 +61,14 @@ segments:
   segment_id: HALO-AC3_P6_RF07_rt01
   start: 2022-03-30 11:32:40
   end: 2022-03-30 12:32:17
-  levels: [200, 600, 900, 2000, 4000]
+  levels:
+  - 200
+  - 600
+  - 900
+  - 2000
+  - 4000
   dropsondes: []
-#  parts:
-
+  parts: []
 - kinds:
   - low_level
   name: low level 1
@@ -66,8 +76,9 @@ segments:
   segment_id: HALO-AC3_P6_RF07_ll01
   start: 2022-03-30 12:32:18
   end: 2022-03-30 12:53:21
-  levels: [200]
-  
+  levels:
+  - 200
+  dropsondes: []
 - kinds:
   - sawtooth_pattern
   name: sawtooth pattern 1
@@ -75,10 +86,16 @@ segments:
   segment_id: HALO-AC3_P6_RF07_st01
   start: 2022-03-30 12:53:22
   end: 2022-03-30 13:31:52
-  levels: [200, 800, 1000, 1200, 1700, 2000, 2500]
+  levels:
+  - 200
+  - 800
+  - 1000
+  - 1200
+  - 1700
+  - 2000
+  - 2500
   dropsondes: []
-#  parts:
-  
+  parts: []
 - kinds:
   - racetrack_pattern
   name: racetrack pattern 2
@@ -86,10 +103,14 @@ segments:
   segment_id: HALO-AC3_P6_RF07_rt02
   start: 2022-03-30 13:31:53
   end: 2022-03-30 14:42:02
-  levels: [200, 600, 900, 2000, 4000]
+  levels:
+  - 200
+  - 600
+  - 900
+  - 2000
+  - 4000
   dropsondes: []
-#  parts:  
-
+  parts: []
 - kinds:
   - high_level
   name: high level 2
@@ -97,7 +118,8 @@ segments:
   segment_id: HALO-AC3_P6_RF07_hl02
   start: 2022-03-30 14:42:03
   end: 2022-03-30 15:16:21
-  levels: [9600]  
+  levels:
+  - 9600
   dropsondes: []
 - kinds:
   - major_descent
@@ -106,5 +128,7 @@ segments:
   segment_id: HALO-AC3_P6_RF07_md
   start: 2022-03-30 15:16:22
   end: 2022-03-30 15:28:59
-  levels: [9600, 100]
+  levels:
+  - 9600
+  - 100
   dropsondes: []

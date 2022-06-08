@@ -8,7 +8,7 @@ contacts:
   tags:
   - lc
 date: 2020-08-31
-flight_report: no flight report was created
+flight_report: null
 takeoff: 2020-08-31 10:20:35
 landing: 2020-08-31 10:58:55
 events:

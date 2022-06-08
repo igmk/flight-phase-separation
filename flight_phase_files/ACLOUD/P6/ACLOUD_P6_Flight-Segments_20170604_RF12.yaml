@@ -3,14 +3,14 @@ mission: ACLOUD
 platform: P6
 flight_id: ACLOUD_P6_RF12
 contacts:
-- name: Emma Järvinen
+- name: Emma Jaervinen
   email: null
   tags:
-    - pi
+  - pi
 - name: Giancarlo Marrollo
   email: giancarlo.marrollo@uni-koeln.de
   tags:
-    - lc
+  - lc
 date: 2017-06-04
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=12_20170604_p6_acloud_flight_report.pdf
 takeoff: 2017-06-04 08:06:55
@@ -27,7 +27,9 @@ segments:
   segment_id: ACLOUD_P6_RF12_ma
   start: 2017-06-04 08:06:55
   end: 2017-06-04 08:14:18
-  levels: [100, 5900]
+  levels:
+  - 100
+  - 5900
   dropsondes: []
 - kinds:
   - mid_level
@@ -36,7 +38,8 @@ segments:
   segment_id: ACLOUD_P6_RF12_ml01
   start: 2017-06-04 08:14:19
   end: 2017-06-04 08:18:52
-  levels: [5900]
+  levels:
+  - 5900
   dropsondes: []
 - kinds:
   - medium_ascent
@@ -45,7 +48,9 @@ segments:
   segment_id: ACLOUD_P6_RF12_ma01
   start: 2017-06-04 08:18:53
   end: 2017-06-04 08:24:07
-  levels: [5900, 9800]
+  levels:
+  - 5900
+  - 9800
   dropsondes: []
 - kinds:
   - high_level
@@ -54,7 +59,8 @@ segments:
   segment_id: ACLOUD_P6_RF12_hl01
   start: 2017-06-04 08:24:08
   end: 2017-06-04 08:29:53
-  levels: [9800]
+  levels:
+  - 9800
   dropsondes: []
 - kinds:
   - procedure_turn
@@ -68,7 +74,8 @@ segments:
   segment_id: ACLOUD_P6_RF12_hl02
   start: 2017-06-04 08:31:39
   end: 2017-06-04 08:37:22
-  levels: [9900]
+  levels:
+  - 9900
   dropsondes: []
 - kinds:
   - short_turn
@@ -82,7 +89,8 @@ segments:
   segment_id: ACLOUD_P6_RF12_hl03
   start: 2017-06-04 08:38:38
   end: 2017-06-04 08:45:34
-  levels: [9900]
+  levels:
+  - 9900
   dropsondes: []
 - kinds:
   - medium_descent
@@ -91,19 +99,18 @@ segments:
   segment_id: ACLOUD_P6_RF12_md01
   start: 2017-06-04 08:45:35
   end: 2017-06-04 08:59:17
-  levels: [9900, 3900]
+  levels:
+  - 9900
+  - 3900
   dropsondes: []
-
-######################
-# to be continued... #
-######################
-
 - kinds:
   - major_descent
   name: major descent
   irregularities: []
   segment_id: ACLOUD_P6_RF12_md
-  start: 2017-06-04 13:23:20
+  start: 2017-06-04 08:59:18
   end: 2017-06-04 13:39:10
-  levels: [100, 8900]
+  levels:
+  - 100
+  - 8900
   dropsondes: []
