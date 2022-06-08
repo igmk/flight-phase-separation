@@ -1,0 +1,53 @@
+name: RF12
+mission: HALO-AC3
+platform: P6
+flight_id: HALO-AC3_P6_RF12
+contacts:
+- name: Christof Luepkes
+  email: christof.luepkes@awi.de
+  tags:
+  - pi
+- name: Daria Paul
+  email: daria.paul@uni-koeln.de
+  tags:
+  - lc
+date: 2022-04-09
+flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=p6_flight_report_halo-ac3_20220409_rf12.pdf
+takeoff: 2022-04-09 10:03:40
+landing: 2022-04-09 14:53:22
+events: []
+remarks: []
+co-location: []
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF12_ma
+  start: 2022-04-09 10:03:40
+  end: 2022-04-09 10:16:10
+  levels:
+  - 100
+  - 9500
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF12_hl01
+  start: 2022-04-09 10:16:11
+  end: 2022-04-09 14:42:05
+  levels:
+  - 9500
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF12_md
+  start: 2022-04-09 14:42:06
+  end: 2022-04-09 14:53:22
+  levels:
+  - 7600
+  - 100
+  dropsondes: []

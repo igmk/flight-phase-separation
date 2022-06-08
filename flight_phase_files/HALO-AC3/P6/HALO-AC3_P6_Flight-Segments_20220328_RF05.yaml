@@ -1,0 +1,55 @@
+name: RF05
+mission: HALO-AC3
+platform: P6
+flight_id: HALO-AC3_P6_RF05
+contacts:
+- name: Christiane Voigt
+  email: christiane.voigt@dlr.de
+  tags:
+  - pi
+- name: Daria Paul
+  email: daria.paul@uni-koeln.de
+  tags:
+  - lc
+date: 2022-03-28
+flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=p6_flight_report_halo-ac3_20220328_rf05.pdf
+takeoff: 2022-03-28 11:33:42
+landing: 2022-03-28 16:18:00
+events: []
+remarks: []
+co-location:
+- HALO-AC3_HALO_RF09
+- HALO-AC3_P5_RF05
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF05_ma
+  start: 2022-03-28 11:33:42
+  end: 2022-03-28 11:39:39
+  levels:
+  - 100
+  - 9000
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF05_hl01
+  start: 2022-03-28 11:39:40
+  end: 2022-03-28 16:00:00
+  levels:
+  - 9000
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF05_md
+  start: 2022-03-28 16:00:01
+  end: 2022-03-28 16:18:00
+  levels:
+  - 9000
+  - 100
+  dropsondes: []

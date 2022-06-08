@@ -130,6 +130,8 @@ dmypy.json
 
 scripts/paths.yaml
 scripts/flight_settings.yaml
+scripts/view_flight_segments_old.py
+scripts/view_levels_per_segment_interactive_old.py
 <<<<<<< HEAD
 # flight_phase_files/ACLOUD/P5/ACLOUD_P5_Flight-Segments_20170608_RF14.yaml
 =======

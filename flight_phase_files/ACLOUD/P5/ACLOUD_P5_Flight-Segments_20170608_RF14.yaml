@@ -15,12 +15,13 @@ landing: 2017-06-08 12:51:25
 events:
 - Ny-Alesund overflight with cross pattern
 - Polarstern overflight with cross pattern
-- Colocation with P6 at Polarstern
 - A-train underflight
 - Racetrack pattern over sea ice
 - Radiometer calibration
 remarks:
 - Thin broken clouds over sea ice
+co-location:
+- ACLOUD_P6_RF14
 segments:
 - kinds:
   - major_ascent
@@ -88,8 +89,8 @@ segments:
     levels:
     - 9800
   - kinds:
-    - circle
-    name: circle
+    - 360_turn
+    name: 360 turn
     start: 2017-06-08 08:33:21
     end: 2017-06-08 08:36:29
 - kinds:

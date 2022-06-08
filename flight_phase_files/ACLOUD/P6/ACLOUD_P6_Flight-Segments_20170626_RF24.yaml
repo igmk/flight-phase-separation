@@ -6,11 +6,11 @@ contacts:
 - name: Mario Mech
   email: mario.mech@uni-koeln.de
   tags:
-    - pi
+  - pi
 - name: Giancarlo Marrollo
   email: giancarlo.marrollo@uni-koeln.de
   tags:
-    - lc
+  - lc
 date: 2017-06-26
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=24_20170626_p6_acloud_flight_report.pdf
 takeoff: 2017-06-26 08:33:20
@@ -18,6 +18,7 @@ landing: 2017-06-26 10:39:50
 events: []
 remarks:
 - Calibration pattern for AIMMS-20
+co-location: []
 segments:
 - kinds:
   - major_ascent
@@ -25,6 +26,19 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF24_ma
   start: 2017-06-26 08:33:20
+  end: 2017-06-26 10:39:48
+  levels:
+  - 100
+  - 100
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: ACLOUD_P6_RF24_md
+  start: 2017-06-26 10:39:49
   end: 2017-06-26 10:39:50
-  levels: [100, 100]
+  levels:
+  - 1000
+  - 100
   dropsondes: []

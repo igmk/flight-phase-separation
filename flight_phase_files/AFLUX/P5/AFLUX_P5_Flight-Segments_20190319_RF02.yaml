@@ -6,8 +6,8 @@ contacts:
 - name: Mario Mech
   email: mario.mech@uni-koeln.de
   tags:
-  - lc
   - pi
+  - lc
 date: 2019-03-19
 flight_report: https://home.uni-leipzig.de/~ehrlich/AFLUX_wiki_doku/lib/exe/fetch.php?media=02_20190319_aflux_flight_report.pdf
 takeoff: 2019-03-19 16:35:45
@@ -15,6 +15,7 @@ landing: 2019-03-19 17:55:05
 events:
 - Test flight
 remarks: []
+co-location: []
 segments:
 - kinds:
   - major_ascent

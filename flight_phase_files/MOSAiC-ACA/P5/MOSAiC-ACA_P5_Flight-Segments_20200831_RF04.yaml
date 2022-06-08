@@ -17,8 +17,8 @@ takeoff: 2020-08-31 12:40:15
 landing: 2020-08-31 14:55:00
 events:
 - Test flight
-- Joint flight between P5 and P6
 remarks: []
+co-location: []
 segments:
 - kinds:
   - major_ascent

@@ -12,11 +12,12 @@ contacts:
   tags:
   - lc
 date: 2022-03-11
-flight_report: missing
+flight_report: null
 takeoff: 2022-03-11 13:19:27
 landing: 2022-03-11 16:22:29
 events: []
 remarks: []
+co-location: []
 segments:
 - kinds:
   - major_ascent
@@ -25,7 +26,9 @@ segments:
   segment_id: HALO-AC3_HALO_RF01_ma
   start: 2022-03-11 13:19:27
   end: 2022-03-11 13:39:57
-  levels: [2100, 40600]
+  levels:
+  - 2100
+  - 40600
   dropsondes: []
 - kinds:
   - high_level
@@ -34,7 +37,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF01_hl01
   start: 2022-03-11 13:39:58
   end: 2022-03-11 13:55:37
-  levels: [40600]
+  levels:
+  - 40600
   dropsondes: []
 - kinds:
   - short_turn
@@ -48,7 +52,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF01_hl02
   start: 2022-03-11 13:56:30
   end: 2022-03-11 14:07:45
-  levels: [40500]
+  levels:
+  - 40500
   dropsondes: []
 - kinds:
   - short_turn
@@ -62,7 +67,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF01_hl03
   start: 2022-03-11 14:08:50
   end: 2022-03-11 14:21:20
-  levels: [40500]
+  levels:
+  - 40500
   dropsondes: []
 - kinds:
   - short_turn
@@ -76,7 +82,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF01_hl04
   start: 2022-03-11 14:24:10
   end: 2022-03-11 14:48:15
-  levels: [40600]
+  levels:
+  - 40600
   dropsondes: []
 - kinds:
   - medium_ascent
@@ -85,7 +92,9 @@ segments:
   segment_id: HALO-AC3_HALO_RF01_ma01
   start: 2022-03-11 14:48:16
   end: 2022-03-11 14:54:18
-  levels: [40600, 44400]
+  levels:
+  - 40600
+  - 44400
   dropsondes: []
 - kinds:
   - high_level
@@ -94,7 +103,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF01_hl05
   start: 2022-03-11 14:54:19
   end: 2022-03-11 15:54:01
-  levels: [44400]
+  levels:
+  - 44400
   dropsondes: []
 - kinds:
   - major_descent
@@ -103,5 +113,7 @@ segments:
   segment_id: HALO-AC3_HALO_RF01_md
   start: 2022-03-11 15:54:02
   end: 2022-03-11 16:22:29
-  levels: [44300, 1600]
+  levels:
+  - 44300
+  - 1600
   dropsondes: []

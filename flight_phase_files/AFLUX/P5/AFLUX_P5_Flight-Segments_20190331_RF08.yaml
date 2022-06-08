@@ -21,6 +21,7 @@ events:
 - Sawtooth pattern with low-level legs
 remarks:
 - Cold air outbreak over sea ice and at the MIZ
+co-location: []
 segments:
 - kinds:
   - major_ascent

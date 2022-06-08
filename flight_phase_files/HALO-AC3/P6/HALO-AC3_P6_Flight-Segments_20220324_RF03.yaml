@@ -1,0 +1,53 @@
+name: RF03
+mission: HALO-AC3
+platform: P6
+flight_id: HALO-AC3_P6_RF03
+contacts:
+- name: Stephan Borrmann
+  email: stephan.borrmann@mpic.de
+  tags:
+  - pi
+- name: Daria Paul
+  email: daria.paul@uni-koeln.de
+  tags:
+  - lc
+date: 2022-03-24
+flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=p6_flight_report_halo-ac3_20220324_rf03.pdf
+takeoff: 2022-03-24 10:17:31
+landing: 2022-03-24 15:31:05
+events: []
+remarks: []
+co-location: []
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF03_ma
+  start: 2022-03-24 10:17:31
+  end: 2022-03-24 10:29:10
+  levels:
+  - 100
+  - 9000
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF03_hl01
+  start: 2022-03-24 10:29:11
+  end: 2022-03-24 15:08:37
+  levels:
+  - 9000
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF03_md
+  start: 2022-03-24 15:08:38
+  end: 2022-03-24 15:31:05
+  levels:
+  - 9000
+  - 100
+  dropsondes: []

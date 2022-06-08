@@ -12,11 +12,14 @@ contacts:
   tags:
   - lc
 date: 2022-03-20
-flight_report: missing
+flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=flight_report_halo_ac3_20220320_halo_rf07.pdf
 takeoff: 2022-03-20 07:58:30
 landing: 2022-03-20 17:07:05
 events: []
 remarks: []
+co-location:
+- HALO-AC3_P5_RF01
+- HALO-AC3_P6_RF01
 segments:
 - kinds:
   - major_ascent
@@ -25,7 +28,9 @@ segments:
   segment_id: HALO-AC3_HALO_RF07_ma
   start: 2022-03-20 07:58:30
   end: 2022-03-20 08:26:16
-  levels: [1600, 40200]
+  levels:
+  - 1600
+  - 40200
   dropsondes: []
 - kinds:
   - short_turn
@@ -35,12 +40,13 @@ segments:
 - kinds:
   - high_level
   name: high level 1
-  irregularities: 
+  irregularities:
   - slightly negative roll angle
   segment_id: HALO-AC3_HALO_RF07_hl01
   start: 2022-03-20 08:27:19
   end: 2022-03-20 08:33:09
-  levels: [40200]
+  levels:
+  - 40200
   dropsondes: []
 - kinds:
   - short_turn
@@ -50,12 +56,13 @@ segments:
 - kinds:
   - high_level
   name: high level 2
-  irregularities: 
+  irregularities:
   - slightly negative roll angle
   segment_id: HALO-AC3_HALO_RF07_hl02
   start: 2022-03-20 08:34:26
   end: 2022-03-20 08:53:20
-  levels: [40200]
+  levels:
+  - 40200
   dropsondes: []
 - kinds:
   - short_turn
@@ -70,7 +77,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF07_hl03
   start: 2022-03-20 08:54:36
   end: 2022-03-20 10:26:13
-  levels: [39600]
+  levels:
+  - 39600
   dropsondes: []
 - kinds:
   - long_turn
@@ -84,7 +92,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF07_hl04
   start: 2022-03-20 10:31:32
   end: 2022-03-20 11:17:03
-  levels: [38400]
+  levels:
+  - 38400
   dropsondes: []
 - kinds:
   - long_turn
@@ -98,7 +107,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF07_hl05
   start: 2022-03-20 11:23:33
   end: 2022-03-20 11:38:47
-  levels: [38300]
+  levels:
+  - 38300
   dropsondes: []
 - kinds:
   - long_turn
@@ -112,7 +122,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF07_hl06
   start: 2022-03-20 11:44:16
   end: 2022-03-20 12:44:32
-  levels: [38800]
+  levels:
+  - 38800
   dropsondes: []
 - kinds:
   - long_turn
@@ -126,7 +137,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF07_hl07
   start: 2022-03-20 12:50:34
   end: 2022-03-20 13:10:11
-  levels: [39300]
+  levels:
+  - 39300
   dropsondes: []
 - kinds:
   - long_turn
@@ -140,7 +152,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF07_hl08
   start: 2022-03-20 13:14:46
   end: 2022-03-20 13:49:22
-  levels: [39300]
+  levels:
+  - 39300
   dropsondes: []
 - kinds:
   - short_turn
@@ -154,7 +167,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF07_hl09
   start: 2022-03-20 13:51:42
   end: 2022-03-20 14:12:02
-  levels: [38700]
+  levels:
+  - 38700
   dropsondes: []
 - kinds:
   - long_turn
@@ -168,7 +182,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF07_hl10
   start: 2022-03-20 14:17:42
   end: 2022-03-20 15:16:46
-  levels: [38800]
+  levels:
+  - 38800
   dropsondes: []
 - kinds:
   - long_turn
@@ -182,7 +197,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF07_hl11
   start: 2022-03-20 15:23:38
   end: 2022-03-20 15:36:18
-  levels: [39100]
+  levels:
+  - 39100
   dropsondes: []
 - kinds:
   - small_ascent
@@ -191,7 +207,9 @@ segments:
   segment_id: HALO-AC3_HALO_RF07_sa01
   start: 2022-03-20 15:36:19
   end: 2022-03-20 15:38:25
-  levels: [39200, 41300]
+  levels:
+  - 39200
+  - 41300
   dropsondes: []
 - kinds:
   - high_level
@@ -200,7 +218,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF07_hl12
   start: 2022-03-20 15:38:26
   end: 2022-03-20 16:25:30
-  levels: [41800]
+  levels:
+  - 41800
   dropsondes: []
 - kinds:
   - short_turn
@@ -214,7 +233,8 @@ segments:
   segment_id: HALO-AC3_HALO_RF07_hl13
   start: 2022-03-20 16:36:12
   end: 2022-03-20 16:38:07
-  levels: [42400]
+  levels:
+  - 42400
   dropsondes: []
 - kinds:
   - major_descent
@@ -223,5 +243,7 @@ segments:
   segment_id: HALO-AC3_HALO_RF07_md
   start: 2022-03-20 16:38:08
   end: 2022-03-20 17:07:05
-  levels: [42400, 1600]
+  levels:
+  - 42400
+  - 1600
   dropsondes: []

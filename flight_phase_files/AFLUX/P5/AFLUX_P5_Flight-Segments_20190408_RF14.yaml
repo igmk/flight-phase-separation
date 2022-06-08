@@ -21,6 +21,7 @@ remarks:
 - Cloud field spreading into the MIZ and migrating into surface based fog over closed
   sea ice
 - Cloud-free areas over closed sea ice
+co-location: []
 segments:
 - kinds:
   - major_ascent

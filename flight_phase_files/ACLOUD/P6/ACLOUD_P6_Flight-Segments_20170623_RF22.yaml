@@ -6,19 +6,20 @@ contacts:
 - name: Mario Mech
   email: mario.mech@uni-koeln.de
   tags:
-    - pi
+  - pi
 - name: Giancarlo Marrollo
   email: giancarlo.marrollo@uni-koeln.de
   tags:
-    - lc
+  - lc
 date: 2017-06-23
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=22_20170623_p6_acloud_flight_report.pdf
 takeoff: 2017-06-23 10:37:00
 landing: 2017-06-23 14:52:25
-events:
-- joint flight with P5
+events: []
 remarks:
 - Column over Ny-Alesund
+co-location:
+- ACLOUD_P5_RF22
 segments:
 - kinds:
   - major_ascent
@@ -26,7 +27,19 @@ segments:
   irregularities: []
   segment_id: ACLOUD_P6_RF22_ma
   start: 2017-06-23 10:37:00
-  end: 2017-06-23 14:52:25
-  levels: [100, 100]
+  end: 2017-06-23 14:52:23
+  levels:
+  - 100
+  - 100
   dropsondes: []
-
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: ACLOUD_P6_RF22_md
+  start: 2017-06-23 14:52:24
+  end: 2017-06-23 14:52:25
+  levels:
+  - 900
+  - 100
+  dropsondes: []

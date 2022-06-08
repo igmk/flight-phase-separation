@@ -16,13 +16,14 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fet
 takeoff: 2017-05-31 15:05:50
 landing: 2017-05-31 18:56:50
 events:
-- Joint flight between P5 and P6
 - Polarstern overflight with racetrack pattern
 - Racetrack pattern over sea ice
 - Ny-Alesund overflight
 remarks:
 - Thin low clouds over sea ice
 - AMALi pointing zenith
+co-location:
+- ACLOUD_P6_RF10
 segments:
 - kinds:
   - major_ascent

@@ -16,13 +16,14 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fet
 takeoff: 2017-06-20 07:32:00
 landing: 2017-06-20 13:51:30
 events:
-- Joint flight between P5 and P6
 - Polarstern overflight with cross pattern
 - Ny-Alesund overflight
 - Racetrack pattern over sea ice
 - EAGLE/HAWK calibration
 remarks:
 - Clouds above open water and sea ice
+co-location:
+- ACLOUD_P6_RF21
 segments:
 - kinds:
   - major_ascent
@@ -713,7 +714,7 @@ segments:
   - polarstern_overflight
   name: large ascent 2
   irregularities:
-  - circle and short turn during ascent
+  - 360 turn and short turn during ascent
   segment_id: ACLOUD_P5_RF21_la02
   start: 2017-06-20 12:53:00
   end: 2017-06-20 13:01:54

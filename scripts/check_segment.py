@@ -67,6 +67,7 @@ class SegmentCatalog:
                'medium_ascent',
                'medium_descent',
                'profiling',
+               'circle',
                'p6_co-location',
                'p5_co-location',
                'nya_overflight',
@@ -82,7 +83,8 @@ class SegmentCatalog:
               'long_turn',
               'procedure_turn',
               'cross_pattern_turn',
-              'circle',
+              '360_turn',
+              'roll_maneuver',
               ]
     
     pattern = ['racetrack_pattern',
@@ -92,6 +94,7 @@ class SegmentCatalog:
                'radiation_square',
                'holding_pattern',
                'noseboom_calibration_pattern',
+               'polygon_pattern'
                ]
     
     # parts
@@ -134,17 +137,31 @@ class SegmentCatalog:
                                   'large_descent',
                                   'low_level',
                                   'mid_level',
-                                  'high_level'
+                                  'high_level',
+                                  'short_turn',
                                   ],
              
              'radiation_square': ['short_turn',
-                                  'high_level', 
+                                  'high_level',
                                   ],
              
              'holding_pattern': ['high_level',
                                  'short_turn',
                                  'long_turn',
-                                 'circle',
+                                 '360_turn',
+                                 ],
+             
+             'polygon_pattern': ['low_level',
+                                 'mid_level',
+                                 'high_level',
+                                 'short_turn',
+                                 'small_ascent',
+                                 'small_descent',
+                                 'large_descent',
+                                 'medium_descent',
+                                 'medium_ascent',
+                                 'large_ascent',
+                                 'roll_maneuver',
                                  ],
              
              'noseboom_calibration_pattern': ['high_level', 
@@ -164,15 +181,16 @@ class SegmentCatalog:
                     'small descent',
                     'medium ascent',
                     'medium descent',
+                    'circle',
                     'instrument testing',
                     ]
     
     curves_name = ['short turn',
                    'long turn',
                    'procedure turn',
-                   'waiting pattern',
                    'cross pattern turn',
-                   'circle',
+                   '360 turn',
+                   'roll_maneuver',
                    ]
     
     pattern_name = ['racetrack pattern',
@@ -182,6 +200,7 @@ class SegmentCatalog:
                     'radiation square',
                     'holding pattern',
                     'noseboom calibration pattern',
+                    'polygon pattern'
                     ]
     
     # parts names
@@ -213,8 +232,13 @@ class SegmentCatalog:
                  
                  'holding_pattern': ['holding pattern {} leg {}',
                                      'short turn',
-                                     'circle',
+                                     '360 turn',
                                      ],
+
+                 'polygon_pattern': ['polygon pattern {} leg {}',
+                                     'procedure turn',
+                                     'short turn',  
+                                    ], 
                  
                  'noseboom_calibration_pattern': ['noseboom calibration pattern {} leg {}', 
                                                   'short turn',
@@ -226,11 +250,11 @@ class SegmentCatalog:
                     'short turn',
                     'long turn',
                     'procedure turn',
-                    'waiting pattern',
                     'cross pattern turn',
                     'long legs pattern turn',
-                    'circle',
+                    '360 turn',
                     'instrument testing',
+                    'roll maneuver'
                     ]
     
     # short names (used in segment_id)
@@ -245,6 +269,7 @@ class SegmentCatalog:
                    'small descent': 'sd',
                    'medium ascent': 'ma',
                    'medium descent': 'md',
+                   'circle': 'ci',
                    'noseboom calibration': 'nc',
                    'instrument testing': 'it',
                    'racetrack pattern': 'rt',
@@ -253,6 +278,7 @@ class SegmentCatalog:
                    'sawtooth pattern': 'st',
                    'radiation square': 'rs',
                    'holding pattern': 'ho',
+                   'polygon pattern': 'pp',
                    'noseboom calibration pattern': 'np',
                    
                    # only used in parts
@@ -268,9 +294,6 @@ class SegmentCatalog:
               #'Test of instrumentation',  # Test flight in LYR
               #'Joint test flight with P6',
               'Instrument intercomparison between P5 and P6',
-
-              'Colocation with P6 at Polarstern',
-              'Joint flight between P5 and P6',
               
               'Ny-Alesund overflight',
               'Ny-Alesund overflight with cross pattern',
@@ -352,23 +375,24 @@ def main(flight, meta):
     assert meta['mission']+'_'+meta['platform']+'_'+meta['name'] == meta['flight_id']
     assert type(meta['contacts']) == list
     assert type(meta['date']) == datetime.date
-    assert meta['flight_report'] != None
+    assert (meta['flight_report'] == None) or (type(meta['flight_report']) == str)
     assert type(meta['takeoff']) == datetime.datetime
     assert type(meta['landing']) == datetime.datetime
     assert type(meta['events']) == list
     assert type(meta['remarks']) == list
-    
+    assert type(meta['co-location']) == list
+
     # make sure, that events is standardized
     for event in meta['events']:
         assert event in SegmentCatalog.events, 'Event "{}" not from list of possible events: {}'.format(event, SegmentCatalog.events)
     
     # make sure that remarks is standardized
-    for remark in meta['remarks']:
-        assert remark in SegmentCatalog.remarks, 'Remark "{}" not from list of possible remarks: {}'.format(remark, SegmentCatalog.remarks)
+    #for remark in meta['remarks']:
+    #    assert remark in SegmentCatalog.remarks, 'Remark "{}" not from list of possible remarks: {}'.format(remark, SegmentCatalog.remarks)
         
     # flight segments
     segments = meta['segments']
-    
+
     # check if all the required attributes exist
     for i, segment in enumerate(segments):
 
@@ -620,7 +644,7 @@ if __name__ == '__main__':
 
     else:
         
-        files = glob('../../flight_phase_files/*/*/*.yaml')
+        files = glob('../flight_phase_files/*/*/*.yaml')
         
         for file in files:
             
@@ -629,9 +653,9 @@ if __name__ == '__main__':
                 
             # extract flight info from filename
             info = file.split('/')[-1].split('.yaml')[0].split('_')
-            flight = {'campaign': info[0], 
-                      'number': info[4], 
-                      'aircraft': info[1], 
+            flight = {'mission': info[0], 
+                      'name': info[4], 
+                      'platform': info[1], 
                       'date': info[3]}
             
             main(flight, meta)

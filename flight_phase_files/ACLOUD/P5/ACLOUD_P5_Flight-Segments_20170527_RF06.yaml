@@ -18,6 +18,7 @@ landing: 2017-05-27 11:25:45
 events:
 - A-train underflight
 remarks: []
+co-location: []
 segments:
 - kinds:
   - major_ascent

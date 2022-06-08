@@ -16,10 +16,11 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fet
 takeoff: 2017-06-26 12:34:25
 landing: 2017-06-26 15:16:40
 events:
-- Joint flight between P5 and P6
 - AIMMS-20 calibration
 remarks:
 - SMART not working
+co-location:
+- ACLOUD_P6_RF25
 segments:
 - kinds:
   - major_ascent
@@ -162,33 +163,33 @@ segments:
   - 9700
   dropsondes: []
 - kinds:
-  - circle
-  name: circle
+  - 360_turn
+  name: 360 turn
   start: 2017-06-26 14:17:40
   end: 2017-06-26 14:22:19
 - kinds:
-  - circle
-  name: circle
+  - 360_turn
+  name: 360 turn
   start: 2017-06-26 14:22:20
   end: 2017-06-26 14:25:04
 - kinds:
-  - circle
-  name: circle
+  - 360_turn
+  name: 360 turn
   start: 2017-06-26 14:25:05
   end: 2017-06-26 14:26:34
 - kinds:
-  - circle
-  name: circle
+  - 360_turn
+  name: 360 turn
   start: 2017-06-26 14:26:35
   end: 2017-06-26 14:30:54
 - kinds:
-  - circle
-  name: circle
+  - 360_turn
+  name: 360 turn
   start: 2017-06-26 14:30:55
   end: 2017-06-26 14:33:14
 - kinds:
-  - circle
-  name: circle
+  - 360_turn
+  name: 360 turn
   start: 2017-06-26 14:33:15
   end: 2017-06-26 14:34:44
 - kinds:

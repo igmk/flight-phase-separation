@@ -16,12 +16,13 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fet
 takeoff: 2017-06-05 10:48:00
 landing: 2017-06-05 14:47:50
 events:
-- Joint flight between P5 and P6
 - Polarstern overflight with cross pattern
 - Stairstep pattern over sea ice
 remarks:
 - Low clouds in warm air over sea ice
 - MiRAC not working
+co-location:
+- ACLOUD_P6_RF13
 segments:
 - kinds:
   - major_ascent

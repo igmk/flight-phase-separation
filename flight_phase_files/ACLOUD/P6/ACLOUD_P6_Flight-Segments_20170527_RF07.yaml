@@ -6,18 +6,19 @@ contacts:
 - name: Johannes Schneider
   email: johannes.schneider@mpic.de
   tags:
-    - pi
+  - pi
 - name: Giancarlo Marrollo
   email: giancarlo.marrollo@uni-koeln.de
   tags:
-    - lc
+  - lc
 date: 2017-05-27
 flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fetch.php?media=07_20170527_p6_acloud_flight_report.pdf
 takeoff: 2017-05-27 13:02:00
 landing: 2017-05-27 16:26:50
-events:
-- Joint flight between P5 and P6
+events: []
 remarks: []
+co-location:
+- ACLOUD_P5_RF07
 segments:
 - kinds:
   - major_ascent
@@ -26,7 +27,9 @@ segments:
   segment_id: ACLOUD_P6_RF07_ma
   start: 2017-05-27 13:02:00
   end: 2017-05-27 13:10:08
-  levels: [100, 5700]
+  levels:
+  - 100
+  - 5700
   dropsondes: []
 - kinds:
   - mid_level
@@ -36,7 +39,8 @@ segments:
   segment_id: ACLOUD_P6_RF07_ml01
   start: 2017-05-27 13:10:09
   end: 2017-05-27 13:47:30
-  levels: [5700]
+  levels:
+  - 5700
   dropsondes: []
 - kinds:
   - short_turn
@@ -50,7 +54,9 @@ segments:
   segment_id: ACLOUD_P6_RF07_md01
   start: 2017-05-27 13:48:19
   end: 2017-05-27 13:58:56
-  levels: [5700, 400]
+  levels:
+  - 5700
+  - 400
   dropsondes: []
 - kinds:
   - stairstep_pattern
@@ -59,7 +65,10 @@ segments:
   segment_id: ACLOUD_P6_RF07_ss01
   start: 2017-05-27 13:58:57
   end: 2017-05-27 14:25:23
-  levels: [400, 1100, 1300]
+  levels:
+  - 400
+  - 1100
+  - 1300
   dropsondes: []
   parts:
   - kinds:
@@ -69,7 +78,8 @@ segments:
     segment_id: ACLOUD_P6_RF07_ss01_ll01
     start: 2017-05-27 13:58:57
     end: 2017-05-27 14:06:45
-    levels: [400]
+    levels:
+    - 400
   - kinds:
     - small_ascent
     name: stairstep pattern 1 ascent 1
@@ -77,7 +87,9 @@ segments:
     segment_id: ACLOUD_P6_RF07_ss01_a01
     start: 2017-05-27 14:06:46
     end: 2017-05-27 14:08:39
-    levels: [400, 1100]
+    levels:
+    - 400
+    - 1100
   - kinds:
     - low_level
     name: stairstep pattern 1 low level 2
@@ -85,7 +97,8 @@ segments:
     segment_id: ACLOUD_P6_RF07_ss01_ll02
     start: 2017-05-27 14:08:40
     end: 2017-05-27 14:14:38
-    levels: [1100]
+    levels:
+    - 1100
   - kinds:
     - small_ascent
     name: stairstep pattern 1 ascent 2
@@ -93,7 +106,9 @@ segments:
     segment_id: ACLOUD_P6_RF07_ss01_a02
     start: 2017-05-27 14:14:39
     end: 2017-05-27 14:15:05
-    levels: [1100, 1300]
+    levels:
+    - 1100
+    - 1300
   - kinds:
     - low_level
     name: stairstep pattern 1 low level 3
@@ -101,7 +116,8 @@ segments:
     segment_id: ACLOUD_P6_RF07_ss01_ll03
     start: 2017-05-27 14:15:06
     end: 2017-05-27 14:25:23
-    levels: [1300]
+    levels:
+    - 1300
 - kinds:
   - medium_ascent
   name: medium ascent 1
@@ -109,7 +125,9 @@ segments:
   segment_id: ACLOUD_P6_RF07_ma01
   start: 2017-05-27 14:25:24
   end: 2017-05-27 14:30:27
-  levels: [1300, 4800]
+  levels:
+  - 1300
+  - 4800
   dropsondes: []
 - kinds:
   - mid_level
@@ -118,7 +136,8 @@ segments:
   segment_id: ACLOUD_P6_RF07_ml02
   start: 2017-05-27 14:30:28
   end: 2017-05-27 14:49:58
-  levels: [4800]
+  levels:
+  - 4800
   dropsondes: []
 - kinds:
   - procedure_turn
@@ -132,7 +151,9 @@ segments:
   segment_id: ACLOUD_P6_RF07_sd01
   start: 2017-05-27 14:53:08
   end: 2017-05-27 14:59:47
-  levels: [4800, 1600]
+  levels:
+  - 4800
+  - 1600
   dropsondes: []
 - kinds:
   - stairstep_pattern
@@ -141,7 +162,11 @@ segments:
   segment_id: ACLOUD_P6_RF07_ss02
   start: 2017-05-27 14:59:48
   end: 2017-05-27 15:44:25
-  levels: [1600, 1400, 1200, 400]
+  levels:
+  - 1600
+  - 1400
+  - 1200
+  - 400
   dropsondes: []
   parts:
   - kinds:
@@ -151,7 +176,8 @@ segments:
     segment_id: ACLOUD_P6_RF07_ss02_ll01
     start: 2017-05-27 14:59:48
     end: 2017-05-27 15:04:47
-    levels: [1600]
+    levels:
+    - 1600
   - kinds:
     - small_descent
     name: stairstep pattern 2 descent 1
@@ -159,7 +185,9 @@ segments:
     segment_id: ACLOUD_P6_RF07_ss02_d01
     start: 2017-05-27 15:04:48
     end: 2017-05-27 15:05:29
-    levels: [1600, 1400]
+    levels:
+    - 1600
+    - 1400
   - kinds:
     - low_level
     name: stairstep pattern 2 low level 2
@@ -167,7 +195,8 @@ segments:
     segment_id: ACLOUD_P6_RF07_ss02_ll02
     start: 2017-05-27 15:05:30
     end: 2017-05-27 15:15:57
-    levels: [1400]
+    levels:
+    - 1400
   - kinds:
     - small_descent
     name: stairstep pattern 2 descent 2
@@ -175,7 +204,9 @@ segments:
     segment_id: ACLOUD_P6_RF07_ss02_d02
     start: 2017-05-27 15:15:58
     end: 2017-05-27 15:16:45
-    levels: [1400, 1200]
+    levels:
+    - 1400
+    - 1200
   - kinds:
     - low_level
     name: stairstep pattern 2 low level 3
@@ -183,7 +214,8 @@ segments:
     segment_id: ACLOUD_P6_RF07_ss02_ll03
     start: 2017-05-27 15:16:46
     end: 2017-05-27 15:30:02
-    levels: [1200]
+    levels:
+    - 1200
   - kinds:
     - small_descent
     name: stairstep pattern 2 descent 3
@@ -191,7 +223,9 @@ segments:
     segment_id: ACLOUD_P6_RF07_ss02_d03
     start: 2017-05-27 15:30:03
     end: 2017-05-27 15:32:13
-    levels: [1200, 400]
+    levels:
+    - 1200
+    - 400
   - kinds:
     - low_level
     name: stairstep pattern 2 low level 4
@@ -199,7 +233,8 @@ segments:
     segment_id: ACLOUD_P6_RF07_ss02_ll04
     start: 2017-05-27 15:32:14
     end: 2017-05-27 15:44:25
-    levels: [400]
+    levels:
+    - 400
 - kinds:
   - short_turn
   name: short turn
@@ -212,7 +247,9 @@ segments:
   segment_id: ACLOUD_P6_RF07_ma02
   start: 2017-05-27 15:45:11
   end: 2017-05-27 15:52:37
-  levels: [400, 4900]
+  levels:
+  - 400
+  - 4900
   dropsondes: []
 - kinds:
   - mid_level
@@ -221,7 +258,8 @@ segments:
   segment_id: ACLOUD_P6_RF07_ml03
   start: 2017-05-27 15:52:38
   end: 2017-05-27 15:59:27
-  levels: [4900]
+  levels:
+  - 4900
   dropsondes: []
 - kinds:
   - medium_ascent
@@ -230,7 +268,9 @@ segments:
   segment_id: ACLOUD_P6_RF07_ma03
   start: 2017-05-27 15:59:28
   end: 2017-05-27 16:08:33
-  levels: [4900, 9600]
+  levels:
+  - 4900
+  - 9600
   dropsondes: []
 - kinds:
   - high_level
@@ -239,7 +279,8 @@ segments:
   segment_id: ACLOUD_P6_RF07_hl01
   start: 2017-05-27 16:08:34
   end: 2017-05-27 16:14:13
-  levels: [9600]
+  levels:
+  - 9600
   dropsondes: []
 - kinds:
   - major_descent
@@ -248,5 +289,7 @@ segments:
   segment_id: ACLOUD_P6_RF07_md
   start: 2017-05-27 16:14:14
   end: 2017-05-27 16:26:50
-  levels: [9600, 100]
+  levels:
+  - 9600
+  - 100
   dropsondes: []

@@ -1,0 +1,134 @@
+name: RF07
+mission: HALO-AC3
+platform: P6
+flight_id: HALO-AC3_P6_RF07
+contacts:
+- name: Manuel Moser
+  email: manuel.moser@dlr.de
+  tags:
+  - pi
+- name: Daria Paul
+  email: daria.paul@uni-koeln.de
+  tags:
+  - lc
+date: 2022-03-30
+flight_report: https://home.uni-leipzig.de/~ehrlich/HALO_AC3_wiki_doku/lib/exe/fetch.php?media=p6_flight_report_halo-ac3_20220330_rf07.pdf
+takeoff: 2022-03-30 10:28:00
+landing: 2022-03-30 15:28:59
+events: []
+remarks: []
+co-location:
+- HALO-AC3_P5_RF08
+- HALO-AC3_HALO_RF11
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF07_ma
+  start: 2022-03-30 10:28:00
+  end: 2022-03-30 10:40:55
+  levels:
+  - 100
+  - 9600
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF07_hl01
+  start: 2022-03-30 10:40:56
+  end: 2022-03-30 11:17:46
+  levels:
+  - 9600
+  dropsondes: []
+- kinds:
+  - large_descent
+  - short_turn
+  name: large descent 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF07_ld01
+  start: 2022-03-30 11:17:47
+  end: 2022-03-30 11:32:39
+  levels:
+  - 9600
+  - 200
+  dropsondes: []
+- kinds:
+  - racetrack_pattern
+  name: racetrack pattern 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF07_rt01
+  start: 2022-03-30 11:32:40
+  end: 2022-03-30 12:32:17
+  levels:
+  - 200
+  - 600
+  - 900
+  - 2000
+  - 4000
+  dropsondes: []
+  parts: []
+- kinds:
+  - low_level
+  name: low level 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF07_ll01
+  start: 2022-03-30 12:32:18
+  end: 2022-03-30 12:53:21
+  levels:
+  - 200
+  dropsondes: []
+- kinds:
+  - sawtooth_pattern
+  name: sawtooth pattern 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF07_st01
+  start: 2022-03-30 12:53:22
+  end: 2022-03-30 13:31:52
+  levels:
+  - 200
+  - 800
+  - 1000
+  - 1200
+  - 1700
+  - 2000
+  - 2500
+  dropsondes: []
+  parts: []
+- kinds:
+  - racetrack_pattern
+  name: racetrack pattern 2
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF07_rt02
+  start: 2022-03-30 13:31:53
+  end: 2022-03-30 14:42:02
+  levels:
+  - 200
+  - 600
+  - 900
+  - 2000
+  - 4000
+  dropsondes: []
+  parts: []
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF07_hl02
+  start: 2022-03-30 14:42:03
+  end: 2022-03-30 15:16:21
+  levels:
+  - 9600
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF07_md
+  start: 2022-03-30 15:16:22
+  end: 2022-03-30 15:28:59
+  levels:
+  - 9600
+  - 100
+  dropsondes: []

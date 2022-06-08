@@ -68,6 +68,16 @@ def plot_histograms(ds_gps, start, end):
     return fig
 
 
+def print_heights(ds_gps, start, end):
+    """Print heights of flight leg"""
+
+    z_min = int(np.around(ds_gps.alt.sel(time=slice(start, end)).min('time').values.item()*3.28, -2))
+    z_max = int(np.around(ds_gps.alt.sel(time=slice(start, end)).max('time').values.item()*3.28, -2))
+    z_med = int(np.around(ds_gps.alt.sel(time=slice(start, end)).median('time').values.item()*3.28, -2))
+        
+    print(f'median: {z_med} ft, min: {z_min} ft, max: {z_max} ft')
+
+
 if __name__ == '__main__':
     
     # read file with flight settings
@@ -89,8 +99,34 @@ if __name__ == '__main__':
     if 'yaw' in list(ds_gps):
         ds_gps = ds_gps.rename({'yaw': 'heading'})
     
-    #%% plot histograms  
-      
+    #%% print levels
+    for i, flight_segment in enumerate(flight_segments['segments']):
+        
+        print('\n')
+
+        name = flight_segment['name']
+        start = flight_segment['start']
+        end = flight_segment['end']
+
+        if start and end:
+            
+            print(name)
+            print_heights(ds_gps, start, end)
+
+        if 'parts' in list(flight_segment.keys()):  # add parts, if they exist for this flight segment
+
+            for j, part in enumerate(flight_segment['parts']):
+
+                name = part['name']
+                start = part['start']
+                end = part['end']
+
+                if start and end:
+                    
+                    print(name)
+                    print_heights(ds_gps, start, end)
+
+    #%% plot histograms
     for i, flight_segment in enumerate(flight_segments['segments']):
 
         name = flight_segment['name']

@@ -18,8 +18,9 @@ landing: 2017-06-13 17:00:05
 events:
 - Noseboom calibration
 - Test flight
-- Joint flight between P5 and P6
 remarks: []
+co-location:
+- ACLOUD_P6_RF16
 segments:
 - kinds:
   - major_ascent

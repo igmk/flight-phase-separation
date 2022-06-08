@@ -16,10 +16,11 @@ flight_report: https://home.uni-leipzig.de/~ehrlich/ACLOUD_wiki_doku/lib/exe/fet
 takeoff: 2017-06-14 12:48:55
 landing: 2017-06-14 18:44:40
 events:
-- Joint flight between P5 and P6
 - Polarstern overflight with racetrack pattern
 - Racetrack pattern over sea ice
 remarks: []
+co-location:
+- ACLOUD_P6_RF17
 segments:
 - kinds:
   - major_ascent

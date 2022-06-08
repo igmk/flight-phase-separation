@@ -19,6 +19,8 @@ events:
 - Racetrack pattern over sea ice
 remarks:
 - Mostly clear-sky with some thin cirrus clouds
+co-location:
+- ACLOUD_P6_RF23
 segments:
 - kinds:
   - major_ascent
