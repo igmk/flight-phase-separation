@@ -42,9 +42,11 @@ if __name__ == '__main__':
     
     # read data
     cat = ac3airborne.get_intake_catalog()
-    ds_gps = cat[flight['mission']][flight['platform']]['GPS_INS'][flight_id](
-       user=ac3cloud_username,password=ac3cloud_password).to_dask()
-   # 
+    try:
+        ds_gps = cat[flight['mission']][flight['platform']]['GPS_INS'][flight_id].to_dask()
+    except TypeError:
+        ds_gps = cat[flight['mission']][flight['platform']]['GPS_INS'][flight_id](user=ac3cloud_username,password=ac3cloud_password).to_dask()
+
     # read flight segments of flight
     file = '../flight_phase_files/'+flight['mission']+'/'+flight['platform']+'/'+flight['mission']+'_'+flight['platform']+'_Flight-Segments_'+flight['date']+'_'+flight['name']+'.yaml'
 
