@@ -7,6 +7,10 @@ contacts:
   email: manuel.moser@dlr.de
   tags:
   - pi
+- name: Johannes Schneider
+  email: johannes.schneider@mpic.de
+  tags:
+  - pi  
 - name: Daria Paul
   email: daria.paul@uni-koeln.de
   tags:
@@ -32,15 +36,178 @@ segments:
   - 5600
   dropsondes: []
 - kinds:
+  - mid_level
+  name: mid level 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF10_ml01
+  start: 2022-04-05 09:48:39
+  end: 2022-04-05 10:10:49
+  levels:
+  - 5600
+  dropsondes: []
+- kinds:
+  - small_descent
+  - short_turn
+  name: small descent 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF10_sd01
+  start: 2022-04-05 10:10:49
+  end: 2022-04-05 10:15:27
+  levels:
+  - 5600
+  dropsondes: []  
+- kinds:
+  - mid_level
+  name: mid level 2
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF10_ml02
+  start: 2022-04-05 10:15:28
+  end: 2022-04-05 10:40:19
+  levels:
+  - 3400
+  dropsondes: []
+- kinds:
+  - small_descent
+  name: small descent 2
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF10_sd02
+  start: 2022-04-05 10:40:20
+  end: 2022-04-05 10:43:51
+  levels:
+  - 5600
+  dropsondes: []  
+- kinds:
+  - low_level
+  name: low level 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF10_ll01
+  start: 2022-04-05 10:43:52
+  end: 2022-04-05 11:06:21
+  levels:
+  - 200
+  dropsondes: []
+
+- kinds:
+  - small_ascent
+  - short_turn
+  name: small ascent 2
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF10_sa02
+  start: 2022-04-05 11:06:22
+  end: 2022-04-05 11:10:26
+  levels:
+  - 200
+  - 3000
+  dropsondes: []  
+- kinds:
+  - racetrack_pattern
+  name: racetrack pattern 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF10_rt01
+  start: 2022-04-05 11:10:27
+  end: 2022-04-05 12:05:31
+  levels:
+  dropsondes: []
+#  parts:
+
+- kinds:
+  - low_level
+  name: low level 2
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF10_ll02
+  start: 2022-04-05 12:05:32
+  end: 2022-04-05 12:14:15
+  levels:
+  - 200
+  dropsondes: []
+
+- kinds:
+  - racetrack_pattern
+  name: racetrack pattern 2
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF10_rt02
+  start: 2022-04-05 12:14:16
+  end: 2022-04-05 12:49:02
+  levels:
+  dropsondes: []
+#  parts:
+
+- kinds:
+  - low_level
+  name: low level 3
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF10_ll03
+  start: 2022-04-05 12:49:03
+  end: 2022-04-05 13:01:54
+  levels:
+  - 200
+  dropsondes: []
+
+- kinds:
+  - large_ascent
+  - short_turn
+  name: large ascent 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF10_la01
+  start: 2022-04-05 13:01:55
+  end: 2022-04-05 13:17:58
+  levels:
+  - 1300
+  - 13000
+  dropsondes: []  
+- kinds:
   - high_level
   name: high level 1
   irregularities: []
   segment_id: HALO-AC3_P6_RF10_hl01
-  start: 2022-04-05 09:48:39
+  start: 2022-04-05 13:17:59
+  end: 2022-04-05 13:25:15
+  levels:
+  - 13000
+  dropsondes: []
+- kinds:
+  - small_descent
+  name: small descent 2
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF10_sd02
+  start: 2022-04-05 13:25:16
+  end: 2022-04-05 13:28:46
+  levels:
+  - 13000
+  - 11000
+  dropsondes: [] 
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF10_hl02
+  start: 2022-04-05 13:28:46
+  end: 2022-04-05 13:32:16
+  levels:
+  - 11000
+  dropsondes: []
+- kinds:
+  - medium_descent
+  name: medium descent 1
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF10_md01
+  start: 2022-04-05 13:32:17
+  end: 2022-04-05 13:39:12
+  levels:
+  - 11000
+  - 7600
+  dropsondes: []  
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: HALO-AC3_P6_RF10_hl03
+  start: 2022-04-05 13:39:13
   end: 2022-04-05 13:54:34
   levels:
-  - 5600
-  dropsondes: []
+  - 7600
+  dropsondes: []  
+   
 - kinds:
   - major_descent
   name: major descent
@@ -48,5 +215,7 @@ segments:
   segment_id: HALO-AC3_P6_RF10_md
   start: 2022-04-05 13:54:35
   end: 2022-04-05 14:10:52
-  levels: []
+  levels:
+  - 7600
+  - 200
   dropsondes: []
