@@ -1,0 +1,41 @@
+name: RF02
+mission: HAMAG
+platform: P6
+flight_id: HAMAG_P6_RF02
+contacts:
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+  - pi
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
+  tags:
+  - lc
+date: 2024-02-12
+flight_report: null
+takeoff: 2024-02-12 10:18:32
+landing: 2024-02-12 12:45:54
+events: []
+remarks: []
+co-location: []
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: HAMAG_P6_RF02_ma
+  start: 2024-02-12 10:18:32
+  end: 2024-02-12 10:30:00
+  levels:
+  - 100
+  - 9600
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: HAMAG_P6_RF02_md
+  start: 2024-02-12 12:30:00
+  end: 2024-02-12 12:45:54
+  levels: []
+  dropsondes: []
