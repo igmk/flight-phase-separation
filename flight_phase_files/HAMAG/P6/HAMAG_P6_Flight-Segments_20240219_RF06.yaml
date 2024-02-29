@@ -1,7 +1,7 @@
-name: RF04
+name: RF06
 mission: HAMAG
 platform: P6
-flight_id: HAMAG_P6_RF04
+flight_id: HAMAG_P6_RF06
 contacts:
 - name: Mario Mech
   email: mario.mech@uni-koeln.de
@@ -11,10 +11,10 @@ contacts:
   email: n.risse@uni-koeln.de
   tags:
   - lc
-date: 2024-02-15
+date: 2024-02-19
 flight_report: null
-takeoff: 2024-02-15 08:40:35
-landing: 2024-02-15 12:46:35
+takeoff: 2024-02-19 08:48:47
+landing: 2024-02-19 14:18:43
 events: []
 remarks: []
 co-location: []
@@ -23,9 +23,9 @@ segments:
   - major_ascent
   name: major ascent
   irregularities: []
-  segment_id: HAMAG_P6_RF04_ma
-  start: 2024-02-15 08:40:35
-  end: 2024-02-15 10:30:00
+  segment_id: HAMAG_P6_RF06_ma
+  start: 2024-02-19 08:48:47
+  end: 2024-02-19 10:30:00
   levels:
   - 100
   - 9600
@@ -34,8 +34,8 @@ segments:
   - major_descent
   name: major descent
   irregularities: []
-  segment_id: HAMAG_P6_RF04_md
-  start: 2024-02-15 13:30:00
-  end: 2024-02-15 12:46:35
+  segment_id: HAMAG_P6_RF06_md
+  start: 2024-02-19 13:30:00
+  end: 2024-02-19 14:18:43
   levels: []
   dropsondes: []
