@@ -13,8 +13,8 @@ contacts:
   - lc
 date: 2024-02-15
 flight_report: null
-takeoff: 2024-02-15 10:00:00
-landing: 2024-02-15 14:00:00
+takeoff: 2024-02-15 08:40:35
+landing: 2024-02-15 12:46:35
 events: []
 remarks: []
 co-location: []
@@ -24,7 +24,7 @@ segments:
   name: major ascent
   irregularities: []
   segment_id: HAMAG_P6_RF04_ma
-  start: 2024-02-15 10:00:00
+  start: 2024-02-15 08:40:35
   end: 2024-02-15 10:30:00
   levels:
   - 100
@@ -36,6 +36,6 @@ segments:
   irregularities: []
   segment_id: HAMAG_P6_RF04_md
   start: 2024-02-15 13:30:00
-  end: 2024-02-15 14:00:00
+  end: 2024-02-15 12:46:35
   levels: []
   dropsondes: []

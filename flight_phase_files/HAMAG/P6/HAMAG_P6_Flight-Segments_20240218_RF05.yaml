@@ -1,20 +1,20 @@
-name: RF04
+name: RF05
 mission: HAMAG
 platform: P6
 flight_id: HAMAG_P6_RF05
 contacts:
-- name: Sabrina Schnitt
-  email: s.schnitt@uni-koeln.de
-  tags:
-  - pi
 - name: Mario Mech
   email: mario.mech@uni-koeln.de
+  tags:
+  - pi
+- name: Nils Risse
+  email: n.risse@uni-koeln.de
   tags:
   - lc
 date: 2024-02-18
 flight_report: null
-takeoff: 2024-02-18 09:08:58
-landing: 2024-02-18 13:50:01
+takeoff: 2024-02-18 09:08:44
+landing: 2024-02-18 13:50:26
 events: []
 remarks: []
 co-location: []
@@ -24,8 +24,8 @@ segments:
   name: major ascent
   irregularities: []
   segment_id: HAMAG_P6_RF05_ma
-  start: 2024-02-18 09:08:58
-  end: 2024-02-18 09:19:05
+  start: 2024-02-18 09:08:44
+  end: 2024-02-18 10:30:00
   levels:
   - 100
   - 9600
@@ -35,7 +35,7 @@ segments:
   name: major descent
   irregularities: []
   segment_id: HAMAG_P6_RF05_md
-  start: 2024-02-18 13:36:05
-  end: 2024-02-18 13:50:01
+  start: 2024-02-18 13:30:00
+  end: 2024-02-18 13:50:26
   levels: []
   dropsondes: []
