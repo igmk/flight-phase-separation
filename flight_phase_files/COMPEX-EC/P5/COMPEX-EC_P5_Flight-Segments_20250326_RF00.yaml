@@ -1,0 +1,24 @@
+name: RF00
+mission: COMPEX-EC
+platform: P5
+flight_id: COMPEX-EC_P5_RF00
+contacts:
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+  - pi
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+  - lc
+date: 2025-03-26
+flight_report: 
+takeoff: 2025-03-26 13:21:00
+landing: 2025-03-26 14:31:00
+events:
+- Test flight
+- EarthCARE underflight
+remarks:
+- No segmentation apart from instrument_testing segment performed
+co-location: []
+segments: []
