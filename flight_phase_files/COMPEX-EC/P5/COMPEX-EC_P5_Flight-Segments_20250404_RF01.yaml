@@ -1,0 +1,24 @@
+name: RF01
+mission: COMPEX-EC
+platform: P5
+flight_id: COMPEX-EC_P5_RF01
+contacts:
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+  - pi
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+  - lc
+date: 2025-04-04
+flight_report: 
+takeoff: 2025-04-04 11:03:00
+landing: 2025-04-04 16:02:00
+events:
+- EarthCARE underflight
+- EarthCARE msi section
+remarks:
+- No segmentation yet
+co-location: []
+segments: []

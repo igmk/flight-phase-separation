@@ -7,8 +7,8 @@ import yaml
 import ac3airborne
 import os
 
-ac3cloud_username = os.environ['AC3_USER']
-ac3cloud_password = os.environ['AC3_PASSWORD']
+#ac3cloud_username = os.environ['AC3_USER']
+#ac3cloud_password = os.environ['AC3_PASSWORD']
 
 
 def plot_histograms(ds_gps, start, end):

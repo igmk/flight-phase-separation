@@ -317,6 +317,7 @@ class SegmentCatalog:
               'Noseboom calibration',  # == Calibration of 5-hole probe
               'EAGLE/HAWK calibration',
               'AIMMS-20 calibration',
+              'EarthCARE underflight',
               ]
     
     # remarks
