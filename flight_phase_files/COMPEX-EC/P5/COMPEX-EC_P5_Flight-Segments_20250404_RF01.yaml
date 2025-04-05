@@ -13,7 +13,7 @@ contacts:
   - lc
 date: 2025-04-04
 flight_report: 
-takeoff: 2025-04-04 11:03:00
+takeoff: 2025-04-04 11:03:27
 landing: 2025-04-04 16:02:00
 events:
 - EarthCARE underflight
@@ -21,4 +21,24 @@ events:
 remarks:
 - No segmentation yet
 co-location: []
-segments: []
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF01_ma
+  start: 2025-04-04 11:03:27
+  end: 2025-04-04 11:13:29
+  levels:
+  - 1500
+  - 10450
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF01_md
+  start: 2025-04-04 14:16:00
+  end: 2025-04-04 14:31:20
+  levels: []
+  dropsondes: []
