@@ -39,10 +39,11 @@ if __name__ == '__main__':
         flight = yaml.safe_load(f)
     
     flight_id = flight['mission']+'_'+flight['platform']+'_'+flight['name']
-    
+    print(flight_id)
     # read data
     cat = ac3airborne.get_intake_catalog()
     try:
+        print(list(cat[flight['mission']][flight['platform']]['GPS_INS']))
         ds_gps = cat[flight['mission']][flight['platform']]['GPS_INS'][flight_id].to_dask()
     except TypeError:
         ds_gps = cat[flight['mission']][flight['platform']]['GPS_INS'][flight_id](user=ac3cloud_username,password=ac3cloud_password).to_dask()
