@@ -42,7 +42,7 @@ segments:
   name: high level 1
   irregularities: []
   segment_id: COMPEX-EC_P5_RF01_hl01
-  start: 2025-04-04 11:13:29
+  start: 2025-04-04 11:13:30
   end: 2025-04-04 11:30:04
   levels:
   - 10500
@@ -64,7 +64,7 @@ segments:
   name: high level 2
   irregularities: []
   segment_id: COMPEX-EC_P5_RF01_hl02
-  start: 2025-04-04 11:32:44
+  start: 2025-04-04 11:32:45
   end: 2025-04-04 12:56:24
   levels:
   - 12300
@@ -75,7 +75,7 @@ segments:
   name: holding pattern 1
   irregularities: []
   segment_id: COMPEX-EC_P5_RF01_ho01
-  start: 2025-04-04 12:56:24
+  start: 2025-04-04 12:56:25
   end: 2025-04-04 13:19:34
   levels:
   - 12300
@@ -86,91 +86,91 @@ segments:
     name: holding pattern 1 high level 1
     irregularities: []
     segment_id: COMPEX-EC_P5_RF01_ho01_hl01
-    start: 2025-04-04 12:56:24
+    start: 2025-04-04 12:56:25
     end: 2025-04-04 12:58:00
     levels:
     - 12300  
   - kinds:
     - short_turn
     name: short turn
-    start: 2025-04-04 12:58:00
+    start: 2025-04-04 12:58:01
     end: 2025-04-04 12:59:07
   - kinds:
     - high_level
     name: holding pattern 1 high level 2
     irregularities: []
     segment_id: COMPEX-EC_P5_RF01_ho01_hl02
-    start: 2025-04-04 12:59:07
+    start: 2025-04-04 12:59:08
     end: 2025-04-04 13:00:41
     levels:
     - 12300
   - kinds:
     - short_turn
     name: short turn
-    start: 2025-04-04 13:00:41
+    start: 2025-04-04 13:00:42
     end: 2025-04-04 13:01:55
   - kinds:
     - high_level
     name: holding pattern 1 high level 3
     irregularities: []
     segment_id: COMPEX-EC_P5_RF01_ho01_hl03
-    start: 2025-04-04 13:01:55
+    start: 2025-04-04 13:01:56
     end: 2025-04-04 13:04:47
     levels:
     - 12300
   - kinds:
     - short_turn
     name: short turn
-    start: 2025-04-04 13:04:47
+    start: 2025-04-04 13:04:48
     end: 2025-04-04 13:07:00
   - kinds:
     - high_level
     name: holding pattern 1 high level 4
     irregularities: []
     segment_id: COMPEX-EC_P5_RF01_ho01_hl04
-    start: 2025-04-04 13:07:00
+    start: 2025-04-04 13:07:01
     end: 2025-04-04 13:08:38
     levels:
     - 12300
   - kinds:
     - short_turn
     name: short turn
-    start: 2025-04-04 13:08:38
+    start: 2025-04-04 13:08:39
     end: 2025-04-04 13:10:28
   - kinds:
     - high_level
     name: holding pattern 1 high level 5
     irregularities: []
     segment_id: COMPEX-EC_P5_RF01_ho01_hl05
-    start: 2025-04-04 13:10:28
+    start: 2025-04-04 13:10:29
     end: 2025-04-04 13:12:57
     levels:
     - 12300
   - kinds:
     - short_turn
     name: short turn
-    start: 2025-04-04 13:12:57
+    start: 2025-04-04 13:12:58
     end: 2025-04-04 13:14:20
   - kinds:
     - high_level
     name: holding pattern 1 high level 6
     irregularities: []
     segment_id: COMPEX-EC_P5_RF01_ho01_hl06
-    start: 2025-04-04 13:14:20
+    start: 2025-04-04 13:14:21
     end: 2025-04-04 13:16:20
     levels:
     - 12300
   - kinds:
     - short_turn
     name: short turn
-    start: 2025-04-04 13:16:20
+    start: 2025-04-04 13:16:21
     end: 2025-04-04 13:17:38
   - kinds:
     - high_level
     name: holding pattern 1 high level 7
     irregularities: []
     segment_id: COMPEX-EC_P5_RF01_ho01_hl07
-    start: 2025-04-04 13:17:38
+    start: 2025-04-04 13:17:39
     end: 2025-04-04 13:19:34
     levels:
     - 12300
@@ -179,7 +179,7 @@ segments:
   name: high level 3
   irregularities: []
   segment_id: COMPEX-EC_P5_RF01_hl03
-  start: 2025-04-04 13:19:34
+  start: 2025-04-04 13:19:35
   end: 2025-04-04 13:34:20
   levels:
   - 12300
@@ -187,7 +187,7 @@ segments:
 - kinds:
   - long_turn
   name: long turn
-  start: 2025-04-04 13:34:20
+  start: 2025-04-04 13:34:21
   end: 2025-04-04 13:36:01
 - kinds:
   - high_level
@@ -195,7 +195,7 @@ segments:
   name: high level 4
   irregularities: []
   segment_id: COMPEX-EC_P5_RF01_hl04
-  start: 2025-04-04 13:36:01
+  start: 2025-04-04 13:36:02
   end: 2025-04-04 14:09:23
   levels:
   - 12300
@@ -205,14 +205,14 @@ segments:
 - kinds:
   - short_turn
   name: short turn
-  start: 2025-04-04 14:09:23
+  start: 2025-04-04 14:09:24
   end: 2025-04-04 14:10:13
 - kinds:
   - high_level
   name: high level 5
   irregularities: []
   segment_id: COMPEX-EC_P5_RF01_hl05
-  start: 2025-04-04 14:10:13
+  start: 2025-04-04 14:10:14
   end: 2025-04-04 14:41:57
   levels:
   - 12300
@@ -220,14 +220,14 @@ segments:
 - kinds:
   - short_turn
   name: short turn
-  start: 2025-04-04 14:41:57
+  start: 2025-04-04 14:41:58
   end: 2025-04-04 14:42:52 
 - kinds:
   - high_level
   name: high level 6
   irregularities: []
   segment_id: COMPEX-EC_P5_RF01_hl06
-  start: 2025-04-04 14:42:52
+  start: 2025-04-04 14:42:53
   end: 2025-04-04 14:50:01
   levels:
   - 12300
@@ -235,14 +235,14 @@ segments:
 - kinds:
   - short_turn
   name: short turn
-  start: 2025-04-04 14:50:01
+  start: 2025-04-04 14:50:02
   end: 2025-04-04 14:51:05
 - kinds:
   - high_level
   name: high level 7
   irregularities: []
   segment_id: COMPEX-EC_P5_RF01_hl07
-  start: 2025-04-04 14:51:05
+  start: 2025-04-04 14:51:06
   end: 2025-04-04 14:56:30
   levels:
   - 12300
@@ -252,7 +252,7 @@ segments:
   name: radiation square 1
   irregularities: []
   segment_id: COMPEX-EC_P5_RF01_rs01
-  start: 2025-04-04 14:56:30
+  start: 2025-04-04 14:56:31
   end: 2022-04-08 14:24:05
   levels:
   - 12300
@@ -263,49 +263,49 @@ segments:
     name: radiation square 1 high level 1
     irregularities: []
     segment_id: COMPEX-EC_P5_RF01_rs01_hl01
-    start: 2025-04-04 14:56:30
+    start: 2025-04-04 14:56:31
     end: 2025-04-04 15:01:55
     levels:
     - 12300  
   - kinds:
     - short_turn
     name: short turn
-    start: 2025-04-04 15:01:55
+    start: 2025-04-04 15:01:56
     end: 2025-04-04 15:03:12
   - kinds:
     - high_level
     name: radiation square 1 high level 2
     irregularities: []
     segment_id: COMPEX-EC_P5_RF01_rs01_hl02
-    start: 2025-04-04 15:03:12
+    start: 2025-04-04 15:03:13
     end: 2025-04-04 15:08:18
     levels:
     - 12300  
   - kinds:
     - short_turn
     name: short turn
-    start: 2025-04-04 15:08:18
+    start: 2025-04-04 15:08:19
     end: 2025-04-04 15:09:14
   - kinds:
     - high_level
     name: radiation square 1 high level 3
     irregularities: []
     segment_id: COMPEX-EC_P5_RF01_rs01_hl03
-    start: 2025-04-04 15:09:14
+    start: 2025-04-04 15:09:15
     end: 2025-04-04 15:14:38
     levels:
     - 12300  
   - kinds:
     - short_turn
     name: short turn
-    start: 2025-04-04 15:14:38
+    start: 2025-04-04 15:14:39
     end: 2025-04-04 15:15:40
   - kinds:
     - high_level
     name: radiation square 1 high level 4
     irregularities: []
     segment_id: COMPEX-EC_P5_RF01_rs01_hl04
-    start: 2025-04-04 15:15:40
+    start: 2025-04-04 15:15:41
     end: 2025-04-04 15:20:46
     levels:
     - 12300
@@ -314,7 +314,7 @@ segments:
   name: high level 8
   irregularities: []
   segment_id: COMPEX-EC_P5_RF01_hl08
-  start: 2025-04-04 15:20:46
+  start: 2025-04-04 15:20:47
   end: 2025-04-04 15:20:55
   levels:
   - 12300
@@ -322,14 +322,14 @@ segments:
 - kinds:
   - short_turn
   name: short turn
-  start: 2025-04-04 15:20:55
+  start: 2025-04-04 15:20:56
   end: 2025-04-04 15:22:11
 - kinds:
   - high_level
   name: high level 9
   irregularities: []
   segment_id: COMPEX-EC_P5_RF01_hl09
-  start: 2025-04-04 15:22:11
+  start: 2025-04-04 15:22:12
   end: 2025-04-04 15:38:02
   levels:
   - 12300
@@ -339,7 +339,7 @@ segments:
   name: major descent
   irregularities: []
   segment_id: COMPEX-EC_P5_RF01_md
-  start: 2025-04-04 15:38:02
+  start: 2025-04-04 15:38:03
   end: 2025-04-04 16:02:39
   levels: []
   dropsondes: []
