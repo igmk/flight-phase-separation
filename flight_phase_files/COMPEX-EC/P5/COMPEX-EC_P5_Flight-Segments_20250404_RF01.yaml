@@ -304,7 +304,7 @@ segments:
     - high_level
     name: radiation square 1 high level 4
     irregularities: []
-    segment_id: COMPEX-EC_P5_RF01_rs01_hl03
+    segment_id: COMPEX-EC_P5_RF01_rs01_hl04
     start: 2025-04-04 15:15:40
     end: 2025-04-04 15:20:46
     levels:
