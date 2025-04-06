@@ -77,6 +77,7 @@ class SegmentCatalog:
                'noseboom_calibration',
                'radiometer_calibration',
                'instrument_testing',
+               'earthcare_underflight',
                ]
     
     curves = ['short_turn',
