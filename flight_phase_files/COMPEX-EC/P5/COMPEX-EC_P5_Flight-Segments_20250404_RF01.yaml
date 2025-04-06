@@ -341,5 +341,7 @@ segments:
   segment_id: COMPEX-EC_P5_RF01_md
   start: 2025-04-04 15:38:03
   end: 2025-04-04 16:02:39
-  levels: []
+  levels:
+  - 12300
+  - 1500
   dropsondes: []
