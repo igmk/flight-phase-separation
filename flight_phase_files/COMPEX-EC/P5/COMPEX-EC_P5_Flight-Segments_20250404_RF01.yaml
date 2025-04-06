@@ -21,7 +21,7 @@ takeoff: 2025-04-04 11:03:27
 landing: 2025-04-04 16:02:00
 events:
 - EarthCARE underflight
-- EarthCARE msi section
+- EarthCARE MSI section
 remarks:
 - No segmentation yet
 co-location: []
@@ -60,6 +60,7 @@ segments:
   dropsondes: []
 - kinds:
   - high_level
+  - earthcare_msi_section
   name: high level 2
   irregularities: []
   segment_id: COMPEX-EC_P5_RF01_hl02
