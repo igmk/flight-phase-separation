@@ -21,7 +21,7 @@ takeoff: 2025-04-06 12:20:14
 landing: 2025-04-06 16:21:53
 events:
 - EarthCARE underflight
-- Pallas Cloudnet station overflight
+- Pallas overflight
 remarks: []
 co-location: []
 segments:
@@ -194,27 +194,27 @@ segments:
   end: 2025-04-06 15:32:26
 - kinds:
   - high_level
-  - Pallas Cloudnet station overflight
+  - pallas_overflight
   name: high level 7
   irregularities: []
   segment_id: COMPEX-EC_P5_RF02_hl07
   start: 2025-04-06 15:32:26
-  end: 2025-04-06 15:39:35
+  end: 2025-04-06 15:40:42
   levels:
   - 10800
   dropsondes: [] 
-         ######## RF02 ########## 
 - kinds:
   - long_turn
   name: long turn
-  start: 2025-04-06 15:39:36
-  end: 2025-04-06 15:44:30
+  start: 2025-04-06 15:40:43
+  end: 2025-04-06 15:43:42
 - kinds:
   - high_level
+  - pallas_overflight
   name: high level 8
   irregularities: []
   segment_id: COMPEX-EC_P5_RF02_hl09
-  start: 2025-04-06 15:44:31
+  start: 2025-04-06 15:43:43
   end: 2025-04-06 15:53:00
   levels:
   - 11300
