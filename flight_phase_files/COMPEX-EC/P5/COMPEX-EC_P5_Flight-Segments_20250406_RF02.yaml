@@ -49,7 +49,6 @@ segments:
 - kinds:
   - long turn
   name: long turn
-  irregularities: []
   start: 2025-04-06 12:44:33
   end: 2025-04-06 12:45:50
 - kinds:
@@ -127,7 +126,6 @@ segments:
 - kinds:
   - long_turn
   name: long turn
-  irregularities: []
   start: 2025-04-06 13:09:31
   end: 2025-04-06 13:13:54
 - kinds:
