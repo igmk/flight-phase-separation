@@ -47,7 +47,7 @@ segments:
   - 11000
   dropsondes: []
 - kinds:
-  - long turn
+  - long_turn
   name: long turn
   start: 2025-04-06 12:44:33
   end: 2025-04-06 12:45:50
