@@ -196,7 +196,7 @@ segments:
   name: high level 7
   irregularities: []
   segment_id: COMPEX-EC_P5_RF02_hl07
-  start: 2025-04-06 15:32:26
+  start: 2025-04-06 15:32:27
   end: 2025-04-06 15:40:42
   levels:
   - 10800
@@ -211,7 +211,7 @@ segments:
   - pallas_overflight
   name: high level 8
   irregularities: []
-  segment_id: COMPEX-EC_P5_RF02_hl09
+  segment_id: COMPEX-EC_P5_RF02_hl08
   start: 2025-04-06 15:43:43
   end: 2025-04-06 15:53:00
   levels:
