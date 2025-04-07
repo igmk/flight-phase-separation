@@ -77,6 +77,8 @@ class SegmentCatalog:
                'noseboom_calibration',
                'radiometer_calibration',
                'instrument_testing',
+               'earthcare_underflight',
+               'earthcare_msi_section',
                ]
     
     curves = ['short_turn',
@@ -318,6 +320,7 @@ class SegmentCatalog:
               'EAGLE/HAWK calibration',
               'AIMMS-20 calibration',
               'EarthCARE underflight',
+              'EarthCARE MSI section',
               ]
     
     # remarks
