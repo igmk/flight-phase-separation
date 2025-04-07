@@ -1,7 +1,7 @@
-name: RF01
+name: RF02
 mission: COMPEX-EC
 platform: P5
-flight_id: COMPEX-EC_P5_RF01
+flight_id: COMPEX-EC_P5_RF02
 contacts:
 - name: Marcus Klingebiel
   email: marcus.klingebiel@uni-leipzig.de
@@ -11,10 +11,10 @@ contacts:
   email: christian.buhren@uni-koeln.de
   tags:
   - lc
-date: 2025-04-04
+date: 2025-04-06
 flight_report: 
-takeoff: 2025-04-04 11:03:00
-landing: 2025-04-04 16:02:00
+takeoff: 2025-04-06 11:03:00
+landing: 2025-04-06 16:02:00
 events:
 - EarthCARE underflight
 - Pallas Cloudnet station overflight
