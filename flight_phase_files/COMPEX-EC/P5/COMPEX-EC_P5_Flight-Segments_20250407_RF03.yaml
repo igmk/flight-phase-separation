@@ -176,7 +176,7 @@ segments:
   irregularities: []
   segment_id: COMPEX-EC_P5_RF03_hl05
   start: 2025-04-07 14:59:11
-  end: 2025-04-07 15:56:05
+  end: 2025-04-07 15:46:05
   levels:
   - 11900
   dropsondes: []
@@ -185,7 +185,7 @@ segments:
   name: major descent
   irregularities: []
   segment_id: COMPEX-EC_P5_RF03_md
-  start: 2025-04-07 15:56:06
+  start: 2025-04-07 15:46:06
   end: 2025-04-07 15:59:40
   levels:
   - 11900
