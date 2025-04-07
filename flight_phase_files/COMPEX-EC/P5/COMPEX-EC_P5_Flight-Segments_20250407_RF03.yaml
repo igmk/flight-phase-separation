@@ -1,0 +1,27 @@
+name: RF03
+mission: COMPEX-EC
+platform: P5
+flight_id: COMPEX-EC_P5_RF03
+contacts:
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+  - pi
+- name: Lars van Gelder
+  email: lars.vangelder@uni-koeln.de
+  tags:
+  - lc
+- name: Lena Bruder
+  email: lena.bruder@uni-koeln.de
+  tags:
+  - lc
+date: 2025-04-07
+flight_report: 
+takeoff: 2025-04-07 12:06:00
+landing: 2025-04-07 16:00:00
+events:
+- EarthCARE underflight
+- EarthCARE MSI section
+remarks: []
+co-location: []
+segments: []
