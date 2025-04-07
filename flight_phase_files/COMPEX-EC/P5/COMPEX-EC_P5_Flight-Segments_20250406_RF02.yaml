@@ -114,7 +114,7 @@ segments:
     levels:
     - 10800
 - kinds:
-  - high_level 2
+  - high_level
   name: high level 2
   irregularities: []
   segment_id: COMPEX-EC_P5_RF02_hl02
