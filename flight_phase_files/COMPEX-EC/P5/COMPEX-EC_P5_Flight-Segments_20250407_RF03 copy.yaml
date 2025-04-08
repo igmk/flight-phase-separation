@@ -1,0 +1,193 @@
+name: RF03
+mission: COMPEX-EC
+platform: P5
+flight_id: COMPEX-EC_P5_RF03
+contacts:
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+  - pi
+- name: Lars van Gelder
+  email: lars.vangelder@uni-koeln.de
+  tags:
+  - lc
+- name: Lena Bruder
+  email: lena.bruder@uni-koeln.de
+  tags:
+  - lc
+date: 2025-04-07
+flight_report: 
+takeoff: 2025-04-07 12:05:57
+landing: 2025-04-07 15:59:40
+events:
+- EarthCARE underflight
+- EarthCARE MSI section
+remarks: []
+co-location: []
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF03_ma
+  start: 2025-04-07 12:05:57
+  end: 2025-04-07 12:16:31
+  levels:
+  - 1500
+  - 11900
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF03_hl01
+  start: 2025-04-07 12:16:32
+  end: 2025-04-07 13:09:01
+  levels:
+  - 11900
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2025-04-07 13:09:02
+  end: 2025-04-07 13:10:25
+- kinds:
+  - high_level
+  - earthcare_msi_section
+  name: high level 2
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF03_hl02
+  start: 2025-04-07 13:10:26
+  end: 2025-04-07 13:43:25
+  levels:
+  - 11900
+  dropsondes:
+  - COMPEX-EC_P5_RF03_DS01
+  - COMPEX-EC_P5_RF03_DS02
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2025-04-07 13:43:26
+  end: 2025-04-07 13:46:12
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF03_hl03
+  start: 2025-04-07 13:46:13
+  end: 2025-04-07 13:59:17
+  levels:
+  - 11900
+  dropsondes: []
+- kinds:
+  - long_turn
+  name: long turn
+  start: 2025-04-07 13:59:18
+  end: 2025-04-07 14:02:15
+- kinds:
+  - high_level
+  - earthcare_underflight
+  name: high level 4
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF03_hl04
+  start: 2025-04-07 14:02:16
+  end: 2025-04-07 14:37:24
+  levels:
+  - 11900
+  dropsondes:
+  - COMPEX-EC_P5_RF03_DS03
+  - COMPEX-EC_P5_RF03_DS04
+  - COMPEX-EC_P5_RF03_DS05
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2025-04-07 14:37:25
+  end: 2025-04-07 14:38:43
+- kinds:
+  - radiation_square
+  name: radiation square 1
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF03_rs01
+  start: 2025-04-07 14:38:44
+  end: 2025-04-07 14:59:10
+  levels:
+  - 11900
+  dropsondes: []
+  parts:  
+  - kinds:
+    - high_level
+    name: radiation square 1 high level 1
+    irregularities: []
+    segment_id: COMPEX-EC_P5_RF03_rs01_hl01
+    start: 2025-04-07 14:38:44
+    end: 2025-04-07 14:43:08
+    levels:
+    - 11900  
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2025-04-07 14:43:09
+    end: 2025-04-07 14:44:04
+  - kinds:
+    - high_level
+    name: radiation square 1 high level 2
+    irregularities: []
+    segment_id: COMPEX-EC_P5_RF03_rs01_hl02
+    start: 2025-04-07 14:44:05
+    end: 2025-04-07 14:48:01
+    levels:
+    - 11900  
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2025-04-07 14:48:02
+    end: 2025-04-07 14:48:41
+  - kinds:
+    - high_level
+    name: radiation square 1 high level 3
+    irregularities: []
+    segment_id: COMPEX-EC_P5_RF03_rs01_hl03
+    start: 2025-04-07 14:48:42
+    end: 2025-04-07 14:53:43
+    levels:
+    - 11900  
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2025-04-07 14:53:44
+    end: 2025-04-07 14:54:44
+  - kinds:
+    - high_level
+    name: radiation square 1 high level 4
+    irregularities: []
+    segment_id: COMPEX-EC_P5_RF03_rs01_hl04
+    start: 2025-04-07 14:54:45
+    end: 2025-04-07 14:57:42
+    levels:
+    - 11900
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2025-04-07 14:57:43
+    end: 2025-04-07 14:59:10
+- kinds:
+  - high_level
+  name: high level 5
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF03_hl05
+  start: 2025-04-07 14:59:11
+  end: 2025-04-07 15:56:05
+  levels:
+  - 11900
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF03_md
+  start: 2025-04-07 15:56:06
+  end: 2025-04-07 15:59:40
+  levels:
+  - 11900
+  - 1500
+  dropsondes: []
