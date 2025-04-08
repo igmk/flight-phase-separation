@@ -79,6 +79,7 @@ class SegmentCatalog:
                'instrument_testing',
                'earthcare_underflight',
                'earthcare_msi_section',
+               'pallas_overflight',
                ]
     
     curves = ['short_turn',
@@ -303,6 +304,8 @@ class SegmentCatalog:
               'Polarstern overflight',
               'Polarstern overflight with racetrack pattern',
               'Polarstern overflight with cross pattern',
+
+              'Pallas overflight',
               
               'Racetrack pattern over open ocean',
               'Racetrack pattern over sea ice',
