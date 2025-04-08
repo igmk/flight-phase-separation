@@ -1,22 +1,27 @@
-name: RF04
+name: RF03
 mission: COMPEX-EC
 platform: P5
-flight_id: COMPEX-EC_P5_RF04
+flight_id: COMPEX-EC_P5_RF03
 contacts:
 - name: Mario Mech
-  email: marcus.klingebiel@uni-koeln.de
+  email: mario.mech@uni-koeln.de
   tags:
   - pi
 - name: Lars van Gelder
   email: lars.vangelder@uni-koeln.de
   tags:
   - lc
-date: 2025-04-08
+- name: Lena Bruder
+  email: lena.bruder@uni-koeln.de
+  tags:
+  - lc
+date: 2025-04-07
 flight_report: 
-takeoff: 2025-04-08 12:00:00
-landing: 2025-04-08 16:00:00
+takeoff: 2025-04-07 12:05:57
+landing: 2025-04-07 15:59:40
 events:
 - EarthCARE underflight
+- EarthCARE MSI section
 remarks: []
 co-location: []
 segments:
@@ -171,7 +176,7 @@ segments:
   irregularities: []
   segment_id: COMPEX-EC_P5_RF03_hl05
   start: 2025-04-07 14:59:11
-  end: 2025-04-07 15:46:05
+  end: 2025-04-07 15:56:05
   levels:
   - 11900
   dropsondes: []
@@ -180,7 +185,7 @@ segments:
   name: major descent
   irregularities: []
   segment_id: COMPEX-EC_P5_RF03_md
-  start: 2025-04-07 15:46:06
+  start: 2025-04-07 15:56:06
   end: 2025-04-07 15:59:40
   levels:
   - 11900
