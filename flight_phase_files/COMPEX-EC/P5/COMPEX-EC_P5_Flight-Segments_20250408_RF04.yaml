@@ -11,12 +11,162 @@ contacts:
   email: lars.vangelder@uni-koeln.de
   tags:
   - lc
+- name: Christian Buhren
+  email: christian.buhren@uni-koeln.de
+  tags:
+  - lc
 date: 2025-04-08
 flight_report: 
-takeoff: 2025-04-08 12:00:00
+takeoff: 2025-04-08 11:58:45
 landing: 2025-04-08 16:00:00
 events:
 - EarthCARE underflight
 remarks: []
 co-location: []
-segments: []
+segments: 
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF04_ma
+  start: 2025-04-08 11:58:45
+  end: 2025-04-08 12:35:41
+  levels:
+  - 1500
+  - 16800
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF04_hl01
+  start: 2025-04-08 12:35:42
+  end: 2025-04-08 12:44:26
+  levels:
+  - 16800
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2025-04-08 12:44:27
+  end: 2025-04-08 12:45:01
+- kinds: 
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF04_hl02
+  start: 2025-04-08 12:45:02
+  end: 2025-04-08 12:47:11
+  levels:
+  - 16800
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2025-04-08 12:47:12
+  end: 2025-04-08 12:50:27
+- kinds:
+  - holding_pattern
+  name: holding pattern 1
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF04_ho01
+  start: 2025-04-08 12:50:28
+  end: 2025-04-08 13:00:20
+  levels:
+  - 16800
+  dropsondes: []
+  parts:
+  - kinds:
+    - high_level
+    name: holding pattern 1 high level 1
+    irregularities: []
+    segment_id: COMPEX-EC_P5_RF04_ho01_hl01
+    start: 2025-04-08 12:50:28
+    end: 2025-04-08 12:52:00
+    levels:
+    - 16800  
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2025-04-08 12:52:01
+    end: 2025-04-08 12:53:31
+  - kinds:
+    - high_level
+    name: holding pattern 1 high level 2
+    irregularities: []
+    segment_id: COMPEX-EC_P5_RF04_ho01_hl02
+    start: 2025-04-08 12:53:32
+    end: 2025-04-08 12:56:15
+    levels:
+    - 16800
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2025-04-08 12:56:16
+    end: 2025-04-08 12:58:14
+  - kinds:
+    - high_level
+    name: holding pattern 1 high level 3
+    irregularities: []
+    segment_id: COMPEX-EC_P5_RF04_ho01_hl03
+    start: 2025-04-08 12:58:15
+    end: 2025-04-08 13:00:20
+    levels:
+    - 16800
+- kinds:
+  - long_turn
+  name: long turn
+  start: 2025-04-08 13:00:21
+  end: 2025-04-08 13:03:26
+- kinds:
+  - high_level
+  - earthcare_underflight
+  name: high level 3
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF04_hl03
+  start: 2025-04-08 13:03:27
+  end: 2025-04-08 13:54:05
+  levels:
+  - 16800
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2025-04-08 13:54:06
+  end: 2025-04-08 13:58:11
+- kinds:
+  - high_level
+  name: high level 4
+  irregularities: Partly no MiRAC-a data
+  segment_id: COMPEX-EC_P5_RF04_hl04
+  start: 2025-04-08 13:58:12
+  end: 2025-04-08 14:52:06
+  levels:
+  - 16800
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2025-04-08 14:52:07
+  end: 2025-04-08 14:55:42
+- kinds:
+  - high_level
+  name: high level 5
+  irregularities: Negative pitch angle due to turbulence within cloud
+  segment_id: COMPEX-EC_P5_RF04_hl05
+  start: 2025-04-08 14:55:43
+  end: 2025-04-08 15:11:00
+  levels:
+  - 16800
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF04_md
+  start: 2025-04-08 15:11:01
+  end: 2025-04-08 15:59:18
+  levels:
+  - 16800
+  - 1500
+  dropsondes: []
