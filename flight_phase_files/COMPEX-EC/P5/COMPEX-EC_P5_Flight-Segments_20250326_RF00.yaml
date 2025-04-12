@@ -13,8 +13,8 @@ contacts:
   - lc
 date: 2025-03-26
 flight_report: 
-takeoff: 2025-03-26 13:21:00
-landing: 2025-03-26 14:31:00
+takeoff: 2025-03-26 13:21:16
+landing: 2025-03-26 14:31:49
 events:
 - Test flight
 - EarthCARE underflight
@@ -27,10 +27,51 @@ segments:
   name: major ascent
   irregularities: []
   segment_id: COMPEX-EC_P5_RF00_ma
-  start: 2025-03-26 13:21:10
-  end: 2025-03-26 13:28:00
+  start: 2025-03-26 13:21:16
+  end: 2025-03-26 13:28:33
   levels:
   - 100
+  - 7300
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF00_hl01
+  start: 2025-03-26 13:28:34
+  end: 2025-03-26 13:38:10
+  levels:
+  - 7300
+  dropsondes: []
+- kinds: 
+  - short_turn
+  name: short turn
+  start: 2025-03-26 13:38:11
+  end: 2025-03-26 13:38:52
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF00_hl02
+  start: 2025-03-26 13:38:53
+  end: 2025-03-26 13:47:44
+  levels:
+  - 7300
+  dropsondes: []
+- kinds: 
+  - long_turn
+  name: long turn
+  start: 2025-03-26 13:47:45
+  end: 2025-03-26 13:51:54
+- kinds:
+  - high_level
+  - earthcare_underflight
+  name: high level 3
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF00_hl03
+  start: 2025-03-26 13:51:55
+  end: 2025-03-26 14:16:29
+  levels:
   - 7300
   dropsondes: []
 - kinds:
@@ -38,8 +79,10 @@ segments:
   name: major descent
   irregularities: []
   segment_id: COMPEX-EC_P5_RF00_md
-  start: 2025-03-26 14:16:00
-  end: 2025-03-26 14:31:20
-  levels: []
+  start: 2025-03-26 14:16:30
+  end: 2025-03-26 14:31:49
+  levels: 
+  - 7300
+  - 100
   dropsondes: []
 
