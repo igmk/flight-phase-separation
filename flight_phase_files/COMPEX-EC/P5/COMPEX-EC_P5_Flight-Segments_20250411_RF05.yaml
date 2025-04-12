@@ -1,20 +1,20 @@
-name: RF04
+name: RF05
 mission: COMPEX-EC
 platform: P5
-flight_id: COMPEX-EC_P5_RF04
+flight_id: COMPEX-EC_P5_RF05
 contacts:
-- name: Marcus Klingebiel
-  email: marcus.klingebiel@uni-leipzig.de
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
   tags:
   - pi
 - name: Lars van Gelder
   email: lars.vangelder@uni-koeln.de
   tags:
   - lc
-date: 2025-04-08
+date: 2025-04-11
 flight_report: 
-takeoff: 2025-04-08 12:00:00
-landing: 2025-04-08 16:00:00
+takeoff: 2025-04-11 12:04:00
+landing: 2025-04-11 15:28:00
 events:
 - EarthCARE underflight
 remarks: []
