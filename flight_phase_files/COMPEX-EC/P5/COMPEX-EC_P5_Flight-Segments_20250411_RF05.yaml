@@ -11,12 +11,218 @@ contacts:
   email: lars.vangelder@uni-koeln.de
   tags:
   - lc
+- name: Lena Bruder
+  email: lena.bruder@uni-koeln.de
+  tags:
+  - lc
 date: 2025-04-11
-flight_report: 
-takeoff: 2025-04-11 12:04:00
-landing: 2025-04-11 15:28:00
+flight_report:
+takeoff: 2025-04-11 12:04:35
+landing: 2025-04-11 15:28:28
 events:
 - EarthCARE underflight
 remarks: []
 co-location: []
-segments: []
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF05_ma
+  start: 2025-04-11 12:04:35
+  end: 2025-04-11 12:17:36
+  levels:
+  - 1500
+  - 13000
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF05_hl01
+  start: 2025-04-11 12:17:37
+  end: 2025-04-11 12:31:55
+  levels:
+  - 13000
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2025-04-11 12:31:56
+  end: 2025-04-11 12:32:42
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF05_hl02
+  start: 2025-04-11 12:32:43
+  end: 2025-04-11 12:39:41
+  levels:
+  - 13000
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2025-04-11 12:39:42
+  end: 2025-04-11 12:40:23
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF05_hl03
+  start: 2025-04-11 12:40:24
+  end: 2025-04-11 12:55:58
+  levels:
+  - 13000
+  dropsondes: []
+- kinds:
+  - small_ascent
+  name: small ascent 1
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF05_sa01
+  start: 2025-04-11 12:55:59
+  end: 2025-04-11 12:59:06
+  levels:
+  - 13000
+  - 14700
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 4
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF05_hl04
+  start: 2025-04-11 12:59:07
+  end: 2025-04-11 13:04:51
+  levels:
+  - 14700
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2025-04-11 13:04:52
+  end: 2025-04-11 13:05:41
+- kinds:
+  - high_level
+  name: high level 5
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF05_hl05
+  start: 2025-04-11 13:05:42
+  end: 2025-04-11 13:41:17
+  levels:
+  - 14700
+  dropsondes:
+  - COMPEX-EC_P5_RF05_DS01
+  - COMPEX-EC_P5_RF05_DS02
+  - COMPEX-EC_P5_RF05_DS03
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2025-04-11 13:41:18
+  end: 2025-04-11 13:45:32
+- kinds:
+  - high_level
+  - earthcare_underflight
+  name: high level 6
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF05_hl06
+  start: 2025-04-11 13:45:33
+  end: 2025-04-11 14:22:36
+  levels:
+  - 14700
+  dropsondes:
+  - COMPEX-EC_P5_RF05_DS04
+  - COMPEX-EC_P5_RF05_DS05
+  - COMPEX-EC_P5_RF05_DS06
+- kinds:
+  - radiation_square
+  name: radiation square 1
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF05_rs01
+  start: 2025-04-11 14:22:37
+  end: 2025-04-11 14:42:56
+  levels:
+  - 14700
+  dropsondes: []
+  parts:
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2025-04-11 14:22:37
+    end: 2025-04-11 14:23:23
+  - kinds:
+    - high_level
+    name: radiation square 1 high level 1
+    irregularities: []
+    segment_id: COMPEX-EC_P5_RF05_rs01_hl01
+    start: 2025-04-11 14:23:24
+    end: 2025-04-11 14:28:21
+    levels:
+    - 14700
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2025-04-11 14:28:22
+    end: 2025-04-11 14:29:08
+  - kinds:
+    - high_level
+    name: radiation square 1 high level 2
+    irregularities: []
+    segment_id: COMPEX-EC_P5_RF05_rs01_hl02
+    start: 2025-04-11 14:29:09
+    end: 2025-04-11 14:33:17
+    levels:
+    - 14700
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2025-04-11 14:33:18
+    end: 2025-04-11 14:34:09
+  - kinds:
+    - high_level
+    name: radiation square 1 high level 3
+    irregularities: []
+    segment_id: COMPEX-EC_P5_RF05_rs01_hl03
+    start: 2025-04-11 14:34:10
+    end: 2025-04-11 14:37:24
+    levels:
+    - 14700
+  - kinds:
+    - short_turn
+    name: short turn
+    start: 2025-04-11 14:37:25
+    end: 2025-04-11 14:38:32
+  - kinds:
+    - high_level
+    name: radiation square 1 high level 4
+    irregularities: []
+    segment_id: COMPEX-EC_P5_RF05_rs01_hl04
+    start: 2025-04-11 14:38:33
+    end: 2025-04-11 14:42:56
+    levels:
+    - 14700
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2025-04-11 14:42:57
+  end: 2025-04-11 14:45:07
+- kinds:
+  - high_level
+  name: high level 7
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF05_hl07
+  start: 2025-04-11 14:45:08
+  end: 2025-04-11 15:03:09
+  levels:
+  - 14700
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: COMPEX-EC_P5_RF05_md
+  start: 2025-04-11 15:03:10
+  end: 2025-04-11 15:28:28
+  levels:
+  - 14700
+  - 1500
+  dropsondes: []
