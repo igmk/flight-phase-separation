@@ -1,0 +1,26 @@
+name: RF07
+mission: COMPEX-EC
+platform: P5
+flight_id: COMPEX-EC_P5_RF07
+contacts:
+- name: Lena Bruder
+  email: lena.bruder@uni-koeln.de
+  tags:
+  - pi
+- name: Lars van Gelder
+  email: lars.vangelder@uni-koeln.de
+  tags:
+  - lc
+- name: Christian Buhren
+  email: christian.buhren@uni-koeln.de
+  tags:
+  - lc
+date: 2025-04-15
+flight_report:
+takeoff: 2025-04-15 11:00:00
+landing: 2025-04-15 15:30:00
+events:
+- EarthCARE underflight
+remarks: []
+co-location: []
+segments: []
