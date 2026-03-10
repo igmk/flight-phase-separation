@@ -46,7 +46,7 @@ if __name__ == '__main__':
         print(list(cat[flight['mission']][flight['platform']]['GPS_INS']))
         ds_gps = cat[flight['mission']][flight['platform']]['GPS_INS'][flight_id].to_dask()
     except TypeError:
-        ds_gps = cat[flight['mission']][flight['platform']]['GPS_INS'][flight_id](user=ac3cloud_username,password=ac3cloud_password).to_dask()
+        ds_gps = cat[flight['mission']][flight['platform']]['GPS_INS'][flight_id].to_dask()#(user=ac3cloud_username,password=ac3cloud_password).to_dask()
 
     # read flight segments of flight
     file = '../flight_phase_files/'+flight['mission']+'/'+flight['platform']+'/'+flight['mission']+'_'+flight['platform']+'_Flight-Segments_'+flight['date']+'_'+flight['name']+'.yaml'
@@ -60,8 +60,8 @@ if __name__ == '__main__':
         cat_ds = cat[flight['mission']][flight['platform']]['DROPSONDES'][flight_id]
         times = cat_ds.description.split(',')
         for t in times: 
-            dict_ds_dsd[t] = cat_ds(user=ac3cloud_username,
-                                    password=ac3cloud_password, time=t).to_dask()
+            dict_ds_dsd[t] = cat_ds(time=t).to_dask()#(user=ac3cloud_username,
+                                    #password=ac3cloud_password, time=t).to_dask()
     except KeyError:
         print('No dropsondes found. Does intake catalog entry exist?')
     
