@@ -1,0 +1,20 @@
+name: RF01
+mission: COMPEX
+platform: P5
+flight_id: COMPEX_P5_RF01
+contacts:
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+  - pi
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+  - lc
+date: 2026-03-15
+flight_report: 
+takeoff: 2026-03-15 10:05:00
+landing: 2026-03-15 16:00:00
+events: []
+remarks: []
+co-location: []
