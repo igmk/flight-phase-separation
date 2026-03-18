@@ -1,0 +1,21 @@
+name: RF02
+mission: COMPEX
+platform: P5
+flight_id: COMPEX_P5_RF02
+contacts:
+- name: Marcus Klingebiel
+  email: marcus.klingebiel@uni-leipzig.de
+  tags:
+  - pi
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+  - lc
+date: 2026-03-16
+flight_report: 
+takeoff: 2026-03-16 10:16:00
+landing: 2026-03-16 14:34:00
+events: []
+remarks:
+  - No segmentation yet
+co-location: []
