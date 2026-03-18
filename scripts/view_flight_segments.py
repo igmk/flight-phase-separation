@@ -9,8 +9,8 @@ import yaml
 import ac3airborne
 import os
 
-ac3cloud_username = os.environ['AC3_USER']
-ac3cloud_password = os.environ['AC3_PASSWORD']
+#ac3cloud_username = os.environ['AC3_USER']
+#ac3cloud_password = os.environ['AC3_PASSWORD']
 
 def distance(lat1, lon1, lat2, lon2):
     """
