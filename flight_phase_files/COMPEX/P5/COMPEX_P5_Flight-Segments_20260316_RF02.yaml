@@ -7,16 +7,184 @@ contacts:
   email: marcus.klingebiel@uni-leipzig.de
   tags:
   - pi
-- name: Mario Mech
-  email: mario.mech@uni-koeln.de
+- name: Lars van Gelder
+  email: lars.vangelder@uni-koeln.de
+  tags:
+  - lc
+- name: Awadhesh Pant
+  email: a.pant@uni-koeln.de
   tags:
   - lc
 date: 2026-03-16
 flight_report: 
-takeoff: 2026-03-16 10:16:00
-landing: 2026-03-16 14:34:00
+takeoff: 2026-03-16 09:16:50
+landing: 2026-03-16 13:32:48
 events: []
 remarks:
   - No segmentation yet
 co-location: []
-segments: []
+segments:
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: COMPEX_P5_RF02_ma
+  start: 2026-03-16 09:16:50 
+  end: 2026-03-16 09:27:51
+  levels:
+  - 100
+  - 9600
+  dropsondes: []
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 1
+  irregularities: []
+  segment_id: COMPEX_P5_RF02_hl01
+  start: 2026-03-16 09:27:52
+  end: 2026-03-16 09:51:52 
+  levels:
+  - 9600
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2026-03-16 09:51:53
+  end: 2026-03-16 09:52:26
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: COMPEX_P5_RF02_hl02
+  start: 2026-03-16 09:52:27
+  end: 2026-03-16 10:18:44
+  levels:
+  - 9600
+  dropsondes:
+  - COMPEX_P5_RF02_DS01
+- kinds:
+  - procedure turn
+  name: prcodure turn
+  start: 2026-03-16 10:18:45
+  end: 2026-03-16 10:22:12
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: COMPEX_P5_RF02_hl03
+  start: 2026-03-16 10:22:13
+  end: 2026-03-16 10:27:57
+  levels:
+  - 9600
+  dropsondes: []
+- kinds:
+  - small ascent 
+  name: small ascent
+  irregularities: []
+  segment_id: COMPEX_P5_RF02_sa
+  start: 2026-03-16 10:27:58
+  end: 2026-03-16 10:29:38
+  levels:
+  - 9600
+  - 10500
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 4
+  irregularities: []
+  segment_id: COMPEX_P5_RF02_hl04
+  start: 2026-03-16 10:29:39
+  end: 2026-03-16 10:48:27
+  levels:
+  - 10500
+  dropsondes:
+  - COMPEX_P5_RF02_DS02
+- kinds:
+  - procedure turn
+  name: prcodure turn
+  start: 2026-03-16 10:48:28
+  end: 2026-03-16 10:51:46
+- kinds:
+  - high_level
+  name: high level 5
+  irregularities: []
+  segment_id: COMPEX_P5_RF02_hl05
+  start: 2026-03-16 10:51:47
+  end: 2026-03-16 11:18:30
+  levels:
+  - 10500
+  dropsondes: []
+- kinds:
+  - procedure turn
+  name: prcodure turn
+  start: 2026-03-16 11:18:31
+  end: 2026-03-16 11:21:59
+- kinds:
+  - high_level
+  name: high level 6
+  irregularities: []
+  segment_id: COMPEX_P5_RF02_hl06
+  start: 2026-03-16 11:22:00
+  end: 2026-03-16 11:47:53
+  levels:
+  - 10500
+  dropsondes: []
+- kinds:
+  - procedure turn
+  name: prcodure turn
+  start: 2026-03-16 11:47:53
+  end: 2026-03-16 11:51:35
+- kinds:
+  - high_level
+  name: high level 6
+  irregularities: []
+  segment_id: COMPEX_P5_RF02_hl06
+  start: 2026-03-16 11:51:36
+  end: 2026-03-16 12:18:54
+  levels:
+  - 10500
+  dropsondes:
+  - COMPEX_P5_RF02_DS03
+- kinds:
+  - procedure turn
+  name: prcodure turn
+  start: 2026-03-16 12:18:54
+  end: 2026-03-16 12:23:35
+- kinds:
+  - high_level
+  name: high level 7
+  irregularities: []
+  segment_id: COMPEX_P5_RF02_hl07
+  start: 2026-03-16 12:23:36
+  end: 2026-03-16 12:49:31
+  levels:
+  - 10500
+  dropsondes:
+  - COMPEX_P5_RF02_DS04
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2026-03-16 12:49:32
+  end: 2026-03-16 12:50:22
+- kinds:
+  - high_level
+  name: high level 8
+  irregularities: []
+  segment_id: COMPEX_P5_RF02_hl08
+  start: 2026-03-16 12:50:22
+  end: 2026-03-16 12:53:19
+  levels:
+  - 10500
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: COMPEX_P5_RF02_md
+  start: 2026-03-16 12:53:20
+  end: 2026-03-16 13:32:48
+  levels:
+  - 10500
+  - 100
+  dropsondes: []
+
