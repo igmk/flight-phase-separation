@@ -21,7 +21,7 @@ def _main():
     for campaign in campaigns:
         all_flights = defaultdict(dict)
         print(campaign)
-        r = re.compile(campaign)
+        r = re.compile(campaign+'_')
         for filename in [fl for fl in args.infiles if r.search(fl)]:
             print(filename)
             with open(filename) as f:
