@@ -7,14 +7,22 @@ contacts:
   email: marcus.klingebiel@uni-leipzig.de
   tags:
   - pi
-- name: Mario Mech
-  email: mario.mech@uni-koeln.de
+- name: Lars van Gelder
+  email: lars.vangelder@uni-koeln.de
+  tags:
+  - lc
+- name: Johanna Drude
+  email: jdrude@smail.uni-koeln.de
+  tags:
+  - lc
+- name: James Panton
+  email: jpanton@uni-koeln.de
   tags:
   - lc
 date: 2026-03-24
 flight_report: 
-takeoff: 2026-03-24 09:55:00
-landing: 2026-03-24 14:14:00
+takeoff: 2026-03-24 09:52:00
+landing: 2026-03-24 14:15:00
 events: []
 remarks:
   - No segmentation yet
