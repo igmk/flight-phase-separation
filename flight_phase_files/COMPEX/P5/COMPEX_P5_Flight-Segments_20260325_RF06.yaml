@@ -1,0 +1,22 @@
+name: RF05
+mission: COMPEX
+platform: P5
+flight_id: COMPEX_P5_RF06
+contacts:
+- name: Manfred Wendisch
+  email: m.wendisch@uni-leipzig.de
+  tags:
+  - pi
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+  - lc
+date: 2026-03-25
+flight_report: 
+takeoff: 2026-03-25 12:17:00
+landing: 2026-03-25 16:55:00
+events: []
+remarks:
+  - No segmentation yet
+co-location: []
+segments: []
