@@ -1,0 +1,22 @@
+name: RF09
+mission: COMPEX
+platform: P5
+flight_id: COMPEX_P5_RF09
+contacts:
+- name: André Ehrlich
+  email: a.ehrlich@uni-leipzig.de
+  tags:
+  - pi
+- name: Lars van Gelder
+  email: lars.vangelder@uni-koeln.de
+  tags:
+  - pi
+date: 2026-03-30
+flight_report: 
+takeoff: 2026-03-30 11:00:00
+landing: 2026-03-30 14:45:00
+events: []
+remarks:
+  - segmentation not done yet
+co-location: []
+segments: []
