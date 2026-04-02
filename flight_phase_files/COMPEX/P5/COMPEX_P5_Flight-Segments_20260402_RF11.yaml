@@ -1,0 +1,22 @@
+name: RF11
+mission: COMPEX
+platform: P5
+flight_id: COMPEX_P5_RF11
+contacts:
+- name: Lena Bruder
+  email: lbruder5@uni-koeln.de
+  tags:
+  - pi
+- name: Lars van Gelder
+  email: lars.vangelder@uni-koeln.de
+  tags:
+  - pi
+date: 2026-04-02
+flight_report: 
+takeoff: 2026-04-02 07:48:43
+landing: 2026-04-02 11:44:41
+events: []
+remarks:
+  - segmentation not done yet
+co-location: []
+segments: []
