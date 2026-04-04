@@ -1,0 +1,22 @@
+name: RF12
+mission: COMPEX
+platform: P5
+flight_id: COMPEX_P5_RF12
+contacts:
+- name: Lars van Gelder
+  email: lars.vangelder@uni-koeln.de
+  tags:
+  - pi
+- name: Lars van Gelder
+  email: lars.vangelder@uni-koeln.de
+  tags:
+  - lc
+date: 2026-04-04
+flight_report: 
+takeoff: 2026-04-04 07:47:00
+landing: 2026-04-04 12:20:00
+events: []
+remarks:
+  - segmentation not done yet
+co-location: []
+segments: []
