@@ -4,19 +4,170 @@ platform: P5
 flight_id: COMPEX_P5_RF11
 contacts:
 - name: Lena Bruder
-  email: lbruder5@uni-koeln.de
+  email: lena.bruder@uni-koeln.de
   tags:
   - pi
-- name: Lars van Gelder
-  email: lars.vangelder@uni-koeln.de
+- name: Joshua Müller
+  email: joshua.mueller@uni-leipzig.de
   tags:
-  - pi
+  - lc
 date: 2026-04-02
 flight_report: 
 takeoff: 2026-04-02 07:48:43
 landing: 2026-04-02 11:44:41
-events: []
+events:
+- Searching leads
+- Marking_lead
+- Lead overflight
 remarks:
-  - segmentation not done yet
+  - segmentation finished
 co-location: []
-segments: []
+segments: 
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: COMPEX_P5_RF11_ma
+  start: 2026-04-02 07:48:44
+  end: 2026-04-02 08:01:22
+  levels:
+  - 90
+  - 9000
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 1
+  irregularities: []
+  segment_id: COMPEX_P5_RF11_hl01
+  start: 2026-04-02 08:01:23
+  end: 2026-04-02 09:18:44
+  levels:
+  - 9000
+  dropsondes: 
+  - COMPEX_P5_RF11_DS01
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2026-04-02 09:18:45
+  end: 2026-04-02 09:19:25
+- kinds:
+  - high_level
+  - searching_leads
+  name: high level 2
+  irregularities: []
+  segment_id: COMPEX_P5_RF11_hl02
+  start: 2026-04-02 09:19:26
+  end: 2026-04-02 09:31:26
+  levels:
+  - 9000
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2026-04-02 09:31:27
+  end: 2026-04-02 09:34:01
+- kinds:
+  - high_level
+  - marking_lead
+  name: high level 3
+  irregularities: []
+  segment_id: COMPEX_P5_RF11_hl03
+  start: 2026-04-02 09:34:02
+  end: 2026-04-02 09:37:31
+  levels:
+  - 9000
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2026-04-02 09:37:32
+  end: 2026-04-02 09:40:18
+- kinds:
+  - high_level
+  - lead_overflight
+  name: high level 4
+  irregularities: []
+  segment_id: COMPEX_P5_RF11_hl04
+  start: 2026-04-02 09:40:19
+  end: 2026-04-02 09:48:59
+  levels:
+  - 9000
+  dropsondes: 
+  - COMPEX_P5_RF11_DS02
+  - COMPEX_P5_RF11_DS03
+  - COMPEX_P5_RF11_DS04
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2026-04-02 09:49:00
+  end: 2026-04-02 09:52:12
+- kinds:
+  - high_level
+  - marking_lead
+  name: high level 5
+  irregularities: []
+  segment_id: COMPEX_P5_RF11_hl05
+  start: 2026-04-02 09:52:13
+  end: 2026-04-02 10:02:30
+  levels:
+  - 9000
+  dropsondes: []
+- kinds:
+  - procedure_turn
+  name: procedure turn
+  start: 2026-04-02 10:02:31
+  end: 2026-04-02 10:05:34
+- kinds:
+  - high_level
+  - lead_overflight
+  name: high level 6
+  irregularities: []
+  segment_id: COMPEX_P5_RF11_hl06
+  start: 2026-04-02 10:05:35
+  end: 2026-04-02 10:14:57
+  levels:
+  - 9000
+  dropsondes:
+  - COMPEX_P5_RF11_DS05
+  - COMPEX_P5_RF11_DS06
+  - COMPEX_P5_RF11_DS07
+- kinds:
+  - short turn
+  name: short turn
+  start: 2026-04-02 10:14:58
+  end: 2026-04-02 10:16:41
+- kinds:
+  - high_level
+  name: high level 7
+  irregularities: []
+  segment_id: COMPEX_P5_RF11_hl07
+  start: 2026-04-02 10:16:42
+  end: 2026-04-02 10:28:43
+  levels:
+  - 9000
+  dropsondes: []
+- kinds:
+  - short turn
+  name: short turn
+  start: 2026-04-02 10:28:44
+  end: 2026-04-02 10:29:40
+- kinds:
+  - high_level
+  name: high level 8
+  irregularities: []
+  segment_id: COMPEX_P5_RF11_hl08
+  start: 2026-04-02 10:29:41
+  end: 2026-04-02 11:23:53
+  levels:
+  - 9000
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: COMPEX_P5_RF11_md
+  start: 2026-04-02 11:23:54
+  end: 2026-04-02 11:44:50
+  levels:
+  - 9000
+  - 90
