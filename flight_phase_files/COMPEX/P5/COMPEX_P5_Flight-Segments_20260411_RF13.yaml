@@ -1,0 +1,21 @@
+name: RF13
+mission: COMPEX
+platform: P5
+flight_id: COMPEX_P5_RF13
+contacts:
+- name: Heike Kalesse-Los
+  email: heike.kalesse@uni-leipzig.de
+  tags:
+  - pi
+- name: Hannah Marie Eichholz
+  email: hannah.eichholz@uni-leipzig.de
+  tags:
+  - lc
+date: 2026-04-11
+flight_report: 
+takeoff: 2026-04-11 06:52:53
+landing: 2026-04-11 09:36:00
+events: []
+remarks: []
+co-location: []
+segments: []
