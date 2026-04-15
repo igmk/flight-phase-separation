@@ -1,0 +1,21 @@
+name: RF15
+mission: COMPEX
+platform: P5
+flight_id: COMPEX_P5_RF15
+contacts:
+- name: Mario Mech
+  email: mario.mech@uni-koeln.de
+  tags:
+  - pi
+- name: Lars van Gelder
+  email: lars.vangelder@uni-koeln.de
+  tags:
+  - lc
+date: 2026-04-14
+flight_report: 
+takeoff: 2026-04-14 07:30:00
+landing: 2026-04-14 09:33:00
+events: []
+remarks: []
+co-location: []
+segments: []

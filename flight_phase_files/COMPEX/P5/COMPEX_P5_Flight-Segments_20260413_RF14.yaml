@@ -1,0 +1,21 @@
+name: RF14
+mission: COMPEX
+platform: P5
+flight_id: COMPEX_P5_RF14
+contacts:
+- name: Lena Bruder
+  email: lena.bruder@uni-koeln.de
+  tags:
+  - pi
+- name: Lars van Gelder
+  email: lars.vangelder@uni-koeln.de
+  tags:
+  - lc
+date: 2026-04-13
+flight_report: 
+takeoff: 2026-04-13 07:50:00
+landing: 2026-04-13 12:03:00
+events: []
+remarks: []
+co-location: []
+segments: []
