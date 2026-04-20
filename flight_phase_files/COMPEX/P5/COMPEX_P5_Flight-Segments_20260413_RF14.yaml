@@ -7,15 +7,301 @@ contacts:
   email: lena.bruder@uni-koeln.de
   tags:
   - pi
-- name: Lars van Gelder
-  email: lars.vangelder@uni-koeln.de
+- name: Hannah Marie Eichholz
+  email: hannah.eichholz@uni-leipzig.de
   tags:
   - lc
 date: 2026-04-13
 flight_report: 
-takeoff: 2026-04-13 07:50:00
-landing: 2026-04-13 12:03:00
-events: []
-remarks: []
+takeoff: 2026-04-13 07:54:39
+landing: 2026-04-13 12:03:25
+events: 
+ - searching_leads
+ - marking_lead
+ - lead_overflight
+remarks: 
+ - segmentation not finished yet
 co-location: []
-segments: []
+segments: 
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: COMPEX_P5_RF14_ma
+  start: 2026-04-13 07:54:39 
+  end: 2026-04-13 08:08:22
+  levels:
+  - 90
+  - 10000
+  dropsondes: []
+- kinds:
+  - high_level
+  - nya_overflight
+  name: high level 1
+  irregularities: []
+  segment_id: COMPEX_P5_RF14_hl01
+  start: 2026-04-13 08:08:23
+  end: 2026-04-13 09:25:04
+  levels:
+  - 10000
+  dropsondes: []
+- kinds: 
+  - small_descent
+  name: small descent
+  irregularities: []
+  segment_id: COMPEX_P5_RF14_sd
+  start: 2026-04-13 09:16:48 
+  end: 2026-04-13 09:22:19
+  levels:
+  - 10000
+  - 7000
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 2
+  irregularities: []
+  segment_id: COMPEX_P5_RF14_hl02
+  start: 2026-04-13 09:22:20
+  end: 2026-04-13 09:25:04
+  levels:
+  - 7000
+  dropsondes: []
+- kinds: 
+  - short_turn
+  name: short turn
+  start: 2026-04-13 09:25:05
+  end: 2026-04-13 09:25:43
+- kinds:
+  - high_level
+  name: high level 3
+  irregularities: []
+  segment_id: COMPEX_P5_RF14_hl03
+  start: 2026-04-13 09:25:44
+  end: 2026-04-13 09:34:08
+  levels:
+  - 7000
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2026-04-13 09:34:09
+  end: 2026-04-13 09:35:16
+- kinds:
+  - high_level
+  name: high level 4
+  irregularities: []
+  segment_id: COMPEX_P5_RF14_hl04
+  start: 2026-04-13 09:35:17
+  end: 2026-04-13 09:40:38
+  levels:
+  - 7000
+  dropsondes: []
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2026-04-13 09:40:39
+  end: 2026-04-13 09:41:48
+- kinds:
+  - high_level
+  name: high level 5
+  irregularities: []
+  segment_id: COMPEX_P5_RF14_hl05
+  start: 2026-04-13 09:41:49
+  end: 2026-04-13 09:50:01
+  levels:
+  - 7000
+  dropsondes: [] 
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2026-04-13 09:50:02
+  end: 2026-04-13 09:51:05
+- kinds:
+  - high_level
+  name: high level 6
+  irregularities: []
+  segment_id: COMPEX_P5_RF14_hl06
+  start: 2026-04-13 09:51:06
+  end: 2026-04-13 09:51:44
+  levels:
+  - 7000
+  dropsondes: [] 
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2026-04-13 09:51:45
+  end: 2026-04-13 09:53:01
+- kinds:
+  - high_level
+  name: high level 7
+  irregularities: []
+  segment_id: COMPEX_P5_RF14_hl07
+  start: 2026-04-13 09:53:02
+  end: 2026-04-13 09:55:02
+  levels:
+  - 7000
+  dropsondes: [] 
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2026-04-13 09:55:03
+  end: 2026-04-13 09:55:53
+- kinds:
+  - high_level
+  name: high level 8
+  irregularities: []
+  segment_id: COMPEX_P5_RF14_hl08
+  start: 2026-04-13 09:55:54
+  end: 2026-04-13 09:57:18
+  levels:
+  - 7000
+  dropsondes: [] 
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2026-04-13 09:57:19
+  end: 2026-04-13 09:58:38
+- kinds:
+  - high_level
+  name: high level 9
+  irregularities: []
+  segment_id: COMPEX_P5_RF14_hl09
+  start: 2026-04-13 09:58:39
+  end: 2026-04-13 10:02:07
+  levels:
+  - 7000
+  dropsondes: [] 
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2026-04-13 10:02:08
+  end: 2026-04-13 10:02:42
+- kinds:
+  - high_level
+  name: high level 10
+  irregularities: []
+  segment_id: COMPEX_P5_RF14_hl10
+  start: 2026-04-13 10:02:43
+  end: 2026-04-13 10:07:58
+  levels:
+  - 7000
+  dropsondes: [] 
+- kinds:
+  - long_turn
+  name: long turn
+  start: 2026-04-13 10:07:59
+  end: 2026-04-13 10:10:32
+- kinds:
+  - high_level
+  name: high level 11
+  irregularities: []
+  segment_id: COMPEX_P5_RF14_hl11
+  start: 2026-04-13 10:10:32
+  end: 2026-04-13 10:11:43
+  levels:
+  - 7000
+  dropsondes: [] 
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2026-04-13 10:11:44
+  end: 2026-04-13 10:12:30
+- kinds:
+  - high_level
+  name: high level 12
+  irregularities: []
+  segment_id: COMPEX_P5_RF14_hl12
+  start: 2026-04-13 10:12:31
+  end: 2026-04-13 10:13:12
+  levels:
+  - 7000
+  dropsondes: [] 
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2026-04-13 10:13:13
+  end: 2026-04-13 10:14:24
+- kinds:
+  - high_level
+  name: high level 13
+  irregularities: []
+  segment_id: COMPEX_P5_RF14_hl13
+  start: 2026-04-13 10:14:25
+  end: 2026-04-13 10:14:54
+  levels:
+  - 7000
+  dropsondes: [] 
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2026-04-13 10:14:55
+  end: 2026-04-13 10:15:23
+- kinds:
+  - high_level
+  - lead_overflight
+  name: high level 14
+  irregularities: []
+  segment_id: COMPEX_P5_RF14_hl14
+  start: 2026-04-13 10:15:24
+  end: 2026-04-13 10:22:05
+  levels:
+  - 7000
+  dropsondes: 
+  - COMPEX_P5_RF14_DS01
+  - COMPEX_P5_RF14_DS02
+  - COMPEX_P5_RF14_DS03
+  - COMPEX_P5_RF14_DS04
+  - COMPEX_P5_RF14_DS05
+  - COMPEX_P5_RF14_DS06
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2026-04-13 10:22:05
+  end: 2026-04-13 10:23:44
+- kinds:
+  - small_ascent
+  name: small ascent
+  irregularities: []
+  segment_id: COMPEX_P5_RF14_sa
+  start: 2026-04-13 10:22:48 
+  end: 2026-04-13 10:28:40
+  levels:
+  - 7000
+  - 9980
+  dropsondes: []
+- kinds:
+  - high_level
+  name: high level 16
+  irregularities: []
+  segment_id: COMPEX_P5_RF14_hl16
+  start: 2026-04-13 10:28:41
+  end: 2026-04-13 11:38:54
+  levels:
+  - 9980
+  dropsondes: 
+  - COMPEX_P5_RF14_DS07
+- kinds:
+  - short_turn
+  name: short turn
+  start: 2026-04-13 11:38:55
+  end: 2026-04-13 11:39:38
+- kinds:
+  - high_level
+  name: high level 17
+  irregularities: []
+  segment_id: COMPEX_P5_RF14_hl17
+  start: 2026-04-13 11:39:39
+  end: 2026-04-13 11:42:46
+  levels:
+  - 9980
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: COMPEX_P5_RF14_md
+  start: 2026-04-13 11:42:47
+  end: 2026-04-13 12:03:25
+  levels:
+  - 9980
+  - 90

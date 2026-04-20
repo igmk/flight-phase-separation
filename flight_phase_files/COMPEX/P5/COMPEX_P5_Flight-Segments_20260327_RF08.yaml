@@ -19,7 +19,8 @@ date: 2026-03-27
 flight_report: 
 takeoff: 2026-03-27 12:57:03
 landing: 2026-03-27 16:12:59
-events: []
+events:
+- EarthCARE underflight
 remarks:
   - segmentation finished
 co-location: []
@@ -203,6 +204,7 @@ segments:
   end: 2026-03-27 15:03:11
 - kinds:
   - high_level
+  - earthcare_underflight
   name: high level 3
   irregularities: []
   segment_id: COMPEX_P5_RF08_hl03
@@ -212,6 +214,8 @@ segments:
   - 10000
   dropsondes: 
   - COMPEX_P5_RF08_DS03
+  - COMPEX_P5_RF08_DS04
+  - COMPEX_P5_RF08_DS05
 - kinds:
   - short_turn
   name: short turn
@@ -227,7 +231,7 @@ segments:
   levels:
   - 10000
   dropsondes: 
-  - COMPEX_P5_RF08_DS04   
+  - COMPEX_P5_RF08_DS06   
 - kinds:
   - major_descent
   name: major descent

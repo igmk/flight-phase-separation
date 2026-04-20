@@ -23,7 +23,8 @@ date: 2026-03-25
 flight_report: 
 takeoff: 2026-03-25 12:17:00
 landing: 2026-03-25 16:55:00
-events: []
+events:
+- EarthCARE underflight
 remarks:
   - segmentation finished
 co-location: []

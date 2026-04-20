@@ -7,15 +7,96 @@ contacts:
   email: mario.mech@uni-koeln.de
   tags:
   - pi
-- name: Lars van Gelder
-  email: lars.vangelder@uni-koeln.de
+- name: Hannah Marie Eichholz
+  email: hannah.eichholz@uni-leipzig.de
   tags:
   - lc
 date: 2026-04-14
 flight_report: 
-takeoff: 2026-04-14 07:30:00
-landing: 2026-04-14 09:33:00
+takeoff: 2026-04-14 07:37:55
+landing: 2026-04-14 09:33:56
 events: []
-remarks: []
+remarks: 
+ - segmentation finished 
 co-location: []
-segments: []
+segments: 
+- kinds:
+  - major_ascent
+  name: major ascent
+  irregularities: []
+  segment_id: COMPEX_P5_RF15_ma
+  start: 2026-04-14 07:37:55 
+  end: 2026-04-14 07:50:10
+  levels:
+  - 90
+  - 10000
+  dropsondes: []
+- kinds:
+  - hight_level
+  name: hight level 1
+  irregularities: []
+  segment_id: COMPEX_P5_RF15_hl01
+  start: 2026-04-14 07:50:11
+  end: 2026-04-14 08:06:29  
+  levels:
+  - 10000
+  dropsondes: []
+- kinds: 
+  - short_turn
+  name: short turn
+  start: 2026-04-14 08:06:30
+  end: 2026-04-14 08:07:27
+- kinds:
+  - hight_level
+  name: hight level 2
+  irregularities: []
+  segment_id: COMPEX_P5_RF15_hl02
+  start: 2026-04-14 08:07:28
+  end: 2026-04-14 08:28:46  
+  levels:
+  - 10000
+  dropsondes: 
+  - COMPEX_P5_RF15_DS01
+  - COMPEX_P5_RF15_DS02
+- kinds: 
+  - procedure_turn
+  name: procedure turn
+  start: 2026-04-14 08:28:47
+  end: 2026-04-14 08:33:20 
+- kinds:
+  - hight_level
+  name: hight level 3
+  irregularities: []
+  segment_id: COMPEX_P5_RF15_hl03
+  start: 2026-04-14 08:33:21
+  end: 2026-04-14 08:54:53  
+  levels:
+  - 10000
+  dropsondes: 
+  - COMPEX_P5_RF15_DS03
+- kinds: 
+  - short_turn
+  name: short turn
+  start: 2026-04-14 08:54:54
+  end: 2026-04-14 08:55:55
+- kinds:
+  - hight_level
+  name: hight level 4
+  irregularities: []
+  segment_id: COMPEX_P5_RF15_hl04
+  start: 2026-04-14 08:55:56
+  end: 2026-04-14 09:14:03  
+  levels:
+  - 10000
+  dropsondes: []
+- kinds:
+  - major_descent
+  name: major descent
+  irregularities: []
+  segment_id: COMPEX_P5_RF15_md
+  start: 2026-04-14 09:14:04
+  end: 2026-04-14 09:33:56
+  levels:
+  - 10000
+  - 90
+  dropsondes: []
